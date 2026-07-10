@@ -1,0 +1,18 @@
+{
+  // Cloudflare Workers（静的アセット配信）の設定。
+  // public/ 配下だけが公開サイトとして配信される。
+  "name": "nandemo-ranking",
+  "compatibility_date": "2026-07-10",
+  "assets": {
+    "directory": "./public",
+    // 未知のパス（/topic/xxx 等）は index.html を返す＝クリーンURLでSPAが動く
+    "not_found_handling": "single-page-application"
+  },
+  // dev → プレビュー → main の3段運用。
+  // main への push は既定環境（nandemo-ranking）へ、それ以外は preview 環境へデプロイする。
+  "env": {
+    "preview": {
+      "name": "nandemo-ranking-preview"
+    }
+  }
+}

@@ -78,7 +78,6 @@ function tagHtml(topic) {
 // ---- 記事カード（一覧・トップ用） ----
 function articleCardHtml(topic) {
   return '<a class="article-card" href="/topic/' + esc(topic.id) + '">' +
-    eyecatchHtml(topic) +
     '<div class="ac-body">' +
       '<div class="ac-meta">' + tagHtml(topic) + '<span class="ac-date">' + esc(dateLabel(topic)) + '</span></div>' +
       '<h3 class="ac-title">' + esc(topic.title) + '</h3>' +

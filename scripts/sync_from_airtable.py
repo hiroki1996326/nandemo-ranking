@@ -27,7 +27,7 @@ AIRTABLE_BASE_ID = os.environ.get('AIRTABLE_BASE_ID')
 TOPICS_TABLE = os.environ.get('AIRTABLE_TOPICS_TABLE', 'Topics')
 ENTRIES_TABLE = os.environ.get('AIRTABLE_ENTRIES_TABLE', 'Entries')
 
-SITE_URL = os.environ.get('SITE_URL', 'https://example.com').rstrip('/')
+SITE_URL = os.environ.get('SITE_URL', 'https://rankin-q.com').rstrip('/')
 
 DATA_OUTPUT_PATH = os.path.join(os.path.dirname(__file__), '..', 'public', 'data', 'ranking-data.js')
 SITEMAP_OUTPUT_PATH = os.path.join(os.path.dirname(__file__), '..', 'public', 'sitemap.xml')

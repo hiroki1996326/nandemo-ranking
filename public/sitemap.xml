@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://example.com/</loc></url>
-  <url><loc>https://example.com/category/keizai</loc></url>
-  <url><loc>https://example.com/category/jinko</loc></url>
   <url><loc>https://example.com/category/chiri</loc></url>
   <url><loc>https://example.com/category/sports</loc></url>
-  <url><loc>https://example.com/topic/gyokakuryo-todofuken</loc><lastmod>2026-06-01</lastmod></url>
-  <url><loc>https://example.com/topic/yushutsugaku-kuni</loc><lastmod>2026-05-20</lastmod></url>
-  <url><loc>https://example.com/topic/jinko-todofuken</loc><lastmod>2026-04-10</lastmod></url>
-  <url><loc>https://example.com/topic/nihon-nagai-kawa</loc><lastmod>2026-01-15</lastmod></url>
-  <url><loc>https://example.com/topic/sekai-takai-yama</loc><lastmod>2026-01-15</lastmod></url>
-  <url><loc>https://example.com/topic/nihon-yama-takasa</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://example.com/category/keizai</loc></url>
+  <url><loc>https://example.com/category/jinko</loc></url>
   <url><loc>https://example.com/topic/sekai-kuni-menseki</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://example.com/topic/kogyo-shunyu-eiga</loc><lastmod>2026-01-05</lastmod></url>
+  <url><loc>https://example.com/topic/sekai-koso-biru</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://example.com/topic/todofuken-menseki</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://example.com/topic/sekai-mizuumi-menseki</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://example.com/topic/yushutsugaku-kuni</loc><lastmod>2026-05-20</lastmod></url>
   <url><loc>https://example.com/topic/sekai-shima-menseki</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://example.com/topic/sekai-koso-biru</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://example.com/topic/kogyo-shunyu-eiga</loc><lastmod>2026-01-05</lastmod></url>
+  <url><loc>https://example.com/topic/jinko-todofuken</loc><lastmod>2026-04-10</lastmod></url>
+  <url><loc>https://example.com/topic/sekai-takai-yama</loc><lastmod>2026-01-15</lastmod></url>
+  <url><loc>https://example.com/topic/gyokakuryo-todofuken</loc><lastmod>2026-06-01</lastmod></url>
+  <url><loc>https://example.com/topic/nihon-nagai-kawa</loc><lastmod>2026-01-15</lastmod></url>
+  <url><loc>https://example.com/topic/nihon-yama-takasa</loc><lastmod>2026-07-10</lastmod></url>
 </urlset>

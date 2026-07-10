@@ -63,12 +63,17 @@ def fetch_all_records(table_name):
 
 
 def build_topics(topic_records, entry_records):
-    # Entriesの 'topic' はTopicsへのリンクフィールド（リンク先レコードIDの配列）を想定。
+    # EntriesのTopicsへのリンクフィールドは、Airtable側の作成経緯によって
+    # フィールド名が 'topic' または 'Topics' のどちらにもなり得るため両方に対応する。
+    # （どちらのフィールドも「リンク先レコードIDの配列」である場合のみ有効とし、
+    #  文字列型の古いテキスト列を誤って読まないようにする）
     entries_by_topic = {}
     for rec in entry_records:
         fields = rec['fields']
-        topic_links = fields.get('topic') or []
-        if not topic_links:
+        topic_links = fields.get('Topics')
+        if not isinstance(topic_links, list) or not topic_links:
+            topic_links = fields.get('topic')
+        if not isinstance(topic_links, list) or not topic_links:
             continue
         topic_record_id = topic_links[0]
         period = fields.get('period') or None

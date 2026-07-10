@@ -42,31 +42,17 @@ python scripts/sync_from_airtable.py
 
 `public/data/ranking-data.js` が上書きされる。差分をgit diffで確認する。
 
-## 3. Cloudflare Workersの初回デプロイ
+## 3. GitHubリポジトリ
 
-```
-npm install
-npx wrangler login
-npx wrangler deploy          # 本番（既定環境）
-npx wrangler deploy --env preview   # プレビュー環境
-```
+GitHubでprivateリポジトリを作成し、`git remote add origin ...` して push する。
 
-初回は `nandemo-ranking.<アカウント名>.workers.dev` のようなURLが払い出される。独自ドメインを使う場合はCloudflareダッシュボードでカスタムドメインを設定する（DESIGN.md §9「未決事項」参照）。
+## 4. Cloudflare WorkersをGitHub連携でデプロイ（Internet memeと同じ方式）
 
-## 4. GitHub Secretsの設定
+ローカルにNode.js/wranglerを入れる必要はない。Cloudflareのダッシュボード上でGitHubリポジトリを直接つなぐと、push するだけで自動デプロイされる。
 
-リポジトリの Settings → Secrets and variables → Actions で以下を登録する。
-
-| Secret名 | 値 |
-|---|---|
-| `AIRTABLE_API_KEY` | 手順1-3で発行したトークン |
-| `AIRTABLE_BASE_ID` | 手順1-4で控えたベースID |
-| `CLOUDFLARE_API_TOKEN` | Cloudflareダッシュボード → My Profile → API Tokens で発行（Workers編集権限） |
-| `CLOUDFLARE_ACCOUNT_ID` | Cloudflareダッシュボード右側に表示されるAccount ID |
-| `SITE_URL` | 本番ドメインが決まったら設定（例: `https://nandemo-ranking.com`）。sitemap.xmlの絶対URL生成に使う。未設定だとプレースホルダードメインで生成される |
-
-設定後、`dev` ブランチへのpushでプレビュー環境に、`main` へのpushで本番にデプロイされる（[.github/workflows/deploy.yml](.github/workflows/deploy.yml)）。
-
-## 5. リモートリポジトリ
-
-GitHubでprivateリポジトリを作成し、`git remote add origin ...` して push する。ブランチ運用は `main`（本番）・`dev`（プレビュー）の2本を基本とする。
+1. [dash.cloudflare.com](https://dash.cloudflare.com) → 「Workers & Pages」→「Create」
+2. 「Import a repository」（Git連携）を選び、GitHubアカウントと連携してこのリポジトリ（nandemo-ranking）を選択
+3. ビルド設定はデフォルトのままでよい（`wrangler.jsonc` を自動で読む）。ビルドコマンドが必要な場合は空欄でよい（静的ファイルをそのまま配信するだけなので）
+4. デプロイを実行すると `nandemo-ranking.<アカウント名>.workers.dev` のようなURLが払い出される
+5. 以降は `git push` するたびに自動でデプロイされる
+6. 独自ドメインを使う場合はCloudflareダッシュボードでカスタムドメインを設定する（DESIGN.md §9「未決事項」参照）

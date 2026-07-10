@@ -6,3 +6,5 @@ __pycache__/
 *.pyc
 .venv/
 .claude/settings.local.json
+airtable_topics.csv
+airtable_entries.csv

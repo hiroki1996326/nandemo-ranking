@@ -1,5 +1,6 @@
 // このファイルは scripts/sync_from_airtable.py が自動生成します。
 // 直接編集しないでください（Airtableで編集し、再同期してください）。
+// 追記: sekai-jinko-kuni / sekai-gdp-kuni の2本は、Airtable未反映のまま手動追加（あとでAirtableにも入力し同期すること）
 window.RANKING_DATA = {
   categories: [
     {
@@ -20,6 +21,66 @@ window.RANKING_DATA = {
     },
   ],
   topics: [
+    {
+      id: 'sekai-jinko-kuni',
+      title: '世界の人口ランキング（国別）',
+      category: 'jinko',
+      unit: '人',
+      source: '国連 World Population Prospects ほか（仮データ）',
+      sourceUrl: 'https://population.un.org/wpp/',
+      updateFrequency: 'yearly',
+      updatedAt: '2026-07-10',
+      lead: '世界で最も人口が多い国はインドで、約14億6,390万人。2位中国（約14億1,610万人）をわずかに上回り世界最多となっている。',
+      commentary: 'インド・中国の2カ国だけで世界人口の3分の1近くを占め、3位アメリカとは10億人以上の差がある。',
+      analysis: [
+        'インドの人口は14億6,390万人で、2位中国（14億1,610万人）との差は4,780万人。3位アメリカ（3億4,730万人）とは10億人以上の開きがあり、上位2カ国が突出している。',
+        '上位10カ国のうちアジアが5カ国（インド・中国・インドネシア・パキスタン・バングラデシュ）、アフリカが2カ国（ナイジェリア・エチオピア）を占める。7位ブラジル（2億1,280万人）以下は2億人前後で並ぶ。',
+      ],
+      periods: [
+        { period: '2025', entries: [
+          { name: 'インド', value: 1463900000 },
+          { name: '中国', value: 1416100000 },
+          { name: 'アメリカ', value: 347300000 },
+          { name: 'インドネシア', value: 285700000 },
+          { name: 'パキスタン', value: 255200000 },
+          { name: 'ナイジェリア', value: 237500000 },
+          { name: 'ブラジル', value: 212800000 },
+          { name: 'バングラデシュ', value: 175700000 },
+          { name: 'ロシア', value: 144000000 },
+          { name: 'エチオピア', value: 135500000 },
+        ]},
+      ],
+    },
+    {
+      id: 'sekai-gdp-kuni',
+      title: '世界のGDPランキング（国別）',
+      category: 'keizai',
+      unit: '億ドル',
+      source: 'IMF World Economic Outlook（仮データ）',
+      sourceUrl: 'https://www.imf.org/',
+      updateFrequency: 'yearly',
+      updatedAt: '2026-07-10',
+      lead: '世界最大の経済大国はアメリカで、名目GDPは約323,839億ドル。2位中国（約208,516億ドル）に10兆ドル以上の差をつけている。',
+      commentary: 'GDPの規模では米国・中国の2カ国が突出しており、3位ドイツ以下とは大きな差がある。',
+      analysis: [
+        'アメリカの名目GDPは323,839億ドルで、2位中国（208,516億ドル）との差は115,323億ドル。3位ドイツ（54,529億ドル）は中国の4分の1程度の規模になる。',
+        '上位10カ国のうちヨーロッパはドイツ・イギリス・フランス・イタリア・ロシアの5カ国、アジアは中国・日本・インドの3カ国、南北アメリカはアメリカ・ブラジルの2カ国。4位日本（43,793億ドル）と6位インド（41,532億ドル）の差は2,261億ドルと小さい。',
+      ],
+      periods: [
+        { period: '2026', entries: [
+          { name: 'アメリカ', value: 323839 },
+          { name: '中国', value: 208516 },
+          { name: 'ドイツ', value: 54529 },
+          { name: '日本', value: 43793 },
+          { name: 'イギリス', value: 42648 },
+          { name: 'インド', value: 41532 },
+          { name: 'フランス', value: 35961 },
+          { name: 'イタリア', value: 27382 },
+          { name: 'ロシア', value: 26565 },
+          { name: 'ブラジル', value: 26359 },
+        ]},
+      ],
+    },
     {
       id: 'sekai-kuni-menseki',
       title: '世界の国土面積ランキング',

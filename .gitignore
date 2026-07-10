@@ -8,3 +8,5 @@ __pycache__/
 .claude/settings.local.json
 airtable_topics.csv
 airtable_entries.csv
+airtable_new_topics.csv
+airtable_new_entries.csv

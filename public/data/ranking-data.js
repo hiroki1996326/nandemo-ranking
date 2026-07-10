@@ -22,6 +22,33 @@ window.RANKING_DATA = {
   ],
   topics: [
     {
+      id: 'sekai-shukyo-jinko',
+      title: '世界の宗教人口ランキング',
+      category: 'jinko',
+      unit: '億人',
+      source: 'Pew Research Center ほか（仮データ）',
+      sourceUrl: 'https://www.pewresearch.org/',
+      updateFrequency: 'irregular',
+      updatedAt: '2026-07-10',
+      lead: '世界で最も信者が多い宗教はキリスト教で約23.8億人。2位イスラム教（約19.1億人）と合わせ、世界人口の半分以上をこの2宗教が占める。',
+      commentary: 'キリスト教・イスラム教の2宗教で世界人口の過半数を占める。仏教はヒンドゥー教より信者数が少ない。',
+      analysis: [
+        'キリスト教（約23.8億人）とイスラム教（約19.1億人）の2宗教だけで世界人口の半分以上を占める。3位ヒンドゥー教（約11.6億人）は主にインドとその周辺に集中している。',
+        '「世界三大宗教」と呼ばれるキリスト教・イスラム教・仏教のうち、仏教（約5.1億人）はヒンドゥー教より信者数が少ない。なお、いずれの宗教にも属さない「無宗教」の人口は約11.9億人と推計され、宗教別に見るとヒンドゥー教と仏教の間に位置する規模になる。',
+      ],
+      periods: [
+        { period: null, entries: [
+          { name: 'キリスト教', value: 23.8 },
+          { name: 'イスラム教', value: 19.1 },
+          { name: 'ヒンドゥー教', value: 11.6 },
+          { name: '仏教', value: 5.1 },
+          { name: '民間信仰・民族宗教', value: 4.3 },
+          { name: 'その他の宗教', value: 0.6 },
+          { name: 'ユダヤ教', value: 0.14 },
+        ]},
+      ],
+    },
+    {
       id: 'sekai-gengo-washa',
       title: '世界の言語ランキング（母語話者数）',
       category: 'jinko',

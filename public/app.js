@@ -251,14 +251,40 @@ function navHtml() {
     return '<a href="/category/' + esc(c.id) + '">' + esc(c.name) + '</a>';
   }).join('');
 }
+const SITE_NAME = 'なんでもランキング';
+const SITE_DEFAULT_DESC = '漁獲量・輸出額・人口など、統計や記録にもとづく「事実」のランキングを、年ごとの変化つきで届けるサイト。投稿型のランキングではありません。';
+function setMeta(title, description) {
+  document.title = title;
+  const set = function (id, attr, value) {
+    const el = document.getElementById(id);
+    if (el) el.setAttribute(attr, value);
+  };
+  set('meta-description', 'content', description);
+  set('meta-canonical', 'href', location.pathname);
+  set('meta-og-title', 'content', title);
+  set('meta-og-description', 'content', description);
+  set('meta-og-url', 'content', location.origin + location.pathname);
+}
 function router() {
   const path = location.pathname.replace(/\/+$/, '') || '/';
   const mCat = path.match(/^\/category\/(.+)$/);
   const mTopic = path.match(/^\/topic\/(.+)$/);
   let html;
-  if (mTopic) html = topicDetailHtml(decodeURIComponent(mTopic[1]));
-  else if (mCat) html = categoryHtml(decodeURIComponent(mCat[1]));
-  else html = homeHtml();
+  if (mTopic) {
+    const id = decodeURIComponent(mTopic[1]);
+    html = topicDetailHtml(id);
+    const topic = TOPICS.find(function (t) { return t.id === id; });
+    if (topic) setMeta(topic.title + '｜' + SITE_NAME, topic.lead || SITE_DEFAULT_DESC);
+    else setMeta(SITE_NAME, SITE_DEFAULT_DESC);
+  } else if (mCat) {
+    const id = decodeURIComponent(mCat[1]);
+    html = categoryHtml(id);
+    const cat = category(id);
+    setMeta(cat.name + 'のランキング一覧｜' + SITE_NAME, cat.name + 'に関する、出典のある統計・記録データにもとづくランキング記事の一覧。');
+  } else {
+    html = homeHtml();
+    setMeta(SITE_NAME + '｜事実にもとづくランキングを、年ごとの変化つきで', SITE_DEFAULT_DESC);
+  }
   document.getElementById('view').innerHTML = html;
   window.scrollTo(0, 0);
 }

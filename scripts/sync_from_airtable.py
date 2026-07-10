@@ -8,6 +8,8 @@
   AIRTABLE_BASE_ID  対象ベースのID（必須。例: appXXXXXXXXXXXXXX）
   AIRTABLE_TOPICS_TABLE   Topicsテーブル名（省略時 'Topics'）
   AIRTABLE_ENTRIES_TABLE  Entriesテーブル名（省略時 'Entries'）
+  SITE_URL  本番サイトのURL（省略時プレースホルダー。sitemap.xmlの絶対URL生成に使う。
+            ドメインが決まったら必ず設定すること）
 
 使い方:
   AIRTABLE_API_KEY=xxx AIRTABLE_BASE_ID=appXXXX python scripts/sync_from_airtable.py
@@ -25,7 +27,11 @@ AIRTABLE_BASE_ID = os.environ.get('AIRTABLE_BASE_ID')
 TOPICS_TABLE = os.environ.get('AIRTABLE_TOPICS_TABLE', 'Topics')
 ENTRIES_TABLE = os.environ.get('AIRTABLE_ENTRIES_TABLE', 'Entries')
 
-OUTPUT_PATH = os.path.join(os.path.dirname(__file__), '..', 'public', 'data', 'ranking-data.js')
+SITE_URL = os.environ.get('SITE_URL', 'https://example.com').rstrip('/')
+
+DATA_OUTPUT_PATH = os.path.join(os.path.dirname(__file__), '..', 'public', 'data', 'ranking-data.js')
+SITEMAP_OUTPUT_PATH = os.path.join(os.path.dirname(__file__), '..', 'public', 'sitemap.xml')
+ROBOTS_OUTPUT_PATH = os.path.join(os.path.dirname(__file__), '..', 'public', 'robots.txt')
 
 # サイトのカテゴリは固定4種（Airtable側は各Topicsレコードの単一選択フィールド 'category' に
 # このidのいずれかを入れる運用。カテゴリテーブルは作らない）。
@@ -135,6 +141,29 @@ def to_js(value, indent=0):
     return str(value)
 
 
+def build_sitemap_xml(topics):
+    urls = [{'loc': SITE_URL + '/', 'lastmod': None}]
+    seen_categories = []
+    for t in topics:
+        if t['category'] not in seen_categories:
+            seen_categories.append(t['category'])
+            urls.append({'loc': SITE_URL + '/category/' + t['category'], 'lastmod': None})
+    for t in topics:
+        urls.append({'loc': SITE_URL + '/topic/' + t['id'], 'lastmod': t.get('updatedAt')})
+
+    entries = []
+    for u in urls:
+        lastmod = '<lastmod>' + u['lastmod'] + '</lastmod>' if u['lastmod'] else ''
+        entries.append('  <url><loc>' + u['loc'] + '</loc>' + lastmod + '</url>')
+
+    return (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + '\n'.join(entries) + '\n'
+        '</urlset>\n'
+    )
+
+
 def main():
     if not AIRTABLE_API_KEY or not AIRTABLE_BASE_ID:
         print('環境変数 AIRTABLE_API_KEY / AIRTABLE_BASE_ID を設定してください。', file=sys.stderr)
@@ -153,10 +182,20 @@ def main():
     )
     output = header + 'window.RANKING_DATA = ' + js_body + ';\n'
 
-    with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
+    with open(DATA_OUTPUT_PATH, 'w', encoding='utf-8') as f:
         f.write(output)
+    print(str(len(topics)) + '件のトピックを ' + DATA_OUTPUT_PATH + ' に書き出しました。')
 
-    print(str(len(topics)) + '件のトピックを ' + OUTPUT_PATH + ' に書き出しました。')
+    with open(SITEMAP_OUTPUT_PATH, 'w', encoding='utf-8') as f:
+        f.write(build_sitemap_xml(topics))
+    print('sitemap.xml を ' + SITEMAP_OUTPUT_PATH + ' に書き出しました。')
+
+    with open(ROBOTS_OUTPUT_PATH, 'w', encoding='utf-8') as f:
+        f.write('User-agent: *\nAllow: /\n\nSitemap: ' + SITE_URL + '/sitemap.xml\n')
+    print('robots.txt を ' + ROBOTS_OUTPUT_PATH + ' に書き出しました。')
+
+    if SITE_URL == 'https://example.com':
+        print('警告: SITE_URL が未設定のため sitemap.xml / robots.txt はプレースホルダードメインで生成されました。', file=sys.stderr)
 
 
 if __name__ == '__main__':

@@ -63,6 +63,7 @@ npx wrangler deploy --env preview   # プレビュー環境
 | `AIRTABLE_BASE_ID` | 手順1-4で控えたベースID |
 | `CLOUDFLARE_API_TOKEN` | Cloudflareダッシュボード → My Profile → API Tokens で発行（Workers編集権限） |
 | `CLOUDFLARE_ACCOUNT_ID` | Cloudflareダッシュボード右側に表示されるAccount ID |
+| `SITE_URL` | 本番ドメインが決まったら設定（例: `https://nandemo-ranking.com`）。sitemap.xmlの絶対URL生成に使う。未設定だとプレースホルダードメインで生成される |
 
 設定後、`dev` ブランチへのpushでプレビュー環境に、`main` へのpushで本番にデプロイされる（[.github/workflows/deploy.yml](.github/workflows/deploy.yml)）。
 

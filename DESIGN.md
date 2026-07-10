@@ -140,7 +140,13 @@
 
 ## 9. 未決事項
 
-- サイト名・ドメイン
+- サイト名・ドメイン（決まり次第 `SITE_URL` を設定し、sitemap.xml / robots.txt / OGPを再生成する）
 - ビジュアルデザインの方向性
 - 具体的な15本の最終選定・データソースの当たり
 - 2軸以上のお題への対応方針（必要になったら再検討）
+
+## 10. SEO対応の方針
+
+- **今やっていること（軽量対応）**: ルート遷移時にJSで `document.title` / meta description / canonical / OGPタグを動的に書き換え（[app.js](../public/app.js) の `setMeta()`）。`sitemap.xml` / `robots.txt` は同期スクリプトが自動生成
+- **まだやっていないこと**: 記事ごとの静的HTML事前生成（prerendering）。現状はSPAでJSが中身を描画するため、JSを実行しないSNSシェアボット（X/LINE等）には正しいOGPが見えない。Googleのクローラーは概ねJSを実行するため検索インデックスへの影響は小さい
+- **本実装フェーズでやること**: 記事数が揃いSNS流入を狙う段階になったら、同期スクリプト実行時に記事ごとの静的HTML（`public/topic/<id>/index.html` 等）を事前生成する方式に切り替える

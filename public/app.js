@@ -169,7 +169,7 @@ function podiumHtml(topic, idx) {
   const order = [top3[1], top3[0], top3[2]].filter(Boolean);
   return '<div class="podium">' + order.map(function (e) {
     return '<div class="podium-item pd-rank' + e.rank + '">' +
-      '<span class="podium-rank">' + e.rank + '<span class="podium-rank-suffix">位</span></span>' +
+      '<span class="podium-medal"><span class="podium-rank">' + e.rank + '<span class="podium-rank-suffix">位</span></span></span>' +
       '<span class="podium-name">' + esc(e.name) + '</span>' +
       '<span class="podium-value">' + fmt(e.value) + '<span class="unit">' + esc(topic.unit) + '</span></span>' +
       (prevMap ? deltaHtml(e, prevMap) : '') +

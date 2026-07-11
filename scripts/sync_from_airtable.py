@@ -190,7 +190,9 @@ def to_js(value, indent=0):
             return '{}'
         lines = ['{']
         for k, v in value.items():
-            lines.append(pad2 + k + ': ' + to_js(v, indent + 1) + ',')
+            # キーは常にクォートする（ハイフンなどを含む識別子として不正な文字列でも安全なように）。
+            key_js = to_js(str(k), indent + 1)
+            lines.append(pad2 + key_js + ': ' + to_js(v, indent + 1) + ',')
         lines.append(pad + '}')
         return '\n'.join(lines)
     if isinstance(value, list):

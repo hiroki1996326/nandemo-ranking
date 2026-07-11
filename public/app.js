@@ -13,6 +13,9 @@ const ENTITY_TYPE_LABEL = {
   building: '建造物', movie: '映画', religion: '宗教', language: '言語', food: '食べ物',
   ocean: '海洋', continent: '大陸', other: 'その他',
 };
+// entityの表示名(name) -> スラッグ の逆引き。記事内の項目名から実体詳細ページへリンクするために使う。
+const NAME_TO_SLUG = {};
+Object.keys(ENTITIES).forEach(function (slug) { NAME_TO_SLUG[ENTITIES[slug].name] = slug; });
 
 function esc(s) {
   return String(s).replace(/[&<>"]/g, function (c) {
@@ -21,6 +24,47 @@ function esc(s) {
 }
 function fmt(n) {
   return Number(n).toLocaleString('ja-JP');
+}
+function nameLinkHtml(name) {
+  const slug = NAME_TO_SLUG[name];
+  if (!slug) return esc(name);
+  return '<a class="entity-link" href="/entity/' + esc(slug) + '">' + esc(name) + '</a>';
+}
+// items: [{label, href}]。最後の要素はhrefなし（現在地）として扱う。
+function breadcrumbHtml(items) {
+  return '<nav class="breadcrumb" aria-label="パンくずリスト">' +
+    items.map(function (item, i) {
+      const sep = i > 0 ? '<span class="breadcrumb-sep">›</span>' : '';
+      const isLast = i === items.length - 1;
+      const inner = (!isLast && item.href)
+        ? '<a href="' + esc(item.href) + '">' + esc(item.label) + '</a>'
+        : '<span aria-current="page">' + esc(item.label) + '</span>';
+      return sep + inner;
+    }).join('') +
+  '</nav>';
+}
+function setBreadcrumbJsonLd(items) {
+  let el = document.getElementById('breadcrumb-jsonld');
+  if (!items) {
+    if (el) el.remove();
+    return;
+  }
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map(function (item, i) {
+      const entry = { '@type': 'ListItem', position: i + 1, name: item.label };
+      if (item.href) entry.item = CANONICAL_ORIGIN + item.href;
+      return entry;
+    }),
+  };
+  if (!el) {
+    el = document.createElement('script');
+    el.type = 'application/ld+json';
+    el.id = 'breadcrumb-jsonld';
+    document.head.appendChild(el);
+  }
+  el.textContent = JSON.stringify(data);
 }
 function category(id) {
   return CATEGORIES.find(function (c) { return c.id === id; }) || { name: id };
@@ -156,8 +200,7 @@ function initFvSlider() {
 function categoryHtml(id) {
   const cat = category(id);
   const list = topicsOfCategory(id);
-  return '<a class="back" href="/">← トップへ戻る</a>' +
-    '<h1 class="cat-title">' + esc(cat.name) + 'のランキング</h1>' +
+  return '<h1 class="cat-title">' + esc(cat.name) + 'のランキング</h1>' +
     '<div class="article-list article-list-wide">' + list.map(articleCardHtml).join('') + '</div>';
 }
 
@@ -177,7 +220,7 @@ function podiumHtml(topic, idx) {
   return '<div class="podium">' + order.map(function (e) {
     return '<div class="podium-item pd-rank' + e.rank + '">' +
       '<span class="podium-medal"><span class="podium-rank">' + e.rank + '<span class="podium-rank-suffix">位</span></span></span>' +
-      '<span class="podium-name">' + esc(e.name) + '</span>' +
+      '<span class="podium-name">' + nameLinkHtml(e.name) + '</span>' +
       '<span class="podium-value">' + fmt(e.value) + '<span class="unit">' + esc(topic.unit) + '</span></span>' +
       (prevMap ? deltaHtml(e, prevMap) : '') +
     '</div>';
@@ -186,7 +229,7 @@ function podiumHtml(topic, idx) {
 function rankRowsHtml(list, topic, prevMap) {
   return list.map(function (e) {
     return '<tr><td class="col-rank">' + e.rank + '</td>' +
-      '<td class="col-name">' + esc(e.name) + '</td>' +
+      '<td class="col-name">' + nameLinkHtml(e.name) + '</td>' +
       '<td class="col-value">' + fmt(e.value) + '<span class="unit">' + esc(topic.unit) + '</span></td>' +
       '<td class="col-delta">' + (prevMap ? deltaHtml(e, prevMap) : '') + '</td></tr>';
   }).join('');
@@ -265,8 +308,7 @@ function topicDetailHtml(id) {
   const topic = TOPICS.find(function (t) { return t.id === id; });
   if (!topic) return '<p class="empty">記事が見つかりません。</p>';
   const idx = topic.periods.length - 1;
-  return '<a class="back" href="/category/' + esc(topic.category) + '">← ' + esc(category(topic.category).name) + 'へ戻る</a>' +
-    '<article class="article" data-topic="' + esc(topic.id) + '">' +
+  return '<article class="article" data-topic="' + esc(topic.id) + '">' +
       '<div class="ac-meta">' + tagHtml(topic) + '<span class="ac-date">' + esc(dateLabel(topic)) + ' 更新</span></div>' +
       '<h1 class="article-h1">' + esc(topic.title) + '</h1>' +
       (topic.lead ? '<p class="article-lead">' + esc(topic.lead) + '</p>' : '') +
@@ -297,8 +339,7 @@ function entityDetailHtml(slug) {
   if (!entity) return '<p class="empty">ページが見つかりません。</p>';
   const appearances = topicsForEntityName(entity.name);
   const typeLabel = entity.type ? ENTITY_TYPE_LABEL[entity.type] || entity.type : '';
-  return '<a class="back" href="/">← トップへ戻る</a>' +
-    '<article class="article">' +
+  return '<article class="article">' +
       (typeLabel ? '<div class="ac-meta"><span class="tag">' + esc(typeLabel) + '</span></div>' : '') +
       '<h1 class="article-h1">' + esc(entity.name) + '</h1>' +
       '<h2 class="section-h article-section-h">' + esc(entity.name) + 'が登場するランキング</h2>' +
@@ -347,28 +388,39 @@ function router() {
   const mTopic = path.match(/^\/topic\/(.+)$/);
   const mEntity = path.match(/^\/entity\/(.+)$/);
   let html;
+  let crumbs = null;
   if (mTopic) {
     const id = decodeURIComponent(mTopic[1]);
     html = topicDetailHtml(id);
     const topic = TOPICS.find(function (t) { return t.id === id; });
-    if (topic) setMeta(topic.title + '｜' + SITE_NAME, topic.lead || SITE_DEFAULT_DESC);
-    else setMeta(SITE_NAME, SITE_DEFAULT_DESC);
+    if (topic) {
+      setMeta(topic.title + '｜' + SITE_NAME, topic.lead || SITE_DEFAULT_DESC);
+      crumbs = [
+        { label: 'ホーム', href: '/' },
+        { label: category(topic.category).name, href: '/category/' + topic.category },
+        { label: topic.title },
+      ];
+    } else setMeta(SITE_NAME, SITE_DEFAULT_DESC);
   } else if (mEntity) {
     const slug = decodeURIComponent(mEntity[1]);
     html = entityDetailHtml(slug);
     const entity = ENTITIES[slug];
-    if (entity) setMeta(entity.name + '｜' + SITE_NAME, entity.name + 'が登場するランキング記事の一覧。' + SITE_DEFAULT_DESC);
-    else setMeta(SITE_NAME, SITE_DEFAULT_DESC);
+    if (entity) {
+      setMeta(entity.name + '｜' + SITE_NAME, entity.name + 'が登場するランキング記事の一覧。' + SITE_DEFAULT_DESC);
+      crumbs = [{ label: 'ホーム', href: '/' }, { label: entity.name }];
+    } else setMeta(SITE_NAME, SITE_DEFAULT_DESC);
   } else if (mCat) {
     const id = decodeURIComponent(mCat[1]);
     html = categoryHtml(id);
     const cat = category(id);
     setMeta(cat.name + 'のランキング一覧｜' + SITE_NAME, cat.name + 'に関する、出典のある統計・記録データにもとづくランキング記事の一覧。');
+    crumbs = [{ label: 'ホーム', href: '/' }, { label: cat.name }];
   } else {
     html = homeHtml();
     setMeta(SITE_NAME + '｜統計と記録でつくるランキングメディア', SITE_DEFAULT_DESC);
   }
-  document.getElementById('view').innerHTML = html;
+  document.getElementById('view').innerHTML = (crumbs ? breadcrumbHtml(crumbs) : '') + html;
+  setBreadcrumbJsonLd(crumbs);
   initFvSlider();
   window.scrollTo(0, 0);
 }

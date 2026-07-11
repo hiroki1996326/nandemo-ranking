@@ -8,6 +8,7 @@
   AIRTABLE_BASE_ID  対象ベースのID（必須。例: appXXXXXXXXXXXXXX）
   AIRTABLE_TOPICS_TABLE   Topicsテーブル名（省略時 'Topics'）
   AIRTABLE_ENTRIES_TABLE  Entriesテーブル名（省略時 'Entries'）
+  AIRTABLE_ENTITIES_TABLE Entitiesテーブル名（省略時 'Entities'）
   SITE_URL  本番サイトのURL（省略時プレースホルダー。sitemap.xmlの絶対URL生成に使う。
             ドメインが決まったら必ず設定すること）
 
@@ -19,6 +20,7 @@
 import json
 import os
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -26,12 +28,19 @@ AIRTABLE_API_KEY = os.environ.get('AIRTABLE_API_KEY')
 AIRTABLE_BASE_ID = os.environ.get('AIRTABLE_BASE_ID')
 TOPICS_TABLE = os.environ.get('AIRTABLE_TOPICS_TABLE', 'Topics')
 ENTRIES_TABLE = os.environ.get('AIRTABLE_ENTRIES_TABLE', 'Entries')
+ENTITIES_TABLE = os.environ.get('AIRTABLE_ENTITIES_TABLE', 'Entities')
 
 SITE_URL = os.environ.get('SITE_URL', 'https://rankin-q.com').rstrip('/')
 
-DATA_OUTPUT_PATH = os.path.join(os.path.dirname(__file__), '..', 'public', 'data', 'ranking-data.js')
-SITEMAP_OUTPUT_PATH = os.path.join(os.path.dirname(__file__), '..', 'public', 'sitemap.xml')
-ROBOTS_OUTPUT_PATH = os.path.join(os.path.dirname(__file__), '..', 'public', 'robots.txt')
+PUBLIC_DIR = os.path.join(os.path.dirname(__file__), '..', 'public')
+DATA_OUTPUT_PATH = os.path.join(PUBLIC_DIR, 'data', 'ranking-data.js')
+ENTITIES_OUTPUT_PATH = os.path.join(PUBLIC_DIR, 'data', 'entities.js')
+IMAGES_DIR = os.path.join(PUBLIC_DIR, 'images', 'entities')
+SITEMAP_OUTPUT_PATH = os.path.join(PUBLIC_DIR, 'sitemap.xml')
+ROBOTS_OUTPUT_PATH = os.path.join(PUBLIC_DIR, 'robots.txt')
+
+# 画像はこのドメインの画像のみ許可する（著作権方針。DESIGN.md §7参照）。
+ALLOWED_IMAGE_HOSTS = ('upload.wikimedia.org', 'commons.wikimedia.org')
 
 # サイトのカテゴリは固定4種（Airtable側は各Topicsレコードの単一選択フィールド 'category' に
 # このidのいずれかを入れる運用。カテゴリテーブルは作らない）。
@@ -62,7 +71,52 @@ def fetch_all_records(table_name):
     return records
 
 
-def build_topics(topic_records, entry_records):
+def build_entities(entity_records):
+    """record_id -> {id, name, type, image_url, image_credit} のマップを作る。"""
+    entities = {}
+    for rec in entity_records:
+        f = rec['fields']
+        entities[rec['id']] = {
+            'id': f.get('id'),
+            'name': f.get('name'),
+            'type': f.get('type'),
+            'image_url': f.get('image_url') or '',
+            'image_credit': f.get('image_credit') or '',
+        }
+    return entities
+
+
+def download_entity_images(entities):
+    """Entitiesのimage_urlをローカルにダウンロードし、各entityにlocal_imageパスを追加する。
+    許可ドメイン（Wikimedia Commons）以外の画像は無視する（DESIGN.md §7の著作権方針）。
+    既にダウンロード済みのファイルは再取得しない。
+    """
+    os.makedirs(IMAGES_DIR, exist_ok=True)
+    for entity in entities.values():
+        url = entity.get('image_url')
+        entity['local_image'] = None
+        if not url:
+            continue
+        host = urllib.parse.urlparse(url).netloc
+        if host not in ALLOWED_IMAGE_HOSTS:
+            print('警告: 許可されていない画像ホストのためスキップ: ' + entity.get('id', '?') + ' (' + host + ')', file=sys.stderr)
+            continue
+        ext = os.path.splitext(urllib.parse.urlparse(url).path)[1] or '.jpg'
+        filename = entity['id'] + ext
+        local_path = os.path.join(IMAGES_DIR, filename)
+        if not os.path.exists(local_path):
+            try:
+                req = urllib.request.Request(url, headers={'User-Agent': 'nandemo-ranking-sync/1.0'})
+                with urllib.request.urlopen(req) as resp, open(local_path, 'wb') as out:
+                    out.write(resp.read())
+                print('画像を保存しました: ' + filename)
+            except Exception as e:
+                print('警告: 画像ダウンロード失敗 ' + entity.get('id', '?') + ': ' + str(e), file=sys.stderr)
+                continue
+        entity['local_image'] = '/images/entities/' + filename
+
+
+def build_topics(topic_records, entry_records, entities):
     # EntriesのTopicsへのリンクフィールドは、Airtable側の作成経緯によって
     # フィールド名が 'topic' または 'Topics' のどちらにもなり得るため両方に対応する。
     # （どちらのフィールドも「リンク先レコードIDの配列」である場合のみ有効とし、
@@ -76,8 +130,18 @@ def build_topics(topic_records, entry_records):
         if not isinstance(topic_links, list) or not topic_links:
             continue
         topic_record_id = topic_links[0]
+
+        # entity（Entitiesへのリンク）優先。旧来の自由記述 name フィールドにもフォールバック対応。
+        entity_links = fields.get('entity')
+        name = None
+        if isinstance(entity_links, list) and entity_links:
+            entity = entities.get(entity_links[0])
+            if entity:
+                name = entity['name']
+        if name is None:
+            name = fields.get('name')
+
         period = fields.get('period') or None
-        name = fields.get('name')
         value = fields.get('value')
         if name is None or value is None:
             continue
@@ -177,7 +241,18 @@ def main():
 
     topic_records = fetch_all_records(TOPICS_TABLE)
     entry_records = fetch_all_records(ENTRIES_TABLE)
-    topics = build_topics(topic_records, entry_records)
+    try:
+        entity_records = fetch_all_records(ENTITIES_TABLE)
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            print('Entitiesテーブルが見つからないためスキップします（未作成の場合は正常）。', file=sys.stderr)
+            entity_records = []
+        else:
+            raise
+    entities = build_entities(entity_records)
+    download_entity_images(entities)
+
+    topics = build_topics(topic_records, entry_records, entities)
 
     data = {'categories': CATEGORIES, 'topics': topics}
     js_body = to_js(data)
@@ -191,6 +266,25 @@ def main():
     with open(DATA_OUTPUT_PATH, 'w', encoding='utf-8') as f:
         f.write(output)
     print(str(len(topics)) + '件のトピックを ' + DATA_OUTPUT_PATH + ' に書き出しました。')
+
+    entities_out = {}
+    for entity in entities.values():
+        if not entity.get('id'):
+            continue
+        entities_out[entity['id']] = {
+            'name': entity['name'],
+            'type': entity['type'],
+            'image': entity.get('local_image'),
+            'imageCredit': entity.get('image_credit') or '',
+        }
+    entities_output = (
+        '// このファイルは scripts/sync_from_airtable.py が自動生成します。\n'
+        '// 実体（都道府県・国など）のマスタデータ。画像は将来の実体詳細ページ用。\n'
+        'window.ENTITIES_DATA = ' + to_js(entities_out) + ';\n'
+    )
+    with open(ENTITIES_OUTPUT_PATH, 'w', encoding='utf-8') as f:
+        f.write(entities_output)
+    print(str(len(entities_out)) + '件のEntitiesを ' + ENTITIES_OUTPUT_PATH + ' に書き出しました。')
 
     with open(SITEMAP_OUTPUT_PATH, 'w', encoding='utf-8') as f:
         f.write(build_sitemap_xml(topics))

@@ -80,19 +80,38 @@ body {
 .ac-date { font-size: 12px; color: var(--text-3); font-variant-numeric: tabular-nums; }
 
 /* featured / スライダーのスライド共通スタイル */
-.featured-body { margin-top: 18px; }
-.featured-title { font-family: var(--serif); font-size: 28px; line-height: 1.5; margin: 0 0 12px; }
-.featured-lead { color: var(--text-2); font-size: 15px; line-height: 1.85; margin: 0 0 14px; }
+.featured-body { margin-top: 4px; }
+.featured-title {
+  font-family: var(--serif); font-size: 18px; line-height: 1.5; margin: 0 0 8px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.featured-lead {
+  color: var(--text-2); font-size: 13.5px; line-height: 1.75; margin: 0;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
 
-/* トップのFVスライダー */
+/* トップのFVスライダー：常時3枚くらい見える横並び */
 .fv-slider-section { margin: 30px 0 48px; }
 .fv-slider {
-  display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 0;
-  scrollbar-width: none; -ms-overflow-style: none; border-radius: 10px;
+  display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 18px;
+  scrollbar-width: none; -ms-overflow-style: none;
 }
 .fv-slider::-webkit-scrollbar { display: none; }
-.slide { flex: 0 0 100%; scroll-snap-align: start; display: block; text-decoration: none; color: inherit; }
+.slide {
+  flex: 0 0 calc((100% - 36px) / 3); scroll-snap-align: start;
+  display: block; text-decoration: none; color: inherit;
+  padding: 14px; border: 1px solid var(--line); border-radius: 10px;
+}
+.slide:hover { border-color: var(--line-strong); }
 .slide:hover .featured-title { color: var(--accent); }
+
+@media (max-width: 860px) {
+  .slide { flex: 0 0 calc((100% - 18px) / 2); }
+}
+@media (max-width: 560px) {
+  .fv-slider { gap: 12px; }
+  .slide { flex: 0 0 calc(100% - 40px); }
+}
 .fv-slider-nav { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 14px; }
 .fv-nav-btn {
   appearance: none; border: 1px solid var(--line-strong); background: var(--surface); color: var(--text-2);

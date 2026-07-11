@@ -134,7 +134,9 @@ function initFvSlider() {
   const dots = dotsWrap ? Array.prototype.slice.call(dotsWrap.children) : [];
   const updateDots = function () {
     if (!dots.length) return;
-    const idx = Math.round(slider.scrollLeft / slider.clientWidth);
+    const firstSlide = slider.querySelector('.slide');
+    const step = firstSlide ? firstSlide.getBoundingClientRect().width + 18 : slider.clientWidth;
+    const idx = Math.min(dots.length - 1, Math.round(slider.scrollLeft / step));
     dots.forEach(function (d, i) { d.classList.toggle('active', i === idx); });
   };
   slider.addEventListener('scroll', function () {
@@ -349,7 +351,9 @@ function init() {
       const slider = document.getElementById('fv-slider');
       if (slider) {
         const dir = Number(navBtn.getAttribute('data-dir'));
-        slider.scrollBy({ left: dir * slider.clientWidth, behavior: 'auto' });
+        const firstSlide = slider.querySelector('.slide');
+        const step = firstSlide ? firstSlide.getBoundingClientRect().width + 18 : slider.clientWidth;
+        slider.scrollBy({ left: dir * step, behavior: 'auto' });
       }
       return;
     }

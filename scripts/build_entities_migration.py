@@ -176,9 +176,13 @@ def main():
 
     with open(entries_path, 'w', encoding='utf-8', newline='') as f:
         w = csv.writer(f)
-        w.writerow(['topic', 'period', 'entity', 'value'])
-        for row in entries_rows:
-            w.writerow([row['topic'], row['period'], row['entity'], row['value']])
+        # 先頭列(label)はプライマリーフィールド用の安全なテキスト。
+        # Airtableはプライマリーフィールドを後からLink型に変更できないため、
+        # topic/entity列をLinkに変換してもプライマリーフィールドに巻き込まれないようにする。
+        w.writerow(['label', 'topic', 'period', 'entity', 'value'])
+        for i, row in enumerate(entries_rows, start=1):
+            label = 'e%04d_%s_%s' % (i, row['topic'], row['entity'])
+            w.writerow([label, row['topic'], row['period'], row['entity'], row['value']])
 
     with open(topics_path, 'w', encoding='utf-8', newline='') as f:
         w = csv.writer(f)

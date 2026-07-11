@@ -317,7 +317,7 @@ function router() {
     setMeta(cat.name + 'のランキング一覧｜' + SITE_NAME, cat.name + 'に関する、出典のある統計・記録データにもとづくランキング記事の一覧。');
   } else {
     html = homeHtml();
-    setMeta(SITE_NAME + '｜事実にもとづくランキングを、年ごとの変化つきで', SITE_DEFAULT_DESC);
+    setMeta(SITE_NAME + '｜出典つきの事実ランキングメディア', SITE_DEFAULT_DESC);
   }
   document.getElementById('view').innerHTML = html;
   initFvSlider();

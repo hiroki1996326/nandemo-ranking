@@ -118,6 +118,7 @@ body {
 }
 .slide:hover { border-color: var(--line-strong); }
 .slide:hover .featured-title { color: var(--accent); }
+.slide-thumb { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 6px; margin-bottom: 10px; }
 
 @media (max-width: 860px) {
   .slide { flex: 0 0 calc((100% - 18px) / 2); }
@@ -151,6 +152,7 @@ body {
   overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
 }
 .article-card { display: block; text-decoration: none; color: inherit; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+.ac-thumb { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; margin-bottom: 12px; }
 .ac-title { font-size: 16.5px; font-weight: 700; margin: 0 0 6px; line-height: 1.5; }
 .article-card:hover .ac-title { color: var(--accent); }
 .ac-lead { margin: 0; color: var(--text-2); font-size: 13.5px; line-height: 1.7; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
@@ -183,6 +185,8 @@ body {
 
 /* article detail */
 .article-h1 { font-family: var(--font); font-size: 30px; font-weight: 700; line-height: 1.5; margin: 4px 0 16px; }
+.article-hero { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 10px; margin: 0 0 20px; }
+.entity-hero { aspect-ratio: 1 / 1; max-width: 320px; }
 .article-lead { font-size: 16px; color: var(--text-2); line-height: 1.9; margin: 0 0 4px; }
 .period-label { font-size: 13px; color: var(--text-3); margin-bottom: 8px; text-align: left; }
 

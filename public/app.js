@@ -123,6 +123,7 @@ function tagHtml(topic) {
 // ---- 記事カード（一覧・トップ用） ----
 function articleCardHtml(topic) {
   return '<a class="article-card" href="/topic/' + esc(topic.id) + '">' +
+    (topic.thumbnail ? '<img class="ac-thumb" src="' + esc(topic.thumbnail) + '" alt="" loading="lazy" />' : '') +
     '<div class="ac-body">' +
       '<div class="ac-meta">' + tagHtml(topic) + '<span class="ac-date">' + esc(dateLabel(topic)) + '</span></div>' +
       '<h3 class="ac-title">' + esc(topic.title) + '</h3>' +
@@ -142,6 +143,7 @@ function sliderTopics() {
 }
 function sliderSlideHtml(topic) {
   return '<a class="slide" href="/topic/' + esc(topic.id) + '">' +
+    (topic.thumbnail ? '<img class="slide-thumb" src="' + esc(topic.thumbnail) + '" alt="" loading="lazy" />' : '') +
     '<div class="featured-body">' +
       '<div class="ac-meta">' + tagHtml(topic) + '<span class="ac-date">' + esc(dateLabel(topic)) + '</span></div>' +
       '<h2 class="featured-title">' + esc(topic.title) + '</h2>' +
@@ -311,6 +313,7 @@ function topicDetailHtml(id) {
   return '<article class="article" data-topic="' + esc(topic.id) + '">' +
       '<div class="ac-meta">' + tagHtml(topic) + '<span class="ac-date">' + esc(dateLabel(topic)) + ' 更新</span></div>' +
       '<h1 class="article-h1">' + esc(topic.title) + '</h1>' +
+      (topic.thumbnail ? '<img class="article-hero" src="' + esc(topic.thumbnail) + '" alt="" loading="lazy" />' : '') +
       (topic.lead ? '<p class="article-lead">' + esc(topic.lead) + '</p>' : '') +
       (topic.commentary ? '<p class="article-body">' + esc(topic.commentary) + '</p>' : '') +
       periodTabsHtml(topic, idx) +
@@ -344,6 +347,7 @@ function entityDetailHtml(slug) {
         ? '<div class="ac-meta"><a class="tag" href="/entity-type/' + esc(entity.type) + '">' + esc(typeLabel) + '</a></div>'
         : '') +
       '<h1 class="article-h1">' + esc(entity.name) + '</h1>' +
+      (entity.image ? '<img class="article-hero entity-hero" src="' + esc(entity.image) + '" alt="' + esc(entity.name) + '" loading="lazy" />' : '') +
       '<h2 class="section-h article-section-h">' + esc(entity.name) + 'が登場するランキング</h2>' +
       (appearances.length
         ? '<div class="article-list">' + appearances.map(function (a) {
@@ -385,20 +389,24 @@ const SITE_NAME = 'ランキン！';
 const SITE_DEFAULT_DESC = '人口・面積・GDP・漁獲量など、統計や記録にもとづく「事実」のランキングを、出典つきで届けるサイト。ユーザー投票・投稿によるランキングは扱いません。';
 // canonical / og:url は本番ドメイン固定の絶対URLにする（プレビュー環境のURLがcanonicalに漏れないように）。
 const CANONICAL_ORIGIN = 'https://rankin-q.com';
-function setMeta(title, description) {
+function setMeta(title, description, imagePath) {
   document.title = title;
   const set = function (id, attr, value) {
     const el = document.getElementById(id);
     if (el) el.setAttribute(attr, value);
   };
   const absUrl = CANONICAL_ORIGIN + location.pathname;
+  const absImage = imagePath ? CANONICAL_ORIGIN + imagePath : '';
   set('meta-description', 'content', description);
   set('meta-canonical', 'href', absUrl);
   set('meta-og-title', 'content', title);
   set('meta-og-description', 'content', description);
   set('meta-og-url', 'content', absUrl);
+  set('meta-og-image', 'content', absImage);
+  set('meta-twitter-card', 'content', absImage ? 'summary_large_image' : 'summary');
   set('meta-twitter-title', 'content', title);
   set('meta-twitter-description', 'content', description);
+  set('meta-twitter-image', 'content', absImage);
 }
 function router() {
   const path = location.pathname.replace(/\/+$/, '') || '/';
@@ -413,7 +421,7 @@ function router() {
     html = topicDetailHtml(id);
     const topic = TOPICS.find(function (t) { return t.id === id; });
     if (topic) {
-      setMeta(topic.title + '｜' + SITE_NAME, topic.lead || SITE_DEFAULT_DESC);
+      setMeta(topic.title + '｜' + SITE_NAME, topic.lead || SITE_DEFAULT_DESC, topic.thumbnail);
       crumbs = [
         { label: 'ホーム', href: '/' },
         { label: category(topic.category).name, href: '/category/' + topic.category },
@@ -425,7 +433,7 @@ function router() {
     html = entityDetailHtml(slug);
     const entity = ENTITIES[slug];
     if (entity) {
-      setMeta(entity.name + '｜' + SITE_NAME, entity.name + 'が登場するランキング記事の一覧。' + SITE_DEFAULT_DESC);
+      setMeta(entity.name + '｜' + SITE_NAME, entity.name + 'が登場するランキング記事の一覧。' + SITE_DEFAULT_DESC, entity.image);
       crumbs = [{ label: 'ホーム', href: '/' }];
       if (entity.type) {
         crumbs.push({ label: (ENTITY_TYPE_LABEL[entity.type] || entity.type) + '一覧', href: '/entity-type/' + entity.type });

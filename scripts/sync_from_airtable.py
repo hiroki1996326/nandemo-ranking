@@ -36,6 +36,7 @@ PUBLIC_DIR = os.path.join(os.path.dirname(__file__), '..', 'public')
 DATA_OUTPUT_PATH = os.path.join(PUBLIC_DIR, 'data', 'ranking-data.js')
 ENTITIES_OUTPUT_PATH = os.path.join(PUBLIC_DIR, 'data', 'entities.js')
 IMAGES_DIR = os.path.join(PUBLIC_DIR, 'images', 'entities')
+TOPIC_IMAGES_DIR = os.path.join(PUBLIC_DIR, 'images', 'topics')
 SITEMAP_OUTPUT_PATH = os.path.join(PUBLIC_DIR, 'sitemap.xml')
 ROBOTS_OUTPUT_PATH = os.path.join(PUBLIC_DIR, 'robots.txt')
 
@@ -116,6 +117,26 @@ def download_entity_images(entities):
         entity['local_image'] = '/images/entities/' + filename
 
 
+def attach_generated_images(entities, topics):
+    """generate_images.pyが public/images/ に生成済みの画像を各データに紐づける。
+    Entitiesは実写（local_image）が既にある場合は上書きしない。
+    """
+    for entity in entities.values():
+        if entity.get('local_image') or not entity.get('id'):
+            continue
+        candidate = os.path.join(IMAGES_DIR, entity['id'] + '.webp')
+        if os.path.exists(candidate):
+            entity['local_image'] = '/images/entities/' + entity['id'] + '.webp'
+
+    for topic in topics:
+        topic['thumbnail'] = None
+        if not topic.get('id'):
+            continue
+        candidate = os.path.join(TOPIC_IMAGES_DIR, topic['id'] + '.webp')
+        if os.path.exists(candidate):
+            topic['thumbnail'] = '/images/topics/' + topic['id'] + '.webp'
+
+
 def build_topics(topic_records, entry_records, entities):
     # EntriesのTopicsへのリンクフィールドは、Airtable側の作成経緯によって
     # フィールド名が 'topic' または 'Topics' のどちらにもなり得るため両方に対応する。
@@ -177,6 +198,7 @@ def build_topics(topic_records, entry_records, entities):
             'analysisHeading': f.get('analysis_heading', '') or '',
             'analysis': analysis,
             'periods': periods,
+            'thumbnail': None,
         })
     return topics
 
@@ -262,6 +284,7 @@ def main():
     download_entity_images(entities)
 
     topics = build_topics(topic_records, entry_records, entities)
+    attach_generated_images(entities, topics)
 
     data = {'categories': CATEGORIES, 'topics': topics}
     js_body = to_js(data)

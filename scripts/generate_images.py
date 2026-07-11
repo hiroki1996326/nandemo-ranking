@@ -82,11 +82,11 @@ TYPE_HINT = {
     'other': 'abstract minimal icon',
 }
 
-# サムネの最終サイズ・容量上限
-THUMB_SIZE = (800, 450)
+# サムネの最終サイズ・容量上限（1200x630はOGP/Twitterカードの推奨サイズ）
+THUMB_SIZE = (1200, 630)
 ENTITY_SIZE = (600, 600)
 WEBP_QUALITY = 80
-MAX_BYTES = 200 * 1024
+MAX_BYTES = 300 * 1024
 
 
 def fal_generate(prompt, width, height):
@@ -133,14 +133,14 @@ def draw_title(img, title):
     band_h = int(h * 0.32)
     draw.rectangle([0, h - band_h, w, h], fill=(20, 20, 20, 160))
 
-    font_size = 40
+    font_size = 58
     font = ImageFont.truetype(FONT_PATH, font_size)
     try:
         font.set_variation_by_axes([700])
     except Exception:
         pass
 
-    max_width = w - 60
+    max_width = w - 90
     lines = wrap_text(title, font, max_width)
     while len(lines) > 2 and font_size > 22:
         font_size -= 2

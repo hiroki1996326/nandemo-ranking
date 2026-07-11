@@ -97,19 +97,46 @@ body {
 .eyecatch.article-eye .eyecatch-rank { font-size: 30px; }
 .eyecatch.article-eye .eyecatch-name { font-size: 15px; }
 
-/* featured (トップの特集記事) */
-.featured-section { margin: 30px 0 44px; }
-.featured { display: block; text-decoration: none; color: inherit; }
-.featured:hover .featured-title { color: var(--accent); }
+/* featured / スライダーのスライド共通スタイル */
 .featured-body { margin-top: 18px; }
 .featured-title { font-family: var(--serif); font-size: 28px; line-height: 1.5; margin: 0 0 12px; }
 .featured-lead { color: var(--text-2); font-size: 15px; line-height: 1.85; margin: 0 0 14px; }
 .featured-top { font-size: 14.5px; }
 .tc-rank { font-size: 11.5px; font-weight: 700; color: var(--accent); border: 1px solid var(--accent); border-radius: 4px; padding: 1px 6px; }
 
+/* トップのFVスライダー */
+.fv-slider-section { margin: 30px 0 48px; }
+.fv-slider {
+  display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 0;
+  scrollbar-width: none; -ms-overflow-style: none; border-radius: 10px;
+}
+.fv-slider::-webkit-scrollbar { display: none; }
+.slide { flex: 0 0 100%; scroll-snap-align: start; display: block; text-decoration: none; color: inherit; }
+.slide:hover .featured-title { color: var(--accent); }
+.fv-slider-nav { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 14px; }
+.fv-nav-btn {
+  appearance: none; border: 1px solid var(--line-strong); background: var(--surface); color: var(--text-2);
+  width: 32px; height: 32px; border-radius: 999px; font-size: 18px; line-height: 1; cursor: pointer;
+}
+.fv-nav-btn:hover { color: var(--accent); border-color: var(--accent); }
+.fv-dots { display: flex; align-items: center; gap: 7px; }
+.fv-dot { width: 7px; height: 7px; border-radius: 999px; background: var(--line-strong); }
+.fv-dot.active { background: var(--accent); }
+
+/* カテゴリ別セクション */
+.cat-section { margin: 0 0 48px; }
+.cat-section-link { color: inherit; text-decoration: none; }
+.cat-section-link:hover { color: var(--accent); }
+
 /* article list / cards */
 .article-list { display: flex; flex-direction: column; gap: 22px; }
 .article-list-wide { gap: 26px; }
+
+/* スクリーンリーダー専用（視覚的には非表示） */
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
 .article-card { display: block; text-decoration: none; color: inherit; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
 .ac-title { font-size: 16.5px; font-weight: 700; margin: 0 0 6px; line-height: 1.5; }
 .article-card:hover .ac-title { color: var(--accent); }

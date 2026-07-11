@@ -86,33 +86,73 @@ function articleCardHtml(topic) {
   '</a>';
 }
 
-// ---- トップページ（特集 + 新着一覧） ----
-function featuredTopic() {
-  return TOPICS.slice().sort(function (a, b) { return topChangePct(b) - topChangePct(a); })[0];
+// ---- トップページ（FVスライダー + カテゴリ別一覧） ----
+function sliderTopics() {
+  // 各カテゴリから、直近の変動が最も大きいトピックを1本ずつピックしてスライダーに出す（カテゴリの多様性を出す）
+  return CATEGORIES.map(function (c) {
+    const list = topicsOfCategory(c.id);
+    if (!list.length) return null;
+    return list.slice().sort(function (a, b) { return topChangePct(b) - topChangePct(a); })[0];
+  }).filter(Boolean);
 }
-function featuredHtml(topic) {
+function sliderSlideHtml(topic) {
   const period = latestPeriod(topic);
   const top = rankedEntries(period)[0];
   const trend = topic.periods.length > 1 ? deltaHtml(top, prevRankMap(topic)) : '';
-  return '<a class="featured" href="/topic/' + esc(topic.id) + '">' +
+  return '<a class="slide" href="/topic/' + esc(topic.id) + '">' +
     eyecatchHtml(topic, 'featured-eye') +
     '<div class="featured-body">' +
       '<div class="ac-meta">' + tagHtml(topic) + '<span class="ac-date">' + esc(dateLabel(topic)) + '</span></div>' +
-      '<h1 class="featured-title">' + esc(topic.title) + '</h1>' +
+      '<h2 class="featured-title">' + esc(topic.title) + '</h2>' +
       '<p class="featured-lead">' + esc(topic.lead || '') + '</p>' +
       '<div class="featured-top"><span class="tc-rank">1位</span> ' +
         '<strong>' + esc(top.name) + '</strong> ' + fmt(top.value) + esc(topic.unit) + ' ' + trend + '</div>' +
     '</div>' +
   '</a>';
 }
-function homeHtml() {
-  const featured = featuredTopic();
-  const rest = TOPICS.filter(function (t) { return t.id !== featured.id; });
-  return '<section class="featured-section">' + featuredHtml(featured) + '</section>' +
-    '<section class="latest-section">' +
-      '<h2 class="section-h">新着のランキング</h2>' +
-      '<div class="article-list">' + rest.map(articleCardHtml).join('') + '</div>' +
+function sliderHtml() {
+  const slides = sliderTopics();
+  if (!slides.length) return '';
+  return '<section class="fv-slider-section">' +
+    '<div class="fv-slider" id="fv-slider">' + slides.map(sliderSlideHtml).join('') + '</div>' +
+    (slides.length > 1 ? (
+      '<div class="fv-slider-nav">' +
+        '<button type="button" class="fv-nav-btn" data-dir="-1" aria-label="前のランキング">‹</button>' +
+        '<div class="fv-dots">' + slides.map(function (_, i) { return '<span class="fv-dot' + (i === 0 ? ' active' : '') + '"></span>'; }).join('') + '</div>' +
+        '<button type="button" class="fv-nav-btn" data-dir="1" aria-label="次のランキング">›</button>' +
+      '</div>'
+    ) : '') +
+  '</section>';
+}
+function categorySectionsHtml() {
+  return CATEGORIES.map(function (c) {
+    const list = topicsOfCategory(c.id);
+    if (!list.length) return '';
+    return '<section class="cat-section">' +
+      '<h2 class="section-h"><a class="cat-section-link" href="/category/' + esc(c.id) + '">' + esc(c.name) + '</a></h2>' +
+      '<div class="article-list">' + list.map(articleCardHtml).join('') + '</div>' +
     '</section>';
+  }).join('');
+}
+function homeHtml() {
+  return '<h1 class="sr-only">' + esc(SITE_NAME) + '｜事実にもとづくランキングを、年ごとの変化つきで</h1>' +
+    sliderHtml() +
+    categorySectionsHtml();
+}
+function initFvSlider() {
+  const slider = document.getElementById('fv-slider');
+  if (!slider) return;
+  const dotsWrap = document.querySelector('.fv-dots');
+  const dots = dotsWrap ? Array.prototype.slice.call(dotsWrap.children) : [];
+  const updateDots = function () {
+    if (!dots.length) return;
+    const idx = Math.round(slider.scrollLeft / slider.clientWidth);
+    dots.forEach(function (d, i) { d.classList.toggle('active', i === idx); });
+  };
+  slider.addEventListener('scroll', function () {
+    window.clearTimeout(slider._fvScrollTimer);
+    slider._fvScrollTimer = window.setTimeout(updateDots, 80);
+  });
 }
 
 // ---- カテゴリページ ----
@@ -290,6 +330,7 @@ function router() {
     setMeta(SITE_NAME + '｜事実にもとづくランキングを、年ごとの変化つきで', SITE_DEFAULT_DESC);
   }
   document.getElementById('view').innerHTML = html;
+  initFvSlider();
   window.scrollTo(0, 0);
 }
 function navigate(path) {
@@ -316,6 +357,15 @@ function init() {
   showEnvBadge();
   document.addEventListener('click', function (ev) {
     if (ev.defaultPrevented || ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey) return;
+    const navBtn = ev.target.closest('.fv-nav-btn');
+    if (navBtn) {
+      const slider = document.getElementById('fv-slider');
+      if (slider) {
+        const dir = Number(navBtn.getAttribute('data-dir'));
+        slider.scrollBy({ left: dir * slider.clientWidth, behavior: 'auto' });
+      }
+      return;
+    }
     const tab = ev.target.closest('.period-tab');
     if (tab) {
       const article = tab.closest('.article');

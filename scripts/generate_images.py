@@ -17,12 +17,13 @@
   AIRTABLE_ENTITIES_TABLE 省略時 'Entities'
   FLUX_MODEL              省略時 'fal-ai/flux/schnell'（安価・高速）
 
-使い方:
-  FAL_KEY=xxx AIRTABLE_API_KEY=xxx AIRTABLE_BASE_ID=appXXXX python scripts/generate_images.py
-  python scripts/generate_images.py --only entities   # entitiesだけ
-  python scripts/generate_images.py --only topics     # topicsだけ
-  python scripts/generate_images.py --force id1,id2   # 既存があっても再生成するid
-  python scripts/generate_images.py --dry-run          # 何を生成する予定かだけ表示
+使い方（安全のため、--ids か --limit のどちらかを指定しないと最大5件までしか生成しない）:
+  python scripts/generate_images.py --dry-run                      # 何を生成する予定かだけ表示（課金なし）
+  python scripts/generate_images.py --ids oita,germany             # 指定したidだけに絞って生成
+  python scripts/generate_images.py --only entities --ids oita     # entitiesのoitaだけ
+  python scripts/generate_images.py --force oita --ids oita        # 既存があっても再生成
+  python scripts/generate_images.py --limit 20                      # 上限20件まで（対象は上から順）
+  python scripts/generate_images.py --limit 9999                    # 事実上の全件生成（明示的な合意の上で）
 
 追加パッケージ:
   pip install Pillow
@@ -36,6 +37,12 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
+except Exception:
+    pass
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -210,10 +217,15 @@ def load_topics():
     return [t for t in out if t['id'] and t['title']]
 
 
-def generate_entities(entities, force_ids, dry_run):
+def generate_entities(entities, force_ids, only_ids, dry_run, remaining=None):
     os.makedirs(ENTITY_IMAGES_DIR, exist_ok=True)
     created = 0
     for e in entities:
+        if remaining is not None and created >= remaining:
+            print('上限に達したため中断します（entities）。', file=sys.stderr)
+            break
+        if only_ids is not None and e['id'] not in only_ids:
+            continue
         # Wikimediaの実写があるならAI画像は生成しない（既存の運用を優先）
         if e['image_url']:
             host = urllib.parse.urlparse(e['image_url']).netloc
@@ -234,10 +246,15 @@ def generate_entities(entities, force_ids, dry_run):
     return created
 
 
-def generate_topics(topics, force_ids, dry_run):
+def generate_topics(topics, force_ids, only_ids, dry_run, remaining=None):
     os.makedirs(TOPIC_IMAGES_DIR, exist_ok=True)
     created = 0
     for t in topics:
+        if remaining is not None and created >= remaining:
+            print('上限に達したため中断します（topics）。', file=sys.stderr)
+            break
+        if only_ids is not None and t['id'] not in only_ids:
+            continue
         out_path = os.path.join(TOPIC_IMAGES_DIR, t['id'] + '.webp')
         if os.path.exists(out_path) and t['id'] not in force_ids:
             continue
@@ -254,25 +271,36 @@ def generate_topics(topics, force_ids, dry_run):
     return created
 
 
+MAX_WITHOUT_LIMIT = 5  # --ids / --limit のどちらも指定しない場合、暴走防止のためこれ以上は生成しない
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--only', choices=['entities', 'topics'])
     parser.add_argument('--force', default='', help='カンマ区切りのid。既存があっても再生成する')
+    parser.add_argument('--ids', default='', help='カンマ区切りのid。指定した対象だけに生成範囲を絞る（安全のため推奨）')
+    parser.add_argument('--limit', type=int, default=None, help='生成する最大件数（暴走防止の上限）')
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args()
     force_ids = set(x for x in args.force.split(',') if x)
+    only_ids = set(x for x in args.ids.split(',') if x) or None
 
     if not os.environ.get('AIRTABLE_API_KEY') or not os.environ.get('AIRTABLE_BASE_ID'):
         print('環境変数 AIRTABLE_API_KEY / AIRTABLE_BASE_ID を設定してください。', file=sys.stderr)
         sys.exit(1)
 
+    limit = args.limit
+    if only_ids is None and limit is None and not args.dry_run:
+        limit = MAX_WITHOUT_LIMIT
+        print('警告: --ids も --limit も指定がないため、暴走防止で上限' + str(MAX_WITHOUT_LIMIT) + '件までに制限します。全件生成するには --limit で明示してください。', file=sys.stderr)
+
     total = 0
     if args.only != 'topics':
         entities = load_entities()
-        total += generate_entities(entities, force_ids, args.dry_run)
+        total += generate_entities(entities, force_ids, only_ids, args.dry_run, limit - total if limit is not None else None)
     if args.only != 'entities':
         topics = load_topics()
-        total += generate_topics(topics, force_ids, args.dry_run)
+        total += generate_topics(topics, force_ids, only_ids, args.dry_run, limit - total if limit is not None else None)
 
     print(str(total) + '件の画像を生成しました。')
     if total and not args.dry_run:

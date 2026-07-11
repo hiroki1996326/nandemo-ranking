@@ -110,6 +110,7 @@ def build_topics(topic_records, entry_records):
             'updatedAt': f.get('updated_at'),
             'lead': f.get('lead', '') or '',
             'commentary': f.get('commentary', '') or '',
+            'analysisHeading': f.get('analysis_heading', '') or '',
             'analysis': analysis,
             'periods': periods,
         })

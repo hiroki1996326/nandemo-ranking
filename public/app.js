@@ -226,8 +226,9 @@ function periodTabsHtml(topic, idx) {
 function analysisHtml(topic) {
   const list = topic.analysis;
   if (!list || !list.length) return '';
+  const heading = topic.analysisHeading || '考察';
   return '<section class="analysis">' +
-    '<h2 class="section-h article-section-h">考察</h2>' +
+    '<h2 class="section-h article-section-h">' + esc(heading) + '</h2>' +
     list.map(function (p) { return '<p class="article-body">' + esc(p) + '</p>'; }).join('') +
   '</section>';
 }
@@ -265,8 +266,8 @@ function topicDetailHtml(id) {
       (topic.commentary ? '<p class="article-body">' + esc(topic.commentary) + '</p>' : '') +
       periodTabsHtml(topic, idx) +
       '<div class="period-block">' + periodContentHtml(topic, idx) + '</div>' +
-      analysisHtml(topic) +
       '<div class="extended-block">' + extendedListHtml(topic, idx) + '</div>' +
+      analysisHtml(topic) +
       '<p class="source">出典: <a href="' + esc(topic.sourceUrl) + '" target="_blank" rel="noopener">' + esc(topic.source) + '</a></p>' +
     '</article>' +
     relatedHtml(topic) +

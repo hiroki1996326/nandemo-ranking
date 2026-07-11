@@ -24,6 +24,11 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+sys.path.insert(0, os.path.dirname(__file__))
+from env_loader import load_dotenv  # noqa: E402
+
+load_dotenv()
+
 AIRTABLE_API_KEY = os.environ.get('AIRTABLE_API_KEY')
 AIRTABLE_BASE_ID = os.environ.get('AIRTABLE_BASE_ID')
 TOPICS_TABLE = os.environ.get('AIRTABLE_TOPICS_TABLE', 'Topics')

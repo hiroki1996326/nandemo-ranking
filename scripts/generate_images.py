@@ -40,7 +40,10 @@ import urllib.request
 from PIL import Image, ImageDraw, ImageFont
 
 sys.path.insert(0, os.path.dirname(__file__))
+from env_loader import load_dotenv  # noqa: E402
 from sync_from_airtable import fetch_all_records, ALLOWED_IMAGE_HOSTS  # noqa: E402
+
+load_dotenv()
 
 FAL_KEY = os.environ.get('FAL_KEY')
 FLUX_MODEL = os.environ.get('FLUX_MODEL', 'fal-ai/flux/schnell')
@@ -219,7 +222,7 @@ def generate_entities(entities, force_ids, dry_run):
         out_path = os.path.join(ENTITY_IMAGES_DIR, e['id'] + '.webp')
         if os.path.exists(out_path) and e['id'] not in force_ids:
             continue
-        prompt = e['name'] + ', ' + TYPE_HINT.get(e['type'], 'abstract minimal icon') + ', ' + STYLE_SUFFIX
+        prompt = STYLE_SUFFIX + ', ' + e['name'] + ', ' + TYPE_HINT.get(e['type'], 'abstract minimal icon')
         print(('[dry-run] ' if dry_run else '') + 'entity生成: ' + e['id'] + ' -> ' + prompt)
         if dry_run:
             continue
@@ -238,7 +241,7 @@ def generate_topics(topics, force_ids, dry_run):
         out_path = os.path.join(TOPIC_IMAGES_DIR, t['id'] + '.webp')
         if os.path.exists(out_path) and t['id'] not in force_ids:
             continue
-        prompt = t['title'] + ', ' + CATEGORY_HINT.get(t['category'], '') + ', ' + STYLE_SUFFIX
+        prompt = STYLE_SUFFIX + ', ' + t['title'] + ', ' + CATEGORY_HINT.get(t['category'], '')
         print(('[dry-run] ' if dry_run else '') + 'topic生成: ' + t['id'] + ' -> ' + prompt)
         if dry_run:
             continue

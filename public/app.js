@@ -327,7 +327,7 @@ function navigate(path) {
   router();
 }
 
-const PROD_HOSTS = [];
+const PROD_HOSTS = ['rankin-q.com', 'www.rankin-q.com'];
 function showEnvBadge() {
   const host = location.hostname;
   if (PROD_HOSTS.indexOf(host) !== -1) return;

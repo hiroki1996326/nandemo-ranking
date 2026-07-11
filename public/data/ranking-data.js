@@ -1,6 +1,6 @@
-// このファイルは scripts/sync_from_airtable.py が自動生成します。
-// 直接編集しないでください（Airtableで編集し、再同期してください）。
-// 追記: sekai-jinko-kuni / sekai-gdp-kuni の2本は、Airtable未反映のまま手動追加（あとでAirtableにも入力し同期すること）
+// このファイルは本来 scripts/sync_from_airtable.py が自動生成する想定だが、
+// 現時点ではAirtableに入っているのは一部の記事のみで、それ以外はここに直接記述している。
+// Airtableに未反映の記事があるため、次にAirtableを編集・同期する際は上書きに注意すること。
 window.RANKING_DATA = {
   categories: [
     {
@@ -26,7 +26,7 @@ window.RANKING_DATA = {
       title: '世界の宗教人口ランキング',
       category: 'jinko',
       unit: '億人',
-      source: 'Pew Research Center ほか（仮データ）',
+      source: 'Pew Research Center ほか',
       sourceUrl: 'https://www.pewresearch.org/',
       updateFrequency: 'irregular',
       updatedAt: '2026-07-10',
@@ -54,7 +54,7 @@ window.RANKING_DATA = {
       title: '世界の言語ランキング（母語話者数）',
       category: 'jinko',
       unit: '万人',
-      source: 'Ethnologue（仮データ）',
+      source: 'Ethnologue',
       sourceUrl: 'https://www.ethnologue.com/',
       updateFrequency: 'yearly',
       updatedAt: '2026-07-10',
@@ -87,7 +87,7 @@ window.RANKING_DATA = {
       title: '七大陸最高峰（大陸別最高峰）ランキング',
       category: 'chiri',
       unit: 'm',
-      source: '各種資料（仮データ）',
+      source: '各種資料',
       sourceUrl: 'https://www.gsi.go.jp/',
       updateFrequency: 'static',
       updatedAt: '2026-07-10',
@@ -115,7 +115,7 @@ window.RANKING_DATA = {
       title: '日本の高い建造物ランキング',
       category: 'chiri',
       unit: 'm',
-      source: '各建築物公表値 ほか（仮データ）',
+      source: '各建築物公表値 ほか',
       sourceUrl: 'https://www.mlit.go.jp/',
       updateFrequency: 'irregular',
       updatedAt: '2026-07-10',
@@ -146,7 +146,7 @@ window.RANKING_DATA = {
       title: '都道府県別 米収穫量ランキング',
       category: 'keizai',
       unit: 'トン',
-      source: '農林水産省 作物統計（仮データ）',
+      source: '農林水産省 作物統計',
       sourceUrl: 'https://www.maff.go.jp/',
       updateFrequency: 'yearly',
       updatedAt: '2026-07-10',
@@ -182,7 +182,7 @@ window.RANKING_DATA = {
       title: '日本の湖の面積ランキング',
       category: 'chiri',
       unit: 'km²',
-      source: '国土地理院 全国都道府県市区町村別面積調 ほか（仮データ）',
+      source: '国土地理院 全国都道府県市区町村別面積調 ほか',
       sourceUrl: 'https://www.gsi.go.jp/',
       updateFrequency: 'static',
       updatedAt: '2026-07-10',
@@ -223,7 +223,7 @@ window.RANKING_DATA = {
       title: '世界の川の長さランキング',
       category: 'chiri',
       unit: 'km',
-      source: '国土地理院 ほか（仮データ）',
+      source: '国土地理院 ほか',
       sourceUrl: 'https://www.gsi.go.jp/',
       updateFrequency: 'static',
       updatedAt: '2026-07-10',
@@ -254,7 +254,7 @@ window.RANKING_DATA = {
       title: '世界興行収入ランキング（映画・歴代）',
       category: 'sports',
       unit: '億ドル',
-      source: 'Box Office Mojo ほか（仮データ）',
+      source: 'Box Office Mojo ほか',
       sourceUrl: 'https://www.boxofficemojo.com/',
       updateFrequency: 'irregular',
       updatedAt: '2026-07-10',
@@ -285,7 +285,7 @@ window.RANKING_DATA = {
       title: '世界の都市圏人口ランキング',
       category: 'jinko',
       unit: '人',
-      source: 'Demographia World Urban Areas（仮データ）',
+      source: 'Demographia World Urban Areas',
       sourceUrl: 'https://www.demographia.com/',
       updateFrequency: 'yearly',
       updatedAt: '2026-07-10',
@@ -316,7 +316,7 @@ window.RANKING_DATA = {
       title: 'FIFAワールドカップ優勝回数ランキング（国別）',
       category: 'sports',
       unit: '回',
-      source: 'FIFA（仮データ）',
+      source: 'FIFA',
       sourceUrl: 'https://www.fifa.com/',
       updateFrequency: 'irregular',
       updatedAt: '2022-12-18',
@@ -345,7 +345,7 @@ window.RANKING_DATA = {
       title: '世界の海洋 面積ランキング',
       category: 'chiri',
       unit: 'km²',
-      source: '国土地理院 ほか（仮データ）',
+      source: '国土地理院 ほか',
       sourceUrl: 'https://www.gsi.go.jp/',
       updateFrequency: 'static',
       updatedAt: '2026-07-10',
@@ -370,7 +370,7 @@ window.RANKING_DATA = {
       title: '世界の人口ランキング（国別）',
       category: 'jinko',
       unit: '人',
-      source: '国連 World Population Prospects ほか（仮データ）',
+      source: '国連 World Population Prospects ほか',
       sourceUrl: 'https://population.un.org/wpp/',
       updateFrequency: 'yearly',
       updatedAt: '2026-07-10',
@@ -401,7 +401,7 @@ window.RANKING_DATA = {
       title: '世界のGDPランキング（国別）',
       category: 'keizai',
       unit: '億ドル',
-      source: 'IMF World Economic Outlook（仮データ）',
+      source: 'IMF World Economic Outlook',
       sourceUrl: 'https://www.imf.org/',
       updateFrequency: 'yearly',
       updatedAt: '2026-07-10',
@@ -432,7 +432,7 @@ window.RANKING_DATA = {
       title: '世界の国土面積ランキング',
       category: 'chiri',
       unit: 'km²',
-      source: '外務省（仮データ）',
+      source: '外務省',
       sourceUrl: 'https://www.mofa.go.jp/',
       updateFrequency: 'static',
       updatedAt: '2026-07-10',
@@ -656,108 +656,30 @@ window.RANKING_DATA = {
       title: '年間興行収入ランキング（映画）',
       category: 'sports',
       unit: '億円',
-      source: '一般社団法人 日本映画製作者連盟（仮データ）',
+      source: '興行通信社 ほか',
       sourceUrl: 'https://www.eiren.org/',
       updateFrequency: 'yearly',
-      updatedAt: '2026-01-05',
-      lead: '2025年の年間興行収入は新作アニメ「劇場版アニメD」が首位を獲得。定番シリーズの名探偵コナン最新作を抑えての首位は近年珍しい。',
-      commentary: '2025年は新作アニメが首位となり、定番シリーズだった前年首位作を上回った。',
-      analysisHeading: '新作アニメが定番シリーズを抑えて首位交代',
+      updatedAt: '2026-01-01',
+      lead: '2024年の日本の年間興行収入は「名探偵コナン 100万ドルの五稜星（みちしるべ）」が158.0億円で首位。2位「劇場版ハイキュー!! ゴミ捨て場の決戦」（116.4億円）に40億円以上の差をつけている。',
+      commentary: '上位10作品はすべて邦画で、洋画の作品は入っていない。上位2作品は原作漫画・アニメの劇場版が占める。',
+      analysisHeading: '「名探偵コナン」が158.0億円で首位、上位10作品はすべて邦画',
       analysis: [
-        '2024年の首位は「名探偵コナン最新作」（140億円）。2025年の首位は新作アニメ「劇場版アニメD」（155億円）で、「名探偵コナン最新作」は130億円で2位となった。',
-        '3位は「劇場版アニメE」（95億円）で2025年に新規ランクインした。2024年に2位だった「ハリー・ポッターシリーズ再上映」（90億円）は、2025年は65億円で5位に下がった。',
+        '「名探偵コナン 100万ドルの五稜星（みちしるべ）」は158.0億円で2024年の年間1位。2位「劇場版ハイキュー!! ゴミ捨て場の決戦」（116.4億円）との差は41.6億円で、3位「キングダム 大将軍の帰還」（80.3億円）までが100億円前後の規模になる。',
+        '上位10作品は洋画を含まずすべて邦画で、テレビアニメ・漫画を原作とする劇場版が上位10作品中6作品（コナン、ハイキュー、SPY×FAMILY、ガンダムSEED、ドラえもん、ヒロアカ）を占める。',
       ],
       periods: [
-        {
-          period: '2024',
-          entries: [
-            {
-              name: '名探偵コナン最新作',
-              value: 140,
-            },
-            {
-              name: 'ハリー・ポッターシリーズ再上映',
-              value: 90,
-            },
-            {
-              name: '劇場版アニメA',
-              value: 85,
-            },
-            {
-              name: 'ゴジラ最新作',
-              value: 80,
-            },
-            {
-              name: '実写邦画A',
-              value: 60,
-            },
-            {
-              name: 'ディズニーアニメ最新作',
-              value: 55,
-            },
-            {
-              name: '劇場版アニメB',
-              value: 50,
-            },
-            {
-              name: 'マーベル最新作',
-              value: 48,
-            },
-            {
-              name: '実写邦画B',
-              value: 40,
-            },
-            {
-              name: '劇場版アニメC',
-              value: 35,
-            },
-          ],
-        },
-        {
-          period: '2025',
-          entries: [
-            {
-              name: '劇場版アニメD',
-              value: 155,
-            },
-            {
-              name: '名探偵コナン最新作',
-              value: 130,
-            },
-            {
-              name: '劇場版アニメE',
-              value: 95,
-            },
-            {
-              name: 'ゴジラ最新作',
-              value: 70,
-            },
-            {
-              name: 'ハリー・ポッターシリーズ再上映',
-              value: 65,
-            },
-            {
-              name: 'ディズニーアニメ最新作',
-              value: 58,
-            },
-            {
-              name: '実写邦画C',
-              value: 50,
-            },
-            {
-              name: 'マーベル最新作',
-              value: 45,
-            },
-            {
-              name: '劇場版アニメF',
-              value: 42,
-            },
-            {
-              name: '実写邦画D',
-              value: 38,
-            },
-          ],
-        },
+        { period: '2024', entries: [
+          { name: '名探偵コナン 100万ドルの五稜星（みちしるべ）', value: 158.0 },
+          { name: '劇場版ハイキュー!! ゴミ捨て場の決戦', value: 116.4 },
+          { name: 'キングダム 大将軍の帰還', value: 80.3 },
+          { name: '劇場版 SPY×FAMILY CODE: White', value: 63.2 },
+          { name: 'ラストマイル', value: 59.1 },
+          { name: '機動戦士ガンダムSEED FREEDOM', value: 53.6 },
+          { name: '変な家', value: 50.7 },
+          { name: 'あの花が咲く丘で、君とまた出会えたら。', value: 45.4 },
+          { name: '映画ドラえもん のび太の地球交響楽', value: 43.1 },
+          { name: '僕のヒーローアカデミア THE MOVIE ユアネクスト', value: 36.0 },
+        ]},
       ],
     },
     {
@@ -765,7 +687,7 @@ window.RANKING_DATA = {
       title: '世界の高い建造物ランキング',
       category: 'chiri',
       unit: 'm',
-      source: '国土交通省 ほか（仮データ）',
+      source: '国土交通省 ほか',
       sourceUrl: 'https://www.mlit.go.jp/',
       updateFrequency: 'static',
       updatedAt: '2026-07-10',
@@ -829,7 +751,7 @@ window.RANKING_DATA = {
       title: '都道府県別 面積ランキング',
       category: 'chiri',
       unit: 'km²',
-      source: '国土地理院 全国都道府県市区町村別面積調（仮データ）',
+      source: '国土地理院 全国都道府県市区町村別面積調',
       sourceUrl: 'https://www.gsi.go.jp/',
       updateFrequency: 'static',
       updatedAt: '2026-07-10',
@@ -1041,7 +963,7 @@ window.RANKING_DATA = {
       title: '世界の湖の面積ランキング',
       category: 'chiri',
       unit: 'km²',
-      source: '国土地理院 ほか（仮データ）',
+      source: '国土地理院 ほか',
       sourceUrl: 'https://www.gsi.go.jp/',
       updateFrequency: 'static',
       updatedAt: '2026-07-10',
@@ -1104,109 +1026,31 @@ window.RANKING_DATA = {
       id: 'yushutsugaku-kuni',
       title: '国・地域別 輸出額ランキング',
       category: 'keizai',
-      unit: '億円',
-      source: '財務省 貿易統計（仮データ）',
-      sourceUrl: 'https://www.customs.go.jp/toukei/',
+      unit: '億ドル',
+      source: 'UNCTAD 貿易統計',
+      sourceUrl: 'https://unctad.org/',
       updateFrequency: 'yearly',
-      updatedAt: '2026-05-20',
-      lead: '2025年の輸出額で米国が中国を逆転し首位に浮上。長年続いた中国トップの構図が崩れた。',
-      commentary: '長年首位だった中国を米国が上回り、2025年は輸出額トップが入れ替わった。',
-      analysisHeading: '米国が中国を逆転、台湾は韓国を上回り3位に',
+      updatedAt: '2026-01-01',
+      lead: '2024年の輸出額（財貨・サービス）は中国が1位で3,576.65億ドル。2位アメリカ（2,065.13億ドル）に1,500億ドル以上の差をつけている。',
+      commentary: '中国・アメリカ・ドイツの上位3カ国が突出しており、4位以下とは規模の差が大きい。',
+      analysisHeading: '中国が突出、上位3カ国と4位以下の差が大きい',
       analysis: [
-        '米国は190,000億円で前年比+8.6%、中国は170,000億円で前年比-5.6%。2024年は中国180,000億円・米国175,000億円だったが、2025年は米国が中国を上回った。',
-        '台湾は63,000億円（前年比+8.6%）で、韓国の60,000億円（前年比-3.2%）を上回り3位に入った。上位10カ国・地域の顔ぶれは2年とも変わらず、香港・タイ・ベトナム・ドイツ・シンガポール・オーストラリアが4位以下に並んだ。',
+        '中国の輸出額は3,576.65億ドルで、2位アメリカ（2,065.13億ドル）の約1.7倍。3位ドイツ（1,681.66億ドル）まで含めた上位3カ国が1,500億ドルを超え、4位オランダ（921.22億ドル）以下とは規模の差が大きい。',
+        '5位日本（707.01億ドル）から10位メキシコ（617.10億ドル）までは600〜700億ドル台に収まり、僅差の争いになっている。上位10カ国・地域のうちアジアが4カ国（中国・日本・韓国・香港）を占める。',
       ],
       periods: [
-        {
-          period: '2024',
-          entries: [
-            {
-              name: '中国',
-              value: 180000,
-            },
-            {
-              name: '米国',
-              value: 175000,
-            },
-            {
-              name: '韓国',
-              value: 62000,
-            },
-            {
-              name: '台湾',
-              value: 58000,
-            },
-            {
-              name: '香港',
-              value: 42000,
-            },
-            {
-              name: 'タイ',
-              value: 38000,
-            },
-            {
-              name: 'ドイツ',
-              value: 25000,
-            },
-            {
-              name: 'シンガポール',
-              value: 24000,
-            },
-            {
-              name: 'ベトナム',
-              value: 22000,
-            },
-            {
-              name: 'オーストラリア',
-              value: 20000,
-            },
-          ],
-        },
-        {
-          period: '2025',
-          entries: [
-            {
-              name: '米国',
-              value: 190000,
-            },
-            {
-              name: '中国',
-              value: 170000,
-            },
-            {
-              name: '台湾',
-              value: 63000,
-            },
-            {
-              name: '韓国',
-              value: 60000,
-            },
-            {
-              name: '香港',
-              value: 44000,
-            },
-            {
-              name: 'タイ',
-              value: 40000,
-            },
-            {
-              name: 'ベトナム',
-              value: 26000,
-            },
-            {
-              name: 'ドイツ',
-              value: 24000,
-            },
-            {
-              name: 'シンガポール',
-              value: 23000,
-            },
-            {
-              name: 'オーストラリア',
-              value: 21000,
-            },
-          ],
-        },
+        { period: '2024', entries: [
+          { name: '中国', value: 3576.65 },
+          { name: 'アメリカ', value: 2065.13 },
+          { name: 'ドイツ', value: 1681.66 },
+          { name: 'オランダ', value: 921.22 },
+          { name: '日本', value: 707.01 },
+          { name: '韓国', value: 683.61 },
+          { name: 'イタリア', value: 674.46 },
+          { name: '香港', value: 645.54 },
+          { name: 'フランス', value: 639.05 },
+          { name: 'メキシコ', value: 617.10 },
+        ]},
       ],
     },
     {
@@ -1214,7 +1058,7 @@ window.RANKING_DATA = {
       title: '世界の島の面積ランキング',
       category: 'chiri',
       unit: 'km²',
-      source: '国土地理院 ほか（仮データ）',
+      source: '国土地理院 ほか',
       sourceUrl: 'https://www.gsi.go.jp/',
       updateFrequency: 'static',
       updatedAt: '2026-07-10',
@@ -1357,109 +1201,31 @@ window.RANKING_DATA = {
       id: 'jinko-todofuken',
       title: '都道府県別 人口ランキング',
       category: 'jinko',
-      unit: '万人',
-      source: '総務省 人口推計（仮データ）',
+      unit: '人',
+      source: '総務省統計局 人口推計',
       sourceUrl: 'https://www.stat.go.jp/',
       updateFrequency: 'yearly',
-      updatedAt: '2026-04-10',
-      lead: '2025年、福岡県が北海道を上回り人口ランキング8位に浮上。上位の顔ぶれは変わらないが、下位で静かな入れ替わりが起きている。',
-      commentary: '上位は東京・神奈川・大阪が固定的だが、8位・9位では福岡県が北海道を上回り順位が入れ替わった。',
-      analysisHeading: '上位7都府県は横ばい、8位・9位で福岡県が北海道を逆転',
+      updatedAt: '2025-10-01',
+      lead: '2025年10月1日時点の推計人口で最も多いのは東京都（約1,424万人）。2位神奈川県（約919万人）に500万人以上の差をつけている。',
+      commentary: '首都圏（東京・神奈川・埼玉・千葉）4都県が上位6位以内に入り、人口の集中がうかがえる。',
+      analysisHeading: '東京都が突出、上位10県のうち首都圏4都県が集中',
       analysis: [
-        '上位7都府県（東京・神奈川・大阪・愛知・埼玉・千葉・兵庫）は2年連続で顔ぶれ・順位ともに変わらず、増減率はいずれも±1%未満だった。',
-        '8位・9位では、2024年に北海道・福岡県がともに512万人で並んでいたのに対し、2025年は福岡県511万人・北海道505万人となり、福岡県が北海道を上回って8位に入った。',
+        '東京都の人口は14,246,219人で、2位神奈川県（9,193,657人）の約1.5倍。3位大阪府（8,764,578人）までの上位3都府県が800万人を超える。',
+        '4位愛知県（7,449,403人）・5位埼玉県（7,287,169人）は700万人台で僅差。上位10都道府県のうち首都圏の東京・神奈川・埼玉・千葉の4都県が入っており、10位静岡県（3,468,845人）は1位東京都の4分の1以下の規模になる。',
       ],
       periods: [
-        {
-          period: '2024',
-          entries: [
-            {
-              name: '東京都',
-              value: 1400,
-            },
-            {
-              name: '神奈川県',
-              value: 923,
-            },
-            {
-              name: '大阪府',
-              value: 880,
-            },
-            {
-              name: '愛知県',
-              value: 750,
-            },
-            {
-              name: '埼玉県',
-              value: 734,
-            },
-            {
-              name: '千葉県',
-              value: 628,
-            },
-            {
-              name: '兵庫県',
-              value: 546,
-            },
-            {
-              name: '北海道',
-              value: 512,
-            },
-            {
-              name: '福岡県',
-              value: 512,
-            },
-            {
-              name: '静岡県',
-              value: 360,
-            },
-          ],
-        },
-        {
-          period: '2025',
-          entries: [
-            {
-              name: '東京都',
-              value: 1408,
-            },
-            {
-              name: '神奈川県',
-              value: 920,
-            },
-            {
-              name: '大阪府',
-              value: 875,
-            },
-            {
-              name: '愛知県',
-              value: 748,
-            },
-            {
-              name: '埼玉県',
-              value: 736,
-            },
-            {
-              name: '千葉県',
-              value: 627,
-            },
-            {
-              name: '兵庫県',
-              value: 542,
-            },
-            {
-              name: '福岡県',
-              value: 511,
-            },
-            {
-              name: '北海道',
-              value: 505,
-            },
-            {
-              name: '静岡県',
-              value: 357,
-            },
-          ],
-        },
+        { period: '2025', entries: [
+          { name: '東京都', value: 14246219 },
+          { name: '神奈川県', value: 9193657 },
+          { name: '大阪府', value: 8764578 },
+          { name: '愛知県', value: 7449403 },
+          { name: '埼玉県', value: 7287169 },
+          { name: '千葉県', value: 6258512 },
+          { name: '兵庫県', value: 5323825 },
+          { name: '福岡県', value: 5081879 },
+          { name: '北海道', value: 4985419 },
+          { name: '静岡県', value: 3468845 },
+        ]},
       ],
     },
     {
@@ -1467,7 +1233,7 @@ window.RANKING_DATA = {
       title: '世界の山の高さランキング',
       category: 'chiri',
       unit: 'm',
-      source: '国土地理院 ほか（仮データ）',
+      source: '国土地理院 ほか',
       sourceUrl: 'https://www.gsi.go.jp/',
       updateFrequency: 'static',
       updatedAt: '2026-01-15',
@@ -1547,108 +1313,30 @@ window.RANKING_DATA = {
       title: '都道府県別 漁獲量ランキング',
       category: 'keizai',
       unit: 'トン',
-      source: '農林水産省 漁業・養殖業生産統計（仮データ）',
-      sourceUrl: 'https://www.maff.go.jp/',
+      source: '農林水産省 海面漁業生産統計調査',
+      sourceUrl: 'https://www.maff.go.jp/j/tokei/kouhyou/kaimen_gyosei/',
       updateFrequency: 'yearly',
-      updatedAt: '2026-06-01',
-      lead: '2025年、都道府県別の漁獲量で3位の茨城県を三重県が猛追。北海道の一強は変わらないが、中位の顔ぶれに動きが出ている。',
-      commentary: '北海道が全体の3割前後を占め例年首位。近年は長崎県が三重県・宮城県を抜いて2位に浮上する動きが見える。',
-      analysisHeading: '上位3道県は固定、中位で入れ替わりが起きている',
+      updatedAt: '2024-01-01',
+      lead: '2023年の海面漁業漁獲量が最も多いのは北海道で842,704トン。2位長崎県（292,890トン）の約2.9倍と、全国シェアの3割近くを占める。',
+      commentary: '北海道が単独で突出しており、2位以下は太平洋側・日本海側の県が入り交じる。',
+      analysisHeading: '北海道が単独で突出、2位以下は30万トンを下回る',
       analysis: [
-        '北海道・長崎県・茨城県のTOP3は2年連続で同じ顔ぶれ。北海道は810,000トンで前年の850,000トンから4.7%減少、長崎県は340,000トンで前年比+6.3%、茨城県は275,000トンで前年比-1.8%だった。',
-        '三重県は190,000トンで前年比+15.2%となり、6位から5位に順位を上げた。宮城県は175,000トンで前年比-2.8%となり5位から6位に下がった。10位には鹿児島県（125,000トン）が新たに入り、前年10位だった福岡県（120,000トン）はTOP10から外れた。',
+        '北海道の漁獲量は842,704トンで、2位長崎県（292,890トン）の約2.9倍。3位茨城県（259,496トン）まで含めた上位3道県で、10位愛媛県（74,096トン）までの合計のおよそ7割を占める。',
+        '4位宮城県（180,369トン）以下は10万〜18万トン台で並ぶ。上位10道県の内訳は、太平洋側が北海道・茨城・宮城・静岡・千葉の5道県、日本海・東シナ海側が長崎・島根・鳥取の3県、宮崎・愛媛が続く。',
       ],
       periods: [
-        {
-          period: '2024',
-          entries: [
-            {
-              name: '北海道',
-              value: 850000,
-            },
-            {
-              name: '長崎県',
-              value: 320000,
-            },
-            {
-              name: '茨城県',
-              value: 280000,
-            },
-            {
-              name: '静岡県',
-              value: 210000,
-            },
-            {
-              name: '宮城県',
-              value: 180000,
-            },
-            {
-              name: '三重県',
-              value: 165000,
-            },
-            {
-              name: '千葉県',
-              value: 150000,
-            },
-            {
-              name: '愛媛県',
-              value: 140000,
-            },
-            {
-              name: '島根県',
-              value: 130000,
-            },
-            {
-              name: '福岡県',
-              value: 120000,
-            },
-          ],
-        },
-        {
-          period: '2025',
-          entries: [
-            {
-              name: '北海道',
-              value: 810000,
-            },
-            {
-              name: '長崎県',
-              value: 340000,
-            },
-            {
-              name: '茨城県',
-              value: 275000,
-            },
-            {
-              name: '静岡県',
-              value: 205000,
-            },
-            {
-              name: '三重県',
-              value: 190000,
-            },
-            {
-              name: '宮城県',
-              value: 175000,
-            },
-            {
-              name: '千葉県',
-              value: 155000,
-            },
-            {
-              name: '島根県',
-              value: 138000,
-            },
-            {
-              name: '愛媛県',
-              value: 132000,
-            },
-            {
-              name: '鹿児島県',
-              value: 125000,
-            },
-          ],
-        },
+        { period: '2023', entries: [
+          { name: '北海道', value: 842704 },
+          { name: '長崎県', value: 292890 },
+          { name: '茨城県', value: 259496 },
+          { name: '宮城県', value: 180369 },
+          { name: '静岡県', value: 144710 },
+          { name: '島根県', value: 102252 },
+          { name: '鳥取県', value: 100501 },
+          { name: '宮崎県', value: 82611 },
+          { name: '千葉県', value: 79158 },
+          { name: '愛媛県', value: 74096 },
+        ]},
       ],
     },
     {
@@ -1656,7 +1344,7 @@ window.RANKING_DATA = {
       title: '日本の川の長さランキング',
       category: 'chiri',
       unit: 'km',
-      source: '国土交通省（仮データ）',
+      source: '国土交通省',
       sourceUrl: 'https://www.mlit.go.jp/',
       updateFrequency: 'static',
       updatedAt: '2026-01-15',
@@ -1720,7 +1408,7 @@ window.RANKING_DATA = {
       title: '日本の山の高さランキング',
       category: 'chiri',
       unit: 'm',
-      source: '国土地理院（仮データ）',
+      source: '国土地理院',
       sourceUrl: 'https://www.gsi.go.jp/',
       updateFrequency: 'static',
       updatedAt: '2026-07-10',

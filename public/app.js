@@ -340,7 +340,9 @@ function entityDetailHtml(slug) {
   const appearances = topicsForEntityName(entity.name);
   const typeLabel = entity.type ? ENTITY_TYPE_LABEL[entity.type] || entity.type : '';
   return '<article class="article">' +
-      (typeLabel ? '<div class="ac-meta"><span class="tag">' + esc(typeLabel) + '</span></div>' : '') +
+      (typeLabel
+        ? '<div class="ac-meta"><a class="tag" href="/entity-type/' + esc(entity.type) + '">' + esc(typeLabel) + '</a></div>'
+        : '') +
       '<h1 class="article-h1">' + esc(entity.name) + '</h1>' +
       '<h2 class="section-h article-section-h">' + esc(entity.name) + 'が登場するランキング</h2>' +
       (appearances.length
@@ -355,6 +357,22 @@ function entityDetailHtml(slug) {
           }).join('') + '</div>'
         : '<p class="empty">現在、このサイトに登場する記事はありません。</p>') +
     '</article>';
+}
+function entitiesOfType(type) {
+  return Object.keys(ENTITIES)
+    .filter(function (slug) { return ENTITIES[slug].type === type; })
+    .map(function (slug) { return { slug: slug, name: ENTITIES[slug].name }; })
+    .sort(function (a, b) { return a.name.localeCompare(b.name, 'ja'); });
+}
+function entityTypeListHtml(type) {
+  const label = ENTITY_TYPE_LABEL[type] || type;
+  const list = entitiesOfType(type);
+  if (!list.length) return '<p class="empty">ページが見つかりません。</p>';
+  return '<h1 class="cat-title">' + esc(label) + '一覧</h1>' +
+    '<p class="section-lead">' + esc(label) + 'は全' + list.length + '件あります。</p>' +
+    '<div class="entity-grid">' + list.map(function (e) {
+      return '<a class="entity-grid-item" href="/entity/' + esc(e.slug) + '">' + esc(e.name) + '</a>';
+    }).join('') + '</div>';
 }
 
 // ---- ルーティング ----
@@ -387,6 +405,7 @@ function router() {
   const mCat = path.match(/^\/category\/(.+)$/);
   const mTopic = path.match(/^\/topic\/(.+)$/);
   const mEntity = path.match(/^\/entity\/(.+)$/);
+  const mEntityType = path.match(/^\/entity-type\/(.+)$/);
   let html;
   let crumbs = null;
   if (mTopic) {
@@ -407,8 +426,18 @@ function router() {
     const entity = ENTITIES[slug];
     if (entity) {
       setMeta(entity.name + '｜' + SITE_NAME, entity.name + 'が登場するランキング記事の一覧。' + SITE_DEFAULT_DESC);
-      crumbs = [{ label: 'ホーム', href: '/' }, { label: entity.name }];
+      crumbs = [{ label: 'ホーム', href: '/' }];
+      if (entity.type) {
+        crumbs.push({ label: (ENTITY_TYPE_LABEL[entity.type] || entity.type) + '一覧', href: '/entity-type/' + entity.type });
+      }
+      crumbs.push({ label: entity.name });
     } else setMeta(SITE_NAME, SITE_DEFAULT_DESC);
+  } else if (mEntityType) {
+    const type = decodeURIComponent(mEntityType[1]);
+    html = entityTypeListHtml(type);
+    const label = ENTITY_TYPE_LABEL[type] || type;
+    setMeta(label + '一覧｜' + SITE_NAME, label + 'の一覧。' + SITE_DEFAULT_DESC);
+    crumbs = [{ label: 'ホーム', href: '/' }, { label: label + '一覧' }];
   } else if (mCat) {
     const id = decodeURIComponent(mCat[1]);
     html = categoryHtml(id);

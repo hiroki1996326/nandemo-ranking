@@ -64,12 +64,6 @@ function dateLabel(topic) {
   if (!topic.updatedAt) return '';
   return topic.updatedAt.replace(/-/g, '.');
 }
-function eyecatchHtml(topic, size) {
-  const top = rankedEntries(latestPeriod(topic))[0];
-  return '<div class="eyecatch ' + esc(topic.category) + (size ? ' ' + size : '') + '">' +
-    '<span class="eyecatch-rank">1<i>位</i></span>' +
-    '<span class="eyecatch-name">' + esc(top.name) + '</span></div>';
-}
 function tagHtml(topic) {
   const cat = category(topic.category);
   return '<span class="tag tag-' + esc(topic.category) + '">' + esc(cat.name) + '</span>';
@@ -96,17 +90,11 @@ function sliderTopics() {
   }).filter(Boolean);
 }
 function sliderSlideHtml(topic) {
-  const period = latestPeriod(topic);
-  const top = rankedEntries(period)[0];
-  const trend = topic.periods.length > 1 ? deltaHtml(top, prevRankMap(topic)) : '';
   return '<a class="slide" href="/topic/' + esc(topic.id) + '">' +
-    eyecatchHtml(topic, 'featured-eye') +
     '<div class="featured-body">' +
       '<div class="ac-meta">' + tagHtml(topic) + '<span class="ac-date">' + esc(dateLabel(topic)) + '</span></div>' +
       '<h2 class="featured-title">' + esc(topic.title) + '</h2>' +
       '<p class="featured-lead">' + esc(topic.lead || '') + '</p>' +
-      '<div class="featured-top"><span class="tc-rank">1位</span> ' +
-        '<strong>' + esc(top.name) + '</strong> ' + fmt(top.value) + esc(topic.unit) + ' ' + trend + '</div>' +
     '</div>' +
   '</a>';
 }
@@ -272,7 +260,6 @@ function topicDetailHtml(id) {
       '<div class="ac-meta">' + tagHtml(topic) + '<span class="ac-date">' + esc(dateLabel(topic)) + ' 更新</span></div>' +
       '<h1 class="article-h1">' + esc(topic.title) + '</h1>' +
       (topic.lead ? '<p class="article-lead">' + esc(topic.lead) + '</p>' : '') +
-      eyecatchHtml(topic, 'article-eye') +
       (topic.commentary ? '<p class="article-body">' + esc(topic.commentary) + '</p>' : '') +
       periodTabsHtml(topic, idx) +
       '<div class="period-block">' + periodContentHtml(topic, idx) + '</div>' +

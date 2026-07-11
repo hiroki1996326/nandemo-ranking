@@ -213,7 +213,7 @@ def to_js(value, indent=0):
     return str(value)
 
 
-def build_sitemap_xml(topics):
+def build_sitemap_xml(topics, entities=None):
     urls = [{'loc': SITE_URL + '/', 'lastmod': None}]
     seen_categories = []
     for t in topics:
@@ -222,6 +222,9 @@ def build_sitemap_xml(topics):
             urls.append({'loc': SITE_URL + '/category/' + t['category'], 'lastmod': None})
     for t in topics:
         urls.append({'loc': SITE_URL + '/topic/' + t['id'], 'lastmod': t.get('updatedAt')})
+    for entity in (entities or {}).values():
+        if entity.get('id'):
+            urls.append({'loc': SITE_URL + '/entity/' + entity['id'], 'lastmod': None})
 
     entries = []
     for u in urls:
@@ -289,7 +292,7 @@ def main():
     print(str(len(entities_out)) + '件のEntitiesを ' + ENTITIES_OUTPUT_PATH + ' に書き出しました。')
 
     with open(SITEMAP_OUTPUT_PATH, 'w', encoding='utf-8') as f:
-        f.write(build_sitemap_xml(topics))
+        f.write(build_sitemap_xml(topics, entities))
     print('sitemap.xml を ' + SITEMAP_OUTPUT_PATH + ' に書き出しました。')
 
     with open(ROBOTS_OUTPUT_PATH, 'w', encoding='utf-8') as f:

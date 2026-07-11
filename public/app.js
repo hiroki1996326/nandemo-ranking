@@ -2,10 +2,17 @@
 //   /                トップ（特集記事 + 新着記事一覧）
 //   /category/{id}   カテゴリ内の記事一覧
 //   /topic/{id}       個別記事（リード文 + 順位表 + 本文 + 出典）
+//   /entity/{id}      実体詳細ページ（都道府県・国などが登場する記事の内部リンク集）
 
 const DATA = window.RANKING_DATA;
 const CATEGORIES = DATA.categories;
 const TOPICS = DATA.topics;
+const ENTITIES = window.ENTITIES_DATA || {};
+const ENTITY_TYPE_LABEL = {
+  prefecture: '都道府県', country: '国', mountain: '山', lake: '湖', river: '川',
+  building: '建造物', movie: '映画', religion: '宗教', language: '言語', food: '食べ物',
+  ocean: '海洋', continent: '大陸', other: 'その他',
+};
 
 function esc(s) {
   return String(s).replace(/[&<>"]/g, function (c) {
@@ -274,6 +281,41 @@ function topicDetailHtml(id) {
     otherRelatedHtml(topic);
 }
 
+// ---- 実体詳細ページ（都道府県・国などが登場する記事の内部リンク集） ----
+function topicsForEntityName(name) {
+  const list = [];
+  TOPICS.forEach(function (topic) {
+    const period = latestPeriod(topic);
+    const ranked = rankedEntries(period);
+    const hit = ranked.find(function (e) { return e.name === name; });
+    if (hit) list.push({ topic: topic, rank: hit.rank, value: hit.value });
+  });
+  return list;
+}
+function entityDetailHtml(slug) {
+  const entity = ENTITIES[slug];
+  if (!entity) return '<p class="empty">ページが見つかりません。</p>';
+  const appearances = topicsForEntityName(entity.name);
+  const typeLabel = entity.type ? ENTITY_TYPE_LABEL[entity.type] || entity.type : '';
+  return '<a class="back" href="/">← トップへ戻る</a>' +
+    '<article class="article">' +
+      (typeLabel ? '<div class="ac-meta"><span class="tag">' + esc(typeLabel) + '</span></div>' : '') +
+      '<h1 class="article-h1">' + esc(entity.name) + '</h1>' +
+      '<h2 class="section-h article-section-h">' + esc(entity.name) + 'が登場するランキング</h2>' +
+      (appearances.length
+        ? '<div class="article-list">' + appearances.map(function (a) {
+            return '<a class="article-card" href="/topic/' + esc(a.topic.id) + '">' +
+              '<div class="ac-body">' +
+                '<div class="ac-meta">' + tagHtml(a.topic) + '<span class="ac-date">' + esc(dateLabel(a.topic)) + '</span></div>' +
+                '<h3 class="ac-title">' + esc(a.topic.title) + '</h3>' +
+                '<p class="ac-lead">' + a.rank + '位 ／ ' + fmt(a.value) + esc(a.topic.unit) + '</p>' +
+              '</div>' +
+            '</a>';
+          }).join('') + '</div>'
+        : '<p class="empty">現在、このサイトに登場する記事はありません。</p>') +
+    '</article>';
+}
+
 // ---- ルーティング ----
 function navHtml() {
   return CATEGORIES.map(function (c) {
@@ -303,12 +345,19 @@ function router() {
   const path = location.pathname.replace(/\/+$/, '') || '/';
   const mCat = path.match(/^\/category\/(.+)$/);
   const mTopic = path.match(/^\/topic\/(.+)$/);
+  const mEntity = path.match(/^\/entity\/(.+)$/);
   let html;
   if (mTopic) {
     const id = decodeURIComponent(mTopic[1]);
     html = topicDetailHtml(id);
     const topic = TOPICS.find(function (t) { return t.id === id; });
     if (topic) setMeta(topic.title + '｜' + SITE_NAME, topic.lead || SITE_DEFAULT_DESC);
+    else setMeta(SITE_NAME, SITE_DEFAULT_DESC);
+  } else if (mEntity) {
+    const slug = decodeURIComponent(mEntity[1]);
+    html = entityDetailHtml(slug);
+    const entity = ENTITIES[slug];
+    if (entity) setMeta(entity.name + '｜' + SITE_NAME, entity.name + 'が登場するランキング記事の一覧。' + SITE_DEFAULT_DESC);
     else setMeta(SITE_NAME, SITE_DEFAULT_DESC);
   } else if (mCat) {
     const id = decodeURIComponent(mCat[1]);

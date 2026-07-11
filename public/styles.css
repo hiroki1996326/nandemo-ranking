@@ -155,7 +155,7 @@ body {
 /* article detail */
 .back { display: inline-block; margin-bottom: 18px; color: var(--text-2); text-decoration: none; font-size: 13.5px; }
 .back:hover { color: var(--accent); }
-.article-h1 { font-family: var(--serif); font-size: 30px; line-height: 1.5; margin: 4px 0 16px; }
+.article-h1 { font-family: var(--font); font-size: 30px; font-weight: 700; line-height: 1.5; margin: 4px 0 16px; }
 .article-lead { font-size: 16px; color: var(--text-2); line-height: 1.9; margin: 0 0 4px; }
 .period-label { font-size: 13px; color: var(--text-3); margin-bottom: 8px; text-align: left; }
 

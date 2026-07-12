@@ -209,9 +209,12 @@ def build_topics(topic_records, entry_records, entities):
         value = fields.get('value')
         if name is None or value is None:
             continue
-        entries_by_topic.setdefault(topic_record_id, {}).setdefault(period, []).append(
-            {'name': name, 'value': value}
-        )
+        entry = {'name': name, 'value': value}
+        # トップ3カード用の説明文（任意。Airtableのnote欄に入力があれば取り込む）
+        note = (fields.get('note') or '').strip()
+        if note:
+            entry['note'] = note
+        entries_by_topic.setdefault(topic_record_id, {}).setdefault(period, []).append(entry)
 
     topics = []
     for rec in topic_records:

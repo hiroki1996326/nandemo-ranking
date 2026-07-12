@@ -82,7 +82,7 @@ function rankedEntries(period) {
   return period.entries
     .slice()
     .sort(function (a, b) { return b.value - a.value; })
-    .map(function (e, i) { return { rank: i + 1, name: e.name, value: e.value }; });
+    .map(function (e, i) { return { rank: i + 1, name: e.name, value: e.value, note: e.note || '' }; });
 }
 function prevRankMap(topic) {
   const prev = prevPeriod(topic);
@@ -213,18 +213,43 @@ function prevRankMapAt(topic, idx) {
   rankedEntries(topic.periods[idx - 1]).forEach(function (e) { map[e.name] = e; });
   return map;
 }
-function podiumHtml(topic, idx) {
+// トップ3カードの「前年比・順位変動」テキスト。前期間データが無ければ空。
+function trendText(cur, prevMap) {
+  if (!prevMap) return '';
+  const prev = prevMap[cur.name];
+  if (!prev) return '<span class="trend trend-new">初登場</span>';
+  const rankDiff = prev.rank - cur.rank;
+  const pct = ((cur.value - prev.value) / prev.value) * 100;
+  const sign = pct > 0 ? '+' : '';
+  let rankStr, cls, arrow;
+  if (rankDiff > 0) { rankStr = rankDiff + 'つ上昇'; cls = 'up'; arrow = '↑'; }
+  else if (rankDiff < 0) { rankStr = Math.abs(rankDiff) + 'つ下降'; cls = 'down'; arrow = '↓'; }
+  else { rankStr = '順位変動なし'; cls = 'flat'; arrow = '→'; }
+  return '<span class="trend trend-' + cls + '">' + arrow + ' 前年比 ' + sign + pct.toFixed(1) + '%・' + rankStr + '</span>';
+}
+// トップ3を縦積みのリッチカードで表示する（メダル・画像・数値・推移・説明文）。
+function topThreeHtml(topic, idx) {
   const period = topic.periods[idx];
   const prevMap = prevRankMapAt(topic, idx);
   const top3 = rankedEntries(period).slice(0, 3);
-  // 表彰台の見た目に合わせて 2位・1位・3位の順で並べる
-  const order = [top3[1], top3[0], top3[2]].filter(Boolean);
-  return '<div class="podium">' + order.map(function (e) {
-    return '<div class="podium-item pd-rank' + e.rank + '">' +
-      '<span class="podium-medal"><span class="podium-rank">' + e.rank + '<span class="podium-rank-suffix">位</span></span></span>' +
-      '<span class="podium-name">' + entityThumbHtml(e.name) + nameLinkHtml(e.name) + '</span>' +
-      '<span class="podium-value">' + fmt(e.value) + '<span class="unit">' + esc(topic.unit) + '</span></span>' +
-      (prevMap ? deltaHtml(e, prevMap) : '') +
+  return '<div class="top3">' + top3.map(function (e) {
+    const img = entityImageByName(e.name);
+    const imgHtml = img
+      ? '<img class="top3-img" src="' + esc(img) + '" alt="" loading="lazy" />'
+      : '<span class="top3-img top3-img-none">画像なし</span>';
+    return '<div class="top3-card top3-rank' + e.rank + '">' +
+      '<div class="top3-left">' +
+        '<span class="top3-medal">' + e.rank + '</span>' +
+        imgHtml +
+      '</div>' +
+      '<div class="top3-body">' +
+        '<div class="top3-head">' +
+          '<span class="top3-name">' + nameLinkHtml(e.name) + '</span>' +
+          (prevMap ? trendText(e, prevMap) : '') +
+        '</div>' +
+        '<div class="top3-value">' + fmt(e.value) + '<span class="unit">' + esc(topic.unit) + '</span></div>' +
+        (e.note ? '<p class="top3-note">' + esc(e.note) + '</p>' : '') +
+      '</div>' +
     '</div>';
   }).join('') + '</div>';
 }
@@ -263,7 +288,7 @@ function periodContentHtml(topic, idx) {
   const period = topic.periods[idx];
   const periodHead = period.period ? esc(period.period) + '年のランキング' : 'ランキング';
   return '<h2 class="section-h article-section-h">' + periodHead + '</h2>' +
-    podiumHtml(topic, idx) +
+    topThreeHtml(topic, idx) +
     restTableHtml(topic, idx);
 }
 function periodTabsHtml(topic, idx) {

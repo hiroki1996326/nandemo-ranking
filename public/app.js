@@ -222,7 +222,7 @@ function podiumHtml(topic, idx) {
   return '<div class="podium">' + order.map(function (e) {
     return '<div class="podium-item pd-rank' + e.rank + '">' +
       '<span class="podium-medal"><span class="podium-rank">' + e.rank + '<span class="podium-rank-suffix">位</span></span></span>' +
-      '<span class="podium-name">' + nameLinkHtml(e.name) + '</span>' +
+      '<span class="podium-name">' + entityThumbHtml(e.name) + nameLinkHtml(e.name) + '</span>' +
       '<span class="podium-value">' + fmt(e.value) + '<span class="unit">' + esc(topic.unit) + '</span></span>' +
       (prevMap ? deltaHtml(e, prevMap) : '') +
     '</div>';
@@ -231,7 +231,7 @@ function podiumHtml(topic, idx) {
 function rankRowsHtml(list, topic, prevMap) {
   return list.map(function (e) {
     return '<tr><td class="col-rank">' + e.rank + '</td>' +
-      '<td class="col-name">' + nameLinkHtml(e.name) + '</td>' +
+      '<td class="col-name">' + entityThumbHtml(e.name) + nameLinkHtml(e.name) + '</td>' +
       '<td class="col-value">' + fmt(e.value) + '<span class="unit">' + esc(topic.unit) + '</span></td>' +
       '<td class="col-delta">' + (prevMap ? deltaHtml(e, prevMap) : '') + '</td></tr>';
   }).join('');
@@ -305,6 +305,18 @@ function otherRelatedHtml(topic) {
     '<h2 class="section-h">こちらのランキングも読まれています</h2>' +
     '<div class="article-list">' + list.map(articleCardHtml).join('') + '</div>' +
   '</section>';
+}
+// 実体名から、その実体の画像パスを返す（ランキング各項目の小サムネ用）。無ければ null。
+function entityImageByName(name) {
+  const slug = NAME_TO_SLUG[name];
+  if (!slug) return null;
+  const ent = ENTITIES[slug];
+  return ent && ent.image ? ent.image : null;
+}
+// ランキング項目名の左に出す小さいサムネ画像。実体に画像が無ければ空文字。
+function entityThumbHtml(name) {
+  const img = entityImageByName(name);
+  return img ? '<img class="rank-thumb" src="' + esc(img) + '" alt="" loading="lazy" />' : '';
 }
 function topicDetailHtml(id) {
   const topic = TOPICS.find(function (t) { return t.id === id; });

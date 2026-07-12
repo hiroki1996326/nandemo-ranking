@@ -150,6 +150,7 @@
 - **画像（Entities.image_url）はWikimedia Commonsのパブリックドメイン/CC0/CCライセンス画像のみ使用可**。Google画像検索などから出典不明の画像を貼らない。CCライセンスで表記義務がある場合は`image_credit`に記入し、サイト上にも表示する
 - **国（type=country）の画像は例外的にflagcdn.com（flag-icons、MIT License）の国旗を使う**（`scripts/fetch_country_flags.py`）。国コードで一意に決まり、Wikipedia記事マッチングより確実で画質もシャープなため
 - **1〜3位の王冠アイコン（`public/images/icons/rank-crown-*.webp`）はことのはわーくす（ https://kotonohaworks.com/free-icons/oukan/ ）の「ランキング王冠」素材を使用**。商用利用可・クレジット表記不要・改変可（2026-07-12確認）
+- **記事サムネイル（`public/images/topics/*.webp`）はFlux(fal.ai)でAI生成する**（`scripts/generate_topic_thumbnails.py`）。背景生成プロンプトは英語のカテゴリ・被写体説明のみで構成し、日本語のタイトル文字列は一切含めない（含めると和風/アニメ調に偏る問題を確認済み）。タイトル文字はPillowで背景と別に合成する
 
 ---
 

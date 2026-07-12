@@ -148,6 +148,7 @@
 - 一次データは統計局・省庁・公的機関のものを優先し、必ず出典元へのリンクを明記
 - 二次加工（グラフ化・解説文）は自作。転載はしない
 - **画像（Entities.image_url）はWikimedia Commonsのパブリックドメイン/CC0/CCライセンス画像のみ使用可**。Google画像検索などから出典不明の画像を貼らない。CCライセンスで表記義務がある場合は`image_credit`に記入し、サイト上にも表示する
+- **国（type=country）の画像は例外的にflagcdn.com（flag-icons、MIT License）の国旗を使う**（`scripts/fetch_country_flags.py`）。国コードで一意に決まり、Wikipedia記事マッチングより確実で画質もシャープなため
 
 ---
 

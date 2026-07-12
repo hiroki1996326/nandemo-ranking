@@ -124,7 +124,7 @@ window.ENTITIES_DATA = {
   'usa': {
     'name': 'アメリカ',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/usa.webp',
     'imageCredit': '',
   },
   'entity-143': {
@@ -178,7 +178,7 @@ window.ENTITIES_DATA = {
   'pakistan': {
     'name': 'パキスタン',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/pakistan.webp',
     'imageCredit': '',
   },
   'entity-039': {
@@ -190,7 +190,7 @@ window.ENTITIES_DATA = {
   'nigeria': {
     'name': 'ナイジェリア',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/nigeria.webp',
     'imageCredit': '',
   },
   'entity-035': {
@@ -232,7 +232,7 @@ window.ENTITIES_DATA = {
   'uk': {
     'name': 'イギリス',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/uk.webp',
     'imageCredit': '',
   },
   'entity-172': {
@@ -406,13 +406,13 @@ window.ENTITIES_DATA = {
   'ethiopia': {
     'name': 'エチオピア',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/ethiopia.webp',
     'imageCredit': '',
   },
   'china': {
     'name': '中国',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/china.webp',
     'imageCredit': '',
   },
   'entity-023': {
@@ -568,7 +568,7 @@ window.ENTITIES_DATA = {
   'india': {
     'name': 'インド',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/india.webp',
     'imageCredit': '',
   },
   'entity-135': {
@@ -634,7 +634,7 @@ window.ENTITIES_DATA = {
   'netherlands': {
     'name': 'オランダ',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/netherlands.webp',
     'imageCredit': '',
   },
   'entity-096': {
@@ -664,7 +664,7 @@ window.ENTITIES_DATA = {
   'italy': {
     'name': 'イタリア',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/italy.webp',
     'imageCredit': '',
   },
   'tokyo': {
@@ -676,13 +676,13 @@ window.ENTITIES_DATA = {
   'russia': {
     'name': 'ロシア',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/russia.webp',
     'imageCredit': '',
   },
   'australia': {
     'name': 'オーストラリア',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/australia.webp',
     'imageCredit': '',
   },
   'entity-052': {
@@ -766,7 +766,7 @@ window.ENTITIES_DATA = {
   'france': {
     'name': 'フランス',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/france.webp',
     'imageCredit': '',
   },
   'entity-053': {
@@ -826,7 +826,7 @@ window.ENTITIES_DATA = {
   'indonesia': {
     'name': 'インドネシア',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/indonesia.webp',
     'imageCredit': '',
   },
   'niigata': {
@@ -898,7 +898,7 @@ window.ENTITIES_DATA = {
   'hong-kong': {
     'name': '香港',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/hong-kong.webp',
     'imageCredit': '',
   },
   'entity-090': {
@@ -970,7 +970,7 @@ window.ENTITIES_DATA = {
   'canada': {
     'name': 'カナダ',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/canada.webp',
     'imageCredit': '',
   },
   'entity-150': {
@@ -1012,7 +1012,7 @@ window.ENTITIES_DATA = {
   'thailand': {
     'name': 'タイ',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/thailand.webp',
     'imageCredit': '',
   },
   'entity-021': {
@@ -1246,7 +1246,7 @@ window.ENTITIES_DATA = {
   'bangladesh': {
     'name': 'バングラデシュ',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/bangladesh.webp',
     'imageCredit': '',
   },
   'entity-115': {
@@ -1264,7 +1264,7 @@ window.ENTITIES_DATA = {
   'south-korea': {
     'name': '韓国',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/south-korea.webp',
     'imageCredit': '',
   },
   'entity-158': {
@@ -1354,7 +1354,7 @@ window.ENTITIES_DATA = {
   'spain': {
     'name': 'スペイン',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/spain.webp',
     'imageCredit': '',
   },
   'entity-134': {
@@ -1414,7 +1414,7 @@ window.ENTITIES_DATA = {
   'japan': {
     'name': '日本',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/japan.webp',
     'imageCredit': '',
   },
   'entity-104': {
@@ -1690,7 +1690,7 @@ window.ENTITIES_DATA = {
   'mexico': {
     'name': 'メキシコ',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/mexico.webp',
     'imageCredit': '',
   },
   'entity-048': {
@@ -1762,7 +1762,7 @@ window.ENTITIES_DATA = {
   'germany': {
     'name': 'ドイツ',
     'type': 'country',
-    'image': null,
+    'image': '/images/entities/germany.webp',
     'imageCredit': '',
   },
   'entity-030': {

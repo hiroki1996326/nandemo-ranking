@@ -21,6 +21,74 @@ window.RANKING_DATA = {
   ],
   'topics': [
     {
+      'id': 'sekai-heikinjumyo-kuni',
+      'title': '世界の平均寿命ランキング（国別）',
+      'category': 'jinko',
+      'unit': '歳',
+      'source': 'WHO世界保健統計2025年版',
+      'sourceUrl': 'https://sekai-hub.com/posts/life-expectancy-ranking-2024',
+      'updateFrequency': 'yearly',
+      'updatedAt': '2026-07-12',
+      'lead': 'WHOが2025年5月に発表した世界保健統計によると、平均寿命が最も長い国は日本で84.5歳。2位シンガポール（83.9歳）を0.6歳上回る。',
+      'commentary': '上位10カ国のうち5カ国がヨーロッパ、2カ国がアジアで、いずれも高所得国が占めている。',
+      'analysisHeading': '上位10カ国は高所得国が中心、日本がアジア勢で最上位',
+      'analysis': [
+        '日本の平均寿命は84.5歳で世界1位。2位シンガポール（83.9歳）、3位韓国（83.8歳）とアジア勢が上位に並ぶ。',
+        '世界全体の平均寿命は71.4歳であり、上位国は世界平均を10歳以上上回っている。',
+      ],
+      'periods': [
+        {
+          'period': null,
+          'entries': [
+            {
+              'name': '日本',
+              'value': 84.5,
+              'note': '平均寿命84.5歳で世界1位。2位以下に0.6歳以上の差をつけている。',
+            },
+            {
+              'name': 'シンガポール',
+              'value': 83.9,
+              'note': '平均寿命83.9歳で世界2位。アジアで日本に次ぐ長寿国。',
+            },
+            {
+              'name': '韓国',
+              'value': 83.8,
+              'note': '平均寿命83.8歳で世界3位。上位3カ国はいずれもアジア勢。',
+            },
+            {
+              'name': 'スイス',
+              'value': 83.3,
+            },
+            {
+              'name': 'オーストラリア',
+              'value': 83.1,
+            },
+            {
+              'name': 'ノルウェー',
+              'value': 82.9,
+            },
+            {
+              'name': 'ルクセンブルク',
+              'value': 82.8,
+            },
+            {
+              'name': 'スペイン',
+              'value': 82.7,
+            },
+            {
+              'name': 'スウェーデン',
+              'value': 82.7,
+            },
+            {
+              'name': 'アイスランド',
+              'value': 82.6,
+            },
+          ],
+        },
+      ],
+      'thumbnail': null,
+    },
+    {
       'id': 'yushutsugaku-kuni',
       'title': '国・地域別 輸出額ランキング',
       'category': 'keizai',
@@ -87,6 +155,66 @@ window.RANKING_DATA = {
         },
       ],
       'thumbnail': '/images/topics/yushutsugaku-kuni.webp',
+    },
+    {
+      'id': 'sekai-sabaku-menseki',
+      'title': '世界の砂漠面積ランキング',
+      'category': 'chiri',
+      'unit': 'km²',
+      'source': '各種地理統計（南極・北極の氷雪砂漠を除く）',
+      'sourceUrl': 'https://yattoke.com/2018/01/26/desert-ranking/',
+      'updateFrequency': 'static',
+      'updatedAt': '2026-07-12',
+      'lead': '世界最大の砂漠はサハラ砂漠で約910万km²。2位アラビア砂漠の約3.5倍の面積を持つ（南極・北極の氷雪砂漠を除く一般的な定義による）。',
+      'commentary': '砂漠の定義は「降水量が極端に少なく乾燥した地域」で、南極・北極の氷雪砂漠を含めるかどうかでランキングが変わる。本記事では氷雪砂漠を除いた一般的な定義で集計している。',
+      'analysisHeading': 'サハラ砂漠が2位以下を大きく引き離す世界最大の砂漠',
+      'analysis': [
+        'サハラ砂漠の面積は約910万km²で世界最大。2位アラビア砂漠（約260万km²）の約3.5倍の広さを持つ。',
+        '3位ゴビ砂漠（約130万km²）まではアフリカ・中東・アジアの砂漠が並び、4位以下は南半球のパタゴニア・グレートビクトリア砂漠・カラハリ砂漠が続く。',
+      ],
+      'periods': [
+        {
+          'period': null,
+          'entries': [
+            {
+              'name': 'サハラ砂漠',
+              'value': 9100000,
+              'note': 'アフリカ大陸北部に広がる世界最大の砂漠。面積は約910万km²。',
+            },
+            {
+              'name': 'アラビア砂漠',
+              'value': 2600000,
+              'note': 'アラビア半島の大部分を占める世界2位の砂漠。',
+            },
+            {
+              'name': 'ゴビ砂漠',
+              'value': 1300000,
+              'note': 'モンゴルと中国にまたがる世界3位の砂漠。',
+            },
+            {
+              'name': 'パタゴニア',
+              'value': 670000,
+            },
+            {
+              'name': 'グレートビクトリア砂漠',
+              'value': 647000,
+            },
+            {
+              'name': 'カラハリ砂漠',
+              'value': 570000,
+            },
+            {
+              'name': 'シリア砂漠',
+              'value': 490000,
+            },
+            {
+              'name': 'グレートベースン',
+              'value': 490000,
+            },
+          ],
+        },
+      ],
+      'thumbnail': null,
     },
     {
       'id': 'kome-shukakuryo-todofuken',
@@ -403,6 +531,74 @@ window.RANKING_DATA = {
         },
       ],
       'thumbnail': '/images/topics/sekai-kuni-menseki.webp',
+    },
+    {
+      'id': 'natsuki-olympic-kin-medal-kuni',
+      'title': '夏季オリンピック金メダル獲得数ランキング（国別・歴代）',
+      'category': 'sports',
+      'unit': '個',
+      'source': 'Wikipedia「近代オリンピックでの国・地域別メダル総獲得数一覧」（パリ2024大会まで集計）',
+      'sourceUrl': 'https://ja.wikipedia.org/wiki/%E8%BF%91%E4%BB%A3%E3%82%AA%E3%83%AA%E3%83%B3%E3%83%94%E3%83%83%E3%82%AF%E3%81%A7%E3%81%AE%E5%9B%BD%E3%83%BB%E5%9C%B0%E5%9F%9F%E5%88%A5%E3%83%A1%E3%83%80%E3%83%AB%E7%B7%8F%E7%8D%B2%E5%BE%97%E6%95%B0%E4%B8%80%E8%A6%A7',
+      'updateFrequency': 'irregular',
+      'updatedAt': '2026-07-12',
+      'lead': '夏季オリンピックの歴代金メダル獲得数（パリ2024大会まで）はアメリカが1,101個で世界最多。2位ソビエト連邦（395個、1952〜1988年参加）の約2.8倍にあたる。',
+      'commentary': 'ソビエト連邦は1991年に解体しているが、参加した大会（1952〜1988年）の獲得メダルは歴代集計に含まれる。',
+      'analysisHeading': 'アメリカが2位ソビエト連邦の約2.8倍で歴代最多',
+      'analysis': [
+        'アメリカの歴代金メダル獲得数は1,101個で、2位ソビエト連邦（395個）の約2.8倍にあたる。',
+        '日本は189個で8位。アジア勢では最上位につけている。',
+      ],
+      'periods': [
+        {
+          'period': null,
+          'entries': [
+            {
+              'name': 'アメリカ',
+              'value': 1101,
+              'note': '歴代金メダル1,101個で世界最多。2位の約2.8倍の獲得数を持つ。',
+            },
+            {
+              'name': 'ソビエト連邦',
+              'value': 395,
+              'note': '1952〜1988年に参加し395個の金メダルを獲得。1991年の解体後も歴代集計に含まれる。',
+            },
+            {
+              'name': '中国',
+              'value': 303,
+              'note': '歴代金メダル303個で世界3位。1984年ロサンゼルス大会から本格参加。',
+            },
+            {
+              'name': 'イギリス',
+              'value': 298,
+            },
+            {
+              'name': 'フランス',
+              'value': 239,
+            },
+            {
+              'name': 'イタリア',
+              'value': 229,
+            },
+            {
+              'name': 'ドイツ',
+              'value': 213,
+            },
+            {
+              'name': '日本',
+              'value': 189,
+            },
+            {
+              'name': 'ハンガリー',
+              'value': 187,
+            },
+            {
+              'name': 'オーストラリア',
+              'value': 182,
+            },
+          ],
+        },
+      ],
+      'thumbnail': null,
     },
     {
       'id': 'sekai-gengo-washa',
@@ -917,6 +1113,74 @@ window.RANKING_DATA = {
       'thumbnail': '/images/topics/jinko-todofuken.webp',
     },
     {
+      'id': 'nihon-taki-rakusa',
+      'title': '日本の滝の落差ランキング',
+      'category': 'chiri',
+      'unit': 'm',
+      'source': '滝ペディア',
+      'sourceUrl': 'https://takipedia.com/ranking/rakusa',
+      'updateFrequency': 'static',
+      'updatedAt': '2026-07-12',
+      'lead': '日本一落差が大きい滝は富山県のハンノキ滝で500m。ただし雪解け水が豊富な春から初夏にかけてのみ出現する季節限定の滝で、年間を通じて流れ続ける滝としては同じ称名峡谷の称名滝（350m）が最大となる。',
+      'commentary': '上位10件のうち3件が新潟県・富山県に集中しており、日本海側の急峻な地形を反映している。',
+      'analysisHeading': 'ハンノキ滝は季節限定、通年で流れる滝としては称名滝が最大',
+      'analysis': [
+        'ハンノキ滝（富山県）の落差は500mで日本最大だが、雪解け水を水源とする季節限定の滝であり、通年では流れていない。',
+        '通年で流れ続ける滝としては、同じ称名峡谷にある称名滝（350m）が日本最大の落差を持つ。',
+      ],
+      'periods': [
+        {
+          'period': null,
+          'entries': [
+            {
+              'name': 'ハンノキ滝',
+              'value': 500,
+              'note': '落差500mで日本最大。ただし雪解け水源のため春〜初夏の季節限定で出現する。',
+            },
+            {
+              'name': '称名滝',
+              'value': 350,
+              'note': '落差350m。通年で流れ続ける滝としては日本最大の落差を持つ。',
+            },
+            {
+              'name': '布晒の滝',
+              'value': 300,
+              'note': '新潟県にある落差300mの滝。',
+            },
+            {
+              'name': '羽衣の滝',
+              'value': 270,
+            },
+            {
+              'name': 'ヌク沢大滝',
+              'value': 260,
+            },
+            {
+              'name': '右俣の大滝',
+              'value': 250,
+            },
+            {
+              'name': '中の滝',
+              'value': 250,
+            },
+            {
+              'name': 'ガンガラシバナの大滝',
+              'value': 200,
+            },
+            {
+              'name': 'オロオソロシノ滝',
+              'value': 200,
+            },
+            {
+              'name': '梅花皮滝',
+              'value': 200,
+            },
+          ],
+        },
+      ],
+      'thumbnail': null,
+    },
+    {
       'id': 'sekai-kawa-nagasa',
       'title': '世界の川の長さランキング',
       'category': 'chiri',
@@ -1379,6 +1643,74 @@ window.RANKING_DATA = {
         },
       ],
       'thumbnail': '/images/topics/gyokakuryo-todofuken.webp',
+    },
+    {
+      'id': 'sekai-jidousha-seisan-kuni',
+      'title': '世界の自動車生産台数ランキング（国別）',
+      'category': 'keizai',
+      'unit': '台',
+      'source': 'OICA（国際自動車工業会）',
+      'sourceUrl': 'https://www.globalnote.jp/post-3184.html',
+      'updateFrequency': 'yearly',
+      'updatedAt': '2026-07-12',
+      'lead': '2024年の自動車生産台数は中国が3,128万台超で世界最多。2位アメリカの約3倍の規模で、単独で世界生産の3分の1以上を占める。',
+      'commentary': '上位10カ国は北米・欧州・アジアに分散しているが、生産規模では中国が他を大きく引き離している。',
+      'analysisHeading': '中国が2位アメリカの約3倍、世界生産の3分の1以上を占める',
+      'analysis': [
+        '中国の自動車生産台数は3,128万1,592台で世界1位。2位アメリカ（1,056万2,188台）の約3倍にあたる。',
+        '3位日本（823万4,681台）、4位インド（601万4,691台）と続き、上位4カ国で世界生産の過半数を占める。',
+      ],
+      'periods': [
+        {
+          'period': null,
+          'entries': [
+            {
+              'name': '中国',
+              'value': 31281592,
+              'note': '2024年の生産台数は3,128万台超。2位アメリカの約3倍の規模で世界最大の自動車生産国。',
+            },
+            {
+              'name': 'アメリカ',
+              'value': 10562188,
+              'note': '生産台数は1,056万台超で世界2位。国内市場向け生産が中心。',
+            },
+            {
+              'name': '日本',
+              'value': 8234681,
+              'note': '生産台数は823万台超で世界3位。輸出向け生産の比率が高い。',
+            },
+            {
+              'name': 'インド',
+              'value': 6014691,
+            },
+            {
+              'name': 'メキシコ',
+              'value': 4202642,
+            },
+            {
+              'name': '韓国',
+              'value': 4127252,
+            },
+            {
+              'name': 'ドイツ',
+              'value': 4069222,
+            },
+            {
+              'name': 'ブラジル',
+              'value': 2549595,
+            },
+            {
+              'name': 'スペイン',
+              'value': 2376504,
+            },
+            {
+              'name': 'タイ',
+              'value': 1468997,
+            },
+          ],
+        },
+      ],
+      'thumbnail': null,
     },
     {
       'id': 'nihon-yama-takasa',

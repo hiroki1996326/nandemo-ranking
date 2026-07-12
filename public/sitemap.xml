@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://rankin-q.com/</loc></url>
+  <url><loc>https://rankin-q.com/category/jinko</loc></url>
   <url><loc>https://rankin-q.com/category/keizai</loc></url>
   <url><loc>https://rankin-q.com/category/chiri</loc></url>
-  <url><loc>https://rankin-q.com/category/jinko</loc></url>
   <url><loc>https://rankin-q.com/category/sports</loc></url>
+  <url><loc>https://rankin-q.com/topic/sekai-heikinjumyo-kuni</loc><lastmod>2026-07-12</lastmod></url>
   <url><loc>https://rankin-q.com/topic/yushutsugaku-kuni</loc><lastmod>2026-01-01</lastmod></url>
+  <url><loc>https://rankin-q.com/topic/sekai-sabaku-menseki</loc><lastmod>2026-07-12</lastmod></url>
   <url><loc>https://rankin-q.com/topic/kome-shukakuryo-todofuken</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-kuni-menseki</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://rankin-q.com/topic/natsuki-olympic-kin-medal-kuni</loc><lastmod>2026-07-12</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-gengo-washa</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-takai-yama</loc><lastmod>2026-01-15</lastmod></url>
   <url><loc>https://rankin-q.com/topic/kogyo-shunyu-eiga</loc><lastmod>2026-01-01</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-shima-menseki</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-koki-eiga</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://rankin-q.com/topic/jinko-todofuken</loc><lastmod>2025-10-01</lastmod></url>
+  <url><loc>https://rankin-q.com/topic/nihon-taki-rakusa</loc><lastmod>2026-07-12</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-kawa-nagasa</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://rankin-q.com/topic/nihon-nagai-kawa</loc><lastmod>2026-01-15</lastmod></url>
   <url><loc>https://rankin-q.com/topic/nanadairiku-saikoho</loc><lastmod>2026-07-10</lastmod></url>
@@ -21,6 +25,7 @@
   <url><loc>https://rankin-q.com/topic/sekai-koso-biru</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://rankin-q.com/topic/nihon-koso-biru</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://rankin-q.com/topic/gyokakuryo-todofuken</loc><lastmod>2024-01-01</lastmod></url>
+  <url><loc>https://rankin-q.com/topic/sekai-jidousha-seisan-kuni</loc><lastmod>2026-07-12</lastmod></url>
   <url><loc>https://rankin-q.com/topic/nihon-yama-takasa</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://rankin-q.com/topic/nihon-mizuumi-menseki</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-mizuumi-menseki</loc><lastmod>2026-07-10</lastmod></url>
@@ -51,12 +56,15 @@
   <url><loc>https://rankin-q.com/entity/entity-025</loc></url>
   <url><loc>https://rankin-q.com/entity/fukui</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-184</loc></url>
+  <url><loc>https://rankin-q.com/entity/hagoromo-falls</loc></url>
+  <url><loc>https://rankin-q.com/entity-type/waterfall</loc></url>
   <url><loc>https://rankin-q.com/entity/usa</loc></url>
   <url><loc>https://rankin-q.com/entity-type/country</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-143</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-001</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-011</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-032</loc></url>
+  <url><loc>https://rankin-q.com/entity/iceland</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-065</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-175</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-006</loc></url>
@@ -73,6 +81,7 @@
   <url><loc>https://rankin-q.com/entity/uk</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-172</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-038</loc></url>
+  <url><loc>https://rankin-q.com/entity/soviet-union</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-198</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-148</loc></url>
   <url><loc>https://rankin-q.com/entity/shiga</loc></url>
@@ -89,6 +98,7 @@
   <url><loc>https://rankin-q.com/entity/entity-110</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-161</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-033</loc></url>
+  <url><loc>https://rankin-q.com/entity/nunosarashi-falls</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-063</loc></url>
   <url><loc>https://rankin-q.com/entity/saga</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-109</loc></url>
@@ -96,8 +106,11 @@
   <url><loc>https://rankin-q.com/entity/entity-112</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-227</loc></url>
   <url><loc>https://rankin-q.com/entity/ehime</loc></url>
+  <url><loc>https://rankin-q.com/entity/gobi-desert</loc></url>
+  <url><loc>https://rankin-q.com/entity-type/desert</loc></url>
   <url><loc>https://rankin-q.com/entity/kanagawa</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-217</loc></url>
+  <url><loc>https://rankin-q.com/entity/norway</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-129</loc></url>
   <url><loc>https://rankin-q.com/entity/ethiopia</loc></url>
   <url><loc>https://rankin-q.com/entity/china</loc></url>
@@ -143,6 +156,7 @@
   <url><loc>https://rankin-q.com/entity/entity-085</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-058</loc></url>
   <url><loc>https://rankin-q.com/entity/italy</loc></url>
+  <url><loc>https://rankin-q.com/entity/gangarashibana-falls</loc></url>
   <url><loc>https://rankin-q.com/entity/tokyo</loc></url>
   <url><loc>https://rankin-q.com/entity/russia</loc></url>
   <url><loc>https://rankin-q.com/entity/australia</loc></url>
@@ -158,6 +172,7 @@
   <url><loc>https://rankin-q.com/entity/entity-101</loc></url>
   <url><loc>https://rankin-q.com/entity/okinawa</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-133</loc></url>
+  <url><loc>https://rankin-q.com/entity/luxembourg</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-152</loc></url>
   <url><loc>https://rankin-q.com/entity/france</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-053</loc></url>
@@ -165,6 +180,7 @@
   <url><loc>https://rankin-q.com/entity/entity-064</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-073</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-181</loc></url>
+  <url><loc>https://rankin-q.com/entity/arabian-desert</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-046</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-192</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-016</loc></url>
@@ -176,6 +192,7 @@
   <url><loc>https://rankin-q.com/entity/entity-070</loc></url>
   <url><loc>https://rankin-q.com/entity/kagoshima</loc></url>
   <url><loc>https://rankin-q.com/entity/aomori</loc></url>
+  <url><loc>https://rankin-q.com/entity/sweden</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-165</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-188</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-123</loc></url>
@@ -196,6 +213,7 @@
   <url><loc>https://rankin-q.com/entity/canada</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-150</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-212</loc></url>
+  <url><loc>https://rankin-q.com/entity/great-basin-desert</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-157</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-186</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-027</loc></url>
@@ -204,6 +222,7 @@
   <url><loc>https://rankin-q.com/entity/entity-021</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-093</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-196</loc></url>
+  <url><loc>https://rankin-q.com/entity/hungary</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-037</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-019</loc></url>
   <url><loc>https://rankin-q.com/entity/saitama</loc></url>
@@ -227,6 +246,7 @@
   <url><loc>https://rankin-q.com/entity/entity-203</loc></url>
   <url><loc>https://rankin-q.com/entity/fukushima</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-002</loc></url>
+  <url><loc>https://rankin-q.com/entity/singapore</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-160</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-054</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-051</loc></url>
@@ -236,6 +256,7 @@
   <url><loc>https://rankin-q.com/entity/entity-015</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-020</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-116</loc></url>
+  <url><loc>https://rankin-q.com/entity/sahara-desert</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-125</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-156</loc></url>
   <url><loc>https://rankin-q.com/entity/gifu</loc></url>
@@ -244,6 +265,7 @@
   <url><loc>https://rankin-q.com/entity/entity-095</loc></url>
   <url><loc>https://rankin-q.com/entity/south-korea</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-158</loc></url>
+  <url><loc>https://rankin-q.com/entity/patagonian-desert</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-215</loc></url>
   <url><loc>https://rankin-q.com/entity/hokkaido</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-089</loc></url>
@@ -258,17 +280,23 @@
   <url><loc>https://rankin-q.com/entity/entity-087</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-146</loc></url>
   <url><loc>https://rankin-q.com/entity/spain</loc></url>
+  <url><loc>https://rankin-q.com/entity/nukusawa-falls</loc></url>
+  <url><loc>https://rankin-q.com/entity/syrian-desert</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-134</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-193</loc></url>
+  <url><loc>https://rankin-q.com/entity/switzerland</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-062</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-174</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-190</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-182</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-068</loc></url>
+  <url><loc>https://rankin-q.com/entity/migimata-falls</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-111</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-141</loc></url>
   <url><loc>https://rankin-q.com/entity/japan</loc></url>
+  <url><loc>https://rankin-q.com/entity/kaifu-falls</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-104</loc></url>
+  <url><loc>https://rankin-q.com/entity/great-victoria-desert</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-047</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-081</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-009</loc></url>
@@ -276,10 +304,13 @@
   <url><loc>https://rankin-q.com/entity/entity-013</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-177</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-056</loc></url>
+  <url><loc>https://rankin-q.com/entity/kalahari-desert</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-121</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-084</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-228</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-050</loc></url>
+  <url><loc>https://rankin-q.com/entity/nakanotaki-falls</loc></url>
+  <url><loc>https://rankin-q.com/entity/shomyo-falls</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-071</loc></url>
   <url><loc>https://rankin-q.com/entity/nagasaki</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-140</loc></url>
@@ -297,6 +328,7 @@
   <url><loc>https://rankin-q.com/entity/entity-201</loc></url>
   <url><loc>https://rankin-q.com/entity/gunma</loc></url>
   <url><loc>https://rankin-q.com/entity/yamagata</loc></url>
+  <url><loc>https://rankin-q.com/entity/hannoki-falls</loc></url>
   <url><loc>https://rankin-q.com/entity/hiroshima</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-145</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-029</loc></url>
@@ -306,6 +338,7 @@
   <url><loc>https://rankin-q.com/entity/wakayama</loc></url>
   <url><loc>https://rankin-q.com/entity/miyagi</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-057</loc></url>
+  <url><loc>https://rankin-q.com/entity/orosoroshino-falls</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-076</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-183</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-132</loc></url>

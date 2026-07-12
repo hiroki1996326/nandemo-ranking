@@ -121,6 +121,12 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'hagoromo-falls': {
+    'name': '羽衣の滝',
+    'type': 'waterfall',
+    'image': null,
+    'imageCredit': '',
+  },
   'usa': {
     'name': 'アメリカ',
     'type': 'country',
@@ -148,6 +154,12 @@ window.ENTITIES_DATA = {
   'entity-032': {
     'name': '虎ノ門ヒルズ ステーションタワー',
     'type': null,
+    'image': null,
+    'imageCredit': '',
+  },
+  'iceland': {
+    'name': 'アイスランド',
+    'type': 'country',
     'image': null,
     'imageCredit': '',
   },
@@ -247,6 +259,12 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'soviet-union': {
+    'name': 'ソビエト連邦',
+    'type': 'country',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-198': {
     'name': 'ガッシャーブルムI峰',
     'type': null,
@@ -343,6 +361,12 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'nunosarashi-falls': {
+    'name': '布晒の滝',
+    'type': 'waterfall',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-063': {
     'name': '黄河',
     'type': null,
@@ -385,6 +409,12 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'gobi-desert': {
+    'name': 'ゴビ砂漠',
+    'type': 'desert',
+    'image': null,
+    'imageCredit': '',
+  },
   'kanagawa': {
     'name': '神奈川県',
     'type': 'prefecture',
@@ -394,6 +424,12 @@ window.ENTITIES_DATA = {
   'entity-217': {
     'name': '悪沢岳',
     'type': null,
+    'image': null,
+    'imageCredit': '',
+  },
+  'norway': {
+    'name': 'ノルウェー',
+    'type': 'country',
     'image': null,
     'imageCredit': '',
   },
@@ -667,6 +703,12 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/italy.webp',
     'imageCredit': '',
   },
+  'gangarashibana-falls': {
+    'name': 'ガンガラシバナの大滝',
+    'type': 'waterfall',
+    'image': null,
+    'imageCredit': '',
+  },
   'tokyo': {
     'name': '東京都',
     'type': 'prefecture',
@@ -757,6 +799,12 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'luxembourg': {
+    'name': 'ルクセンブルク',
+    'type': 'country',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-152': {
     'name': 'ヒューロン湖',
     'type': null,
@@ -796,6 +844,12 @@ window.ENTITIES_DATA = {
   'entity-181': {
     'name': 'バンクス島',
     'type': null,
+    'image': null,
+    'imageCredit': '',
+  },
+  'arabian-desert': {
+    'name': 'アラビア砂漠',
+    'type': 'desert',
     'image': null,
     'imageCredit': '',
   },
@@ -862,6 +916,12 @@ window.ENTITIES_DATA = {
   'aomori': {
     'name': '青森県',
     'type': 'prefecture',
+    'image': null,
+    'imageCredit': '',
+  },
+  'sweden': {
+    'name': 'スウェーデン',
+    'type': 'country',
     'image': null,
     'imageCredit': '',
   },
@@ -985,6 +1045,12 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/entity-212.webp',
     'imageCredit': 'Gifu-sizu / CC0',
   },
+  'great-basin-desert': {
+    'name': 'グレートベースン',
+    'type': 'desert',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-157': {
     'name': 'マラウイ湖',
     'type': null,
@@ -1030,6 +1096,12 @@ window.ENTITIES_DATA = {
   'entity-196': {
     'name': 'ナンガ・パルバット',
     'type': null,
+    'image': null,
+    'imageCredit': '',
+  },
+  'hungary': {
+    'name': 'ハンガリー',
+    'type': 'country',
     'image': null,
     'imageCredit': '',
   },
@@ -1171,6 +1243,12 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'singapore': {
+    'name': 'シンガポール',
+    'type': 'country',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-160': {
     'name': 'ニューギニア島',
     'type': null,
@@ -1225,6 +1303,12 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'sahara-desert': {
+    'name': 'サハラ砂漠',
+    'type': 'desert',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-125': {
     'name': 'マダガスカル',
     'type': null,
@@ -1270,6 +1354,12 @@ window.ENTITIES_DATA = {
   'entity-158': {
     'name': 'グレートスレーブ湖',
     'type': null,
+    'image': null,
+    'imageCredit': '',
+  },
+  'patagonian-desert': {
+    'name': 'パタゴニア',
+    'type': 'desert',
     'image': null,
     'imageCredit': '',
   },
@@ -1357,6 +1447,18 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/spain.webp',
     'imageCredit': '',
   },
+  'nukusawa-falls': {
+    'name': 'ヌク沢大滝',
+    'type': 'waterfall',
+    'image': null,
+    'imageCredit': '',
+  },
+  'syrian-desert': {
+    'name': 'シリア砂漠',
+    'type': 'desert',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-134': {
     'name': '機動戦士ガンダムSEED FREEDOM',
     'type': null,
@@ -1366,6 +1468,12 @@ window.ENTITIES_DATA = {
   'entity-193': {
     'name': 'チョー・オユー',
     'type': null,
+    'image': null,
+    'imageCredit': '',
+  },
+  'switzerland': {
+    'name': 'スイス',
+    'type': 'country',
     'image': null,
     'imageCredit': '',
   },
@@ -1399,6 +1507,12 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'migimata-falls': {
+    'name': '右俣の大滝',
+    'type': 'waterfall',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-111': {
     'name': 'エジプト',
     'type': null,
@@ -1417,9 +1531,21 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/japan.webp',
     'imageCredit': '',
   },
+  'kaifu-falls': {
+    'name': '梅花皮滝',
+    'type': 'waterfall',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-104': {
     'name': 'ニジェール',
     'type': null,
+    'image': null,
+    'imageCredit': '',
+  },
+  'great-victoria-desert': {
+    'name': 'グレートビクトリア砂漠',
+    'type': 'desert',
     'image': null,
     'imageCredit': '',
   },
@@ -1465,6 +1591,12 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'kalahari-desert': {
+    'name': 'カラハリ砂漠',
+    'type': 'desert',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-121': {
     'name': '南スーダン',
     'type': null,
@@ -1486,6 +1618,18 @@ window.ENTITIES_DATA = {
   'entity-050': {
     'name': '能取湖',
     'type': null,
+    'image': null,
+    'imageCredit': '',
+  },
+  'nakanotaki-falls': {
+    'name': '中の滝',
+    'type': 'waterfall',
+    'image': null,
+    'imageCredit': '',
+  },
+  'shomyo-falls': {
+    'name': '称名滝',
+    'type': 'waterfall',
     'image': null,
     'imageCredit': '',
   },
@@ -1591,6 +1735,12 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'hannoki-falls': {
+    'name': 'ハンノキ滝',
+    'type': 'waterfall',
+    'image': null,
+    'imageCredit': '',
+  },
   'hiroshima': {
     'name': '広島県',
     'type': 'prefecture',
@@ -1642,6 +1792,12 @@ window.ENTITIES_DATA = {
   'entity-057': {
     'name': 'ナイル川',
     'type': null,
+    'image': null,
+    'imageCredit': '',
+  },
+  'orosoroshino-falls': {
+    'name': 'オロオソロシノ滝',
+    'type': 'waterfall',
     'image': null,
     'imageCredit': '',
   },

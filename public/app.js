@@ -234,9 +234,7 @@ function topThreeHtml(topic, idx) {
   const top3 = rankedEntries(period).slice(0, 3);
   return '<div class="top3">' + top3.map(function (e) {
     const img = entityImageByName(e.name);
-    const imgHtml = img
-      ? '<img class="top3-img" src="' + esc(img) + '" alt="" loading="lazy" />'
-      : '<span class="top3-img top3-img-none">画像なし</span>';
+    const imgHtml = img ? '<img class="top3-img" src="' + esc(img) + '" alt="" loading="lazy" />' : '';
     return '<div class="top3-card top3-rank' + e.rank + '">' +
       '<div class="top3-left">' +
         '<span class="top3-medal">' + e.rank + '</span>' +

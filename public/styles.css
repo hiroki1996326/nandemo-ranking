@@ -238,10 +238,6 @@ body {
 .top3-rank2 .top3-medal { background: linear-gradient(150deg, var(--silver-2), var(--silver)); }
 .top3-rank3 .top3-medal { background: linear-gradient(150deg, var(--bronze-2), var(--bronze)); }
 .top3-img { width: 72px; height: 54px; object-fit: cover; border-radius: 6px; }
-.top3-img-none {
-  display: flex; align-items: center; justify-content: center; box-sizing: border-box;
-  border: 1px dashed var(--line-strong); color: var(--text-3); font-size: 10.5px;
-}
 .top3-body { flex: 1; min-width: 0; }
 .top3-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
 .top3-name { font-size: 18px; font-weight: 700; line-height: 1.4; }

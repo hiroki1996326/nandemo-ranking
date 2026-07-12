@@ -348,7 +348,7 @@ function topicDetailHtml(id) {
   return '<article class="article" data-topic="' + esc(topic.id) + '">' +
       '<div class="ac-meta">' + tagHtml(topic) + '<span class="ac-date">' + esc(dateLabel(topic)) + ' 更新</span></div>' +
       '<h1 class="article-h1">' + esc(topic.title) + '</h1>' +
-      (topic.thumbnail ? '<img class="article-hero" src="' + esc(topic.thumbnail) + '" alt="" loading="lazy" />' : '') +
+      (topic.thumbnail ? '<img class="article-hero topic-hero" src="' + esc(topic.thumbnail) + '" alt="" loading="lazy" />' : '') +
       (topic.lead ? '<p class="article-lead">' + esc(topic.lead) + '</p>' : '') +
       (topic.commentary ? '<p class="article-body">' + esc(topic.commentary) + '</p>' : '') +
       periodTabsHtml(topic, idx) +

@@ -1,4 +1,4 @@
-// ランキン！ — SPAルーター（記事メディア風レイアウト）
+// ランキンQ — SPAルーター（記事メディア風レイアウト）
 //   /                トップ（特集記事 + 新着記事一覧）
 //   /category/{id}   カテゴリ内の記事一覧
 //   /topic/{id}       個別記事（リード文 + 順位表 + 本文 + 出典）
@@ -420,7 +420,7 @@ function navHtml() {
     return '<a href="/category/' + esc(c.id) + '">' + esc(c.name) + '</a>';
   }).join('');
 }
-const SITE_NAME = 'ランキン！';
+const SITE_NAME = 'ランキンQ';
 const SITE_DEFAULT_DESC = '人口・面積・GDP・漁獲量など、統計や記録にもとづく「事実」のランキングを、出典つきで届けるサイト。ユーザー投票・投稿によるランキングは扱いません。';
 // canonical / og:url は本番ドメイン固定の絶対URLにする（プレビュー環境のURLがcanonicalに漏れないように）。
 const CANONICAL_ORIGIN = 'https://rankin-q.com';

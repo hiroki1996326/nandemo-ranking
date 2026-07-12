@@ -237,7 +237,7 @@ function topThreeHtml(topic, idx) {
     const imgHtml = img ? '<img class="top3-img" src="' + esc(img) + '" alt="" loading="lazy" />' : '';
     return '<div class="top3-card top3-rank' + e.rank + '">' +
       '<div class="top3-left">' +
-        '<span class="top3-medal">' + e.rank + '</span>' +
+        '<img class="top3-crown" src="/images/icons/rank-crown-' + e.rank + '.webp" alt="' + e.rank + '位" loading="lazy" />' +
         imgHtml +
       '</div>' +
       '<div class="top3-body">' +

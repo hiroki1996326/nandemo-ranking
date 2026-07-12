@@ -63,34 +63,76 @@ ENTITY_IMAGES_DIR = os.path.join(PUBLIC_DIR, 'images', 'entities')
 TOPIC_IMAGES_DIR = os.path.join(PUBLIC_DIR, 'images', 'topics')
 FONT_PATH = os.path.join(os.path.dirname(__file__), 'assets', 'NotoSansJP-Bold.ttf')
 
-# 全画像共通のスタイル指定（統一感を出すため毎回付与する）
+# 全画像共通のスタイル指定。プロンプトの言語自体が絵柄に影響するため、
+# 日本語の固有名詞をそのまま渡すと「和風・墨絵」に寄る事故が起きる。
+# そのため実体名は英語に変換できる場合のみプロンプトに含め、指示は必ず英語で統一する。
 STYLE_SUFFIX = (
-    'flat vector illustration, minimalist design, soft muted color palette, '
-    'simple clean background, no text, no watermark, no logo'
+    'flat vector illustration in a modern international design style (not Japanese/ukiyo-e/sumi-e style), '
+    'minimalist, soft muted color palette, simple clean background, '
+    'no text, no letters, no characters, no watermark, no logo'
 )
 
 CATEGORY_HINT = {
-    'keizai': 'economy and industry theme, charts and trade',
-    'jinko': 'population and society theme, people and city',
-    'chiri': 'geography and nature theme, landscape',
-    'sports': 'sports and entertainment theme, stadium',
+    'keizai': 'economy and industry theme, bar charts and global trade',
+    'jinko': 'population and society theme, silhouettes of people and a city skyline',
+    'chiri': 'geography and nature theme, landscape scenery',
+    'sports': 'sports and entertainment theme, a stadium',
 }
 
+# 英語で説明できるtypeだけ対象にする。ここに無いtype（religion/language/otherなど、
+# 絵にすると誤解を招きやすい・そもそも風景化できない概念）は生成対象から除外する。
 TYPE_HINT = {
-    'prefecture': 'Japanese prefecture landscape',
-    'country': 'country landmark landscape',
-    'mountain': 'mountain landscape',
-    'lake': 'lake landscape',
-    'river': 'river landscape',
-    'building': 'landmark building',
-    'movie': 'cinema and film theme',
-    'religion': 'religious symbol, respectful and neutral depiction',
-    'language': 'books and letters theme',
-    'food': 'food photography style illustration',
-    'ocean': 'ocean landscape',
-    'continent': 'world map continent theme',
-    'other': 'abstract minimal icon',
+    'prefecture': 'a scenic landscape representative of this Japanese prefecture',
+    'country': 'a scenic landscape with a well-known landmark of this country',
+    'mountain': 'a mountain landscape',
+    'lake': 'a lake landscape surrounded by nature',
+    'river': 'a river landscape',
+    'building': 'a tall landmark building',
+    'ocean': 'an ocean landscape',
+    'continent': 'a world map style illustration of this continent',
+    'food': 'a single food dish, appetizing illustration',
 }
+
+PREFECTURE_EN = {
+    '北海道': 'Hokkaido', '青森県': 'Aomori', '岩手県': 'Iwate', '宮城県': 'Miyagi',
+    '秋田県': 'Akita', '山形県': 'Yamagata', '福島県': 'Fukushima', '茨城県': 'Ibaraki',
+    '栃木県': 'Tochigi', '群馬県': 'Gunma', '埼玉県': 'Saitama', '千葉県': 'Chiba',
+    '東京都': 'Tokyo', '神奈川県': 'Kanagawa', '新潟県': 'Niigata', '富山県': 'Toyama',
+    '石川県': 'Ishikawa', '福井県': 'Fukui', '山梨県': 'Yamanashi', '長野県': 'Nagano',
+    '岐阜県': 'Gifu', '静岡県': 'Shizuoka', '愛知県': 'Aichi', '三重県': 'Mie',
+    '滋賀県': 'Shiga', '京都府': 'Kyoto', '大阪府': 'Osaka', '兵庫県': 'Hyogo',
+    '奈良県': 'Nara', '和歌山県': 'Wakayama', '鳥取県': 'Tottori', '島根県': 'Shimane',
+    '岡山県': 'Okayama', '広島県': 'Hiroshima', '山口県': 'Yamaguchi', '徳島県': 'Tokushima',
+    '香川県': 'Kagawa', '愛媛県': 'Ehime', '高知県': 'Kochi', '福岡県': 'Fukuoka',
+    '佐賀県': 'Saga', '長崎県': 'Nagasaki', '熊本県': 'Kumamoto', '大分県': 'Oita',
+    '宮崎県': 'Miyazaki', '鹿児島県': 'Kagoshima', '沖縄県': 'Okinawa',
+}
+
+COUNTRY_EN = {
+    'アメリカ': 'the USA', '中国': 'China', 'ドイツ': 'Germany', '日本': 'Japan',
+    'イギリス': 'the UK', 'インド': 'India', 'フランス': 'France', 'イタリア': 'Italy',
+    'ロシア': 'Russia', 'ブラジル': 'Brazil', 'カナダ': 'Canada', 'オーストラリア': 'Australia',
+    'メキシコ': 'Mexico', '韓国': 'South Korea', '台湾': 'Taiwan', '香港': 'Hong Kong',
+    'タイ': 'Thailand', 'ベトナム': 'Vietnam', 'シンガポール': 'Singapore', 'オランダ': 'the Netherlands',
+    'インドネシア': 'Indonesia', 'パキスタン': 'Pakistan', 'ナイジェリア': 'Nigeria',
+    'バングラデシュ': 'Bangladesh', 'エチオピア': 'Ethiopia', 'スペイン': 'Spain',
+}
+
+
+def entity_prompt(entity):
+    """typeが未対応、または実体名を英語化できない場合はNoneを返し、生成対象から外す。"""
+    type_hint = TYPE_HINT.get(entity['type'])
+    if not type_hint:
+        return None
+    name_en = None
+    if entity['type'] == 'prefecture':
+        name_en = PREFECTURE_EN.get(entity['name'])
+    elif entity['type'] == 'country':
+        name_en = COUNTRY_EN.get(entity['name'])
+    if entity['type'] in ('prefecture', 'country') and not name_en:
+        return None  # 英語名の対応表に無い場合は日本語名を渡さず生成しない
+    subject = name_en + ', ' if name_en else ''
+    return STYLE_SUFFIX + ', ' + subject + type_hint
 
 # サムネの最終サイズ・容量上限（1200x630はOGP/Twitterカードの推奨サイズ）
 THUMB_SIZE = (1200, 630)

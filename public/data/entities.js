@@ -712,8 +712,8 @@ window.ENTITIES_DATA = {
   'brazil': {
     'name': 'ブラジル',
     'type': 'country',
-    'image': null,
-    'imageCredit': '',
+    'image': '/images/entities/brazil.webp',
+    'imageCredit': 'Raimundo Teixeira Mendes / Public domain',
   },
   'entity-072': {
     'name': 'スター・ウォーズ/フォースの覚醒',
@@ -832,8 +832,8 @@ window.ENTITIES_DATA = {
   'niigata': {
     'name': '新潟県',
     'type': 'prefecture',
-    'image': null,
-    'imageCredit': '',
+    'image': '/images/entities/niigata.webp',
+    'imageCredit': 'Yasuyuki_Kawano / CC BY 4.0',
   },
   'entity-049': {
     'name': '風蓮湖',
@@ -982,8 +982,8 @@ window.ENTITIES_DATA = {
   'entity-212': {
     'name': '富士山',
     'type': null,
-    'image': null,
-    'imageCredit': '',
+    'image': '/images/entities/entity-212.webp',
+    'imageCredit': 'Gifu-sizu / CC0',
   },
   'entity-157': {
     'name': 'マラウイ湖',

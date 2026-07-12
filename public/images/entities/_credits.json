@@ -1,0 +1,29 @@
+{
+  "brazil": {
+    "artist": "Raimundo Teixeira Mendes",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg",
+    "filename": "Flag_of_Brazil.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ブラジル"
+  },
+  "entity-212": {
+    "artist": "Gifu-sizu",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mt.Fuji_from_Mierula.jpg",
+    "filename": "Mt.Fuji_from_Mierula.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "富士山"
+  },
+  "niigata": {
+    "artist": "Yasuyuki_Kawano",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Find47_Niigata-Kiyotsu_Gorge_Tunnel-m.jpg",
+    "filename": "Find47_Niigata-Kiyotsu_Gorge_Tunnel-m.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "新潟県"
+  }
+}

@@ -24,6 +24,12 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
+except Exception:
+    pass
+
 sys.path.insert(0, os.path.dirname(__file__))
 from env_loader import load_dotenv  # noqa: E402
 
@@ -122,16 +128,48 @@ def download_entity_images(entities):
         entity['local_image'] = '/images/entities/' + filename
 
 
+def _load_image_credits():
+    """fetch_wikipedia_images.py が保存したクレジット情報（作者・ライセンス）を読む。"""
+    path = os.path.join(IMAGES_DIR, '_credits.json')
+    if os.path.exists(path):
+        try:
+            with open(path, encoding='utf-8') as f:
+                return json.load(f)
+        except Exception:
+            return {}
+    return {}
+
+
+def _format_credit(info):
+    """クレジット情報を1行の表示用文字列にする（例: '写真: 山田太郎 / CC BY-SA 4.0'）。"""
+    artist = (info.get('artist') or '').strip()
+    lic = (info.get('license') or '').strip()
+    parts = []
+    if artist:
+        parts.append(artist)
+    if lic:
+        parts.append(lic)
+    return ' / '.join(parts)
+
+
 def attach_generated_images(entities, topics):
-    """generate_images.pyが public/images/ に生成済みの画像を各データに紐づける。
-    Entitiesは実写（local_image）が既にある場合は上書きしない。
+    """fetch_wikipedia_images.py / generate_images.py が public/images/ に保存した画像を
+    各データに紐づける。Entitiesは実写（local_image）が既にある場合は上書きしない。
+    Wikipedia由来の画像は、CCライセンスの表示義務に備えクレジットも紐づける。
     """
+    credits = _load_image_credits()
     for entity in entities.values():
-        if entity.get('local_image') or not entity.get('id'):
+        if not entity.get('id'):
             continue
-        candidate = os.path.join(IMAGES_DIR, entity['id'] + '.webp')
-        if os.path.exists(candidate):
-            entity['local_image'] = '/images/entities/' + entity['id'] + '.webp'
+        if not entity.get('local_image'):
+            candidate = os.path.join(IMAGES_DIR, entity['id'] + '.webp')
+            if os.path.exists(candidate):
+                entity['local_image'] = '/images/entities/' + entity['id'] + '.webp'
+        # Airtableにクレジットが手入力されていない場合のみ、取得時のクレジットで補う
+        if not (entity.get('image_credit') or '').strip():
+            info = credits.get(entity['id'])
+            if info:
+                entity['image_credit'] = _format_credit(info)
 
     for topic in topics:
         topic['thumbnail'] = None

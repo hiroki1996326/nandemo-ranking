@@ -83,6 +83,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'kome-shukakuryo-todofuken',
@@ -167,6 +168,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'sekai-kuni-menseki',
@@ -391,6 +393,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'sekai-gengo-washa',
@@ -463,6 +466,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'sekai-takai-yama',
@@ -543,6 +547,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'kogyo-shunyu-eiga',
@@ -607,6 +612,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'sekai-shima-menseki',
@@ -751,6 +757,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'sekai-koki-eiga',
@@ -815,6 +822,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'jinko-todofuken',
@@ -879,6 +887,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'sekai-kawa-nagasa',
@@ -943,6 +952,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'nihon-nagai-kawa',
@@ -1007,6 +1017,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'nanadairiku-saikoho',
@@ -1059,6 +1070,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'sekai-jinko-kuni',
@@ -1123,6 +1135,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'sekai-koso-biru',
@@ -1187,6 +1200,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'nihon-koso-biru',
@@ -1251,6 +1265,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'gyokakuryo-todofuken',
@@ -1315,6 +1330,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'nihon-yama-takasa',
@@ -1419,6 +1435,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'nihon-mizuumi-menseki',
@@ -1523,6 +1540,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'sekai-mizuumi-menseki',
@@ -1587,6 +1605,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'sekai-gdp-kuni',
@@ -1651,6 +1670,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'wcup-yusho-kaisu',
@@ -1707,6 +1727,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'sekai-tosiken-jinko',
@@ -1771,6 +1792,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'todofuken-menseki',
@@ -1983,6 +2005,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'sekai-shukyo-jinko',
@@ -2035,6 +2058,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
     {
       'id': 'sekai-kaiyo-menseki',
@@ -2075,6 +2099,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
+      'thumbnail': null,
     },
   ],
 };

@@ -1,4 +1,40 @@
 {
+  "aichi": {
+    "artist": "Bariston",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tenshuhonmaru.jpg",
+    "filename": "Tenshuhonmaru.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "愛知県"
+  },
+  "akita": {
+    "artist": "STB-1",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hiru_kanto_1.jpg",
+    "filename": "Hiru_kanto_1.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "秋田県"
+  },
+  "aomori": {
+    "artist": "Wmpearl",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Float_at_Nebuta_Museum_Waarasse_I.JPG",
+    "filename": "Float_at_Nebuta_Museum_Waarasse_I.JPG",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "青森県"
+  },
+  "arabian-desert": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Arabian_Desert.png",
+    "filename": "Arabian_Desert.png",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "アラビア砂漠"
+  },
   "brazil": {
     "artist": "Raimundo Teixeira Mendes",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg",
@@ -7,6 +43,1455 @@
     "license_url": "",
     "source": "wikipedia",
     "wikipedia_title": "ブラジル"
+  },
+  "chiba": {
+    "artist": "Hoku-sou-san",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Naritasan-Shinshoji-Temple-2008.jpg",
+    "filename": "Naritasan-Shinshoji-Temple-2008.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "千葉県"
+  },
+  "colombia": {
+    "artist": "See File history below for details.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Colombia.svg",
+    "filename": "Flag_of_Colombia.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "コロンビア"
+  },
+  "ehime": {
+    "artist": "Arnaud Malon",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:D%C5%8Dgo_Onsen.jpg",
+    "filename": "Dōgo_Onsen.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "愛媛県"
+  },
+  "entity-009": {
+    "artist": "− Allice Hunter",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hispanophone_global_world_map_language.svg",
+    "filename": "Hispanophone_global_world_map_language.svg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "スペイン語"
+  },
+  "entity-010": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Anglospeak_(subnational_version).svg",
+    "filename": "Anglospeak_(subnational_version).svg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "英語"
+  },
+  "entity-011": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hindi.svg",
+    "filename": "Hindi.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ヒンディー語"
+  },
+  "entity-013": {
+    "artist": "আফতাবুজ্জামান",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE.svg",
+    "filename": "বাংলা.svg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "ベンガル語"
+  },
+  "entity-014": {
+    "artist": "Dag13",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ru%C5%A1tina_ve_sv%C4%9Bt%C4%9B.svg",
+    "filename": "Ruština_ve_světě.svg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "ロシア語"
+  },
+  "entity-015": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Japanese_language_extension.PNG",
+    "filename": "Japanese_language_extension.PNG",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "日本語"
+  },
+  "entity-017": {
+    "artist": "Ле Лой",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Color-coded_Vietnamese_language_distribution_world_map_counting_from_10,000_user_or_above_vector.svg",
+    "filename": "Color-coded_Vietnamese_language_distribution_world_map_counting_from_10,000_user_or_above_vector.svg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "ベトナム語"
+  },
+  "entity-019": {
+    "artist": "User:AtilimGunesBaydin",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:TurkishRoadSign-WelcomeToEurope_Modified.jpg",
+    "filename": "TurkishRoadSign-WelcomeToEurope_Modified.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "トルコ語"
+  },
+  "entity-027": {
+    "artist": "Kakidai",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_2014_%E2%85%A2.jpg",
+    "filename": "Tokyo_Skytree_2014_Ⅲ.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "東京スカイツリー"
+  },
+  "entity-028": {
+    "artist": "Mont Blank rich",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E6%9C%AC%E9%9B%BB%E6%B3%A2%E5%A1%94%EF%BC%88%E6%9D%B1%E4%BA%AC%E3%82%BF%E3%83%AF%E3%83%BC%EF%BC%89.jpg",
+    "filename": "日本電波塔（東京タワー）.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "東京タワー"
+  },
+  "entity-029": {
+    "artist": "Kakidai",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:2024_Azabudai_Hills_Mori_JP_Tower_(2).jpg",
+    "filename": "2024_Azabudai_Hills_Mori_JP_Tower_(2).jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "麻布台ヒルズ森JPタワー"
+  },
+  "entity-030": {
+    "artist": "Oilstreet",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Abeno_Harukas_Osaka_Japan01-r.jpg",
+    "filename": "Abeno_Harukas_Osaka_Japan01-r.jpg",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source": "wikipedia",
+    "wikipedia_title": "あべのハルカス"
+  },
+  "entity-031": {
+    "artist": "Sunwater~jawiki",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Yokohama_Landmark_Tower_202207.jpg",
+    "filename": "Yokohama_Landmark_Tower_202207.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "横浜ランドマークタワー"
+  },
+  "entity-034": {
+    "artist": "J o",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rinku_Gate_Tower_Building_20060902-001.jpg",
+    "filename": "Rinku_Gate_Tower_Building_20060902-001.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "SiSりんくうタワー"
+  },
+  "entity-035": {
+    "artist": "Topgun1997",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Osaka_Sakishima.jpg",
+    "filename": "Osaka_Sakishima.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "大阪府咲洲庁舎"
+  },
+  "entity-037": {
+    "artist": "Global Land Cover Facility (GLCF)",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_biwa.jpg",
+    "filename": "Lake_biwa.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "琵琶湖"
+  },
+  "entity-038": {
+    "artist": "Tdk at Japanese Wikipedia",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kasumigaura_landsat.jpg",
+    "filename": "Kasumigaura_landsat.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "霞ヶ浦"
+  },
+  "entity-039": {
+    "artist": "Hokko-sha",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Saroma_East_View.jpg",
+    "filename": "Lake_Saroma_East_View.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "サロマ湖"
+  },
+  "entity-040": {
+    "artist": "Stingfield",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Inawashiro_view_from_Mt.Bandai.jpg",
+    "filename": "Lake_Inawashiro_view_from_Mt.Bandai.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "猪苗代湖"
+  },
+  "entity-041": {
+    "artist": "Global Land Cover Facility (GLCF)",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_nakaumi_landsat.jpg",
+    "filename": "Lake_nakaumi_landsat.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "中海"
+  },
+  "entity-042": {
+    "artist": "切干大根",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Kussharoko_Bihoro_pass.jpg",
+    "filename": "Lake_Kussharoko_Bihoro_pass.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "屈斜路湖"
+  },
+  "entity-043": {
+    "artist": "Global Land Cover Facility (GLCF)",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_shinji_landsat.jpg",
+    "filename": "Lake_shinji_landsat.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "宍道湖"
+  },
+  "entity-044": {
+    "artist": "663highland",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Eniwa-dake03n4272.jpg",
+    "filename": "Lake_Shikotsu_Mt_Eniwa-dake03n4272.jpg",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source": "wikipedia",
+    "wikipedia_title": "支笏湖"
+  },
+  "entity-045": {
+    "artist": "663highland",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:130922_Lake_Toya_Toyako_Hokkaido_Japan03s3.jpg",
+    "filename": "130922_Lake_Toya_Toyako_Hokkaido_Japan03s3.jpg",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source": "wikipedia",
+    "wikipedia_title": "洞爺湖"
+  },
+  "entity-046": {
+    "artist": "国土地理院",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Hamana_Aerial_photograph.2006.jpg",
+    "filename": "Lake_Hamana_Aerial_photograph.2006.jpg",
+    "license": "Attribution",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "浜名湖"
+  },
+  "entity-047": {
+    "artist": "NASA",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Ogawara_NASA_Photo_ISS039.jpg",
+    "filename": "Lake_Ogawara_NASA_Photo_ISS039.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "小川原湖"
+  },
+  "entity-048": {
+    "artist": "Soica2001 (talk)",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Towada_from_Ohanabe_2008.jpg",
+    "filename": "Lake_Towada_from_Ohanabe_2008.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "十和田湖"
+  },
+  "entity-049": {
+    "artist": "Yamaguchi Yoshiaki from Japan",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hurenko_lake_%E9%A2%A8%E8%93%AE%E6%B9%96_(3536024378).jpg",
+    "filename": "Hurenko_lake_風蓮湖_(3536024378).jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "風蓮湖"
+  },
+  "entity-050": {
+    "artist": "melvil",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Salicornia_europaea-hokkaido-japan.jpg",
+    "filename": "Salicornia_europaea-hokkaido-japan.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "能取湖"
+  },
+  "entity-052": {
+    "artist": "663highland",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:130714_Lake_Abashiri_Hokkaido_Japan01bs5.jpg",
+    "filename": "130714_Lake_Abashiri_Hokkaido_Japan01bs5.jpg",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source": "wikipedia",
+    "wikipedia_title": "網走湖"
+  },
+  "entity-053": {
+    "artist": "Highten31",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Akkeshi.JPG",
+    "filename": "Lake_Akkeshi.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "厚岸湖"
+  },
+  "entity-054": {
+    "artist": "user:っ",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Oga_Peninsula_and_Hachirogata_Akita_Japan_SRTM.jpg",
+    "filename": "Oga_Peninsula_and_Hachirogata_Akita_Japan_SRTM.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "八郎潟調整池"
+  },
+  "entity-055": {
+    "artist": "(Tea-making tea) 掬茶",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Tazawa_and_Kansa-g%C5%AB_20210213.jpg",
+    "filename": "Lake_Tazawa_and_Kansa-gū_20210213.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "田沢湖"
+  },
+  "entity-056": {
+    "artist": "Miya.m",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hokkaido,_Japan,_Lake_Mash%C5%AB,_2008.jpg",
+    "filename": "Hokkaido,_Japan,_Lake_Mashū,_2008.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "摩周湖"
+  },
+  "entity-057": {
+    "artist": "The original uploader was Herbye at German Wikipedia.. Uploaded to Commons by Körnerbrötchen.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nil.jpg",
+    "filename": "Nil.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "ナイル川"
+  },
+  "entity-058": {
+    "artist": "Pedro Szekely from Los Angeles, USA",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sunset_on_the_Amazon_(7613489930).jpg",
+    "filename": "Sunset_on_the_Amazon_(7613489930).jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "アマゾン川"
+  },
+  "entity-059": {
+    "artist": "Andrew Hitchcock",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dusk_on_the_Yangtze_River.jpg",
+    "filename": "Dusk_on_the_Yangtze_River.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "長江"
+  },
+  "entity-060": {
+    "artist": "NPS photo",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Efmo_View_from_Fire_Point.jpg",
+    "filename": "Efmo_View_from_Fire_Point.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ミシシッピ川"
+  },
+  "entity-061": {
+    "artist": "Okoli",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Ob_river.JPG",
+    "filename": "The_Ob_river.JPG",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "オビ川"
+  },
+  "entity-062": {
+    "artist": "No machine-readable author provided. InvictaHOG~commonswiki assumed (based on copyright claims).",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bank_of_Yenisei_River.jpg",
+    "filename": "Bank_of_Yenisei_River.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "エニセイ川"
+  },
+  "entity-063": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lanzhou-rio-amarillo-d01.jpg",
+    "filename": "Lanzhou-rio-amarillo-d01.jpg",
+    "license": "CC BY-SA 2.5 es",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5/es/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "黄河"
+  },
+  "entity-064": {
+    "artist": "Bsm15",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sunrise_near_Mossaka_(Congo).JPG",
+    "filename": "Sunrise_near_Mossaka_(Congo).JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "コンゴ川"
+  },
+  "entity-065": {
+    "artist": "LostInfidel at English Wikipedia",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Amurbridge2.jpg",
+    "filename": "Amurbridge2.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "アムール川"
+  },
+  "entity-066": {
+    "artist": "Kmusser",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Paranarivermap.png",
+    "filename": "Paranarivermap.png",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "パラナ川"
+  },
+  "entity-068": {
+    "artist": "Walt Disney Studios Motion Pictures",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Avengers_Endgame_Logo_Black.svg",
+    "filename": "Avengers_Endgame_Logo_Black.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "アベンジャーズ/エンドゲーム"
+  },
+  "entity-072": {
+    "artist": "User:Wiki Erudito",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Star_Wars_The_Force_Awakens.jpg",
+    "filename": "Star_Wars_The_Force_Awakens.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "スター・ウォーズ/フォースの覚醒"
+  },
+  "entity-075": {
+    "artist": "Pixar",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Inside_Out_2_logo.svg",
+    "filename": "Inside_Out_2_logo.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "インサイド・ヘッド2"
+  },
+  "entity-080": {
+    "artist": "NordNordWest",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Indonesia_Java_location_map.svg",
+    "filename": "Indonesia_Java_location_map.svg",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "ジャカルタ"
+  },
+  "entity-081": {
+    "artist": "TUBS",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:National_Capital_Territory_of_Delhi_in_India_(claimed_and_disputed_hatched).svg",
+    "filename": "National_Capital_Territory_of_Delhi_in_India_(claimed_and_disputed_hatched).svg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "デリー"
+  },
+  "entity-082": {
+    "artist": "Dr Vikramjit Kakati",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Marine_Lines_Mumbai_2021.jpg",
+    "filename": "Marine_Lines_Mumbai_2021.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "ムンバイ"
+  },
+  "entity-083": {
+    "artist": "Various wikipedian",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Manila_Infobox_Pic_Montage.jpg",
+    "filename": "Manila_Infobox_Pic_Montage.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "マニラ"
+  },
+  "entity-084": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bg-map-ja.png",
+    "filename": "Bg-map-ja.png",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ダッカ"
+  },
+  "entity-086": {
+    "artist": "Faris El-Gwely",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cairo-Nile-2020(1).jpg",
+    "filename": "Cairo-Nile-2020(1).jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "カイロ"
+  },
+  "entity-087": {
+    "artist": "Manuel Belgrano",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg",
+    "filename": "Flag_of_Argentina.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "アルゼンチン"
+  },
+  "entity-088": {
+    "artist": "See File history below for details.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Uruguay.svg",
+    "filename": "Flag_of_Uruguay.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ウルグアイ"
+  },
+  "entity-089": {
+    "artist": "Original: traditional Vector: Nicholas Shanks",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_England.svg",
+    "filename": "Flag_of_England.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "イングランド"
+  },
+  "entity-090": {
+    "artist": "CIA World Factbook",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pacific_Ocean.png",
+    "filename": "Pacific_Ocean.png",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "太平洋"
+  },
+  "entity-091": {
+    "artist": "CIA, translated by ja:利用者:Koba-chan",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Atlantic_Ocean-ja.png",
+    "filename": "Atlantic_Ocean-ja.png",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "大西洋"
+  },
+  "entity-092": {
+    "artist": "Unknown authorUnknown author",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Indianocean.png",
+    "filename": "Indianocean.png",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "インド洋"
+  },
+  "entity-093": {
+    "artist": "CIA, translated by ja:利用者:Koba-chan",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Arctic_Ocean-ja.png",
+    "filename": "Arctic_Ocean-ja.png",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "北極海"
+  },
+  "entity-094": {
+    "artist": "Shaken Niyazbekop",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kazakhstan.svg",
+    "filename": "Flag_of_Kazakhstan.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "カザフスタン"
+  },
+  "entity-095": {
+    "artist": "Nightstallion",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Democratic_Republic_of_the_Congo.svg",
+    "filename": "Flag_of_the_Democratic_Republic_of_the_Congo.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "コンゴ民主共和国"
+  },
+  "entity-096": {
+    "artist": "Original: National Liberation Front of Algeria Vector: SKopp",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Algeria.svg",
+    "filename": "Flag_of_Algeria.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "アルジェリア"
+  },
+  "entity-097": {
+    "artist": "The Shura Council",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Saudi_Arabia.svg",
+    "filename": "Flag_of_Saudi_Arabia.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "サウジアラビア"
+  },
+  "entity-098": {
+    "artist": "See File history below for details.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Sudan.svg",
+    "filename": "Flag_of_Sudan.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "スーダン"
+  },
+  "entity-099": {
+    "artist": "Various The SVG code is valid. This vector image was created with a text editor.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Libya.svg",
+    "filename": "Flag_of_Libya.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "リビア"
+  },
+  "entity-100": {
+    "artist": "SVG file: SiBr4Designer: Hamid NadimiConstruction: ISIRI",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Iran.svg",
+    "filename": "Flag_of_Iran.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "イラン"
+  },
+  "entity-101": {
+    "artist": "See File history below for details.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Mongolia.svg",
+    "filename": "Flag_of_Mongolia.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "モンゴル"
+  },
+  "entity-102": {
+    "artist": "David Benbennick",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Peru.svg",
+    "filename": "Flag_of_Peru.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ペルー"
+  },
+  "entity-103": {
+    "artist": "SKopp &amp; others (see upload log)",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Chad.svg",
+    "filename": "Flag_of_Chad.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "チャド"
+  },
+  "entity-104": {
+    "artist": "Made by: Philippe Verdy User:verdy_p, see also fr:Utilisateur:verdy_p.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Niger.svg",
+    "filename": "Flag_of_Niger.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ニジェール"
+  },
+  "entity-105": {
+    "artist": "Original: Henrique de Carvalho Santos Vector: SKopp",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Angola.svg",
+    "filename": "Flag_of_Angola.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "アンゴラ"
+  },
+  "entity-107": {
+    "artist": "Flag design by Frederick Brownell, image by Wikimedia Commons users",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa.svg",
+    "filename": "Flag_of_South_Africa.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "南アフリカ共和国"
+  },
+  "entity-108": {
+    "artist": "See File history below for details.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Colombia.svg",
+    "filename": "Flag_of_Colombia.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "コロンビア"
+  },
+  "entity-109": {
+    "artist": "See file history' below for details.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bolivia.svg",
+    "filename": "Flag_of_Bolivia.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ボリビア"
+  },
+  "entity-110": {
+    "artist": "See File history below for details.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritania.svg",
+    "filename": "Flag_of_Mauritania.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "モーリタニア"
+  },
+  "entity-111": {
+    "artist": "See File history below for details.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Egypt.svg",
+    "filename": "Flag_of_Egypt.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "エジプト"
+  },
+  "entity-112": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Tanzania.svg",
+    "filename": "Flag_of_Tanzania.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "タンザニア"
+  },
+  "entity-113": {
+    "artist": "Various, see File history below for details.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Venezuela.svg",
+    "filename": "Flag_of_Venezuela.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ベネズエラ"
+  },
+  "entity-114": {
+    "artist": "SVG by Vzb83~commonswiki et al.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Namibia.svg",
+    "filename": "Flag_of_Namibia.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ナミビア"
+  },
+  "entity-115": {
+    "artist": "FRELIMO",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Mozambique.svg",
+    "filename": "Flag_of_Mozambique.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "モザンビーク"
+  },
+  "entity-116": {
+    "artist": "David Benbennick (original author)",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg",
+    "filename": "Flag_of_Turkey.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "トルコ"
+  },
+  "entity-117": {
+    "artist": "See file history below for details.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Chile.svg",
+    "filename": "Flag_of_Chile.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "チリ"
+  },
+  "entity-118": {
+    "artist": "Gabriel Ellison",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Zambia.svg",
+    "filename": "Flag_of_Zambia.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ザンビア"
+  },
+  "entity-119": {
+    "artist": "Unknown authorUnknown author",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Myanmar.svg",
+    "filename": "Flag_of_Myanmar.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ミャンマー"
+  },
+  "entity-121": {
+    "artist": "Achim1999",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Sudan.svg",
+    "filename": "Flag_of_South_Sudan.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "南スーダン"
+  },
+  "entity-122": {
+    "artist": "see upload history",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Somalia.svg",
+    "filename": "Flag_of_Somalia.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ソマリア"
+  },
+  "entity-123": {
+    "artist": "Barthélemy Boganda",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Central_African_Republic.svg",
+    "filename": "Flag_of_the_Central_African_Republic.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "中央アフリカ共和国"
+  },
+  "entity-124": {
+    "artist": "Government of Ukraine",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg",
+    "filename": "Flag_of_Ukraine.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ウクライナ"
+  },
+  "entity-125": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Madagascar.svg",
+    "filename": "Flag_of_Madagascar.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "マダガスカル"
+  },
+  "entity-126": {
+    "artist": "SKopp, Gabbe, Madden",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Botswana.svg",
+    "filename": "Flag_of_Botswana.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ボツワナ"
+  },
+  "entity-127": {
+    "artist": "User:Pumbaa80",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg",
+    "filename": "Flag_of_Kenya.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ケニア"
+  },
+  "entity-128": {
+    "artist": "Nightstallion et al., see File history below for details.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Yemen.svg",
+    "filename": "Flag_of_Yemen.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "イエメン"
+  },
+  "entity-132": {
+    "artist": "© 2023「劇場版 SPY×FAMILY」製作委員会 © 遠藤達哉／集英社",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Spy_%C3%97_Family_Code_White_logo.svg",
+    "filename": "Spy_×_Family_Code_White_logo.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "劇場版 SPY×FAMILY CODE: White"
+  },
+  "entity-133": {
+    "artist": "W.CC",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gunma_Convention_Center.jpg",
+    "filename": "Gunma_Convention_Center.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "ラストマイル"
+  },
+  "entity-134": {
+    "artist": "SUNRISE",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mobile_Suit_Gundam_SEED_FREEDOM_Japanese_Logo.png",
+    "filename": "Mobile_Suit_Gundam_SEED_FREEDOM_Japanese_Logo.png",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "機動戦士ガンダムSEED FREEDOM"
+  },
+  "entity-138": {
+    "artist": "Kōhei Horikoshi",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:My-hero-academia-jpn.svg",
+    "filename": "My-hero-academia-jpn.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "僕のヒーローアカデミア THE MOVIE ユアネクスト"
+  },
+  "entity-139": {
+    "artist": "imran shahabuddin",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg",
+    "filename": "Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "ブルジュ・ハリファ"
+  },
+  "entity-143": {
+    "artist": "Mx. Granger",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E5%B9%B3%E5%AE%89%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83_2019-12-23.jpg",
+    "filename": "平安金融中心_2019-12-23.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "平安国際金融中心"
+  },
+  "entity-144": {
+    "artist": "N509FZ",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Goldin_Finance_117_under_construction_(20180210142905).jpg",
+    "filename": "Goldin_Finance_117_under_construction_(20180210142905).jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "高銀金融117"
+  },
+  "entity-145": {
+    "artist": "Neroson",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Helicopter_view_of_Seoul.jpg",
+    "filename": "Helicopter_view_of_Seoul.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "ロッテワールドタワー"
+  },
+  "entity-149": {
+    "artist": "Jeff Schmaltz, MODIS Rapid Response Team, NASA/GSFC",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Caspian_Sea_from_orbit.jpg",
+    "filename": "Caspian_Sea_from_orbit.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "カスピ海"
+  },
+  "entity-150": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Superior_NASA.jpg",
+    "filename": "Lake_Superior_NASA.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "スペリオル湖"
+  },
+  "entity-151": {
+    "artist": "NASA",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Victoria_composite_satellite_photo.jpg",
+    "filename": "Lake_Victoria_composite_satellite_photo.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ビクトリア湖"
+  },
+  "entity-152": {
+    "artist": "Hgjudd",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Huron.jpg",
+    "filename": "Lake_Huron.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "ヒューロン湖"
+  },
+  "entity-153": {
+    "artist": "Rachel Kramer",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Michigan_Sleeping_Bear_Dunes.jpg",
+    "filename": "Lake_Michigan_Sleeping_Bear_Dunes.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "ミシガン湖"
+  },
+  "entity-154": {
+    "artist": "NASA",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:STS51G-034-0012_Lake_Tanganyika_June1985.jpg",
+    "filename": "STS51G-034-0012_Lake_Tanganyika_June1985.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "タンガニーカ湖"
+  },
+  "entity-155": {
+    "artist": "Vyacheslav Argenberg",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Baikal,_Cape_Burhan,_Shaman_Rock,_Olkhon_Island,_Lake_Baikal,_Russia.jpg",
+    "filename": "Baikal,_Cape_Burhan,_Shaman_Rock,_Olkhon_Island,_Lake_Baikal,_Russia.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "バイカル湖"
+  },
+  "entity-156": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Great_Bear_Lake.PNG",
+    "filename": "Great_Bear_Lake.PNG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "グレートベア湖"
+  },
+  "entity-157": {
+    "artist": "National Aeronautics and Space Administration (NASA)",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Malawi_seen_from_orbit.jpg",
+    "filename": "Lake_Malawi_seen_from_orbit.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "マラウイ湖"
+  },
+  "entity-158": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Great_Slave_Lake.PNG",
+    "filename": "Great_Slave_Lake.PNG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "グレートスレーブ湖"
+  },
+  "entity-159": {
+    "artist": "Jeffrey Connell (IceKarma)",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greenland.svg",
+    "filename": "Flag_of_Greenland.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "グリーンランド"
+  },
+  "entity-160": {
+    "artist": "LocationPapuaNewGuinea.svg: By Rei-artur pt en Rei-artur blog derivative work: Abhijitsathe (talk), MagentaGreen",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:LocationNewGuinea.svg",
+    "filename": "LocationNewGuinea.svg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "ニューギニア島"
+  },
+  "entity-161": {
+    "artist": "Sadalmelik",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Borneo_Topography.png",
+    "filename": "Borneo_Topography.png",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ボルネオ島"
+  },
+  "entity-162": {
+    "artist": "Unknown authorUnknown author",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Satellite_image_of_Madagascar_in_September_2003.jpg",
+    "filename": "Satellite_image_of_Madagascar_in_September_2003.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "マダガスカル島"
+  },
+  "entity-163": {
+    "artist": "NASA World Wind",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wfm_baffin_island.jpg",
+    "filename": "Wfm_baffin_island.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "バフィン島"
+  },
+  "entity-164": {
+    "artist": "edited by M.Minderhoud",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:ID_-_Sumatra.PNG",
+    "filename": "ID_-_Sumatra.PNG",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "スマトラ島"
+  },
+  "entity-166": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wfm_victoria_island.jpg",
+    "filename": "Wfm_victoria_island.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ヴィクトリア島"
+  },
+  "entity-167": {
+    "artist": "Jacques Descloitres, MODIS Land Rapid Response Team, NASA/GSFC",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Satellite_image_of_Great_Britain_and_Northern_Ireland_in_April_2002.jpg",
+    "filename": "Satellite_image_of_Great_Britain_and_Northern_Ireland_in_April_2002.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "グレートブリテン島"
+  },
+  "entity-168": {
+    "artist": "Connormah",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ellesmere_Island,_Canada.svg",
+    "filename": "Ellesmere_Island,_Canada.svg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "エルズミーア島"
+  },
+  "entity-169": {
+    "artist": "edited by User:Telim tor",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:ID_-_Sulawesi.png",
+    "filename": "ID_-_Sulawesi.png",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "スラウェシ島"
+  },
+  "entity-171": {
+    "artist": "Gunawan Kartapranata",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Java_Locator.svg",
+    "filename": "Java_Locator.svg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "ジャワ島"
+  },
+  "entity-173": {
+    "artist": "Coach.nyta, edited by Qyd",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Newfoundland_map.png",
+    "filename": "Newfoundland_map.png",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "ニューファンドランド島"
+  },
+  "entity-174": {
+    "artist": "Miguel Teurbe Tolón and Narciso López",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cuba.svg",
+    "filename": "Flag_of_Cuba.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "キューバ島"
+  },
+  "entity-175": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ph_locator_map_luzon.png",
+    "filename": "Ph_locator_map_luzon.png",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "ルソン島"
+  },
+  "entity-176": {
+    "artist": "Max Naylor",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Map_of_Iceland.svg",
+    "filename": "Map_of_Iceland.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "アイスランド島"
+  },
+  "entity-177": {
+    "artist": "Eugene Alvin Villar (seav)",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ph_physical_map.png",
+    "filename": "Ph_physical_map.png",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "ミンダナオ島"
+  },
+  "entity-178": {
+    "artist": "Jeff Schmaltz",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ireland_(MODIS).jpg",
+    "filename": "Ireland_(MODIS).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "アイルランド島"
+  },
+  "entity-179": {
+    "artist": "edited by M.Minderhoud",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sakhalin_(detail).PNG",
+    "filename": "Sakhalin_(detail).PNG",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "樺太"
+  },
+  "entity-180": {
+    "artist": "edited by M.Minderhoud",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Caribbean_-_Hispaniola.PNG",
+    "filename": "Caribbean_-_Hispaniola.PNG",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "イスパニョーラ島"
+  },
+  "entity-181": {
+    "artist": "Jacques Descloitres, MODIS Land Rapid Response Team, NASA/GSFC",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Canada2.A2002165.1940.250m.jpg",
+    "filename": "Canada2.A2002165.1940.250m.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "バンクス島"
+  },
+  "entity-182": {
+    "artist": "Uwe Dedering at German Wikipedia",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:India_location_map.svg",
+    "filename": "India_location_map.svg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "セイロン島"
+  },
+  "entity-183": {
+    "artist": "TUBS",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tasmania_in_Australia.svg",
+    "filename": "Tasmania_in_Australia.svg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "タスマニア島"
+  },
+  "entity-184": {
+    "artist": "NASA",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wff_devon_island.jpg",
+    "filename": "Wff_devon_island.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "デヴォン島"
+  },
+  "entity-185": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:SevernyIsland.svg",
+    "filename": "SevernyIsland.svg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "セヴェルヌィ島"
+  },
+  "entity-186": {
+    "artist": "No machine-readable author provided. Heretiq assumed (based on copyright claims).",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:UshuaiaViewFromPPLF2.jpg",
+    "filename": "UshuaiaViewFromPPLF2.jpg",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "wikipedia",
+    "wikipedia_title": "フエゴ島"
+  },
+  "entity-188": {
+    "artist": "Luca Galuzzi (Lucag)",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg",
+    "filename": "Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "wikipedia",
+    "wikipedia_title": "エベレスト"
+  },
+  "entity-189": {
+    "artist": "Svy123",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:K2_2006b.jpg",
+    "filename": "K2_2006b.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "K2"
+  },
+  "entity-190": {
+    "artist": "Siegmund Stiehler",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kangchenjunga.JPG",
+    "filename": "Kangchenjunga.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "カンチェンジュンガ"
+  },
+  "entity-191": {
+    "artist": "Jamie O'Shaughnessy (talk · contribs)",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:LhotseMountain.jos.500pix.jpg",
+    "filename": "LhotseMountain.jos.500pix.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ローツェ"
+  },
+  "entity-192": {
+    "artist": "Ben Tubby",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Makalu.jpg",
+    "filename": "Makalu.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "マカルー"
+  },
+  "entity-193": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:ChoOyu-fromGokyo.jpg",
+    "filename": "ChoOyu-fromGokyo.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "チョー・オユー"
+  },
+  "entity-195": {
+    "artist": "Ben Tubby",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Manaslu,_from_base_camp_trip.jpg",
+    "filename": "Manaslu,_from_base_camp_trip.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "マナスル"
+  },
+  "entity-196": {
+    "artist": "Atif Gulzar",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nanga_parbat,_fairy_medow,_Pak_by_gul791.jpg",
+    "filename": "Nanga_parbat,_fairy_medow,_Pak_by_gul791.jpg",
+    "license": "Copyrighted free use",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ナンガ・パルバット"
+  },
+  "entity-198": {
+    "artist": "Dr. Olaf Rieck (http://www.olafrieck.de)",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:HiddenPeak.jpg",
+    "filename": "HiddenPeak.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "ガッシャーブルムI峰"
+  },
+  "entity-199": {
+    "artist": "Svy123",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Broad_Peak_in_July_2006.jpg",
+    "filename": "Broad_Peak_in_July_2006.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "ブロード・ピーク"
+  },
+  "entity-200": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gasherbrum2.jpg",
+    "filename": "Gasherbrum2.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ガッシャーブルムII峰"
+  },
+  "entity-201": {
+    "artist": "Swinelin at English Wikipedia",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shishapangma.jpg",
+    "filename": "Shishapangma.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "シシャパンマ"
+  },
+  "entity-202": {
+    "artist": "Koichi_Hayakawa",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Find47_Niigata-River_(Shinano_River,_Ojiya_City)-m.jpg",
+    "filename": "Find47_Niigata-River_(Shinano_River,_Ojiya_City)-m.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "信濃川"
+  },
+  "entity-203": {
+    "artist": "The original uploader was BehBeh at Japanese Wikipedia.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Estuary_of_Tone_river_20081229.jpg",
+    "filename": "Estuary_of_Tone_river_20081229.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "利根川"
+  },
+  "entity-204": {
+    "artist": "RJD",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ishikari-River.Kamikawa-Sounkyo2022.JPG",
+    "filename": "Ishikari-River.Kamikawa-Sounkyo2022.JPG",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "石狩川"
+  },
+  "entity-205": {
+    "artist": "河川一等兵",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Teshio_River2.jpg",
+    "filename": "Teshio_River2.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "天塩川"
+  },
+  "entity-206": {
+    "artist": "663highland",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kitakami_river01s3872.jpg",
+    "filename": "Kitakami_river01s3872.jpg",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source": "wikipedia",
+    "wikipedia_title": "北上川"
+  },
+  "entity-207": {
+    "artist": "BehBeh at Japanese Wikipedia",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:AbukumaGawaKako.jpg",
+    "filename": "AbukumaGawaKako.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "阿武隈川"
+  },
+  "entity-208": {
+    "artist": "京浜にけ (Keihin Nike)",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tozawa_Mogami_Gorge_Of_Mogami_River_1.JPG",
+    "filename": "Tozawa_Mogami_Gorge_Of_Mogami_River_1.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "最上川"
+  },
+  "entity-209": {
+    "artist": "Tomio344456",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:View_of_Kiso-gawa_River_from_the_Top_of_Gensai-bashi_Bridge_(2),_Nakatsugawa_2014.jpg",
+    "filename": "View_of_Kiso-gawa_River_from_the_Top_of_Gensai-bashi_Bridge_(2),_Nakatsugawa_2014.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "木曽川"
+  },
+  "entity-210": {
+    "artist": "Tomio344456",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tenry%C5%AB_River,_Tenry%C5%AB_Ward_Hamamatsu_2012.JPG",
+    "filename": "Tenryū_River,_Tenryū_Ward_Hamamatsu_2012.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "天竜川"
+  },
+  "entity-211": {
+    "artist": "contri from Yonezawa-Shi, Yamagata, Japan",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Agano_River_and_Uetsu_Main_Line_bridge.jpg",
+    "filename": "Agano_River_and_Uetsu_Main_Line_bridge.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "阿賀野川"
   },
   "entity-212": {
     "artist": "Gifu-sizu",
@@ -17,6 +1502,465 @@
     "source": "wikipedia",
     "wikipedia_title": "富士山"
   },
+  "entity-213": {
+    "artist": "alpsdake",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mount_Kita_from_Mount_Nakashirane_2001-10-03.JPG",
+    "filename": "Mount_Kita_from_Mount_Nakashirane_2001-10-03.JPG",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "北岳"
+  },
+  "entity-214": {
+    "artist": "Σ64",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mt.Hotaka_from_Mt.Otenshodake_01.jpg",
+    "filename": "Mt.Hotaka_from_Mt.Otenshodake_01.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "奥穂高岳"
+  },
+  "entity-215": {
+    "artist": "Alpsdake",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mount_Aino_fom_Mount_Kita_2001-7-2.jpg",
+    "filename": "Mount_Aino_fom_Mount_Kita_2001-7-2.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "間ノ岳"
+  },
+  "entity-216": {
+    "artist": "Σ64",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mt.Yarigatake_from_Enzansou.jpg",
+    "filename": "Mt.Yarigatake_from_Enzansou.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "槍ヶ岳"
+  },
+  "entity-217": {
+    "artist": "Alpsdake",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:13_Arakawadake_from_Shiomidake_2000-7-9.jpg",
+    "filename": "13_Arakawadake_from_Shiomidake_2000-7-9.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "悪沢岳"
+  },
+  "entity-218": {
+    "artist": "alpsdake",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Akaishidake_from_senmaidake_07_1994_7_31.jpg",
+    "filename": "Akaishidake_from_senmaidake_07_1994_7_31.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "赤石岳"
+  },
+  "entity-219": {
+    "artist": "Σ64",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mt.Hotaka_from_Mt.Otenshodake_01.jpg",
+    "filename": "Mt.Hotaka_from_Mt.Otenshodake_01.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "涸沢岳"
+  },
+  "entity-220": {
+    "artist": "Σ64",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mt.Hotaka_from_Mt.Otenshodake_01.jpg",
+    "filename": "Mt.Hotaka_from_Mt.Otenshodake_01.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "北穂高岳"
+  },
+  "entity-221": {
+    "artist": "Alpsdake",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:10_Oobamidake_from_Yarigatake_2003-10-5.jpg",
+    "filename": "10_Oobamidake_from_Yarigatake_2003-10-5.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "大喰岳"
+  },
+  "entity-222": {
+    "artist": "Σ64",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mt.Hotaka_from_Mt.Otenshodake_01.jpg",
+    "filename": "Mt.Hotaka_from_Mt.Otenshodake_01.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "前穂高岳"
+  },
+  "entity-225": {
+    "artist": "As6022014",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ontake-air.jpg",
+    "filename": "Ontake-air.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "御嶽山"
+  },
+  "entity-226": {
+    "artist": "Σ64",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mt.Noutoridake_from_Mt.Shiomidake_03.jpg",
+    "filename": "Mt.Noutoridake_from_Mt.Shiomidake_03.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "農鳥岳"
+  },
+  "entity-227": {
+    "artist": "Alpsdake",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:16_Shiomidake_from_Eboshidake_1999-11-5.jpg",
+    "filename": "16_Shiomidake_from_Eboshidake_1999-11-5.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "塩見岳"
+  },
+  "entity-228": {
+    "artist": "Kitadake3193",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Daikiretto_minami.jpg",
+    "filename": "Daikiretto_minami.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "南岳"
+  },
+  "entity-229": {
+    "artist": "Σ64",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mt.Senjogatake_from_Mt.Kitadake_03.jpg",
+    "filename": "Mt.Senjogatake_from_Mt.Kitadake_03.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "仙丈ヶ岳"
+  },
+  "entity-230": {
+    "artist": "As6022014",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Norikura-air.jpg",
+    "filename": "Norikura-air.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "乗鞍岳"
+  },
+  "entity-231": {
+    "artist": "Saigen Jiro",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mount_Tate_viewed_from_Midorigaike.jpg",
+    "filename": "Mount_Tate_viewed_from_Midorigaike.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "立山"
+  },
+  "fukui": {
+    "artist": "663highland",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Japan_Tojinbo02n4592.jpg",
+    "filename": "Japan_Tojinbo02n4592.jpg",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source": "wikipedia",
+    "wikipedia_title": "福井県"
+  },
+  "fukuoka": {
+    "artist": "Jakub Hałun",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:20100719_Dazaifu_Tenmangu_Shrine_3328.jpg",
+    "filename": "20100719_Dazaifu_Tenmangu_Shrine_3328.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "福岡県"
+  },
+  "fukushima": {
+    "artist": "京浜にけ at Japanese Wikipedia",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Miharu_Miharu-Takizakura_Front_1.jpg",
+    "filename": "Miharu_Miharu-Takizakura_Front_1.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "福島県"
+  },
+  "gifu": {
+    "artist": "Jordy Meow",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shirakawago.jpg",
+    "filename": "Shirakawago.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "岐阜県"
+  },
+  "gobi-desert": {
+    "artist": "Richard Mortel",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gobi_Desert_dunes.jpg",
+    "filename": "Gobi_Desert_dunes.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "ゴビ砂漠"
+  },
+  "great-basin-desert": {
+    "artist": "Kmusser",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Greatbasinmap.png",
+    "filename": "Greatbasinmap.png",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "グレートベースン"
+  },
+  "great-victoria-desert": {
+    "artist": "Hesperian",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:IBRA_6.1_Great_Victoria_Desert.png",
+    "filename": "IBRA_6.1_Great_Victoria_Desert.png",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "グレートビクトリア砂漠"
+  },
+  "gunma": {
+    "artist": "photo: Qurren (talk) Taken with Canon PowerShot G9 X",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mount_Haruna_view_from_Hokkitsu_Onsen_Tachibana_no_sato_Shiroyama_(cropped).jpg",
+    "filename": "Mount_Haruna_view_from_Hokkitsu_Onsen_Tachibana_no_sato_Shiroyama_(cropped).jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "群馬県"
+  },
+  "hagoromo-falls": {
+    "artist": "Takisaw",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hagoromo_fall.JPG",
+    "filename": "Hagoromo_fall.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "羽衣の滝"
+  },
+  "hannoki-falls": {
+    "artist": "Saigen Jiro",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shomyo_Falls,_zenkei.jpg",
+    "filename": "Shomyo_Falls,_zenkei.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "ハンノキ滝"
+  },
+  "hiroshima": {
+    "artist": "File:Torii and Itsukushima Shrine.jpg by User:Bernard Gagnon File:Hiroshima Peace Memorial 2008 02.JPG by User:Taisyo File:Senkojiyama ropeway01n3200.jpg by User:663highland File:Sensuizima.jpg by User:As6022014 File:Osorakan ski resort.jpg by User:As6673 File:Kamotsuru Sake Brewing.jpg by User:Rfyuya File:ロマン・ビーチ県民の浜.jpg by User:Ubuhouse File:Carp VS Baffaloes 2009 (in MAZDA Zoom-Zoom Stadium).JPG by User:HKT3012 File:Big Arch Stadium Panorama.jpg by User:Vickerman625",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Montages_of_Hiroshima_prefecture.jpg",
+    "filename": "Montages_of_Hiroshima_prefecture.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "広島県"
+  },
+  "hokkaido": {
+    "artist": "satoshi sawada",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tokachi_plain_01.jpg",
+    "filename": "Tokachi_plain_01.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "北海道"
+  },
+  "hungary": {
+    "artist": "SKopp",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Hungary.svg",
+    "filename": "Flag_of_Hungary.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ハンガリー"
+  },
+  "hyogo": {
+    "artist": "Nikos Kitsakis",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Himeji_castle_in_may_2015.jpg",
+    "filename": "Himeji_castle_in_may_2015.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "兵庫県"
+  },
+  "ibaraki": {
+    "artist": "Polimerek",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mount_Tsukuba_2.jpg",
+    "filename": "Mount_Tsukuba_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "茨城県"
+  },
+  "iceland": {
+    "artist": "Original: Matthías Þórðarson Vector: Árni Dagur and Magasjukur2",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Iceland.svg",
+    "filename": "Flag_of_Iceland.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "アイスランド"
+  },
+  "ishikawa": {
+    "artist": "Japanexperterna.se",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Stone_lantern_Kenrokuen.jpg",
+    "filename": "Stone_lantern_Kenrokuen.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "石川県"
+  },
+  "iwate": {
+    "artist": "663highland",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:230728_Chusonji_Hiraizumi_Iwate_pref_Japan01s3.jpg",
+    "filename": "230728_Chusonji_Hiraizumi_Iwate_pref_Japan01s3.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "岩手県"
+  },
+  "kagawa": {
+    "artist": "sekido",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kama-age_sanuki_udon_by_sekido_in_Takamatsu,_Kagawa.jpg",
+    "filename": "Kama-age_sanuki_udon_by_sekido_in_Takamatsu,_Kagawa.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "香川県"
+  },
+  "kagoshima": {
+    "artist": "Hiroaki Kikuchi",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Isoteien-sakurajima2.jpg",
+    "filename": "Isoteien-sakurajima2.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "鹿児島県"
+  },
+  "kalahari-desert": {
+    "artist": "Elmar Thiel",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kalahari_E02_00.jpg",
+    "filename": "Kalahari_E02_00.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "カラハリ砂漠"
+  },
+  "kanagawa": {
+    "artist": "Japanbird",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E6%A8%AA%E6%B5%9C%E3%81%BF%E3%81%AA%E3%81%A8%E3%81%BF%E3%82%89%E3%81%84%E5%9C%B0%E5%8C%BA.jpg",
+    "filename": "横浜みなとみらい地区.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "神奈川県"
+  },
+  "kochi": {
+    "artist": "京浜にけ",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shimanto_River_And_Iwama_Bridge_1.jpg",
+    "filename": "Shimanto_River_And_Iwama_Bridge_1.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "高知県"
+  },
+  "kumamoto": {
+    "artist": "Miya.m",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mt.Aso_and_caldera01.jpg",
+    "filename": "Mt.Aso_and_caldera01.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "熊本県"
+  },
+  "kyoto": {
+    "artist": "Sorasak boontohhgraphy",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kyoto,_Japan_(Unsplash_UIN-pFfJ7c).jpg",
+    "filename": "Kyoto,_Japan_(Unsplash_UIN-pFfJ7c).jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "京都府"
+  },
+  "luxembourg": {
+    "artist": "Drawn by User:SKopp",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Luxembourg.svg",
+    "filename": "Flag_of_Luxembourg.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ルクセンブルク"
+  },
+  "mie": {
+    "artist": "Kanchi1979",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:JP-Mie-Ise-Grand-Shrine-Main-Gate.jpg",
+    "filename": "JP-Mie-Ise-Grand-Shrine-Main-Gate.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "三重県"
+  },
+  "miyagi": {
+    "artist": "Makoto_Lab",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Miyagi-Landscape_of_cherry_blossoms_and_Matsushima_Bay-xl.jpg",
+    "filename": "Miyagi-Landscape_of_cherry_blossoms_and_Matsushima_Bay-xl.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "宮城県"
+  },
+  "miyazaki": {
+    "artist": "Ippukucho",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:NichinanKaigan.JPG",
+    "filename": "NichinanKaigan.JPG",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "宮崎県"
+  },
+  "movie-slamdunk-2023": {
+    "artist": "Khkhkhk",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:SHIBUYA.jpg",
+    "filename": "SHIBUYA.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "THE FIRST SLAM DUNK"
+  },
+  "nagano": {
+    "artist": "Alpsdake",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mount_Shirouma_from_Mount_Korenge_2000-7-31.jpg",
+    "filename": "Mount_Shirouma_from_Mount_Korenge_2000-7-31.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "長野県"
+  },
+  "nagasaki": {
+    "artist": "Fg2",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nagasaki-Glover-Garden-5415.jpg",
+    "filename": "Nagasaki-Glover-Garden-5415.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "長崎県"
+  },
+  "nakanotaki-falls": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gthumb.svg",
+    "filename": "Gthumb.svg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "中の滝"
+  },
+  "nara": {
+    "artist": "Wiiii",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:T%C5%8Ddai-ji_Kon-d%C5%8D.jpg",
+    "filename": "Tōdai-ji_Kon-dō.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "奈良県"
+  },
   "niigata": {
     "artist": "Yasuyuki_Kawano",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Find47_Niigata-Kiyotsu_Gorge_Tunnel-m.jpg",
@@ -25,5 +1969,257 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0",
     "source": "wikipedia",
     "wikipedia_title": "新潟県"
+  },
+  "norway": {
+    "artist": "Original: Fredrik Meltzer Vector: Gutten på Hemsen",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Norway.svg",
+    "filename": "Flag_of_Norway.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ノルウェー"
+  },
+  "oita": {
+    "artist": "663highland",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beppu_Umi-jigoku04n4272.jpg",
+    "filename": "Beppu_Umi-jigoku04n4272.jpg",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source": "wikipedia",
+    "wikipedia_title": "大分県"
+  },
+  "okayama": {
+    "artist": "Fjkelfeimvvn",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Okayama_Korakuen_Garden01.jpg",
+    "filename": "Okayama_Korakuen_Garden01.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "岡山県"
+  },
+  "okinawa": {
+    "artist": "663highland",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Naha_Shuri_Castle16s5s3200.jpg",
+    "filename": "Naha_Shuri_Castle16s5s3200.jpg",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source": "wikipedia",
+    "wikipedia_title": "沖縄県"
+  },
+  "osaka": {
+    "artist": "663highland",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Osaka_Castle_03bs3200.jpg",
+    "filename": "Osaka_Castle_03bs3200.jpg",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source": "wikipedia",
+    "wikipedia_title": "大阪府"
+  },
+  "patagonian-desert": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pat_map.PNG",
+    "filename": "Pat_map.PNG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "パタゴニア"
+  },
+  "saga": {
+    "artist": "Saigen Jiro",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Yoshinogari-iseki_zenkei.JPG",
+    "filename": "Yoshinogari-iseki_zenkei.JPG",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "佐賀県"
+  },
+  "sahara-desert": {
+    "artist": "NASA",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sahara_satellite_hires.jpg",
+    "filename": "Sahara_satellite_hires.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "サハラ砂漠"
+  },
+  "saitama": {
+    "artist": "User:PRiMENON",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Japanese_Saitama_Shintoshin_west_building.jpg",
+    "filename": "Japanese_Saitama_Shintoshin_west_building.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "埼玉県"
+  },
+  "shiga": {
+    "artist": "663highland",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chikubusumajinja01s3200.jpg",
+    "filename": "Chikubusumajinja01s3200.jpg",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source": "wikipedia",
+    "wikipedia_title": "滋賀県"
+  },
+  "shimane": {
+    "artist": "MaedaAkihiko",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Izumo-Taisha_Haiden.jpg",
+    "filename": "Izumo-Taisha_Haiden.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "島根県"
+  },
+  "shizuoka": {
+    "artist": "MaedaAkihiko",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mt.Fuji-Osezaki.jpg",
+    "filename": "Mt.Fuji-Osezaki.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "静岡県"
+  },
+  "shomyo-falls": {
+    "artist": "Saigen Jiro",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shomyo_Falls,_zenkei.jpg",
+    "filename": "Shomyo_Falls,_zenkei.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "wikipedia",
+    "wikipedia_title": "称名滝"
+  },
+  "singapore": {
+    "artist": "Original: Government of Singapore Vector: Zscout370",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Singapore.svg",
+    "filename": "Flag_of_Singapore.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "シンガポール"
+  },
+  "soviet-union": {
+    "artist": "СССР",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union.svg",
+    "filename": "Flag_of_the_Soviet_Union.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ソビエト連邦"
+  },
+  "sweden": {
+    "artist": "Jon Harald Søby and others.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Sweden.svg",
+    "filename": "Flag_of_Sweden.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "スウェーデン"
+  },
+  "switzerland": {
+    "artist": "Original: Unknown Vector: User:Marc Mongenet Credits: User:-xfi- User:Zscout370",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Switzerland.svg",
+    "filename": "Flag_of_Switzerland.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "スイス"
+  },
+  "syrian-desert": {
+    "artist": "LLs",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Geographical_location_of_the_Syrian_desert.png",
+    "filename": "Geographical_location_of_the_Syrian_desert.png",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "シリア砂漠"
+  },
+  "tochigi": {
+    "artist": "Koichi Sato",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nikko_toshogu_shrine.jpg",
+    "filename": "Nikko_toshogu_shrine.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "栃木県"
+  },
+  "tokushima": {
+    "artist": "katorisi",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Onaruto-bridge_and_Naruto_Channel,Naruto-city,Japan.JPG",
+    "filename": "Onaruto-bridge_and_Naruto_Channel,Naruto-city,Japan.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "徳島県"
+  },
+  "tokyo": {
+    "artist": "Kestrel",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tokyo_Station_Marunouchi_Building_P5228787.jpg",
+    "filename": "Tokyo_Station_Marunouchi_Building_P5228787.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "東京都"
+  },
+  "tottori": {
+    "artist": "Hashi photo",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tottori-Sakyu_Tottori_Japan.JPG",
+    "filename": "Tottori-Sakyu_Tottori_Japan.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "鳥取県"
+  },
+  "toyama": {
+    "artist": "タチヤマカムイ",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Toyamaken-top.JPG",
+    "filename": "Toyamaken-top.JPG",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "富山県"
+  },
+  "vietnam": {
+    "artist": "See File history below for details.",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg",
+    "filename": "Flag_of_Vietnam.svg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ベトナム"
+  },
+  "wakayama": {
+    "artist": "Suikotei",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nachi_Falls_201908-2.jpg",
+    "filename": "Nachi_Falls_201908-2.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "和歌山県"
+  },
+  "yamagata": {
+    "artist": "Jun K",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gassan_(5693125340).jpg",
+    "filename": "Gassan_(5693125340).jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "山形県"
+  },
+  "yamaguchi": {
+    "artist": "池田賢一郎 at Japanese Wikipedia",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E7%A7%8B%E5%90%89%E5%8F%B0%E9%A2%A8%E6%99%AF.jpg",
+    "filename": "秋吉台風景.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "山口県"
+  },
+  "yamanashi": {
+    "artist": "Midori",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Kawaguchiko_Sakura_Mount_Fuji_3.JPG",
+    "filename": "Lake_Kawaguchiko_Sakura_Mount_Fuji_3.JPG",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "山梨県"
   }
 }

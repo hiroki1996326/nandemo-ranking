@@ -194,12 +194,14 @@ def load_entities():
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--ids', default='', help='カンマ区切りのid。対象を絞る')
+    parser.add_argument('--exclude-ids', default='', help='カンマ区切りのid。対象から除外する（宗教等、機械的な画像割り当てを避けたいもの向け）')
     parser.add_argument('--types', default='', help='カンマ区切りのtype。対象typeを絞る（例: prefecture,country,mountain）')
     parser.add_argument('--force', default='', help='カンマ区切りのid。既存があっても取り直す')
     parser.add_argument('--limit', type=int, default=None, help='取得する最大件数')
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args()
     only_ids = set(x for x in args.ids.split(',') if x) or None
+    exclude_ids = set(x for x in args.exclude_ids.split(',') if x)
     only_types = set(x for x in args.types.split(',') if x) or None
     force_ids = set(x for x in args.force.split(',') if x)
 
@@ -219,6 +221,8 @@ def main():
             print('上限に達したため中断します。', file=sys.stderr)
             break
         if only_ids is not None and e['id'] not in only_ids:
+            continue
+        if e['id'] in exclude_ids:
             continue
         if only_types is not None and e['type'] not in only_types:
             continue

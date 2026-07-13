@@ -86,7 +86,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-heikinjumyo-kuni.webp',
     },
     {
       'id': 'yushutsugaku-kuni',
@@ -214,7 +214,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-sabaku-menseki.webp',
     },
     {
       'id': 'kome-shukakuryo-todofuken',
@@ -615,7 +615,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/natsuki-olympic-kin-medal-kuni.webp',
     },
     {
       'id': 'sekai-gengo-washa',
@@ -1229,7 +1229,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/nihon-taki-rakusa.webp',
     },
     {
       'id': 'sekai-kawa-nagasa',
@@ -1795,7 +1795,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-jidousha-seisan-kuni.webp',
     },
     {
       'id': 'nihon-yama-takasa',
@@ -2080,6 +2080,51 @@ window.RANKING_DATA = {
         },
       ],
       'thumbnail': '/images/topics/sekai-mizuumi-menseki.webp',
+    },
+    {
+      'id': 'sekai-coffee-seisanryo-kuni',
+      'title': '世界のコーヒー生産量ランキング',
+      'category': 'keizai',
+      'unit': 'トン',
+      'source': 'FAOSTAT（国連食糧農業機関）',
+      'sourceUrl': 'https://www.fao.org/faostat/en/#data/QCL',
+      'updateFrequency': 'static',
+      'updatedAt': '2026-07-13',
+      'lead': '世界のコーヒー生豆生産量は、ブラジルが他国を大きく引き離して1位。ベトナム、コロンビアが続く。',
+      'commentary': 'FAOSTAT（国連食糧農業機関）の統計に基づく、コーヒー生豆（Green coffee）の生産量ランキング（2020年データ）。',
+      'analysisHeading': 'ブラジル1カ国で世界生産量の3割超、上位2カ国で過半数',
+      'analysis': [
+        'ブラジルの生産量は約370万トンで、2位ベトナム（約176万トン）の2倍以上である。',
+        'ブラジルとベトナムの上位2カ国の合計は約546万トンとなり、上位5カ国合計（約654万トン）の8割以上を占める。',
+      ],
+      'periods': [
+        {
+          'period': null,
+          'entries': [
+            {
+              'name': 'ブラジル',
+              'value': 3700847,
+            },
+            {
+              'name': 'ベトナム',
+              'value': 1762668,
+            },
+            {
+              'name': 'コロンビア',
+              'value': 833930,
+            },
+            {
+              'name': 'インドネシア',
+              'value': 762388,
+            },
+            {
+              'name': 'エチオピア',
+              'value': 482357,
+            },
+          ],
+        },
+      ],
+      'thumbnail': '/images/topics/sekai-coffee-seisanryo-kuni.webp',
     },
     {
       'id': 'sekai-gdp-kuni',

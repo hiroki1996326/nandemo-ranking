@@ -85,6 +85,12 @@ TOPIC_HINT = {
     'sekai-shukyo-jinko': 'diverse crowd of people from many cultures, world map, globe',
     'sekai-kaiyo-menseki': 'vast ocean, waves, aerial view from above',
     'nihon-koso-biru': 'modern skyscrapers, Tokyo city skyline, urban architecture',
+    'sekai-coffee-seisanryo-kuni': 'coffee beans, coffee farm plantation, roasted coffee, warm tones',
+    'natsuki-olympic-kin-medal-kuni': 'olympic stadium, gold medal, cheering crowd, confetti',
+    'nihon-taki-rakusa': 'tall waterfall, lush green forest, mist, dramatic nature',
+    'sekai-heikinjumyo-kuni': 'elderly and young people together, healthy lifestyle, warm sunlight',
+    'sekai-jidousha-seisan-kuni': 'car factory assembly line, automobiles, industrial',
+    'sekai-sabaku-menseki': 'vast desert dunes, sand, arid landscape',
 }
 
 CATEGORY_HINT = {

@@ -1165,6 +1165,12 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'colombia': {
+    'name': 'コロンビア',
+    'type': 'country',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-044': {
     'name': '支笏湖',
     'type': null,
@@ -1210,6 +1216,12 @@ window.ENTITIES_DATA = {
   'entity-153': {
     'name': 'ミシガン湖',
     'type': null,
+    'image': null,
+    'imageCredit': '',
+  },
+  'vietnam': {
+    'name': 'ベトナム',
+    'type': 'country',
     'image': null,
     'imageCredit': '',
   },

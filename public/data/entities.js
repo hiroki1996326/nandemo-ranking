@@ -775,6 +775,12 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'movie-kimitachi-2023': {
+    'name': '君たちはどう生きるか',
+    'type': 'movie',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-202': {
     'name': '信濃川',
     'type': null,
@@ -1483,6 +1489,12 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'movie-conan-2023': {
+    'name': '名探偵コナン 黒鉄の魚影',
+    'type': 'movie',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-174': {
     'name': 'キューバ島',
     'type': null,
@@ -1564,6 +1576,12 @@ window.ENTITIES_DATA = {
   'entity-009': {
     'name': 'スペイン語',
     'type': null,
+    'image': null,
+    'imageCredit': '',
+  },
+  'movie-slamdunk-2023': {
+    'name': 'THE FIRST SLAM DUNK',
+    'type': 'movie',
     'image': null,
     'imageCredit': '',
   },

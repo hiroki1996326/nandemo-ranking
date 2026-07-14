@@ -25,27 +25,31 @@
 ## リポジトリ構成（重要ファイルのみ）
 
 ```
+content/                源泉データ（ここを編集する）
+  entities.json          実体の登録簿: id -> {name, type}
+  articles/<id>.json     記事1本ずつ（実体はIDで参照、文章はテキスト）
+  datasets/<name>.csv    大量の時系列数値（1列目=実体ID、ヘッダ=期間）
 public/
   index.html          静的シェル。<head>のmeta/OGP/favicon、<body>のヘッダー/フッター
   app.js              SPAルーター＋全HTML生成ロジック（実質ここが本体）
   styles.css          全スタイル
   data/
-    ranking-data.js    Airtableから同期される記事データ（Git管理・自動生成、直接編集しない）
+    ranking-data.js    build.pyが生成する記事データ（自動生成、直接編集しない）
     entities.js        同上、実体（都道府県・国など）マスタ
   images/
     entities/          実体画像（Wikipedia/flagcdn由来）
     topics/            記事サムネイル（AI生成）
     icons/              王冠アイコン等のフリー素材
 scripts/
-  sync_from_airtable.py       Airtable → public/data/*.js への同期。全ての起点
+  build.py                    content/ → public/data/*.js を生成。全ての起点（ID存在チェックあり）
+  export_airtable_to_content.py 初回移行用（Airtable→content/。もう使わない）
   fetch_wikipedia_images.py   実体画像をWikipedia代表画像から自動取得
   fetch_country_flags.py      国(type=country)の画像をflagcdn.comから取得
   generate_topic_thumbnails.py 記事サムネをFlux(fal.ai)で生成
   env_loader.py                .envファイルの読み込み（全スクリプト共通）
-  build_entities_migration.py / provision_airtable_data.py
-                                過去の一括移行用（通常は使わない）
+  sync_from_airtable.py       【レガシー】旧Airtable同期。使わない（--forceなしでは動かない）
 DESIGN.md              プロダクト仕様書（コンセプト・データモデル・方針）
-.env                    Airtable/fal.aiのAPIキー（**gitignore対象、必ず自分で作る**）
+.env                    fal.ai等のAPIキー（**gitignore対象、必ず自分で作る**）
 .env.example            .envのひな形
 ```
 

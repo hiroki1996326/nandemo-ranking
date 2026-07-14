@@ -8,8 +8,9 @@ public/images/entities/{id}.webp に保存する。画像は必ずWikimedia Comm
 
 AI生成（generate_images.py）と違い、実写・国旗などをそのまま取得するので、
 シャープで合法・無料。地理・自然・国・建造物などの「絵になる実体」向き。
-抽象概念（宗教・言語など）や食べ物は、代表画像が的外れになりがちなので、
---types で対象typeを絞るか、取得後に目視で外すのがよい。
+抽象概念（宗教・言語・映画）は代表画像が的外れ・不適切になりがちなため
+**デフォルトで対象外**（type未設定のものも多いため、名前が「〜語」で終わる
+ものも名前パターンで弾く）。対象に含めたい場合は --include-abstract を指定。
 
 環境変数:
   AIRTABLE_API_KEY / AIRTABLE_BASE_ID / AIRTABLE_ENTITIES_TABLE  （sync_from_airtable.pyと共通）
@@ -62,6 +63,20 @@ USER_AGENT = 'rankin-q-imagebot/1.0 (https://rankin-q.com; image attribution res
 IMG_SIZE = (600, 600)  # 正方形にクロップして保存
 WEBP_QUALITY = 82
 MAX_BYTES = 300 * 1024
+
+# 抽象概念は代表画像が的外れ・不適切になりやすいため、デフォルトでは対象外にする
+# （--types で明示的に指定した場合のみ対象にする。過去に言語typeへ誤って世界地図画像を
+#  割り当ててしまった事故があったため、機械的にガードする）。
+DEFAULT_EXCLUDED_TYPES = {'religion', 'language', 'movie'}
+# typeが未設定の実体も多いため、名前パターンでもフォールバック的に弾く
+DEFAULT_EXCLUDED_NAME_SUFFIXES = ('語',)  # 「スペイン語」等の言語名
+
+
+def looks_like_excluded_concept(entity):
+    if entity['type'] in DEFAULT_EXCLUDED_TYPES:
+        return True
+    name = entity['name'] or ''
+    return any(name.endswith(suf) for suf in DEFAULT_EXCLUDED_NAME_SUFFIXES)
 
 
 def api_get(endpoint, params):
@@ -198,6 +213,8 @@ def main():
     parser.add_argument('--types', default='', help='カンマ区切りのtype。対象typeを絞る（例: prefecture,country,mountain）')
     parser.add_argument('--force', default='', help='カンマ区切りのid。既存があっても取り直す')
     parser.add_argument('--limit', type=int, default=None, help='取得する最大件数')
+    parser.add_argument('--include-abstract', action='store_true',
+                         help='宗教・言語・映画など抽象概念タイプ/名前(「〜語」等)も対象に含める（デフォルトは除外）')
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args()
     only_ids = set(x for x in args.ids.split(',') if x) or None
@@ -223,6 +240,8 @@ def main():
         if only_ids is not None and e['id'] not in only_ids:
             continue
         if e['id'] in exclude_ids:
+            continue
+        if not args.include_abstract and looks_like_excluded_concept(e):
             continue
         if only_types is not None and e['type'] not in only_types:
             continue

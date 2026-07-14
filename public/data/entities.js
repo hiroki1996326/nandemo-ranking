@@ -148,8 +148,8 @@ window.ENTITIES_DATA = {
   'entity-011': {
     'name': 'ヒンディー語',
     'type': null,
-    'image': '/images/entities/entity-011.webp',
-    'imageCredit': 'Public domain',
+    'image': null,
+    'imageCredit': '',
   },
   'entity-032': {
     'name': '虎ノ門ヒルズ ステーションタワー',
@@ -1000,8 +1000,8 @@ window.ENTITIES_DATA = {
   'entity-010': {
     'name': '英語',
     'type': null,
-    'image': '/images/entities/entity-010.webp',
-    'imageCredit': 'CC BY-SA 4.0',
+    'image': null,
+    'imageCredit': '',
   },
   'kumamoto': {
     'name': '熊本県',
@@ -1120,8 +1120,8 @@ window.ENTITIES_DATA = {
   'entity-019': {
     'name': 'トルコ語',
     'type': null,
-    'image': '/images/entities/entity-019.webp',
-    'imageCredit': 'User:AtilimGunesBaydin / CC BY 2.0',
+    'image': null,
+    'imageCredit': '',
   },
   'saitama': {
     'name': '埼玉県',
@@ -1210,8 +1210,8 @@ window.ENTITIES_DATA = {
   'entity-014': {
     'name': 'ロシア語',
     'type': null,
-    'image': '/images/entities/entity-014.webp',
-    'imageCredit': 'Dag13 / CC BY-SA 3.0',
+    'image': null,
+    'imageCredit': '',
   },
   'entity-153': {
     'name': 'ミシガン湖',
@@ -1306,8 +1306,8 @@ window.ENTITIES_DATA = {
   'entity-015': {
     'name': '日本語',
     'type': null,
-    'image': '/images/entities/entity-015.webp',
-    'imageCredit': 'Public domain',
+    'image': null,
+    'imageCredit': '',
   },
   'entity-020': {
     'name': 'エベレスト(アジア)',
@@ -1588,14 +1588,14 @@ window.ENTITIES_DATA = {
   'entity-009': {
     'name': 'スペイン語',
     'type': null,
-    'image': '/images/entities/entity-009.webp',
-    'imageCredit': '− Allice Hunter / CC BY-SA 4.0',
+    'image': null,
+    'imageCredit': '',
   },
   'movie-slamdunk-2023': {
     'name': 'THE FIRST SLAM DUNK',
     'type': 'movie',
-    'image': '/images/entities/movie-slamdunk-2023.webp',
-    'imageCredit': 'Khkhkhk / CC BY-SA 4.0',
+    'image': null,
+    'imageCredit': '',
   },
   'entity-222': {
     'name': '前穂高岳',
@@ -1606,8 +1606,8 @@ window.ENTITIES_DATA = {
   'entity-013': {
     'name': 'ベンガル語',
     'type': null,
-    'image': '/images/entities/entity-013.webp',
-    'imageCredit': 'আফতাবুজ্জামান / CC BY-SA 3.0',
+    'image': null,
+    'imageCredit': '',
   },
   'entity-177': {
     'name': 'ミンダナオ島',
@@ -1858,8 +1858,8 @@ window.ENTITIES_DATA = {
   'entity-017': {
     'name': 'ベトナム語',
     'type': null,
-    'image': '/images/entities/entity-017.webp',
-    'imageCredit': 'Ле Лой / CC BY-SA 4.0',
+    'image': null,
+    'imageCredit': '',
   },
   'mie': {
     'name': '三重県',

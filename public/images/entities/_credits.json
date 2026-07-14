@@ -71,78 +71,6 @@
     "source": "wikipedia",
     "wikipedia_title": "愛媛県"
   },
-  "entity-009": {
-    "artist": "− Allice Hunter",
-    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hispanophone_global_world_map_language.svg",
-    "filename": "Hispanophone_global_world_map_language.svg",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "wikipedia",
-    "wikipedia_title": "スペイン語"
-  },
-  "entity-010": {
-    "artist": "",
-    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Anglospeak_(subnational_version).svg",
-    "filename": "Anglospeak_(subnational_version).svg",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "wikipedia",
-    "wikipedia_title": "英語"
-  },
-  "entity-011": {
-    "artist": "",
-    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hindi.svg",
-    "filename": "Hindi.svg",
-    "license": "Public domain",
-    "license_url": "",
-    "source": "wikipedia",
-    "wikipedia_title": "ヒンディー語"
-  },
-  "entity-013": {
-    "artist": "আফতাবুজ্জামান",
-    "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE.svg",
-    "filename": "বাংলা.svg",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source": "wikipedia",
-    "wikipedia_title": "ベンガル語"
-  },
-  "entity-014": {
-    "artist": "Dag13",
-    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ru%C5%A1tina_ve_sv%C4%9Bt%C4%9B.svg",
-    "filename": "Ruština_ve_světě.svg",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source": "wikipedia",
-    "wikipedia_title": "ロシア語"
-  },
-  "entity-015": {
-    "artist": "",
-    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Japanese_language_extension.PNG",
-    "filename": "Japanese_language_extension.PNG",
-    "license": "Public domain",
-    "license_url": "",
-    "source": "wikipedia",
-    "wikipedia_title": "日本語"
-  },
-  "entity-017": {
-    "artist": "Ле Лой",
-    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Color-coded_Vietnamese_language_distribution_world_map_counting_from_10,000_user_or_above_vector.svg",
-    "filename": "Color-coded_Vietnamese_language_distribution_world_map_counting_from_10,000_user_or_above_vector.svg",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "wikipedia",
-    "wikipedia_title": "ベトナム語"
-  },
-  "entity-019": {
-    "artist": "User:AtilimGunesBaydin",
-    "descriptionurl": "https://commons.wikimedia.org/wiki/File:TurkishRoadSign-WelcomeToEurope_Modified.jpg",
-    "filename": "TurkishRoadSign-WelcomeToEurope_Modified.jpg",
-    "license": "CC BY 2.0",
-    "license_url": "https://creativecommons.org/licenses/by/2.0",
-    "source": "wikipedia",
-    "wikipedia_title": "トルコ語"
-  },
   "entity-027": {
     "artist": "Kakidai",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_2014_%E2%85%A2.jpg",
@@ -1915,15 +1843,6 @@
     "license_url": "https://creativecommons.org/licenses/by/3.0",
     "source": "wikipedia",
     "wikipedia_title": "宮崎県"
-  },
-  "movie-slamdunk-2023": {
-    "artist": "Khkhkhk",
-    "descriptionurl": "https://commons.wikimedia.org/wiki/File:SHIBUYA.jpg",
-    "filename": "SHIBUYA.jpg",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "wikipedia",
-    "wikipedia_title": "THE FIRST SLAM DUNK"
   },
   "nagano": {
     "artist": "Alpsdake",

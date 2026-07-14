@@ -863,6 +863,51 @@ window.RANKING_DATA = {
       'thumbnail': '/images/topics/kogyo-shunyu-eiga.webp',
     },
     {
+      'id': 'sekai-komugi-seisanryo-kuni',
+      'title': '世界の小麦生産量ランキング',
+      'category': 'keizai',
+      'unit': 'トン',
+      'source': 'FAOSTAT（国連食糧農業機関）',
+      'sourceUrl': 'https://www.fao.org/faostat/en/#data/QCL',
+      'updateFrequency': 'static',
+      'updatedAt': '2026-07-14',
+      'lead': '世界の小麦生産量は中国が突出して世界一。インド、ロシアが僅差で2位・3位を争う。',
+      'commentary': 'FAOSTAT（国連食糧農業機関）の統計に基づく、小麦の生産量ランキング（2022年データ）。',
+      'analysisHeading': '中国が世界生産量の17%を占め最大生産国、2位インドと3位ロシアの差はわずか350万トン',
+      'analysis': [
+        '中国の生産量は約1億3770万トンで、世界生産量（約8億840万トン）の17%を占める。',
+        '2位インド（約1億770万トン）と3位ロシア（約1億420万トン）の差は約350万トンと僅差である。4位アメリカ合衆国（4490万トン）はロシアの半分以下にとどまる。',
+      ],
+      'periods': [
+        {
+          'period': null,
+          'entries': [
+            {
+              'name': '中国',
+              'value': 137700000,
+            },
+            {
+              'name': 'インド',
+              'value': 107700000,
+            },
+            {
+              'name': 'ロシア',
+              'value': 104200000,
+            },
+            {
+              'name': 'アメリカ',
+              'value': 44900000,
+            },
+            {
+              'name': 'オーストラリア',
+              'value': 36200000,
+            },
+          ],
+        },
+      ],
+      'thumbnail': null,
+    },
+    {
       'id': 'sekai-shima-menseki',
       'title': '世界の島の面積ランキング',
       'category': 'chiri',

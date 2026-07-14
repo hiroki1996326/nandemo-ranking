@@ -34,8 +34,10 @@ content/
 ### やってはいけないこと（重要）
 
 - **`public/data/*.js` を直接編集しない**。これは `build.py` が生成する成果物。手で書いても次のビルドで消える
-- **`scripts/sync_from_airtable.py` を実行しない**。旧Airtable方式のレガシー。実行すると `content/` 由来の
-  データ（グラフ用の時系列CSV等）が失われる（`--force` なしでは動かないようガード済み）
+  （記事を追加したいときは `content/articles/` にファイルを作って `build.py` を回す）
+
+> データはAirtableから `content/` ファイル方式に完全移行済み。Airtableはもう使わない
+> （同期スクリプトも削除済み）。
 
 ---
 

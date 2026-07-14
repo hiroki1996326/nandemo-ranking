@@ -6,8 +6,7 @@ Wikipediaの代表画像と違い、国コードで一意にファイルが決�
 曖昧さがなく、常にシャープな正式国旗が手に入る。データ自体はflag-icons（MIT License、
 https://github.com/lipis/flag-icons ）に基づく。
 
-環境変数:
-  AIRTABLE_API_KEY / AIRTABLE_BASE_ID / AIRTABLE_ENTITIES_TABLE （sync_from_airtable.pyと共通）
+実体（type=country）は content/entities.json から読む（Airtable不要）。
 
 使い方:
   python scripts/fetch_country_flags.py --dry-run
@@ -31,11 +30,10 @@ from PIL import Image
 
 sys.path.insert(0, os.path.dirname(__file__))
 from env_loader import load_dotenv  # noqa: E402
-from sync_from_airtable import fetch_all_records  # noqa: E402
+import common as c  # noqa: E402
 
 load_dotenv()
 
-ENTITIES_TABLE = os.environ.get('AIRTABLE_ENTITIES_TABLE', 'Entities')
 PUBLIC_DIR = os.path.join(os.path.dirname(__file__), '..', 'public')
 ENTITY_IMAGES_DIR = os.path.join(PUBLIC_DIR, 'images', 'entities')
 
@@ -55,14 +53,8 @@ COUNTRY_ISO = {
 
 
 def load_countries():
-    records = fetch_all_records(ENTITIES_TABLE)
-    out = []
-    for rec in records:
-        f = rec['fields']
-        if f.get('type') != 'country':
-            continue
-        out.append({'id': f.get('id'), 'name': f.get('name')})
-    return [c for c in out if c['id'] and c['name']]
+    # 実体は content/entities.json から読み、type=country だけを対象にする。
+    return [e for e in c.load_entities_list() if e['type'] == 'country']
 
 
 def fetch_flag_png(iso_code):
@@ -78,10 +70,6 @@ def main():
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args()
     force_ids = set(x for x in args.force.split(',') if x)
-
-    if not os.environ.get('AIRTABLE_API_KEY') or not os.environ.get('AIRTABLE_BASE_ID'):
-        print('環境変数 AIRTABLE_API_KEY / AIRTABLE_BASE_ID を設定してください。', file=sys.stderr)
-        sys.exit(1)
 
     os.makedirs(ENTITY_IMAGES_DIR, exist_ok=True)
     countries = load_countries()

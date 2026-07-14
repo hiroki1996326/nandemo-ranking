@@ -8,7 +8,7 @@
 
 環境変数:
   FAL_KEY                 fal.aiのAPIキー
-  AIRTABLE_API_KEY / AIRTABLE_BASE_ID / AIRTABLE_TOPICS_TABLE
+記事メタは content/articles/*.json から読む（Airtable不要）。
 
 使い方（安全のため、--ids か --limit のどちらかを指定しないと最大5件までしか生成しない）:
   python scripts/generate_topic_thumbnails.py --dry-run
@@ -37,13 +37,12 @@ from PIL import Image, ImageDraw, ImageFont
 
 sys.path.insert(0, os.path.dirname(__file__))
 from env_loader import load_dotenv  # noqa: E402
-from sync_from_airtable import fetch_all_records  # noqa: E402
+import common as c  # noqa: E402
 
 load_dotenv()
 
 FAL_KEY = os.environ.get('FAL_KEY')
 FLUX_MODEL = os.environ.get('FLUX_MODEL', 'fal-ai/flux/dev')
-TOPICS_TABLE = os.environ.get('AIRTABLE_TOPICS_TABLE', 'Topics')
 
 PUBLIC_DIR = os.path.join(os.path.dirname(__file__), '..', 'public')
 TOPIC_IMAGES_DIR = os.path.join(PUBLIC_DIR, 'images', 'topics')
@@ -213,12 +212,8 @@ def save_webp(img, path, size, quality=WEBP_QUALITY):
 
 
 def load_topics():
-    records = fetch_all_records(TOPICS_TABLE)
-    out = []
-    for rec in records:
-        f = rec['fields']
-        out.append({'id': f.get('id'), 'title': f.get('title'), 'category': f.get('category')})
-    return [t for t in out if t['id'] and t['title']]
+    # 記事メタは content/articles/*.json から読む。
+    return c.load_topics_meta()
 
 
 def main():
@@ -230,10 +225,6 @@ def main():
     args = parser.parse_args()
     only_ids = set(x for x in args.ids.split(',') if x) or None
     force_ids = set(x for x in args.force.split(',') if x)
-
-    if not os.environ.get('AIRTABLE_API_KEY') or not os.environ.get('AIRTABLE_BASE_ID'):
-        print('環境変数 AIRTABLE_API_KEY / AIRTABLE_BASE_ID を設定してください。', file=sys.stderr)
-        sys.exit(1)
 
     limit = args.limit
     if only_ids is None and limit is None and not args.dry_run:

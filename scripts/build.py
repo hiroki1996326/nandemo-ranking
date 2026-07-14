@@ -34,16 +34,14 @@ except Exception:
 
 sys.path.insert(0, os.path.dirname(__file__))
 import json  # noqa: E402
-# 出力書式・sitemap・画像パス等は既存ロジックを流用する（Airtable取得部分は使わない）
-import sync_from_airtable as sync  # noqa: E402
+import common as c  # noqa: E402
 
-ROOT = os.path.join(os.path.dirname(__file__), '..')
-CONTENT_DIR = os.path.join(ROOT, 'content')
-ARTICLES_DIR = os.path.join(CONTENT_DIR, 'articles')
-DATASETS_DIR = os.path.join(CONTENT_DIR, 'datasets')
-ENTITIES_PATH = os.path.join(CONTENT_DIR, 'entities.json')
+CONTENT_DIR = c.CONTENT_DIR
+ARTICLES_DIR = c.ARTICLES_DIR
+DATASETS_DIR = c.DATASETS_DIR
+ENTITIES_PATH = c.ENTITIES_PATH
 
-VALID_CATEGORY_IDS = {c['id'] for c in sync.CATEGORIES}
+VALID_CATEGORY_IDS = {cat['id'] for cat in c.CATEGORIES}
 
 
 class BuildError(Exception):
@@ -176,17 +174,17 @@ def validate(articles, registry):
 
 def attach_images(topics, entities_out):
     """public/images 配下の画像を discover して紐づける（fetch_*.py が取得済みの前提）。"""
-    credits = sync._load_image_credits()
+    credits = c.load_image_credits()
     for eid, e in entities_out.items():
-        candidate = os.path.join(sync.IMAGES_DIR, eid + '.webp')
+        candidate = os.path.join(c.IMAGES_DIR, eid + '.webp')
         if os.path.exists(candidate):
             e['image'] = '/images/entities/' + eid + '.webp'
         if not (e.get('imageCredit') or '').strip():
             info = credits.get(eid)
             if info:
-                e['imageCredit'] = sync._format_credit(info)
+                e['imageCredit'] = c.format_credit(info)
     for t in topics:
-        candidate = os.path.join(sync.TOPIC_IMAGES_DIR, t['id'] + '.webp')
+        candidate = os.path.join(c.TOPIC_IMAGES_DIR, t['id'] + '.webp')
         if os.path.exists(candidate):
             t['thumbnail'] = '/images/topics/' + t['id'] + '.webp'
 
@@ -214,30 +212,30 @@ def main():
     attach_images(topics, entities_out)
 
     # ---- ranking-data.js ----
-    data = {'categories': sync.CATEGORIES, 'topics': topics}
+    data = {'categories': c.CATEGORIES, 'topics': topics}
     header = (
         '// このファイルは scripts/build.py が content/ から自動生成します。\n'
         '// 直接編集しないでください（content/ を編集して再ビルドしてください）。\n'
     )
-    with open(sync.DATA_OUTPUT_PATH, 'w', encoding='utf-8') as f:
-        f.write(header + 'window.RANKING_DATA = ' + sync.to_js(data) + ';\n')
-    print(str(len(topics)) + '件のトピックを ' + sync.DATA_OUTPUT_PATH + ' に書き出しました。')
+    with open(c.DATA_OUTPUT_PATH, 'w', encoding='utf-8') as f:
+        f.write(header + 'window.RANKING_DATA = ' + c.to_js(data) + ';\n')
+    print(str(len(topics)) + '件のトピックを ' + c.DATA_OUTPUT_PATH + ' に書き出しました。')
 
     # ---- entities.js ----
-    with open(sync.ENTITIES_OUTPUT_PATH, 'w', encoding='utf-8') as f:
+    with open(c.ENTITIES_OUTPUT_PATH, 'w', encoding='utf-8') as f:
         f.write(
             '// このファイルは scripts/build.py が content/ から自動生成します。\n'
-            'window.ENTITIES_DATA = ' + sync.to_js(entities_out) + ';\n'
+            'window.ENTITIES_DATA = ' + c.to_js(entities_out) + ';\n'
         )
-    print(str(len(entities_out)) + '件のEntitiesを ' + sync.ENTITIES_OUTPUT_PATH + ' に書き出しました。')
+    print(str(len(entities_out)) + '件のEntitiesを ' + c.ENTITIES_OUTPUT_PATH + ' に書き出しました。')
 
     # ---- sitemap / robots（entities は id/type を持つ形に合わせる）----
     entities_for_sitemap = {eid: {'id': eid, 'type': e.get('type')} for eid, e in entities_out.items()}
-    with open(sync.SITEMAP_OUTPUT_PATH, 'w', encoding='utf-8') as f:
-        f.write(sync.build_sitemap_xml(topics, entities_for_sitemap))
+    with open(c.SITEMAP_OUTPUT_PATH, 'w', encoding='utf-8') as f:
+        f.write(c.build_sitemap_xml(topics, entities_for_sitemap))
     print('sitemap.xml を書き出しました。')
-    with open(sync.ROBOTS_OUTPUT_PATH, 'w', encoding='utf-8') as f:
-        f.write('User-agent: *\nAllow: /\n\nSitemap: ' + sync.SITE_URL + '/sitemap.xml\n')
+    with open(c.ROBOTS_OUTPUT_PATH, 'w', encoding='utf-8') as f:
+        f.write('User-agent: *\nAllow: /\n\nSitemap: ' + c.SITE_URL + '/sitemap.xml\n')
     print('robots.txt を書き出しました。')
 
 

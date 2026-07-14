@@ -12,8 +12,7 @@ AI生成（generate_images.py）と違い、実写・国旗などをそのまま
 **デフォルトで対象外**（type未設定のものも多いため、名前が「〜語」で終わる
 ものも名前パターンで弾く）。対象に含めたい場合は --include-abstract を指定。
 
-環境変数:
-  AIRTABLE_API_KEY / AIRTABLE_BASE_ID / AIRTABLE_ENTITIES_TABLE  （sync_from_airtable.pyと共通）
+実体は content/entities.json から読む（Airtable不要）。
 
 使い方（課金はないが、節度のため既存ファイルはスキップする）:
   python scripts/fetch_wikipedia_images.py --dry-run              # 何を取得する予定か（記事名と画像URL）
@@ -46,11 +45,10 @@ from PIL import Image
 
 sys.path.insert(0, os.path.dirname(__file__))
 from env_loader import load_dotenv  # noqa: E402
-from sync_from_airtable import fetch_all_records, ALLOWED_IMAGE_HOSTS  # noqa: E402
+import common as c  # noqa: E402
+from common import ALLOWED_IMAGE_HOSTS  # noqa: E402
 
 load_dotenv()
-
-ENTITIES_TABLE = os.environ.get('AIRTABLE_ENTITIES_TABLE', 'Entities')
 
 PUBLIC_DIR = os.path.join(os.path.dirname(__file__), '..', 'public')
 ENTITY_IMAGES_DIR = os.path.join(PUBLIC_DIR, 'images', 'entities')
@@ -193,17 +191,8 @@ def save_credits(credits):
 
 
 def load_entities():
-    records = fetch_all_records(ENTITIES_TABLE)
-    out = []
-    for rec in records:
-        f = rec['fields']
-        out.append({
-            'id': f.get('id'),
-            'name': f.get('name'),
-            'type': f.get('type'),
-            'image_url': f.get('image_url') or '',
-        })
-    return [e for e in out if e['id'] and e['name']]
+    # 実体は content/entities.json（登録簿）から読む。
+    return c.load_entities_list()
 
 
 def main():
@@ -221,10 +210,6 @@ def main():
     exclude_ids = set(x for x in args.exclude_ids.split(',') if x)
     only_types = set(x for x in args.types.split(',') if x) or None
     force_ids = set(x for x in args.force.split(',') if x)
-
-    if not os.environ.get('AIRTABLE_API_KEY') or not os.environ.get('AIRTABLE_BASE_ID'):
-        print('環境変数 AIRTABLE_API_KEY / AIRTABLE_BASE_ID を設定してください。', file=sys.stderr)
-        sys.exit(1)
 
     os.makedirs(ENTITY_IMAGES_DIR, exist_ok=True)
     entities = load_entities()
@@ -245,7 +230,7 @@ def main():
             continue
         if only_types is not None and e['type'] not in only_types:
             continue
-        # AirtableにWikimedia画像が既に手動設定されているものは、sync側が扱うのでスキップ
+        # 実体に既にWikimedia画像URLが設定されている場合はビルド側が扱うのでスキップ
         if e['image_url']:
             host = urllib.parse.urlparse(e['image_url']).netloc
             if host in ALLOWED_IMAGE_HOSTS:

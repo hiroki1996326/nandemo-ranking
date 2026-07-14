@@ -18,9 +18,8 @@
   - `content/articles/<id>.json` … 記事1本ずつ（実体は**IDで参照**、文章はテキスト）
   - `content/datasets/<name>.csv` … 大量の時系列数値（1列目=実体ID、ヘッダ=期間）
 - **サイト生成は `python scripts/build.py`**（`content/` を読んで`public/data/*.js`等を出力。ID存在チェックあり）
-- `scripts/sync_from_airtable.py` は**レガシー（移行前のバックアップ）**。実行すると`content/`由来の
-  データ（米の推移CSV等）が失われるため`--force`なしでは動かないようガードしてある。基本使わない
-- Airtableは畳まずバックアップとして残しているが、**もう源泉ではない**
+- **`public/data/*.js` を直接編集しない**（build.pyの生成物。手で書いても次のビルドで消える）
+- Airtableは完全に切り離し済み（同期スクリプトも削除済み）。もう存在しないものとして扱ってよい
 
 ## リポジトリ構成（重要ファイルのみ）
 
@@ -42,12 +41,11 @@ public/
     icons/              王冠アイコン等のフリー素材
 scripts/
   build.py                    content/ → public/data/*.js を生成。全ての起点（ID存在チェックあり）
-  export_airtable_to_content.py 初回移行用（Airtable→content/。もう使わない）
+  common.py                   共通処理（パス・出力書式・content読み込み等）
   fetch_wikipedia_images.py   実体画像をWikipedia代表画像から自動取得
   fetch_country_flags.py      国(type=country)の画像をflagcdn.comから取得
   generate_topic_thumbnails.py 記事サムネをFlux(fal.ai)で生成
   env_loader.py                .envファイルの読み込み（全スクリプト共通）
-  sync_from_airtable.py       【レガシー】旧Airtable同期。使わない（--forceなしでは動かない）
 DESIGN.md              プロダクト仕様書（コンセプト・データモデル・方針）
 .env                    fal.ai等のAPIキー（**gitignore対象、必ず自分で作る**）
 .env.example            .envのひな形
@@ -55,23 +53,15 @@ DESIGN.md              プロダクト仕様書（コンセプト・データモ
 
 ## 環境セットアップ
 
-`.env.example`をコピーして`.env`を作り、以下を埋める:
-
-```
-AIRTABLE_API_KEY=
-AIRTABLE_BASE_ID=
-SITE_URL=https://rankin-q.com
-```
-
-Airtableのテーブル名は`entries_candidate` / `topics_candidate` / `entities_candidate`
-（`AIRTABLE_ENTRIES_TABLE`等の環境変数で上書き可能。歴史的経緯でこの名前になっている。
-正式名`Entries`/`Topics`/`Entities`へのリネームはまだしていない）。
-
-画像生成スクリプト（`generate_topic_thumbnails.py`等）を使うには追加で:
+`.env.example`をコピーして`.env`を作る。`build.py`はネット接続すら不要（`content/`を読むだけ）なので、
+記事の追加・更新だけなら`.env`もほぼ不要。画像・サムネのスクリプトを使う場合のみ:
 ```
 pip install Pillow
-FAL_KEY=（fal.aiのAPIキー）
+SITE_URL=https://rankin-q.com
+FAL_KEY=（fal.aiのAPIキー。generate_topic_thumbnails.py を使う場合のみ）
 ```
+
+> データはAirtableから`content/`ファイル方式に完全移行済み（Airtableはもう使わない）。
 
 ## 作業フロー（記事・データを変更した後は必ず）
 
@@ -85,17 +75,13 @@ python scripts/build.py
 キャッシュ対策として、`app.js`/`styles.css`等を変更したら`public/index.html`内の
 `?v=N`をインクリメントすること（Cloudflareのキャッシュ・ブラウザキャッシュ対策）。
 
-## Airtableスキーマの既知の罠
+## 記事・実体データの編集（content/方式）
 
-- **Airtableの主キー（1列目）は後から「Link to another record」型に変更できない**。
-  CSVインポート時に列順を意識する（リンクにしたい列を先頭に置かない）
-- **既存テーブルへのCSV追記は、既に定義済みのフィールドに値が入らず空になることがある**。
-  空のテーブルに一括インポートする方が事故が少ない
-- 空フィールドはAirtable APIのレスポンスに**キー自体が出てこない**（null/空文字ではなく
-  キー省略）。存在確認は実際に値を書き込んでみるのが確実
-- Single Select型フィールドへの新規値作成には、書き込みリクエストに`typecast: true`が必須。
-  空文字を送るとエラーになるので`None`/キー省略にする
-- 無料プランは1,000レコード/ベース（全テーブル合算）。現在Teamプランで運用中
+- 記事を追加/編集: `content/articles/<id>.json` を作る/直す。実体は**IDで参照**（名前を書かない）
+- 実体を追加: まず`content/entities.json`を検索し、あれば既存IDを再利用。無ければ1件だけ追加
+- 大量の時系列は`content/datasets/<name>.csv`（1列目=実体ID）に置き、記事から`dataset`で指す
+- 反映は`python scripts/build.py`。存在しないID参照はビルドが止めて教えてくれる
+- 詳しい手順とサンプルは [README.md](README.md) にある
 
 ## 実体（Entities）画像の調達方針（優先順位）
 
@@ -103,7 +89,7 @@ python scripts/build.py
    から国旗を機械的に取得。国コード対応表は同スクリプト内`COUNTRY_ISO`
 2. **それ以外の地理的実体**（都道府県・山・湖・建造物等）: `fetch_wikipedia_images.py`で
    日本語Wikipediaの代表画像を自動取得。ライセンス情報は`public/images/entities/_credits.json`
-   に記録され、`sync_from_airtable.py`が`imageCredit`として反映する
+   に記録され、`build.py`が`imageCredit`として反映する
 3. **宗教のシンボル画像は意図的に非対応**。政治的・宗教的な解釈の余地があるため、
    特定のシンボル（卍・十字架等）を機械的に割り当てるのは避ける方針（要相談）
 4. **AI画像生成は実体には使わない**。過去に試したが、日本語の固有名詞をプロンプトに
@@ -149,6 +135,5 @@ Cloudflareの自動デプロイは非同期（push後、反映まで数十秒〜
 
 ## 破壊的操作について
 
-- `scripts/provision_airtable_data.py`は**全削除→再作成**をする破壊的スクリプト。
-  実行前に必ずユーザーに確認する
-- Airtableのテーブルを削除・全消去するような操作は、必ず事前に確認を取る
+- `content/` のファイルを大量に削除・上書きするような操作は、実行前に必ずユーザーに確認する
+- `git checkout`/`reset`等でコミット前の変更を捨てる前に、必ず`git status`で確認する

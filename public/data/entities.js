@@ -571,6 +571,12 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/entity-126.webp',
     'imageCredit': 'SKopp, Gabbe, Madden / Public domain',
   },
+  'uranus': {
+    'name': '天王星',
+    'type': 'planet',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-028': {
     'name': '東京タワー',
     'type': null,
@@ -646,6 +652,12 @@ window.ENTITIES_DATA = {
   'entity-131': {
     'name': 'キングダム 大将軍の帰還',
     'type': null,
+    'image': null,
+    'imageCredit': '',
+  },
+  'jupiter': {
+    'name': '木星',
+    'type': 'planet',
     'image': null,
     'imageCredit': '',
   },
@@ -841,6 +853,12 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/entity-064.webp',
     'imageCredit': 'Bsm15 / CC BY-SA 3.0',
   },
+  'mars': {
+    'name': '火星',
+    'type': 'planet',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-073': {
     'name': 'アベンジャーズ/インフィニティ・ウォー',
     'type': null,
@@ -1021,6 +1039,12 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'mercury': {
+    'name': '水星',
+    'type': 'planet',
+    'image': null,
+    'imageCredit': '',
+  },
   'entity-097': {
     'name': 'サウジアラビア',
     'type': null,
@@ -1074,6 +1098,12 @@ window.ENTITIES_DATA = {
     'type': null,
     'image': '/images/entities/entity-027.webp',
     'imageCredit': 'Kakidai / CC BY-SA 3.0',
+  },
+  'earth': {
+    'name': '地球',
+    'type': 'planet',
+    'image': null,
+    'imageCredit': '',
   },
   'entity-091': {
     'name': '大西洋',
@@ -1218,6 +1248,12 @@ window.ENTITIES_DATA = {
     'type': null,
     'image': '/images/entities/entity-153.webp',
     'imageCredit': 'Rachel Kramer / CC BY 2.0',
+  },
+  'saturn': {
+    'name': '土星',
+    'type': 'planet',
+    'image': null,
+    'imageCredit': '',
   },
   'vietnam': {
     'name': 'ベトナム',
@@ -1398,6 +1434,12 @@ window.ENTITIES_DATA = {
     'type': null,
     'image': '/images/entities/entity-089.webp',
     'imageCredit': 'Original: traditional Vector: Nicholas Shanks / Public domain',
+  },
+  'neptune': {
+    'name': '海王星',
+    'type': 'planet',
+    'image': null,
+    'imageCredit': '',
   },
   'entity-176': {
     'name': 'アイスランド島',
@@ -1858,6 +1900,12 @@ window.ENTITIES_DATA = {
   'entity-017': {
     'name': 'ベトナム語',
     'type': null,
+    'image': null,
+    'imageCredit': '',
+  },
+  'venus': {
+    'name': '金星',
+    'type': 'planet',
     'image': null,
     'imageCredit': '',
   },

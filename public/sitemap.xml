@@ -28,6 +28,7 @@
   <url><loc>https://rankin-q.com/topic/gyokakuryo-todofuken</loc><lastmod>2024-01-01</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-jidousha-seisan-kuni</loc><lastmod>2026-07-12</lastmod></url>
   <url><loc>https://rankin-q.com/topic/nihon-yama-takasa</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://rankin-q.com/topic/taiyokei-wakusei-chokkei</loc><lastmod>2026-07-15</lastmod></url>
   <url><loc>https://rankin-q.com/topic/nihon-mizuumi-menseki</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-mizuumi-menseki</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-coffee-seisanryo-kuni</loc><lastmod>2026-07-13</lastmod></url>
@@ -136,6 +137,8 @@
   <url><loc>https://rankin-q.com/entity/entity-178</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-055</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-126</loc></url>
+  <url><loc>https://rankin-q.com/entity/uranus</loc></url>
+  <url><loc>https://rankin-q.com/entity-type/planet</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-028</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-164</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-045</loc></url>
@@ -149,6 +152,7 @@
   <url><loc>https://rankin-q.com/entity/entity-082</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-036</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-131</loc></url>
+  <url><loc>https://rankin-q.com/entity/jupiter</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-155</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-092</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-041</loc></url>
@@ -182,6 +186,7 @@
   <url><loc>https://rankin-q.com/entity/entity-053</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-163</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-064</loc></url>
+  <url><loc>https://rankin-q.com/entity/mars</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-073</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-181</loc></url>
   <url><loc>https://rankin-q.com/entity/arabian-desert</loc></url>
@@ -212,6 +217,7 @@
   <url><loc>https://rankin-q.com/entity/kumamoto</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-113</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-004</loc></url>
+  <url><loc>https://rankin-q.com/entity/mercury</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-097</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-102</loc></url>
   <url><loc>https://rankin-q.com/entity/canada</loc></url>
@@ -221,6 +227,7 @@
   <url><loc>https://rankin-q.com/entity/entity-157</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-186</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-027</loc></url>
+  <url><loc>https://rankin-q.com/entity/earth</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-091</loc></url>
   <url><loc>https://rankin-q.com/entity/thailand</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-021</loc></url>
@@ -245,6 +252,7 @@
   <url><loc>https://rankin-q.com/entity/kyoto</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-014</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-153</loc></url>
+  <url><loc>https://rankin-q.com/entity/saturn</loc></url>
   <url><loc>https://rankin-q.com/entity/vietnam</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-079</loc></url>
   <url><loc>https://rankin-q.com/entity/hyogo</loc></url>
@@ -275,6 +283,7 @@
   <url><loc>https://rankin-q.com/entity/entity-215</loc></url>
   <url><loc>https://rankin-q.com/entity/hokkaido</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-089</loc></url>
+  <url><loc>https://rankin-q.com/entity/neptune</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-176</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-031</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-142</loc></url>
@@ -352,6 +361,7 @@
   <url><loc>https://rankin-q.com/entity/entity-132</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-120</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-017</loc></url>
+  <url><loc>https://rankin-q.com/entity/venus</loc></url>
   <url><loc>https://rankin-q.com/entity/mie</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-223</loc></url>
   <url><loc>https://rankin-q.com/entity/mexico</loc></url>

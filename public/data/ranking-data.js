@@ -1951,6 +1951,64 @@ window.RANKING_DATA = {
       'thumbnail': '/images/topics/nihon-yama-takasa.webp',
     },
     {
+      'id': 'taiyokei-wakusei-chokkei',
+      'title': '太陽系の惑星サイズランキング',
+      'category': 'chiri',
+      'unit': 'km',
+      'source': 'NASA Planetary Fact Sheet',
+      'sourceUrl': 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/',
+      'updateFrequency': 'static',
+      'updatedAt': '2026-07-15',
+      'lead': '太陽系で最も直径が大きい惑星は木星で約142,984km。2位土星（約120,536km）を2万km以上上回る。',
+      'commentary': 'NASA Planetary Fact Sheetの赤道直径データに基づく、太陽系8惑星のサイズ（直径）ランキング。',
+      'analysisHeading': '木星が地球の約11倍で太陽系最大、上位4惑星(ガス惑星)と下位4惑星(地球型惑星)の間には3.6万kmの差',
+      'analysis': [
+        '木星の直径は約142,984kmで、太陽系最小の水星（約4,879km）の29倍以上、地球（約12,756km）の約11倍にあたる。',
+        '直径上位4惑星（木星・土星・天王星・海王星）はいずれもガス惑星で、4位海王星（約49,528km）と5位地球（約12,756km）の差は36,772kmある。地球型惑星の最大である地球でも、ガス惑星最小の天王星（約51,118km）の4分の1に満たない。',
+        '参考として月（直径約3,474km）と冥王星（直径約2,377km）を8惑星と合わせて直径順に並べると、月は8位水星（約4,879km）に次いで9位、冥王星は10位でこの10天体中最小となる。ただし月は惑星ではなく地球の衛星、冥王星は2006年のIAU総会以降「準惑星」に分類されており、いずれも本ランキングの8惑星には含まれない。',
+      ],
+      'periods': [
+        {
+          'period': null,
+          'entries': [
+            {
+              'name': '木星',
+              'value': 142984,
+            },
+            {
+              'name': '土星',
+              'value': 120536,
+            },
+            {
+              'name': '天王星',
+              'value': 51118,
+            },
+            {
+              'name': '海王星',
+              'value': 49528,
+            },
+            {
+              'name': '地球',
+              'value': 12756,
+            },
+            {
+              'name': '金星',
+              'value': 12104,
+            },
+            {
+              'name': '火星',
+              'value': 6792,
+            },
+            {
+              'name': '水星',
+              'value': 4879,
+            },
+          ],
+        },
+      ],
+      'thumbnail': null,
+    },
+    {
       'id': 'nihon-mizuumi-menseki',
       'title': '日本の湖の面積ランキング',
       'category': 'chiri',

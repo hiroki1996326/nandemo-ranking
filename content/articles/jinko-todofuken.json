@@ -1,0 +1,86 @@
+{
+  "id": "jinko-todofuken",
+  "title": "都道府県別 人口ランキング",
+  "category": "jinko",
+  "unit": "人",
+  "source": "総務省統計局 人口推計",
+  "sourceUrl": "https://www.stat.go.jp/",
+  "updateFrequency": "yearly",
+  "updatedAt": "2025-10-01",
+  "lead": "2025年10月1日時点の推計人口で最も多いのは東京都（約1,424万人）。2位神奈川県（約919万人）に500万人以上の差をつけている。",
+  "commentary": "首都圏（東京・神奈川・埼玉・千葉）4都県が上位6位以内に入り、人口の集中がうかがえる。",
+  "analysisHeading": "東京都が突出、上位10県のうち首都圏4都県が集中",
+  "analysis": [
+    "東京都の人口は14,246,219人で、2位神奈川県（9,193,657人）の約1.5倍。3位大阪府（8,764,578人）までの上位3都府県が800万人を超える。",
+    "4位愛知県（7,449,403人）・5位埼玉県（7,287,169人）は700万人台で僅差。上位10都道府県のうち首都圏の東京・神奈川・埼玉・千葉の4都県が入っており、10位静岡県（3,468,845人）は1位東京都の4分の1以下の規模になる。"
+  ],
+  "data": [
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "kanagawa",
+          "value": 9225000
+        },
+        {
+          "entity": "osaka",
+          "value": 8757000
+        },
+        {
+          "entity": "tokyo",
+          "value": 14178000
+        }
+      ]
+    },
+    {
+      "period": 2025,
+      "entries": [
+        {
+          "entity": "tokyo",
+          "value": 14246219
+        },
+        {
+          "entity": "osaka",
+          "value": 8764578
+        },
+        {
+          "entity": "kanagawa",
+          "value": 9193657
+        },
+        {
+          "entity": "hokkaido",
+          "value": 4985419
+        },
+        {
+          "entity": "fukuoka",
+          "value": 5081879
+        },
+        {
+          "entity": "hyogo",
+          "value": 5323825
+        },
+        {
+          "entity": "chiba",
+          "value": 6258512
+        },
+        {
+          "entity": "saitama",
+          "value": 7287169
+        },
+        {
+          "entity": "shizuoka",
+          "value": 3468845
+        },
+        {
+          "entity": "aichi",
+          "value": 7449403
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "tokyo": "全国最多の人口を持つ都道府県。",
+    "osaka": "近畿地方の中心都市を抱え、人口は全国3位。",
+    "kanagawa": "首都圏に位置し、人口は全国2位。"
+  }
+}

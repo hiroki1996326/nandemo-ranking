@@ -1,0 +1,86 @@
+{
+  "id": "kogyo-shunyu-eiga",
+  "title": "年間興行収入ランキング（映画）",
+  "category": "sports",
+  "unit": "億円",
+  "source": "興行通信社 ほか",
+  "sourceUrl": "https://www.eiren.org/",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-01-01",
+  "lead": "2024年の日本の年間興行収入は「名探偵コナン 100万ドルの五稜星（みちしるべ）」が158.0億円で首位。2位「劇場版ハイキュー!! ゴミ捨て場の決戦」（116.4億円）に40億円以上の差をつけている。",
+  "commentary": "上位10作品はすべて邦画で、洋画の作品は入っていない。上位2作品は原作漫画・アニメの劇場版が占める。",
+  "analysisHeading": "「名探偵コナン」が158.0億円で首位、上位10作品はすべて邦画",
+  "analysis": [
+    "「名探偵コナン 100万ドルの五稜星（みちしるべ）」は158.0億円で2024年の年間1位。2位「劇場版ハイキュー!! ゴミ捨て場の決戦」（116.4億円）との差は41.6億円で、3位「キングダム 大将軍の帰還」（80.3億円）までが100億円前後の規模になる。",
+    "上位10作品は洋画を含まずすべて邦画で、テレビアニメ・漫画を原作とする劇場版が上位10作品中6作品（コナン、ハイキュー、SPY×FAMILY、ガンダムSEED、ドラえもん、ヒロアカ）を占める。"
+  ],
+  "data": [
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "movie-conan-2023",
+          "value": 138.8
+        },
+        {
+          "entity": "movie-kimitachi-2023",
+          "value": 88.4
+        },
+        {
+          "entity": "movie-slamdunk-2023",
+          "value": 158.7
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "entity-135",
+          "value": 50.7
+        },
+        {
+          "entity": "entity-136",
+          "value": 45.4
+        },
+        {
+          "entity": "entity-131",
+          "value": 80.3
+        },
+        {
+          "entity": "entity-132",
+          "value": 63.2
+        },
+        {
+          "entity": "entity-134",
+          "value": 53.6
+        },
+        {
+          "entity": "entity-138",
+          "value": 36
+        },
+        {
+          "entity": "entity-130",
+          "value": 116.4
+        },
+        {
+          "entity": "entity-133",
+          "value": 59.1
+        },
+        {
+          "entity": "entity-129",
+          "value": 158
+        },
+        {
+          "entity": "entity-137",
+          "value": 43.1
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "entity-131": "実写映画シリーズの最新作で、年間興行収入3位。",
+    "entity-130": "2024年公開のアニメ映画で、年間興行収入2位。",
+    "entity-129": "2024年公開のシリーズ最新作で、年間興行収入1位。"
+  }
+}

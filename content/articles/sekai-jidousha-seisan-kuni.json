@@ -1,0 +1,69 @@
+{
+  "id": "sekai-jidousha-seisan-kuni",
+  "title": "世界の自動車生産台数ランキング（国別）",
+  "category": "keizai",
+  "unit": "台",
+  "source": "OICA（国際自動車工業会）",
+  "sourceUrl": "https://www.globalnote.jp/post-3184.html",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-12",
+  "lead": "2024年の自動車生産台数は中国が3,128万台超で世界最多。2位アメリカの約3倍の規模で、単独で世界生産の3分の1以上を占める。",
+  "commentary": "上位10カ国は北米・欧州・アジアに分散しているが、生産規模では中国が他を大きく引き離している。",
+  "analysisHeading": "中国が2位アメリカの約3倍、世界生産の3分の1以上を占める",
+  "analysis": [
+    "中国の自動車生産台数は3,128万1,592台で世界1位。2位アメリカ（1,056万2,188台）の約3倍にあたる。",
+    "3位日本（823万4,681台）、4位インド（601万4,691台）と続き、上位4カ国で世界生産の過半数を占める。"
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 2549595
+        },
+        {
+          "entity": "india",
+          "value": 6014691
+        },
+        {
+          "entity": "china",
+          "value": 31281592
+        },
+        {
+          "entity": "thailand",
+          "value": 1468997
+        },
+        {
+          "entity": "south-korea",
+          "value": 4127252
+        },
+        {
+          "entity": "usa",
+          "value": 10562188
+        },
+        {
+          "entity": "germany",
+          "value": 4069222
+        },
+        {
+          "entity": "spain",
+          "value": 2376504
+        },
+        {
+          "entity": "japan",
+          "value": 8234681
+        },
+        {
+          "entity": "mexico",
+          "value": 4202642
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "china": "2024年の生産台数は3,128万台超。2位アメリカの約3倍の規模で世界最大の自動車生産国。",
+    "usa": "生産台数は1,056万台超で世界2位。国内市場向け生産が中心。",
+    "japan": "生産台数は823万台超で世界3位。輸出向け生産の比率が高い。"
+  }
+}

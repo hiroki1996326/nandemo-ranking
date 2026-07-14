@@ -198,6 +198,15 @@ body {
 .breadcrumb-sep { margin: 0 6px; color: var(--text-3); }
 .breadcrumb [aria-current="page"] { color: var(--text-2); }
 
+/* 推移グラフ */
+.trend-chart { margin: 8px 0 26px; }
+.chart-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 0 0 10px; }
+.chart-legend-item { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; }
+.chart-swatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; flex-shrink: 0; }
+.chart-svg { width: 100%; height: auto; display: block; }
+.chart-grid { stroke: var(--line); stroke-width: 1; }
+.chart-axis { fill: var(--text-3); font-size: 11px; font-variant-numeric: tabular-nums; }
+
 /* article detail */
 .article-h1 { font-family: var(--font); font-size: 30px; font-weight: 700; line-height: 1.5; margin: 4px 0 16px; }
 .article-hero { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 10px; margin: 0 0 20px; }

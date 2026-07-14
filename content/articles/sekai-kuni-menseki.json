@@ -1,0 +1,229 @@
+{
+  "id": "sekai-kuni-menseki",
+  "title": "世界の国土面積ランキング",
+  "category": "chiri",
+  "unit": "km²",
+  "source": "外務省",
+  "sourceUrl": "https://www.mofa.go.jp/",
+  "updateFrequency": "static",
+  "updatedAt": "2026-07-10",
+  "lead": "世界で最も国土面積が広いのはロシアで、約1,710万km²と2位カナダの1.7倍以上。上位50カ国・地域を掲載しており、50位タイでも51万km²を超える。",
+  "commentary": "ロシア1か国で2位カナダとの差が700万km²を超え、上位10カ国の中で突出している。",
+  "analysisHeading": "ロシアが突出、11位以降はアフリカが半数以上",
+  "analysis": [
+    "ロシアの国土面積は17,098,242km²で、2位カナダ（9,984,670km²）の約1.7倍。1位と2位の差は7,113,572km²で、これは3位アメリカの国土面積（9,833,517km²）に近い大きさになる。",
+    "上位10カ国のうち、南北アメリカ大陸の国はカナダ・アメリカ・ブラジル・アルゼンチンの4カ国、アジアは中国・インド・カザフスタンの3カ国。7位インド（3,287,263km²）と8位アルゼンチン（2,780,400km²）の間で面積の差が大きくなり、8位以下は300万km²を下回る。11位から50位までの40カ国のうち、アフリカの国が22カ国と半数以上を占める。"
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "entity-100",
+          "value": 1628750
+        },
+        {
+          "entity": "entity-115",
+          "value": 801590
+        },
+        {
+          "entity": "entity-114",
+          "value": 824268
+        },
+        {
+          "entity": "india",
+          "value": 3287263
+        },
+        {
+          "entity": "usa",
+          "value": 9833517
+        },
+        {
+          "entity": "entity-094",
+          "value": 2724900
+        },
+        {
+          "entity": "entity-123",
+          "value": 622984
+        },
+        {
+          "entity": "mexico",
+          "value": 1964375
+        },
+        {
+          "entity": "entity-105",
+          "value": 1246700
+        },
+        {
+          "entity": "entity-099",
+          "value": 1759540
+        },
+        {
+          "entity": "china",
+          "value": 9596961
+        },
+        {
+          "entity": "entity-108",
+          "value": 1141748
+        },
+        {
+          "entity": "entity-110",
+          "value": 1030700
+        },
+        {
+          "entity": "entity-106",
+          "value": 1240192
+        },
+        {
+          "entity": "entity-125",
+          "value": 587295
+        },
+        {
+          "entity": "entity-101",
+          "value": 1564116
+        },
+        {
+          "entity": "entity-127",
+          "value": 581313
+        },
+        {
+          "entity": "entity-104",
+          "value": 1267000
+        },
+        {
+          "entity": "canada",
+          "value": 9984670
+        },
+        {
+          "entity": "thailand",
+          "value": 513120
+        },
+        {
+          "entity": "entity-109",
+          "value": 1098581
+        },
+        {
+          "entity": "indonesia",
+          "value": 1904569
+        },
+        {
+          "entity": "nigeria",
+          "value": 923768
+        },
+        {
+          "entity": "brazil",
+          "value": 8515767
+        },
+        {
+          "entity": "entity-124",
+          "value": 603500
+        },
+        {
+          "entity": "australia",
+          "value": 7692024
+        },
+        {
+          "entity": "entity-096",
+          "value": 2381741
+        },
+        {
+          "entity": "entity-126",
+          "value": 582000
+        },
+        {
+          "entity": "entity-112",
+          "value": 945087
+        },
+        {
+          "entity": "entity-117",
+          "value": 756102
+        },
+        {
+          "entity": "pakistan",
+          "value": 881913
+        },
+        {
+          "entity": "entity-095",
+          "value": 2389986
+        },
+        {
+          "entity": "entity-122",
+          "value": 637657
+        },
+        {
+          "entity": "entity-121",
+          "value": 644329
+        },
+        {
+          "entity": "entity-118",
+          "value": 752612
+        },
+        {
+          "entity": "entity-111",
+          "value": 1001450
+        },
+        {
+          "entity": "entity-119",
+          "value": 676886
+        },
+        {
+          "entity": "entity-107",
+          "value": 1221037
+        },
+        {
+          "entity": "entity-113",
+          "value": 916445
+        },
+        {
+          "entity": "entity-102",
+          "value": 1285216
+        },
+        {
+          "entity": "ethiopia",
+          "value": 1104300
+        },
+        {
+          "entity": "entity-116",
+          "value": 783562
+        },
+        {
+          "entity": "france",
+          "value": 551500
+        },
+        {
+          "entity": "entity-103",
+          "value": 1284000
+        },
+        {
+          "entity": "russia",
+          "value": 17098242
+        },
+        {
+          "entity": "entity-087",
+          "value": 2780400
+        },
+        {
+          "entity": "entity-097",
+          "value": 2149690
+        },
+        {
+          "entity": "entity-128",
+          "value": 527968
+        },
+        {
+          "entity": "entity-098",
+          "value": 1861484
+        },
+        {
+          "entity": "entity-120",
+          "value": 652864
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "usa": "国土面積は世界3位。",
+    "canada": "国土面積は世界2位。",
+    "russia": "世界最大の国土面積を持つ国。"
+  }
+}

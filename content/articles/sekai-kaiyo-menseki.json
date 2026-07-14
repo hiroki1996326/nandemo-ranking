@@ -1,0 +1,45 @@
+{
+  "id": "sekai-kaiyo-menseki",
+  "title": "世界の海洋 面積ランキング",
+  "category": "chiri",
+  "unit": "km²",
+  "source": "国土地理院 ほか",
+  "sourceUrl": "https://www.gsi.go.jp/",
+  "updateFrequency": "static",
+  "updatedAt": "2026-07-10",
+  "lead": "世界最大の海洋は太平洋で、面積は約1億8,130万km²。2位大西洋の約1.9倍の広さがあり、四大洋の中で突出している。",
+  "commentary": "太平洋1つで四大洋の合計面積の半分近くを占める。",
+  "analysisHeading": "太平洋が突出、四大洋のうち北極海が最小",
+  "analysis": [
+    "太平洋の面積は181,300,000km²で、2位大西洋（94,300,000km²）の約1.9倍。3位インド洋（74,100,000km²）との差は107,200,000km²にのぼる。",
+    "4位北極海（12,300,000km²）は太平洋の15分の1程度の広さで、四大洋の中で最も小さい。"
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "entity-090",
+          "value": 181300000
+        },
+        {
+          "entity": "entity-093",
+          "value": 12300000
+        },
+        {
+          "entity": "entity-091",
+          "value": 94300000
+        },
+        {
+          "entity": "entity-092",
+          "value": 74100000
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "entity-090": "地球上で最も広い海洋。",
+    "entity-091": "世界で2番目に広い海洋。",
+    "entity-092": "世界で3番目に広い海洋。"
+  }
+}

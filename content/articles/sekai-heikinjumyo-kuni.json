@@ -1,0 +1,69 @@
+{
+  "id": "sekai-heikinjumyo-kuni",
+  "title": "世界の平均寿命ランキング（国別）",
+  "category": "jinko",
+  "unit": "歳",
+  "source": "WHO世界保健統計2025年版",
+  "sourceUrl": "https://sekai-hub.com/posts/life-expectancy-ranking-2024",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-12",
+  "lead": "WHOが2025年5月に発表した世界保健統計によると、平均寿命が最も長い国は日本で84.5歳。2位シンガポール（83.9歳）を0.6歳上回る。",
+  "commentary": "上位10カ国のうち5カ国がヨーロッパ、2カ国がアジアで、いずれも高所得国が占めている。",
+  "analysisHeading": "上位10カ国は高所得国が中心、日本がアジア勢で最上位",
+  "analysis": [
+    "日本の平均寿命は84.5歳で世界1位。2位シンガポール（83.9歳）、3位韓国（83.8歳）とアジア勢が上位に並ぶ。",
+    "世界全体の平均寿命は71.4歳であり、上位国は世界平均を10歳以上上回っている。"
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "australia",
+          "value": 83.1
+        },
+        {
+          "entity": "singapore",
+          "value": 83.9
+        },
+        {
+          "entity": "spain",
+          "value": 82.7
+        },
+        {
+          "entity": "norway",
+          "value": 82.9
+        },
+        {
+          "entity": "south-korea",
+          "value": 83.8
+        },
+        {
+          "entity": "iceland",
+          "value": 82.6
+        },
+        {
+          "entity": "luxembourg",
+          "value": 82.8
+        },
+        {
+          "entity": "sweden",
+          "value": 82.7
+        },
+        {
+          "entity": "japan",
+          "value": 84.5
+        },
+        {
+          "entity": "switzerland",
+          "value": 83.3
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "singapore": "平均寿命83.9歳で世界2位。アジアで日本に次ぐ長寿国。",
+    "south-korea": "平均寿命83.8歳で世界3位。上位3カ国はいずれもアジア勢。",
+    "japan": "平均寿命84.5歳で世界1位。2位以下に0.6歳以上の差をつけている。"
+  }
+}

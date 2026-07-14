@@ -1,0 +1,77 @@
+{
+  "id": "sekai-gengo-washa",
+  "title": "世界の言語ランキング（母語話者数）",
+  "category": "jinko",
+  "unit": "万人",
+  "source": "Ethnologue",
+  "sourceUrl": "https://www.ethnologue.com/",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-10",
+  "lead": "母語（第一言語）として話す人が最も多い言語は中国語（標準中国語）で約9.9億人。2位スペイン語の約2倍で、単独で突出している。",
+  "commentary": "母語話者数では中国語が最多。英語は第二言語話者を含めると世界最多だが、母語話者だけなら3位となる。",
+  "analysisHeading": "母語話者数では中国語が最多、総話者数では英語が逆転",
+  "analysis": [
+    "標準中国語の母語話者は約9億9,000万人で、2位スペイン語（約4億8,400万人）の約2倍。英語は約3億9,000万人で3位だが、第二言語として話す人を含めた総話者数では世界最多とされる。",
+    "上位12言語のうちインド・南アジア系の言語が3つ（ヒンディー語・ベンガル語・西パンジャブ語）を占める。日本語は約1億2,400万人で8位に入っている。"
+  ],
+  "data": [
+    {
+      "period": 2025,
+      "entries": [
+        {
+          "entity": "entity-019",
+          "value": 8500
+        },
+        {
+          "entity": "entity-013",
+          "value": 24200
+        },
+        {
+          "entity": "entity-017",
+          "value": 8600
+        },
+        {
+          "entity": "entity-014",
+          "value": 14500
+        },
+        {
+          "entity": "entity-011",
+          "value": 34500
+        },
+        {
+          "entity": "entity-015",
+          "value": 12400
+        },
+        {
+          "entity": "entity-012",
+          "value": 25000
+        },
+        {
+          "entity": "entity-010",
+          "value": 39000
+        },
+        {
+          "entity": "entity-008",
+          "value": 99000
+        },
+        {
+          "entity": "entity-018",
+          "value": 8500
+        },
+        {
+          "entity": "entity-016",
+          "value": 9000
+        },
+        {
+          "entity": "entity-009",
+          "value": 48400
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "entity-010": "母語話者数では3位だが、国際的な使用範囲は広い。",
+    "entity-008": "母語話者数で世界最多の言語。",
+    "entity-009": "中南米・スペインを中心に話され、母語話者数は世界2位。"
+  }
+}

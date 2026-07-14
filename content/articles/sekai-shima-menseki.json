@@ -1,0 +1,149 @@
+{
+  "id": "sekai-shima-menseki",
+  "title": "世界の島の面積ランキング",
+  "category": "chiri",
+  "unit": "km²",
+  "source": "国土地理院 ほか",
+  "sourceUrl": "https://www.gsi.go.jp/",
+  "updateFrequency": "static",
+  "updatedAt": "2026-07-10",
+  "lead": "世界最大の島はグリーンランドで、面積は約2,166,000km²。2位ニューギニア島の2.8倍近くあり、日本の国土面積の5.7倍にあたる。上位30島を掲載しており、日本からは本州（7位）と北海道（21位）がランクインしている。",
+  "commentary": "上位10島のうち7位に日本の本州（227,970km²）がランクインしている。",
+  "analysisHeading": "グリーンランドが突出、日本からは本州と北海道がランクイン",
+  "analysis": [
+    "グリーンランドの面積は2,166,000km²で、2位ニューギニア島（785,753km²）の約2.8倍。ニューギニア島と3位ボルネオ島（743,330km²）の差は42,423km²で、隣接する順位間の差としては小さい部類に入る。",
+    "本州は227,970km²で世界の島の中で7位。6位スマトラ島（473,481km²）との差は245,511km²ある一方、8位ヴィクトリア島（217,291km²）との差は10,679km²と僅差になっている。日本の島では北海道（78,073km²）も21位に入り、日本から2島がランクインしている。"
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "entity-174",
+          "value": 105007
+        },
+        {
+          "entity": "entity-168",
+          "value": 196236
+        },
+        {
+          "entity": "entity-180",
+          "value": 74700
+        },
+        {
+          "entity": "entity-186",
+          "value": 47992
+        },
+        {
+          "entity": "entity-179",
+          "value": 76400
+        },
+        {
+          "entity": "entity-185",
+          "value": 48904
+        },
+        {
+          "entity": "entity-164",
+          "value": 473481
+        },
+        {
+          "entity": "entity-173",
+          "value": 111390
+        },
+        {
+          "entity": "entity-166",
+          "value": 217291
+        },
+        {
+          "entity": "entity-162",
+          "value": 587041
+        },
+        {
+          "entity": "entity-183",
+          "value": 60637
+        },
+        {
+          "entity": "entity-181",
+          "value": 70028
+        },
+        {
+          "entity": "entity-169",
+          "value": 174600
+        },
+        {
+          "entity": "entity-165",
+          "value": 227970
+        },
+        {
+          "entity": "entity-170",
+          "value": 151215
+        },
+        {
+          "entity": "entity-184",
+          "value": 55247
+        },
+        {
+          "entity": "entity-167",
+          "value": 209331
+        },
+        {
+          "entity": "entity-163",
+          "value": 507451
+        },
+        {
+          "entity": "entity-171",
+          "value": 126700
+        },
+        {
+          "entity": "hokkaido",
+          "value": 78073
+        },
+        {
+          "entity": "entity-178",
+          "value": 84406
+        },
+        {
+          "entity": "entity-175",
+          "value": 104688
+        },
+        {
+          "entity": "entity-161",
+          "value": 743330
+        },
+        {
+          "entity": "entity-176",
+          "value": 102828
+        },
+        {
+          "entity": "entity-182",
+          "value": 65268
+        },
+        {
+          "entity": "entity-159",
+          "value": 2166000
+        },
+        {
+          "entity": "entity-160",
+          "value": 785753
+        },
+        {
+          "entity": "entity-187",
+          "value": 43873
+        },
+        {
+          "entity": "entity-177",
+          "value": 94630
+        },
+        {
+          "entity": "entity-172",
+          "value": 113729
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "entity-161": "インドネシア・マレーシア・ブルネイの3カ国にまたがる、世界3位の島。",
+    "entity-159": "世界最大の島（大陸を除く）。",
+    "entity-160": "オセアニアとアジアにまたがる、世界2位の面積を持つ島。"
+  }
+}

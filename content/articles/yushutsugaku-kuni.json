@@ -1,0 +1,69 @@
+{
+  "id": "yushutsugaku-kuni",
+  "title": "国・地域別 輸出額ランキング",
+  "category": "keizai",
+  "unit": "億ドル",
+  "source": "UNCTAD 貿易統計",
+  "sourceUrl": "https://unctad.org/",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-01-01",
+  "lead": "2024年の輸出額（財貨・サービス）は中国が1位で3,576.65億ドル。2位アメリカ（2,065.13億ドル）に1,500億ドル以上の差をつけている。",
+  "commentary": "中国・アメリカ・ドイツの上位3カ国が突出しており、4位以下とは規模の差が大きい。",
+  "analysisHeading": "中国が突出、上位3カ国と4位以下の差が大きい",
+  "analysis": [
+    "中国の輸出額は3,576.65億ドルで、2位アメリカ（2,065.13億ドル）の約1.7倍。3位ドイツ（1,681.66億ドル）まで含めた上位3カ国が1,500億ドルを超え、4位オランダ（921.22億ドル）以下とは規模の差が大きい。",
+    "5位日本（707.01億ドル）から10位メキシコ（617.10億ドル）までは600〜700億ドル台に収まり、僅差の争いになっている。上位10カ国・地域のうちアジアが4カ国（中国・日本・韓国・香港）を占める。"
+  ],
+  "data": [
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "south-korea",
+          "value": 683.61
+        },
+        {
+          "entity": "netherlands",
+          "value": 921.22
+        },
+        {
+          "entity": "hong-kong",
+          "value": 645.54
+        },
+        {
+          "entity": "japan",
+          "value": 707.01
+        },
+        {
+          "entity": "italy",
+          "value": 674.46
+        },
+        {
+          "entity": "germany",
+          "value": 1681.66
+        },
+        {
+          "entity": "france",
+          "value": 639.05
+        },
+        {
+          "entity": "mexico",
+          "value": 617.1
+        },
+        {
+          "entity": "usa",
+          "value": 2065.13
+        },
+        {
+          "entity": "china",
+          "value": 3576.65
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "germany": "欧州最大の輸出国で、輸出額は世界3位。",
+    "usa": "輸出額で世界2位。",
+    "china": "財貨・サービスの輸出額で世界最大。"
+  }
+}

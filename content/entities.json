@@ -1,0 +1,1362 @@
+{
+  "aichi": {
+    "name": "愛知県",
+    "type": "prefecture"
+  },
+  "akita": {
+    "name": "秋田県",
+    "type": "prefecture"
+  },
+  "aomori": {
+    "name": "青森県",
+    "type": "prefecture"
+  },
+  "arabian-desert": {
+    "name": "アラビア砂漠",
+    "type": "desert"
+  },
+  "australia": {
+    "name": "オーストラリア",
+    "type": "country"
+  },
+  "bangladesh": {
+    "name": "バングラデシュ",
+    "type": "country"
+  },
+  "brazil": {
+    "name": "ブラジル",
+    "type": "country"
+  },
+  "canada": {
+    "name": "カナダ",
+    "type": "country"
+  },
+  "chiba": {
+    "name": "千葉県",
+    "type": "prefecture"
+  },
+  "china": {
+    "name": "中国",
+    "type": "country"
+  },
+  "colombia": {
+    "name": "コロンビア",
+    "type": "country"
+  },
+  "earth": {
+    "name": "地球",
+    "type": "planet"
+  },
+  "ehime": {
+    "name": "愛媛県",
+    "type": "prefecture"
+  },
+  "entity-001": {
+    "name": "キリスト教",
+    "type": null
+  },
+  "entity-002": {
+    "name": "イスラム教",
+    "type": null
+  },
+  "entity-003": {
+    "name": "ヒンドゥー教",
+    "type": null
+  },
+  "entity-004": {
+    "name": "仏教",
+    "type": null
+  },
+  "entity-005": {
+    "name": "民間信仰・民族宗教",
+    "type": null
+  },
+  "entity-006": {
+    "name": "その他の宗教",
+    "type": null
+  },
+  "entity-007": {
+    "name": "ユダヤ教",
+    "type": null
+  },
+  "entity-008": {
+    "name": "中国語(標準)",
+    "type": null
+  },
+  "entity-009": {
+    "name": "スペイン語",
+    "type": null
+  },
+  "entity-010": {
+    "name": "英語",
+    "type": null
+  },
+  "entity-011": {
+    "name": "ヒンディー語",
+    "type": null
+  },
+  "entity-012": {
+    "name": "ポルトガル語",
+    "type": null
+  },
+  "entity-013": {
+    "name": "ベンガル語",
+    "type": null
+  },
+  "entity-014": {
+    "name": "ロシア語",
+    "type": null
+  },
+  "entity-015": {
+    "name": "日本語",
+    "type": null
+  },
+  "entity-016": {
+    "name": "西パンジャブ語",
+    "type": null
+  },
+  "entity-017": {
+    "name": "ベトナム語",
+    "type": null
+  },
+  "entity-018": {
+    "name": "広東語",
+    "type": null
+  },
+  "entity-019": {
+    "name": "トルコ語",
+    "type": null
+  },
+  "entity-020": {
+    "name": "エベレスト(アジア)",
+    "type": null
+  },
+  "entity-021": {
+    "name": "アコンカグア(南アメリカ)",
+    "type": null
+  },
+  "entity-022": {
+    "name": "デナリ(北アメリカ)",
+    "type": null
+  },
+  "entity-023": {
+    "name": "キリマンジャロ(アフリカ)",
+    "type": null
+  },
+  "entity-024": {
+    "name": "エルブルス(ヨーロッパ)",
+    "type": null
+  },
+  "entity-025": {
+    "name": "ヴィンソン・マシフ(南極)",
+    "type": null
+  },
+  "entity-026": {
+    "name": "プンチャック・ジャヤ(オセアニア)",
+    "type": null
+  },
+  "entity-027": {
+    "name": "東京スカイツリー",
+    "type": null
+  },
+  "entity-028": {
+    "name": "東京タワー",
+    "type": null
+  },
+  "entity-029": {
+    "name": "麻布台ヒルズ森JPタワー",
+    "type": null
+  },
+  "entity-030": {
+    "name": "あべのハルカス",
+    "type": null
+  },
+  "entity-031": {
+    "name": "横浜ランドマークタワー",
+    "type": null
+  },
+  "entity-032": {
+    "name": "虎ノ門ヒルズ ステーションタワー",
+    "type": null
+  },
+  "entity-033": {
+    "name": "麻布台ヒルズ レジデンスB",
+    "type": null
+  },
+  "entity-034": {
+    "name": "SiSりんくうタワー",
+    "type": null
+  },
+  "entity-035": {
+    "name": "大阪府咲洲庁舎",
+    "type": null
+  },
+  "entity-036": {
+    "name": "虎ノ門ヒルズ 森タワー",
+    "type": null
+  },
+  "entity-037": {
+    "name": "琵琶湖",
+    "type": null
+  },
+  "entity-038": {
+    "name": "霞ヶ浦",
+    "type": null
+  },
+  "entity-039": {
+    "name": "サロマ湖",
+    "type": null
+  },
+  "entity-040": {
+    "name": "猪苗代湖",
+    "type": null
+  },
+  "entity-041": {
+    "name": "中海",
+    "type": null
+  },
+  "entity-042": {
+    "name": "屈斜路湖",
+    "type": null
+  },
+  "entity-043": {
+    "name": "宍道湖",
+    "type": null
+  },
+  "entity-044": {
+    "name": "支笏湖",
+    "type": null
+  },
+  "entity-045": {
+    "name": "洞爺湖",
+    "type": null
+  },
+  "entity-046": {
+    "name": "浜名湖",
+    "type": null
+  },
+  "entity-047": {
+    "name": "小川原湖",
+    "type": null
+  },
+  "entity-048": {
+    "name": "十和田湖",
+    "type": null
+  },
+  "entity-049": {
+    "name": "風蓮湖",
+    "type": null
+  },
+  "entity-050": {
+    "name": "能取湖",
+    "type": null
+  },
+  "entity-051": {
+    "name": "北浦",
+    "type": null
+  },
+  "entity-052": {
+    "name": "網走湖",
+    "type": null
+  },
+  "entity-053": {
+    "name": "厚岸湖",
+    "type": null
+  },
+  "entity-054": {
+    "name": "八郎潟調整池",
+    "type": null
+  },
+  "entity-055": {
+    "name": "田沢湖",
+    "type": null
+  },
+  "entity-056": {
+    "name": "摩周湖",
+    "type": null
+  },
+  "entity-057": {
+    "name": "ナイル川",
+    "type": null
+  },
+  "entity-058": {
+    "name": "アマゾン川",
+    "type": null
+  },
+  "entity-059": {
+    "name": "長江",
+    "type": null
+  },
+  "entity-060": {
+    "name": "ミシシッピ川",
+    "type": null
+  },
+  "entity-061": {
+    "name": "オビ川",
+    "type": null
+  },
+  "entity-062": {
+    "name": "エニセイ川",
+    "type": null
+  },
+  "entity-063": {
+    "name": "黄河",
+    "type": null
+  },
+  "entity-064": {
+    "name": "コンゴ川",
+    "type": null
+  },
+  "entity-065": {
+    "name": "アムール川",
+    "type": null
+  },
+  "entity-066": {
+    "name": "パラナ川",
+    "type": null
+  },
+  "entity-067": {
+    "name": "アバター",
+    "type": null
+  },
+  "entity-068": {
+    "name": "アベンジャーズ/エンドゲーム",
+    "type": null
+  },
+  "entity-069": {
+    "name": "アバター:ウェイ・オブ・ウォーター",
+    "type": null
+  },
+  "entity-070": {
+    "name": "ナタ 魔童の大暴れ",
+    "type": null
+  },
+  "entity-071": {
+    "name": "タイタニック",
+    "type": null
+  },
+  "entity-072": {
+    "name": "スター・ウォーズ/フォースの覚醒",
+    "type": null
+  },
+  "entity-073": {
+    "name": "アベンジャーズ/インフィニティ・ウォー",
+    "type": null
+  },
+  "entity-074": {
+    "name": "スパイダーマン:ノー・ウェイ・ホーム",
+    "type": null
+  },
+  "entity-075": {
+    "name": "インサイド・ヘッド2",
+    "type": null
+  },
+  "entity-076": {
+    "name": "ジュラシック・ワールド",
+    "type": null
+  },
+  "entity-077": {
+    "name": "広州=深圳",
+    "type": null
+  },
+  "entity-078": {
+    "name": "上海=常州",
+    "type": null
+  },
+  "entity-079": {
+    "name": "東京=横浜",
+    "type": null
+  },
+  "entity-080": {
+    "name": "ジャカルタ",
+    "type": null
+  },
+  "entity-081": {
+    "name": "デリー",
+    "type": null
+  },
+  "entity-082": {
+    "name": "ムンバイ",
+    "type": null
+  },
+  "entity-083": {
+    "name": "マニラ",
+    "type": null
+  },
+  "entity-084": {
+    "name": "ダッカ",
+    "type": null
+  },
+  "entity-085": {
+    "name": "ソウル=仁川",
+    "type": null
+  },
+  "entity-086": {
+    "name": "カイロ",
+    "type": null
+  },
+  "entity-087": {
+    "name": "アルゼンチン",
+    "type": null
+  },
+  "entity-088": {
+    "name": "ウルグアイ",
+    "type": null
+  },
+  "entity-089": {
+    "name": "イングランド",
+    "type": null
+  },
+  "entity-090": {
+    "name": "太平洋",
+    "type": null
+  },
+  "entity-091": {
+    "name": "大西洋",
+    "type": null
+  },
+  "entity-092": {
+    "name": "インド洋",
+    "type": null
+  },
+  "entity-093": {
+    "name": "北極海",
+    "type": null
+  },
+  "entity-094": {
+    "name": "カザフスタン",
+    "type": null
+  },
+  "entity-095": {
+    "name": "コンゴ民主共和国",
+    "type": null
+  },
+  "entity-096": {
+    "name": "アルジェリア",
+    "type": null
+  },
+  "entity-097": {
+    "name": "サウジアラビア",
+    "type": null
+  },
+  "entity-098": {
+    "name": "スーダン",
+    "type": null
+  },
+  "entity-099": {
+    "name": "リビア",
+    "type": null
+  },
+  "entity-100": {
+    "name": "イラン",
+    "type": null
+  },
+  "entity-101": {
+    "name": "モンゴル",
+    "type": null
+  },
+  "entity-102": {
+    "name": "ペルー",
+    "type": null
+  },
+  "entity-103": {
+    "name": "チャド",
+    "type": null
+  },
+  "entity-104": {
+    "name": "ニジェール",
+    "type": null
+  },
+  "entity-105": {
+    "name": "アンゴラ",
+    "type": null
+  },
+  "entity-106": {
+    "name": "マリ",
+    "type": null
+  },
+  "entity-107": {
+    "name": "南アフリカ共和国",
+    "type": null
+  },
+  "entity-108": {
+    "name": "コロンビア",
+    "type": null
+  },
+  "entity-109": {
+    "name": "ボリビア",
+    "type": null
+  },
+  "entity-110": {
+    "name": "モーリタニア",
+    "type": null
+  },
+  "entity-111": {
+    "name": "エジプト",
+    "type": null
+  },
+  "entity-112": {
+    "name": "タンザニア",
+    "type": null
+  },
+  "entity-113": {
+    "name": "ベネズエラ",
+    "type": null
+  },
+  "entity-114": {
+    "name": "ナミビア",
+    "type": null
+  },
+  "entity-115": {
+    "name": "モザンビーク",
+    "type": null
+  },
+  "entity-116": {
+    "name": "トルコ",
+    "type": null
+  },
+  "entity-117": {
+    "name": "チリ",
+    "type": null
+  },
+  "entity-118": {
+    "name": "ザンビア",
+    "type": null
+  },
+  "entity-119": {
+    "name": "ミャンマー",
+    "type": null
+  },
+  "entity-120": {
+    "name": "アフガニスタン",
+    "type": null
+  },
+  "entity-121": {
+    "name": "南スーダン",
+    "type": null
+  },
+  "entity-122": {
+    "name": "ソマリア",
+    "type": null
+  },
+  "entity-123": {
+    "name": "中央アフリカ共和国",
+    "type": null
+  },
+  "entity-124": {
+    "name": "ウクライナ",
+    "type": null
+  },
+  "entity-125": {
+    "name": "マダガスカル",
+    "type": null
+  },
+  "entity-126": {
+    "name": "ボツワナ",
+    "type": null
+  },
+  "entity-127": {
+    "name": "ケニア",
+    "type": null
+  },
+  "entity-128": {
+    "name": "イエメン",
+    "type": null
+  },
+  "entity-129": {
+    "name": "名探偵コナン 100万ドルの五稜星(みちしるべ)",
+    "type": null
+  },
+  "entity-130": {
+    "name": "劇場版ハイキュー!! ゴミ捨て場の決戦",
+    "type": null
+  },
+  "entity-131": {
+    "name": "キングダム 大将軍の帰還",
+    "type": null
+  },
+  "entity-132": {
+    "name": "劇場版 SPY×FAMILY CODE: White",
+    "type": null
+  },
+  "entity-133": {
+    "name": "ラストマイル",
+    "type": null
+  },
+  "entity-134": {
+    "name": "機動戦士ガンダムSEED FREEDOM",
+    "type": null
+  },
+  "entity-135": {
+    "name": "変な家",
+    "type": null
+  },
+  "entity-136": {
+    "name": "あの花が咲く丘で、君とまた出会えたら。",
+    "type": null
+  },
+  "entity-137": {
+    "name": "映画ドラえもん のび太の地球交響楽",
+    "type": null
+  },
+  "entity-138": {
+    "name": "僕のヒーローアカデミア THE MOVIE ユアネクスト",
+    "type": null
+  },
+  "entity-139": {
+    "name": "ブルジュ・ハリファ",
+    "type": null
+  },
+  "entity-140": {
+    "name": "メルデカ118",
+    "type": null
+  },
+  "entity-141": {
+    "name": "上海中心大厦",
+    "type": null
+  },
+  "entity-142": {
+    "name": "アブラージュ・アル・バイト時計塔",
+    "type": null
+  },
+  "entity-143": {
+    "name": "平安国際金融中心",
+    "type": null
+  },
+  "entity-144": {
+    "name": "高銀金融117",
+    "type": null
+  },
+  "entity-145": {
+    "name": "ロッテワールドタワー",
+    "type": null
+  },
+  "entity-146": {
+    "name": "ワン・ワールドトレードセンター",
+    "type": null
+  },
+  "entity-147": {
+    "name": "広州周大福金融中心",
+    "type": null
+  },
+  "entity-148": {
+    "name": "天津周大福金融中心",
+    "type": null
+  },
+  "entity-149": {
+    "name": "カスピ海",
+    "type": null
+  },
+  "entity-150": {
+    "name": "スペリオル湖",
+    "type": null
+  },
+  "entity-151": {
+    "name": "ビクトリア湖",
+    "type": null
+  },
+  "entity-152": {
+    "name": "ヒューロン湖",
+    "type": null
+  },
+  "entity-153": {
+    "name": "ミシガン湖",
+    "type": null
+  },
+  "entity-154": {
+    "name": "タンガニーカ湖",
+    "type": null
+  },
+  "entity-155": {
+    "name": "バイカル湖",
+    "type": null
+  },
+  "entity-156": {
+    "name": "グレートベア湖",
+    "type": null
+  },
+  "entity-157": {
+    "name": "マラウイ湖",
+    "type": null
+  },
+  "entity-158": {
+    "name": "グレートスレーブ湖",
+    "type": null
+  },
+  "entity-159": {
+    "name": "グリーンランド",
+    "type": null
+  },
+  "entity-160": {
+    "name": "ニューギニア島",
+    "type": null
+  },
+  "entity-161": {
+    "name": "ボルネオ島",
+    "type": null
+  },
+  "entity-162": {
+    "name": "マダガスカル島",
+    "type": null
+  },
+  "entity-163": {
+    "name": "バフィン島",
+    "type": null
+  },
+  "entity-164": {
+    "name": "スマトラ島",
+    "type": null
+  },
+  "entity-165": {
+    "name": "本州(日本)",
+    "type": null
+  },
+  "entity-166": {
+    "name": "ヴィクトリア島",
+    "type": null
+  },
+  "entity-167": {
+    "name": "グレートブリテン島",
+    "type": null
+  },
+  "entity-168": {
+    "name": "エルズミーア島",
+    "type": null
+  },
+  "entity-169": {
+    "name": "スラウェシ島",
+    "type": null
+  },
+  "entity-170": {
+    "name": "南島(ニュージーランド)",
+    "type": null
+  },
+  "entity-171": {
+    "name": "ジャワ島",
+    "type": null
+  },
+  "entity-172": {
+    "name": "北島(ニュージーランド)",
+    "type": null
+  },
+  "entity-173": {
+    "name": "ニューファンドランド島",
+    "type": null
+  },
+  "entity-174": {
+    "name": "キューバ島",
+    "type": null
+  },
+  "entity-175": {
+    "name": "ルソン島",
+    "type": null
+  },
+  "entity-176": {
+    "name": "アイスランド島",
+    "type": null
+  },
+  "entity-177": {
+    "name": "ミンダナオ島",
+    "type": null
+  },
+  "entity-178": {
+    "name": "アイルランド島",
+    "type": null
+  },
+  "entity-179": {
+    "name": "樺太",
+    "type": null
+  },
+  "entity-180": {
+    "name": "イスパニョーラ島",
+    "type": null
+  },
+  "entity-181": {
+    "name": "バンクス島",
+    "type": null
+  },
+  "entity-182": {
+    "name": "セイロン島",
+    "type": null
+  },
+  "entity-183": {
+    "name": "タスマニア島",
+    "type": null
+  },
+  "entity-184": {
+    "name": "デヴォン島",
+    "type": null
+  },
+  "entity-185": {
+    "name": "セヴェルヌィ島",
+    "type": null
+  },
+  "entity-186": {
+    "name": "フエゴ島",
+    "type": null
+  },
+  "entity-187": {
+    "name": "バークナー島",
+    "type": null
+  },
+  "entity-188": {
+    "name": "エベレスト",
+    "type": null
+  },
+  "entity-189": {
+    "name": "K2",
+    "type": null
+  },
+  "entity-190": {
+    "name": "カンチェンジュンガ",
+    "type": null
+  },
+  "entity-191": {
+    "name": "ローツェ",
+    "type": null
+  },
+  "entity-192": {
+    "name": "マカルー",
+    "type": null
+  },
+  "entity-193": {
+    "name": "チョー・オユー",
+    "type": null
+  },
+  "entity-194": {
+    "name": "ダウラギリI峰",
+    "type": null
+  },
+  "entity-195": {
+    "name": "マナスル",
+    "type": null
+  },
+  "entity-196": {
+    "name": "ナンガ・パルバット",
+    "type": null
+  },
+  "entity-197": {
+    "name": "アンナプルナI峰",
+    "type": null
+  },
+  "entity-198": {
+    "name": "ガッシャーブルムI峰",
+    "type": null
+  },
+  "entity-199": {
+    "name": "ブロード・ピーク",
+    "type": null
+  },
+  "entity-200": {
+    "name": "ガッシャーブルムII峰",
+    "type": null
+  },
+  "entity-201": {
+    "name": "シシャパンマ",
+    "type": null
+  },
+  "entity-202": {
+    "name": "信濃川",
+    "type": null
+  },
+  "entity-203": {
+    "name": "利根川",
+    "type": null
+  },
+  "entity-204": {
+    "name": "石狩川",
+    "type": null
+  },
+  "entity-205": {
+    "name": "天塩川",
+    "type": null
+  },
+  "entity-206": {
+    "name": "北上川",
+    "type": null
+  },
+  "entity-207": {
+    "name": "阿武隈川",
+    "type": null
+  },
+  "entity-208": {
+    "name": "最上川",
+    "type": null
+  },
+  "entity-209": {
+    "name": "木曽川",
+    "type": null
+  },
+  "entity-210": {
+    "name": "天竜川",
+    "type": null
+  },
+  "entity-211": {
+    "name": "阿賀野川",
+    "type": null
+  },
+  "entity-212": {
+    "name": "富士山",
+    "type": null
+  },
+  "entity-213": {
+    "name": "北岳",
+    "type": null
+  },
+  "entity-214": {
+    "name": "奥穂高岳",
+    "type": null
+  },
+  "entity-215": {
+    "name": "間ノ岳",
+    "type": null
+  },
+  "entity-216": {
+    "name": "槍ヶ岳",
+    "type": null
+  },
+  "entity-217": {
+    "name": "悪沢岳",
+    "type": null
+  },
+  "entity-218": {
+    "name": "赤石岳",
+    "type": null
+  },
+  "entity-219": {
+    "name": "涸沢岳",
+    "type": null
+  },
+  "entity-220": {
+    "name": "北穂高岳",
+    "type": null
+  },
+  "entity-221": {
+    "name": "大喰岳",
+    "type": null
+  },
+  "entity-222": {
+    "name": "前穂高岳",
+    "type": null
+  },
+  "entity-223": {
+    "name": "中岳(北アルプス)",
+    "type": null
+  },
+  "entity-224": {
+    "name": "中岳(荒川中岳)",
+    "type": null
+  },
+  "entity-225": {
+    "name": "御嶽山",
+    "type": null
+  },
+  "entity-226": {
+    "name": "農鳥岳",
+    "type": null
+  },
+  "entity-227": {
+    "name": "塩見岳",
+    "type": null
+  },
+  "entity-228": {
+    "name": "南岳",
+    "type": null
+  },
+  "entity-229": {
+    "name": "仙丈ヶ岳",
+    "type": null
+  },
+  "entity-230": {
+    "name": "乗鞍岳",
+    "type": null
+  },
+  "entity-231": {
+    "name": "立山",
+    "type": null
+  },
+  "ethiopia": {
+    "name": "エチオピア",
+    "type": "country"
+  },
+  "france": {
+    "name": "フランス",
+    "type": "country"
+  },
+  "fukui": {
+    "name": "福井県",
+    "type": "prefecture"
+  },
+  "fukuoka": {
+    "name": "福岡県",
+    "type": "prefecture"
+  },
+  "fukushima": {
+    "name": "福島県",
+    "type": "prefecture"
+  },
+  "gangarashibana-falls": {
+    "name": "ガンガラシバナの大滝",
+    "type": "waterfall"
+  },
+  "germany": {
+    "name": "ドイツ",
+    "type": "country"
+  },
+  "gifu": {
+    "name": "岐阜県",
+    "type": "prefecture"
+  },
+  "gobi-desert": {
+    "name": "ゴビ砂漠",
+    "type": "desert"
+  },
+  "great-basin-desert": {
+    "name": "グレートベースン",
+    "type": "desert"
+  },
+  "great-victoria-desert": {
+    "name": "グレートビクトリア砂漠",
+    "type": "desert"
+  },
+  "gunma": {
+    "name": "群馬県",
+    "type": "prefecture"
+  },
+  "hagoromo-falls": {
+    "name": "羽衣の滝",
+    "type": "waterfall"
+  },
+  "hannoki-falls": {
+    "name": "ハンノキ滝",
+    "type": "waterfall"
+  },
+  "hiroshima": {
+    "name": "広島県",
+    "type": "prefecture"
+  },
+  "hokkaido": {
+    "name": "北海道",
+    "type": "prefecture"
+  },
+  "hong-kong": {
+    "name": "香港",
+    "type": "country"
+  },
+  "hungary": {
+    "name": "ハンガリー",
+    "type": "country"
+  },
+  "hyogo": {
+    "name": "兵庫県",
+    "type": "prefecture"
+  },
+  "ibaraki": {
+    "name": "茨城県",
+    "type": "prefecture"
+  },
+  "iceland": {
+    "name": "アイスランド",
+    "type": "country"
+  },
+  "india": {
+    "name": "インド",
+    "type": "country"
+  },
+  "indonesia": {
+    "name": "インドネシア",
+    "type": "country"
+  },
+  "ishikawa": {
+    "name": "石川県",
+    "type": "prefecture"
+  },
+  "italy": {
+    "name": "イタリア",
+    "type": "country"
+  },
+  "iwate": {
+    "name": "岩手県",
+    "type": "prefecture"
+  },
+  "japan": {
+    "name": "日本",
+    "type": "country"
+  },
+  "jupiter": {
+    "name": "木星",
+    "type": "planet"
+  },
+  "kagawa": {
+    "name": "香川県",
+    "type": "prefecture"
+  },
+  "kagoshima": {
+    "name": "鹿児島県",
+    "type": "prefecture"
+  },
+  "kaifu-falls": {
+    "name": "梅花皮滝",
+    "type": "waterfall"
+  },
+  "kalahari-desert": {
+    "name": "カラハリ砂漠",
+    "type": "desert"
+  },
+  "kanagawa": {
+    "name": "神奈川県",
+    "type": "prefecture"
+  },
+  "kochi": {
+    "name": "高知県",
+    "type": "prefecture"
+  },
+  "kumamoto": {
+    "name": "熊本県",
+    "type": "prefecture"
+  },
+  "kyoto": {
+    "name": "京都府",
+    "type": "prefecture"
+  },
+  "luxembourg": {
+    "name": "ルクセンブルク",
+    "type": "country"
+  },
+  "mars": {
+    "name": "火星",
+    "type": "planet"
+  },
+  "mercury": {
+    "name": "水星",
+    "type": "planet"
+  },
+  "mexico": {
+    "name": "メキシコ",
+    "type": "country"
+  },
+  "mie": {
+    "name": "三重県",
+    "type": "prefecture"
+  },
+  "migimata-falls": {
+    "name": "右俣の大滝",
+    "type": "waterfall"
+  },
+  "miyagi": {
+    "name": "宮城県",
+    "type": "prefecture"
+  },
+  "miyazaki": {
+    "name": "宮崎県",
+    "type": "prefecture"
+  },
+  "movie-conan-2023": {
+    "name": "名探偵コナン 黒鉄の魚影",
+    "type": "movie"
+  },
+  "movie-kimitachi-2023": {
+    "name": "君たちはどう生きるか",
+    "type": "movie"
+  },
+  "movie-slamdunk-2023": {
+    "name": "THE FIRST SLAM DUNK",
+    "type": "movie"
+  },
+  "nagano": {
+    "name": "長野県",
+    "type": "prefecture"
+  },
+  "nagasaki": {
+    "name": "長崎県",
+    "type": "prefecture"
+  },
+  "nakanotaki-falls": {
+    "name": "中の滝",
+    "type": "waterfall"
+  },
+  "nara": {
+    "name": "奈良県",
+    "type": "prefecture"
+  },
+  "neptune": {
+    "name": "海王星",
+    "type": "planet"
+  },
+  "netherlands": {
+    "name": "オランダ",
+    "type": "country"
+  },
+  "nigeria": {
+    "name": "ナイジェリア",
+    "type": "country"
+  },
+  "niigata": {
+    "name": "新潟県",
+    "type": "prefecture"
+  },
+  "norway": {
+    "name": "ノルウェー",
+    "type": "country"
+  },
+  "nukusawa-falls": {
+    "name": "ヌク沢大滝",
+    "type": "waterfall"
+  },
+  "nunosarashi-falls": {
+    "name": "布晒の滝",
+    "type": "waterfall"
+  },
+  "oita": {
+    "name": "大分県",
+    "type": "prefecture"
+  },
+  "okayama": {
+    "name": "岡山県",
+    "type": "prefecture"
+  },
+  "okinawa": {
+    "name": "沖縄県",
+    "type": "prefecture"
+  },
+  "orosoroshino-falls": {
+    "name": "オロオソロシノ滝",
+    "type": "waterfall"
+  },
+  "osaka": {
+    "name": "大阪府",
+    "type": "prefecture"
+  },
+  "pakistan": {
+    "name": "パキスタン",
+    "type": "country"
+  },
+  "patagonian-desert": {
+    "name": "パタゴニア",
+    "type": "desert"
+  },
+  "russia": {
+    "name": "ロシア",
+    "type": "country"
+  },
+  "saga": {
+    "name": "佐賀県",
+    "type": "prefecture"
+  },
+  "sahara-desert": {
+    "name": "サハラ砂漠",
+    "type": "desert"
+  },
+  "saitama": {
+    "name": "埼玉県",
+    "type": "prefecture"
+  },
+  "saturn": {
+    "name": "土星",
+    "type": "planet"
+  },
+  "shiga": {
+    "name": "滋賀県",
+    "type": "prefecture"
+  },
+  "shimane": {
+    "name": "島根県",
+    "type": "prefecture"
+  },
+  "shizuoka": {
+    "name": "静岡県",
+    "type": "prefecture"
+  },
+  "shomyo-falls": {
+    "name": "称名滝",
+    "type": "waterfall"
+  },
+  "singapore": {
+    "name": "シンガポール",
+    "type": "country"
+  },
+  "south-korea": {
+    "name": "韓国",
+    "type": "country"
+  },
+  "soviet-union": {
+    "name": "ソビエト連邦",
+    "type": "country"
+  },
+  "spain": {
+    "name": "スペイン",
+    "type": "country"
+  },
+  "sweden": {
+    "name": "スウェーデン",
+    "type": "country"
+  },
+  "switzerland": {
+    "name": "スイス",
+    "type": "country"
+  },
+  "syrian-desert": {
+    "name": "シリア砂漠",
+    "type": "desert"
+  },
+  "thailand": {
+    "name": "タイ",
+    "type": "country"
+  },
+  "tochigi": {
+    "name": "栃木県",
+    "type": "prefecture"
+  },
+  "tokushima": {
+    "name": "徳島県",
+    "type": "prefecture"
+  },
+  "tokyo": {
+    "name": "東京都",
+    "type": "prefecture"
+  },
+  "tottori": {
+    "name": "鳥取県",
+    "type": "prefecture"
+  },
+  "toyama": {
+    "name": "富山県",
+    "type": "prefecture"
+  },
+  "uk": {
+    "name": "イギリス",
+    "type": "country"
+  },
+  "uranus": {
+    "name": "天王星",
+    "type": "planet"
+  },
+  "usa": {
+    "name": "アメリカ",
+    "type": "country"
+  },
+  "venus": {
+    "name": "金星",
+    "type": "planet"
+  },
+  "vietnam": {
+    "name": "ベトナム",
+    "type": "country"
+  },
+  "wakayama": {
+    "name": "和歌山県",
+    "type": "prefecture"
+  },
+  "yamagata": {
+    "name": "山形県",
+    "type": "prefecture"
+  },
+  "yamaguchi": {
+    "name": "山口県",
+    "type": "prefecture"
+  },
+  "yamanashi": {
+    "name": "山梨県",
+    "type": "prefecture"
+  }
+}

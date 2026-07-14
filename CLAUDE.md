@@ -8,8 +8,19 @@
 
 - サイト名: ランキンQ（旧称「ランキン！」。表記変更済み、コード内`SITE_NAME`で管理）
 - 本番: https://rankin-q.com （Cloudflare Workers、Git連携で`main`push→自動デプロイ）
-- 技術構成: 素のHTML/CSS/JS（フレームワークなし）。データはAirtable→Pythonスクリプトで
-  `public/data/*.js`に書き出す静的サイト
+- 技術構成: 素のHTML/CSS/JS（フレームワークなし）。データは`content/`配下のファイルを源泉に
+  `scripts/build.py`で`public/data/*.js`に書き出す静的サイト
+
+## 【重要】データの源泉は content/（Airtableから移行済み）
+
+- **記事・実体データの源泉は `content/` 配下のファイル**。編集はここを直接（AI経由で）行う。
+  - `content/entities.json` … 実体の登録簿（id → name/type）
+  - `content/articles/<id>.json` … 記事1本ずつ（実体は**IDで参照**、文章はテキスト）
+  - `content/datasets/<name>.csv` … 大量の時系列数値（1列目=実体ID、ヘッダ=期間）
+- **サイト生成は `python scripts/build.py`**（`content/` を読んで`public/data/*.js`等を出力。ID存在チェックあり）
+- `scripts/sync_from_airtable.py` は**レガシー（移行前のバックアップ）**。実行すると`content/`由来の
+  データ（米の推移CSV等）が失われるため`--force`なしでは動かないようガードしてある。基本使わない
+- Airtableは畳まずバックアップとして残しているが、**もう源泉ではない**
 
 ## リポジトリ構成（重要ファイルのみ）
 
@@ -61,10 +72,11 @@ FAL_KEY=（fal.aiのAPIキー）
 ## 作業フロー（記事・データを変更した後は必ず）
 
 ```
-python scripts/sync_from_airtable.py
+python scripts/build.py
 ```
-これで`public/data/*.js`・`sitemap.xml`・`robots.txt`が再生成される。**Airtableを直接
-編集しただけではサイトに反映されない**。sync後、`git status`で差分確認してからコミット。
+これで`content/`から`public/data/*.js`・`sitemap.xml`・`robots.txt`が再生成される。**`content/`の
+ファイルを編集しただけではサイトに反映されない**。build後、`git status`で差分確認してからコミット。
+存在しない実体IDを参照しているとbuildが止まる（表記ゆれ・タイポ防止）。
 
 キャッシュ対策として、`app.js`/`styles.css`等を変更したら`public/index.html`内の
 `?v=N`をインクリメントすること（Cloudflareのキャッシュ・ブラウザキャッシュ対策）。

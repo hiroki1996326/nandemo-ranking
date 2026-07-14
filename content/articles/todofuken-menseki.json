@@ -1,0 +1,217 @@
+{
+  "id": "todofuken-menseki",
+  "title": "都道府県別 面積ランキング",
+  "category": "chiri",
+  "unit": "km²",
+  "source": "国土地理院 全国都道府県市区町村別面積調",
+  "sourceUrl": "https://www.gsi.go.jp/",
+  "updateFrequency": "static",
+  "updatedAt": "2026-07-10",
+  "lead": "都道府県別の面積で最も広いのは北海道（約83,424km²）。2位岩手県の約5.5倍にあたり、上位10県は東北・中部地方が中心となっている。",
+  "commentary": "上位10県のうち東北地方が5県を占め、北海道が全体で突出して広い。",
+  "analysisHeading": "北海道が突出、上位10県のうち5県が東北地方",
+  "analysis": [
+    "北海道の面積は83,424km²で、2位岩手県（15,275km²）の約5.5倍、10位鹿児島県（9,186km²）の約9倍にあたる。上位10県のうち、岩手県・福島県・秋田県・青森県・山形県の5県を東北地方が占める。",
+    "3位福島県（13,784km²）・4位長野県（13,562km²）・5位新潟県（12,584km²）は差が1,000km²前後で並ぶ。最も面積が狭い都道府県は香川県（1,877km²）で、1位北海道との差は約81,500km²になる。"
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "yamaguchi",
+          "value": 6113
+        },
+        {
+          "entity": "hokkaido",
+          "value": 83424
+        },
+        {
+          "entity": "miyagi",
+          "value": 7282
+        },
+        {
+          "entity": "saga",
+          "value": 2441
+        },
+        {
+          "entity": "tokyo",
+          "value": 2200
+        },
+        {
+          "entity": "wakayama",
+          "value": 4725
+        },
+        {
+          "entity": "oita",
+          "value": 6341
+        },
+        {
+          "entity": "okayama",
+          "value": 7114
+        },
+        {
+          "entity": "nagasaki",
+          "value": 4131
+        },
+        {
+          "entity": "yamanashi",
+          "value": 4465
+        },
+        {
+          "entity": "kochi",
+          "value": 7102
+        },
+        {
+          "entity": "miyazaki",
+          "value": 7734
+        },
+        {
+          "entity": "toyama",
+          "value": 4248
+        },
+        {
+          "entity": "aomori",
+          "value": 9646
+        },
+        {
+          "entity": "akita",
+          "value": 11638
+        },
+        {
+          "entity": "shizuoka",
+          "value": 7777
+        },
+        {
+          "entity": "ishikawa",
+          "value": 4191
+        },
+        {
+          "entity": "aichi",
+          "value": 5173
+        },
+        {
+          "entity": "shiga",
+          "value": 4017
+        },
+        {
+          "entity": "yamagata",
+          "value": 9323
+        },
+        {
+          "entity": "osaka",
+          "value": 1905
+        },
+        {
+          "entity": "gunma",
+          "value": 6362
+        },
+        {
+          "entity": "fukushima",
+          "value": 13784
+        },
+        {
+          "entity": "saitama",
+          "value": 3798
+        },
+        {
+          "entity": "tottori",
+          "value": 3507
+        },
+        {
+          "entity": "chiba",
+          "value": 5156
+        },
+        {
+          "entity": "shimane",
+          "value": 6708
+        },
+        {
+          "entity": "kumamoto",
+          "value": 7409
+        },
+        {
+          "entity": "kagoshima",
+          "value": 9186
+        },
+        {
+          "entity": "mie",
+          "value": 5774
+        },
+        {
+          "entity": "nagano",
+          "value": 13562
+        },
+        {
+          "entity": "kanagawa",
+          "value": 2417
+        },
+        {
+          "entity": "gifu",
+          "value": 10621
+        },
+        {
+          "entity": "fukuoka",
+          "value": 4988
+        },
+        {
+          "entity": "okinawa",
+          "value": 2282
+        },
+        {
+          "entity": "ehime",
+          "value": 5676
+        },
+        {
+          "entity": "nara",
+          "value": 3691
+        },
+        {
+          "entity": "kagawa",
+          "value": 1877
+        },
+        {
+          "entity": "tochigi",
+          "value": 6408
+        },
+        {
+          "entity": "hyogo",
+          "value": 8401
+        },
+        {
+          "entity": "kyoto",
+          "value": 4612
+        },
+        {
+          "entity": "hiroshima",
+          "value": 8478
+        },
+        {
+          "entity": "ibaraki",
+          "value": 6098
+        },
+        {
+          "entity": "fukui",
+          "value": 4191
+        },
+        {
+          "entity": "tokushima",
+          "value": 4147
+        },
+        {
+          "entity": "niigata",
+          "value": 12584
+        },
+        {
+          "entity": "iwate",
+          "value": 15275
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "hokkaido": "都道府県別面積で全国最大。",
+    "fukushima": "東北地方に位置し、都道府県別面積は全国3位。",
+    "iwate": "本州最大の面積を持つ県で、都道府県別では全国2位。"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "nihon-yama-takasa",
+  "title": "日本の山の高さランキング",
+  "category": "chiri",
+  "unit": "m",
+  "source": "国土地理院",
+  "sourceUrl": "https://www.gsi.go.jp/",
+  "updateFrequency": "static",
+  "updatedAt": "2026-07-10",
+  "lead": "日本一高い山は富士山（3,776m）で、2位北岳との差は583m。上位20座を掲載しており、富士山を除く19座はすべて南アルプス・北アルプスに集中している。",
+  "commentary": "富士山だけが単独峰で突出しており、2位以下はすべて南・北アルプスに位置する。",
+  "analysisHeading": "富士山が突出、2位以下は南北アルプスに集中",
+  "analysis": [
+    "富士山の標高は3,776mで、2位北岳（3,193m）との差は583m。2位以下は標高3,000mを超える山が19座続き、南アルプス（北岳・間ノ岳・悪沢岳・赤石岳など）と北アルプス（奥穂高岳・槍ヶ岳・穂高連峰など）が上位を占める。",
+    "3位奥穂高岳と4位間ノ岳はいずれも標高3,190mで並ぶ。上位20座のうち富士山を除く19座は、2位北岳（3,193m）から20位立山（3,015m）まで標高差が178mの範囲に収まっている。"
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "entity-231",
+          "value": 3015
+        },
+        {
+          "entity": "entity-213",
+          "value": 3193
+        },
+        {
+          "entity": "entity-230",
+          "value": 3026
+        },
+        {
+          "entity": "entity-228",
+          "value": 3033
+        },
+        {
+          "entity": "entity-212",
+          "value": 3776
+        },
+        {
+          "entity": "entity-229",
+          "value": 3033
+        },
+        {
+          "entity": "entity-214",
+          "value": 3190
+        },
+        {
+          "entity": "entity-218",
+          "value": 3121
+        },
+        {
+          "entity": "entity-227",
+          "value": 3047
+        },
+        {
+          "entity": "entity-225",
+          "value": 3067
+        },
+        {
+          "entity": "entity-220",
+          "value": 3106
+        },
+        {
+          "entity": "entity-226",
+          "value": 3051
+        },
+        {
+          "entity": "entity-215",
+          "value": 3190
+        },
+        {
+          "entity": "entity-216",
+          "value": 3180
+        },
+        {
+          "entity": "entity-223",
+          "value": 3084
+        },
+        {
+          "entity": "entity-222",
+          "value": 3090
+        },
+        {
+          "entity": "entity-217",
+          "value": 3141
+        },
+        {
+          "entity": "entity-224",
+          "value": 3084
+        },
+        {
+          "entity": "entity-221",
+          "value": 3101
+        },
+        {
+          "entity": "entity-219",
+          "value": 3110
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "entity-213": "南アルプスに位置する、日本で2番目に高い山。",
+    "entity-212": "静岡県と山梨県にまたがる日本最高峰。",
+    "entity-214": "北アルプスに位置する日本第3位の高峰。"
+  }
+}

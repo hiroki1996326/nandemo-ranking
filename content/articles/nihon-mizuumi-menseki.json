@@ -1,0 +1,109 @@
+{
+  "id": "nihon-mizuumi-menseki",
+  "title": "日本の湖の面積ランキング",
+  "category": "chiri",
+  "unit": "km²",
+  "source": "国土地理院 全国都道府県市区町村別面積調 ほか",
+  "sourceUrl": "https://www.gsi.go.jp/",
+  "updateFrequency": "static",
+  "updatedAt": "2026-07-10",
+  "lead": "日本最大の湖は琵琶湖（滋賀県）で、面積は約669km²。2位霞ヶ浦の約4倍の広さがあり、日本の湖の中で突出している。上位20湖を掲載している。",
+  "commentary": "琵琶湖が単独で突出しており、上位20湖のうち北海道の湖が最も多い。",
+  "analysisHeading": "琵琶湖が突出、上位20湖のうち9湖が北海道",
+  "analysis": [
+    "琵琶湖の面積は669km²で、2位霞ヶ浦（168km²）の約4倍。3位サロマ湖（152km²）以下は面積が近く、2位〜4位は150〜170km²の範囲に収まる。",
+    "上位20湖のうち北海道の湖が最も多く、サロマ湖・屈斜路湖・支笏湖・洞爺湖・風蓮湖・能取湖・厚岸湖・網走湖・摩周湖の9湖を占める。20位摩周湖（19km²）は1位琵琶湖の約35分の1の面積になる。"
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "entity-045",
+          "value": 70.7
+        },
+        {
+          "entity": "entity-054",
+          "value": 27.8
+        },
+        {
+          "entity": "entity-048",
+          "value": 61.1
+        },
+        {
+          "entity": "entity-046",
+          "value": 64.9
+        },
+        {
+          "entity": "entity-042",
+          "value": 79.5
+        },
+        {
+          "entity": "entity-055",
+          "value": 25.8
+        },
+        {
+          "entity": "entity-051",
+          "value": 35
+        },
+        {
+          "entity": "entity-044",
+          "value": 78.5
+        },
+        {
+          "entity": "entity-047",
+          "value": 62.1
+        },
+        {
+          "entity": "entity-049",
+          "value": 59
+        },
+        {
+          "entity": "entity-056",
+          "value": 19.2
+        },
+        {
+          "entity": "entity-053",
+          "value": 32.2
+        },
+        {
+          "entity": "entity-052",
+          "value": 32.3
+        },
+        {
+          "entity": "entity-050",
+          "value": 58.2
+        },
+        {
+          "entity": "entity-041",
+          "value": 85.7
+        },
+        {
+          "entity": "entity-043",
+          "value": 79.3
+        },
+        {
+          "entity": "entity-040",
+          "value": 103.2
+        },
+        {
+          "entity": "entity-039",
+          "value": 151.6
+        },
+        {
+          "entity": "entity-038",
+          "value": 168.2
+        },
+        {
+          "entity": "entity-037",
+          "value": 669.2
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "entity-039": "北海道にある汽水湖で、日本で3番目の面積を持つ。",
+    "entity-038": "茨城県にある日本で2番目に大きい湖。",
+    "entity-037": "滋賀県にある日本最大の湖。"
+  }
+}

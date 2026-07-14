@@ -1,0 +1,61 @@
+{
+  "id": "wcup-yusho-kaisu",
+  "title": "FIFAワールドカップ優勝回数ランキング（国別）",
+  "category": "sports",
+  "unit": "回",
+  "source": "FIFA",
+  "sourceUrl": "https://www.fifa.com/",
+  "updateFrequency": "irregular",
+  "updatedAt": "2022-12-18",
+  "lead": "FIFAワールドカップ優勝回数が最も多いのはブラジルで5回。2位はドイツ・イタリアが4回で並ぶ。優勝経験があるのは史上8カ国のみ。",
+  "commentary": "直近の優勝国は2022年カタール大会のアルゼンチン。2026年大会は開催中のため、この結果にはまだ反映されていない。",
+  "analysisHeading": "優勝経験があるのは史上8カ国のみ、ブラジルが最多5回",
+  "analysis": [
+    "優勝経験があるのは史上8カ国のみ。ブラジルが5回で最多、2位はドイツ・イタリアが4回で並ぶ。4位アルゼンチンは3回、5位はウルグアイ・フランスが2回で並ぶ。",
+    "直近の優勝国は2022年カタール大会のアルゼンチン。2026年大会（アメリカ・カナダ・メキシコ共催、48チームに拡大）は開催中のため、この結果にはまだ反映されていない。"
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 5
+        },
+        {
+          "entity": "germany",
+          "value": 4
+        },
+        {
+          "entity": "entity-087",
+          "value": 3
+        },
+        {
+          "entity": "france",
+          "value": 2
+        },
+        {
+          "entity": "spain",
+          "value": 1
+        },
+        {
+          "entity": "entity-089",
+          "value": 1
+        },
+        {
+          "entity": "entity-088",
+          "value": 2
+        },
+        {
+          "entity": "italy",
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "brazil": "ワールドカップ最多となる5回の優勝を誇る。",
+    "germany": "優勝4回でイタリアと並び歴代2位。",
+    "italy": "優勝4回でドイツと並び歴代2位。"
+  }
+}

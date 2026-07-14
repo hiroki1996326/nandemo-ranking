@@ -1,0 +1,86 @@
+{
+  "id": "gyokakuryo-todofuken",
+  "title": "都道府県別 漁獲量ランキング",
+  "category": "keizai",
+  "unit": "トン",
+  "source": "農林水産省 海面漁業生産統計調査",
+  "sourceUrl": "https://www.maff.go.jp/j/tokei/kouhyou/kaimen_gyosei/",
+  "updateFrequency": "yearly",
+  "updatedAt": "2024-01-01",
+  "lead": "2023年の海面漁業漁獲量が最も多いのは北海道で842,704トン。2位長崎県（292,890トン）の約2.9倍と、全国シェアの3割近くを占める。",
+  "commentary": "北海道が単独で突出しており、2位以下は太平洋側・日本海側の県が入り交じる。",
+  "analysisHeading": "北海道が単独で突出、2位以下は30万トンを下回る",
+  "analysis": [
+    "北海道の漁獲量は842,704トンで、2位長崎県（292,890トン）の約2.9倍。3位茨城県（259,496トン）まで含めた上位3道県で、10位愛媛県（74,096トン）までの合計のおよそ7割を占める。",
+    "4位宮城県（180,369トン）以下は10万〜18万トン台で並ぶ。上位10道県の内訳は、太平洋側が北海道・茨城・宮城・静岡・千葉の5道県、日本海・東シナ海側が長崎・島根・鳥取の3県、宮崎・愛媛が続く。"
+  ],
+  "data": [
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "ibaraki",
+          "value": 285164
+        },
+        {
+          "entity": "hokkaido",
+          "value": 850981
+        },
+        {
+          "entity": "nagasaki",
+          "value": 262233
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "ehime",
+          "value": 74096
+        },
+        {
+          "entity": "shizuoka",
+          "value": 144710
+        },
+        {
+          "entity": "shimane",
+          "value": 102252
+        },
+        {
+          "entity": "hokkaido",
+          "value": 842704
+        },
+        {
+          "entity": "chiba",
+          "value": 79158
+        },
+        {
+          "entity": "ibaraki",
+          "value": 259496
+        },
+        {
+          "entity": "miyagi",
+          "value": 180369
+        },
+        {
+          "entity": "miyazaki",
+          "value": 82611
+        },
+        {
+          "entity": "tottori",
+          "value": 100501
+        },
+        {
+          "entity": "nagasaki",
+          "value": 292890
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "hokkaido": "広い海域を持ち、都道府県別漁獲量で全国1位。",
+    "ibaraki": "太平洋に面した漁場を持ち、漁獲量は全国3位。",
+    "nagasaki": "複雑な海岸線を持つ好漁場が多く、漁獲量は全国2位。"
+  }
+}

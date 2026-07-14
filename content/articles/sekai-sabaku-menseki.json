@@ -1,0 +1,61 @@
+{
+  "id": "sekai-sabaku-menseki",
+  "title": "世界の砂漠面積ランキング",
+  "category": "chiri",
+  "unit": "km²",
+  "source": "各種地理統計（南極・北極の氷雪砂漠を除く）",
+  "sourceUrl": "https://yattoke.com/2018/01/26/desert-ranking/",
+  "updateFrequency": "static",
+  "updatedAt": "2026-07-12",
+  "lead": "世界最大の砂漠はサハラ砂漠で約910万km²。2位アラビア砂漠の約3.5倍の面積を持つ（南極・北極の氷雪砂漠を除く一般的な定義による）。",
+  "commentary": "砂漠の定義は「降水量が極端に少なく乾燥した地域」で、南極・北極の氷雪砂漠を含めるかどうかでランキングが変わる。本記事では氷雪砂漠を除いた一般的な定義で集計している。",
+  "analysisHeading": "サハラ砂漠が2位以下を大きく引き離す世界最大の砂漠",
+  "analysis": [
+    "サハラ砂漠の面積は約910万km²で世界最大。2位アラビア砂漠（約260万km²）の約3.5倍の広さを持つ。",
+    "3位ゴビ砂漠（約130万km²）まではアフリカ・中東・アジアの砂漠が並び、4位以下は南半球のパタゴニア・グレートビクトリア砂漠・カラハリ砂漠が続く。"
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "syrian-desert",
+          "value": 490000
+        },
+        {
+          "entity": "arabian-desert",
+          "value": 2600000
+        },
+        {
+          "entity": "great-basin-desert",
+          "value": 490000
+        },
+        {
+          "entity": "patagonian-desert",
+          "value": 670000
+        },
+        {
+          "entity": "gobi-desert",
+          "value": 1300000
+        },
+        {
+          "entity": "kalahari-desert",
+          "value": 570000
+        },
+        {
+          "entity": "great-victoria-desert",
+          "value": 647000
+        },
+        {
+          "entity": "sahara-desert",
+          "value": 9100000
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "arabian-desert": "アラビア半島の大部分を占める世界2位の砂漠。",
+    "gobi-desert": "モンゴルと中国にまたがる世界3位の砂漠。",
+    "sahara-desert": "アフリカ大陸北部に広がる世界最大の砂漠。面積は約910万km²。"
+  }
+}

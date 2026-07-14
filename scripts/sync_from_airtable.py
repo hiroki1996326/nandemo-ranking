@@ -312,6 +312,16 @@ def build_sitemap_xml(topics, entities=None):
 
 
 def main():
+    # 【重要】サイトのデータは現在 scripts/build.py が content/ 配下のファイルから生成する。
+    # このスクリプト(Airtable同期)はレガシー（移行前のバックアップ用）。実行すると
+    # content/ 由来のデータ（例: 米の過去数十年の推移CSV）が上書きで失われるため、
+    # 誤実行を防ぐガードを置く。どうしても実行する場合のみ --force を付ける。
+    if '--force' not in sys.argv:
+        print('このスクリプトはレガシーです。サイトは scripts/build.py が content/ から生成します。',
+              file=sys.stderr)
+        print('実行すると content/ 由来のデータ（米の推移CSV等）が失われます。', file=sys.stderr)
+        print('本当に旧Airtable方式で上書きする場合のみ `--force` を付けてください。', file=sys.stderr)
+        sys.exit(1)
     if not AIRTABLE_API_KEY or not AIRTABLE_BASE_ID:
         print('環境変数 AIRTABLE_API_KEY / AIRTABLE_BASE_ID を設定してください。', file=sys.stderr)
         sys.exit(1)

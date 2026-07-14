@@ -1,0 +1,69 @@
+{
+  "id": "natsuki-olympic-kin-medal-kuni",
+  "title": "夏季オリンピック金メダル獲得数ランキング（国別・歴代）",
+  "category": "sports",
+  "unit": "個",
+  "source": "Wikipedia「近代オリンピックでの国・地域別メダル総獲得数一覧」（パリ2024大会まで集計）",
+  "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%BF%91%E4%BB%A3%E3%82%AA%E3%83%AA%E3%83%B3%E3%83%94%E3%83%83%E3%82%AF%E3%81%A7%E3%81%AE%E5%9B%BD%E3%83%BB%E5%9C%B0%E5%9F%9F%E5%88%A5%E3%83%A1%E3%83%80%E3%83%AB%E7%B7%8F%E7%8D%B2%E5%BE%97%E6%95%B0%E4%B8%80%E8%A6%A7",
+  "updateFrequency": "irregular",
+  "updatedAt": "2026-07-12",
+  "lead": "夏季オリンピックの歴代金メダル獲得数（パリ2024大会まで）はアメリカが1,101個で世界最多。2位ソビエト連邦（395個、1952〜1988年参加）の約2.8倍にあたる。",
+  "commentary": "ソビエト連邦は1991年に解体しているが、参加した大会（1952〜1988年）の獲得メダルは歴代集計に含まれる。",
+  "analysisHeading": "アメリカが2位ソビエト連邦の約2.8倍で歴代最多",
+  "analysis": [
+    "アメリカの歴代金メダル獲得数は1,101個で、2位ソビエト連邦（395個）の約2.8倍にあたる。",
+    "日本は189個で8位。アジア勢では最上位につけている。"
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 1101
+        },
+        {
+          "entity": "uk",
+          "value": 298
+        },
+        {
+          "entity": "soviet-union",
+          "value": 395
+        },
+        {
+          "entity": "italy",
+          "value": 229
+        },
+        {
+          "entity": "australia",
+          "value": 182
+        },
+        {
+          "entity": "japan",
+          "value": 189
+        },
+        {
+          "entity": "germany",
+          "value": 213
+        },
+        {
+          "entity": "china",
+          "value": 303
+        },
+        {
+          "entity": "hungary",
+          "value": 187
+        },
+        {
+          "entity": "france",
+          "value": 239
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "usa": "歴代金メダル1,101個で世界最多。2位の約2.8倍の獲得数を持つ。",
+    "soviet-union": "1952〜1988年に参加し395個の金メダルを獲得。1991年の解体後も歴代集計に含まれる。",
+    "china": "歴代金メダル303個で世界3位。1984年ロサンゼルス大会から本格参加。"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sekai-gdp-kuni",
+  "title": "世界のGDPランキング（国別）",
+  "category": "keizai",
+  "unit": "億ドル",
+  "source": "IMF World Economic Outlook",
+  "sourceUrl": "https://www.imf.org/",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-10",
+  "lead": "世界最大の経済大国はアメリカで、名目GDPは約323,839億ドル。2位中国（約208,516億ドル）に10兆ドル以上の差をつけている。",
+  "commentary": "GDPの規模では米国・中国の2カ国が突出しており、3位ドイツ以下とは大きな差がある。",
+  "analysisHeading": "米国・中国の2カ国が突出、3位以下とは大きな差",
+  "analysis": [
+    "アメリカの名目GDPは323,839億ドルで、2位中国（208,516億ドル）との差は115,323億ドル。3位ドイツ（54,529億ドル）は中国の4分の1程度の規模になる。",
+    "上位10カ国のうちヨーロッパはドイツ・イギリス・フランス・イタリア・ロシアの5カ国、アジアは中国・日本・インドの3カ国、南北アメリカはアメリカ・ブラジルの2カ国。4位日本（43,793億ドル）と6位インド（41,532億ドル）の差は2,261億ドルと小さい。"
+  ],
+  "data": [
+    {
+      "period": 2025,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 307670.75
+        },
+        {
+          "entity": "germany",
+          "value": 50480.59
+        },
+        {
+          "entity": "china",
+          "value": 196262.47
+        }
+      ]
+    },
+    {
+      "period": 2026,
+      "entries": [
+        {
+          "entity": "japan",
+          "value": 43793
+        },
+        {
+          "entity": "brazil",
+          "value": 26359
+        },
+        {
+          "entity": "italy",
+          "value": 27382
+        },
+        {
+          "entity": "usa",
+          "value": 323839
+        },
+        {
+          "entity": "china",
+          "value": 208516
+        },
+        {
+          "entity": "russia",
+          "value": 26565
+        },
+        {
+          "entity": "india",
+          "value": 41532
+        },
+        {
+          "entity": "germany",
+          "value": 54529
+        },
+        {
+          "entity": "france",
+          "value": 35961
+        },
+        {
+          "entity": "uk",
+          "value": 42648
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "usa": "名目GDPで世界最大の経済規模を持つ。",
+    "china": "名目GDPで世界2位の経済規模を持つ。",
+    "germany": "名目GDPで世界3位。欧州最大の経済規模を持つ。"
+  }
+}

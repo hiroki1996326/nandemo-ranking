@@ -1,0 +1,69 @@
+{
+  "id": "nihon-nagai-kawa",
+  "title": "日本の川の長さランキング",
+  "category": "chiri",
+  "unit": "km",
+  "source": "国土交通省",
+  "sourceUrl": "https://www.mlit.go.jp/",
+  "updateFrequency": "static",
+  "updatedAt": "2026-01-15",
+  "lead": "日本最長の川は信濃川。長野県では「千曲川」と呼ばれ、新潟県に入って名前を変える。流域面積で国内最大なのは2位の利根川。",
+  "commentary": "信濃川が長野・新潟をまたいで日本最長。2位の利根川は流域面積では国内最大を誇る。",
+  "analysisHeading": "信濃川が最長、流域面積では利根川が上回る",
+  "analysis": [
+    "1位の信濃川は367km、2位の利根川は322kmで、差は45km。利根川の流域面積は日本最大だが、河川の長さでは信濃川が上回る。",
+    "上位10河川は北海道（石狩川・天塩川）、東北（北上川・阿武隈川・最上川）、中部（木曽川・天竜川）などに分布する。3位以降は3位石狩川（268km）から10位阿賀野川（210km）までの範囲に収まる。"
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "entity-208",
+          "value": 229
+        },
+        {
+          "entity": "entity-205",
+          "value": 256
+        },
+        {
+          "entity": "entity-211",
+          "value": 210
+        },
+        {
+          "entity": "entity-209",
+          "value": 227
+        },
+        {
+          "entity": "entity-206",
+          "value": 249
+        },
+        {
+          "entity": "entity-210",
+          "value": 213
+        },
+        {
+          "entity": "entity-203",
+          "value": 322
+        },
+        {
+          "entity": "entity-204",
+          "value": 268
+        },
+        {
+          "entity": "entity-202",
+          "value": 367
+        },
+        {
+          "entity": "entity-207",
+          "value": 239
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "entity-203": "関東地方を流れる、日本で2番目に長い川。",
+    "entity-204": "北海道を流れる、日本で3番目に長い川。",
+    "entity-202": "新潟県・長野県を流れる日本最長の川。"
+  }
+}

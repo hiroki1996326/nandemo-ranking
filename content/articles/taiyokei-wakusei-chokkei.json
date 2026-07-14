@@ -1,0 +1,57 @@
+{
+  "id": "taiyokei-wakusei-chokkei",
+  "title": "太陽系の惑星サイズランキング",
+  "category": "chiri",
+  "unit": "km",
+  "source": "NASA Planetary Fact Sheet",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+  "updateFrequency": "static",
+  "updatedAt": "2026-07-15",
+  "lead": "太陽系で最も直径が大きい惑星は木星で約142,984km。2位土星（約120,536km）を2万km以上上回る。",
+  "commentary": "NASA Planetary Fact Sheetの赤道直径データに基づく、太陽系8惑星のサイズ（直径）ランキング。",
+  "analysisHeading": "木星が地球の約11倍で太陽系最大、上位4惑星(ガス惑星)と下位4惑星(地球型惑星)の間には3.6万kmの差",
+  "analysis": [
+    "木星の直径は約142,984kmで、太陽系最小の水星（約4,879km）の29倍以上、地球（約12,756km）の約11倍にあたる。",
+    "直径上位4惑星（木星・土星・天王星・海王星）はいずれもガス惑星で、4位海王星（約49,528km）と5位地球（約12,756km）の差は36,772kmある。地球型惑星の最大である地球でも、ガス惑星最小の天王星（約51,118km）の4分の1に満たない。",
+    "参考として月（直径約3,474km）と冥王星（直径約2,377km）を8惑星と合わせて直径順に並べると、月は8位水星（約4,879km）に次いで9位、冥王星は10位でこの10天体中最小となる。ただし月は惑星ではなく地球の衛星、冥王星は2006年のIAU総会以降「準惑星」に分類されており、いずれも本ランキングの8惑星には含まれない。"
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "jupiter",
+          "value": 142984
+        },
+        {
+          "entity": "saturn",
+          "value": 120536
+        },
+        {
+          "entity": "uranus",
+          "value": 51118
+        },
+        {
+          "entity": "neptune",
+          "value": 49528
+        },
+        {
+          "entity": "earth",
+          "value": 12756
+        },
+        {
+          "entity": "venus",
+          "value": 12104
+        },
+        {
+          "entity": "mars",
+          "value": 6792
+        },
+        {
+          "entity": "mercury",
+          "value": 4879
+        }
+      ]
+    }
+  ]
+}

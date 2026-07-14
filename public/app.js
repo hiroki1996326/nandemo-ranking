@@ -341,6 +341,73 @@ function entityThumbHtml(name) {
   const img = entityImageByName(name);
   return img ? '<img class="rank-thumb" src="' + esc(img) + '" alt="" loading="lazy" />' : '';
 }
+// 推移グラフ（複数期間があるトピックだけ）。上位5件を折れ線で描く。手書きSVG・ライブラリ無し。
+var TREND_COLORS = ['#1e6f5c', '#d8823a', '#3a7ca5', '#b0577d', '#7a8b3a'];
+function trendChartHtml(topic) {
+  const periods = topic.periods || [];
+  if (periods.length < 2) return '';
+  const labels = periods.map(function (p) { return p.period; });
+  const latest = periods[periods.length - 1];
+  const top = rankedEntries(latest).slice(0, 5);
+  const series = top.map(function (e) {
+    return {
+      name: e.name,
+      values: periods.map(function (p) {
+        const hit = p.entries.find(function (x) { return x.name === e.name; });
+        return hit ? hit.value : null;
+      }),
+    };
+  });
+  const all = [];
+  series.forEach(function (s) { s.values.forEach(function (v) { if (v != null) all.push(v); }); });
+  if (!all.length) return '';
+  let yMax = Math.max.apply(null, all);
+  let yMin = Math.min.apply(null, all);
+  const pad = (yMax - yMin) * 0.12 || yMax * 0.12;
+  yMin = Math.max(0, yMin - pad); yMax = yMax + pad;
+
+  const W = 680, H = 300, left = 66, right = W - 14, padTop = 16, bottom = 232;
+  const n = labels.length;
+  const xAt = function (i) { return left + (right - left) * (n === 1 ? 0.5 : i / (n - 1)); };
+  const yAt = function (v) { return bottom - (bottom - padTop) * (v - yMin) / ((yMax - yMin) || 1); };
+
+  let grid = '';
+  for (let g = 0; g <= 4; g++) {
+    const v = yMin + (yMax - yMin) * g / 4;
+    const y = yAt(v);
+    grid += '<line class="chart-grid" x1="' + left + '" y1="' + y + '" x2="' + right + '" y2="' + y + '" />';
+    grid += '<text class="chart-axis" x="' + (left - 8) + '" y="' + (y + 4) + '" text-anchor="end">' + fmt(Math.round(v)) + '</text>';
+  }
+  let xlabels = '';
+  labels.forEach(function (lab, i) {
+    xlabels += '<text class="chart-axis" x="' + xAt(i) + '" y="' + (bottom + 20) + '" text-anchor="middle">' + esc(String(lab)) + '</text>';
+  });
+  let lines = '';
+  series.forEach(function (s, si) {
+    const color = TREND_COLORS[si % TREND_COLORS.length];
+    let d = '', dots = '', started = false;
+    s.values.forEach(function (v, i) {
+      if (v == null) { started = false; return; }
+      const x = xAt(i), y = yAt(v);
+      d += (started ? ' L' : 'M') + x + ' ' + y;
+      started = true;
+      dots += '<circle cx="' + x + '" cy="' + y + '" r="3" fill="' + color + '" />';
+    });
+    lines += '<path d="' + d + '" fill="none" stroke="' + color + '" stroke-width="2" />' + dots;
+  });
+  const legend = series.map(function (s, si) {
+    const color = TREND_COLORS[si % TREND_COLORS.length];
+    return '<span class="chart-legend-item"><span class="chart-swatch" style="background:' + color + '"></span>' + nameLinkHtml(s.name) + '</span>';
+  }).join('');
+
+  return '<section class="trend-chart">' +
+    '<h2 class="section-h article-section-h">上位の推移（' + esc(String(labels[0])) + '〜' + esc(String(labels[n - 1])) + '年、' + esc(topic.unit) + '）</h2>' +
+    '<div class="chart-legend">' + legend + '</div>' +
+    '<svg class="chart-svg" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="上位の推移グラフ">' +
+      grid + lines + xlabels +
+    '</svg>' +
+  '</section>';
+}
 function topicDetailHtml(id) {
   const topic = TOPICS.find(function (t) { return t.id === id; });
   if (!topic) return '<p class="empty">記事が見つかりません。</p>';
@@ -354,6 +421,7 @@ function topicDetailHtml(id) {
       periodTabsHtml(topic, idx) +
       '<div class="period-block">' + periodContentHtml(topic, idx) + '</div>' +
       '<div class="extended-block">' + extendedListHtml(topic, idx) + '</div>' +
+      trendChartHtml(topic) +
       analysisHtml(topic) +
       '<p class="source">出典: <a href="' + esc(topic.sourceUrl) + '" target="_blank" rel="noopener">' + esc(topic.source) + '</a></p>' +
     '</article>' +

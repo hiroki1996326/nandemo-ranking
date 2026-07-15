@@ -1079,9 +1079,17 @@
     "name": "岩手県",
     "type": "prefecture"
   },
+  "izu-ogasawara-trench": {
+    "name": "伊豆・小笠原海溝",
+    "type": "trench"
+  },
   "japan": {
     "name": "日本",
     "type": "country"
+  },
+  "japan-trench": {
+    "name": "日本海溝",
+    "type": "trench"
   },
   "jupiter": {
     "name": "木星",
@@ -1107,6 +1115,10 @@
     "name": "神奈川県",
     "type": "prefecture"
   },
+  "kermadec-trench": {
+    "name": "ケルマデック海溝",
+    "type": "trench"
+  },
   "kochi": {
     "name": "高知県",
     "type": "prefecture"
@@ -1115,6 +1127,10 @@
     "name": "熊本県",
     "type": "prefecture"
   },
+  "kuril-kamchatka-trench": {
+    "name": "千島・カムチャツカ海溝",
+    "type": "trench"
+  },
   "kyoto": {
     "name": "京都府",
     "type": "prefecture"
@@ -1122,6 +1138,10 @@
   "luxembourg": {
     "name": "ルクセンブルク",
     "type": "country"
+  },
+  "mariana-trench": {
+    "name": "マリアナ海溝",
+    "type": "trench"
   },
   "mars": {
     "name": "火星",
@@ -1187,6 +1207,10 @@
     "name": "オランダ",
     "type": "country"
   },
+  "new-britain-trench": {
+    "name": "ニューブリテン海溝",
+    "type": "trench"
+  },
   "nigeria": {
     "name": "ナイジェリア",
     "type": "country"
@@ -1235,6 +1259,14 @@
     "name": "パタゴニア",
     "type": "desert"
   },
+  "philippine-trench": {
+    "name": "フィリピン海溝",
+    "type": "trench"
+  },
+  "puerto-rico-trench": {
+    "name": "プエルトリコ海溝",
+    "type": "trench"
+  },
   "russia": {
     "name": "ロシア",
     "type": "country"
@@ -1279,6 +1311,10 @@
     "name": "韓国",
     "type": "country"
   },
+  "south-sandwich-trench": {
+    "name": "サウスサンドウィッチ海溝",
+    "type": "trench"
+  },
   "soviet-union": {
     "name": "ソビエト連邦",
     "type": "country"
@@ -1314,6 +1350,10 @@
   "tokyo": {
     "name": "東京都",
     "type": "prefecture"
+  },
+  "tonga-trench": {
+    "name": "トンガ海溝",
+    "type": "trench"
   },
   "tottori": {
     "name": "鳥取県",

@@ -22,6 +22,7 @@
   <url><loc>https://rankin-q.com/topic/sekai-heikinjumyo-kuni</loc><lastmod>2026-07-12</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-jidousha-seisan-kuni</loc><lastmod>2026-07-12</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-jinko-kuni</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://rankin-q.com/topic/sekai-kaiko-fukasa</loc><lastmod>2026-07-15</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-kaiyo-menseki</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-kawa-nagasa</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://rankin-q.com/topic/sekai-koki-eiga</loc><lastmod>2026-07-10</lastmod></url>
@@ -313,17 +314,23 @@
   <url><loc>https://rankin-q.com/entity/ishikawa</loc></url>
   <url><loc>https://rankin-q.com/entity/italy</loc></url>
   <url><loc>https://rankin-q.com/entity/iwate</loc></url>
+  <url><loc>https://rankin-q.com/entity/izu-ogasawara-trench</loc></url>
+  <url><loc>https://rankin-q.com/entity-type/trench</loc></url>
   <url><loc>https://rankin-q.com/entity/japan</loc></url>
+  <url><loc>https://rankin-q.com/entity/japan-trench</loc></url>
   <url><loc>https://rankin-q.com/entity/jupiter</loc></url>
   <url><loc>https://rankin-q.com/entity/kagawa</loc></url>
   <url><loc>https://rankin-q.com/entity/kagoshima</loc></url>
   <url><loc>https://rankin-q.com/entity/kaifu-falls</loc></url>
   <url><loc>https://rankin-q.com/entity/kalahari-desert</loc></url>
   <url><loc>https://rankin-q.com/entity/kanagawa</loc></url>
+  <url><loc>https://rankin-q.com/entity/kermadec-trench</loc></url>
   <url><loc>https://rankin-q.com/entity/kochi</loc></url>
   <url><loc>https://rankin-q.com/entity/kumamoto</loc></url>
+  <url><loc>https://rankin-q.com/entity/kuril-kamchatka-trench</loc></url>
   <url><loc>https://rankin-q.com/entity/kyoto</loc></url>
   <url><loc>https://rankin-q.com/entity/luxembourg</loc></url>
+  <url><loc>https://rankin-q.com/entity/mariana-trench</loc></url>
   <url><loc>https://rankin-q.com/entity/mars</loc></url>
   <url><loc>https://rankin-q.com/entity/mercury</loc></url>
   <url><loc>https://rankin-q.com/entity/mexico</loc></url>
@@ -341,6 +348,7 @@
   <url><loc>https://rankin-q.com/entity/nara</loc></url>
   <url><loc>https://rankin-q.com/entity/neptune</loc></url>
   <url><loc>https://rankin-q.com/entity/netherlands</loc></url>
+  <url><loc>https://rankin-q.com/entity/new-britain-trench</loc></url>
   <url><loc>https://rankin-q.com/entity/nigeria</loc></url>
   <url><loc>https://rankin-q.com/entity/niigata</loc></url>
   <url><loc>https://rankin-q.com/entity/norway</loc></url>
@@ -353,6 +361,8 @@
   <url><loc>https://rankin-q.com/entity/osaka</loc></url>
   <url><loc>https://rankin-q.com/entity/pakistan</loc></url>
   <url><loc>https://rankin-q.com/entity/patagonian-desert</loc></url>
+  <url><loc>https://rankin-q.com/entity/philippine-trench</loc></url>
+  <url><loc>https://rankin-q.com/entity/puerto-rico-trench</loc></url>
   <url><loc>https://rankin-q.com/entity/russia</loc></url>
   <url><loc>https://rankin-q.com/entity/saga</loc></url>
   <url><loc>https://rankin-q.com/entity/sahara-desert</loc></url>
@@ -364,6 +374,7 @@
   <url><loc>https://rankin-q.com/entity/shomyo-falls</loc></url>
   <url><loc>https://rankin-q.com/entity/singapore</loc></url>
   <url><loc>https://rankin-q.com/entity/south-korea</loc></url>
+  <url><loc>https://rankin-q.com/entity/south-sandwich-trench</loc></url>
   <url><loc>https://rankin-q.com/entity/soviet-union</loc></url>
   <url><loc>https://rankin-q.com/entity/spain</loc></url>
   <url><loc>https://rankin-q.com/entity/sweden</loc></url>
@@ -373,6 +384,7 @@
   <url><loc>https://rankin-q.com/entity/tochigi</loc></url>
   <url><loc>https://rankin-q.com/entity/tokushima</loc></url>
   <url><loc>https://rankin-q.com/entity/tokyo</loc></url>
+  <url><loc>https://rankin-q.com/entity/tonga-trench</loc></url>
   <url><loc>https://rankin-q.com/entity/tottori</loc></url>
   <url><loc>https://rankin-q.com/entity/toyama</loc></url>
   <url><loc>https://rankin-q.com/entity/uk</loc></url>

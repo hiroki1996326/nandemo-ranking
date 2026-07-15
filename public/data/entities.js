@@ -1620,10 +1620,22 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/iwate.webp',
     'imageCredit': '663highland / CC BY-SA 4.0',
   },
+  'izu-ogasawara-trench': {
+    'name': '伊豆・小笠原海溝',
+    'type': 'trench',
+    'image': null,
+    'imageCredit': '',
+  },
   'japan': {
     'name': '日本',
     'type': 'country',
     'image': '/images/entities/japan.webp',
+    'imageCredit': '',
+  },
+  'japan-trench': {
+    'name': '日本海溝',
+    'type': 'trench',
+    'image': null,
     'imageCredit': '',
   },
   'jupiter': {
@@ -1662,6 +1674,12 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/kanagawa.webp',
     'imageCredit': 'Japanbird / CC BY-SA 4.0',
   },
+  'kermadec-trench': {
+    'name': 'ケルマデック海溝',
+    'type': 'trench',
+    'image': null,
+    'imageCredit': '',
+  },
   'kochi': {
     'name': '高知県',
     'type': 'prefecture',
@@ -1674,6 +1692,12 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/kumamoto.webp',
     'imageCredit': 'Miya.m / CC BY-SA 3.0',
   },
+  'kuril-kamchatka-trench': {
+    'name': '千島・カムチャツカ海溝',
+    'type': 'trench',
+    'image': null,
+    'imageCredit': '',
+  },
   'kyoto': {
     'name': '京都府',
     'type': 'prefecture',
@@ -1685,6 +1709,12 @@ window.ENTITIES_DATA = {
     'type': 'country',
     'image': '/images/entities/luxembourg.webp',
     'imageCredit': 'Drawn by User:SKopp / Public domain',
+  },
+  'mariana-trench': {
+    'name': 'マリアナ海溝',
+    'type': 'trench',
+    'image': null,
+    'imageCredit': '',
   },
   'mars': {
     'name': '火星',
@@ -1782,6 +1812,12 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/netherlands.webp',
     'imageCredit': '',
   },
+  'new-britain-trench': {
+    'name': 'ニューブリテン海溝',
+    'type': 'trench',
+    'image': null,
+    'imageCredit': '',
+  },
   'nigeria': {
     'name': 'ナイジェリア',
     'type': 'country',
@@ -1854,6 +1890,18 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/patagonian-desert.webp',
     'imageCredit': 'CC BY-SA 3.0',
   },
+  'philippine-trench': {
+    'name': 'フィリピン海溝',
+    'type': 'trench',
+    'image': null,
+    'imageCredit': '',
+  },
+  'puerto-rico-trench': {
+    'name': 'プエルトリコ海溝',
+    'type': 'trench',
+    'image': null,
+    'imageCredit': '',
+  },
   'russia': {
     'name': 'ロシア',
     'type': 'country',
@@ -1920,6 +1968,12 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/south-korea.webp',
     'imageCredit': '',
   },
+  'south-sandwich-trench': {
+    'name': 'サウスサンドウィッチ海溝',
+    'type': 'trench',
+    'image': null,
+    'imageCredit': '',
+  },
   'soviet-union': {
     'name': 'ソビエト連邦',
     'type': 'country',
@@ -1973,6 +2027,12 @@ window.ENTITIES_DATA = {
     'type': 'prefecture',
     'image': '/images/entities/tokyo.webp',
     'imageCredit': 'Kestrel / CC BY-SA 4.0',
+  },
+  'tonga-trench': {
+    'name': 'トンガ海溝',
+    'type': 'trench',
+    'image': null,
+    'imageCredit': '',
   },
   'tottori': {
     'name': '鳥取県',

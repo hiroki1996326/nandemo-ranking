@@ -311,6 +311,35 @@ function analysisHtml(topic) {
     list.map(function (p) { return '<p class="article-body">' + richText(p) + '</p>'; }).join('') +
   '</section>';
 }
+// 自由本文（sections）: 見出し・段落・箇条書き・表を好きな順で並べられる汎用ブロック。
+// richText() が esc() でエスケープしてから **太字** だけ許可するのでHTML注入は起きない。
+function articleTableHtml(t) {
+  if (!t || !Array.isArray(t.rows)) return '';
+  const headers = Array.isArray(t.headers) ? t.headers : [];
+  const thead = headers.length
+    ? '<thead><tr>' + headers.map(function (h) { return '<th>' + richText(String(h)) + '</th>'; }).join('') + '</tr></thead>'
+    : '';
+  const tbody = '<tbody>' + t.rows.map(function (r) {
+    const cells = Array.isArray(r) ? r : [r];
+    return '<tr>' + cells.map(function (cll) { return '<td>' + richText(String(cll)) + '</td>'; }).join('') + '</tr>';
+  }).join('') + '</tbody>';
+  const caption = t.caption ? '<figcaption class="article-table-cap">' + richText(String(t.caption)) + '</figcaption>' : '';
+  return '<figure class="article-table-wrap"><table class="article-table">' + thead + tbody + '</table>' + caption + '</figure>';
+}
+function articleBlockHtml(block) {
+  if (!block || typeof block !== 'object') return '';
+  if (block.h2 != null) return '<h2 class="section-h article-section-h">' + esc(String(block.h2)) + '</h2>';
+  if (block.h3 != null) return '<h3 class="article-section-h3">' + esc(String(block.h3)) + '</h3>';
+  if (block.p != null) return '<p class="article-body">' + richText(String(block.p)) + '</p>';
+  if (Array.isArray(block.list)) return '<ul class="article-list">' + block.list.map(function (li) { return '<li>' + richText(String(li)) + '</li>'; }).join('') + '</ul>';
+  if (block.table != null) return articleTableHtml(block.table);
+  return '';
+}
+function sectionsHtml(topic) {
+  const list = topic.sections;
+  if (!list || !list.length) return '';
+  return '<section class="article-sections">' + list.map(articleBlockHtml).join('') + '</section>';
+}
 function relatedTopics(topic) {
   return TOPICS.filter(function (t) { return t.category === topic.category && t.id !== topic.id; });
 }
@@ -426,6 +455,7 @@ function topicDetailHtml(id) {
       '<div class="period-block">' + periodContentHtml(topic, idx) + '</div>' +
       '<div class="extended-block">' + extendedListHtml(topic, idx) + '</div>' +
       trendChartHtml(topic) +
+      sectionsHtml(topic) +
       analysisHtml(topic) +
       '<p class="source">出典: <a href="' + esc(topic.sourceUrl) + '" target="_blank" rel="noopener">' + esc(topic.source) + '</a></p>' +
     '</article>' +

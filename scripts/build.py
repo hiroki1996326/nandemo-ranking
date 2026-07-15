@@ -146,6 +146,7 @@ def resolve_topic(article, registry):
         'commentary': article.get('commentary', '') or '',
         'analysisHeading': article.get('analysisHeading', '') or '',
         'analysis': article.get('analysis', []) or [],
+        'sections': article.get('sections', []) or [],
         'periods': periods,
         'thumbnail': None,
     }
@@ -160,6 +161,20 @@ def validate(articles, registry):
             errors.append('記事 ' + str(a.get('id')) + ' にtitleが無い')
         elif 'ランキング' not in a.get('title', ''):
             print('警告: タイトルに「ランキング」が含まれない: ' + str(a.get('id')), file=sys.stderr)
+        # 自由本文ブロック(sections)の構造チェック（タイポ検出）
+        known_block_keys = {'h2', 'h3', 'p', 'list', 'table'}
+        for i, block in enumerate(a.get('sections', []) or []):
+            if not isinstance(block, dict):
+                errors.append('記事 ' + str(a.get('id')) + ' の sections[' + str(i) + '] がオブジェクトでない')
+                continue
+            keys = set(block.keys()) & known_block_keys
+            if not keys:
+                errors.append('記事 ' + str(a.get('id')) + ' の sections[' + str(i) +
+                              '] に有効なブロック種別が無い（' + ', '.join(sorted(known_block_keys)) + ' のいずれか）: ' + str(list(block.keys())))
+            if 'table' in block:
+                tbl = block['table']
+                if not isinstance(tbl, dict) or not isinstance(tbl.get('rows'), list):
+                    errors.append('記事 ' + str(a.get('id')) + ' の sections[' + str(i) + '] の table に rows(配列) が無い')
     # 似すぎた実体名の警告（表記ゆれの二重登録検出）
     names = {}
     for eid, e in registry.items():

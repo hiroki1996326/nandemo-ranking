@@ -22,6 +22,10 @@ function esc(s) {
     return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
   });
 }
+// 本文中の **強調したい語句** を<strong>に変換する（先にescするのでHTML注入の心配はない）。
+function richText(s) {
+  return esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+}
 function fmt(n) {
   return Number(n).toLocaleString('ja-JP');
 }
@@ -127,7 +131,7 @@ function articleCardHtml(topic) {
     '<div class="ac-body">' +
       '<div class="ac-meta">' + tagHtml(topic) + '<span class="ac-date">' + esc(dateLabel(topic)) + '</span></div>' +
       '<h3 class="ac-title">' + esc(topic.title) + '</h3>' +
-      '<p class="ac-lead">' + esc(topic.lead || '') + '</p>' +
+      '<p class="ac-lead">' + richText(topic.lead || '') + '</p>' +
     '</div>' +
   '</a>';
 }
@@ -147,7 +151,7 @@ function sliderSlideHtml(topic) {
     '<div class="featured-body">' +
       '<div class="ac-meta">' + tagHtml(topic) + '<span class="ac-date">' + esc(dateLabel(topic)) + '</span></div>' +
       '<h2 class="featured-title">' + esc(topic.title) + '</h2>' +
-      '<p class="featured-lead">' + esc(topic.lead || '') + '</p>' +
+      '<p class="featured-lead">' + richText(topic.lead || '') + '</p>' +
     '</div>' +
   '</a>';
 }
@@ -246,7 +250,7 @@ function topThreeHtml(topic, idx) {
           (prevMap ? trendText(e, prevMap) : '') +
         '</div>' +
         '<div class="top3-value">' + fmt(e.value) + '<span class="unit">' + esc(topic.unit) + '</span></div>' +
-        (e.note ? '<p class="top3-note">' + esc(e.note) + '</p>' : '') +
+        (e.note ? '<p class="top3-note">' + richText(e.note) + '</p>' : '') +
       '</div>' +
     '</div>';
   }).join('') + '</div>';
@@ -304,7 +308,7 @@ function analysisHtml(topic) {
   const heading = topic.analysisHeading || '考察';
   return '<section class="analysis">' +
     '<h2 class="section-h article-section-h">' + esc(heading) + '</h2>' +
-    list.map(function (p) { return '<p class="article-body">' + esc(p) + '</p>'; }).join('') +
+    list.map(function (p) { return '<p class="article-body">' + richText(p) + '</p>'; }).join('') +
   '</section>';
 }
 function relatedTopics(topic) {
@@ -416,8 +420,8 @@ function topicDetailHtml(id) {
       '<div class="ac-meta">' + tagHtml(topic) + '<span class="ac-date">' + esc(dateLabel(topic)) + ' 更新</span></div>' +
       '<h1 class="article-h1">' + esc(topic.title) + '</h1>' +
       (topic.thumbnail ? '<img class="article-hero topic-hero" src="' + esc(topic.thumbnail) + '" alt="" loading="lazy" />' : '') +
-      (topic.lead ? '<p class="article-lead">' + esc(topic.lead) + '</p>' : '') +
-      (topic.commentary ? '<p class="article-body">' + esc(topic.commentary) + '</p>' : '') +
+      (topic.lead ? '<p class="article-lead">' + richText(topic.lead) + '</p>' : '') +
+      (topic.commentary ? '<p class="article-body">' + richText(topic.commentary) + '</p>' : '') +
       periodTabsHtml(topic, idx) +
       '<div class="period-block">' + periodContentHtml(topic, idx) + '</div>' +
       '<div class="extended-block">' + extendedListHtml(topic, idx) + '</div>' +

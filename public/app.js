@@ -11,7 +11,8 @@ const ENTITIES = window.ENTITIES_DATA || {};
 const ENTITY_TYPE_LABEL = {
   prefecture: '都道府県', country: '国', mountain: '山', lake: '湖', river: '川',
   building: '建造物', movie: '映画', religion: '宗教', language: '言語', food: '食べ物',
-  ocean: '海洋', continent: '大陸', other: 'その他',
+  ocean: '海洋', continent: '大陸', island: '島', desert: '砂漠', planet: '惑星',
+  trench: '海溝', waterfall: '滝', metro: '都市圏', other: 'その他',
 };
 // entityの表示名(name) -> スラッグ の逆引き。記事内の項目名から実体詳細ページへリンクするために使う。
 const NAME_TO_SLUG = {};
@@ -485,6 +486,7 @@ function entityDetailHtml(slug) {
         : '') +
       '<h1 class="article-h1">' + esc(entity.name) + '</h1>' +
       (entity.image ? '<img class="article-hero entity-hero" src="' + esc(entity.image) + '" alt="' + esc(entity.name) + '" loading="lazy" />' : '') +
+      (entity.description ? '<p class="article-lead">' + richText(entity.description) + '</p>' : '') +
       '<h2 class="section-h article-section-h">' + esc(entity.name) + 'が登場するランキング</h2>' +
       (appearances.length
         ? '<div class="article-list">' + appearances.map(function (a) {
@@ -570,7 +572,10 @@ function router() {
     html = entityDetailHtml(slug);
     const entity = ENTITIES[slug];
     if (entity) {
-      setMeta(entity.name + '｜' + SITE_NAME, entity.name + 'が登場するランキング記事の一覧。' + SITE_DEFAULT_DESC, entity.image);
+      const metaDesc = entity.description
+        ? entity.description.replace(/\*\*/g, '').slice(0, 120)
+        : entity.name + 'が登場するランキング記事の一覧。' + SITE_DEFAULT_DESC;
+      setMeta(entity.name + '｜' + SITE_NAME, metaDesc, entity.image);
       crumbs = [{ label: 'ホーム', href: '/' }];
       if (entity.type) {
         crumbs.push({ label: (ENTITY_TYPE_LABEL[entity.type] || entity.type) + '一覧', href: '/entity-type/' + entity.type });

@@ -1,1402 +1,1752 @@
 {
   "aichi": {
     "name": "愛知県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 人口ランキング」で4位（7,449,403人）。「都道府県別 面積ランキング」で27位（5,173km²）。"
   },
   "akita": {
     "name": "秋田県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "あきたこまちの産地として知られ、収穫量は全国3位。"
   },
   "aomori": {
     "name": "青森県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で8位（9,646km²）。"
   },
   "arabian-desert": {
     "name": "アラビア砂漠",
-    "type": "desert"
+    "type": "desert",
+    "description": "アラビア半島の大部分を占める世界2位の砂漠。"
   },
   "australia": {
     "name": "オーストラリア",
-    "type": "country"
+    "type": "country",
+    "description": "世界第6位の国土面積。"
   },
   "bangladesh": {
     "name": "バングラデシュ",
-    "type": "country"
+    "type": "country",
+    "description": "「世界の人口ランキング（国別）」で8位（175,700,000人）。"
   },
   "brazil": {
     "name": "ブラジル",
-    "type": "country"
+    "type": "country",
+    "description": "「世界の国土面積ランキング」：世界第5位で、南米最大の国土面積。「FIFAワールドカップ優勝回数ランキング（国別）」：ワールドカップ最多となる5回の優勝を誇る。"
   },
   "canada": {
     "name": "カナダ",
-    "type": "country"
+    "type": "country",
+    "description": "国土面積は世界2位。"
   },
   "chiba": {
     "name": "千葉県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 人口ランキング」で6位（6,258,512人）。「都道府県別 漁獲量ランキング」で9位（79,158トン）。"
   },
   "china": {
     "name": "中国",
-    "type": "country"
+    "type": "country",
+    "description": "「夏季オリンピック金メダル獲得数ランキング（国別・歴代）」：歴代金メダル303個で世界3位。1984年ロサンゼルス大会から本格参加。「世界のGDPランキング（国別）」：名目GDPで世界2位の経済規模を持つ。「世界の自動車生産台数ランキング（国別）」：2024年の生産台数は3,128万台超。2位アメリカの約3倍の規模で世界最大の自動車生産国。「世界の人口ランキング（国別）」：1950年代以降長く世界最多だったが、2023年にインドに首位を譲った。「世界の国土面積ランキング」：世界第4位の国土面積。「国・地域別 輸出額ランキング」：財貨・サービスの輸出額で世界最大。"
   },
   "colombia": {
     "name": "コロンビア",
-    "type": "country"
+    "type": "country",
+    "description": "「世界のコーヒー生産量ランキング」で3位（833,930トン）。"
   },
   "earth": {
     "name": "地球",
-    "type": "planet"
+    "type": "planet",
+    "description": "岩石惑星では最大。直径は木星の約11分の1。"
   },
   "ehime": {
     "name": "愛媛県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 漁獲量ランキング」で10位（74,096トン）。「都道府県別 面積ランキング」で26位（5,676km²）。"
   },
   "entity-001": {
     "name": "キリスト教",
-    "type": null
+    "type": "religion",
+    "description": "世界で最も信者数が多い宗教。"
   },
   "entity-002": {
     "name": "イスラム教",
-    "type": null
+    "type": "religion",
+    "description": "世界で2番目に信者数が多い宗教。"
   },
   "entity-003": {
     "name": "ヒンドゥー教",
-    "type": null
+    "type": "religion",
+    "description": "主にインドで信仰され、信者数は世界3位。"
   },
   "entity-004": {
     "name": "仏教",
-    "type": null
+    "type": "religion",
+    "description": "「世界の宗教人口ランキング」で4位（5.1億人）。"
   },
   "entity-005": {
     "name": "民間信仰・民族宗教",
-    "type": null
+    "type": "religion",
+    "description": "「世界の宗教人口ランキング」で5位（4.3億人）。"
   },
   "entity-006": {
     "name": "その他の宗教",
-    "type": null
+    "type": "religion",
+    "description": "「世界の宗教人口ランキング」で6位（0.6億人）。"
   },
   "entity-007": {
     "name": "ユダヤ教",
-    "type": null
+    "type": "religion",
+    "description": "「世界の宗教人口ランキング」で7位（0.14億人）。"
   },
   "entity-008": {
     "name": "中国語(標準)",
-    "type": null
+    "type": "language",
+    "description": "母語話者数で世界最多の言語。"
   },
   "entity-009": {
     "name": "スペイン語",
-    "type": null
+    "type": "language",
+    "description": "中南米・スペインを中心に話され、母語話者数は世界2位。"
   },
   "entity-010": {
     "name": "英語",
-    "type": null
+    "type": "language",
+    "description": "母語話者数では3位だが、国際的な使用範囲は広い。"
   },
   "entity-011": {
     "name": "ヒンディー語",
-    "type": null
+    "type": "language",
+    "description": "「世界の言語ランキング（母語話者数）」で4位（34,500万人）。"
   },
   "entity-012": {
     "name": "ポルトガル語",
-    "type": null
+    "type": "language",
+    "description": "「世界の言語ランキング（母語話者数）」で5位（25,000万人）。"
   },
   "entity-013": {
     "name": "ベンガル語",
-    "type": null
+    "type": "language",
+    "description": "「世界の言語ランキング（母語話者数）」で6位（24,200万人）。"
   },
   "entity-014": {
     "name": "ロシア語",
-    "type": null
+    "type": "language",
+    "description": "「世界の言語ランキング（母語話者数）」で7位（14,500万人）。"
   },
   "entity-015": {
     "name": "日本語",
-    "type": null
+    "type": "language",
+    "description": "「世界の言語ランキング（母語話者数）」で8位（12,400万人）。"
   },
   "entity-016": {
     "name": "西パンジャブ語",
-    "type": null
+    "type": "language",
+    "description": "「世界の言語ランキング（母語話者数）」で9位（9,000万人）。"
   },
   "entity-017": {
     "name": "ベトナム語",
-    "type": null
+    "type": "language",
+    "description": "「世界の言語ランキング（母語話者数）」で10位（8,600万人）。"
   },
   "entity-018": {
     "name": "広東語",
-    "type": null
+    "type": "language",
+    "description": "「世界の言語ランキング（母語話者数）」で12位（8,500万人）。"
   },
   "entity-019": {
     "name": "トルコ語",
-    "type": null
+    "type": "language",
+    "description": "「世界の言語ランキング（母語話者数）」で11位（8,500万人）。"
   },
   "entity-020": {
     "name": "エベレスト(アジア)",
-    "type": null
+    "type": "mountain",
+    "description": "アジア大陸の最高峰で、標高8,849mは地球の最高地点。"
   },
   "entity-021": {
     "name": "アコンカグア(南アメリカ)",
-    "type": null
+    "type": "mountain",
+    "description": "南アメリカ大陸の最高峰で6,962m。アジアを除く世界で最も高い。"
   },
   "entity-022": {
     "name": "デナリ(北アメリカ)",
-    "type": null
+    "type": "mountain",
+    "description": "北アメリカ大陸の最高峰で6,190m。旧称マッキンリー山。"
   },
   "entity-023": {
     "name": "キリマンジャロ(アフリカ)",
-    "type": null
+    "type": "mountain",
+    "description": "アフリカ大陸の最高峰で5,895m。単独でそびえる山として世界最高。"
   },
   "entity-024": {
     "name": "エルブルス(ヨーロッパ)",
-    "type": null
+    "type": "mountain",
+    "description": "ヨーロッパ大陸の最高峰で5,642m。"
   },
   "entity-025": {
     "name": "ヴィンソン・マシフ(南極)",
-    "type": null
+    "type": "mountain",
+    "description": "南極大陸の最高峰で4,892m。"
   },
   "entity-026": {
     "name": "プンチャック・ジャヤ(オセアニア)",
-    "type": null
+    "type": "mountain",
+    "description": "オセアニアの最高峰とされる山で4,884m。ニューギニア島にある。"
   },
   "entity-027": {
     "name": "東京スカイツリー",
-    "type": null
+    "type": "building",
+    "description": "東京都墨田区の電波塔。634mは自立式電波塔として世界一の高さで、日本一高い建造物。"
   },
   "entity-028": {
     "name": "東京タワー",
-    "type": null
+    "type": "building",
+    "description": "東京都港区の電波塔で333m。1958年完成、日本で2番目に高い建造物。"
   },
   "entity-029": {
     "name": "麻布台ヒルズ森JPタワー",
-    "type": null
+    "type": "building",
+    "description": "東京都港区の超高層ビルで325.4m。2023年完成、ビルとして日本一の高さ。"
   },
   "entity-030": {
     "name": "あべのハルカス",
-    "type": null
+    "type": "building",
+    "description": "大阪市のビルで300m。2014〜2023年はビルの高さ日本一だった。"
   },
   "entity-031": {
     "name": "横浜ランドマークタワー",
-    "type": null
+    "type": "building",
+    "description": "横浜市のビルで296.33m。1993〜2014年はビルの高さ日本一だった。"
   },
   "entity-032": {
     "name": "虎ノ門ヒルズ ステーションタワー",
-    "type": null
+    "type": "building",
+    "description": "「日本の高い建造物ランキング」で6位（265.75m）。"
   },
   "entity-033": {
     "name": "麻布台ヒルズ レジデンスB",
-    "type": null
+    "type": "building",
+    "description": "「日本の高い建造物ランキング」で7位（262.82m）。"
   },
   "entity-034": {
     "name": "SiSりんくうタワー",
-    "type": null
+    "type": "building",
+    "description": "大阪府にある256.1mのビル。"
   },
   "entity-035": {
     "name": "大阪府咲洲庁舎",
-    "type": null
+    "type": "building",
+    "description": "「日本の高い建造物ランキング」で9位（256m）。"
   },
   "entity-036": {
     "name": "虎ノ門ヒルズ 森タワー",
-    "type": null
+    "type": "building",
+    "description": "「日本の高い建造物ランキング」で10位（255.5m）。"
   },
   "entity-037": {
     "name": "琵琶湖",
-    "type": null
+    "type": "lake",
+    "description": "滋賀県にある日本最大の湖。約400万年前にできた古代湖で、面積は2位霞ヶ浦の約4倍。"
   },
   "entity-038": {
     "name": "霞ヶ浦",
-    "type": null
+    "type": "lake",
+    "description": "茨城県にある日本第2位の湖。海沿いの浅く広い湖で、西浦・北浦などの総称。"
   },
   "entity-039": {
     "name": "サロマ湖",
-    "type": null
+    "type": "lake",
+    "description": "北海道のオホーツク海沿岸にある日本第3位の汽水湖。"
   },
   "entity-040": {
     "name": "猪苗代湖",
-    "type": null
+    "type": "lake",
+    "description": "福島県にある全国第4位の湖。"
   },
   "entity-041": {
     "name": "中海",
-    "type": null
+    "type": "lake",
+    "description": "島根県と鳥取県にまたがる海沿いの汽水湖で、隣接する宍道湖とつながる。"
   },
   "entity-042": {
     "name": "屈斜路湖",
-    "type": null
+    "type": "lake",
+    "description": "北海道にある日本最大のカルデラ湖。"
   },
   "entity-043": {
     "name": "宍道湖",
-    "type": null
+    "type": "lake",
+    "description": "島根県にある海沿いの汽水湖。"
   },
   "entity-044": {
     "name": "支笏湖",
-    "type": null
+    "type": "lake",
+    "description": "北海道にあるカルデラ湖。"
   },
   "entity-045": {
     "name": "洞爺湖",
-    "type": null
+    "type": "lake",
+    "description": "北海道にあるカルデラ湖。"
   },
   "entity-046": {
     "name": "浜名湖",
-    "type": null
+    "type": "lake",
+    "description": "静岡県にある海とつながった汽水湖。"
   },
   "entity-047": {
     "name": "小川原湖",
-    "type": null
+    "type": "lake",
+    "description": "「日本の湖の面積ランキング」で11位（62.1km²）。"
   },
   "entity-048": {
     "name": "十和田湖",
-    "type": null
+    "type": "lake",
+    "description": "青森県と秋田県にまたがるカルデラ湖。"
   },
   "entity-049": {
     "name": "風蓮湖",
-    "type": null
+    "type": "lake",
+    "description": "「日本の湖の面積ランキング」で13位（59km²）。"
   },
   "entity-050": {
     "name": "能取湖",
-    "type": null
+    "type": "lake",
+    "description": "「日本の湖の面積ランキング」で14位（58.2km²）。"
   },
   "entity-051": {
     "name": "北浦",
-    "type": null
+    "type": "lake",
+    "description": "「日本の湖の面積ランキング」で15位（35km²）。"
   },
   "entity-052": {
     "name": "網走湖",
-    "type": null
+    "type": "lake",
+    "description": "「日本の湖の面積ランキング」で16位（32.3km²）。"
   },
   "entity-053": {
     "name": "厚岸湖",
-    "type": null
+    "type": "lake",
+    "description": "「日本の湖の面積ランキング」で17位（32.2km²）。"
   },
   "entity-054": {
     "name": "八郎潟調整池",
-    "type": null
+    "type": "lake",
+    "description": "秋田県にある調整池。干拓される前は約220km²で、琵琶湖に次ぐ日本第2位の湖だった。"
   },
   "entity-055": {
     "name": "田沢湖",
-    "type": null
+    "type": "lake",
+    "description": "秋田県にあるカルデラ湖。"
   },
   "entity-056": {
     "name": "摩周湖",
-    "type": null
+    "type": "lake",
+    "description": "北海道にあるカルデラ湖。"
   },
   "entity-057": {
     "name": "ナイル川",
-    "type": null
+    "type": "river",
+    "description": "アフリカを流れる世界最長の川。"
   },
   "entity-058": {
     "name": "アマゾン川",
-    "type": null
+    "type": "river",
+    "description": "南アメリカを流れ、流域面積は世界最大。長さでは世界2位。"
   },
   "entity-059": {
     "name": "長江",
-    "type": null
+    "type": "river",
+    "description": "アジア最長の川で、長さは世界3位。"
   },
   "entity-060": {
     "name": "ミシシッピ川",
-    "type": null
+    "type": "river",
+    "description": "北アメリカを流れる全長5,969kmの川で世界第4位。"
   },
   "entity-061": {
     "name": "オビ川",
-    "type": null
+    "type": "river",
+    "description": "「世界の川の長さランキング」で5位（5,568km）。"
   },
   "entity-062": {
     "name": "エニセイ川",
-    "type": null
+    "type": "river",
+    "description": "「世界の川の長さランキング」で6位（5,550km）。"
   },
   "entity-063": {
     "name": "黄河",
-    "type": null
+    "type": "river",
+    "description": "中国を流れる全長5,464kmの川で世界第7位。"
   },
   "entity-064": {
     "name": "コンゴ川",
-    "type": null
+    "type": "river",
+    "description": "アフリカ中部を流れる全長4,667kmの川で世界第8位。"
   },
   "entity-065": {
     "name": "アムール川",
-    "type": null
+    "type": "river",
+    "description": "「世界の川の長さランキング」で10位（4,444km）。"
   },
   "entity-066": {
     "name": "パラナ川",
-    "type": null
+    "type": "river",
+    "description": "「世界の川の長さランキング」で9位（4,500km）。"
   },
   "entity-067": {
     "name": "アバター",
-    "type": null
+    "type": "movie",
+    "description": "2009年公開。歴代興行収入で世界1位を記録している。"
   },
   "entity-068": {
     "name": "アベンジャーズ/エンドゲーム",
-    "type": null
+    "type": "movie",
+    "description": "2019年公開のマーベル映画で、歴代興行収入は世界2位。"
   },
   "entity-069": {
     "name": "アバター:ウェイ・オブ・ウォーター",
-    "type": null
+    "type": "movie",
+    "description": "2022年公開の続編で、歴代興行収入は世界3位。"
   },
   "entity-070": {
     "name": "ナタ 魔童の大暴れ",
-    "type": null
+    "type": "movie",
+    "description": "「世界興行収入ランキング（映画・歴代）」で4位（22.67億ドル）。"
   },
   "entity-071": {
     "name": "タイタニック",
-    "type": null
+    "type": "movie",
+    "description": "「世界興行収入ランキング（映画・歴代）」で5位（22.65億ドル）。"
   },
   "entity-072": {
     "name": "スター・ウォーズ/フォースの覚醒",
-    "type": null
+    "type": "movie",
+    "description": "「世界興行収入ランキング（映画・歴代）」で6位（20.71億ドル）。"
   },
   "entity-073": {
     "name": "アベンジャーズ/インフィニティ・ウォー",
-    "type": null
+    "type": "movie",
+    "description": "「世界興行収入ランキング（映画・歴代）」で7位（20.52億ドル）。"
   },
   "entity-074": {
     "name": "スパイダーマン:ノー・ウェイ・ホーム",
-    "type": null
+    "type": "movie",
+    "description": "「世界興行収入ランキング（映画・歴代）」で8位（19.21億ドル）。"
   },
   "entity-075": {
     "name": "インサイド・ヘッド2",
-    "type": null
+    "type": "movie",
+    "description": "「世界興行収入ランキング（映画・歴代）」で9位（16.9億ドル）。"
   },
   "entity-076": {
     "name": "ジュラシック・ワールド",
-    "type": null
+    "type": "movie",
+    "description": "「世界興行収入ランキング（映画・歴代）」で10位（16.7億ドル）。"
   },
   "entity-077": {
     "name": "広州=深圳",
-    "type": null
+    "type": "metro",
+    "description": "中国広東省に位置する、人口規模が世界最大級の都市圏。"
   },
   "entity-078": {
     "name": "上海=常州",
-    "type": null
+    "type": "metro",
+    "description": "中国有数の巨大都市圏。"
   },
   "entity-079": {
     "name": "東京=横浜",
-    "type": null
+    "type": "metro",
+    "description": "日本の首都圏を含む、世界最大級の都市圏の一つ。"
   },
   "entity-080": {
     "name": "ジャカルタ",
-    "type": null
+    "type": "metro",
+    "description": "「世界の都市圏人口ランキング」で4位（36,877,000人）。"
   },
   "entity-081": {
     "name": "デリー",
-    "type": null
+    "type": "metro",
+    "description": "「世界の都市圏人口ランキング」で5位（33,224,000人）。"
   },
   "entity-082": {
     "name": "ムンバイ",
-    "type": null
+    "type": "metro",
+    "description": "「世界の都市圏人口ランキング」で6位（26,237,000人）。"
   },
   "entity-083": {
     "name": "マニラ",
-    "type": null
+    "type": "metro",
+    "description": "「世界の都市圏人口ランキング」で7位（25,521,000人）。"
   },
   "entity-084": {
     "name": "ダッカ",
-    "type": null
+    "type": "metro",
+    "description": "「世界の都市圏人口ランキング」で8位（25,305,000人）。"
   },
   "entity-085": {
     "name": "ソウル=仁川",
-    "type": null
+    "type": "metro",
+    "description": "「世界の都市圏人口ランキング」で9位（23,825,000人）。"
   },
   "entity-086": {
     "name": "カイロ",
-    "type": null
+    "type": "metro",
+    "description": "「世界の都市圏人口ランキング」で10位（22,684,000人）。"
   },
   "entity-087": {
     "name": "アルゼンチン",
-    "type": null
+    "type": "country",
+    "description": "「FIFAワールドカップ優勝回数ランキング（国別）」で4位（3回）。「世界の国土面積ランキング」で8位（2,780,400km²）。"
   },
   "entity-088": {
     "name": "ウルグアイ",
-    "type": null
+    "type": "country",
+    "description": "「FIFAワールドカップ優勝回数ランキング（国別）」で6位（2回）。"
   },
   "entity-089": {
     "name": "イングランド",
-    "type": null
+    "type": "country",
+    "description": "「FIFAワールドカップ優勝回数ランキング（国別）」で8位（1回）。"
   },
   "entity-090": {
     "name": "太平洋",
-    "type": null
+    "type": "ocean",
+    "description": "地球上で最も広い海洋。"
   },
   "entity-091": {
     "name": "大西洋",
-    "type": null
+    "type": "ocean",
+    "description": "世界で2番目に広い海洋。"
   },
   "entity-092": {
     "name": "インド洋",
-    "type": null
+    "type": "ocean",
+    "description": "世界で3番目に広い海洋。"
   },
   "entity-093": {
     "name": "北極海",
-    "type": null
+    "type": "ocean",
+    "description": "四大洋で最も狭い海。それでも日本の国土の30倍以上の広さがある。"
   },
   "entity-094": {
     "name": "カザフスタン",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で9位（2,724,900km²）。"
   },
   "entity-095": {
     "name": "コンゴ民主共和国",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で10位（2,389,986km²）。"
   },
   "entity-096": {
     "name": "アルジェリア",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で11位（2,381,741km²）。"
   },
   "entity-097": {
     "name": "サウジアラビア",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で12位（2,149,690km²）。"
   },
   "entity-098": {
     "name": "スーダン",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で15位（1,861,484km²）。"
   },
   "entity-099": {
     "name": "リビア",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で16位（1,759,540km²）。"
   },
   "entity-100": {
     "name": "イラン",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で17位（1,628,750km²）。"
   },
   "entity-101": {
     "name": "モンゴル",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で18位（1,564,116km²）。"
   },
   "entity-102": {
     "name": "ペルー",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で19位（1,285,216km²）。"
   },
   "entity-103": {
     "name": "チャド",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で20位（1,284,000km²）。"
   },
   "entity-104": {
     "name": "ニジェール",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で21位（1,267,000km²）。"
   },
   "entity-105": {
     "name": "アンゴラ",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で22位（1,246,700km²）。"
   },
   "entity-106": {
     "name": "マリ",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で23位（1,240,192km²）。"
   },
   "entity-107": {
     "name": "南アフリカ共和国",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で24位（1,221,037km²）。"
   },
   "entity-108": {
     "name": "コロンビア",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で25位（1,141,748km²）。"
   },
   "entity-109": {
     "name": "ボリビア",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で27位（1,098,581km²）。"
   },
   "entity-110": {
     "name": "モーリタニア",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で28位（1,030,700km²）。"
   },
   "entity-111": {
     "name": "エジプト",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で29位（1,001,450km²）。"
   },
   "entity-112": {
     "name": "タンザニア",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で30位（945,087km²）。"
   },
   "entity-113": {
     "name": "ベネズエラ",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で32位（916,445km²）。"
   },
   "entity-114": {
     "name": "ナミビア",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で34位（824,268km²）。"
   },
   "entity-115": {
     "name": "モザンビーク",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で35位（801,590km²）。"
   },
   "entity-116": {
     "name": "トルコ",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で36位（783,562km²）。"
   },
   "entity-117": {
     "name": "チリ",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で37位（756,102km²）。"
   },
   "entity-118": {
     "name": "ザンビア",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で38位（752,612km²）。"
   },
   "entity-119": {
     "name": "ミャンマー",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で39位（676,886km²）。"
   },
   "entity-120": {
     "name": "アフガニスタン",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で40位（652,864km²）。"
   },
   "entity-121": {
     "name": "南スーダン",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で41位（644,329km²）。"
   },
   "entity-122": {
     "name": "ソマリア",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で42位（637,657km²）。"
   },
   "entity-123": {
     "name": "中央アフリカ共和国",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で43位（622,984km²）。"
   },
   "entity-124": {
     "name": "ウクライナ",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で44位（603,500km²）。"
   },
   "entity-125": {
     "name": "マダガスカル",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で45位（587,295km²）。"
   },
   "entity-126": {
     "name": "ボツワナ",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で46位（582,000km²）。"
   },
   "entity-127": {
     "name": "ケニア",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で47位（581,313km²）。"
   },
   "entity-128": {
     "name": "イエメン",
-    "type": null
+    "type": "country",
+    "description": "「世界の国土面積ランキング」で49位（527,968km²）。"
   },
   "entity-129": {
     "name": "名探偵コナン 100万ドルの五稜星(みちしるべ)",
-    "type": null
+    "type": "movie",
+    "description": "2024年公開のシリーズ最新作で、年間興行収入1位。"
   },
   "entity-130": {
     "name": "劇場版ハイキュー!! ゴミ捨て場の決戦",
-    "type": null
+    "type": "movie",
+    "description": "2024年公開のアニメ映画で、年間興行収入2位。"
   },
   "entity-131": {
     "name": "キングダム 大将軍の帰還",
-    "type": null
+    "type": "movie",
+    "description": "実写映画シリーズの最新作で、年間興行収入3位。"
   },
   "entity-132": {
     "name": "劇場版 SPY×FAMILY CODE: White",
-    "type": null
+    "type": "movie",
+    "description": "「年間興行収入ランキング（映画）」で4位（63.2億円）。"
   },
   "entity-133": {
     "name": "ラストマイル",
-    "type": null
+    "type": "movie",
+    "description": "「年間興行収入ランキング（映画）」で5位（59.1億円）。"
   },
   "entity-134": {
     "name": "機動戦士ガンダムSEED FREEDOM",
-    "type": null
+    "type": "movie",
+    "description": "「年間興行収入ランキング（映画）」で6位（53.6億円）。"
   },
   "entity-135": {
     "name": "変な家",
-    "type": null
+    "type": "movie",
+    "description": "「年間興行収入ランキング（映画）」で7位（50.7億円）。"
   },
   "entity-136": {
     "name": "あの花が咲く丘で、君とまた出会えたら。",
-    "type": null
+    "type": "movie",
+    "description": "「年間興行収入ランキング（映画）」で8位（45.4億円）。"
   },
   "entity-137": {
     "name": "映画ドラえもん のび太の地球交響楽",
-    "type": null
+    "type": "movie",
+    "description": "「年間興行収入ランキング（映画）」で9位（43.1億円）。"
   },
   "entity-138": {
     "name": "僕のヒーローアカデミア THE MOVIE ユアネクスト",
-    "type": null
+    "type": "movie",
+    "description": "「年間興行収入ランキング（映画）」で10位（36億円）。"
   },
   "entity-139": {
     "name": "ブルジュ・ハリファ",
-    "type": null
+    "type": "building",
+    "description": "アラブ首長国連邦・ドバイにある世界最高の超高層ビル。"
   },
   "entity-140": {
     "name": "メルデカ118",
-    "type": null
+    "type": "building",
+    "description": "マレーシア・クアラルンプールにある世界2位の高さのビル。"
   },
   "entity-141": {
     "name": "上海中心大厦",
-    "type": null
+    "type": "building",
+    "description": "中国・上海にある世界3位の高さの超高層ビル。"
   },
   "entity-142": {
     "name": "アブラージュ・アル・バイト時計塔",
-    "type": null
+    "type": "building",
+    "description": "サウジアラビア・メッカのビルで601m、世界第4位。"
   },
   "entity-143": {
     "name": "平安国際金融中心",
-    "type": null
+    "type": "building",
+    "description": "「世界の高い建造物ランキング」で5位（599m）。"
   },
   "entity-144": {
     "name": "高銀金融117",
-    "type": null
+    "type": "building",
+    "description": "「世界の高い建造物ランキング」で6位（597m）。"
   },
   "entity-145": {
     "name": "ロッテワールドタワー",
-    "type": null
+    "type": "building",
+    "description": "韓国ソウルのビルで555m、世界第7位。"
   },
   "entity-146": {
     "name": "ワン・ワールドトレードセンター",
-    "type": null
+    "type": "building",
+    "description": "アメリカ・ニューヨークのビルで541m、世界第8位。"
   },
   "entity-147": {
     "name": "広州周大福金融中心",
-    "type": null
+    "type": "building",
+    "description": "「世界の高い建造物ランキング」で10位（530m）。"
   },
   "entity-148": {
     "name": "天津周大福金融中心",
-    "type": null
+    "type": "building",
+    "description": "「世界の高い建造物ランキング」で9位（530m）。"
   },
   "entity-149": {
     "name": "カスピ海",
-    "type": null
+    "type": "lake",
+    "description": "世界最大の湖（塩湖）。"
   },
   "entity-150": {
     "name": "スペリオル湖",
-    "type": null
+    "type": "lake",
+    "description": "北米五大湖の一つで、世界2位の面積を持つ湖。"
   },
   "entity-151": {
     "name": "ビクトリア湖",
-    "type": null
+    "type": "lake",
+    "description": "アフリカ最大の湖で、面積は世界3位。"
   },
   "entity-152": {
     "name": "ヒューロン湖",
-    "type": null
+    "type": "lake",
+    "description": "北米五大湖の一つで、世界第4位の湖。"
   },
   "entity-153": {
     "name": "ミシガン湖",
-    "type": null
+    "type": "lake",
+    "description": "「世界の湖の面積ランキング」で5位（57,800km²）。"
   },
   "entity-154": {
     "name": "タンガニーカ湖",
-    "type": null
+    "type": "lake",
+    "description": "アフリカにある世界第6位の湖。"
   },
   "entity-155": {
     "name": "バイカル湖",
-    "type": null
+    "type": "lake",
+    "description": "ロシアにある世界第7位の湖。"
   },
   "entity-156": {
     "name": "グレートベア湖",
-    "type": null
+    "type": "lake",
+    "description": "「世界の湖の面積ランキング」で8位（31,000km²）。"
   },
   "entity-157": {
     "name": "マラウイ湖",
-    "type": null
+    "type": "lake",
+    "description": "「世界の湖の面積ランキング」で9位（29,600km²）。"
   },
   "entity-158": {
     "name": "グレートスレーブ湖",
-    "type": null
+    "type": "lake",
+    "description": "「世界の湖の面積ランキング」で10位（27,200km²）。"
   },
   "entity-159": {
     "name": "グリーンランド",
-    "type": null
+    "type": "island",
+    "description": "世界最大の島（大陸を除く）。"
   },
   "entity-160": {
     "name": "ニューギニア島",
-    "type": null
+    "type": "island",
+    "description": "オセアニアとアジアにまたがる、世界2位の面積を持つ島。"
   },
   "entity-161": {
     "name": "ボルネオ島",
-    "type": null
+    "type": "island",
+    "description": "インドネシア・マレーシア・ブルネイの3カ国にまたがる、世界3位の島。"
   },
   "entity-162": {
     "name": "マダガスカル島",
-    "type": null
+    "type": "island",
+    "description": "アフリカ大陸の東にある世界第4位の島。"
   },
   "entity-163": {
     "name": "バフィン島",
-    "type": null
+    "type": "island",
+    "description": "カナダ北部にある世界第5位の島。"
   },
   "entity-164": {
     "name": "スマトラ島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で6位（473,481km²）。"
   },
   "entity-165": {
     "name": "本州(日本)",
-    "type": null
+    "type": "island",
+    "description": "日本の本州。227,970km²で世界の島の第7位。"
   },
   "entity-166": {
     "name": "ヴィクトリア島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で8位（217,291km²）。"
   },
   "entity-167": {
     "name": "グレートブリテン島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で9位（209,331km²）。"
   },
   "entity-168": {
     "name": "エルズミーア島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で10位（196,236km²）。"
   },
   "entity-169": {
     "name": "スラウェシ島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で11位（174,600km²）。"
   },
   "entity-170": {
     "name": "南島(ニュージーランド)",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で12位（151,215km²）。"
   },
   "entity-171": {
     "name": "ジャワ島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で13位（126,700km²）。"
   },
   "entity-172": {
     "name": "北島(ニュージーランド)",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で14位（113,729km²）。"
   },
   "entity-173": {
     "name": "ニューファンドランド島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で15位（111,390km²）。"
   },
   "entity-174": {
     "name": "キューバ島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で16位（105,007km²）。"
   },
   "entity-175": {
     "name": "ルソン島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で17位（104,688km²）。"
   },
   "entity-176": {
     "name": "アイスランド島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で18位（102,828km²）。"
   },
   "entity-177": {
     "name": "ミンダナオ島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で19位（94,630km²）。"
   },
   "entity-178": {
     "name": "アイルランド島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で20位（84,406km²）。"
   },
   "entity-179": {
     "name": "樺太",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で22位（76,400km²）。"
   },
   "entity-180": {
     "name": "イスパニョーラ島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で23位（74,700km²）。"
   },
   "entity-181": {
     "name": "バンクス島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で24位（70,028km²）。"
   },
   "entity-182": {
     "name": "セイロン島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で25位（65,268km²）。"
   },
   "entity-183": {
     "name": "タスマニア島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で26位（60,637km²）。"
   },
   "entity-184": {
     "name": "デヴォン島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で27位（55,247km²）。"
   },
   "entity-185": {
     "name": "セヴェルヌィ島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で28位（48,904km²）。"
   },
   "entity-186": {
     "name": "フエゴ島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で29位（47,992km²）。"
   },
   "entity-187": {
     "name": "バークナー島",
-    "type": null
+    "type": "island",
+    "description": "「世界の島の面積ランキング」で30位（43,873km²）。"
   },
   "entity-188": {
     "name": "エベレスト",
-    "type": null
+    "type": "mountain",
+    "description": "ヒマラヤ山脈、ネパールと中国の国境に位置する世界最高峰。"
   },
   "entity-189": {
     "name": "K2",
-    "type": null
+    "type": "mountain",
+    "description": "カラコルム山脈の最高峰で、世界2位の標高を持つ。"
   },
   "entity-190": {
     "name": "カンチェンジュンガ",
-    "type": null
+    "type": "mountain",
+    "description": "ネパールとインドの国境に位置する世界3位の高峰。"
   },
   "entity-191": {
     "name": "ローツェ",
-    "type": null
+    "type": "mountain",
+    "description": "ヒマラヤ山系の8,000m峰で、8,516mは世界第4位。"
   },
   "entity-192": {
     "name": "マカルー",
-    "type": null
+    "type": "mountain",
+    "description": "ヒマラヤ山系の8,000m峰で、8,485mは世界第5位。"
   },
   "entity-193": {
     "name": "チョー・オユー",
-    "type": null
+    "type": "mountain",
+    "description": "「世界の山の高さランキング」で6位（8,188m）。"
   },
   "entity-194": {
     "name": "ダウラギリI峰",
-    "type": null
+    "type": "mountain",
+    "description": "「世界の山の高さランキング」で7位（8,167m）。"
   },
   "entity-195": {
     "name": "マナスル",
-    "type": null
+    "type": "mountain",
+    "description": "「世界の山の高さランキング」で8位（8,163m）。"
   },
   "entity-196": {
     "name": "ナンガ・パルバット",
-    "type": null
+    "type": "mountain",
+    "description": "「世界の山の高さランキング」で9位（8,126m）。"
   },
   "entity-197": {
     "name": "アンナプルナI峰",
-    "type": null
+    "type": "mountain",
+    "description": "「世界の山の高さランキング」で10位（8,091m）。"
   },
   "entity-198": {
     "name": "ガッシャーブルムI峰",
-    "type": null
+    "type": "mountain",
+    "description": "「世界の山の高さランキング」で11位（8,080m）。"
   },
   "entity-199": {
     "name": "ブロード・ピーク",
-    "type": null
+    "type": "mountain",
+    "description": "「世界の山の高さランキング」で12位（8,051m）。"
   },
   "entity-200": {
     "name": "ガッシャーブルムII峰",
-    "type": null
+    "type": "mountain",
+    "description": "「世界の山の高さランキング」で13位（8,035m）。"
   },
   "entity-201": {
     "name": "シシャパンマ",
-    "type": null
+    "type": "mountain",
+    "description": "8,000m峰14座で最も低く、8,027mで世界第14位。"
   },
   "entity-202": {
     "name": "信濃川",
-    "type": null
+    "type": "river",
+    "description": "長野県と新潟県を流れる日本最長の川。長野県内では千曲川と呼ばれる。"
   },
   "entity-203": {
     "name": "利根川",
-    "type": null
+    "type": "river",
+    "description": "関東地方を流れる全国第2位の川。長さは2位だが、流域面積は日本最大。"
   },
   "entity-204": {
     "name": "石狩川",
-    "type": null
+    "type": "river",
+    "description": "北海道を流れる全国第3位の川。"
   },
   "entity-205": {
     "name": "天塩川",
-    "type": null
+    "type": "river",
+    "description": "北海道北部を流れる全国第4位の川。"
   },
   "entity-206": {
     "name": "北上川",
-    "type": null
+    "type": "river",
+    "description": "岩手県・宮城県を流れる東北最長級の川で全国第5位。"
   },
   "entity-207": {
     "name": "阿武隈川",
-    "type": null
+    "type": "river",
+    "description": "「日本の川の長さランキング」で6位（239km）。"
   },
   "entity-208": {
     "name": "最上川",
-    "type": null
+    "type": "river",
+    "description": "山形県を流れる全国第7位の川。"
   },
   "entity-209": {
     "name": "木曽川",
-    "type": null
+    "type": "river",
+    "description": "中部地方を流れる全国第8位の川。"
   },
   "entity-210": {
     "name": "天竜川",
-    "type": null
+    "type": "river",
+    "description": "「日本の川の長さランキング」で9位（213km）。"
   },
   "entity-211": {
     "name": "阿賀野川",
-    "type": null
+    "type": "river",
+    "description": "福島県・新潟県を流れる全国第10位の川。福島県内では阿賀川と呼ばれる。"
   },
   "entity-212": {
     "name": "富士山",
-    "type": null
+    "type": "mountain",
+    "description": "静岡県と山梨県にまたがる日本最高峰。3,776mで単独峰として突出している。"
   },
   "entity-213": {
     "name": "北岳",
-    "type": null
+    "type": "mountain",
+    "description": "南アルプス（赤石山脈）の最高峰で、日本第2位。山梨県。"
   },
   "entity-214": {
     "name": "奥穂高岳",
-    "type": null
+    "type": "mountain",
+    "description": "北アルプス（飛騨山脈）の最高峰で、日本第3位。"
   },
   "entity-215": {
     "name": "間ノ岳",
-    "type": null
+    "type": "mountain",
+    "description": "南アルプスの白峰三山の一つ。3,190mで奥穂高岳と並ぶ。"
   },
   "entity-216": {
     "name": "槍ヶ岳",
-    "type": null
+    "type": "mountain",
+    "description": "北アルプスを代表する尖峰。標高3,180mで日本第5位。"
   },
   "entity-217": {
     "name": "悪沢岳",
-    "type": null
+    "type": "mountain",
+    "description": "南アルプス荒川岳の最高峰。"
   },
   "entity-218": {
     "name": "赤石岳",
-    "type": null
+    "type": "mountain",
+    "description": "南アルプス（赤石山脈）の名の由来となった山。"
   },
   "entity-219": {
     "name": "涸沢岳",
-    "type": null
+    "type": "mountain",
+    "description": "「日本の山の高さランキング」で8位（3,110m）。"
   },
   "entity-220": {
     "name": "北穂高岳",
-    "type": null
+    "type": "mountain",
+    "description": "「日本の山の高さランキング」で9位（3,106m）。"
   },
   "entity-221": {
     "name": "大喰岳",
-    "type": null
+    "type": "mountain",
+    "description": "「日本の山の高さランキング」で10位（3,101m）。"
   },
   "entity-222": {
     "name": "前穂高岳",
-    "type": null
+    "type": "mountain",
+    "description": "「日本の山の高さランキング」で11位（3,090m）。"
   },
   "entity-223": {
     "name": "中岳(北アルプス)",
-    "type": null
+    "type": "mountain",
+    "description": "「日本の山の高さランキング」で12位（3,084m）。"
   },
   "entity-224": {
     "name": "中岳(荒川中岳)",
-    "type": null
+    "type": "mountain",
+    "description": "「日本の山の高さランキング」で13位（3,084m）。"
   },
   "entity-225": {
     "name": "御嶽山",
-    "type": null
+    "type": "mountain",
+    "description": "長野県と岐阜県にまたがる火山の独立峰。"
   },
   "entity-226": {
     "name": "農鳥岳",
-    "type": null
+    "type": "mountain",
+    "description": "南アルプス白峰三山の南端に位置する。"
   },
   "entity-227": {
     "name": "塩見岳",
-    "type": null
+    "type": "mountain",
+    "description": "南アルプス中部の3,000m峰。"
   },
   "entity-228": {
     "name": "南岳",
-    "type": null
+    "type": "mountain",
+    "description": "「日本の山の高さランキング」で17位（3,033m）。"
   },
   "entity-229": {
     "name": "仙丈ヶ岳",
-    "type": null
+    "type": "mountain",
+    "description": "「日本の山の高さランキング」で18位（3,033m）。"
   },
   "entity-230": {
     "name": "乗鞍岳",
-    "type": null
+    "type": "mountain",
+    "description": "北アルプス南端に位置する火山。"
   },
   "entity-231": {
     "name": "立山",
-    "type": null
+    "type": "mountain",
+    "description": "北アルプス北部の3,000m峰で、上位20座では最も低い。"
   },
   "ethiopia": {
     "name": "エチオピア",
-    "type": "country"
+    "type": "country",
+    "description": "「世界のコーヒー生産量ランキング」で5位（482,357トン）。「世界の人口ランキング（国別）」で10位（135,500,000人）。"
   },
   "france": {
     "name": "フランス",
-    "type": "country"
+    "type": "country",
+    "description": "「夏季オリンピック金メダル獲得数ランキング（国別・歴代）」で5位（239個）。「FIFAワールドカップ優勝回数ランキング（国別）」で5位（2回）。"
   },
   "fukui": {
     "name": "福井県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "石川県と面積が等しく、ともに4,191km²。"
   },
   "fukuoka": {
     "name": "福岡県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 人口ランキング」で8位（5,081,879人）。「都道府県別 面積ランキング」で29位（4,988km²）。"
   },
   "fukushima": {
     "name": "福島県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "全国3位。東北地方に位置する。"
   },
   "gangarashibana-falls": {
     "name": "ガンガラシバナの大滝",
-    "type": "waterfall"
+    "type": "waterfall",
+    "description": "「日本の滝の落差ランキング」で8位（200m）。"
   },
   "germany": {
     "name": "ドイツ",
-    "type": "country"
+    "type": "country",
+    "description": "「世界のGDPランキング（国別）」：名目GDPで世界3位。欧州最大の経済規模を持つ。「FIFAワールドカップ優勝回数ランキング（国別）」：優勝4回でイタリアと並び歴代2位。「国・地域別 輸出額ランキング」：欧州最大の輸出国で、輸出額は世界3位。"
   },
   "gifu": {
     "name": "岐阜県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で7位（10,621km²）。"
   },
   "gobi-desert": {
     "name": "ゴビ砂漠",
-    "type": "desert"
+    "type": "desert",
+    "description": "モンゴルと中国にまたがる世界3位の砂漠。"
   },
   "great-basin-desert": {
     "name": "グレートベースン",
-    "type": "desert"
+    "type": "desert",
+    "description": "「世界の砂漠面積ランキング」で8位（490,000km²）。"
   },
   "great-victoria-desert": {
     "name": "グレートビクトリア砂漠",
-    "type": "desert"
+    "type": "desert",
+    "description": "オーストラリア最大の砂漠で世界第5位。"
   },
   "gunma": {
     "name": "群馬県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で21位（6,362km²）。"
   },
   "hagoromo-falls": {
     "name": "羽衣の滝",
-    "type": "waterfall"
+    "type": "waterfall",
+    "description": "北海道の天人峡にかかる落差270mの滝。"
   },
   "hannoki-falls": {
     "name": "ハンノキ滝",
-    "type": "waterfall"
+    "type": "waterfall",
+    "description": "富山県・立山連峰にかかる落差約500mの滝。雪解け水源のため春〜初夏だけ現れる「幻の滝」。"
   },
   "hiroshima": {
     "name": "広島県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で11位（8,478km²）。"
   },
   "hokkaido": {
     "name": "北海道",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 漁獲量ランキング」：広い海域を持ち、都道府県別漁獲量で全国1位。2023年漁業センサスによると、北海道の漁船隻数は17,068隻で全国の総隻数（109,283隻）の**約15.6%**を占め、隻数でも都道府県別で全国最多。「都道府県別 米収穫量ランキング」：広い水田を持ち、収穫量は全国2位。「世界の島の面積ランキング」：日本の北海道。78,073km²で世界の島の第21位。「都道府県別 面積ランキング」：全国最大で、1道だけで日本の面積の約2割を占める。"
   },
   "hong-kong": {
     "name": "香港",
-    "type": "country"
+    "type": "country",
+    "description": "「国・地域別 輸出額ランキング」で8位（645.54億ドル）。"
   },
   "hungary": {
     "name": "ハンガリー",
-    "type": "country"
+    "type": "country",
+    "description": "「夏季オリンピック金メダル獲得数ランキング（国別・歴代）」で9位（187個）。"
   },
   "hyogo": {
     "name": "兵庫県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 人口ランキング」で7位（5,323,825人）。「都道府県別 面積ランキング」で12位（8,401km²）。"
   },
   "ibaraki": {
     "name": "茨城県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "太平洋に面した漁場を持ち、漁獲量は全国3位。2023年の漁獲量259,496トンのうち「**いわし類**」が233,727トン（**約90%**）を占め、単一魚種への集中度が際立つ。いわし類の漁獲量自体も全国シェア24.7%で全国1位。"
   },
   "iceland": {
     "name": "アイスランド",
-    "type": "country"
+    "type": "country",
+    "description": "「世界の平均寿命ランキング（国別）」で10位（82.6歳）。"
   },
   "india": {
     "name": "インド",
-    "type": "country"
+    "type": "country",
+    "description": "「世界の人口ランキング（国別）」：2023年に中国を上回り、国連推計で世界最多の人口となった。「世界の国土面積ランキング」：世界第7位の国土面積。"
   },
   "indonesia": {
     "name": "インドネシア",
-    "type": "country"
+    "type": "country",
+    "description": "「世界のコーヒー生産量ランキング」で4位（762,388トン）。「世界の人口ランキング（国別）」で4位（285,700,000人）。"
   },
   "ishikawa": {
     "name": "石川県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "福井県と面積が等しく、ともに4,191km²。"
   },
   "italy": {
     "name": "イタリア",
-    "type": "country"
+    "type": "country",
+    "description": "優勝4回でドイツと並び歴代2位。"
   },
   "iwate": {
     "name": "岩手県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "全国2位。北海道を除けば最大で、本州で最も広い県。"
   },
   "izu-ogasawara-trench": {
     "name": "伊豆・小笠原海溝",
-    "type": "trench"
+    "type": "trench",
+    "description": "日本の南に延びる海溝で、最深9,810mは世界第6位。"
   },
   "japan": {
     "name": "日本",
-    "type": "country"
+    "type": "country",
+    "description": "「世界の平均寿命ランキング（国別）」：平均寿命84.5歳で世界1位。2位以下に0.6歳以上の差をつけている。「世界の自動車生産台数ランキング（国別）」：生産台数は823万台超で世界3位。輸出向け生産の比率が高い。"
   },
   "japan-trench": {
     "name": "日本海溝",
-    "type": "trench"
+    "type": "trench",
+    "description": "日本の東沖に延びる海溝で、最深8,412mは世界第8位。"
   },
   "jupiter": {
     "name": "木星",
-    "type": "planet"
+    "type": "planet",
+    "description": "太陽系最大の惑星。ガス惑星で、直径は地球の約11倍。"
   },
   "kagawa": {
     "name": "香川県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "全国で最も狭い都道府県で、1,877km²。北海道の約44分の1。"
   },
   "kagoshima": {
     "name": "鹿児島県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で10位（9,186km²）。"
   },
   "kaifu-falls": {
     "name": "梅花皮滝",
-    "type": "waterfall"
+    "type": "waterfall",
+    "description": "「日本の滝の落差ランキング」で10位（200m）。"
   },
   "kalahari-desert": {
     "name": "カラハリ砂漠",
-    "type": "desert"
+    "type": "desert",
+    "description": "アフリカ南部にある世界第6位の砂漠。"
   },
   "kanagawa": {
     "name": "神奈川県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "首都圏に位置し、人口は全国2位。"
   },
   "kermadec-trench": {
     "name": "ケルマデック海溝",
-    "type": "trench"
+    "type": "trench",
+    "description": "「世界一深い海溝ランキング」で5位（10,047m）。"
   },
   "kochi": {
     "name": "高知県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で18位（7,102km²）。"
   },
   "kumamoto": {
     "name": "熊本県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で15位（7,409km²）。"
   },
   "kuril-kamchatka-trench": {
     "name": "千島・カムチャツカ海溝",
-    "type": "trench"
+    "type": "trench",
+    "description": "千島列島からカムチャツカ半島沖に伸びる海溝。4位フィリピン海溝とはわずか2m差。"
   },
   "kyoto": {
     "name": "京都府",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で31位（4,612km²）。"
   },
   "luxembourg": {
     "name": "ルクセンブルク",
-    "type": "country"
+    "type": "country",
+    "description": "「世界の平均寿命ランキング（国別）」で7位（82.8歳）。"
   },
   "mariana-trench": {
     "name": "マリアナ海溝",
-    "type": "trench"
+    "type": "trench",
+    "description": "太平洋にある世界最深の海溝。最深部はチャレンジャー海淵で、地球上で最も深い地点として知られる。"
   },
   "mars": {
     "name": "火星",
-    "type": "planet"
+    "type": "planet",
+    "description": "「太陽系の惑星サイズランキング」で7位（6,792km）。"
   },
   "mercury": {
     "name": "水星",
-    "type": "planet"
+    "type": "planet",
+    "description": "太陽系で最も小さい惑星。"
   },
   "mexico": {
     "name": "メキシコ",
-    "type": "country"
+    "type": "country",
+    "description": "「世界の自動車生産台数ランキング（国別）」で5位（4,202,642台）。「国・地域別 輸出額ランキング」で10位（617.1億ドル）。"
   },
   "mie": {
     "name": "三重県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で25位（5,774km²）。"
   },
   "migimata-falls": {
     "name": "右俣の大滝",
-    "type": "waterfall"
+    "type": "waterfall",
+    "description": "「日本の滝の落差ランキング」で6位（250m）。"
   },
   "miyagi": {
     "name": "宮城県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 漁獲量ランキング」で4位（180,369トン）。「都道府県別 面積ランキング」で16位（7,282km²）。"
   },
   "miyazaki": {
     "name": "宮崎県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 漁獲量ランキング」で8位（82,611トン）。「都道府県別 面積ランキング」で14位（7,734km²）。"
   },
   "movie-conan-2023": {
     "name": "名探偵コナン 黒鉄の魚影",
-    "type": "movie"
+    "type": "movie",
+    "description": "「年間興行収入ランキング（映画）」で2位（138.8億円）。"
   },
   "movie-kimitachi-2023": {
     "name": "君たちはどう生きるか",
-    "type": "movie"
+    "type": "movie",
+    "description": "「年間興行収入ランキング（映画）」で3位（88.4億円）。"
   },
   "movie-slamdunk-2023": {
     "name": "THE FIRST SLAM DUNK",
-    "type": "movie"
+    "type": "movie",
+    "description": "「年間興行収入ランキング（映画）」で1位（158.7億円）。"
   },
   "nagano": {
     "name": "長野県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "全国4位。海に面しない内陸県では最大。"
   },
   "nagasaki": {
     "name": "長崎県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "複雑な海岸線を持つ好漁場が多く、漁獲量は全国2位。水揚げされる魚種は**300種以上**で全国最多とされ、2019年にはマアジ（全国シェア42.1%）・サバ類（同15.9%）がいずれも漁獲量日本一だった。"
   },
   "nakanotaki-falls": {
     "name": "中の滝",
-    "type": "waterfall"
+    "type": "waterfall",
+    "description": "「日本の滝の落差ランキング」で7位（250m）。"
   },
   "nara": {
     "name": "奈良県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で40位（3,691km²）。"
   },
   "neptune": {
     "name": "海王星",
-    "type": "planet"
+    "type": "planet",
+    "description": "直径4位で、ガス惑星では最も小さい。"
   },
   "netherlands": {
     "name": "オランダ",
-    "type": "country"
+    "type": "country",
+    "description": "「国・地域別 輸出額ランキング」で4位（921.22億ドル）。"
   },
   "new-britain-trench": {
     "name": "ニューブリテン海溝",
-    "type": "trench"
+    "type": "trench",
+    "description": "「世界一深い海溝ランキング」で7位（9,140m）。"
   },
   "nigeria": {
     "name": "ナイジェリア",
-    "type": "country"
+    "type": "country",
+    "description": "「世界の人口ランキング（国別）」で6位（237,500,000人）。「世界の国土面積ランキング」で31位（923,768km²）。"
   },
   "niigata": {
     "name": "新潟県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 米収穫量ランキング」：越後平野を抱える米どころで、収穫量は全国1位。「都道府県別 面積ランキング」：全国5位。"
   },
   "norway": {
     "name": "ノルウェー",
-    "type": "country"
+    "type": "country",
+    "description": "「世界の平均寿命ランキング（国別）」で6位（82.9歳）。"
   },
   "nukusawa-falls": {
     "name": "ヌク沢大滝",
-    "type": "waterfall"
+    "type": "waterfall",
+    "description": "「日本の滝の落差ランキング」で5位（260m）。"
   },
   "nunosarashi-falls": {
     "name": "布晒の滝",
-    "type": "waterfall"
+    "type": "waterfall",
+    "description": "落差300mで全国第3位の滝。"
   },
   "oita": {
     "name": "大分県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で22位（6,341km²）。"
   },
   "okayama": {
     "name": "岡山県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で17位（7,114km²）。"
   },
   "okinawa": {
     "name": "沖縄県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で44位（2,282km²）。"
   },
   "orosoroshino-falls": {
     "name": "オロオソロシノ滝",
-    "type": "waterfall"
+    "type": "waterfall",
+    "description": "「日本の滝の落差ランキング」で9位（200m）。"
   },
   "osaka": {
     "name": "大阪府",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 人口ランキング」：近畿地方の中心都市を抱え、人口は全国3位。「都道府県別 面積ランキング」：香川県に次いで狭く、全国46位。"
   },
   "pakistan": {
     "name": "パキスタン",
-    "type": "country"
+    "type": "country",
+    "description": "「世界の人口ランキング（国別）」で5位（255,200,000人）。「世界の国土面積ランキング」で33位（881,913km²）。"
   },
   "patagonian-desert": {
     "name": "パタゴニア",
-    "type": "desert"
+    "type": "desert",
+    "description": "南米にある世界第4位の砂漠。"
   },
   "philippine-trench": {
     "name": "フィリピン海溝",
-    "type": "trench"
+    "type": "trench",
+    "description": "最深部エンペラー海淵は10,540mで世界第4位。"
   },
   "puerto-rico-trench": {
     "name": "プエルトリコ海溝",
-    "type": "trench"
+    "type": "trench",
+    "description": "「世界一深い海溝ランキング」で9位（8,376m）。"
   },
   "russia": {
     "name": "ロシア",
-    "type": "country"
+    "type": "country",
+    "description": "世界最大の国土面積を持つ国。"
   },
   "saga": {
     "name": "佐賀県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で42位（2,441km²）。"
   },
   "sahara-desert": {
     "name": "サハラ砂漠",
-    "type": "desert"
+    "type": "desert",
+    "description": "アフリカ大陸北部に広がる世界最大の砂漠。面積は約910万km²。"
   },
   "saitama": {
     "name": "埼玉県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 人口ランキング」で5位（7,287,169人）。「都道府県別 面積ランキング」で39位（3,798km²）。"
   },
   "saturn": {
     "name": "土星",
-    "type": "planet"
+    "type": "planet",
+    "description": "直径2位のガス惑星。"
   },
   "shiga": {
     "name": "滋賀県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で38位（4,017km²）。"
   },
   "shimane": {
     "name": "島根県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 漁獲量ランキング」で6位（102,252トン）。「都道府県別 面積ランキング」で19位（6,708km²）。"
   },
   "shizuoka": {
     "name": "静岡県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 漁獲量ランキング」で5位（144,710トン）。「都道府県別 人口ランキング」で10位（3,468,845人）。"
   },
   "shomyo-falls": {
     "name": "称名滝",
-    "type": "waterfall"
+    "type": "waterfall",
+    "description": "富山県・立山連峰の称名滝。落差350mは通年流れる滝として日本一で、4段からなる。"
   },
   "singapore": {
     "name": "シンガポール",
-    "type": "country"
+    "type": "country",
+    "description": "平均寿命83.9歳で世界2位。アジアで日本に次ぐ長寿国。"
   },
   "south-korea": {
     "name": "韓国",
-    "type": "country"
+    "type": "country",
+    "description": "平均寿命83.8歳で世界3位。上位3カ国はいずれもアジア勢。"
   },
   "south-sandwich-trench": {
     "name": "サウスサンドウィッチ海溝",
-    "type": "trench"
+    "type": "trench",
+    "description": "「世界一深い海溝ランキング」で10位（8,266m）。"
   },
   "soviet-union": {
     "name": "ソビエト連邦",
-    "type": "country"
+    "type": "country",
+    "description": "1952〜1988年に参加し395個の金メダルを獲得。1991年の解体後も歴代集計に含まれる。"
   },
   "spain": {
     "name": "スペイン",
-    "type": "country"
+    "type": "country",
+    "description": "「FIFAワールドカップ優勝回数ランキング（国別）」で7位（1回）。「世界の平均寿命ランキング（国別）」で8位（82.7歳）。"
   },
   "sweden": {
     "name": "スウェーデン",
-    "type": "country"
+    "type": "country",
+    "description": "「世界の平均寿命ランキング（国別）」で9位（82.7歳）。"
   },
   "switzerland": {
     "name": "スイス",
-    "type": "country"
+    "type": "country",
+    "description": "「世界の平均寿命ランキング（国別）」で4位（83.3歳）。"
   },
   "syrian-desert": {
     "name": "シリア砂漠",
-    "type": "desert"
+    "type": "desert",
+    "description": "「世界の砂漠面積ランキング」で7位（490,000km²）。"
   },
   "thailand": {
     "name": "タイ",
-    "type": "country"
+    "type": "country",
+    "description": "本ランキング50位。それでも国土は51万km²を超える。"
   },
   "tochigi": {
     "name": "栃木県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で20位（6,408km²）。"
   },
   "tokushima": {
     "name": "徳島県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で36位（4,147km²）。"
   },
   "tokyo": {
     "name": "東京都",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "全国最多の人口を持つ都道府県。"
   },
   "tonga-trench": {
     "name": "トンガ海溝",
-    "type": "trench"
+    "type": "trench",
+    "description": "マリアナ海溝に次ぐ世界2位の深さを持つが、知名度は低い。"
   },
   "tottori": {
     "name": "鳥取県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 漁獲量ランキング」で7位（100,501トン）。「都道府県別 面積ランキング」で41位（3,507km²）。"
   },
   "toyama": {
     "name": "富山県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で33位（4,248km²）。"
   },
   "uk": {
     "name": "イギリス",
-    "type": "country"
+    "type": "country",
+    "description": "「夏季オリンピック金メダル獲得数ランキング（国別・歴代）」で4位（298個）。「世界のGDPランキング（国別）」で5位（42,648億ドル）。"
   },
   "uranus": {
     "name": "天王星",
-    "type": "planet"
+    "type": "planet",
+    "description": "直径3位の惑星。"
   },
   "usa": {
     "name": "アメリカ",
-    "type": "country"
+    "type": "country",
+    "description": "「夏季オリンピック金メダル獲得数ランキング（国別・歴代）」：歴代金メダル1,101個で世界最多。2位の約2.8倍の獲得数を持つ。「世界のGDPランキング（国別）」：名目GDPで世界最大の経済規模を持つ。「世界の自動車生産台数ランキング（国別）」：生産台数は1,056万台超で世界2位。国内市場向け生産が中心。「世界の人口ランキング（国別）」：人口世界3位。1位インド・2位中国とは大きな差がある。「世界の国土面積ランキング」：国土面積は世界3位。「国・地域別 輸出額ランキング」：輸出額で世界2位。"
   },
   "venus": {
     "name": "金星",
-    "type": "planet"
+    "type": "planet",
+    "description": "「太陽系の惑星サイズランキング」で6位（12,104km）。"
   },
   "vietnam": {
     "name": "ベトナム",
-    "type": "country"
+    "type": "country",
+    "description": "「世界のコーヒー生産量ランキング」で2位（1,762,668トン）。"
   },
   "wakayama": {
     "name": "和歌山県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で30位（4,725km²）。"
   },
   "yamagata": {
     "name": "山形県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で9位（9,323km²）。"
   },
   "yamaguchi": {
     "name": "山口県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で23位（6,113km²）。"
   },
   "yamanashi": {
     "name": "山梨県",
-    "type": "prefecture"
+    "type": "prefecture",
+    "description": "「都道府県別 面積ランキング」で32位（4,465km²）。"
   }
 }

@@ -220,6 +220,7 @@ def main():
         entities_out[eid] = {
             'name': e.get('name'),
             'type': e.get('type'),
+            'description': e.get('description') or '',
             'image': None,
             'imageCredit': '',
         }

@@ -57,6 +57,7 @@
   <url><loc>https://rankin-q.com/entity-type/planet</loc></url>
   <url><loc>https://rankin-q.com/entity/ehime</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-001</loc></url>
+  <url><loc>https://rankin-q.com/entity-type/religion</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-002</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-003</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-004</loc></url>
@@ -64,6 +65,7 @@
   <url><loc>https://rankin-q.com/entity/entity-006</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-007</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-008</loc></url>
+  <url><loc>https://rankin-q.com/entity-type/language</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-009</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-010</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-011</loc></url>
@@ -76,6 +78,7 @@
   <url><loc>https://rankin-q.com/entity/entity-018</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-019</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-020</loc></url>
+  <url><loc>https://rankin-q.com/entity-type/mountain</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-021</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-022</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-023</loc></url>
@@ -83,6 +86,7 @@
   <url><loc>https://rankin-q.com/entity/entity-025</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-026</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-027</loc></url>
+  <url><loc>https://rankin-q.com/entity-type/building</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-028</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-029</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-030</loc></url>
@@ -93,6 +97,7 @@
   <url><loc>https://rankin-q.com/entity/entity-035</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-036</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-037</loc></url>
+  <url><loc>https://rankin-q.com/entity-type/lake</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-038</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-039</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-040</loc></url>
@@ -113,6 +118,7 @@
   <url><loc>https://rankin-q.com/entity/entity-055</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-056</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-057</loc></url>
+  <url><loc>https://rankin-q.com/entity-type/river</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-058</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-059</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-060</loc></url>
@@ -123,6 +129,7 @@
   <url><loc>https://rankin-q.com/entity/entity-065</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-066</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-067</loc></url>
+  <url><loc>https://rankin-q.com/entity-type/movie</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-068</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-069</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-070</loc></url>
@@ -133,6 +140,7 @@
   <url><loc>https://rankin-q.com/entity/entity-075</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-076</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-077</loc></url>
+  <url><loc>https://rankin-q.com/entity-type/metro</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-078</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-079</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-080</loc></url>
@@ -146,6 +154,7 @@
   <url><loc>https://rankin-q.com/entity/entity-088</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-089</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-090</loc></url>
+  <url><loc>https://rankin-q.com/entity-type/ocean</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-091</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-092</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-093</loc></url>
@@ -215,6 +224,7 @@
   <url><loc>https://rankin-q.com/entity/entity-157</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-158</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-159</loc></url>
+  <url><loc>https://rankin-q.com/entity-type/island</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-160</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-161</loc></url>
   <url><loc>https://rankin-q.com/entity/entity-162</loc></url>
@@ -339,7 +349,6 @@
   <url><loc>https://rankin-q.com/entity/miyagi</loc></url>
   <url><loc>https://rankin-q.com/entity/miyazaki</loc></url>
   <url><loc>https://rankin-q.com/entity/movie-conan-2023</loc></url>
-  <url><loc>https://rankin-q.com/entity-type/movie</loc></url>
   <url><loc>https://rankin-q.com/entity/movie-kimitachi-2023</loc></url>
   <url><loc>https://rankin-q.com/entity/movie-slamdunk-2023</loc></url>
   <url><loc>https://rankin-q.com/entity/nagano</loc></url>

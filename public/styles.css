@@ -217,10 +217,10 @@ body {
 
 /* 年切り替えタブ（年数が多い記事では横に収まりきらないため、はみ出た分は横スクロールにする）
    タッチ端末はスワイプで触れるのでスクロールバーを隠す。マウス操作のPCでは掴んで
-   動かす手段が無くなってしまうため、細いスクロールバーを残す（+ ホイールでも動かせるようJSで補助）。 */
+   動かす手段が無くなってしまうため、細いスクロールバーを残す（縦は不要なので出さない）。 */
 .period-tabs {
   display: flex; gap: 6px; margin: 40px 0 0; border-bottom: 2px solid var(--line-strong);
-  overflow-x: auto; -webkit-overflow-scrolling: touch;
+  overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch;
 }
 @media (pointer: coarse) {
   .period-tabs { scrollbar-width: none; }

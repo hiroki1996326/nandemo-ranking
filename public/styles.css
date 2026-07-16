@@ -215,12 +215,17 @@ body {
 .article-lead { font-size: 16px; color: var(--text-2); line-height: 1.9; margin: 0 0 4px; }
 .period-label { font-size: 13px; color: var(--text-3); margin-bottom: 8px; text-align: left; }
 
-/* 年切り替えタブ（年数が多い記事では横に収まりきらないため、はみ出た分は横スクロールにする） */
+/* 年切り替えタブ（年数が多い記事では横に収まりきらないため、はみ出た分は横スクロールにする）
+   タッチ端末はスワイプで触れるのでスクロールバーを隠す。マウス操作のPCでは掴んで
+   動かす手段が無くなってしまうため、細いスクロールバーを残す（+ ホイールでも動かせるようJSで補助）。 */
 .period-tabs {
   display: flex; gap: 6px; margin: 40px 0 0; border-bottom: 2px solid var(--line-strong);
-  overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  overflow-x: auto; -webkit-overflow-scrolling: touch;
 }
-.period-tabs::-webkit-scrollbar { display: none; }
+@media (pointer: coarse) {
+  .period-tabs { scrollbar-width: none; }
+  .period-tabs::-webkit-scrollbar { display: none; }
+}
 .period-tab {
   appearance: none; background: none; border: none; cursor: pointer; flex: none;
   font-family: var(--font); font-size: 14px; font-weight: 700; color: var(--text-3);

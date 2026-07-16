@@ -138,10 +138,10 @@ def build_sitemap_xml(topics, entities=None):
             urls.append({'loc': SITE_URL + '/category/' + t['category'], 'lastmod': None})
     for t in topics:
         urls.append({'loc': SITE_URL + '/topic/' + t['id'], 'lastmod': t.get('updatedAt')})
+    # entity個別ページ(/entity/{id})はSEO上noindexのため、sitemapには含めない
+    # （app.js側でnoindexを設定。クロール自体は許可するがindexはさせない方針）。
     seen_types = []
     for entity in (entities or {}).values():
-        if entity.get('id'):
-            urls.append({'loc': SITE_URL + '/entity/' + entity['id'], 'lastmod': None})
         if entity.get('type') and entity['type'] not in seen_types:
             seen_types.append(entity['type'])
             urls.append({'loc': SITE_URL + '/entity-type/' + entity['type'], 'lastmod': None})

@@ -528,7 +528,7 @@ const SITE_NAME = 'ランキンQ';
 const SITE_DEFAULT_DESC = '人口・面積・GDP・漁獲量など、統計や記録にもとづく「事実」のランキングを、出典つきで届けるサイト。ユーザー投票・投稿によるランキングは扱いません。';
 // canonical / og:url は本番ドメイン固定の絶対URLにする（プレビュー環境のURLがcanonicalに漏れないように）。
 const CANONICAL_ORIGIN = 'https://rankin-q.com';
-function setMeta(title, description, imagePath) {
+function setMeta(title, description, imagePath, robots) {
   document.title = title;
   const set = function (id, attr, value) {
     const el = document.getElementById(id);
@@ -536,6 +536,7 @@ function setMeta(title, description, imagePath) {
   };
   const absUrl = CANONICAL_ORIGIN + location.pathname;
   const absImage = imagePath ? CANONICAL_ORIGIN + imagePath : '';
+  set('meta-robots', 'content', robots || 'index, follow');
   set('meta-description', 'content', description);
   set('meta-canonical', 'href', absUrl);
   set('meta-og-title', 'content', title);
@@ -575,7 +576,7 @@ function router() {
       const metaDesc = entity.description
         ? entity.description.replace(/\*\*/g, '').slice(0, 120)
         : entity.name + 'が登場するランキング記事の一覧。' + SITE_DEFAULT_DESC;
-      setMeta(entity.name + '｜' + SITE_NAME, metaDesc, entity.image);
+      setMeta(entity.name + '｜' + SITE_NAME, metaDesc, entity.image, 'noindex, follow');
       crumbs = [{ label: 'ホーム', href: '/' }];
       if (entity.type) {
         crumbs.push({ label: (ENTITY_TYPE_LABEL[entity.type] || entity.type) + '一覧', href: '/entity-type/' + entity.type });

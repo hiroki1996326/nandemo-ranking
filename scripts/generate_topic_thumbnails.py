@@ -90,6 +90,9 @@ TOPIC_HINT = {
     'sekai-heikinjumyo-kuni': 'elderly and young people together, healthy lifestyle, warm sunlight',
     'sekai-jidousha-seisan-kuni': 'car factory assembly line, automobiles, industrial',
     'sekai-sabaku-menseki': 'vast desert dunes, sand, arid landscape',
+    'sekai-kaiko-fukasa': 'deep ocean trench, dark blue abyss, underwater sonar depth, bathymetric',
+    'sekai-komugi-seisanryo-kuni': 'golden wheat field, wheat stalks, harvest season, farmland',
+    'taiyokei-wakusei-chokkei': 'planets in space, solar system, stars, cosmic nebula',
 }
 
 CATEGORY_HINT = {

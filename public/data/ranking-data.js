@@ -5301,7 +5301,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-kaiko-fukasa.webp',
     },
     {
       'id': 'sekai-kaiyo-menseki',
@@ -5560,7 +5560,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-komugi-seisanryo-kuni.webp',
     },
     {
       'id': 'sekai-koso-biru',
@@ -6543,7 +6543,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/taiyokei-wakusei-chokkei.webp',
     },
     {
       'id': 'todofuken-menseki',

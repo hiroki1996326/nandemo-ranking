@@ -30,36 +30,6 @@
   --bronze-2: #cd8b5c;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #121512;
-    --surface: #191d19;
-    --line: #2a2f2a;
-    --line-strong: #3a413a;
-    --text: #e9ece8;
-    --text-2: #a7ada6;
-    --text-3: #767c74;
-    --accent: #4fb89b;
-    --accent-2: #3d9a80;
-    --up: #4fb89b;
-    --down: #e2836c;
-    --flat: #7a8079;
-    --row-hover: #1e231e;
-
-    --c-keizai: #4fb89b;
-    --c-jinko: #6ea3d1;
-    --c-chiri: #c99a5c;
-    --c-sports: #cf7fa1;
-
-    --gold: #e0b13c;
-    --gold-2: #f0cc6e;
-    --silver: #a8b0b8;
-    --silver-2: #ccd2d8;
-    --bronze: #cd8b5c;
-    --bronze-2: #e0ab84;
-  }
-}
-
 * { box-sizing: border-box; }
 
 body {
@@ -81,9 +51,6 @@ body {
 .brand-logo { display: block; height: 44px; width: auto; }
 .brand-tagline { margin: 0; font-size: 11.5px; color: var(--text-3); letter-spacing: 0.02em; }
 
-@media (prefers-color-scheme: dark) {
-  .brand { background: #fff; padding: 6px 10px; border-radius: 8px; }
-}
 .nav { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
 .nav a { color: var(--text-2); text-decoration: none; font-size: 13.5px; font-weight: 600; }
 .nav a:hover { color: var(--accent); }

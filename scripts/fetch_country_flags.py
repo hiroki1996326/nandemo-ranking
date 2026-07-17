@@ -105,7 +105,7 @@ def main():
     if failed:
         print('取得失敗: ' + ', '.join(failed))
     if fetched and not args.dry_run:
-        print('次に python scripts/sync_from_airtable.py を実行してサイトに反映してください。')
+        print('次に python scripts/build.py を実行してサイトに反映してください。')
 
 
 if __name__ == '__main__':

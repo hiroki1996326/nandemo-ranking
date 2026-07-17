@@ -283,7 +283,7 @@ def main():
     if skipped_non_commons:
         print('Commons以外のためスキップ（' + str(len(skipped_non_commons)) + '件）: ' + ', '.join(skipped_non_commons[:20]))
     if fetched and not args.dry_run:
-        print('次に python scripts/sync_from_airtable.py を実行してサイトに反映してください。')
+        print('次に python scripts/build.py を実行してサイトに反映してください。')
 
 
 if __name__ == '__main__':

@@ -262,7 +262,7 @@ def main():
     print()
     print(str(created) + '件のサムネイルを生成しました。')
     if created and not args.dry_run:
-        print('次に python scripts/sync_from_airtable.py を実行してサイトに反映してください。')
+        print('次に python scripts/build.py を実行してサイトに反映してください。')
 
 
 if __name__ == '__main__':

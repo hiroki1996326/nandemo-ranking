@@ -93,6 +93,7 @@ TOPIC_HINT = {
     'sekai-kaiko-fukasa': 'deep ocean trench, dark blue abyss, underwater sonar depth, bathymetric',
     'sekai-komugi-seisanryo-kuni': 'golden wheat field, wheat stalks, harvest season, farmland',
     'taiyokei-wakusei-chokkei': 'planets in space, solar system, stars, cosmic nebula',
+    'todofuken-shinrinritsu': 'dense green forest canopy, aerial view of mountains covered in trees, misty woodland',
 }
 
 CATEGORY_HINT = {

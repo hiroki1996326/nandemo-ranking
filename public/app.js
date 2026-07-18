@@ -341,11 +341,24 @@ function sectionsHtml(topic) {
   if (!list || !list.length) return '';
   return '<section class="article-sections">' + list.map(articleBlockHtml).join('') + '</section>';
 }
+// listからn件だけ選ぶ。記事ごとに開始位置をずらして選ぶことで、サイト全体の
+// 記事数が増えても関連リンクが「常に全記事」に膨れ上がらないようにする
+// （SEO上、内部リンクが多すぎる/毎ページ同一の羅列になるのを避けるため）。
+function pickRotated(list, topic, n) {
+  if (list.length <= n) return list;
+  const idx = TOPICS.indexOf(topic);
+  const start = ((idx % list.length) + list.length) % list.length;
+  const out = [];
+  for (let i = 0; i < n; i++) out.push(list[(start + i) % list.length]);
+  return out;
+}
 function relatedTopics(topic) {
-  return TOPICS.filter(function (t) { return t.category === topic.category && t.id !== topic.id; });
+  const list = TOPICS.filter(function (t) { return t.category === topic.category && t.id !== topic.id; });
+  return pickRotated(list, topic, 6);
 }
 function otherCategoryTopics(topic) {
-  return TOPICS.filter(function (t) { return t.category !== topic.category; });
+  const list = TOPICS.filter(function (t) { return t.category !== topic.category; });
+  return pickRotated(list, topic, 4);
 }
 function relatedHtml(topic) {
   const list = relatedTopics(topic);

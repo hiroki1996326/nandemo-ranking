@@ -1468,8 +1468,32 @@
     "name": "8番出口",
     "type": "movie"
   },
+  "movie-aladdin-2019": {
+    "name": "アラジン",
+    "type": "movie"
+  },
+  "movie-arashi-anniversary-tour-2021": {
+    "name": "ARASHI Anniversary Tour 5×20 FILM \"Record of Memories\"",
+    "type": "movie"
+  },
+  "movie-avengers-endgame-2019": {
+    "name": "アベンジャーズ／エンドゲーム",
+    "type": "movie"
+  },
+  "movie-bohemian-rhapsody-2018": {
+    "name": "ボヘミアン・ラプソディ",
+    "type": "movie"
+  },
   "movie-chainsawman-reze-2025": {
     "name": "劇場版 チェンソーマン レゼ篇",
+    "type": "movie"
+  },
+  "movie-coco-2018": {
+    "name": "リメンバー・ミー",
+    "type": "movie"
+  },
+  "movie-code-blue-2018": {
+    "name": "劇場版コード・ブルー -ドクターヘリ緊急救命-",
     "type": "movie"
   },
   "movie-conan-2023": {
@@ -1477,16 +1501,92 @@
     "type": "movie",
     "description": "「年間興行収入ランキング（映画）」で2位（138.8億円）。"
   },
+  "movie-conan-halloween-2022": {
+    "name": "名探偵コナン ハロウィンの花嫁",
+    "type": "movie"
+  },
+  "movie-conan-hiiro-dangan-2021": {
+    "name": "名探偵コナン 緋色の弾丸",
+    "type": "movie"
+  },
+  "movie-conan-konjo-fist-2019": {
+    "name": "名探偵コナン 紺青の拳（フィスト）",
+    "type": "movie"
+  },
   "movie-conan-sekigan-2025": {
     "name": "名探偵コナン 隻眼の残像（フラッシュバック）",
+    "type": "movie"
+  },
+  "movie-conan-zero-shikkounin-2018": {
+    "name": "名探偵コナン ゼロの執行人",
+    "type": "movie"
+  },
+  "movie-confidence-man-jp-princess-2020": {
+    "name": "コンフィデンスマンJP プリンセス編",
+    "type": "movie"
+  },
+  "movie-doraemon-shin-kyoryu-2020": {
+    "name": "映画ドラえもん のび太の新恐竜",
+    "type": "movie"
+  },
+  "movie-doraemon-takarajima-2018": {
+    "name": "映画ドラえもん のび太の宝島",
+    "type": "movie"
+  },
+  "movie-fantastic-beasts2-2019": {
+    "name": "ファンタスティック・ビーストと黒い魔法使いの誕生",
+    "type": "movie"
+  },
+  "movie-fantastic-beasts3-2022": {
+    "name": "ファンタスティック・ビーストとダンブルドアの秘密",
+    "type": "movie"
+  },
+  "movie-frozen2-2019": {
+    "name": "アナと雪の女王2",
+    "type": "movie"
+  },
+  "movie-greatest-showman-2018": {
+    "name": "グレイテスト・ショーマン",
+    "type": "movie"
+  },
+  "movie-hanataba-2021": {
+    "name": "花束みたいな恋をした",
     "type": "movie"
   },
   "movie-hataraku-saibou-2025": {
     "name": "劇場版 はたらく細胞",
     "type": "movie"
   },
+  "movie-incredibles2-2018": {
+    "name": "インクレディブル・ファミリー",
+    "type": "movie"
+  },
+  "movie-ito-2020": {
+    "name": "糸",
+    "type": "movie"
+  },
+  "movie-jikobukken-2020": {
+    "name": "事故物件 恐い間取り",
+    "type": "movie"
+  },
+  "movie-jujutsu-kaisen0-2022": {
+    "name": "劇場版 呪術廻戦 0",
+    "type": "movie"
+  },
+  "movie-jurassic-world-dominion-2022": {
+    "name": "ジュラシック・ワールド／新たなる支配者",
+    "type": "movie"
+  },
+  "movie-jurassic-world-fallen-kingdom-2018": {
+    "name": "ジュラシック・ワールド／炎の王国",
+    "type": "movie"
+  },
   "movie-jurassic-world-rebirth-2025": {
     "name": "ジュラシック・ワールド／復活の大地",
+    "type": "movie"
+  },
+  "movie-kimetsu-mugen-ressha-2020": {
+    "name": "劇場版「鬼滅の刃」無限列車編",
     "type": "movie"
   },
   "movie-kimetsu-mugenjo-2025": {
@@ -1498,16 +1598,76 @@
     "type": "movie",
     "description": "「年間興行収入ランキング（映画）」で3位（88.4億円）。"
   },
+  "movie-kingdom-2019": {
+    "name": "キングダム",
+    "type": "movie"
+  },
+  "movie-kingdom2-2022": {
+    "name": "キングダム2 遥かなる大地へ",
+    "type": "movie"
+  },
   "movie-kokuho-2025": {
     "name": "国宝",
+    "type": "movie"
+  },
+  "movie-kyokara-ore-wa-2020": {
+    "name": "今日から俺は!!劇場版",
+    "type": "movie"
+  },
+  "movie-lionking-2019": {
+    "name": "ライオン・キング",
+    "type": "movie"
+  },
+  "movie-masquerade-night-2021": {
+    "name": "マスカレード・ナイト",
     "type": "movie"
   },
   "movie-mi-final-reckoning-2025": {
     "name": "ミッション：インポッシブル／ファイナル・レコニング",
     "type": "movie"
   },
+  "movie-minions-fever-2022": {
+    "name": "ミニオンズ フィーバー",
+    "type": "movie"
+  },
   "movie-moana2-2025": {
     "name": "モアナと伝説の海2",
+    "type": "movie"
+  },
+  "movie-onepiece-film-red-2022": {
+    "name": "ONE PIECE FILM RED",
+    "type": "movie"
+  },
+  "movie-onepiece-stampede-2019": {
+    "name": "劇場版「ONE PIECE STAMPEDE」",
+    "type": "movie"
+  },
+  "movie-parasite-2020": {
+    "name": "パラサイト 半地下の家族",
+    "type": "movie"
+  },
+  "movie-rurouni-kenshin-final-2021": {
+    "name": "るろうに剣心 最終章 The Final",
+    "type": "movie"
+  },
+  "movie-ryu-to-sobakasu-2021": {
+    "name": "竜とそばかすの姫",
+    "type": "movie"
+  },
+  "movie-shin-evangelion-2021": {
+    "name": "シン・エヴァンゲリオン劇場版",
+    "type": "movie"
+  },
+  "movie-shin-ultraman-2022": {
+    "name": "シン・ウルトラマン",
+    "type": "movie"
+  },
+  "movie-shinkaishaku-sangokushi-2021": {
+    "name": "新解釈・三國志",
+    "type": "movie"
+  },
+  "movie-shoplifters-2018": {
+    "name": "万引き家族",
     "type": "movie"
   },
   "movie-slamdunk-2023": {
@@ -1515,8 +1675,48 @@
     "type": "movie",
     "description": "「年間興行収入ランキング（映画）」で1位（158.7億円）。"
   },
+  "movie-star-wars-last-jedi-2018": {
+    "name": "スター・ウォーズ／最後のジェダイ",
+    "type": "movie"
+  },
+  "movie-star-wars-rise-skywalker-2020": {
+    "name": "スター・ウォーズ／スカイウォーカーの夜明け",
+    "type": "movie"
+  },
+  "movie-suzume-2022": {
+    "name": "すずめの戸締まり",
+    "type": "movie"
+  },
+  "movie-tenet-2020": {
+    "name": "TENET テネット",
+    "type": "movie"
+  },
+  "movie-tenki-no-ko-2019": {
+    "name": "天気の子",
+    "type": "movie"
+  },
   "movie-tokyo-mer-nankai-2025": {
     "name": "劇場版 TOKYO MER〜走る緊急救命室〜南海ミッション",
+    "type": "movie"
+  },
+  "movie-tokyo-revengers-2021": {
+    "name": "東京リベンジャーズ",
+    "type": "movie"
+  },
+  "movie-topgun-maverick-2022": {
+    "name": "トップガン マーヴェリック",
+    "type": "movie"
+  },
+  "movie-toystory4-2019": {
+    "name": "トイ・ストーリー4",
+    "type": "movie"
+  },
+  "movie-violet-evergarden-2020": {
+    "name": "劇場版 ヴァイオレット・エヴァーガーデン",
+    "type": "movie"
+  },
+  "movie-wild-speed-jetbreak-2021": {
+    "name": "ワイルド・スピード／ジェットブレイク",
     "type": "movie"
   },
   "nagano": {

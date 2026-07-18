@@ -8,7 +8,7 @@
   "updateFrequency": "yearly",
   "updatedAt": "2026-07-16",
   "lead": "2025年の日本の年間興行収入は「劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来」が**391.4億円**で首位。2位「国宝」（195.5億円）に195億円以上の差をつけている。",
-  "commentary": "2025年の年間興行収入（映画）は**2,744億5,200万円**で過去最高を記録した。上位10作品のうち邦画が7作品、洋画が3作品を占める。",
+  "commentary": "2025年の年間興行収入（映画）は**2,744億5,200万円**で過去最高を記録した。上位10作品のうち邦画が7作品、洋画が3作品を占める。2018年から2025年までの8年分を掲載している。",
   "analysisHeading": "「鬼滅の刃」無限城編が391.4億円で首位、上位4作品が100億円を突破",
   "analysis": [
     "「劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来」は391.4億円で2025年の年間1位。2位「国宝」（195.5億円）との差は195.9億円で、3位「名探偵コナン 隻眼の残像（フラッシュバック）」（147.4億円）、4位「劇場版 チェンソーマン レゼ篇」（104.3億円）までが**100億円を超えている**。",
@@ -80,16 +80,271 @@
     {
       "period": 2025,
       "entries": [
-        { "entity": "movie-kimetsu-mugenjo-2025", "value": 391.4 },
-        { "entity": "movie-kokuho-2025", "value": 195.5 },
-        { "entity": "movie-conan-sekigan-2025", "value": 147.4 },
-        { "entity": "movie-chainsawman-reze-2025", "value": 104.3 },
-        { "entity": "movie-hataraku-saibou-2025", "value": 63.6 },
-        { "entity": "movie-tokyo-mer-nankai-2025", "value": 52.9 },
-        { "entity": "movie-mi-final-reckoning-2025", "value": 52.8 },
-        { "entity": "movie-8ban-deguchi-2025", "value": 51.7 },
-        { "entity": "movie-moana2-2025", "value": 51.7 },
-        { "entity": "movie-jurassic-world-rebirth-2025", "value": 49.0 }
+        {
+          "entity": "movie-kimetsu-mugenjo-2025",
+          "value": 391.4
+        },
+        {
+          "entity": "movie-kokuho-2025",
+          "value": 195.5
+        },
+        {
+          "entity": "movie-conan-sekigan-2025",
+          "value": 147.4
+        },
+        {
+          "entity": "movie-chainsawman-reze-2025",
+          "value": 104.3
+        },
+        {
+          "entity": "movie-hataraku-saibou-2025",
+          "value": 63.6
+        },
+        {
+          "entity": "movie-tokyo-mer-nankai-2025",
+          "value": 52.9
+        },
+        {
+          "entity": "movie-mi-final-reckoning-2025",
+          "value": 52.8
+        },
+        {
+          "entity": "movie-8ban-deguchi-2025",
+          "value": 51.7
+        },
+        {
+          "entity": "movie-moana2-2025",
+          "value": 51.7
+        },
+        {
+          "entity": "movie-jurassic-world-rebirth-2025",
+          "value": 49.0
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "movie-bohemian-rhapsody-2018",
+          "value": 131.0
+        },
+        {
+          "entity": "movie-code-blue-2018",
+          "value": 93.0
+        },
+        {
+          "entity": "movie-conan-zero-shikkounin-2018",
+          "value": 91.8
+        },
+        {
+          "entity": "movie-jurassic-world-fallen-kingdom-2018",
+          "value": 80.7
+        },
+        {
+          "entity": "movie-star-wars-last-jedi-2018",
+          "value": 75.1
+        },
+        {
+          "entity": "movie-doraemon-takarajima-2018",
+          "value": 53.7
+        },
+        {
+          "entity": "movie-greatest-showman-2018",
+          "value": 52.2
+        },
+        {
+          "entity": "movie-coco-2018",
+          "value": 50.0
+        },
+        {
+          "entity": "movie-incredibles2-2018",
+          "value": 49.0
+        },
+        {
+          "entity": "movie-shoplifters-2018",
+          "value": 45.5
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "movie-tenki-no-ko-2019",
+          "value": 141.9
+        },
+        {
+          "entity": "movie-frozen2-2019",
+          "value": 133.7
+        },
+        {
+          "entity": "movie-aladdin-2019",
+          "value": 121.6
+        },
+        {
+          "entity": "movie-toystory4-2019",
+          "value": 100.9
+        },
+        {
+          "entity": "movie-conan-konjo-fist-2019",
+          "value": 93.7
+        },
+        {
+          "entity": "movie-lionking-2019",
+          "value": 66.7
+        },
+        {
+          "entity": "movie-fantastic-beasts2-2019",
+          "value": 65.7
+        },
+        {
+          "entity": "movie-avengers-endgame-2019",
+          "value": 61.3
+        },
+        {
+          "entity": "movie-kingdom-2019",
+          "value": 57.3
+        },
+        {
+          "entity": "movie-onepiece-stampede-2019",
+          "value": 55.5
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "movie-kimetsu-mugen-ressha-2020",
+          "value": 407.5
+        },
+        {
+          "entity": "movie-star-wars-rise-skywalker-2020",
+          "value": 73.2
+        },
+        {
+          "entity": "movie-kyokara-ore-wa-2020",
+          "value": 53.7
+        },
+        {
+          "entity": "movie-parasite-2020",
+          "value": 47.4
+        },
+        {
+          "entity": "movie-confidence-man-jp-princess-2020",
+          "value": 38.4
+        },
+        {
+          "entity": "movie-doraemon-shin-kyoryu-2020",
+          "value": 33.5
+        },
+        {
+          "entity": "movie-tenet-2020",
+          "value": 27.3
+        },
+        {
+          "entity": "movie-jikobukken-2020",
+          "value": 23.4
+        },
+        {
+          "entity": "movie-ito-2020",
+          "value": 22.7
+        },
+        {
+          "entity": "movie-violet-evergarden-2020",
+          "value": 21.3
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "movie-shin-evangelion-2021",
+          "value": 102.8
+        },
+        {
+          "entity": "movie-conan-hiiro-dangan-2021",
+          "value": 76.5
+        },
+        {
+          "entity": "movie-ryu-to-sobakasu-2021",
+          "value": 66.0
+        },
+        {
+          "entity": "movie-arashi-anniversary-tour-2021",
+          "value": 50.6
+        },
+        {
+          "entity": "movie-tokyo-revengers-2021",
+          "value": 45.0
+        },
+        {
+          "entity": "movie-rurouni-kenshin-final-2021",
+          "value": 43.5
+        },
+        {
+          "entity": "movie-shinkaishaku-sangokushi-2021",
+          "value": 40.3
+        },
+        {
+          "entity": "movie-hanataba-2021",
+          "value": 38.1
+        },
+        {
+          "entity": "movie-masquerade-night-2021",
+          "value": 38.1
+        },
+        {
+          "entity": "movie-wild-speed-jetbreak-2021",
+          "value": 36.7
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "movie-onepiece-film-red-2022",
+          "value": 203.3
+        },
+        {
+          "entity": "movie-suzume-2022",
+          "value": 149.4
+        },
+        {
+          "entity": "movie-jujutsu-kaisen0-2022",
+          "value": 138.9
+        },
+        {
+          "entity": "movie-topgun-maverick-2022",
+          "value": 135.7
+        },
+        {
+          "entity": "movie-conan-halloween-2022",
+          "value": 97.8
+        },
+        {
+          "entity": "movie-jurassic-world-dominion-2022",
+          "value": 63.2
+        },
+        {
+          "entity": "movie-kingdom2-2022",
+          "value": 51.6
+        },
+        {
+          "entity": "movie-fantastic-beasts3-2022",
+          "value": 46.0
+        },
+        {
+          "entity": "movie-shin-ultraman-2022",
+          "value": 44.4
+        },
+        {
+          "entity": "movie-minions-fever-2022",
+          "value": 44.4
+        }
       ]
     }
   ],

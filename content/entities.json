@@ -1988,5 +1988,33 @@
     "name": "山梨県",
     "type": "prefecture",
     "description": "「都道府県別 面積ランキング」で32位（4,465km²）。"
+  },
+  "continent-asia": {
+    "name": "アジア",
+    "type": "continent"
+  },
+  "continent-africa": {
+    "name": "アフリカ",
+    "type": "continent"
+  },
+  "continent-north-america": {
+    "name": "北アメリカ",
+    "type": "continent"
+  },
+  "continent-south-america": {
+    "name": "南アメリカ",
+    "type": "continent"
+  },
+  "continent-antarctica": {
+    "name": "南極大陸",
+    "type": "continent"
+  },
+  "continent-europe": {
+    "name": "ヨーロッパ",
+    "type": "continent"
+  },
+  "continent-australia": {
+    "name": "オーストラリア大陸",
+    "type": "continent"
   }
 }

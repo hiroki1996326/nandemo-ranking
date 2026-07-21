@@ -94,6 +94,7 @@ TOPIC_HINT = {
     'sekai-komugi-seisanryo-kuni': 'golden wheat field, wheat stalks, harvest season, farmland',
     'taiyokei-wakusei-chokkei': 'planets in space, solar system, stars, cosmic nebula',
     'todofuken-shinrinritsu': 'dense green forest canopy, aerial view of mountains covered in trees, misty woodland',
+    'todofuken-rinsetsu-kensu': 'aerial view of mountain valleys and winding borders, patchwork landscape from above, topographic',
 }
 
 CATEGORY_HINT = {

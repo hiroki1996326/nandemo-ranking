@@ -6,15 +6,2821 @@
   "source": "IMF World Economic Outlook",
   "sourceUrl": "https://www.imf.org/",
   "updateFrequency": "yearly",
-  "updatedAt": "2026-07-10",
-  "lead": "世界最大の経済大国はアメリカで、名目GDPは約323,839億ドル。2位中国（約208,516億ドル）に10兆ドル以上の差をつけている。",
-  "commentary": "GDPの規模では米国・中国の2カ国が突出しており、3位ドイツ以下とは大きな差がある。",
-  "analysisHeading": "米国・中国の2カ国が突出、3位以下とは大きな差",
+  "updatedAt": "2026-07-21",
+  "lead": "世界最大の経済大国はアメリカで、名目GDPは約323,839億ドル。2位中国（約208,516億ドル）に10兆ドル以上の差をつけている。1992年から2026年まで35年分、上位20カ国を掲載している。",
+  "commentary": "GDPの規模では米国・中国の2カ国が突出しており、3位ドイツ以下とは大きな差がある。日本は2010年に中国に抜かれるまで、1992年以前から長らく世界2位の経済規模を保っていた。",
+  "analysisHeading": "中国が2010年に日本を逆転、インドは34年で15位から6位へ",
   "analysis": [
-    "アメリカの名目GDPは323,839億ドルで、2位中国（208,516億ドル）との差は115,323億ドル。3位ドイツ（54,529億ドル）は中国の4分の1程度の規模になる。",
-    "上位10カ国のうちヨーロッパはドイツ・イギリス・フランス・イタリア・ロシアの5カ国、アジアは中国・日本・インドの3カ国、南北アメリカはアメリカ・ブラジルの2カ国。4位日本（43,793億ドル）と6位インド（41,532億ドル）の差は2,261億ドルと小さい。"
+    "アメリカの名目GDPは323,839億ドルで、2位中国（208,516億ドル）との差は115,323億ドル。米中の差は1992年時点で60,248億ドルだったが、2026年には115,323億ドルまで拡大している。",
+    "中国は1992年時点で9位（4,955億ドル）だったが、2000年に6位（12,203億ドル）まで浮上し、2010年に日本を上回って2位となった。日本は1992年から2009年まで一貫して世界2位の経済規模を保っていたが、2010年（中国61,389億ドル・日本58,116億ドル）に逆転され、以降は3位以下で推移している。",
+    "5位インド（41,532億ドル）は1992年時点で15位（2,882億ドル）にとどまっていたが、34年間で6位まで9つ順位を上げた。同期間で韓国は12位から15位、カナダは8位から11位へ後退しており、新興国の台頭と先進国の相対的な地位低下が同時に進んでいる。"
   ],
   "data": [
+    {
+      "period": 1992,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 65203.25
+        },
+        {
+          "entity": "china",
+          "value": 4955.15
+        },
+        {
+          "entity": "germany",
+          "value": 21461.4
+        },
+        {
+          "entity": "japan",
+          "value": 40716.56
+        },
+        {
+          "entity": "uk",
+          "value": 12937.28
+        },
+        {
+          "entity": "india",
+          "value": 2882.1
+        },
+        {
+          "entity": "france",
+          "value": 13925.63
+        },
+        {
+          "entity": "italy",
+          "value": 13050.99
+        },
+        {
+          "entity": "russia",
+          "value": 716.03
+        },
+        {
+          "entity": "brazil",
+          "value": 3824.65
+        },
+        {
+          "entity": "canada",
+          "value": 5943.76
+        },
+        {
+          "entity": "australia",
+          "value": 3184.48
+        },
+        {
+          "entity": "mexico",
+          "value": 4276.61
+        },
+        {
+          "entity": "spain",
+          "value": 6309.1
+        },
+        {
+          "entity": "south-korea",
+          "value": 3669.12
+        },
+        {
+          "entity": "entity-116",
+          "value": 2192.5
+        },
+        {
+          "entity": "indonesia",
+          "value": 1682.8
+        },
+        {
+          "entity": "netherlands",
+          "value": 3665.2
+        },
+        {
+          "entity": "entity-097",
+          "value": 1369.05
+        },
+        {
+          "entity": "switzerland",
+          "value": 2839.41
+        }
+      ]
+    },
+    {
+      "period": 1993,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 68585.5
+        },
+        {
+          "entity": "china",
+          "value": 6219.18
+        },
+        {
+          "entity": "germany",
+          "value": 20800.92
+        },
+        {
+          "entity": "japan",
+          "value": 46406.03
+        },
+        {
+          "entity": "uk",
+          "value": 11589.66
+        },
+        {
+          "entity": "india",
+          "value": 2792.95
+        },
+        {
+          "entity": "france",
+          "value": 13157.95
+        },
+        {
+          "entity": "italy",
+          "value": 10494.7
+        },
+        {
+          "entity": "russia",
+          "value": 1962.27
+        },
+        {
+          "entity": "brazil",
+          "value": 4291.84
+        },
+        {
+          "entity": "canada",
+          "value": 5790.59
+        },
+        {
+          "entity": "australia",
+          "value": 3097.4
+        },
+        {
+          "entity": "mexico",
+          "value": 5302.26
+        },
+        {
+          "entity": "spain",
+          "value": 5299.8
+        },
+        {
+          "entity": "south-korea",
+          "value": 4057.72
+        },
+        {
+          "entity": "entity-116",
+          "value": 2486.57
+        },
+        {
+          "entity": "indonesia",
+          "value": 1909.13
+        },
+        {
+          "entity": "netherlands",
+          "value": 3564.34
+        },
+        {
+          "entity": "entity-097",
+          "value": 1327.9
+        },
+        {
+          "entity": "switzerland",
+          "value": 2763.1
+        }
+      ]
+    },
+    {
+      "period": 1994,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 72872.5
+        },
+        {
+          "entity": "china",
+          "value": 5663.82
+        },
+        {
+          "entity": "germany",
+          "value": 22201.65
+        },
+        {
+          "entity": "japan",
+          "value": 51040.62
+        },
+        {
+          "entity": "uk",
+          "value": 12459.05
+        },
+        {
+          "entity": "india",
+          "value": 3272.75
+        },
+        {
+          "entity": "france",
+          "value": 13884.77
+        },
+        {
+          "entity": "italy",
+          "value": 10824.55
+        },
+        {
+          "entity": "russia",
+          "value": 2937.68
+        },
+        {
+          "entity": "brazil",
+          "value": 5467.64
+        },
+        {
+          "entity": "canada",
+          "value": 5799.13
+        },
+        {
+          "entity": "australia",
+          "value": 3538.99
+        },
+        {
+          "entity": "mexico",
+          "value": 5536.18
+        },
+        {
+          "entity": "spain",
+          "value": 5318.01
+        },
+        {
+          "entity": "south-korea",
+          "value": 4789.88
+        },
+        {
+          "entity": "entity-116",
+          "value": 1794.2
+        },
+        {
+          "entity": "indonesia",
+          "value": 2137.27
+        },
+        {
+          "entity": "netherlands",
+          "value": 3830.91
+        },
+        {
+          "entity": "entity-097",
+          "value": 1349.95
+        },
+        {
+          "entity": "switzerland",
+          "value": 3059.11
+        }
+      ]
+    },
+    {
+      "period": 1995,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 76397.5
+        },
+        {
+          "entity": "china",
+          "value": 7378.94
+        },
+        {
+          "entity": "germany",
+          "value": 25952.69
+        },
+        {
+          "entity": "japan",
+          "value": 56396.51
+        },
+        {
+          "entity": "uk",
+          "value": 13493.59
+        },
+        {
+          "entity": "india",
+          "value": 3602.81
+        },
+        {
+          "entity": "france",
+          "value": 15962.5
+        },
+        {
+          "entity": "italy",
+          "value": 11779.87
+        },
+        {
+          "entity": "russia",
+          "value": 3357.77
+        },
+        {
+          "entity": "brazil",
+          "value": 7708.6
+        },
+        {
+          "entity": "canada",
+          "value": 6059.41
+        },
+        {
+          "entity": "australia",
+          "value": 3797.94
+        },
+        {
+          "entity": "mexico",
+          "value": 3801.82
+        },
+        {
+          "entity": "spain",
+          "value": 6147.13
+        },
+        {
+          "entity": "south-korea",
+          "value": 5863.01
+        },
+        {
+          "entity": "entity-116",
+          "value": 2336.45
+        },
+        {
+          "entity": "indonesia",
+          "value": 2442.27
+        },
+        {
+          "entity": "netherlands",
+          "value": 4533.77
+        },
+        {
+          "entity": "entity-097",
+          "value": 1431.52
+        },
+        {
+          "entity": "switzerland",
+          "value": 3582.58
+        }
+      ]
+    },
+    {
+      "period": 1996,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 80731.25
+        },
+        {
+          "entity": "china",
+          "value": 8687.68
+        },
+        {
+          "entity": "germany",
+          "value": 25074.48
+        },
+        {
+          "entity": "japan",
+          "value": 50214.44
+        },
+        {
+          "entity": "uk",
+          "value": 14267.46
+        },
+        {
+          "entity": "india",
+          "value": 3929.02
+        },
+        {
+          "entity": "france",
+          "value": 15992.48
+        },
+        {
+          "entity": "italy",
+          "value": 13151.35
+        },
+        {
+          "entity": "russia",
+          "value": 4126.85
+        },
+        {
+          "entity": "brazil",
+          "value": 8511.46
+        },
+        {
+          "entity": "canada",
+          "value": 6305.98
+        },
+        {
+          "entity": "australia",
+          "value": 4253.21
+        },
+        {
+          "entity": "mexico",
+          "value": 4321.58
+        },
+        {
+          "entity": "spain",
+          "value": 6424.8
+        },
+        {
+          "entity": "south-korea",
+          "value": 6311.94
+        },
+        {
+          "entity": "entity-116",
+          "value": 2505.71
+        },
+        {
+          "entity": "indonesia",
+          "value": 2747.22
+        },
+        {
+          "entity": "netherlands",
+          "value": 4515.08
+        },
+        {
+          "entity": "entity-097",
+          "value": 1584.51
+        },
+        {
+          "entity": "switzerland",
+          "value": 3454.9
+        }
+      ]
+    },
+    {
+      "period": 1997,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 85775.5
+        },
+        {
+          "entity": "china",
+          "value": 9678.9
+        },
+        {
+          "entity": "germany",
+          "value": 22215.04
+        },
+        {
+          "entity": "japan",
+          "value": 45797.83
+        },
+        {
+          "entity": "uk",
+          "value": 15696.46
+        },
+        {
+          "entity": "india",
+          "value": 4158.95
+        },
+        {
+          "entity": "france",
+          "value": 14510.58
+        },
+        {
+          "entity": "italy",
+          "value": 12463.42
+        },
+        {
+          "entity": "russia",
+          "value": 4337.04
+        },
+        {
+          "entity": "brazil",
+          "value": 8838.62
+        },
+        {
+          "entity": "canada",
+          "value": 6550.1
+        },
+        {
+          "entity": "australia",
+          "value": 4271.13
+        },
+        {
+          "entity": "mexico",
+          "value": 5234.5
+        },
+        {
+          "entity": "spain",
+          "value": 5905.0
+        },
+        {
+          "entity": "south-korea",
+          "value": 5900.7
+        },
+        {
+          "entity": "entity-116",
+          "value": 2619.46
+        },
+        {
+          "entity": "indonesia",
+          "value": 2606.8
+        },
+        {
+          "entity": "netherlands",
+          "value": 4180.23
+        },
+        {
+          "entity": "entity-097",
+          "value": 1657.42
+        },
+        {
+          "entity": "switzerland",
+          "value": 2988.81
+        }
+      ]
+    },
+    {
+      "period": 1998,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 90628.25
+        },
+        {
+          "entity": "china",
+          "value": 10355.15
+        },
+        {
+          "entity": "germany",
+          "value": 22508.47
+        },
+        {
+          "entity": "japan",
+          "value": 41503.6
+        },
+        {
+          "entity": "uk",
+          "value": 16609.79
+        },
+        {
+          "entity": "india",
+          "value": 4213.78
+        },
+        {
+          "entity": "france",
+          "value": 14989.74
+        },
+        {
+          "entity": "italy",
+          "value": 12743.82
+        },
+        {
+          "entity": "russia",
+          "value": 2876.72
+        },
+        {
+          "entity": "brazil",
+          "value": 8643.07
+        },
+        {
+          "entity": "canada",
+          "value": 6340.04
+        },
+        {
+          "entity": "australia",
+          "value": 3821.57
+        },
+        {
+          "entity": "mexico",
+          "value": 5574.85
+        },
+        {
+          "entity": "spain",
+          "value": 6195.41
+        },
+        {
+          "entity": "south-korea",
+          "value": 3968.03
+        },
+        {
+          "entity": "entity-116",
+          "value": 2776.93
+        },
+        {
+          "entity": "indonesia",
+          "value": 1153.23
+        },
+        {
+          "entity": "netherlands",
+          "value": 4392.15
+        },
+        {
+          "entity": "entity-097",
+          "value": 1467.76
+        },
+        {
+          "entity": "switzerland",
+          "value": 3067.86
+        }
+      ]
+    },
+    {
+      "period": 1999,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 96311.75
+        },
+        {
+          "entity": "china",
+          "value": 11011.19
+        },
+        {
+          "entity": "germany",
+          "value": 22160.72
+        },
+        {
+          "entity": "japan",
+          "value": 46889.82
+        },
+        {
+          "entity": "uk",
+          "value": 16938.78
+        },
+        {
+          "entity": "india",
+          "value": 4588.21
+        },
+        {
+          "entity": "france",
+          "value": 14883.92
+        },
+        {
+          "entity": "italy",
+          "value": 12562.5
+        },
+        {
+          "entity": "russia",
+          "value": 2096.57
+        },
+        {
+          "entity": "brazil",
+          "value": 5996.42
+        },
+        {
+          "entity": "canada",
+          "value": 6784.17
+        },
+        {
+          "entity": "australia",
+          "value": 4127.01
+        },
+        {
+          "entity": "mexico",
+          "value": 6312.4
+        },
+        {
+          "entity": "spain",
+          "value": 6350.25
+        },
+        {
+          "entity": "south-korea",
+          "value": 5154.27
+        },
+        {
+          "entity": "entity-116",
+          "value": 2543.0
+        },
+        {
+          "entity": "indonesia",
+          "value": 1691.58
+        },
+        {
+          "entity": "netherlands",
+          "value": 4482.23
+        },
+        {
+          "entity": "entity-097",
+          "value": 1617.17
+        },
+        {
+          "entity": "switzerland",
+          "value": 3017.03
+        }
+      ]
+    },
+    {
+      "period": 2000,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 102509.5
+        },
+        {
+          "entity": "china",
+          "value": 12203.46
+        },
+        {
+          "entity": "germany",
+          "value": 19678.5
+        },
+        {
+          "entity": "japan",
+          "value": 50423.82
+        },
+        {
+          "entity": "uk",
+          "value": 16747.65
+        },
+        {
+          "entity": "india",
+          "value": 4683.96
+        },
+        {
+          "entity": "france",
+          "value": 13615.6
+        },
+        {
+          "entity": "italy",
+          "value": 11501.69
+        },
+        {
+          "entity": "russia",
+          "value": 2782.64
+        },
+        {
+          "entity": "brazil",
+          "value": 6554.54
+        },
+        {
+          "entity": "canada",
+          "value": 7446.31
+        },
+        {
+          "entity": "australia",
+          "value": 4010.43
+        },
+        {
+          "entity": "mexico",
+          "value": 7420.61
+        },
+        {
+          "entity": "spain",
+          "value": 5983.67
+        },
+        {
+          "entity": "south-korea",
+          "value": 5978.02
+        },
+        {
+          "entity": "entity-116",
+          "value": 2735.7
+        },
+        {
+          "entity": "indonesia",
+          "value": 1794.82
+        },
+        {
+          "entity": "netherlands",
+          "value": 4178.34
+        },
+        {
+          "entity": "entity-097",
+          "value": 1895.15
+        },
+        {
+          "entity": "switzerland",
+          "value": 2823.83
+        }
+      ]
+    },
+    {
+      "period": 2001,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 105819.25
+        },
+        {
+          "entity": "china",
+          "value": 13513.95
+        },
+        {
+          "entity": "germany",
+          "value": 19663.95
+        },
+        {
+          "entity": "japan",
+          "value": 44387.91
+        },
+        {
+          "entity": "uk",
+          "value": 16565.97
+        },
+        {
+          "entity": "india",
+          "value": 4854.4
+        },
+        {
+          "entity": "france",
+          "value": 13703.86
+        },
+        {
+          "entity": "italy",
+          "value": 11720.5
+        },
+        {
+          "entity": "russia",
+          "value": 3284.75
+        },
+        {
+          "entity": "brazil",
+          "value": 5599.82
+        },
+        {
+          "entity": "canada",
+          "value": 7389.68
+        },
+        {
+          "entity": "australia",
+          "value": 3787.76
+        },
+        {
+          "entity": "mexico",
+          "value": 7960.55
+        },
+        {
+          "entity": "spain",
+          "value": 6278.03
+        },
+        {
+          "entity": "south-korea",
+          "value": 5676.55
+        },
+        {
+          "entity": "entity-116",
+          "value": 2030.01
+        },
+        {
+          "entity": "indonesia",
+          "value": 1745.07
+        },
+        {
+          "entity": "netherlands",
+          "value": 4325.39
+        },
+        {
+          "entity": "entity-097",
+          "value": 1841.38
+        },
+        {
+          "entity": "switzerland",
+          "value": 2903.29
+        }
+      ]
+    },
+    {
+      "period": 2002,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 109291.0
+        },
+        {
+          "entity": "china",
+          "value": 14866.28
+        },
+        {
+          "entity": "germany",
+          "value": 21008.65
+        },
+        {
+          "entity": "japan",
+          "value": 42459.46
+        },
+        {
+          "entity": "uk",
+          "value": 17933.63
+        },
+        {
+          "entity": "india",
+          "value": 5149.38
+        },
+        {
+          "entity": "france",
+          "value": 14913.73
+        },
+        {
+          "entity": "italy",
+          "value": 12808.4
+        },
+        {
+          "entity": "russia",
+          "value": 3700.62
+        },
+        {
+          "entity": "brazil",
+          "value": 5097.98
+        },
+        {
+          "entity": "canada",
+          "value": 7601.49
+        },
+        {
+          "entity": "australia",
+          "value": 4262.27
+        },
+        {
+          "entity": "mexico",
+          "value": 8106.66
+        },
+        {
+          "entity": "spain",
+          "value": 7084.37
+        },
+        {
+          "entity": "south-korea",
+          "value": 6497.47
+        },
+        {
+          "entity": "entity-116",
+          "value": 2386.74
+        },
+        {
+          "entity": "indonesia",
+          "value": 2128.07
+        },
+        {
+          "entity": "netherlands",
+          "value": 4751.94
+        },
+        {
+          "entity": "entity-097",
+          "value": 1896.06
+        },
+        {
+          "entity": "switzerland",
+          "value": 3141.15
+        }
+      ]
+    },
+    {
+      "period": 2003,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 114564.5
+        },
+        {
+          "entity": "china",
+          "value": 16809.32
+        },
+        {
+          "entity": "germany",
+          "value": 25340.81
+        },
+        {
+          "entity": "japan",
+          "value": 45734.15
+        },
+        {
+          "entity": "uk",
+          "value": 20631.05
+        },
+        {
+          "entity": "india",
+          "value": 6077.01
+        },
+        {
+          "entity": "france",
+          "value": 18346.37
+        },
+        {
+          "entity": "italy",
+          "value": 15825.34
+        },
+        {
+          "entity": "russia",
+          "value": 4615.18
+        },
+        {
+          "entity": "brazil",
+          "value": 5582.32
+        },
+        {
+          "entity": "canada",
+          "value": 8955.99
+        },
+        {
+          "entity": "australia",
+          "value": 5420.24
+        },
+        {
+          "entity": "mexico",
+          "value": 7655.5
+        },
+        {
+          "entity": "spain",
+          "value": 9077.36
+        },
+        {
+          "entity": "south-korea",
+          "value": 7284.97
+        },
+        {
+          "entity": "entity-116",
+          "value": 3173.42
+        },
+        {
+          "entity": "indonesia",
+          "value": 2553.46
+        },
+        {
+          "entity": "netherlands",
+          "value": 5822.9
+        },
+        {
+          "entity": "entity-097",
+          "value": 2158.08
+        },
+        {
+          "entity": "switzerland",
+          "value": 3665.95
+        }
+      ]
+    },
+    {
+      "period": 2004,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 122171.75
+        },
+        {
+          "entity": "china",
+          "value": 19789.88
+        },
+        {
+          "entity": "germany",
+          "value": 28510.23
+        },
+        {
+          "entity": "japan",
+          "value": 49415.05
+        },
+        {
+          "entity": "uk",
+          "value": 24308.72
+        },
+        {
+          "entity": "india",
+          "value": 7091.52
+        },
+        {
+          "entity": "france",
+          "value": 21088.35
+        },
+        {
+          "entity": "italy",
+          "value": 18119.87
+        },
+        {
+          "entity": "russia",
+          "value": 6332.94
+        },
+        {
+          "entity": "brazil",
+          "value": 6692.9
+        },
+        {
+          "entity": "canada",
+          "value": 10264.73
+        },
+        {
+          "entity": "australia",
+          "value": 6597.97
+        },
+        {
+          "entity": "mexico",
+          "value": 8194.59
+        },
+        {
+          "entity": "spain",
+          "value": 10693.44
+        },
+        {
+          "entity": "south-korea",
+          "value": 8225.83
+        },
+        {
+          "entity": "entity-116",
+          "value": 4083.09
+        },
+        {
+          "entity": "indonesia",
+          "value": 2793.44
+        },
+        {
+          "entity": "netherlands",
+          "value": 6609.25
+        },
+        {
+          "entity": "entity-097",
+          "value": 2587.42
+        },
+        {
+          "entity": "switzerland",
+          "value": 4087.16
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 130392.0
+        },
+        {
+          "entity": "china",
+          "value": 23265.77
+        },
+        {
+          "entity": "germany",
+          "value": 28949.92
+        },
+        {
+          "entity": "japan",
+          "value": 48756.49
+        },
+        {
+          "entity": "uk",
+          "value": 25542.29
+        },
+        {
+          "entity": "india",
+          "value": 8203.85
+        },
+        {
+          "entity": "france",
+          "value": 21933.58
+        },
+        {
+          "entity": "italy",
+          "value": 18660.13
+        },
+        {
+          "entity": "russia",
+          "value": 8177.17
+        },
+        {
+          "entity": "brazil",
+          "value": 8916.33
+        },
+        {
+          "entity": "canada",
+          "value": 11735.05
+        },
+        {
+          "entity": "australia",
+          "value": 7377.09
+        },
+        {
+          "entity": "mexico",
+          "value": 9175.72
+        },
+        {
+          "entity": "spain",
+          "value": 11553.06
+        },
+        {
+          "entity": "south-korea",
+          "value": 9715.4
+        },
+        {
+          "entity": "entity-116",
+          "value": 5067.94
+        },
+        {
+          "entity": "indonesia",
+          "value": 3109.2
+        },
+        {
+          "entity": "netherlands",
+          "value": 6885.14
+        },
+        {
+          "entity": "entity-097",
+          "value": 3282.05
+        },
+        {
+          "entity": "switzerland",
+          "value": 4244.25
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 138156.0
+        },
+        {
+          "entity": "china",
+          "value": 27987.8
+        },
+        {
+          "entity": "germany",
+          "value": 30464.7
+        },
+        {
+          "entity": "japan",
+          "value": 46480.58
+        },
+        {
+          "entity": "uk",
+          "value": 27233.89
+        },
+        {
+          "entity": "india",
+          "value": 9402.6
+        },
+        {
+          "entity": "france",
+          "value": 23179.85
+        },
+        {
+          "entity": "italy",
+          "value": 19586.67
+        },
+        {
+          "entity": "russia",
+          "value": 10609.01
+        },
+        {
+          "entity": "brazil",
+          "value": 11076.28
+        },
+        {
+          "entity": "canada",
+          "value": 13193.56
+        },
+        {
+          "entity": "australia",
+          "value": 7848.74
+        },
+        {
+          "entity": "mexico",
+          "value": 10202.65
+        },
+        {
+          "entity": "spain",
+          "value": 12619.14
+        },
+        {
+          "entity": "south-korea",
+          "value": 10945.45
+        },
+        {
+          "entity": "entity-116",
+          "value": 5549.02
+        },
+        {
+          "entity": "indonesia",
+          "value": 3965.18
+        },
+        {
+          "entity": "netherlands",
+          "value": 7376.33
+        },
+        {
+          "entity": "entity-097",
+          "value": 3763.98
+        },
+        {
+          "entity": "switzerland",
+          "value": 4485.0
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 144742.5
+        },
+        {
+          "entity": "china",
+          "value": 36136.1
+        },
+        {
+          "entity": "germany",
+          "value": 34844.67
+        },
+        {
+          "entity": "japan",
+          "value": 46246.68
+        },
+        {
+          "entity": "uk",
+          "value": 31058.9
+        },
+        {
+          "entity": "india",
+          "value": 12167.36
+        },
+        {
+          "entity": "france",
+          "value": 26561.3
+        },
+        {
+          "entity": "italy",
+          "value": 22227.88
+        },
+        {
+          "entity": "russia",
+          "value": 13934.16
+        },
+        {
+          "entity": "brazil",
+          "value": 13971.14
+        },
+        {
+          "entity": "canada",
+          "value": 14688.96
+        },
+        {
+          "entity": "australia",
+          "value": 9519.42
+        },
+        {
+          "entity": "mexico",
+          "value": 11023.56
+        },
+        {
+          "entity": "spain",
+          "value": 14769.2
+        },
+        {
+          "entity": "south-korea",
+          "value": 12207.56
+        },
+        {
+          "entity": "entity-116",
+          "value": 6869.09
+        },
+        {
+          "entity": "indonesia",
+          "value": 4700.92
+        },
+        {
+          "entity": "netherlands",
+          "value": 8536.0
+        },
+        {
+          "entity": "entity-097",
+          "value": 4156.87
+        },
+        {
+          "entity": "switzerland",
+          "value": 4993.45
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 147698.5
+        },
+        {
+          "entity": "china",
+          "value": 46555.83
+        },
+        {
+          "entity": "germany",
+          "value": 38077.81
+        },
+        {
+          "entity": "japan",
+          "value": 51601.98
+        },
+        {
+          "entity": "uk",
+          "value": 29763.98
+        },
+        {
+          "entity": "india",
+          "value": 11988.95
+        },
+        {
+          "entity": "france",
+          "value": 29264.83
+        },
+        {
+          "entity": "italy",
+          "value": 24172.45
+        },
+        {
+          "entity": "russia",
+          "value": 17791.09
+        },
+        {
+          "entity": "brazil",
+          "value": 16958.55
+        },
+        {
+          "entity": "canada",
+          "value": 15528.64
+        },
+        {
+          "entity": "australia",
+          "value": 10595.05
+        },
+        {
+          "entity": "mexico",
+          "value": 11615.53
+        },
+        {
+          "entity": "spain",
+          "value": 16359.36
+        },
+        {
+          "entity": "south-korea",
+          "value": 10934.87
+        },
+        {
+          "entity": "entity-116",
+          "value": 7878.97
+        },
+        {
+          "entity": "indonesia",
+          "value": 5582.91
+        },
+        {
+          "entity": "netherlands",
+          "value": 9577.97
+        },
+        {
+          "entity": "entity-097",
+          "value": 5197.97
+        },
+        {
+          "entity": "switzerland",
+          "value": 5745.23
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 144780.5
+        },
+        {
+          "entity": "china",
+          "value": 51764.99
+        },
+        {
+          "entity": "germany",
+          "value": 34747.68
+        },
+        {
+          "entity": "japan",
+          "value": 53367.66
+        },
+        {
+          "entity": "uk",
+          "value": 24380.53
+        },
+        {
+          "entity": "india",
+          "value": 13418.89
+        },
+        {
+          "entity": "france",
+          "value": 26971.44
+        },
+        {
+          "entity": "italy",
+          "value": 22070.85
+        },
+        {
+          "entity": "russia",
+          "value": 13079.27
+        },
+        {
+          "entity": "brazil",
+          "value": 16692.04
+        },
+        {
+          "entity": "canada",
+          "value": 13765.09
+        },
+        {
+          "entity": "australia",
+          "value": 10042.2
+        },
+        {
+          "entity": "mexico",
+          "value": 9434.37
+        },
+        {
+          "entity": "spain",
+          "value": 14949.63
+        },
+        {
+          "entity": "south-korea",
+          "value": 9828.54
+        },
+        {
+          "entity": "entity-116",
+          "value": 6561.34
+        },
+        {
+          "entity": "indonesia",
+          "value": 5785.77
+        },
+        {
+          "entity": "netherlands",
+          "value": 8780
+        },
+        {
+          "entity": "entity-097",
+          "value": 4290.98
+        },
+        {
+          "entity": "switzerland",
+          "value": 5633.55
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 150489.75
+        },
+        {
+          "entity": "china",
+          "value": 61388.78
+        },
+        {
+          "entity": "germany",
+          "value": 34699.25
+        },
+        {
+          "entity": "japan",
+          "value": 58115.77
+        },
+        {
+          "entity": "uk",
+          "value": 24991.93
+        },
+        {
+          "entity": "india",
+          "value": 16756.15
+        },
+        {
+          "entity": "france",
+          "value": 26483.91
+        },
+        {
+          "entity": "italy",
+          "value": 21466.87
+        },
+        {
+          "entity": "russia",
+          "value": 16331.11
+        },
+        {
+          "entity": "brazil",
+          "value": 22087.04
+        },
+        {
+          "entity": "canada",
+          "value": 16173.45
+        },
+        {
+          "entity": "australia",
+          "value": 12584.5
+        },
+        {
+          "entity": "mexico",
+          "value": 11054.24
+        },
+        {
+          "entity": "spain",
+          "value": 14291.55
+        },
+        {
+          "entity": "south-korea",
+          "value": 11927.22
+        },
+        {
+          "entity": "entity-116",
+          "value": 7830.25
+        },
+        {
+          "entity": "indonesia",
+          "value": 7550.94
+        },
+        {
+          "entity": "netherlands",
+          "value": 8531.61
+        },
+        {
+          "entity": "entity-097",
+          "value": 5282.07
+        },
+        {
+          "entity": "switzerland",
+          "value": 6094.79
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 155997.25
+        },
+        {
+          "entity": "china",
+          "value": 76283.83
+        },
+        {
+          "entity": "germany",
+          "value": 38229.03
+        },
+        {
+          "entity": "japan",
+          "value": 62794.23
+        },
+        {
+          "entity": "uk",
+          "value": 26765.07
+        },
+        {
+          "entity": "india",
+          "value": 18230.52
+        },
+        {
+          "entity": "france",
+          "value": 28699.03
+        },
+        {
+          "entity": "italy",
+          "value": 23065.69
+        },
+        {
+          "entity": "russia",
+          "value": 20466.21
+        },
+        {
+          "entity": "brazil",
+          "value": 26140.27
+        },
+        {
+          "entity": "canada",
+          "value": 17933.27
+        },
+        {
+          "entity": "australia",
+          "value": 15204.41
+        },
+        {
+          "entity": "mexico",
+          "value": 12290.14
+        },
+        {
+          "entity": "spain",
+          "value": 14873.07
+        },
+        {
+          "entity": "south-korea",
+          "value": 13072.39
+        },
+        {
+          "entity": "entity-116",
+          "value": 8433.26
+        },
+        {
+          "entity": "indonesia",
+          "value": 8929.69
+        },
+        {
+          "entity": "netherlands",
+          "value": 9129.8
+        },
+        {
+          "entity": "entity-097",
+          "value": 6806.61
+        },
+        {
+          "entity": "switzerland",
+          "value": 7270.79
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 162539.5
+        },
+        {
+          "entity": "china",
+          "value": 86825.34
+        },
+        {
+          "entity": "germany",
+          "value": 35987.61
+        },
+        {
+          "entity": "japan",
+          "value": 63338.03
+        },
+        {
+          "entity": "uk",
+          "value": 27202.0
+        },
+        {
+          "entity": "india",
+          "value": 18228.62
+        },
+        {
+          "entity": "france",
+          "value": 26847.06
+        },
+        {
+          "entity": "italy",
+          "value": 20992.59
+        },
+        {
+          "entity": "russia",
+          "value": 21914.86
+        },
+        {
+          "entity": "brazil",
+          "value": 24640.53
+        },
+        {
+          "entity": "canada",
+          "value": 18283.62
+        },
+        {
+          "entity": "australia",
+          "value": 15759.3
+        },
+        {
+          "entity": "mexico",
+          "value": 12551.1
+        },
+        {
+          "entity": "spain",
+          "value": 13318.38
+        },
+        {
+          "entity": "south-korea",
+          "value": 13353.44
+        },
+        {
+          "entity": "entity-116",
+          "value": 8824.37
+        },
+        {
+          "entity": "indonesia",
+          "value": 9178.7
+        },
+        {
+          "entity": "netherlands",
+          "value": 8462.25
+        },
+        {
+          "entity": "entity-097",
+          "value": 7519.21
+        },
+        {
+          "entity": "switzerland",
+          "value": 6982.33
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 168806.75
+        },
+        {
+          "entity": "china",
+          "value": 97875.1
+        },
+        {
+          "entity": "germany",
+          "value": 38070.79
+        },
+        {
+          "entity": "japan",
+          "value": 52722.97
+        },
+        {
+          "entity": "uk",
+          "value": 27987.28
+        },
+        {
+          "entity": "india",
+          "value": 18470.19
+        },
+        {
+          "entity": "france",
+          "value": 28161.19
+        },
+        {
+          "entity": "italy",
+          "value": 21532.57
+        },
+        {
+          "entity": "russia",
+          "value": 22884.28
+        },
+        {
+          "entity": "brazil",
+          "value": 24717.18
+        },
+        {
+          "entity": "canada",
+          "value": 18465.95
+        },
+        {
+          "entity": "australia",
+          "value": 15266.08
+        },
+        {
+          "entity": "mexico",
+          "value": 13274.36
+        },
+        {
+          "entity": "spain",
+          "value": 13622.07
+        },
+        {
+          "entity": "south-korea",
+          "value": 14346.7
+        },
+        {
+          "entity": "entity-116",
+          "value": 9624.57
+        },
+        {
+          "entity": "indonesia",
+          "value": 9125.24
+        },
+        {
+          "entity": "netherlands",
+          "value": 8839.64
+        },
+        {
+          "entity": "entity-097",
+          "value": 7697.55
+        },
+        {
+          "entity": "switzerland",
+          "value": 7191.87
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 176081.25
+        },
+        {
+          "entity": "china",
+          "value": 107024.58
+        },
+        {
+          "entity": "germany",
+          "value": 39658.93
+        },
+        {
+          "entity": "japan",
+          "value": 49857.64
+        },
+        {
+          "entity": "uk",
+          "value": 30869.69
+        },
+        {
+          "entity": "india",
+          "value": 20231.43
+        },
+        {
+          "entity": "france",
+          "value": 28619.73
+        },
+        {
+          "entity": "italy",
+          "value": 21738.16
+        },
+        {
+          "entity": "russia",
+          "value": 20488.37
+        },
+        {
+          "entity": "brazil",
+          "value": 24560.55
+        },
+        {
+          "entity": "canada",
+          "value": 18057.51
+        },
+        {
+          "entity": "australia",
+          "value": 14630.91
+        },
+        {
+          "entity": "mexico",
+          "value": 13645.08
+        },
+        {
+          "entity": "spain",
+          "value": 13806.0
+        },
+        {
+          "entity": "south-korea",
+          "value": 15562.52
+        },
+        {
+          "entity": "entity-116",
+          "value": 9433.37
+        },
+        {
+          "entity": "indonesia",
+          "value": 8908.15
+        },
+        {
+          "entity": "netherlands",
+          "value": 9017.89
+        },
+        {
+          "entity": "entity-097",
+          "value": 7871.53
+        },
+        {
+          "entity": "switzerland",
+          "value": 7411.85
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 182950
+        },
+        {
+          "entity": "china",
+          "value": 113056.4
+        },
+        {
+          "entity": "germany",
+          "value": 34254.46
+        },
+        {
+          "entity": "japan",
+          "value": 45344.38
+        },
+        {
+          "entity": "uk",
+          "value": 29462.31
+        },
+        {
+          "entity": "india",
+          "value": 20816.04
+        },
+        {
+          "entity": "france",
+          "value": 24427.31
+        },
+        {
+          "entity": "italy",
+          "value": 18456.15
+        },
+        {
+          "entity": "russia",
+          "value": 13567.03
+        },
+        {
+          "entity": "brazil",
+          "value": 18000.46
+        },
+        {
+          "entity": "canada",
+          "value": 15565.08
+        },
+        {
+          "entity": "australia",
+          "value": 12388.63
+        },
+        {
+          "entity": "mexico",
+          "value": 12132.94
+        },
+        {
+          "entity": "spain",
+          "value": 12062.87
+        },
+        {
+          "entity": "south-korea",
+          "value": 15392.12
+        },
+        {
+          "entity": "entity-116",
+          "value": 8682.04
+        },
+        {
+          "entity": "indonesia",
+          "value": 8608.54
+        },
+        {
+          "entity": "netherlands",
+          "value": 7758.22
+        },
+        {
+          "entity": "entity-097",
+          "value": 6934.15
+        },
+        {
+          "entity": "switzerland",
+          "value": 7058.61
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 188049.0
+        },
+        {
+          "entity": "china",
+          "value": 114520
+        },
+        {
+          "entity": "germany",
+          "value": 35358.12
+        },
+        {
+          "entity": "japan",
+          "value": 51103.57
+        },
+        {
+          "entity": "uk",
+          "value": 27168.52
+        },
+        {
+          "entity": "india",
+          "value": 22648.18
+        },
+        {
+          "entity": "france",
+          "value": 24697.26
+        },
+        {
+          "entity": "italy",
+          "value": 18865.9
+        },
+        {
+          "entity": "russia",
+          "value": 12806.48
+        },
+        {
+          "entity": "brazil",
+          "value": 17966.22
+        },
+        {
+          "entity": "canada",
+          "value": 15279.96
+        },
+        {
+          "entity": "australia",
+          "value": 12676.6
+        },
+        {
+          "entity": "mexico",
+          "value": 11122.33
+        },
+        {
+          "entity": "spain",
+          "value": 12426.73
+        },
+        {
+          "entity": "south-korea",
+          "value": 15788.16
+        },
+        {
+          "entity": "entity-116",
+          "value": 8703.39
+        },
+        {
+          "entity": "indonesia",
+          "value": 9318.77
+        },
+        {
+          "entity": "netherlands",
+          "value": 7969.44
+        },
+        {
+          "entity": "entity-097",
+          "value": 6892.79
+        },
+        {
+          "entity": "switzerland",
+          "value": 6985.52
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 196121.0
+        },
+        {
+          "entity": "china",
+          "value": 125161.52
+        },
+        {
+          "entity": "germany",
+          "value": 37640.23
+        },
+        {
+          "entity": "japan",
+          "value": 50382.32
+        },
+        {
+          "entity": "uk",
+          "value": 27013.7
+        },
+        {
+          "entity": "india",
+          "value": 26099.08
+        },
+        {
+          "entity": "france",
+          "value": 25879.55
+        },
+        {
+          "entity": "italy",
+          "value": 19700.25
+        },
+        {
+          "entity": "russia",
+          "value": 15751.4
+        },
+        {
+          "entity": "brazil",
+          "value": 20635.19
+        },
+        {
+          "entity": "canada",
+          "value": 16492.66
+        },
+        {
+          "entity": "australia",
+          "value": 13863.67
+        },
+        {
+          "entity": "mexico",
+          "value": 11907.21
+        },
+        {
+          "entity": "spain",
+          "value": 13212.88
+        },
+        {
+          "entity": "south-korea",
+          "value": 17101.97
+        },
+        {
+          "entity": "entity-116",
+          "value": 8639.06
+        },
+        {
+          "entity": "indonesia",
+          "value": 10156.19
+        },
+        {
+          "entity": "netherlands",
+          "value": 8479.34
+        },
+        {
+          "entity": "entity-097",
+          "value": 7412.66
+        },
+        {
+          "entity": "switzerland",
+          "value": 7068.94
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 206565.25
+        },
+        {
+          "entity": "china",
+          "value": 141079.27
+        },
+        {
+          "entity": "germany",
+          "value": 40572.72
+        },
+        {
+          "entity": "japan",
+          "value": 51542.93
+        },
+        {
+          "entity": "uk",
+          "value": 29007.45
+        },
+        {
+          "entity": "india",
+          "value": 26534.95
+        },
+        {
+          "entity": "france",
+          "value": 27828.38
+        },
+        {
+          "entity": "italy",
+          "value": 21003.87
+        },
+        {
+          "entity": "russia",
+          "value": 16530.05
+        },
+        {
+          "entity": "brazil",
+          "value": 19169.34
+        },
+        {
+          "entity": "canada",
+          "value": 17253.0
+        },
+        {
+          "entity": "australia",
+          "value": 14225.97
+        },
+        {
+          "entity": "mexico",
+          "value": 12563.0
+        },
+        {
+          "entity": "spain",
+          "value": 14322.92
+        },
+        {
+          "entity": "south-korea",
+          "value": 18242.51
+        },
+        {
+          "entity": "entity-116",
+          "value": 8073.18
+        },
+        {
+          "entity": "indonesia",
+          "value": 10422.72
+        },
+        {
+          "entity": "netherlands",
+          "value": 9301.55
+        },
+        {
+          "entity": "entity-097",
+          "value": 8865.64
+        },
+        {
+          "entity": "switzerland",
+          "value": 7412.19
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 215399.75
+        },
+        {
+          "entity": "china",
+          "value": 145934.5
+        },
+        {
+          "entity": "germany",
+          "value": 39603.32
+        },
+        {
+          "entity": "japan",
+          "value": 52457.55
+        },
+        {
+          "entity": "uk",
+          "value": 28773.92
+        },
+        {
+          "entity": "india",
+          "value": 27763.36
+        },
+        {
+          "entity": "france",
+          "value": 27230.94
+        },
+        {
+          "entity": "italy",
+          "value": 20198.29
+        },
+        {
+          "entity": "russia",
+          "value": 16957.24
+        },
+        {
+          "entity": "brazil",
+          "value": 18732.86
+        },
+        {
+          "entity": "canada",
+          "value": 17437.25
+        },
+        {
+          "entity": "australia",
+          "value": 13919.87
+        },
+        {
+          "entity": "mexico",
+          "value": 13041.06
+        },
+        {
+          "entity": "spain",
+          "value": 14036.51
+        },
+        {
+          "entity": "south-korea",
+          "value": 17510.46
+        },
+        {
+          "entity": "entity-116",
+          "value": 7752.23
+        },
+        {
+          "entity": "indonesia",
+          "value": 11191.0
+        },
+        {
+          "entity": "netherlands",
+          "value": 9290.06
+        },
+        {
+          "entity": "entity-097",
+          "value": 8888.88
+        },
+        {
+          "entity": "switzerland",
+          "value": 7368.5
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 213752.75
+        },
+        {
+          "entity": "china",
+          "value": 151101.91
+        },
+        {
+          "entity": "germany",
+          "value": 39382.44
+        },
+        {
+          "entity": "japan",
+          "value": 51891.97
+        },
+        {
+          "entity": "uk",
+          "value": 27259.48
+        },
+        {
+          "entity": "india",
+          "value": 26119.53
+        },
+        {
+          "entity": "france",
+          "value": 26458.06
+        },
+        {
+          "entity": "italy",
+          "value": 19059.56
+        },
+        {
+          "entity": "russia",
+          "value": 14881.18
+        },
+        {
+          "entity": "brazil",
+          "value": 14760.92
+        },
+        {
+          "entity": "canada",
+          "value": 16556.85
+        },
+        {
+          "entity": "australia",
+          "value": 13666.69
+        },
+        {
+          "entity": "mexico",
+          "value": 11210.65
+        },
+        {
+          "entity": "spain",
+          "value": 12887.51
+        },
+        {
+          "entity": "south-korea",
+          "value": 17444.55
+        },
+        {
+          "entity": "entity-116",
+          "value": 7303.45
+        },
+        {
+          "entity": "indonesia",
+          "value": 10590.55
+        },
+        {
+          "entity": "netherlands",
+          "value": 9318.14
+        },
+        {
+          "entity": "entity-097",
+          "value": 7673.03
+        },
+        {
+          "entity": "switzerland",
+          "value": 7555.82
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 237256.5
+        },
+        {
+          "entity": "china",
+          "value": 181835.05
+        },
+        {
+          "entity": "germany",
+          "value": 43581.47
+        },
+        {
+          "entity": "japan",
+          "value": 52259.34
+        },
+        {
+          "entity": "uk",
+          "value": 31953.27
+        },
+        {
+          "entity": "india",
+          "value": 30845.17
+        },
+        {
+          "entity": "france",
+          "value": 29684.05
+        },
+        {
+          "entity": "italy",
+          "value": 21806.57
+        },
+        {
+          "entity": "russia",
+          "value": 18289.27
+        },
+        {
+          "entity": "brazil",
+          "value": 16706.5
+        },
+        {
+          "entity": "canada",
+          "value": 20223.82
+        },
+        {
+          "entity": "australia",
+          "value": 16601.23
+        },
+        {
+          "entity": "mexico",
+          "value": 13165.69
+        },
+        {
+          "entity": "spain",
+          "value": 14622.16
+        },
+        {
+          "entity": "south-korea",
+          "value": 19423.14
+        },
+        {
+          "entity": "entity-116",
+          "value": 8276.73
+        },
+        {
+          "entity": "indonesia",
+          "value": 11865.1
+        },
+        {
+          "entity": "netherlands",
+          "value": 10551.73
+        },
+        {
+          "entity": "entity-097",
+          "value": 9826.61
+        },
+        {
+          "entity": "switzerland",
+          "value": 8400.84
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 260546.0
+        },
+        {
+          "entity": "china",
+          "value": 183377.77
+        },
+        {
+          "entity": "germany",
+          "value": 42043.27
+        },
+        {
+          "entity": "japan",
+          "value": 44479.76
+        },
+        {
+          "entity": "uk",
+          "value": 31928.51
+        },
+        {
+          "entity": "india",
+          "value": 32499.39
+        },
+        {
+          "entity": "france",
+          "value": 27969.87
+        },
+        {
+          "entity": "italy",
+          "value": 21057.23
+        },
+        {
+          "entity": "russia",
+          "value": 22964.1
+        },
+        {
+          "entity": "brazil",
+          "value": 19518.49
+        },
+        {
+          "entity": "canada",
+          "value": 22005.67
+        },
+        {
+          "entity": "australia",
+          "value": 17312.33
+        },
+        {
+          "entity": "mexico",
+          "value": 14669.35
+        },
+        {
+          "entity": "spain",
+          "value": 14499.9
+        },
+        {
+          "entity": "south-korea",
+          "value": 17993.63
+        },
+        {
+          "entity": "entity-116",
+          "value": 9247.52
+        },
+        {
+          "entity": "indonesia",
+          "value": 13191.01
+        },
+        {
+          "entity": "netherlands",
+          "value": 10473.64
+        },
+        {
+          "entity": "entity-097",
+          "value": 12390.75
+        },
+        {
+          "entity": "switzerland",
+          "value": 8583.45
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 278115.0
+        },
+        {
+          "entity": "china",
+          "value": 183669.36
+        },
+        {
+          "entity": "germany",
+          "value": 45635.23
+        },
+        {
+          "entity": "japan",
+          "value": 43848.54
+        },
+        {
+          "entity": "uk",
+          "value": 34220.72
+        },
+        {
+          "entity": "india",
+          "value": 35009.06
+        },
+        {
+          "entity": "france",
+          "value": 30610.95
+        },
+        {
+          "entity": "italy",
+          "value": 23175.5
+        },
+        {
+          "entity": "russia",
+          "value": 20346.81
+        },
+        {
+          "entity": "brazil",
+          "value": 21911.37
+        },
+        {
+          "entity": "canada",
+          "value": 21965.94
+        },
+        {
+          "entity": "australia",
+          "value": 17481.75
+        },
+        {
+          "entity": "mexico",
+          "value": 17944.1
+        },
+        {
+          "entity": "spain",
+          "value": 16199.49
+        },
+        {
+          "entity": "south-korea",
+          "value": 18448.01
+        },
+        {
+          "entity": "entity-116",
+          "value": 11532.95
+        },
+        {
+          "entity": "indonesia",
+          "value": 13711.67
+        },
+        {
+          "entity": "netherlands",
+          "value": 11358.03
+        },
+        {
+          "entity": "entity-097",
+          "value": 12185.85
+        },
+        {
+          "entity": "switzerland",
+          "value": 9286.89
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 292980.25
+        },
+        {
+          "entity": "china",
+          "value": 189451.12
+        },
+        {
+          "entity": "germany",
+          "value": 46841.82
+        },
+        {
+          "entity": "japan",
+          "value": 41900.08
+        },
+        {
+          "entity": "uk",
+          "value": 36953.55
+        },
+        {
+          "entity": "india",
+          "value": 37608.14
+        },
+        {
+          "entity": "france",
+          "value": 31610.42
+        },
+        {
+          "entity": "italy",
+          "value": 23827.18
+        },
+        {
+          "entity": "russia",
+          "value": 21858.48
+        },
+        {
+          "entity": "brazil",
+          "value": 21858.22
+        },
+        {
+          "entity": "canada",
+          "value": 22700.76
+        },
+        {
+          "entity": "australia",
+          "value": 17994.18
+        },
+        {
+          "entity": "mexico",
+          "value": 18304.89
+        },
+        {
+          "entity": "spain",
+          "value": 17251.52
+        },
+        {
+          "entity": "south-korea",
+          "value": 18753.88
+        },
+        {
+          "entity": "entity-116",
+          "value": 13582.51
+        },
+        {
+          "entity": "indonesia",
+          "value": 13963.02
+        },
+        {
+          "entity": "netherlands",
+          "value": 12145.62
+        },
+        {
+          "entity": "entity-097",
+          "value": 12541.41
+        },
+        {
+          "entity": "switzerland",
+          "value": 9701.9
+        }
+      ]
+    },
     {
       "period": 2025,
       "entries": [
@@ -23,12 +2829,80 @@
           "value": 307670.75
         },
         {
+          "entity": "china",
+          "value": 196262.47
+        },
+        {
           "entity": "germany",
           "value": 50480.59
         },
         {
-          "entity": "china",
-          "value": 196262.47
+          "entity": "japan",
+          "value": 44351.63
+        },
+        {
+          "entity": "uk",
+          "value": 40030.22
+        },
+        {
+          "entity": "india",
+          "value": 39163.12
+        },
+        {
+          "entity": "france",
+          "value": 33689.25
+        },
+        {
+          "entity": "italy",
+          "value": 25501.11
+        },
+        {
+          "entity": "russia",
+          "value": 25879.38
+        },
+        {
+          "entity": "brazil",
+          "value": 22799.18
+        },
+        {
+          "entity": "canada",
+          "value": 23199.0
+        },
+        {
+          "entity": "australia",
+          "value": 18399.61
+        },
+        {
+          "entity": "mexico",
+          "value": 18326.41
+        },
+        {
+          "entity": "spain",
+          "value": 19038.26
+        },
+        {
+          "entity": "south-korea",
+          "value": 18723.75
+        },
+        {
+          "entity": "entity-116",
+          "value": 15973.01
+        },
+        {
+          "entity": "indonesia",
+          "value": 14456.42
+        },
+        {
+          "entity": "netherlands",
+          "value": 13322.4
+        },
+        {
+          "entity": "entity-097",
+          "value": 12769.43
+        },
+        {
+          "entity": "switzerland",
+          "value": 10435.44
         }
       ]
     },
@@ -36,51 +2910,94 @@
       "period": 2026,
       "entries": [
         {
-          "entity": "japan",
-          "value": 43793
-        },
-        {
-          "entity": "brazil",
-          "value": 26359
-        },
-        {
-          "entity": "italy",
-          "value": 27382
-        },
-        {
           "entity": "usa",
-          "value": 323839
+          "value": 323839.2
         },
         {
           "entity": "china",
-          "value": 208516
-        },
-        {
-          "entity": "russia",
-          "value": 26565
-        },
-        {
-          "entity": "india",
-          "value": 41532
+          "value": 208515.93
         },
         {
           "entity": "germany",
-          "value": 54529
+          "value": 54528.58
         },
         {
-          "entity": "france",
-          "value": 35961
+          "entity": "japan",
+          "value": 43792.53
         },
         {
           "entity": "uk",
-          "value": 42648
+          "value": 42647.94
+        },
+        {
+          "entity": "india",
+          "value": 41531.91
+        },
+        {
+          "entity": "france",
+          "value": 35960.94
+        },
+        {
+          "entity": "italy",
+          "value": 27381.64
+        },
+        {
+          "entity": "russia",
+          "value": 26564.52
+        },
+        {
+          "entity": "brazil",
+          "value": 26359.12
+        },
+        {
+          "entity": "canada",
+          "value": 25073.4
+        },
+        {
+          "entity": "australia",
+          "value": 21239.63
+        },
+        {
+          "entity": "mexico",
+          "value": 21208.55
+        },
+        {
+          "entity": "spain",
+          "value": 20912.22
+        },
+        {
+          "entity": "south-korea",
+          "value": 19310.08
+        },
+        {
+          "entity": "entity-116",
+          "value": 16402.23
+        },
+        {
+          "entity": "indonesia",
+          "value": 15398.72
+        },
+        {
+          "entity": "netherlands",
+          "value": 14497.04
+        },
+        {
+          "entity": "entity-097",
+          "value": 13886.76
+        },
+        {
+          "entity": "switzerland",
+          "value": 11469.11
         }
       ]
     }
   ],
   "notes": {
-    "usa": "名目GDPで世界最大の経済規模を持つ。",
-    "china": "名目GDPで世界2位の経済規模を持つ。",
-    "germany": "名目GDPで世界3位。欧州最大の経済規模を持つ。"
+    "usa": "名目GDPで世界最大の経済規模を持ち、1992年以降一貫して1位。",
+    "china": "名目GDPで世界2位。1992年は9位だったが、2010年に日本を上回り2位に浮上した。",
+    "germany": "名目GDPで世界3位。2023年に日本を上回り3位に浮上した。",
+    "japan": "名目GDPで世界4位。1992年から2009年まで世界2位を保っていたが、2010年に中国に逆転された。",
+    "india": "名目GDPで世界5位。1992年は15位だったが、34年間で6つ順位を上げた。",
+    "south-korea": "名目GDPで世界15位。1992年は12位だった。"
   }
 }

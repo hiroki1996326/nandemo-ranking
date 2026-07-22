@@ -95,6 +95,8 @@ TOPIC_HINT = {
     'taiyokei-wakusei-chokkei': 'planets in space, solar system, stars, cosmic nebula',
     'todofuken-shinrinritsu': 'dense green forest canopy, aerial view of mountains covered in trees, misty woodland',
     'todofuken-rinsetsu-kensu': 'aerial view of mountain valleys and winding borders, patchwork landscape from above, topographic',
+    'todofuken-heikin-nenshu': 'modern city skyline financial district, office towers, briefcase and coins, business district at dusk',
+    'todofuken-heikin-jumyo': 'elderly and young people walking together in a peaceful Japanese park, warm sunlight, healthy longevity',
 }
 
 CATEGORY_HINT = {

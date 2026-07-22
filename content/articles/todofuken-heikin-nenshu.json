@@ -1,0 +1,221 @@
+{
+  "id": "todofuken-heikin-nenshu",
+  "title": "都道府県別 平均年収ランキング",
+  "category": "keizai",
+  "unit": "万円",
+  "source": "厚生労働省 賃金構造基本統計調査（令和6年）",
+  "sourceUrl": "https://www.mhlw.go.jp/toukei/list/chinginkouzou.html",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-22",
+  "lead": "都道府県別の平均年収が最も高いのは東京都で約644.4万円。2位神奈川県（約577.1万円）、3位大阪府（約556.4万円）と続き、全国平均（約527.0万円）を上回るのは上位4都道府県のみ。全47都道府県を掲載している。",
+  "commentary": "平均年収は大都市圏に集中しており、東京都が突出している。全国平均を上回るのは東京・神奈川・大阪・愛知の4都府県のみで、残り43道府県は平均を下回る。",
+  "analysisHeading": "東京都が突出、全国平均を超えるのは上位4都府県のみ",
+  "analysis": [
+    "東京都の平均年収は644.4万円で、2位神奈川県（577.1万円）との差は67.3万円。1位東京都と47位沖縄県（393.5万円）の差は250.9万円にのぼり、都道府県間の年収差は250万円を超える。",
+    "全国平均（527.0万円）を上回るのは、1位東京都・2位神奈川県・3位大阪府・4位愛知県の4都府県のみ。5位京都府（516.2万円）以下、43道府県は全国平均を下回っており、平均値は少数の大都市圏に押し上げられている。",
+    "下位は東北・九州・沖縄に多い。47位沖縄県（393.5万円）・46位宮崎県（402.7万円）・45位青森県（403.9万円）が下位3県で、いずれも400万円前後にとどまる。"
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 444.6
+        },
+        {
+          "entity": "aomori",
+          "value": 403.9
+        },
+        {
+          "entity": "iwate",
+          "value": 416.9
+        },
+        {
+          "entity": "miyagi",
+          "value": 473.0
+        },
+        {
+          "entity": "akita",
+          "value": 408.2
+        },
+        {
+          "entity": "yamagata",
+          "value": 426.1
+        },
+        {
+          "entity": "fukushima",
+          "value": 432.5
+        },
+        {
+          "entity": "ibaraki",
+          "value": 501.8
+        },
+        {
+          "entity": "tochigi",
+          "value": 498.1
+        },
+        {
+          "entity": "gunma",
+          "value": 486.4
+        },
+        {
+          "entity": "saitama",
+          "value": 509.5
+        },
+        {
+          "entity": "chiba",
+          "value": 501.1
+        },
+        {
+          "entity": "tokyo",
+          "value": 644.4
+        },
+        {
+          "entity": "kanagawa",
+          "value": 577.1
+        },
+        {
+          "entity": "niigata",
+          "value": 452.6
+        },
+        {
+          "entity": "toyama",
+          "value": 465.2
+        },
+        {
+          "entity": "ishikawa",
+          "value": 489.1
+        },
+        {
+          "entity": "fukui",
+          "value": 464.1
+        },
+        {
+          "entity": "yamanashi",
+          "value": 473.7
+        },
+        {
+          "entity": "nagano",
+          "value": 479.0
+        },
+        {
+          "entity": "gifu",
+          "value": 455.7
+        },
+        {
+          "entity": "shizuoka",
+          "value": 499.1
+        },
+        {
+          "entity": "aichi",
+          "value": 548.4
+        },
+        {
+          "entity": "mie",
+          "value": 505.1
+        },
+        {
+          "entity": "shiga",
+          "value": 510.0
+        },
+        {
+          "entity": "kyoto",
+          "value": 516.2
+        },
+        {
+          "entity": "osaka",
+          "value": 556.4
+        },
+        {
+          "entity": "hyogo",
+          "value": 513.0
+        },
+        {
+          "entity": "nara",
+          "value": 490.5
+        },
+        {
+          "entity": "wakayama",
+          "value": 468.9
+        },
+        {
+          "entity": "tottori",
+          "value": 408.6
+        },
+        {
+          "entity": "shimane",
+          "value": 430.7
+        },
+        {
+          "entity": "okayama",
+          "value": 469.6
+        },
+        {
+          "entity": "hiroshima",
+          "value": 502.8
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 483.0
+        },
+        {
+          "entity": "tokushima",
+          "value": 462.7
+        },
+        {
+          "entity": "kagawa",
+          "value": 473.3
+        },
+        {
+          "entity": "ehime",
+          "value": 442.7
+        },
+        {
+          "entity": "kochi",
+          "value": 420.5
+        },
+        {
+          "entity": "fukuoka",
+          "value": 493.1
+        },
+        {
+          "entity": "saga",
+          "value": 434.1
+        },
+        {
+          "entity": "nagasaki",
+          "value": 429.7
+        },
+        {
+          "entity": "kumamoto",
+          "value": 444.9
+        },
+        {
+          "entity": "oita",
+          "value": 447.4
+        },
+        {
+          "entity": "miyazaki",
+          "value": 402.7
+        },
+        {
+          "entity": "kagoshima",
+          "value": 425.6
+        },
+        {
+          "entity": "okinawa",
+          "value": 393.5
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "tokyo": "平均年収644.4万円で全国1位。2位神奈川県との差は67.3万円。",
+    "kanagawa": "平均年収577.1万円で全国2位。",
+    "osaka": "平均年収556.4万円で全国3位。",
+    "aichi": "平均年収548.4万円で全国4位。全国平均を上回る4都府県の一つ。",
+    "okinawa": "平均年収393.5万円で全国最下位。1位東京都との差は250.9万円。",
+    "miyazaki": "平均年収402.7万円で全国46位。"
+  }
+}

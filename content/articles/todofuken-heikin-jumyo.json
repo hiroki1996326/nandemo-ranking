@@ -1,0 +1,263 @@
+{
+  "id": "todofuken-heikin-jumyo",
+  "title": "都道府県別 平均寿命ランキング",
+  "category": "jinko",
+  "unit": "歳",
+  "source": "厚生労働省 令和2年都道府県別生命表（男女の平均値）",
+  "sourceUrl": "https://www.mhlw.go.jp/toukei/saikin/hw/life/tdfk20/index.html",
+  "updateFrequency": "irregular",
+  "updatedAt": "2026-07-22",
+  "lead": "都道府県別の平均寿命（男女の単純平均）が最も高いのは滋賀県で85.50歳。2位長野県（85.46歳）、3位京都府（85.25歳）と続く。最も低いのは青森県（82.80歳）で、1位との差は2.70歳。全47都道府県を掲載している。",
+  "commentary": "都道府県別生命表は男女別に公表されており、本ランキングは男女の平均寿命の単純平均で順位づけている。男性単独では滋賀県、女性単独では岡山県がそれぞれ1位となる。",
+  "analysisHeading": "滋賀・長野が上位、男女で1位県が異なる",
+  "analysis": [
+    "滋賀県の平均寿命（男女平均）は85.50歳で、2位長野県（85.46歳）とは0.04歳差。3位京都府（85.25歳）、4位奈良県（85.18歳）と、近畿・中部地方の県が上位に並ぶ。",
+    "男女別にみると、男性の平均寿命は滋賀県（82.73歳）が1位、女性は岡山県（88.29歳）が1位と、1位の県が男女で異なる。滋賀県は男性1位・女性2位（88.26歳）、岡山県は女性1位・男性9位タイ（81.90歳）と、性別によって強みが分かれる。",
+    "最も低いのは青森県（82.80歳）で、男性（79.27歳）・女性（86.33歳）とも単独で全国最下位。1位滋賀県との差は2.70歳にのぼる。"
+  ],
+  "sections": [
+    {
+      "h2": "男性・女性それぞれの上位県"
+    },
+    {
+      "p": "男女別にみると、上位県の顔ぶれは重なりつつも1位は異なる。男性は**滋賀県（82.73歳）**が1位で長野県（82.68歳）・奈良県（82.40歳）と続き、女性は**岡山県（88.29歳）**が1位で滋賀県（88.26歳）・京都府（88.25歳）と続く。"
+    },
+    {
+      "table": {
+        "headers": [
+          "順位",
+          "男性",
+          "平均寿命",
+          "女性",
+          "平均寿命"
+        ],
+        "rows": [
+          [
+            "1",
+            "滋賀県",
+            "82.73歳",
+            "岡山県",
+            "88.29歳"
+          ],
+          [
+            "2",
+            "長野県",
+            "82.68歳",
+            "滋賀県",
+            "88.26歳"
+          ],
+          [
+            "3",
+            "奈良県",
+            "82.40歳",
+            "京都府",
+            "88.25歳"
+          ]
+        ],
+        "caption": "令和2年都道府県別生命表（厚生労働省）にもとづく。"
+      }
+    }
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 84.0
+        },
+        {
+          "entity": "aomori",
+          "value": 82.8
+        },
+        {
+          "entity": "iwate",
+          "value": 83.84
+        },
+        {
+          "entity": "miyagi",
+          "value": 84.61
+        },
+        {
+          "entity": "akita",
+          "value": 83.79
+        },
+        {
+          "entity": "yamagata",
+          "value": 84.38
+        },
+        {
+          "entity": "fukushima",
+          "value": 83.7
+        },
+        {
+          "entity": "ibaraki",
+          "value": 83.91
+        },
+        {
+          "entity": "tochigi",
+          "value": 83.94
+        },
+        {
+          "entity": "gunma",
+          "value": 84.16
+        },
+        {
+          "entity": "saitama",
+          "value": 84.38
+        },
+        {
+          "entity": "chiba",
+          "value": 84.47
+        },
+        {
+          "entity": "tokyo",
+          "value": 84.81
+        },
+        {
+          "entity": "kanagawa",
+          "value": 84.97
+        },
+        {
+          "entity": "niigata",
+          "value": 84.43
+        },
+        {
+          "entity": "toyama",
+          "value": 84.85
+        },
+        {
+          "entity": "ishikawa",
+          "value": 85.06
+        },
+        {
+          "entity": "fukui",
+          "value": 84.91
+        },
+        {
+          "entity": "yamanashi",
+          "value": 84.82
+        },
+        {
+          "entity": "nagano",
+          "value": 85.46
+        },
+        {
+          "entity": "gifu",
+          "value": 84.71
+        },
+        {
+          "entity": "shizuoka",
+          "value": 84.53
+        },
+        {
+          "entity": "aichi",
+          "value": 84.64
+        },
+        {
+          "entity": "mie",
+          "value": 84.64
+        },
+        {
+          "entity": "shiga",
+          "value": 85.5
+        },
+        {
+          "entity": "kyoto",
+          "value": 85.25
+        },
+        {
+          "entity": "osaka",
+          "value": 84.09
+        },
+        {
+          "entity": "hyogo",
+          "value": 84.81
+        },
+        {
+          "entity": "nara",
+          "value": 85.18
+        },
+        {
+          "entity": "wakayama",
+          "value": 84.19
+        },
+        {
+          "entity": "tottori",
+          "value": 84.62
+        },
+        {
+          "entity": "shimane",
+          "value": 84.92
+        },
+        {
+          "entity": "okayama",
+          "value": 85.09
+        },
+        {
+          "entity": "hiroshima",
+          "value": 85.06
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 84.28
+        },
+        {
+          "entity": "tokushima",
+          "value": 84.34
+        },
+        {
+          "entity": "kagawa",
+          "value": 84.6
+        },
+        {
+          "entity": "ehime",
+          "value": 84.23
+        },
+        {
+          "entity": "kochi",
+          "value": 84.31
+        },
+        {
+          "entity": "fukuoka",
+          "value": 84.54
+        },
+        {
+          "entity": "saga",
+          "value": 84.59
+        },
+        {
+          "entity": "nagasaki",
+          "value": 84.21
+        },
+        {
+          "entity": "kumamoto",
+          "value": 85.06
+        },
+        {
+          "entity": "oita",
+          "value": 84.94
+        },
+        {
+          "entity": "miyazaki",
+          "value": 84.38
+        },
+        {
+          "entity": "kagoshima",
+          "value": 84.24
+        },
+        {
+          "entity": "okinawa",
+          "value": 84.31
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "shiga": "男女平均の平均寿命は85.50歳で全国1位。男性単独でも滋賀県が全国1位。",
+    "nagano": "男女平均の平均寿命は85.46歳で全国2位。",
+    "kyoto": "男女平均の平均寿命は85.25歳で全国3位。",
+    "okayama": "女性の平均寿命は88.29歳で全国1位。男女平均では5位。",
+    "aomori": "男女平均の平均寿命は82.80歳で全国最下位。男性・女性ともに単独で全国最下位。"
+  }
+}

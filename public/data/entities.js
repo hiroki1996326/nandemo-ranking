@@ -133,6 +133,13 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'east-germany': {
+    'name': '東ドイツ',
+    'type': 'country',
+    'description': '',
+    'image': null,
+    'imageCredit': '',
+  },
   'ehime': {
     'name': '愛媛県',
     'type': 'prefecture',
@@ -1869,6 +1876,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/hokkaido.webp',
     'imageCredit': 'satoshi sawada / CC BY 2.0',
   },
+  'honduras': {
+    'name': 'ホンジュラス',
+    'type': 'country',
+    'description': '',
+    'image': null,
+    'imageCredit': '',
+  },
   'hong-kong': {
     'name': '香港',
     'type': 'country',
@@ -2855,6 +2869,13 @@ window.ENTITIES_DATA = {
     'description': '「都道府県別 面積ランキング」で33位（4,248km²）。',
     'image': '/images/entities/toyama.webp',
     'imageCredit': 'タチヤマカムイ / CC BY-SA 4.0',
+  },
+  'uganda': {
+    'name': 'ウガンダ',
+    'type': 'country',
+    'description': '',
+    'image': null,
+    'imageCredit': '',
   },
   'uk': {
     'name': 'イギリス',

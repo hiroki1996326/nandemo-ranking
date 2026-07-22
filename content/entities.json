@@ -54,10 +54,43 @@
     "type": "country",
     "description": "「世界のコーヒー生産量ランキング」で3位（833,930トン）。"
   },
+  "continent-africa": {
+    "name": "アフリカ",
+    "type": "continent"
+  },
+  "continent-antarctica": {
+    "name": "南極大陸",
+    "type": "continent"
+  },
+  "continent-asia": {
+    "name": "アジア",
+    "type": "continent"
+  },
+  "continent-australia": {
+    "name": "オーストラリア大陸",
+    "type": "continent"
+  },
+  "continent-europe": {
+    "name": "ヨーロッパ",
+    "type": "continent"
+  },
+  "continent-north-america": {
+    "name": "北アメリカ",
+    "type": "continent"
+  },
+  "continent-south-america": {
+    "name": "南アメリカ",
+    "type": "continent"
+  },
   "earth": {
     "name": "地球",
     "type": "planet",
     "description": "岩石惑星では最大。直径は木星の約11分の1。"
+  },
+  "east-germany": {
+    "name": "東ドイツ",
+    "type": "country",
+    "description": ""
   },
   "ehime": {
     "name": "愛媛県",
@@ -1299,6 +1332,11 @@
     "type": "prefecture",
     "description": "「都道府県別 漁獲量ランキング」：広い海域を持ち、都道府県別漁獲量で全国1位。2023年漁業センサスによると、北海道の漁船隻数は17,068隻で全国の総隻数（109,283隻）の**約15.6%**を占め、隻数でも都道府県別で全国最多。「都道府県別 米収穫量ランキング」：広い水田を持ち、収穫量は全国2位。「世界の島の面積ランキング」：日本の北海道。78,073km²で世界の島の第21位。「都道府県別 面積ランキング」：全国最大で、1道だけで日本の面積の約2割を占める。"
   },
+  "honduras": {
+    "name": "ホンジュラス",
+    "type": "country",
+    "description": ""
+  },
   "hong-kong": {
     "name": "香港",
     "type": "country",
@@ -1944,6 +1982,11 @@
     "type": "prefecture",
     "description": "「都道府県別 面積ランキング」で33位（4,248km²）。"
   },
+  "uganda": {
+    "name": "ウガンダ",
+    "type": "country",
+    "description": ""
+  },
   "uk": {
     "name": "イギリス",
     "type": "country",
@@ -1988,33 +2031,5 @@
     "name": "山梨県",
     "type": "prefecture",
     "description": "「都道府県別 面積ランキング」で32位（4,465km²）。"
-  },
-  "continent-asia": {
-    "name": "アジア",
-    "type": "continent"
-  },
-  "continent-africa": {
-    "name": "アフリカ",
-    "type": "continent"
-  },
-  "continent-north-america": {
-    "name": "北アメリカ",
-    "type": "continent"
-  },
-  "continent-south-america": {
-    "name": "南アメリカ",
-    "type": "continent"
-  },
-  "continent-antarctica": {
-    "name": "南極大陸",
-    "type": "continent"
-  },
-  "continent-europe": {
-    "name": "ヨーロッパ",
-    "type": "continent"
-  },
-  "continent-australia": {
-    "name": "オーストラリア大陸",
-    "type": "continent"
   }
 }

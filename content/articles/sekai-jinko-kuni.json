@@ -3,18 +3,2062 @@
   "title": "世界の人口ランキング（国別）",
   "category": "jinko",
   "unit": "人",
-  "source": "国連 World Population Prospects ほか",
+  "source": "国連 World Population Prospects 2024年版",
   "sourceUrl": "https://population.un.org/wpp/",
   "updateFrequency": "yearly",
-  "updatedAt": "2026-07-10",
-  "lead": "世界で最も人口が多い国はインドで、約14億6,390万人。2位中国（約14億1,610万人）をわずかに上回り世界最多となっている。",
-  "commentary": "インド・中国の2カ国だけで世界人口の3分の1近くを占め、3位アメリカとは10億人以上の差がある。",
-  "analysisHeading": "インド・中国の2カ国で世界人口の3分の1近くを占める",
+  "updatedAt": "2026-07-22",
+  "lead": "世界で最も人口が多い国はインドで、約14億6,390万人。2位中国（約14億1,610万人）をわずかに上回り世界最多となっている。1980年から2025年まで46年分、上位10カ国を掲載している。",
+  "commentary": "インド・中国の2カ国だけで世界人口の3分の1近くを占め、3位アメリカとは10億人以上の差がある。両国の順位は2022年に逆転し、以降インドが世界最多を維持している。",
+  "analysisHeading": "インドが2022年に中国を逆転、エチオピアは43年で3.7倍に",
   "analysis": [
-    "インドの人口は14億6,390万人で、2位中国（14億1,610万人）との差は4,780万人。3位アメリカ（3億4,730万人）とは10億人以上の開きがあり、上位2カ国が突出している。",
-    "上位10カ国のうちアジアが5カ国（インド・中国・インドネシア・パキスタン・バングラデシュ）、アフリカが2カ国（ナイジェリア・エチオピア）を占める。7位ブラジル（2億1,280万人）以下は2億人前後で並ぶ。"
+    "インドの人口は14億6,390万人で、2位中国（14億1,610万人）との差は4,780万人。3位アメリカ（3億4,730万人）とは10億人以上の開きがあり、上位2カ国が突出している。1980年時点では中国が9億8,316万人で世界1位、インドは6億8,735万人で2位だったが、2022年にインドが中国を上回り、以降その差が続いている。",
+    "上位10カ国のうちアジアが5カ国（インド・中国・インドネシア・パキスタン・バングラデシュ）、アフリカが2カ国（ナイジェリア・エチオピア）を占める。7位ブラジル（2億1,280万人）以下は2億人前後で並ぶ。",
+    "1980年から2023年までの43年間で、エチオピアは3,443万人から1億2,869万人へ約3.7倍に増加し、10位のまま人口を大きく伸ばした。同期間でナイジェリアは3.1倍、パキスタンは3.0倍に増加した一方、ロシアは1.05倍とほぼ横ばいで、国による人口増加率の差が大きい。"
+  ],
+  "sections": [
+    {
+      "h2": "中国とインドの順位は2022年に逆転"
+    },
+    {
+      "p": "1980年時点では**中国が9億8,316万人で世界1位**、インドは6億8,735万人で2位だった。中国は1970年代から始まった一人っ子政策もあり増加率が鈍化する一方、インドは増加を続け、**2022年にインドが中国を上回り世界最多**となった。2023年時点で中国の人口（14億2,258万人）は伸びが止まりつつあるのに対し、インドは14億3,807万人まで増加している。"
+    },
+    {
+      "h2": "43年間で人口が3倍以上になった国々"
+    },
+    {
+      "p": "1980年から2023年までの43年間の人口増加率をみると、**エチオピア（3.74倍）・ナイジェリア（3.09倍）・パキスタン（3.01倍）**の3カ国が3倍を超えて増加した。アフリカ・南アジアの国々で増加率が高く、いずれも10位以下から現在の順位まで人口を伸ばしている。"
+    },
+    {
+      "table": {
+        "headers": [
+          "国",
+          "1980年",
+          "2023年",
+          "増加倍率"
+        ],
+        "rows": [
+          [
+            "エチオピア",
+            "34,428,515人",
+            "128,691,695人",
+            "3.74倍"
+          ],
+          [
+            "ナイジェリア",
+            "73,764,641人",
+            "227,882,949人",
+            "3.09倍"
+          ],
+          [
+            "パキスタン",
+            "82,291,008人",
+            "247,504,505人",
+            "3.01倍"
+          ],
+          [
+            "インド",
+            "687,354,029人",
+            "1,438,069,597人",
+            "2.09倍"
+          ],
+          [
+            "ロシア",
+            "138,572,628人",
+            "145,440,502人",
+            "1.05倍"
+          ]
+        ],
+        "caption": "出典: 国連 World Population Prospects"
+      }
+    },
+    {
+      "h2": "ロシアはほぼ横ばい"
+    },
+    {
+      "p": "上位10カ国の中で、43年間の人口増加率が最も低いのは**ロシア**（1.05倍）。1980年の1億3,857万人から2023年は1億4,544万人と、ほとんど増えていない。出生率の低下に加え、1990年代のソ連崩壊前後の混乱期に人口減少局面もあったことが影響している。"
+    }
   ],
   "data": [
+    {
+      "period": 1980,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 88016435
+        },
+        {
+          "entity": "brazil",
+          "value": 121207451
+        },
+        {
+          "entity": "china",
+          "value": 983163540
+        },
+        {
+          "entity": "ethiopia",
+          "value": 34428515
+        },
+        {
+          "entity": "india",
+          "value": 687354029
+        },
+        {
+          "entity": "indonesia",
+          "value": 148950537
+        },
+        {
+          "entity": "nigeria",
+          "value": 73764641
+        },
+        {
+          "entity": "pakistan",
+          "value": 82291008
+        },
+        {
+          "entity": "russia",
+          "value": 138572628
+        },
+        {
+          "entity": "usa",
+          "value": 229858656
+        }
+      ]
+    },
+    {
+      "period": 1981,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 90303104
+        },
+        {
+          "entity": "brazil",
+          "value": 124063113
+        },
+        {
+          "entity": "china",
+          "value": 997721072
+        },
+        {
+          "entity": "ethiopia",
+          "value": 35304010
+        },
+        {
+          "entity": "india",
+          "value": 703696251
+        },
+        {
+          "entity": "indonesia",
+          "value": 152485036
+        },
+        {
+          "entity": "nigeria",
+          "value": 76068116
+        },
+        {
+          "entity": "pakistan",
+          "value": 85802048
+        },
+        {
+          "entity": "russia",
+          "value": 139351496
+        },
+        {
+          "entity": "usa",
+          "value": 232201613
+        }
+      ]
+    },
+    {
+      "period": 1982,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 92814506
+        },
+        {
+          "entity": "brazil",
+          "value": 126923156
+        },
+        {
+          "entity": "china",
+          "value": 1013588177
+        },
+        {
+          "entity": "ethiopia",
+          "value": 36701293
+        },
+        {
+          "entity": "india",
+          "value": 720313473
+        },
+        {
+          "entity": "indonesia",
+          "value": 156052153
+        },
+        {
+          "entity": "nigeria",
+          "value": 78378699
+        },
+        {
+          "entity": "pakistan",
+          "value": 89089247
+        },
+        {
+          "entity": "russia",
+          "value": 140247745
+        },
+        {
+          "entity": "usa",
+          "value": 234583155
+        }
+      ]
+    },
+    {
+      "period": 1983,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 95335162
+        },
+        {
+          "entity": "brazil",
+          "value": 129790081
+        },
+        {
+          "entity": "china",
+          "value": 1029064952
+        },
+        {
+          "entity": "ethiopia",
+          "value": 37740821
+        },
+        {
+          "entity": "india",
+          "value": 737372683
+        },
+        {
+          "entity": "indonesia",
+          "value": 159651382
+        },
+        {
+          "entity": "nigeria",
+          "value": 80438257
+        },
+        {
+          "entity": "pakistan",
+          "value": 92227711
+        },
+        {
+          "entity": "russia",
+          "value": 141331277
+        },
+        {
+          "entity": "usa",
+          "value": 236986362
+        }
+      ]
+    },
+    {
+      "period": 1984,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 97814965
+        },
+        {
+          "entity": "brazil",
+          "value": 132658861
+        },
+        {
+          "entity": "china",
+          "value": 1043849645
+        },
+        {
+          "entity": "ethiopia",
+          "value": 38735728
+        },
+        {
+          "entity": "india",
+          "value": 754875449
+        },
+        {
+          "entity": "indonesia",
+          "value": 163251124
+        },
+        {
+          "entity": "nigeria",
+          "value": 82526444
+        },
+        {
+          "entity": "pakistan",
+          "value": 95164940
+        },
+        {
+          "entity": "russia",
+          "value": 142464238
+        },
+        {
+          "entity": "usa",
+          "value": 239353967
+        }
+      ]
+    },
+    {
+      "period": 1985,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 100253825
+        },
+        {
+          "entity": "brazil",
+          "value": 135515593
+        },
+        {
+          "entity": "china",
+          "value": 1059807818
+        },
+        {
+          "entity": "ethiopia",
+          "value": 39842136
+        },
+        {
+          "entity": "india",
+          "value": 772647800
+        },
+        {
+          "entity": "indonesia",
+          "value": 166776183
+        },
+        {
+          "entity": "nigeria",
+          "value": 84897973
+        },
+        {
+          "entity": "pakistan",
+          "value": 98229291
+        },
+        {
+          "entity": "russia",
+          "value": 143569386
+        },
+        {
+          "entity": "usa",
+          "value": 241690438
+        }
+      ]
+    },
+    {
+      "period": 1986,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 102635569
+        },
+        {
+          "entity": "brazil",
+          "value": 138336371
+        },
+        {
+          "entity": "china",
+          "value": 1077233607
+        },
+        {
+          "entity": "ethiopia",
+          "value": 41037658
+        },
+        {
+          "entity": "india",
+          "value": 790689977
+        },
+        {
+          "entity": "indonesia",
+          "value": 170175065
+        },
+        {
+          "entity": "nigeria",
+          "value": 87235959
+        },
+        {
+          "entity": "pakistan",
+          "value": 101606770
+        },
+        {
+          "entity": "russia",
+          "value": 144807816
+        },
+        {
+          "entity": "usa",
+          "value": 243953807
+        }
+      ]
+    },
+    {
+      "period": 1987,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 104959291
+        },
+        {
+          "entity": "brazil",
+          "value": 141104946
+        },
+        {
+          "entity": "china",
+          "value": 1096217445
+        },
+        {
+          "entity": "ethiopia",
+          "value": 42460039
+        },
+        {
+          "entity": "india",
+          "value": 808931268
+        },
+        {
+          "entity": "indonesia",
+          "value": 173511157
+        },
+        {
+          "entity": "nigeria",
+          "value": 89591718
+        },
+        {
+          "entity": "pakistan",
+          "value": 105130710
+        },
+        {
+          "entity": "russia",
+          "value": 146147383
+        },
+        {
+          "entity": "usa",
+          "value": 246161292
+        }
+      ]
+    },
+    {
+      "period": 1988,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 107216011
+        },
+        {
+          "entity": "brazil",
+          "value": 143826357
+        },
+        {
+          "entity": "china",
+          "value": 1115244168
+        },
+        {
+          "entity": "ethiopia",
+          "value": 44150834
+        },
+        {
+          "entity": "india",
+          "value": 827342994
+        },
+        {
+          "entity": "indonesia",
+          "value": 176855071
+        },
+        {
+          "entity": "nigeria",
+          "value": 92020088
+        },
+        {
+          "entity": "pakistan",
+          "value": 108724740
+        },
+        {
+          "entity": "russia",
+          "value": 147364493
+        },
+        {
+          "entity": "usa",
+          "value": 248393236
+        }
+      ]
+    },
+    {
+      "period": 1989,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 109433805
+        },
+        {
+          "entity": "brazil",
+          "value": 146502975
+        },
+        {
+          "entity": "china",
+          "value": 1133991006
+        },
+        {
+          "entity": "ethiopia",
+          "value": 45879686
+        },
+        {
+          "entity": "india",
+          "value": 846039528
+        },
+        {
+          "entity": "indonesia",
+          "value": 180201638
+        },
+        {
+          "entity": "nigeria",
+          "value": 94531022
+        },
+        {
+          "entity": "pakistan",
+          "value": 112336634
+        },
+        {
+          "entity": "russia",
+          "value": 148281862
+        },
+        {
+          "entity": "usa",
+          "value": 250675047
+        }
+      ]
+    },
+    {
+      "period": 1990,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 111633722
+        },
+        {
+          "entity": "brazil",
+          "value": 149143223
+        },
+        {
+          "entity": "china",
+          "value": 1153582725
+        },
+        {
+          "entity": "ethiopia",
+          "value": 47609760
+        },
+        {
+          "entity": "india",
+          "value": 864972221
+        },
+        {
+          "entity": "indonesia",
+          "value": 183501097
+        },
+        {
+          "entity": "nigeria",
+          "value": 97120926
+        },
+        {
+          "entity": "pakistan",
+          "value": 116155584
+        },
+        {
+          "entity": "russia",
+          "value": 148979537
+        },
+        {
+          "entity": "usa",
+          "value": 253373387
+        }
+      ]
+    },
+    {
+      "period": 1991,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 113787112
+        },
+        {
+          "entity": "brazil",
+          "value": 151724253
+        },
+        {
+          "entity": "china",
+          "value": 1170788533
+        },
+        {
+          "entity": "ethiopia",
+          "value": 49717203
+        },
+        {
+          "entity": "india",
+          "value": 883927605
+        },
+        {
+          "entity": "indonesia",
+          "value": 186778239
+        },
+        {
+          "entity": "nigeria",
+          "value": 99720161
+        },
+        {
+          "entity": "pakistan",
+          "value": 120060409
+        },
+        {
+          "entity": "russia",
+          "value": 149448433
+        },
+        {
+          "entity": "usa",
+          "value": 256471424
+        }
+      ]
+    },
+    {
+      "period": 1992,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 115952198
+        },
+        {
+          "entity": "brazil",
+          "value": 154275077
+        },
+        {
+          "entity": "china",
+          "value": 1184574236
+        },
+        {
+          "entity": "ethiopia",
+          "value": 51853756
+        },
+        {
+          "entity": "india",
+          "value": 902957075
+        },
+        {
+          "entity": "indonesia",
+          "value": 190043742
+        },
+        {
+          "entity": "nigeria",
+          "value": 102372779
+        },
+        {
+          "entity": "pakistan",
+          "value": 123546855
+        },
+        {
+          "entity": "russia",
+          "value": 148915993
+        },
+        {
+          "entity": "usa",
+          "value": 259606021
+        }
+      ]
+    },
+    {
+      "period": 1993,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 118132363
+        },
+        {
+          "entity": "brazil",
+          "value": 156794574
+        },
+        {
+          "entity": "china",
+          "value": 1197308574
+        },
+        {
+          "entity": "ethiopia",
+          "value": 53708892
+        },
+        {
+          "entity": "india",
+          "value": 922118380
+        },
+        {
+          "entity": "indonesia",
+          "value": 193305169
+        },
+        {
+          "entity": "nigeria",
+          "value": 105122075
+        },
+        {
+          "entity": "pakistan",
+          "value": 127020117
+        },
+        {
+          "entity": "russia",
+          "value": 148135419
+        },
+        {
+          "entity": "usa",
+          "value": 262633229
+        }
+      ]
+    },
+    {
+      "period": 1994,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 120343183
+        },
+        {
+          "entity": "brazil",
+          "value": 159265011
+        },
+        {
+          "entity": "china",
+          "value": 1209003099
+        },
+        {
+          "entity": "ethiopia",
+          "value": 55611514
+        },
+        {
+          "entity": "india",
+          "value": 941163772
+        },
+        {
+          "entity": "indonesia",
+          "value": 196591829
+        },
+        {
+          "entity": "nigeria",
+          "value": 107935717
+        },
+        {
+          "entity": "pakistan",
+          "value": 130748076
+        },
+        {
+          "entity": "russia",
+          "value": 148200734
+        },
+        {
+          "entity": "usa",
+          "value": 265474811
+        }
+      ]
+    },
+    {
+      "period": 1995,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 122600372
+        },
+        {
+          "entity": "brazil",
+          "value": 161735079
+        },
+        {
+          "entity": "china",
+          "value": 1220133929
+        },
+        {
+          "entity": "ethiopia",
+          "value": 57537340
+        },
+        {
+          "entity": "india",
+          "value": 960301046
+        },
+        {
+          "entity": "indonesia",
+          "value": 199888055
+        },
+        {
+          "entity": "nigeria",
+          "value": 110819430
+        },
+        {
+          "entity": "pakistan",
+          "value": 134582255
+        },
+        {
+          "entity": "russia",
+          "value": 148291406
+        },
+        {
+          "entity": "usa",
+          "value": 268205796
+        }
+      ]
+    },
+    {
+      "period": 1996,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 124862185
+        },
+        {
+          "entity": "brazil",
+          "value": 164202549
+        },
+        {
+          "entity": "china",
+          "value": 1230944809
+        },
+        {
+          "entity": "ethiopia",
+          "value": 59467640
+        },
+        {
+          "entity": "india",
+          "value": 979678460
+        },
+        {
+          "entity": "indonesia",
+          "value": 203204353
+        },
+        {
+          "entity": "nigeria",
+          "value": 113754783
+        },
+        {
+          "entity": "pakistan",
+          "value": 138557089
+        },
+        {
+          "entity": "russia",
+          "value": 148084580
+        },
+        {
+          "entity": "usa",
+          "value": 270860695
+        }
+      ]
+    },
+    {
+      "period": 1997,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 127198070
+        },
+        {
+          "entity": "brazil",
+          "value": 166661662
+        },
+        {
+          "entity": "china",
+          "value": 1241139623
+        },
+        {
+          "entity": "ethiopia",
+          "value": 61404541
+        },
+        {
+          "entity": "india",
+          "value": 999133764
+        },
+        {
+          "entity": "indonesia",
+          "value": 206536089
+        },
+        {
+          "entity": "nigeria",
+          "value": 116754790
+        },
+        {
+          "entity": "pakistan",
+          "value": 142531801
+        },
+        {
+          "entity": "russia",
+          "value": 147853769
+        },
+        {
+          "entity": "usa",
+          "value": 273468014
+        }
+      ]
+    },
+    {
+      "period": 1998,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 129622332
+        },
+        {
+          "entity": "brazil",
+          "value": 169159651
+        },
+        {
+          "entity": "china",
+          "value": 1250847122
+        },
+        {
+          "entity": "ethiopia",
+          "value": 63363523
+        },
+        {
+          "entity": "india",
+          "value": 1018665080
+        },
+        {
+          "entity": "indonesia",
+          "value": 209826791
+        },
+        {
+          "entity": "nigeria",
+          "value": 119846261
+        },
+        {
+          "entity": "pakistan",
+          "value": 146522354
+        },
+        {
+          "entity": "russia",
+          "value": 147635543
+        },
+        {
+          "entity": "usa",
+          "value": 276119323
+        }
+      ]
+    },
+    {
+      "period": 1999,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 132108065
+        },
+        {
+          "entity": "brazil",
+          "value": 171641544
+        },
+        {
+          "entity": "china",
+          "value": 1260176650
+        },
+        {
+          "entity": "ethiopia",
+          "value": 65374561
+        },
+        {
+          "entity": "india",
+          "value": 1038225822
+        },
+        {
+          "entity": "indonesia",
+          "value": 213004667
+        },
+        {
+          "entity": "nigeria",
+          "value": 123047324
+        },
+        {
+          "entity": "pakistan",
+          "value": 150565381
+        },
+        {
+          "entity": "russia",
+          "value": 147241973
+        },
+        {
+          "entity": "usa",
+          "value": 278785482
+        }
+      ]
+    },
+    {
+      "period": 2000,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 134544303
+        },
+        {
+          "entity": "brazil",
+          "value": 174018278
+        },
+        {
+          "entity": "china",
+          "value": 1269581174
+        },
+        {
+          "entity": "ethiopia",
+          "value": 67411496
+        },
+        {
+          "entity": "india",
+          "value": 1057922731
+        },
+        {
+          "entity": "indonesia",
+          "value": 216077789
+        },
+        {
+          "entity": "nigeria",
+          "value": 126382490
+        },
+        {
+          "entity": "pakistan",
+          "value": 154879124
+        },
+        {
+          "entity": "russia",
+          "value": 146717784
+        },
+        {
+          "entity": "usa",
+          "value": 281484126
+        }
+      ]
+    },
+    {
+      "period": 2001,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 136805810
+        },
+        {
+          "entity": "brazil",
+          "value": 176301201
+        },
+        {
+          "entity": "china",
+          "value": 1278725061
+        },
+        {
+          "entity": "ethiopia",
+          "value": 69487767
+        },
+        {
+          "entity": "india",
+          "value": 1077898579
+        },
+        {
+          "entity": "indonesia",
+          "value": 219097905
+        },
+        {
+          "entity": "nigeria",
+          "value": 129862594
+        },
+        {
+          "entity": "pakistan",
+          "value": 159270910
+        },
+        {
+          "entity": "russia",
+          "value": 146117290
+        },
+        {
+          "entity": "usa",
+          "value": 284279634
+        }
+      ]
+    },
+    {
+      "period": 2002,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 138933659
+        },
+        {
+          "entity": "brazil",
+          "value": 178503485
+        },
+        {
+          "entity": "china",
+          "value": 1286866835
+        },
+        {
+          "entity": "ethiopia",
+          "value": 71635521
+        },
+        {
+          "entity": "india",
+          "value": 1097600380
+        },
+        {
+          "entity": "indonesia",
+          "value": 222088499
+        },
+        {
+          "entity": "nigeria",
+          "value": 133471995
+        },
+        {
+          "entity": "pakistan",
+          "value": 163222552
+        },
+        {
+          "entity": "russia",
+          "value": 145939502
+        },
+        {
+          "entity": "usa",
+          "value": 287084335
+        }
+      ]
+    },
+    {
+      "period": 2003,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 140970355
+        },
+        {
+          "entity": "brazil",
+          "value": 180622688
+        },
+        {
+          "entity": "china",
+          "value": 1294517323
+        },
+        {
+          "entity": "ethiopia",
+          "value": 73832664
+        },
+        {
+          "entity": "india",
+          "value": 1116803000
+        },
+        {
+          "entity": "indonesia",
+          "value": 225048005
+        },
+        {
+          "entity": "nigeria",
+          "value": 137202646
+        },
+        {
+          "entity": "pakistan",
+          "value": 167110250
+        },
+        {
+          "entity": "russia",
+          "value": 145794230
+        },
+        {
+          "entity": "usa",
+          "value": 289908091
+        }
+      ]
+    },
+    {
+      "period": 2004,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 142902857
+        },
+        {
+          "entity": "brazil",
+          "value": 182675144
+        },
+        {
+          "entity": "china",
+          "value": 1302100316
+        },
+        {
+          "entity": "ethiopia",
+          "value": 76077211
+        },
+        {
+          "entity": "india",
+          "value": 1135991509
+        },
+        {
+          "entity": "indonesia",
+          "value": 227926649
+        },
+        {
+          "entity": "nigeria",
+          "value": 141057045
+        },
+        {
+          "entity": "pakistan",
+          "value": 171285999
+        },
+        {
+          "entity": "russia",
+          "value": 145180091
+        },
+        {
+          "entity": "usa",
+          "value": 292786248
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 144715789
+        },
+        {
+          "entity": "brazil",
+          "value": 184688101
+        },
+        {
+          "entity": "china",
+          "value": 1310027135
+        },
+        {
+          "entity": "ethiopia",
+          "value": 78367476
+        },
+        {
+          "entity": "india",
+          "value": 1154676321
+        },
+        {
+          "entity": "indonesia",
+          "value": 230871648
+        },
+        {
+          "entity": "nigeria",
+          "value": 145017256
+        },
+        {
+          "entity": "pakistan",
+          "value": 175453212
+        },
+        {
+          "entity": "russia",
+          "value": 144597886
+        },
+        {
+          "entity": "usa",
+          "value": 295716666
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 146405983
+        },
+        {
+          "entity": "brazil",
+          "value": 186653099
+        },
+        {
+          "entity": "china",
+          "value": 1318054030
+        },
+        {
+          "entity": "ethiopia",
+          "value": 80703495
+        },
+        {
+          "entity": "india",
+          "value": 1172878888
+        },
+        {
+          "entity": "indonesia",
+          "value": 233951650
+        },
+        {
+          "entity": "nigeria",
+          "value": 149077335
+        },
+        {
+          "entity": "pakistan",
+          "value": 179682690
+        },
+        {
+          "entity": "russia",
+          "value": 144102948
+        },
+        {
+          "entity": "usa",
+          "value": 298730208
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 147989282
+        },
+        {
+          "entity": "brazil",
+          "value": 188552311
+        },
+        {
+          "entity": "china",
+          "value": 1325813576
+        },
+        {
+          "entity": "ethiopia",
+          "value": 83103218
+        },
+        {
+          "entity": "india",
+          "value": 1190676028
+        },
+        {
+          "entity": "indonesia",
+          "value": 237062338
+        },
+        {
+          "entity": "nigeria",
+          "value": 153267254
+        },
+        {
+          "entity": "pakistan",
+          "value": 184493231
+        },
+        {
+          "entity": "russia",
+          "value": 143859767
+        },
+        {
+          "entity": "usa",
+          "value": 301844223
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 149474264
+        },
+        {
+          "entity": "brazil",
+          "value": 190367297
+        },
+        {
+          "entity": "china",
+          "value": 1333821011
+        },
+        {
+          "entity": "ethiopia",
+          "value": 85543670
+        },
+        {
+          "entity": "india",
+          "value": 1207930960
+        },
+        {
+          "entity": "indonesia",
+          "value": 240157902
+        },
+        {
+          "entity": "nigeria",
+          "value": 157595014
+        },
+        {
+          "entity": "pakistan",
+          "value": 189499112
+        },
+        {
+          "entity": "russia",
+          "value": 143811837
+        },
+        {
+          "entity": "usa",
+          "value": 304970325
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 150873716
+        },
+        {
+          "entity": "brazil",
+          "value": 192079958
+        },
+        {
+          "entity": "china",
+          "value": 1342522717
+        },
+        {
+          "entity": "ethiopia",
+          "value": 88007641
+        },
+        {
+          "entity": "india",
+          "value": 1225524764
+        },
+        {
+          "entity": "indonesia",
+          "value": 243220024
+        },
+        {
+          "entity": "nigeria",
+          "value": 162049466
+        },
+        {
+          "entity": "pakistan",
+          "value": 194376535
+        },
+        {
+          "entity": "russia",
+          "value": 143869128
+        },
+        {
+          "entity": "usa",
+          "value": 308023452
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 152201978
+        },
+        {
+          "entity": "brazil",
+          "value": 193701931
+        },
+        {
+          "entity": "china",
+          "value": 1351561505
+        },
+        {
+          "entity": "ethiopia",
+          "value": 90538518
+        },
+        {
+          "entity": "india",
+          "value": 1243481565
+        },
+        {
+          "entity": "indonesia",
+          "value": 246305327
+        },
+        {
+          "entity": "nigeria",
+          "value": 166642888
+        },
+        {
+          "entity": "pakistan",
+          "value": 199239048
+        },
+        {
+          "entity": "russia",
+          "value": 143934468
+        },
+        {
+          "entity": "usa",
+          "value": 311062785
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 153591074
+        },
+        {
+          "entity": "brazil",
+          "value": 195284736
+        },
+        {
+          "entity": "china",
+          "value": 1360250658
+        },
+        {
+          "entity": "ethiopia",
+          "value": 93149977
+        },
+        {
+          "entity": "india",
+          "value": 1261224956
+        },
+        {
+          "entity": "indonesia",
+          "value": 249470029
+        },
+        {
+          "entity": "nigeria",
+          "value": 171379602
+        },
+        {
+          "entity": "pakistan",
+          "value": 203746069
+        },
+        {
+          "entity": "russia",
+          "value": 144043751
+        },
+        {
+          "entity": "usa",
+          "value": 314105075
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 155070110
+        },
+        {
+          "entity": "brazil",
+          "value": 196876113
+        },
+        {
+          "entity": "china",
+          "value": 1369520866
+        },
+        {
+          "entity": "ethiopia",
+          "value": 95798771
+        },
+        {
+          "entity": "india",
+          "value": 1278674501
+        },
+        {
+          "entity": "indonesia",
+          "value": 252698525
+        },
+        {
+          "entity": "nigeria",
+          "value": 176200627
+        },
+        {
+          "entity": "pakistan",
+          "value": 207667129
+        },
+        {
+          "entity": "russia",
+          "value": 144291025
+        },
+        {
+          "entity": "usa",
+          "value": 317115349
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 156532134
+        },
+        {
+          "entity": "brazil",
+          "value": 198478290
+        },
+        {
+          "entity": "china",
+          "value": 1379008040
+        },
+        {
+          "entity": "ethiopia",
+          "value": 98438752
+        },
+        {
+          "entity": "india",
+          "value": 1295829507
+        },
+        {
+          "entity": "indonesia",
+          "value": 255852464
+        },
+        {
+          "entity": "nigeria",
+          "value": 181049440
+        },
+        {
+          "entity": "pakistan",
+          "value": 211073979
+        },
+        {
+          "entity": "russia",
+          "value": 144604105
+        },
+        {
+          "entity": "usa",
+          "value": 320110752
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 157964931
+        },
+        {
+          "entity": "brazil",
+          "value": 200085126
+        },
+        {
+          "entity": "china",
+          "value": 1387951970
+        },
+        {
+          "entity": "ethiopia",
+          "value": 101115615
+        },
+        {
+          "entity": "india",
+          "value": 1312277184
+        },
+        {
+          "entity": "indonesia",
+          "value": 258877395
+        },
+        {
+          "entity": "nigeria",
+          "value": 185896917
+        },
+        {
+          "entity": "pakistan",
+          "value": 214264649
+        },
+        {
+          "entity": "russia",
+          "value": 144925639
+        },
+        {
+          "entity": "usa",
+          "value": 323115377
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 159383179
+        },
+        {
+          "entity": "brazil",
+          "value": 201675534
+        },
+        {
+          "entity": "china",
+          "value": 1396134171
+        },
+        {
+          "entity": "ethiopia",
+          "value": 103867140
+        },
+        {
+          "entity": "india",
+          "value": 1328024494
+        },
+        {
+          "entity": "indonesia",
+          "value": 261799249
+        },
+        {
+          "entity": "nigeria",
+          "value": 190671883
+        },
+        {
+          "entity": "pakistan",
+          "value": 217290884
+        },
+        {
+          "entity": "russia",
+          "value": 145307612
+        },
+        {
+          "entity": "usa",
+          "value": 326126496
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 160811934
+        },
+        {
+          "entity": "brazil",
+          "value": 203218108
+        },
+        {
+          "entity": "china",
+          "value": 1404052628
+        },
+        {
+          "entity": "ethiopia",
+          "value": 106718163
+        },
+        {
+          "entity": "india",
+          "value": 1343944296
+        },
+        {
+          "entity": "indonesia",
+          "value": 264627429
+        },
+        {
+          "entity": "nigeria",
+          "value": 195443698
+        },
+        {
+          "entity": "pakistan",
+          "value": 220138863
+        },
+        {
+          "entity": "russia",
+          "value": 145778668
+        },
+        {
+          "entity": "usa",
+          "value": 329179423
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 162186146
+        },
+        {
+          "entity": "brazil",
+          "value": 204703440
+        },
+        {
+          "entity": "china",
+          "value": 1412354730
+        },
+        {
+          "entity": "ethiopia",
+          "value": 109666482
+        },
+        {
+          "entity": "india",
+          "value": 1359657398
+        },
+        {
+          "entity": "indonesia",
+          "value": 267346654
+        },
+        {
+          "entity": "nigeria",
+          "value": 200254580
+        },
+        {
+          "entity": "pakistan",
+          "value": 223273974
+        },
+        {
+          "entity": "russia",
+          "value": 146186798
+        },
+        {
+          "entity": "usa",
+          "value": 332204657
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 163523109
+        },
+        {
+          "entity": "brazil",
+          "value": 206107265
+        },
+        {
+          "entity": "china",
+          "value": 1419008954
+        },
+        {
+          "entity": "ethiopia",
+          "value": 112664157
+        },
+        {
+          "entity": "india",
+          "value": 1374659067
+        },
+        {
+          "entity": "indonesia",
+          "value": 269951847
+        },
+        {
+          "entity": "nigeria",
+          "value": 204938752
+        },
+        {
+          "entity": "pakistan",
+          "value": 226928893
+        },
+        {
+          "entity": "russia",
+          "value": 146430146
+        },
+        {
+          "entity": "usa",
+          "value": 335056492
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 164913060
+        },
+        {
+          "entity": "brazil",
+          "value": 207455459
+        },
+        {
+          "entity": "china",
+          "value": 1423520357
+        },
+        {
+          "entity": "ethiopia",
+          "value": 115737384
+        },
+        {
+          "entity": "india",
+          "value": 1389030307
+        },
+        {
+          "entity": "indonesia",
+          "value": 272489381
+        },
+        {
+          "entity": "nigeria",
+          "value": 209485637
+        },
+        {
+          "entity": "pakistan",
+          "value": 230800908
+        },
+        {
+          "entity": "russia",
+          "value": 146533063
+        },
+        {
+          "entity": "usa",
+          "value": 337790069
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 166298024
+        },
+        {
+          "entity": "brazil",
+          "value": 208660845
+        },
+        {
+          "entity": "china",
+          "value": 1426106093
+        },
+        {
+          "entity": "ethiopia",
+          "value": 118917670
+        },
+        {
+          "entity": "india",
+          "value": 1402617694
+        },
+        {
+          "entity": "indonesia",
+          "value": 274814861
+        },
+        {
+          "entity": "nigeria",
+          "value": 213996185
+        },
+        {
+          "entity": "pakistan",
+          "value": 235001745
+        },
+        {
+          "entity": "russia",
+          "value": 146371295
+        },
+        {
+          "entity": "usa",
+          "value": 339436156
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 167658855
+        },
+        {
+          "entity": "brazil",
+          "value": 209550291
+        },
+        {
+          "entity": "china",
+          "value": 1426437269
+        },
+        {
+          "entity": "ethiopia",
+          "value": 122138588
+        },
+        {
+          "entity": "india",
+          "value": 1414203896
+        },
+        {
+          "entity": "indonesia",
+          "value": 276758056
+        },
+        {
+          "entity": "nigeria",
+          "value": 218529286
+        },
+        {
+          "entity": "pakistan",
+          "value": 239477805
+        },
+        {
+          "entity": "russia",
+          "value": 145836172
+        },
+        {
+          "entity": "usa",
+          "value": 340161438
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 169384891
+        },
+        {
+          "entity": "brazil",
+          "value": 210306411
+        },
+        {
+          "entity": "china",
+          "value": 1425179562
+        },
+        {
+          "entity": "ethiopia",
+          "value": 125384285
+        },
+        {
+          "entity": "india",
+          "value": 1425423209
+        },
+        {
+          "entity": "indonesia",
+          "value": 278830527
+        },
+        {
+          "entity": "nigeria",
+          "value": 223150906
+        },
+        {
+          "entity": "pakistan",
+          "value": 243700667
+        },
+        {
+          "entity": "russia",
+          "value": 145579889
+        },
+        {
+          "entity": "usa",
+          "value": 341534041
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "bangladesh",
+          "value": 171466986
+        },
+        {
+          "entity": "brazil",
+          "value": 211140731
+        },
+        {
+          "entity": "china",
+          "value": 1422584930
+        },
+        {
+          "entity": "ethiopia",
+          "value": 128691695
+        },
+        {
+          "entity": "india",
+          "value": 1438069597
+        },
+        {
+          "entity": "indonesia",
+          "value": 281190068
+        },
+        {
+          "entity": "nigeria",
+          "value": 227882949
+        },
+        {
+          "entity": "pakistan",
+          "value": 247504505
+        },
+        {
+          "entity": "russia",
+          "value": 145440502
+        },
+        {
+          "entity": "usa",
+          "value": 343477330
+        }
+      ]
+    },
     {
       "period": 2024,
       "entries": [
@@ -80,7 +2124,9 @@
   ],
   "notes": {
     "usa": "人口世界3位。1位インド・2位中国とは大きな差がある。",
-    "india": "2023年に中国を上回り、国連推計で世界最多の人口となった。",
-    "china": "1950年代以降長く世界最多だったが、2023年にインドに首位を譲った。"
+    "india": "2022年に中国を上回り、国連推計で世界最多の人口となった。1980年からの43年間で約2.1倍に増加した。",
+    "china": "1980年時点では世界最多だったが、2022年にインドに首位を譲った。",
+    "ethiopia": "1980年から2023年の43年間で人口が約3.7倍に増加し、上位10カ国の中で最も増加率が高い。",
+    "russia": "上位10カ国の中で人口増加率が最も低く、1980年から2023年の43年間でほぼ横ばい。"
   }
 }

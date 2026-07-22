@@ -16,68 +16,223 @@
     "全国の森林率は67.1%（森林面積2,502万ha／国土面積3,730万ha）。日本は国土の3分の2以上を森林が占める、世界でも森林率の高い国の一つに数えられる。"
   ],
   "sections": [
-    { "h2": "上位は中部・四国・中国地方の山がちな県" },
-    { "p": "森林率上位10県は、**高知県（83.6%）・岐阜県（81.1%）・長野県（78.7%）・島根県（78.2%）・山梨県（78.0%）・奈良県（76.9%）・岩手県（76.6%）・和歌山県（76.5%）・徳島県（75.9%）・宮崎県（75.7%）**。中部・四国・中国・九州地方の山地が多い県が並び、平地の少ない地形の県ほど森林率が高い傾向がある。" },
-    { "p": "1位高知県は四国山地、2位岐阜県は飛騨山脈と、いずれも県土の大部分が山地に覆われている。上位10県はすべて75%を超えており、県土の4分の3以上が森林という計算になる。" },
-
-    { "h2": "下位は関東・近畿の都市部と平野部" },
-    { "p": "森林率が50%を下回るのは11県。47位**千葉県（28.8%）**、46位**大阪府（29.8%）**、45位**茨城県（31.0%）**、44位**埼玉県（31.4%）**、43位**東京都（36.0%）**と、関東・近畿の都市部が下位に集中する。これらの県は農地や市街地の面積が広く、森林に転用できる土地自体が少ない。" },
-    { "p": "1位高知県（83.6%）と47位千葉県（28.8%）の差は**54.9ポイント**。同じ日本国内でも、県土の8割超が森林の県から、3割に満たない県まで大きな開きがある。" },
-
-    { "h2": "森林率と人工林率は別の指標" },
-    { "p": "森林率が高い県が、必ずしも人の手で植えられた「人工林」の割合（人工林率）も高いとは限らない。森林率1位の高知県は人工林率も65.1%と高いが、2位岐阜県は44.5%、4位島根県は39.2%にとどまる。森林率が高い県の中にも、天然林主体の県と人工林主体の県の両方が存在する。" }
+    {
+      "h2": "上位は中部・四国・中国地方の山がちな県"
+    },
+    {
+      "p": "森林率上位10県は、**高知県（83.6%）・岐阜県（81.1%）・長野県（78.7%）・島根県（78.2%）・山梨県（78.0%）・奈良県（76.9%）・岩手県（76.6%）・和歌山県（76.5%）・徳島県（75.9%）・宮崎県（75.7%）**。中部・四国・中国・九州地方の山地が多い県が並び、平地の少ない地形の県ほど森林率が高い傾向がある。"
+    },
+    {
+      "p": "1位高知県は四国山地、2位岐阜県は飛騨山脈と、いずれも県土の大部分が山地に覆われている。上位10県はすべて75%を超えており、県土の4分の3以上が森林という計算になる。"
+    },
+    {
+      "h2": "下位は関東・近畿の都市部と平野部"
+    },
+    {
+      "p": "森林率が50%を下回るのは11県。47位**千葉県（28.8%）**、46位**大阪府（29.8%）**、45位**茨城県（31.0%）**、44位**埼玉県（31.4%）**、43位**東京都（36.0%）**と、関東・近畿の都市部が下位に集中する。これらの県は農地や市街地の面積が広く、森林に転用できる土地自体が少ない。"
+    },
+    {
+      "p": "1位高知県（83.6%）と47位千葉県（28.8%）の差は**54.9ポイント**。同じ日本国内でも、県土の8割超が森林の県から、3割に満たない県まで大きな開きがある。"
+    },
+    {
+      "h2": "森林率と人工林率は別の指標"
+    },
+    {
+      "p": "森林率が高い県が、必ずしも人の手で植えられた「人工林」の割合（人工林率）も高いとは限らない。森林率1位の高知県は人工林率も65.1%と高いが、2位岐阜県は44.5%、4位島根県は39.2%にとどまる。森林率が高い県の中にも、天然林主体の県と人工林主体の県の両方が存在する。"
+    }
   ],
   "data": [
     {
       "period": null,
       "entries": [
-        { "entity": "hokkaido", "value": 70.6 },
-        { "entity": "aomori", "value": 65.6 },
-        { "entity": "iwate", "value": 76.6 },
-        { "entity": "miyagi", "value": 56.9 },
-        { "entity": "akita", "value": 72.1 },
-        { "entity": "yamagata", "value": 71.8 },
-        { "entity": "fukushima", "value": 70.5 },
-        { "entity": "ibaraki", "value": 31.0 },
-        { "entity": "tochigi", "value": 54.2 },
-        { "entity": "gunma", "value": 66.8 },
-        { "entity": "saitama", "value": 31.4 },
-        { "entity": "chiba", "value": 28.8 },
-        { "entity": "tokyo", "value": 36.0 },
-        { "entity": "kanagawa", "value": 39.0 },
-        { "entity": "niigata", "value": 68.0 },
-        { "entity": "toyama", "value": 66.9 },
-        { "entity": "ishikawa", "value": 68.2 },
-        { "entity": "fukui", "value": 74.2 },
-        { "entity": "yamanashi", "value": 78.0 },
-        { "entity": "nagano", "value": 78.7 },
-        { "entity": "gifu", "value": 81.1 },
-        { "entity": "shizuoka", "value": 63.8 },
-        { "entity": "aichi", "value": 42.1 },
-        { "entity": "mie", "value": 64.4 },
-        { "entity": "shiga", "value": 50.7 },
-        { "entity": "kyoto", "value": 74.2 },
-        { "entity": "osaka", "value": 29.8 },
-        { "entity": "hyogo", "value": 66.5 },
-        { "entity": "nara", "value": 76.9 },
-        { "entity": "wakayama", "value": 76.5 },
-        { "entity": "tottori", "value": 73.9 },
-        { "entity": "shimane", "value": 78.2 },
-        { "entity": "okayama", "value": 68.1 },
-        { "entity": "hiroshima", "value": 72.1 },
-        { "entity": "yamaguchi", "value": 71.4 },
-        { "entity": "tokushima", "value": 75.9 },
-        { "entity": "kagawa", "value": 46.8 },
-        { "entity": "ehime", "value": 70.6 },
-        { "entity": "kochi", "value": 83.6 },
-        { "entity": "fukuoka", "value": 44.9 },
-        { "entity": "saga", "value": 45.4 },
-        { "entity": "nagasaki", "value": 58.8 },
-        { "entity": "kumamoto", "value": 61.9 },
-        { "entity": "oita", "value": 71.1 },
-        { "entity": "miyazaki", "value": 75.7 },
-        { "entity": "kagoshima", "value": 64.7 },
-        { "entity": "okinawa", "value": 45.2 }
+        {
+          "entity": "hokkaido",
+          "value": 70.6
+        },
+        {
+          "entity": "aomori",
+          "value": 65.6
+        },
+        {
+          "entity": "iwate",
+          "value": 76.6
+        },
+        {
+          "entity": "miyagi",
+          "value": 56.9
+        },
+        {
+          "entity": "akita",
+          "value": 72.1
+        },
+        {
+          "entity": "yamagata",
+          "value": 71.8
+        },
+        {
+          "entity": "fukushima",
+          "value": 70.5
+        },
+        {
+          "entity": "ibaraki",
+          "value": 31.0
+        },
+        {
+          "entity": "tochigi",
+          "value": 54.2
+        },
+        {
+          "entity": "gunma",
+          "value": 66.8
+        },
+        {
+          "entity": "saitama",
+          "value": 31.4
+        },
+        {
+          "entity": "chiba",
+          "value": 28.8
+        },
+        {
+          "entity": "tokyo",
+          "value": 36.0
+        },
+        {
+          "entity": "kanagawa",
+          "value": 39.0
+        },
+        {
+          "entity": "niigata",
+          "value": 68.0
+        },
+        {
+          "entity": "toyama",
+          "value": 66.9
+        },
+        {
+          "entity": "ishikawa",
+          "value": 68.2
+        },
+        {
+          "entity": "fukui",
+          "value": 74.2
+        },
+        {
+          "entity": "yamanashi",
+          "value": 78.0
+        },
+        {
+          "entity": "nagano",
+          "value": 78.7
+        },
+        {
+          "entity": "gifu",
+          "value": 81.1
+        },
+        {
+          "entity": "shizuoka",
+          "value": 63.8
+        },
+        {
+          "entity": "aichi",
+          "value": 42.1
+        },
+        {
+          "entity": "mie",
+          "value": 64.4
+        },
+        {
+          "entity": "shiga",
+          "value": 50.7
+        },
+        {
+          "entity": "kyoto",
+          "value": 74.2
+        },
+        {
+          "entity": "osaka",
+          "value": 29.8
+        },
+        {
+          "entity": "hyogo",
+          "value": 66.5
+        },
+        {
+          "entity": "nara",
+          "value": 76.9
+        },
+        {
+          "entity": "wakayama",
+          "value": 76.5
+        },
+        {
+          "entity": "tottori",
+          "value": 73.9
+        },
+        {
+          "entity": "shimane",
+          "value": 78.2
+        },
+        {
+          "entity": "okayama",
+          "value": 68.1
+        },
+        {
+          "entity": "hiroshima",
+          "value": 72.1
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 71.4
+        },
+        {
+          "entity": "tokushima",
+          "value": 75.9
+        },
+        {
+          "entity": "kagawa",
+          "value": 46.8
+        },
+        {
+          "entity": "ehime",
+          "value": 70.6
+        },
+        {
+          "entity": "kochi",
+          "value": 83.6
+        },
+        {
+          "entity": "fukuoka",
+          "value": 44.9
+        },
+        {
+          "entity": "saga",
+          "value": 45.4
+        },
+        {
+          "entity": "nagasaki",
+          "value": 58.8
+        },
+        {
+          "entity": "kumamoto",
+          "value": 61.9
+        },
+        {
+          "entity": "oita",
+          "value": 71.1
+        },
+        {
+          "entity": "miyazaki",
+          "value": 75.7
+        },
+        {
+          "entity": "kagoshima",
+          "value": 64.7
+        },
+        {
+          "entity": "okinawa",
+          "value": 45.2
+        }
       ]
     }
   ],

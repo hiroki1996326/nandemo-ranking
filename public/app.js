@@ -239,7 +239,8 @@ function topThreeHtml(topic, idx) {
   const top3 = rankedEntries(period).slice(0, 3);
   return '<div class="top3">' + top3.map(function (e) {
     const img = entityImageByName(e.name);
-    const imgHtml = img ? '<img class="top3-img" src="' + esc(img) + '" alt="" loading="lazy" />' : '';
+    const top3ImgCls = 'top3-img' + (entityIsFlag(e.name) ? ' flag-img' : '');
+    const imgHtml = img ? '<img class="' + top3ImgCls + '" src="' + esc(img) + '" alt="" loading="lazy" />' : '';
     return '<div class="top3-card top3-rank' + e.rank + '">' +
       '<div class="top3-left">' +
         '<img class="top3-crown" src="/images/icons/rank-crown-' + e.rank + '.webp" alt="' + e.rank + '位" loading="lazy" />' +
@@ -383,10 +384,18 @@ function entityImageByName(name) {
   const ent = ENTITIES[slug];
   return ent && ent.image ? ent.image : null;
 }
+// 国旗画像(flagcdn.com由来、縦横比3:2固定)かどうか。国旗は他の実体写真と違い
+// 縦横比が統一されているため、正方形/4:3への強制クロップだと見切れて不格好になる。
+function entityIsFlag(name) {
+  const slug = NAME_TO_SLUG[name];
+  return !!(slug && ENTITIES[slug] && ENTITIES[slug].type === 'country');
+}
 // ランキング項目名の左に出す小さいサムネ画像。実体に画像が無ければ空文字。
 function entityThumbHtml(name) {
   const img = entityImageByName(name);
-  return img ? '<img class="rank-thumb" src="' + esc(img) + '" alt="" loading="lazy" />' : '';
+  if (!img) return '';
+  const cls = 'rank-thumb' + (entityIsFlag(name) ? ' flag-img' : '');
+  return '<img class="' + cls + '" src="' + esc(img) + '" alt="" loading="lazy" />';
 }
 // 推移グラフ（複数期間があるトピックだけ）。上位5件を折れ線で描く。手書きSVG・ライブラリ無し。
 var TREND_COLORS = ['#1e6f5c', '#d8823a', '#3a7ca5', '#b0577d', '#7a8b3a'];
@@ -498,7 +507,7 @@ function entityDetailHtml(slug) {
         ? '<div class="ac-meta"><a class="tag" href="/entity-type/' + esc(entity.type) + '">' + esc(typeLabel) + '</a></div>'
         : '') +
       '<h1 class="article-h1">' + esc(entity.name) + '</h1>' +
-      (entity.image ? '<img class="article-hero entity-hero" src="' + esc(entity.image) + '" alt="' + esc(entity.name) + '" loading="lazy" />' : '') +
+      (entity.image ? '<img class="article-hero entity-hero' + (entity.type === 'country' ? ' flag-img' : '') + '" src="' + esc(entity.image) + '" alt="' + esc(entity.name) + '" loading="lazy" />' : '') +
       (entity.description ? '<p class="article-lead">' + richText(entity.description) + '</p>' : '') +
       '<h2 class="section-h article-section-h">' + esc(entity.name) + 'が登場するランキング</h2>' +
       (appearances.length

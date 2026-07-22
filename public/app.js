@@ -427,15 +427,35 @@ function trendChartHtml(topic) {
   const xAt = function (i) { return left + (right - left) * (n === 1 ? 0.5 : i / (n - 1)); };
   const yAt = function (v) { return bottom - (bottom - padTop) * (v - yMin) / ((yMax - yMin) || 1); };
 
+  // Y軸の目盛りは生の桁数のまま出すと(人口の億単位など)ケタが多すぎて読みにくいため、
+  // 単位がすでに「億」「万」等で始まる(GDPの「億ドル」等、値が既に縮約済み)場合を除き、
+  // 億/万の単位で丸めて表示する。
+  const axisUnit = topic.unit || '';
+  const alreadyScaled = /^(億|万)/.test(axisUnit);
+  const fmtAxis = function (v) {
+    const n = Math.round(v);
+    if (!alreadyScaled) {
+      const abs = Math.abs(n);
+      if (abs >= 100000000) return (n / 100000000).toFixed(1).replace(/\.0$/, '') + '億';
+      if (abs >= 10000) return (n / 10000).toFixed(1).replace(/\.0$/, '') + '万';
+    }
+    return fmt(n);
+  };
   let grid = '';
   for (let g = 0; g <= 4; g++) {
     const v = yMin + (yMax - yMin) * g / 4;
     const y = yAt(v);
     grid += '<line class="chart-grid" x1="' + left + '" y1="' + y + '" x2="' + right + '" y2="' + y + '" />';
-    grid += '<text class="chart-axis" x="' + (left - 8) + '" y="' + (y + 4) + '" text-anchor="end">' + fmt(Math.round(v)) + '</text>';
+    grid += '<text class="chart-axis" x="' + (left - 8) + '" y="' + (y + 4) + '" text-anchor="end">' + fmtAxis(v) + '</text>';
   }
+  // 期間数が多い記事(数十年分など)ではラベルを全部出すと重なって読めなくなるため、
+  // 目安8個程度に収まるよう間引く。最後(最新)のラベルは必ず表示する。
   let xlabels = '';
+  const MAX_LABELS = 8;
+  const step = Math.max(1, Math.ceil(n / MAX_LABELS));
   labels.forEach(function (lab, i) {
+    const isLast = i === n - 1;
+    if (i % step !== 0 && !isLast) return;
     xlabels += '<text class="chart-axis" x="' + xAt(i) + '" y="' + (bottom + 20) + '" text-anchor="middle">' + esc(String(lab)) + '</text>';
   });
   let lines = '';

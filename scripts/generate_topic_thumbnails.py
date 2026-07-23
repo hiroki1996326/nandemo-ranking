@@ -97,6 +97,7 @@ TOPIC_HINT = {
     'todofuken-rinsetsu-kensu': 'aerial view of mountain valleys and winding borders, patchwork landscape from above, topographic',
     'todofuken-heikin-nenshu': 'modern city skyline financial district, office towers, briefcase and coins, business district at dusk',
     'todofuken-heikin-jumyo': 'elderly and young people walking together in a peaceful Japanese park, warm sunlight, healthy longevity',
+    'todofuken-shusshoritsu': 'parent and small child holding hands, soft warm sunlight, gentle family moment, Japanese neighborhood',
 }
 
 CATEGORY_HINT = {

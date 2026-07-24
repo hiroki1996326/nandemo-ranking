@@ -100,6 +100,7 @@ TOPIC_HINT = {
     'todofuken-shusshoritsu': 'parent and small child holding hands, soft warm sunlight, gentle family moment, Japanese neighborhood',
     'todofuken-saitei-chingin': 'pay envelope and coins on a desk, calculator, wallet, work and wages theme, clean office lighting',
     'todofuken-shima-no-kazu': 'aerial view of scattered small islands in turquoise sea, archipelago from above, coastal islets',
+    'todofuken-kaigansen-nagasa': 'aerial view of a rugged rocky coastline with winding bays and inlets, waves meeting cliffs, dramatic shoreline from above',
 }
 
 CATEGORY_HINT = {

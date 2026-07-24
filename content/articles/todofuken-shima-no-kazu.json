@@ -1,0 +1,240 @@
+{
+  "id": "todofuken-shima-no-kazu",
+  "title": "都道府県別 島の数ランキング",
+  "category": "chiri",
+  "unit": "島",
+  "source": "国土地理院「我が国の島の数一覧」（令和5年公表、令和4年1月時点の電子国土基本図による計数）",
+  "sourceUrl": "https://www.gsi.go.jp/kihonjohochousa/islands_index.html",
+  "updateFrequency": "static",
+  "updatedAt": "2026-07-24",
+  "lead": "都道府県別の島の数が最も多いのは長崎県で1,479島。2位北海道（1,473島）とはわずか6島差で、3位鹿児島県（1,256島）と続く。国土地理院が地図データの精緻化により2023年に再計測した最新値で、全国合計は14,125島。全47都道府県を掲載している。",
+  "commentary": "2023年の再計測以前は「海上保安庁が1987年に公表した6,852島」が長年の定説だったが、電子地図データを使った精緻な計数により、島の数はその2倍以上の14,125島に改められた。",
+  "analysisHeading": "長崎と北海道が僅差の首位争い、内陸7県と大阪府は島がゼロ",
+  "analysis": [
+    "長崎県の島の数は1,479島で全国1位。2位北海道（1,473島）との差はわずか6島で、両道県が突出して多い。3位鹿児島県（1,256島）を含めた上位3県で4,208島となり、全国14,125島の約3割を占める。",
+    "島の数が0の都道府県は9つ。栃木県・群馬県・埼玉県・山梨県・長野県・岐阜県・滋賀県・奈良県の内陸7県に加え、海に面している**大阪府**も島が0とされている。",
+    "上位10県のうち4位岩手県（861島）・7位和歌山県（655島）・9位島根県（600島）など、複雑なリアス海岸や多島海を持つ地域が多く含まれている。"
+  ],
+  "sections": [
+    {
+      "h2": "2023年、島の数の定説が2倍以上に改められた"
+    },
+    {
+      "p": "長年「日本の島は6,852」という1987年公表の海上保安庁の数値が定説とされてきたが、国土地理院が電子地図データ（電子国土基本図）を用いて改めて計数した結果、2023年に**14,125島**という新しい値が公表された。測量技術の進歩により、従来の地図では表現しきれていなかった小さな島が数多く認識されるようになったことが主な理由とされている。"
+    },
+    {
+      "h2": "海に面していても島がゼロの大阪府"
+    },
+    {
+      "p": "島の数が0の9都道府県のうち、栃木・群馬・埼玉・山梨・長野・岐阜・滋賀・奈良の8県は海に面しない内陸県で、島がないのは当然といえる。一方**大阪府**は大阪湾に面しているにもかかわらず島が0とされている。これは、この計数が人工島・埋立地を含まない「自然の地形である島」のみを対象としているため、大阪湾内に条件を満たす自然の島が存在しないことによる。"
+    },
+    {
+      "h2": "2県にまたがる島は両県でカウントされる"
+    },
+    {
+      "p": "京都府・兵庫県・岡山県・広島県・山口県・徳島県・香川県・愛媛県・高知県・福井県の10府県には、隣接する県との境界にまたがる島が含まれており、それらは**両方の県の数に重複して計上**されている（例: 京都府111島のうち1島は兵庫県と共有）。そのため、47都道府県の数値を単純に合計すると全国公式値の14,125をわずかに上回る。"
+    }
+  ],
+  "data": [
+    {
+      "period": null,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 1473
+        },
+        {
+          "entity": "aomori",
+          "value": 264
+        },
+        {
+          "entity": "iwate",
+          "value": 861
+        },
+        {
+          "entity": "miyagi",
+          "value": 666
+        },
+        {
+          "entity": "akita",
+          "value": 144
+        },
+        {
+          "entity": "yamagata",
+          "value": 82
+        },
+        {
+          "entity": "fukushima",
+          "value": 18
+        },
+        {
+          "entity": "ibaraki",
+          "value": 13
+        },
+        {
+          "entity": "tochigi",
+          "value": 0
+        },
+        {
+          "entity": "gunma",
+          "value": 0
+        },
+        {
+          "entity": "saitama",
+          "value": 0
+        },
+        {
+          "entity": "chiba",
+          "value": 244
+        },
+        {
+          "entity": "tokyo",
+          "value": 635
+        },
+        {
+          "entity": "kanagawa",
+          "value": 97
+        },
+        {
+          "entity": "niigata",
+          "value": 333
+        },
+        {
+          "entity": "toyama",
+          "value": 5
+        },
+        {
+          "entity": "ishikawa",
+          "value": 251
+        },
+        {
+          "entity": "fukui",
+          "value": 180
+        },
+        {
+          "entity": "yamanashi",
+          "value": 0
+        },
+        {
+          "entity": "nagano",
+          "value": 0
+        },
+        {
+          "entity": "gifu",
+          "value": 0
+        },
+        {
+          "entity": "shizuoka",
+          "value": 243
+        },
+        {
+          "entity": "aichi",
+          "value": 61
+        },
+        {
+          "entity": "mie",
+          "value": 540
+        },
+        {
+          "entity": "shiga",
+          "value": 0
+        },
+        {
+          "entity": "kyoto",
+          "value": 111
+        },
+        {
+          "entity": "osaka",
+          "value": 0
+        },
+        {
+          "entity": "hyogo",
+          "value": 203
+        },
+        {
+          "entity": "nara",
+          "value": 0
+        },
+        {
+          "entity": "wakayama",
+          "value": 655
+        },
+        {
+          "entity": "tottori",
+          "value": 52
+        },
+        {
+          "entity": "shimane",
+          "value": 600
+        },
+        {
+          "entity": "okayama",
+          "value": 102
+        },
+        {
+          "entity": "hiroshima",
+          "value": 171
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 396
+        },
+        {
+          "entity": "tokushima",
+          "value": 206
+        },
+        {
+          "entity": "kagawa",
+          "value": 133
+        },
+        {
+          "entity": "ehime",
+          "value": 391
+        },
+        {
+          "entity": "kochi",
+          "value": 400
+        },
+        {
+          "entity": "fukuoka",
+          "value": 115
+        },
+        {
+          "entity": "saga",
+          "value": 71
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1479
+        },
+        {
+          "entity": "kumamoto",
+          "value": 299
+        },
+        {
+          "entity": "oita",
+          "value": 285
+        },
+        {
+          "entity": "miyazaki",
+          "value": 403
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1256
+        },
+        {
+          "entity": "okinawa",
+          "value": 691
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "nagasaki": "島の数1,479島で全国1位。五島列島・壱岐・対馬など多数の離島を抱える。",
+    "hokkaido": "島の数1,473島で全国2位。1位長崎県との差はわずか6島。",
+    "kagoshima": "島の数1,256島で全国3位。奄美群島やトカラ列島など南北に長い島しょ部を持つ。",
+    "osaka": "海に面しているが、自然地形の島は0とされている唯一の沿岸都道府県。",
+    "iwate": "島の数861島で全国4位。複雑なリアス海岸に多数の島が点在する。"
+  }
+}

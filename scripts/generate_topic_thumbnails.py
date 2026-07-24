@@ -98,6 +98,7 @@ TOPIC_HINT = {
     'todofuken-heikin-nenshu': 'modern city skyline financial district, office towers, briefcase and coins, business district at dusk',
     'todofuken-heikin-jumyo': 'elderly and young people walking together in a peaceful Japanese park, warm sunlight, healthy longevity',
     'todofuken-shusshoritsu': 'parent and small child holding hands, soft warm sunlight, gentle family moment, Japanese neighborhood',
+    'todofuken-saitei-chingin': 'pay envelope and coins on a desk, calculator, wallet, work and wages theme, clean office lighting',
 }
 
 CATEGORY_HINT = {

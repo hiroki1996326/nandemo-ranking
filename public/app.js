@@ -468,6 +468,10 @@ function trendChartHtml(topic) {
     if (i % step !== 0 && !isLast) return;
     xlabels += '<text class="chart-axis" x="' + xAt(i) + '" y="' + (bottom + 20) + '" text-anchor="middle">' + esc(String(lab)) + '</text>';
   });
+  // 点は線の補助なので控えめに。期間数が多いと点同士がくっついて線が団子状に
+  // 見えるため、点の間隔が最低18px空くよう間引く(最新の点は必ず打つ)。
+  const xGap = (right - left) / Math.max(1, n - 1);
+  const dotStep = Math.max(1, Math.ceil(18 / (xGap || 18)));
   let lines = '';
   series.forEach(function (s, si) {
     const color = TREND_COLORS[si % TREND_COLORS.length];
@@ -477,7 +481,9 @@ function trendChartHtml(topic) {
       const x = xAt(i), y = yAt(v);
       d += (started ? ' L' : 'M') + x + ' ' + y;
       started = true;
-      dots += '<circle cx="' + x + '" cy="' + y + '" r="3" fill="' + color + '" />';
+      if (i % dotStep === 0 || i === n - 1) {
+        dots += '<circle class="chart-dot" cx="' + x + '" cy="' + y + '" r="2" fill="' + color + '" />';
+      }
     });
     lines += '<path d="' + d + '" fill="none" stroke="' + color + '" stroke-width="2" />' + dots;
   });

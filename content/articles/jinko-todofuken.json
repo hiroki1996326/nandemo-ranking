@@ -3,32 +3,4146 @@
   "title": "都道府県別 人口ランキング",
   "category": "jinko",
   "unit": "人",
-  "source": "総務省統計局 人口推計",
-  "sourceUrl": "https://www.stat.go.jp/",
-  "updateFrequency": "yearly",
-  "updatedAt": "2025-10-01",
-  "lead": "2025年10月1日時点の推計人口で最も多いのは東京都（約1,424万人）。2位神奈川県（約919万人）に500万人以上の差をつけている。",
-  "commentary": "首都圏（東京・神奈川・埼玉・千葉）4都県が上位6位以内に入り、人口の集中がうかがえる。",
-  "analysisHeading": "東京都が突出、上位10県のうち首都圏4都県が集中",
+  "source": "総務省統計局「国勢調査」（1920年〜2020年）、「令和7年国勢調査 人口速報集計」（2025年）。1945年は「昭和20年人口調査」による",
+  "sourceUrl": "https://www.stat.go.jp/data/kokusei/",
+  "updateFrequency": "irregular",
+  "updatedAt": "2026-07-24",
+  "lead": "2025年国勢調査（人口速報集計）による都道府県別人口が最も多いのは東京都で14,246,219人。2位神奈川県（9,193,657人）、3位大阪府（8,764,578人）と続く。1920年（大正9年）の第1回国勢調査から2025年まで、5年ごと22回分の人口を全47都道府県について掲載している。",
+  "commentary": "2020年からの5年間で人口が増えたのは東京都（198,621人増）と沖縄県（740人増）の2都県のみで、45道府県が減少した。全国では3,096,575人（2.45%）減り、123,049,524人となっている。",
+  "analysisHeading": "45道府県がすでに人口のピークを過ぎ、過去最多を更新したのは東京都と沖縄県のみ",
   "analysis": [
-    "東京都の人口は14,246,219人で、2位神奈川県（9,193,657人）の約1.5倍。3位大阪府（8,764,578人）までの上位3都府県が800万人を超える。",
-    "4位愛知県（7,449,403人）・5位埼玉県（7,287,169人）は700万人台で僅差。上位10都道府県のうち首都圏の東京・神奈川・埼玉・千葉の4都県が入っており、10位静岡県（3,468,845人）は1位東京都の4分の1以下の規模になる。"
+    "東京都の人口は14,246,219人で全国1位。2位神奈川県（9,193,657人）との差は約505万人あり、3位大阪府（8,764,578人）を加えた上位3都府県だけで全国人口の**26.2%**を占める。",
+    "22回の調査を通じて、2025年の人口が過去最多となっているのは東京都と沖縄県の2都県のみ。残る45道府県はすでに人口のピークを過ぎており、**島根県・高知県・秋田県の3県は、105年前の1920年を下回る人口**にまで戻っている。",
+    "1920年からの順位変動をみると、神奈川県が15位から2位、埼玉県が16位から5位、沖縄県が45位から25位へ上昇した。一方で鹿児島県は11位から24位、北海道は3位から9位、島根県は36位から46位へ下げている。"
+  ],
+  "sections": [
+    {
+      "h2": "106年間で東京都が1位を譲ったのは1945年の一度だけ"
+    },
+    {
+      "p": "1920年の第1回から2025年まで22回の調査のうち、東京都が1位でなかったのは1945年（昭和20年）だけである。この年、東京都の人口は1940年の7,354,971人から3,488,284人へと**52.6%減少**し、3,518,389人だった北海道が全国1位となった。戦時中の疎開と空襲による人口流出が原因で、5年後の1950年には6,277,500人まで回復し、東京都が再び1位に戻っている。"
+    },
+    {
+      "h2": "1945年の数値は「国勢調査」ではなく簡易な「人口調査」"
+    },
+    {
+      "p": "1945年（昭和20年）に予定されていた国勢調査は、戦況の悪化を理由に同年2月の法律で中止された。この年の数値は、同年11月1日に簡易な方式で実施された**「昭和20年人口調査」**によるものである。この調査では沖縄県が対象外となったため、1945年のみ**46道府県**の数値となっている。"
+    },
+    {
+      "h2": "神奈川県が2010年に大阪府を抜いて2位に"
+    },
+    {
+      "p": "2位の座は長く大阪府が保っていたが、2010年の調査で**神奈川県**が大阪府を上回り、以降4回連続で2位を維持している。神奈川県は1920年には15位だったが、東京都に隣接する住宅地としての開発が進み、1970年に3位、2010年に2位へと順位を上げてきた。2025年時点では神奈川県も5年間で43,676人減少しており、2位と3位がともに減少局面にある。"
+    },
+    {
+      "h2": "11県は1950年代がピーク、秋田県は最盛期から3分の1以上減った"
+    },
+    {
+      "p": "人口が最も多かった調査年を都道府県別にみると、**秋田県・島根県・高知県・山口県・鹿児島県など11県が1950年代**でピークを迎えている。秋田県は1955年の1,348,871人から2025年の882,100人へと**34.6%減少**し、ピークからの減少率が全国で最も大きい。一方、千葉県・埼玉県・神奈川県・愛知県・滋賀県・福岡県の6県が2020年、東京都と沖縄県が2025年にピークを迎えており、ピーク時期は地域によって70年の開きがある。"
+    },
+    {
+      "h2": "鳥取県は22回すべてで最下位"
+    },
+    {
+      "p": "1920年の第1回から2025年まで、**鳥取県**は22回すべての調査で人口が全国最少となっている。2025年の人口は523,732人で、1位東京都のおよそ**27分の1**にあたる。2番目に人口が少ない島根県も、1975年以降は11回連続で46位が続いており、下位2県の顔ぶれは50年間変わっていない。"
+    },
+    {
+      "table": {
+        "headers": [
+          "都道府県",
+          "1920年",
+          "1945年",
+          "1970年",
+          "2025年"
+        ],
+        "rows": [
+          [
+            "東京都",
+            "3,699,428",
+            "3,488,284",
+            "11,408,071",
+            "14,246,219"
+          ],
+          [
+            "神奈川県",
+            "1,323,390",
+            "1,865,667",
+            "5,472,247",
+            "9,193,657"
+          ],
+          [
+            "北海道",
+            "2,359,183",
+            "3,518,389",
+            "5,184,287",
+            "4,985,419"
+          ],
+          [
+            "秋田県",
+            "898,537",
+            "1,211,871",
+            "1,241,376",
+            "882,100"
+          ],
+          [
+            "全国",
+            "55,963,053",
+            "71,998,104",
+            "104,665,171",
+            "123,049,524"
+          ]
+        ],
+        "caption": "単位: 人。1945年は「昭和20年人口調査」による。出典: 総務省統計局 国勢調査"
+      }
+    }
   ],
   "data": [
     {
-      "period": 2024,
+      "period": 1920,
       "entries": [
         {
-          "entity": "kanagawa",
-          "value": 9225000
+          "entity": "hokkaido",
+          "value": 2359183
         },
         {
-          "entity": "osaka",
-          "value": 8757000
+          "entity": "aomori",
+          "value": 756454
+        },
+        {
+          "entity": "iwate",
+          "value": 845540
+        },
+        {
+          "entity": "miyagi",
+          "value": 961768
+        },
+        {
+          "entity": "akita",
+          "value": 898537
+        },
+        {
+          "entity": "yamagata",
+          "value": 968925
+        },
+        {
+          "entity": "fukushima",
+          "value": 1362750
+        },
+        {
+          "entity": "ibaraki",
+          "value": 1350400
+        },
+        {
+          "entity": "tochigi",
+          "value": 1046479
+        },
+        {
+          "entity": "gunma",
+          "value": 1052610
+        },
+        {
+          "entity": "saitama",
+          "value": 1319533
+        },
+        {
+          "entity": "chiba",
+          "value": 1336155
         },
         {
           "entity": "tokyo",
-          "value": 14178000
+          "value": 3699428
+        },
+        {
+          "entity": "kanagawa",
+          "value": 1323390
+        },
+        {
+          "entity": "niigata",
+          "value": 1776474
+        },
+        {
+          "entity": "toyama",
+          "value": 724276
+        },
+        {
+          "entity": "ishikawa",
+          "value": 747360
+        },
+        {
+          "entity": "fukui",
+          "value": 599155
+        },
+        {
+          "entity": "yamanashi",
+          "value": 583453
+        },
+        {
+          "entity": "nagano",
+          "value": 1562722
+        },
+        {
+          "entity": "gifu",
+          "value": 1070407
+        },
+        {
+          "entity": "shizuoka",
+          "value": 1550387
+        },
+        {
+          "entity": "aichi",
+          "value": 2089762
+        },
+        {
+          "entity": "mie",
+          "value": 1069270
+        },
+        {
+          "entity": "shiga",
+          "value": 651050
+        },
+        {
+          "entity": "kyoto",
+          "value": 1287147
+        },
+        {
+          "entity": "osaka",
+          "value": 2587847
+        },
+        {
+          "entity": "hyogo",
+          "value": 2301799
+        },
+        {
+          "entity": "nara",
+          "value": 564607
+        },
+        {
+          "entity": "wakayama",
+          "value": 750411
+        },
+        {
+          "entity": "tottori",
+          "value": 454675
+        },
+        {
+          "entity": "shimane",
+          "value": 714712
+        },
+        {
+          "entity": "okayama",
+          "value": 1217698
+        },
+        {
+          "entity": "hiroshima",
+          "value": 1541905
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1041013
+        },
+        {
+          "entity": "tokushima",
+          "value": 670212
+        },
+        {
+          "entity": "kagawa",
+          "value": 677852
+        },
+        {
+          "entity": "ehime",
+          "value": 1046720
+        },
+        {
+          "entity": "kochi",
+          "value": 670895
+        },
+        {
+          "entity": "fukuoka",
+          "value": 2188249
+        },
+        {
+          "entity": "saga",
+          "value": 673895
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1136182
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1233233
+        },
+        {
+          "entity": "oita",
+          "value": 860282
+        },
+        {
+          "entity": "miyazaki",
+          "value": 651097
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1415582
+        },
+        {
+          "entity": "okinawa",
+          "value": 571572
+        }
+      ]
+    },
+    {
+      "period": 1925,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 2498679
+        },
+        {
+          "entity": "aomori",
+          "value": 812977
+        },
+        {
+          "entity": "iwate",
+          "value": 900984
+        },
+        {
+          "entity": "miyagi",
+          "value": 1044036
+        },
+        {
+          "entity": "akita",
+          "value": 936408
+        },
+        {
+          "entity": "yamagata",
+          "value": 1027297
+        },
+        {
+          "entity": "fukushima",
+          "value": 1437596
+        },
+        {
+          "entity": "ibaraki",
+          "value": 1409092
+        },
+        {
+          "entity": "tochigi",
+          "value": 1090428
+        },
+        {
+          "entity": "gunma",
+          "value": 1118858
+        },
+        {
+          "entity": "saitama",
+          "value": 1394461
+        },
+        {
+          "entity": "chiba",
+          "value": 1399257
+        },
+        {
+          "entity": "tokyo",
+          "value": 4485144
+        },
+        {
+          "entity": "kanagawa",
+          "value": 1416792
+        },
+        {
+          "entity": "niigata",
+          "value": 1849807
+        },
+        {
+          "entity": "toyama",
+          "value": 749243
+        },
+        {
+          "entity": "ishikawa",
+          "value": 750854
+        },
+        {
+          "entity": "fukui",
+          "value": 597899
+        },
+        {
+          "entity": "yamanashi",
+          "value": 600675
+        },
+        {
+          "entity": "nagano",
+          "value": 1629217
+        },
+        {
+          "entity": "gifu",
+          "value": 1132557
+        },
+        {
+          "entity": "shizuoka",
+          "value": 1671217
+        },
+        {
+          "entity": "aichi",
+          "value": 2319494
+        },
+        {
+          "entity": "mie",
+          "value": 1107692
+        },
+        {
+          "entity": "shiga",
+          "value": 662412
+        },
+        {
+          "entity": "kyoto",
+          "value": 1406382
+        },
+        {
+          "entity": "osaka",
+          "value": 3059502
+        },
+        {
+          "entity": "hyogo",
+          "value": 2454679
+        },
+        {
+          "entity": "nara",
+          "value": 583828
+        },
+        {
+          "entity": "wakayama",
+          "value": 787511
+        },
+        {
+          "entity": "tottori",
+          "value": 472230
+        },
+        {
+          "entity": "shimane",
+          "value": 722402
+        },
+        {
+          "entity": "okayama",
+          "value": 1238447
+        },
+        {
+          "entity": "hiroshima",
+          "value": 1617680
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1094544
+        },
+        {
+          "entity": "tokushima",
+          "value": 689814
+        },
+        {
+          "entity": "kagawa",
+          "value": 700308
+        },
+        {
+          "entity": "ehime",
+          "value": 1096366
+        },
+        {
+          "entity": "kochi",
+          "value": 687478
+        },
+        {
+          "entity": "fukuoka",
+          "value": 2301668
+        },
+        {
+          "entity": "saga",
+          "value": 684831
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1163945
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1296086
+        },
+        {
+          "entity": "oita",
+          "value": 915136
+        },
+        {
+          "entity": "miyazaki",
+          "value": 691094
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1472193
+        },
+        {
+          "entity": "okinawa",
+          "value": 557622
+        }
+      ]
+    },
+    {
+      "period": 1930,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 2812335
+        },
+        {
+          "entity": "aomori",
+          "value": 879914
+        },
+        {
+          "entity": "iwate",
+          "value": 975771
+        },
+        {
+          "entity": "miyagi",
+          "value": 1142784
+        },
+        {
+          "entity": "akita",
+          "value": 987706
+        },
+        {
+          "entity": "yamagata",
+          "value": 1080034
+        },
+        {
+          "entity": "fukushima",
+          "value": 1508150
+        },
+        {
+          "entity": "ibaraki",
+          "value": 1487097
+        },
+        {
+          "entity": "tochigi",
+          "value": 1141737
+        },
+        {
+          "entity": "gunma",
+          "value": 1186080
+        },
+        {
+          "entity": "saitama",
+          "value": 1459172
+        },
+        {
+          "entity": "chiba",
+          "value": 1470121
+        },
+        {
+          "entity": "tokyo",
+          "value": 5408678
+        },
+        {
+          "entity": "kanagawa",
+          "value": 1619606
+        },
+        {
+          "entity": "niigata",
+          "value": 1933326
+        },
+        {
+          "entity": "toyama",
+          "value": 778953
+        },
+        {
+          "entity": "ishikawa",
+          "value": 756835
+        },
+        {
+          "entity": "fukui",
+          "value": 618144
+        },
+        {
+          "entity": "yamanashi",
+          "value": 631042
+        },
+        {
+          "entity": "nagano",
+          "value": 1717118
+        },
+        {
+          "entity": "gifu",
+          "value": 1178405
+        },
+        {
+          "entity": "shizuoka",
+          "value": 1797805
+        },
+        {
+          "entity": "aichi",
+          "value": 2567413
+        },
+        {
+          "entity": "mie",
+          "value": 1157407
+        },
+        {
+          "entity": "shiga",
+          "value": 691631
+        },
+        {
+          "entity": "kyoto",
+          "value": 1552832
+        },
+        {
+          "entity": "osaka",
+          "value": 3540017
+        },
+        {
+          "entity": "hyogo",
+          "value": 2646301
+        },
+        {
+          "entity": "nara",
+          "value": 596225
+        },
+        {
+          "entity": "wakayama",
+          "value": 830748
+        },
+        {
+          "entity": "tottori",
+          "value": 489266
+        },
+        {
+          "entity": "shimane",
+          "value": 739507
+        },
+        {
+          "entity": "okayama",
+          "value": 1283962
+        },
+        {
+          "entity": "hiroshima",
+          "value": 1692136
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1135637
+        },
+        {
+          "entity": "tokushima",
+          "value": 716544
+        },
+        {
+          "entity": "kagawa",
+          "value": 732816
+        },
+        {
+          "entity": "ehime",
+          "value": 1142122
+        },
+        {
+          "entity": "kochi",
+          "value": 718152
+        },
+        {
+          "entity": "fukuoka",
+          "value": 2527119
+        },
+        {
+          "entity": "saga",
+          "value": 691565
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1233362
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1353993
+        },
+        {
+          "entity": "oita",
+          "value": 945771
+        },
+        {
+          "entity": "miyazaki",
+          "value": 760467
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1556690
+        },
+        {
+          "entity": "okinawa",
+          "value": 577509
+        }
+      ]
+    },
+    {
+      "period": 1935,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 3068282
+        },
+        {
+          "entity": "aomori",
+          "value": 967129
+        },
+        {
+          "entity": "iwate",
+          "value": 1046111
+        },
+        {
+          "entity": "miyagi",
+          "value": 1234801
+        },
+        {
+          "entity": "akita",
+          "value": 1037744
+        },
+        {
+          "entity": "yamagata",
+          "value": 1116822
+        },
+        {
+          "entity": "fukushima",
+          "value": 1581563
+        },
+        {
+          "entity": "ibaraki",
+          "value": 1548991
+        },
+        {
+          "entity": "tochigi",
+          "value": 1195057
+        },
+        {
+          "entity": "gunma",
+          "value": 1242453
+        },
+        {
+          "entity": "saitama",
+          "value": 1528854
+        },
+        {
+          "entity": "chiba",
+          "value": 1546394
+        },
+        {
+          "entity": "tokyo",
+          "value": 6369919
+        },
+        {
+          "entity": "kanagawa",
+          "value": 1840005
+        },
+        {
+          "entity": "niigata",
+          "value": 1995777
+        },
+        {
+          "entity": "toyama",
+          "value": 798890
+        },
+        {
+          "entity": "ishikawa",
+          "value": 768416
+        },
+        {
+          "entity": "fukui",
+          "value": 646659
+        },
+        {
+          "entity": "yamanashi",
+          "value": 646727
+        },
+        {
+          "entity": "nagano",
+          "value": 1714000
+        },
+        {
+          "entity": "gifu",
+          "value": 1225799
+        },
+        {
+          "entity": "shizuoka",
+          "value": 1939860
+        },
+        {
+          "entity": "aichi",
+          "value": 2862701
+        },
+        {
+          "entity": "mie",
+          "value": 1174595
+        },
+        {
+          "entity": "shiga",
+          "value": 711436
+        },
+        {
+          "entity": "kyoto",
+          "value": 1702508
+        },
+        {
+          "entity": "osaka",
+          "value": 4297174
+        },
+        {
+          "entity": "hyogo",
+          "value": 2923249
+        },
+        {
+          "entity": "nara",
+          "value": 620471
+        },
+        {
+          "entity": "wakayama",
+          "value": 864087
+        },
+        {
+          "entity": "tottori",
+          "value": 490461
+        },
+        {
+          "entity": "shimane",
+          "value": 747119
+        },
+        {
+          "entity": "okayama",
+          "value": 1332647
+        },
+        {
+          "entity": "hiroshima",
+          "value": 1804916
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1190542
+        },
+        {
+          "entity": "tokushima",
+          "value": 728748
+        },
+        {
+          "entity": "kagawa",
+          "value": 748656
+        },
+        {
+          "entity": "ehime",
+          "value": 1164898
+        },
+        {
+          "entity": "kochi",
+          "value": 714980
+        },
+        {
+          "entity": "fukuoka",
+          "value": 2755804
+        },
+        {
+          "entity": "saga",
+          "value": 686117
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1296883
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1387054
+        },
+        {
+          "entity": "oita",
+          "value": 980458
+        },
+        {
+          "entity": "miyazaki",
+          "value": 824431
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1591466
+        },
+        {
+          "entity": "okinawa",
+          "value": 592494
+        }
+      ]
+    },
+    {
+      "period": 1940,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 3272718
+        },
+        {
+          "entity": "aomori",
+          "value": 1000509
+        },
+        {
+          "entity": "iwate",
+          "value": 1095793
+        },
+        {
+          "entity": "miyagi",
+          "value": 1271238
+        },
+        {
+          "entity": "akita",
+          "value": 1052275
+        },
+        {
+          "entity": "yamagata",
+          "value": 1119338
+        },
+        {
+          "entity": "fukushima",
+          "value": 1625521
+        },
+        {
+          "entity": "ibaraki",
+          "value": 1620000
+        },
+        {
+          "entity": "tochigi",
+          "value": 1206657
+        },
+        {
+          "entity": "gunma",
+          "value": 1299027
+        },
+        {
+          "entity": "saitama",
+          "value": 1608039
+        },
+        {
+          "entity": "chiba",
+          "value": 1588425
+        },
+        {
+          "entity": "tokyo",
+          "value": 7354971
+        },
+        {
+          "entity": "kanagawa",
+          "value": 2188974
+        },
+        {
+          "entity": "niigata",
+          "value": 2064402
+        },
+        {
+          "entity": "toyama",
+          "value": 822569
+        },
+        {
+          "entity": "ishikawa",
+          "value": 757676
+        },
+        {
+          "entity": "fukui",
+          "value": 643904
+        },
+        {
+          "entity": "yamanashi",
+          "value": 663026
+        },
+        {
+          "entity": "nagano",
+          "value": 1710729
+        },
+        {
+          "entity": "gifu",
+          "value": 1265024
+        },
+        {
+          "entity": "shizuoka",
+          "value": 2017860
+        },
+        {
+          "entity": "aichi",
+          "value": 3166592
+        },
+        {
+          "entity": "mie",
+          "value": 1198783
+        },
+        {
+          "entity": "shiga",
+          "value": 703679
+        },
+        {
+          "entity": "kyoto",
+          "value": 1729993
+        },
+        {
+          "entity": "osaka",
+          "value": 4792966
+        },
+        {
+          "entity": "hyogo",
+          "value": 3221232
+        },
+        {
+          "entity": "nara",
+          "value": 620509
+        },
+        {
+          "entity": "wakayama",
+          "value": 865074
+        },
+        {
+          "entity": "tottori",
+          "value": 484390
+        },
+        {
+          "entity": "shimane",
+          "value": 740940
+        },
+        {
+          "entity": "okayama",
+          "value": 1329358
+        },
+        {
+          "entity": "hiroshima",
+          "value": 1869504
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1294242
+        },
+        {
+          "entity": "tokushima",
+          "value": 718717
+        },
+        {
+          "entity": "kagawa",
+          "value": 730394
+        },
+        {
+          "entity": "ehime",
+          "value": 1178705
+        },
+        {
+          "entity": "kochi",
+          "value": 709286
+        },
+        {
+          "entity": "fukuoka",
+          "value": 3094132
+        },
+        {
+          "entity": "saga",
+          "value": 701517
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1370063
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1368179
+        },
+        {
+          "entity": "oita",
+          "value": 972975
+        },
+        {
+          "entity": "miyazaki",
+          "value": 840357
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1589467
+        },
+        {
+          "entity": "okinawa",
+          "value": 574579
+        }
+      ]
+    },
+    {
+      "period": 1945,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 3518389
+        },
+        {
+          "entity": "aomori",
+          "value": 1083250
+        },
+        {
+          "entity": "iwate",
+          "value": 1227789
+        },
+        {
+          "entity": "miyagi",
+          "value": 1462254
+        },
+        {
+          "entity": "akita",
+          "value": 1211871
+        },
+        {
+          "entity": "yamagata",
+          "value": 1326350
+        },
+        {
+          "entity": "fukushima",
+          "value": 1957356
+        },
+        {
+          "entity": "ibaraki",
+          "value": 1944344
+        },
+        {
+          "entity": "tochigi",
+          "value": 1546355
+        },
+        {
+          "entity": "gunma",
+          "value": 1546081
+        },
+        {
+          "entity": "saitama",
+          "value": 2047261
+        },
+        {
+          "entity": "chiba",
+          "value": 1966862
+        },
+        {
+          "entity": "tokyo",
+          "value": 3488284
+        },
+        {
+          "entity": "kanagawa",
+          "value": 1865667
+        },
+        {
+          "entity": "niigata",
+          "value": 2389653
+        },
+        {
+          "entity": "toyama",
+          "value": 953834
+        },
+        {
+          "entity": "ishikawa",
+          "value": 887510
+        },
+        {
+          "entity": "fukui",
+          "value": 724856
+        },
+        {
+          "entity": "yamanashi",
+          "value": 839057
+        },
+        {
+          "entity": "nagano",
+          "value": 2121050
+        },
+        {
+          "entity": "gifu",
+          "value": 1518649
+        },
+        {
+          "entity": "shizuoka",
+          "value": 2220358
+        },
+        {
+          "entity": "aichi",
+          "value": 2857851
+        },
+        {
+          "entity": "mie",
+          "value": 1394286
+        },
+        {
+          "entity": "shiga",
+          "value": 860911
+        },
+        {
+          "entity": "kyoto",
+          "value": 1603796
+        },
+        {
+          "entity": "osaka",
+          "value": 2800958
+        },
+        {
+          "entity": "hyogo",
+          "value": 2821892
+        },
+        {
+          "entity": "nara",
+          "value": 779685
+        },
+        {
+          "entity": "wakayama",
+          "value": 936006
+        },
+        {
+          "entity": "tottori",
+          "value": 563220
+        },
+        {
+          "entity": "shimane",
+          "value": 860275
+        },
+        {
+          "entity": "okayama",
+          "value": 1564626
+        },
+        {
+          "entity": "hiroshima",
+          "value": 1885471
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1356491
+        },
+        {
+          "entity": "tokushima",
+          "value": 835763
+        },
+        {
+          "entity": "kagawa",
+          "value": 863700
+        },
+        {
+          "entity": "ehime",
+          "value": 1361484
+        },
+        {
+          "entity": "kochi",
+          "value": 775578
+        },
+        {
+          "entity": "fukuoka",
+          "value": 2746855
+        },
+        {
+          "entity": "saga",
+          "value": 830431
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1318589
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1556490
+        },
+        {
+          "entity": "oita",
+          "value": 1124513
+        },
+        {
+          "entity": "miyazaki",
+          "value": 913687
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1538466
+        }
+      ]
+    },
+    {
+      "period": 1950,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 4295567
+        },
+        {
+          "entity": "aomori",
+          "value": 1282867
+        },
+        {
+          "entity": "iwate",
+          "value": 1346728
+        },
+        {
+          "entity": "miyagi",
+          "value": 1663442
+        },
+        {
+          "entity": "akita",
+          "value": 1309031
+        },
+        {
+          "entity": "yamagata",
+          "value": 1357347
+        },
+        {
+          "entity": "fukushima",
+          "value": 2062394
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2039418
+        },
+        {
+          "entity": "tochigi",
+          "value": 1550462
+        },
+        {
+          "entity": "gunma",
+          "value": 1601380
+        },
+        {
+          "entity": "saitama",
+          "value": 2146445
+        },
+        {
+          "entity": "chiba",
+          "value": 2139037
+        },
+        {
+          "entity": "tokyo",
+          "value": 6277500
+        },
+        {
+          "entity": "kanagawa",
+          "value": 2487665
+        },
+        {
+          "entity": "niigata",
+          "value": 2460997
+        },
+        {
+          "entity": "toyama",
+          "value": 1008790
+        },
+        {
+          "entity": "ishikawa",
+          "value": 957279
+        },
+        {
+          "entity": "fukui",
+          "value": 752374
+        },
+        {
+          "entity": "yamanashi",
+          "value": 811369
+        },
+        {
+          "entity": "nagano",
+          "value": 2060831
+        },
+        {
+          "entity": "gifu",
+          "value": 1544538
+        },
+        {
+          "entity": "shizuoka",
+          "value": 2471472
+        },
+        {
+          "entity": "aichi",
+          "value": 3390585
+        },
+        {
+          "entity": "mie",
+          "value": 1461197
+        },
+        {
+          "entity": "shiga",
+          "value": 861180
+        },
+        {
+          "entity": "kyoto",
+          "value": 1832934
+        },
+        {
+          "entity": "osaka",
+          "value": 3857047
+        },
+        {
+          "entity": "hyogo",
+          "value": 3309935
+        },
+        {
+          "entity": "nara",
+          "value": 763883
+        },
+        {
+          "entity": "wakayama",
+          "value": 982113
+        },
+        {
+          "entity": "tottori",
+          "value": 600177
+        },
+        {
+          "entity": "shimane",
+          "value": 912551
+        },
+        {
+          "entity": "okayama",
+          "value": 1661099
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2081967
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1540882
+        },
+        {
+          "entity": "tokushima",
+          "value": 878511
+        },
+        {
+          "entity": "kagawa",
+          "value": 946022
+        },
+        {
+          "entity": "ehime",
+          "value": 1521878
+        },
+        {
+          "entity": "kochi",
+          "value": 873874
+        },
+        {
+          "entity": "fukuoka",
+          "value": 3530169
+        },
+        {
+          "entity": "saga",
+          "value": 945082
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1645492
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1827582
+        },
+        {
+          "entity": "oita",
+          "value": 1252999
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1091427
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1804118
+        },
+        {
+          "entity": "okinawa",
+          "value": 914937
+        }
+      ]
+    },
+    {
+      "period": 1955,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 4773087
+        },
+        {
+          "entity": "aomori",
+          "value": 1382523
+        },
+        {
+          "entity": "iwate",
+          "value": 1427097
+        },
+        {
+          "entity": "miyagi",
+          "value": 1727065
+        },
+        {
+          "entity": "akita",
+          "value": 1348871
+        },
+        {
+          "entity": "yamagata",
+          "value": 1353649
+        },
+        {
+          "entity": "fukushima",
+          "value": 2095237
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2064037
+        },
+        {
+          "entity": "tochigi",
+          "value": 1547580
+        },
+        {
+          "entity": "gunma",
+          "value": 1613549
+        },
+        {
+          "entity": "saitama",
+          "value": 2262623
+        },
+        {
+          "entity": "chiba",
+          "value": 2205060
+        },
+        {
+          "entity": "tokyo",
+          "value": 8037084
+        },
+        {
+          "entity": "kanagawa",
+          "value": 2919497
+        },
+        {
+          "entity": "niigata",
+          "value": 2473492
+        },
+        {
+          "entity": "toyama",
+          "value": 1021121
+        },
+        {
+          "entity": "ishikawa",
+          "value": 966187
+        },
+        {
+          "entity": "fukui",
+          "value": 754055
+        },
+        {
+          "entity": "yamanashi",
+          "value": 807044
+        },
+        {
+          "entity": "nagano",
+          "value": 2021292
+        },
+        {
+          "entity": "gifu",
+          "value": 1583605
+        },
+        {
+          "entity": "shizuoka",
+          "value": 2650435
+        },
+        {
+          "entity": "aichi",
+          "value": 3769209
+        },
+        {
+          "entity": "mie",
+          "value": 1485582
+        },
+        {
+          "entity": "shiga",
+          "value": 853734
+        },
+        {
+          "entity": "kyoto",
+          "value": 1935161
+        },
+        {
+          "entity": "osaka",
+          "value": 4618308
+        },
+        {
+          "entity": "hyogo",
+          "value": 3620947
+        },
+        {
+          "entity": "nara",
+          "value": 776861
+        },
+        {
+          "entity": "wakayama",
+          "value": 1006819
+        },
+        {
+          "entity": "tottori",
+          "value": 614259
+        },
+        {
+          "entity": "shimane",
+          "value": 929066
+        },
+        {
+          "entity": "okayama",
+          "value": 1689800
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2149044
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1609839
+        },
+        {
+          "entity": "tokushima",
+          "value": 878109
+        },
+        {
+          "entity": "kagawa",
+          "value": 943823
+        },
+        {
+          "entity": "ehime",
+          "value": 1540628
+        },
+        {
+          "entity": "kochi",
+          "value": 882683
+        },
+        {
+          "entity": "fukuoka",
+          "value": 3859764
+        },
+        {
+          "entity": "saga",
+          "value": 973749
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1747596
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1895663
+        },
+        {
+          "entity": "oita",
+          "value": 1277199
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1139384
+        },
+        {
+          "entity": "kagoshima",
+          "value": 2044112
+        },
+        {
+          "entity": "okinawa",
+          "value": 801065
+        }
+      ]
+    },
+    {
+      "period": 1960,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 5039206
+        },
+        {
+          "entity": "aomori",
+          "value": 1426606
+        },
+        {
+          "entity": "iwate",
+          "value": 1448517
+        },
+        {
+          "entity": "miyagi",
+          "value": 1743195
+        },
+        {
+          "entity": "akita",
+          "value": 1335580
+        },
+        {
+          "entity": "yamagata",
+          "value": 1320664
+        },
+        {
+          "entity": "fukushima",
+          "value": 2051137
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2047024
+        },
+        {
+          "entity": "tochigi",
+          "value": 1513624
+        },
+        {
+          "entity": "gunma",
+          "value": 1578476
+        },
+        {
+          "entity": "saitama",
+          "value": 2430871
+        },
+        {
+          "entity": "chiba",
+          "value": 2306010
+        },
+        {
+          "entity": "tokyo",
+          "value": 9683802
+        },
+        {
+          "entity": "kanagawa",
+          "value": 3443176
+        },
+        {
+          "entity": "niigata",
+          "value": 2442037
+        },
+        {
+          "entity": "toyama",
+          "value": 1032614
+        },
+        {
+          "entity": "ishikawa",
+          "value": 973418
+        },
+        {
+          "entity": "fukui",
+          "value": 752696
+        },
+        {
+          "entity": "yamanashi",
+          "value": 782062
+        },
+        {
+          "entity": "nagano",
+          "value": 1981433
+        },
+        {
+          "entity": "gifu",
+          "value": 1638399
+        },
+        {
+          "entity": "shizuoka",
+          "value": 2756271
+        },
+        {
+          "entity": "aichi",
+          "value": 4206313
+        },
+        {
+          "entity": "mie",
+          "value": 1485054
+        },
+        {
+          "entity": "shiga",
+          "value": 842695
+        },
+        {
+          "entity": "kyoto",
+          "value": 1993403
+        },
+        {
+          "entity": "osaka",
+          "value": 5504746
+        },
+        {
+          "entity": "hyogo",
+          "value": 3906487
+        },
+        {
+          "entity": "nara",
+          "value": 781058
+        },
+        {
+          "entity": "wakayama",
+          "value": 1002191
+        },
+        {
+          "entity": "tottori",
+          "value": 599135
+        },
+        {
+          "entity": "shimane",
+          "value": 888886
+        },
+        {
+          "entity": "okayama",
+          "value": 1670454
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2184043
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1602207
+        },
+        {
+          "entity": "tokushima",
+          "value": 847274
+        },
+        {
+          "entity": "kagawa",
+          "value": 918867
+        },
+        {
+          "entity": "ehime",
+          "value": 1500687
+        },
+        {
+          "entity": "kochi",
+          "value": 854595
+        },
+        {
+          "entity": "fukuoka",
+          "value": 4006679
+        },
+        {
+          "entity": "saga",
+          "value": 942874
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1760421
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1856192
+        },
+        {
+          "entity": "oita",
+          "value": 1239655
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1134590
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1963104
+        },
+        {
+          "entity": "okinawa",
+          "value": 883122
+        }
+      ]
+    },
+    {
+      "period": 1965,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 5171800
+        },
+        {
+          "entity": "aomori",
+          "value": 1416591
+        },
+        {
+          "entity": "iwate",
+          "value": 1411118
+        },
+        {
+          "entity": "miyagi",
+          "value": 1753126
+        },
+        {
+          "entity": "akita",
+          "value": 1279835
+        },
+        {
+          "entity": "yamagata",
+          "value": 1263103
+        },
+        {
+          "entity": "fukushima",
+          "value": 1983754
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2056154
+        },
+        {
+          "entity": "tochigi",
+          "value": 1521656
+        },
+        {
+          "entity": "gunma",
+          "value": 1605584
+        },
+        {
+          "entity": "saitama",
+          "value": 3014983
+        },
+        {
+          "entity": "chiba",
+          "value": 2701770
+        },
+        {
+          "entity": "tokyo",
+          "value": 10869244
+        },
+        {
+          "entity": "kanagawa",
+          "value": 4430743
+        },
+        {
+          "entity": "niigata",
+          "value": 2398931
+        },
+        {
+          "entity": "toyama",
+          "value": 1025465
+        },
+        {
+          "entity": "ishikawa",
+          "value": 980499
+        },
+        {
+          "entity": "fukui",
+          "value": 750557
+        },
+        {
+          "entity": "yamanashi",
+          "value": 763194
+        },
+        {
+          "entity": "nagano",
+          "value": 1958007
+        },
+        {
+          "entity": "gifu",
+          "value": 1700365
+        },
+        {
+          "entity": "shizuoka",
+          "value": 2912521
+        },
+        {
+          "entity": "aichi",
+          "value": 4798653
+        },
+        {
+          "entity": "mie",
+          "value": 1514467
+        },
+        {
+          "entity": "shiga",
+          "value": 853385
+        },
+        {
+          "entity": "kyoto",
+          "value": 2102808
+        },
+        {
+          "entity": "osaka",
+          "value": 6657189
+        },
+        {
+          "entity": "hyogo",
+          "value": 4309944
+        },
+        {
+          "entity": "nara",
+          "value": 825965
+        },
+        {
+          "entity": "wakayama",
+          "value": 1026975
+        },
+        {
+          "entity": "tottori",
+          "value": 579853
+        },
+        {
+          "entity": "shimane",
+          "value": 821620
+        },
+        {
+          "entity": "okayama",
+          "value": 1645135
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2281146
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1543573
+        },
+        {
+          "entity": "tokushima",
+          "value": 815115
+        },
+        {
+          "entity": "kagawa",
+          "value": 900845
+        },
+        {
+          "entity": "ehime",
+          "value": 1446384
+        },
+        {
+          "entity": "kochi",
+          "value": 812714
+        },
+        {
+          "entity": "fukuoka",
+          "value": 3964611
+        },
+        {
+          "entity": "saga",
+          "value": 871885
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1641245
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1770736
+        },
+        {
+          "entity": "oita",
+          "value": 1187480
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1080692
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1853541
+        },
+        {
+          "entity": "okinawa",
+          "value": 934176
+        }
+      ]
+    },
+    {
+      "period": 1970,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 5184287
+        },
+        {
+          "entity": "aomori",
+          "value": 1427520
+        },
+        {
+          "entity": "iwate",
+          "value": 1371383
+        },
+        {
+          "entity": "miyagi",
+          "value": 1819223
+        },
+        {
+          "entity": "akita",
+          "value": 1241376
+        },
+        {
+          "entity": "yamagata",
+          "value": 1225618
+        },
+        {
+          "entity": "fukushima",
+          "value": 1946077
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2143551
+        },
+        {
+          "entity": "tochigi",
+          "value": 1580021
+        },
+        {
+          "entity": "gunma",
+          "value": 1658909
+        },
+        {
+          "entity": "saitama",
+          "value": 3866472
+        },
+        {
+          "entity": "chiba",
+          "value": 3366624
+        },
+        {
+          "entity": "tokyo",
+          "value": 11408071
+        },
+        {
+          "entity": "kanagawa",
+          "value": 5472247
+        },
+        {
+          "entity": "niigata",
+          "value": 2360982
+        },
+        {
+          "entity": "toyama",
+          "value": 1029695
+        },
+        {
+          "entity": "ishikawa",
+          "value": 1002420
+        },
+        {
+          "entity": "fukui",
+          "value": 744230
+        },
+        {
+          "entity": "yamanashi",
+          "value": 762029
+        },
+        {
+          "entity": "nagano",
+          "value": 1956917
+        },
+        {
+          "entity": "gifu",
+          "value": 1758954
+        },
+        {
+          "entity": "shizuoka",
+          "value": 3089895
+        },
+        {
+          "entity": "aichi",
+          "value": 5386163
+        },
+        {
+          "entity": "mie",
+          "value": 1543083
+        },
+        {
+          "entity": "shiga",
+          "value": 889768
+        },
+        {
+          "entity": "kyoto",
+          "value": 2250087
+        },
+        {
+          "entity": "osaka",
+          "value": 7620480
+        },
+        {
+          "entity": "hyogo",
+          "value": 4667928
+        },
+        {
+          "entity": "nara",
+          "value": 930160
+        },
+        {
+          "entity": "wakayama",
+          "value": 1042736
+        },
+        {
+          "entity": "tottori",
+          "value": 568777
+        },
+        {
+          "entity": "shimane",
+          "value": 773575
+        },
+        {
+          "entity": "okayama",
+          "value": 1707026
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2436135
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1511448
+        },
+        {
+          "entity": "tokushima",
+          "value": 791111
+        },
+        {
+          "entity": "kagawa",
+          "value": 907897
+        },
+        {
+          "entity": "ehime",
+          "value": 1418124
+        },
+        {
+          "entity": "kochi",
+          "value": 786882
+        },
+        {
+          "entity": "fukuoka",
+          "value": 4027416
+        },
+        {
+          "entity": "saga",
+          "value": 838468
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1570245
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1700229
+        },
+        {
+          "entity": "oita",
+          "value": 1155566
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1051105
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1729150
+        },
+        {
+          "entity": "okinawa",
+          "value": 945111
+        }
+      ]
+    },
+    {
+      "period": 1975,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 5338206
+        },
+        {
+          "entity": "aomori",
+          "value": 1468646
+        },
+        {
+          "entity": "iwate",
+          "value": 1385563
+        },
+        {
+          "entity": "miyagi",
+          "value": 1955267
+        },
+        {
+          "entity": "akita",
+          "value": 1232481
+        },
+        {
+          "entity": "yamagata",
+          "value": 1220302
+        },
+        {
+          "entity": "fukushima",
+          "value": 1970616
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2342198
+        },
+        {
+          "entity": "tochigi",
+          "value": 1698003
+        },
+        {
+          "entity": "gunma",
+          "value": 1756480
+        },
+        {
+          "entity": "saitama",
+          "value": 4821340
+        },
+        {
+          "entity": "chiba",
+          "value": 4149147
+        },
+        {
+          "entity": "tokyo",
+          "value": 11673554
+        },
+        {
+          "entity": "kanagawa",
+          "value": 6397748
+        },
+        {
+          "entity": "niigata",
+          "value": 2391938
+        },
+        {
+          "entity": "toyama",
+          "value": 1070791
+        },
+        {
+          "entity": "ishikawa",
+          "value": 1069872
+        },
+        {
+          "entity": "fukui",
+          "value": 773599
+        },
+        {
+          "entity": "yamanashi",
+          "value": 783050
+        },
+        {
+          "entity": "nagano",
+          "value": 2017564
+        },
+        {
+          "entity": "gifu",
+          "value": 1867978
+        },
+        {
+          "entity": "shizuoka",
+          "value": 3308799
+        },
+        {
+          "entity": "aichi",
+          "value": 5923569
+        },
+        {
+          "entity": "mie",
+          "value": 1626002
+        },
+        {
+          "entity": "shiga",
+          "value": 985621
+        },
+        {
+          "entity": "kyoto",
+          "value": 2424856
+        },
+        {
+          "entity": "osaka",
+          "value": 8278925
+        },
+        {
+          "entity": "hyogo",
+          "value": 4992140
+        },
+        {
+          "entity": "nara",
+          "value": 1077491
+        },
+        {
+          "entity": "wakayama",
+          "value": 1072118
+        },
+        {
+          "entity": "tottori",
+          "value": 581311
+        },
+        {
+          "entity": "shimane",
+          "value": 768886
+        },
+        {
+          "entity": "okayama",
+          "value": 1814305
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2646324
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1555218
+        },
+        {
+          "entity": "tokushima",
+          "value": 805166
+        },
+        {
+          "entity": "kagawa",
+          "value": 961292
+        },
+        {
+          "entity": "ehime",
+          "value": 1465215
+        },
+        {
+          "entity": "kochi",
+          "value": 808397
+        },
+        {
+          "entity": "fukuoka",
+          "value": 4292963
+        },
+        {
+          "entity": "saga",
+          "value": 837674
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1571912
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1715273
+        },
+        {
+          "entity": "oita",
+          "value": 1190314
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1085055
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1723902
+        },
+        {
+          "entity": "okinawa",
+          "value": 1042572
+        }
+      ]
+    },
+    {
+      "period": 1980,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 5575989
+        },
+        {
+          "entity": "aomori",
+          "value": 1523907
+        },
+        {
+          "entity": "iwate",
+          "value": 1421927
+        },
+        {
+          "entity": "miyagi",
+          "value": 2082320
+        },
+        {
+          "entity": "akita",
+          "value": 1256745
+        },
+        {
+          "entity": "yamagata",
+          "value": 1251917
+        },
+        {
+          "entity": "fukushima",
+          "value": 2035272
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2558007
+        },
+        {
+          "entity": "tochigi",
+          "value": 1792201
+        },
+        {
+          "entity": "gunma",
+          "value": 1848562
+        },
+        {
+          "entity": "saitama",
+          "value": 5420480
+        },
+        {
+          "entity": "chiba",
+          "value": 4735424
+        },
+        {
+          "entity": "tokyo",
+          "value": 11618281
+        },
+        {
+          "entity": "kanagawa",
+          "value": 6924348
+        },
+        {
+          "entity": "niigata",
+          "value": 2451357
+        },
+        {
+          "entity": "toyama",
+          "value": 1103459
+        },
+        {
+          "entity": "ishikawa",
+          "value": 1119304
+        },
+        {
+          "entity": "fukui",
+          "value": 794354
+        },
+        {
+          "entity": "yamanashi",
+          "value": 804256
+        },
+        {
+          "entity": "nagano",
+          "value": 2083934
+        },
+        {
+          "entity": "gifu",
+          "value": 1960107
+        },
+        {
+          "entity": "shizuoka",
+          "value": 3446804
+        },
+        {
+          "entity": "aichi",
+          "value": 6221638
+        },
+        {
+          "entity": "mie",
+          "value": 1686936
+        },
+        {
+          "entity": "shiga",
+          "value": 1079898
+        },
+        {
+          "entity": "kyoto",
+          "value": 2527330
+        },
+        {
+          "entity": "osaka",
+          "value": 8473446
+        },
+        {
+          "entity": "hyogo",
+          "value": 5144892
+        },
+        {
+          "entity": "nara",
+          "value": 1209365
+        },
+        {
+          "entity": "wakayama",
+          "value": 1087012
+        },
+        {
+          "entity": "tottori",
+          "value": 604221
+        },
+        {
+          "entity": "shimane",
+          "value": 784795
+        },
+        {
+          "entity": "okayama",
+          "value": 1871023
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2739161
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1587079
+        },
+        {
+          "entity": "tokushima",
+          "value": 825261
+        },
+        {
+          "entity": "kagawa",
+          "value": 999864
+        },
+        {
+          "entity": "ehime",
+          "value": 1506637
+        },
+        {
+          "entity": "kochi",
+          "value": 831275
+        },
+        {
+          "entity": "fukuoka",
+          "value": 4553461
+        },
+        {
+          "entity": "saga",
+          "value": 865574
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1590564
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1790327
+        },
+        {
+          "entity": "oita",
+          "value": 1228913
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1151587
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1784623
+        },
+        {
+          "entity": "okinawa",
+          "value": 1106559
+        }
+      ]
+    },
+    {
+      "period": 1985,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 5679439
+        },
+        {
+          "entity": "aomori",
+          "value": 1524448
+        },
+        {
+          "entity": "iwate",
+          "value": 1433611
+        },
+        {
+          "entity": "miyagi",
+          "value": 2176295
+        },
+        {
+          "entity": "akita",
+          "value": 1254032
+        },
+        {
+          "entity": "yamagata",
+          "value": 1261662
+        },
+        {
+          "entity": "fukushima",
+          "value": 2080304
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2725005
+        },
+        {
+          "entity": "tochigi",
+          "value": 1866066
+        },
+        {
+          "entity": "gunma",
+          "value": 1921259
+        },
+        {
+          "entity": "saitama",
+          "value": 5863678
+        },
+        {
+          "entity": "chiba",
+          "value": 5148163
+        },
+        {
+          "entity": "tokyo",
+          "value": 11829363
+        },
+        {
+          "entity": "kanagawa",
+          "value": 7431974
+        },
+        {
+          "entity": "niigata",
+          "value": 2478470
+        },
+        {
+          "entity": "toyama",
+          "value": 1118369
+        },
+        {
+          "entity": "ishikawa",
+          "value": 1152325
+        },
+        {
+          "entity": "fukui",
+          "value": 817633
+        },
+        {
+          "entity": "yamanashi",
+          "value": 832832
+        },
+        {
+          "entity": "nagano",
+          "value": 2136927
+        },
+        {
+          "entity": "gifu",
+          "value": 2028536
+        },
+        {
+          "entity": "shizuoka",
+          "value": 3574692
+        },
+        {
+          "entity": "aichi",
+          "value": 6455172
+        },
+        {
+          "entity": "mie",
+          "value": 1747311
+        },
+        {
+          "entity": "shiga",
+          "value": 1155844
+        },
+        {
+          "entity": "kyoto",
+          "value": 2586574
+        },
+        {
+          "entity": "osaka",
+          "value": 8668095
+        },
+        {
+          "entity": "hyogo",
+          "value": 5278050
+        },
+        {
+          "entity": "nara",
+          "value": 1304866
+        },
+        {
+          "entity": "wakayama",
+          "value": 1087206
+        },
+        {
+          "entity": "tottori",
+          "value": 616024
+        },
+        {
+          "entity": "shimane",
+          "value": 794629
+        },
+        {
+          "entity": "okayama",
+          "value": 1916906
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2819200
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1601627
+        },
+        {
+          "entity": "tokushima",
+          "value": 834889
+        },
+        {
+          "entity": "kagawa",
+          "value": 1022569
+        },
+        {
+          "entity": "ehime",
+          "value": 1529983
+        },
+        {
+          "entity": "kochi",
+          "value": 839784
+        },
+        {
+          "entity": "fukuoka",
+          "value": 4719259
+        },
+        {
+          "entity": "saga",
+          "value": 880013
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1593968
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1837747
+        },
+        {
+          "entity": "oita",
+          "value": 1250214
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1175543
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1819270
+        },
+        {
+          "entity": "okinawa",
+          "value": 1179097
+        }
+      ]
+    },
+    {
+      "period": 1990,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 5643647
+        },
+        {
+          "entity": "aomori",
+          "value": 1482873
+        },
+        {
+          "entity": "iwate",
+          "value": 1416928
+        },
+        {
+          "entity": "miyagi",
+          "value": 2248558
+        },
+        {
+          "entity": "akita",
+          "value": 1227478
+        },
+        {
+          "entity": "yamagata",
+          "value": 1258390
+        },
+        {
+          "entity": "fukushima",
+          "value": 2104058
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2845382
+        },
+        {
+          "entity": "tochigi",
+          "value": 1935168
+        },
+        {
+          "entity": "gunma",
+          "value": 1966265
+        },
+        {
+          "entity": "saitama",
+          "value": 6405319
+        },
+        {
+          "entity": "chiba",
+          "value": 5555429
+        },
+        {
+          "entity": "tokyo",
+          "value": 11855563
+        },
+        {
+          "entity": "kanagawa",
+          "value": 7980391
+        },
+        {
+          "entity": "niigata",
+          "value": 2474583
+        },
+        {
+          "entity": "toyama",
+          "value": 1120161
+        },
+        {
+          "entity": "ishikawa",
+          "value": 1164628
+        },
+        {
+          "entity": "fukui",
+          "value": 823585
+        },
+        {
+          "entity": "yamanashi",
+          "value": 852966
+        },
+        {
+          "entity": "nagano",
+          "value": 2156627
+        },
+        {
+          "entity": "gifu",
+          "value": 2066569
+        },
+        {
+          "entity": "shizuoka",
+          "value": 3670840
+        },
+        {
+          "entity": "aichi",
+          "value": 6690603
+        },
+        {
+          "entity": "mie",
+          "value": 1792514
+        },
+        {
+          "entity": "shiga",
+          "value": 1222411
+        },
+        {
+          "entity": "kyoto",
+          "value": 2602460
+        },
+        {
+          "entity": "osaka",
+          "value": 8734516
+        },
+        {
+          "entity": "hyogo",
+          "value": 5405040
+        },
+        {
+          "entity": "nara",
+          "value": 1375481
+        },
+        {
+          "entity": "wakayama",
+          "value": 1074325
+        },
+        {
+          "entity": "tottori",
+          "value": 615722
+        },
+        {
+          "entity": "shimane",
+          "value": 781021
+        },
+        {
+          "entity": "okayama",
+          "value": 1925877
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2849847
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1572616
+        },
+        {
+          "entity": "tokushima",
+          "value": 831598
+        },
+        {
+          "entity": "kagawa",
+          "value": 1023412
+        },
+        {
+          "entity": "ehime",
+          "value": 1515025
+        },
+        {
+          "entity": "kochi",
+          "value": 825034
+        },
+        {
+          "entity": "fukuoka",
+          "value": 4811050
+        },
+        {
+          "entity": "saga",
+          "value": 877851
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1562959
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1840326
+        },
+        {
+          "entity": "oita",
+          "value": 1236942
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1168907
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1797824
+        },
+        {
+          "entity": "okinawa",
+          "value": 1222398
+        }
+      ]
+    },
+    {
+      "period": 1995,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 5692321
+        },
+        {
+          "entity": "aomori",
+          "value": 1481663
+        },
+        {
+          "entity": "iwate",
+          "value": 1419505
+        },
+        {
+          "entity": "miyagi",
+          "value": 2328739
+        },
+        {
+          "entity": "akita",
+          "value": 1213667
+        },
+        {
+          "entity": "yamagata",
+          "value": 1256958
+        },
+        {
+          "entity": "fukushima",
+          "value": 2133592
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2955530
+        },
+        {
+          "entity": "tochigi",
+          "value": 1984390
+        },
+        {
+          "entity": "gunma",
+          "value": 2003540
+        },
+        {
+          "entity": "saitama",
+          "value": 6759311
+        },
+        {
+          "entity": "chiba",
+          "value": 5797782
+        },
+        {
+          "entity": "tokyo",
+          "value": 11773605
+        },
+        {
+          "entity": "kanagawa",
+          "value": 8245900
+        },
+        {
+          "entity": "niigata",
+          "value": 2488364
+        },
+        {
+          "entity": "toyama",
+          "value": 1123125
+        },
+        {
+          "entity": "ishikawa",
+          "value": 1180068
+        },
+        {
+          "entity": "fukui",
+          "value": 826996
+        },
+        {
+          "entity": "yamanashi",
+          "value": 881996
+        },
+        {
+          "entity": "nagano",
+          "value": 2193984
+        },
+        {
+          "entity": "gifu",
+          "value": 2100315
+        },
+        {
+          "entity": "shizuoka",
+          "value": 3737689
+        },
+        {
+          "entity": "aichi",
+          "value": 6868336
+        },
+        {
+          "entity": "mie",
+          "value": 1841358
+        },
+        {
+          "entity": "shiga",
+          "value": 1287005
+        },
+        {
+          "entity": "kyoto",
+          "value": 2629592
+        },
+        {
+          "entity": "osaka",
+          "value": 8797268
+        },
+        {
+          "entity": "hyogo",
+          "value": 5401877
+        },
+        {
+          "entity": "nara",
+          "value": 1430862
+        },
+        {
+          "entity": "wakayama",
+          "value": 1080435
+        },
+        {
+          "entity": "tottori",
+          "value": 614929
+        },
+        {
+          "entity": "shimane",
+          "value": 771441
+        },
+        {
+          "entity": "okayama",
+          "value": 1950750
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2881748
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1555543
+        },
+        {
+          "entity": "tokushima",
+          "value": 832427
+        },
+        {
+          "entity": "kagawa",
+          "value": 1027006
+        },
+        {
+          "entity": "ehime",
+          "value": 1506700
+        },
+        {
+          "entity": "kochi",
+          "value": 816704
+        },
+        {
+          "entity": "fukuoka",
+          "value": 4933393
+        },
+        {
+          "entity": "saga",
+          "value": 884316
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1544934
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1859793
+        },
+        {
+          "entity": "oita",
+          "value": 1231306
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1175819
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1794224
+        },
+        {
+          "entity": "okinawa",
+          "value": 1273440
+        }
+      ]
+    },
+    {
+      "period": 2000,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 5683062
+        },
+        {
+          "entity": "aomori",
+          "value": 1475728
+        },
+        {
+          "entity": "iwate",
+          "value": 1416180
+        },
+        {
+          "entity": "miyagi",
+          "value": 2365320
+        },
+        {
+          "entity": "akita",
+          "value": 1189279
+        },
+        {
+          "entity": "yamagata",
+          "value": 1244147
+        },
+        {
+          "entity": "fukushima",
+          "value": 2126935
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2985676
+        },
+        {
+          "entity": "tochigi",
+          "value": 2004817
+        },
+        {
+          "entity": "gunma",
+          "value": 2024852
+        },
+        {
+          "entity": "saitama",
+          "value": 6938006
+        },
+        {
+          "entity": "chiba",
+          "value": 5926285
+        },
+        {
+          "entity": "tokyo",
+          "value": 12064101
+        },
+        {
+          "entity": "kanagawa",
+          "value": 8489974
+        },
+        {
+          "entity": "niigata",
+          "value": 2475733
+        },
+        {
+          "entity": "toyama",
+          "value": 1120851
+        },
+        {
+          "entity": "ishikawa",
+          "value": 1180977
+        },
+        {
+          "entity": "fukui",
+          "value": 828944
+        },
+        {
+          "entity": "yamanashi",
+          "value": 888172
+        },
+        {
+          "entity": "nagano",
+          "value": 2215168
+        },
+        {
+          "entity": "gifu",
+          "value": 2107700
+        },
+        {
+          "entity": "shizuoka",
+          "value": 3767393
+        },
+        {
+          "entity": "aichi",
+          "value": 7043300
+        },
+        {
+          "entity": "mie",
+          "value": 1857339
+        },
+        {
+          "entity": "shiga",
+          "value": 1342832
+        },
+        {
+          "entity": "kyoto",
+          "value": 2644391
+        },
+        {
+          "entity": "osaka",
+          "value": 8805081
+        },
+        {
+          "entity": "hyogo",
+          "value": 5550574
+        },
+        {
+          "entity": "nara",
+          "value": 1442795
+        },
+        {
+          "entity": "wakayama",
+          "value": 1069912
+        },
+        {
+          "entity": "tottori",
+          "value": 613289
+        },
+        {
+          "entity": "shimane",
+          "value": 761503
+        },
+        {
+          "entity": "okayama",
+          "value": 1950828
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2878915
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1527964
+        },
+        {
+          "entity": "tokushima",
+          "value": 824108
+        },
+        {
+          "entity": "kagawa",
+          "value": 1022890
+        },
+        {
+          "entity": "ehime",
+          "value": 1493092
+        },
+        {
+          "entity": "kochi",
+          "value": 813949
+        },
+        {
+          "entity": "fukuoka",
+          "value": 5015699
+        },
+        {
+          "entity": "saga",
+          "value": 876654
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1516523
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1859344
+        },
+        {
+          "entity": "oita",
+          "value": 1221140
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1170007
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1786194
+        },
+        {
+          "entity": "okinawa",
+          "value": 1318220
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 5627737
+        },
+        {
+          "entity": "aomori",
+          "value": 1436657
+        },
+        {
+          "entity": "iwate",
+          "value": 1385041
+        },
+        {
+          "entity": "miyagi",
+          "value": 2360218
+        },
+        {
+          "entity": "akita",
+          "value": 1145501
+        },
+        {
+          "entity": "yamagata",
+          "value": 1216181
+        },
+        {
+          "entity": "fukushima",
+          "value": 2091319
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2975167
+        },
+        {
+          "entity": "tochigi",
+          "value": 2016631
+        },
+        {
+          "entity": "gunma",
+          "value": 2024135
+        },
+        {
+          "entity": "saitama",
+          "value": 7054243
+        },
+        {
+          "entity": "chiba",
+          "value": 6056462
+        },
+        {
+          "entity": "tokyo",
+          "value": 12576601
+        },
+        {
+          "entity": "kanagawa",
+          "value": 8791597
+        },
+        {
+          "entity": "niigata",
+          "value": 2431459
+        },
+        {
+          "entity": "toyama",
+          "value": 1111729
+        },
+        {
+          "entity": "ishikawa",
+          "value": 1174026
+        },
+        {
+          "entity": "fukui",
+          "value": 821592
+        },
+        {
+          "entity": "yamanashi",
+          "value": 884515
+        },
+        {
+          "entity": "nagano",
+          "value": 2196114
+        },
+        {
+          "entity": "gifu",
+          "value": 2107226
+        },
+        {
+          "entity": "shizuoka",
+          "value": 3792377
+        },
+        {
+          "entity": "aichi",
+          "value": 7254704
+        },
+        {
+          "entity": "mie",
+          "value": 1866963
+        },
+        {
+          "entity": "shiga",
+          "value": 1380361
+        },
+        {
+          "entity": "kyoto",
+          "value": 2647660
+        },
+        {
+          "entity": "osaka",
+          "value": 8817166
+        },
+        {
+          "entity": "hyogo",
+          "value": 5590601
+        },
+        {
+          "entity": "nara",
+          "value": 1421310
+        },
+        {
+          "entity": "wakayama",
+          "value": 1035969
+        },
+        {
+          "entity": "tottori",
+          "value": 607012
+        },
+        {
+          "entity": "shimane",
+          "value": 742223
+        },
+        {
+          "entity": "okayama",
+          "value": 1957264
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2876642
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1492606
+        },
+        {
+          "entity": "tokushima",
+          "value": 809950
+        },
+        {
+          "entity": "kagawa",
+          "value": 1012400
+        },
+        {
+          "entity": "ehime",
+          "value": 1467815
+        },
+        {
+          "entity": "kochi",
+          "value": 796292
+        },
+        {
+          "entity": "fukuoka",
+          "value": 5049908
+        },
+        {
+          "entity": "saga",
+          "value": 866369
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1478632
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1842233
+        },
+        {
+          "entity": "oita",
+          "value": 1209571
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1153042
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1753179
+        },
+        {
+          "entity": "okinawa",
+          "value": 1361594
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 5506419
+        },
+        {
+          "entity": "aomori",
+          "value": 1373339
+        },
+        {
+          "entity": "iwate",
+          "value": 1330147
+        },
+        {
+          "entity": "miyagi",
+          "value": 2348165
+        },
+        {
+          "entity": "akita",
+          "value": 1085997
+        },
+        {
+          "entity": "yamagata",
+          "value": 1168924
+        },
+        {
+          "entity": "fukushima",
+          "value": 2029064
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2969770
+        },
+        {
+          "entity": "tochigi",
+          "value": 2007683
+        },
+        {
+          "entity": "gunma",
+          "value": 2008068
+        },
+        {
+          "entity": "saitama",
+          "value": 7194556
+        },
+        {
+          "entity": "chiba",
+          "value": 6216289
+        },
+        {
+          "entity": "tokyo",
+          "value": 13159388
+        },
+        {
+          "entity": "kanagawa",
+          "value": 9048331
+        },
+        {
+          "entity": "niigata",
+          "value": 2374450
+        },
+        {
+          "entity": "toyama",
+          "value": 1093247
+        },
+        {
+          "entity": "ishikawa",
+          "value": 1169788
+        },
+        {
+          "entity": "fukui",
+          "value": 806314
+        },
+        {
+          "entity": "yamanashi",
+          "value": 863075
+        },
+        {
+          "entity": "nagano",
+          "value": 2152449
+        },
+        {
+          "entity": "gifu",
+          "value": 2080773
+        },
+        {
+          "entity": "shizuoka",
+          "value": 3765007
+        },
+        {
+          "entity": "aichi",
+          "value": 7410719
+        },
+        {
+          "entity": "mie",
+          "value": 1854724
+        },
+        {
+          "entity": "shiga",
+          "value": 1410777
+        },
+        {
+          "entity": "kyoto",
+          "value": 2636092
+        },
+        {
+          "entity": "osaka",
+          "value": 8865245
+        },
+        {
+          "entity": "hyogo",
+          "value": 5588133
+        },
+        {
+          "entity": "nara",
+          "value": 1400728
+        },
+        {
+          "entity": "wakayama",
+          "value": 1002198
+        },
+        {
+          "entity": "tottori",
+          "value": 588667
+        },
+        {
+          "entity": "shimane",
+          "value": 717397
+        },
+        {
+          "entity": "okayama",
+          "value": 1945276
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2860750
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1451338
+        },
+        {
+          "entity": "tokushima",
+          "value": 785491
+        },
+        {
+          "entity": "kagawa",
+          "value": 995842
+        },
+        {
+          "entity": "ehime",
+          "value": 1431493
+        },
+        {
+          "entity": "kochi",
+          "value": 764456
+        },
+        {
+          "entity": "fukuoka",
+          "value": 5071968
+        },
+        {
+          "entity": "saga",
+          "value": 849788
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1426779
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1817426
+        },
+        {
+          "entity": "oita",
+          "value": 1196529
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1135233
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1706242
+        },
+        {
+          "entity": "okinawa",
+          "value": 1392818
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 5381733
+        },
+        {
+          "entity": "aomori",
+          "value": 1308265
+        },
+        {
+          "entity": "iwate",
+          "value": 1279594
+        },
+        {
+          "entity": "miyagi",
+          "value": 2333899
+        },
+        {
+          "entity": "akita",
+          "value": 1023119
+        },
+        {
+          "entity": "yamagata",
+          "value": 1123891
+        },
+        {
+          "entity": "fukushima",
+          "value": 1914039
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2916976
+        },
+        {
+          "entity": "tochigi",
+          "value": 1974255
+        },
+        {
+          "entity": "gunma",
+          "value": 1973115
+        },
+        {
+          "entity": "saitama",
+          "value": 7266534
+        },
+        {
+          "entity": "chiba",
+          "value": 6222666
+        },
+        {
+          "entity": "tokyo",
+          "value": 13515271
+        },
+        {
+          "entity": "kanagawa",
+          "value": 9126214
+        },
+        {
+          "entity": "niigata",
+          "value": 2304264
+        },
+        {
+          "entity": "toyama",
+          "value": 1066328
+        },
+        {
+          "entity": "ishikawa",
+          "value": 1154008
+        },
+        {
+          "entity": "fukui",
+          "value": 786740
+        },
+        {
+          "entity": "yamanashi",
+          "value": 834930
+        },
+        {
+          "entity": "nagano",
+          "value": 2098804
+        },
+        {
+          "entity": "gifu",
+          "value": 2031903
+        },
+        {
+          "entity": "shizuoka",
+          "value": 3700305
+        },
+        {
+          "entity": "aichi",
+          "value": 7483128
+        },
+        {
+          "entity": "mie",
+          "value": 1815865
+        },
+        {
+          "entity": "shiga",
+          "value": 1412916
+        },
+        {
+          "entity": "kyoto",
+          "value": 2610353
+        },
+        {
+          "entity": "osaka",
+          "value": 8839469
+        },
+        {
+          "entity": "hyogo",
+          "value": 5534800
+        },
+        {
+          "entity": "nara",
+          "value": 1364316
+        },
+        {
+          "entity": "wakayama",
+          "value": 963579
+        },
+        {
+          "entity": "tottori",
+          "value": 573441
+        },
+        {
+          "entity": "shimane",
+          "value": 694352
+        },
+        {
+          "entity": "okayama",
+          "value": 1921525
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2843990
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1404729
+        },
+        {
+          "entity": "tokushima",
+          "value": 755733
+        },
+        {
+          "entity": "kagawa",
+          "value": 976263
+        },
+        {
+          "entity": "ehime",
+          "value": 1385262
+        },
+        {
+          "entity": "kochi",
+          "value": 728276
+        },
+        {
+          "entity": "fukuoka",
+          "value": 5101556
+        },
+        {
+          "entity": "saga",
+          "value": 832832
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1377187
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1786170
+        },
+        {
+          "entity": "oita",
+          "value": 1166338
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1104069
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1648177
+        },
+        {
+          "entity": "okinawa",
+          "value": 1433566
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "hokkaido",
+          "value": 5224614
+        },
+        {
+          "entity": "aomori",
+          "value": 1237984
+        },
+        {
+          "entity": "iwate",
+          "value": 1210534
+        },
+        {
+          "entity": "miyagi",
+          "value": 2301996
+        },
+        {
+          "entity": "akita",
+          "value": 959502
+        },
+        {
+          "entity": "yamagata",
+          "value": 1068027
+        },
+        {
+          "entity": "fukushima",
+          "value": 1833152
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2867009
+        },
+        {
+          "entity": "tochigi",
+          "value": 1933146
+        },
+        {
+          "entity": "gunma",
+          "value": 1939110
+        },
+        {
+          "entity": "saitama",
+          "value": 7344765
+        },
+        {
+          "entity": "chiba",
+          "value": 6284480
+        },
+        {
+          "entity": "tokyo",
+          "value": 14047594
+        },
+        {
+          "entity": "kanagawa",
+          "value": 9237337
+        },
+        {
+          "entity": "niigata",
+          "value": 2201272
+        },
+        {
+          "entity": "toyama",
+          "value": 1034814
+        },
+        {
+          "entity": "ishikawa",
+          "value": 1132526
+        },
+        {
+          "entity": "fukui",
+          "value": 766863
+        },
+        {
+          "entity": "yamanashi",
+          "value": 809974
+        },
+        {
+          "entity": "nagano",
+          "value": 2048011
+        },
+        {
+          "entity": "gifu",
+          "value": 1978742
+        },
+        {
+          "entity": "shizuoka",
+          "value": 3633202
+        },
+        {
+          "entity": "aichi",
+          "value": 7542415
+        },
+        {
+          "entity": "mie",
+          "value": 1770254
+        },
+        {
+          "entity": "shiga",
+          "value": 1413610
+        },
+        {
+          "entity": "kyoto",
+          "value": 2578087
+        },
+        {
+          "entity": "osaka",
+          "value": 8837685
+        },
+        {
+          "entity": "hyogo",
+          "value": 5465002
+        },
+        {
+          "entity": "nara",
+          "value": 1324473
+        },
+        {
+          "entity": "wakayama",
+          "value": 922584
+        },
+        {
+          "entity": "tottori",
+          "value": 553407
+        },
+        {
+          "entity": "shimane",
+          "value": 671126
+        },
+        {
+          "entity": "okayama",
+          "value": 1888432
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2799702
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1342059
+        },
+        {
+          "entity": "tokushima",
+          "value": 719559
+        },
+        {
+          "entity": "kagawa",
+          "value": 950244
+        },
+        {
+          "entity": "ehime",
+          "value": 1334841
+        },
+        {
+          "entity": "kochi",
+          "value": 691527
+        },
+        {
+          "entity": "fukuoka",
+          "value": 5135214
+        },
+        {
+          "entity": "saga",
+          "value": 811442
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1312317
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1738301
+        },
+        {
+          "entity": "oita",
+          "value": 1123852
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1069576
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1588256
+        },
+        {
+          "entity": "okinawa",
+          "value": 1467480
         }
       ]
     },
@@ -36,36 +4150,88 @@
       "period": 2025,
       "entries": [
         {
-          "entity": "tokyo",
-          "value": 14246219
-        },
-        {
-          "entity": "osaka",
-          "value": 8764578
-        },
-        {
-          "entity": "kanagawa",
-          "value": 9193657
-        },
-        {
           "entity": "hokkaido",
           "value": 4985419
         },
         {
-          "entity": "fukuoka",
-          "value": 5081879
+          "entity": "aomori",
+          "value": 1140395
         },
         {
-          "entity": "hyogo",
-          "value": 5323825
+          "entity": "iwate",
+          "value": 1125502
+        },
+        {
+          "entity": "miyagi",
+          "value": 2227240
+        },
+        {
+          "entity": "akita",
+          "value": 882100
+        },
+        {
+          "entity": "yamagata",
+          "value": 993127
+        },
+        {
+          "entity": "fukushima",
+          "value": 1711937
+        },
+        {
+          "entity": "ibaraki",
+          "value": 2791207
+        },
+        {
+          "entity": "tochigi",
+          "value": 1864833
+        },
+        {
+          "entity": "gunma",
+          "value": 1867582
+        },
+        {
+          "entity": "saitama",
+          "value": 7287169
         },
         {
           "entity": "chiba",
           "value": 6258512
         },
         {
-          "entity": "saitama",
-          "value": 7287169
+          "entity": "tokyo",
+          "value": 14246219
+        },
+        {
+          "entity": "kanagawa",
+          "value": 9193657
+        },
+        {
+          "entity": "niigata",
+          "value": 2068476
+        },
+        {
+          "entity": "toyama",
+          "value": 985675
+        },
+        {
+          "entity": "ishikawa",
+          "value": 1088221
+        },
+        {
+          "entity": "fukui",
+          "value": 729386
+        },
+        {
+          "entity": "yamanashi",
+          "value": 779912
+        },
+        {
+          "entity": "nagano",
+          "value": 1954950
+        },
+        {
+          "entity": "gifu",
+          "value": 1891489
         },
         {
           "entity": "shizuoka",
@@ -74,13 +4240,122 @@
         {
           "entity": "aichi",
           "value": 7449403
+        },
+        {
+          "entity": "mie",
+          "value": 1694896
+        },
+        {
+          "entity": "shiga",
+          "value": 1392439
+        },
+        {
+          "entity": "kyoto",
+          "value": 2502747
+        },
+        {
+          "entity": "osaka",
+          "value": 8764578
+        },
+        {
+          "entity": "hyogo",
+          "value": 5323825
+        },
+        {
+          "entity": "nara",
+          "value": 1269180
+        },
+        {
+          "entity": "wakayama",
+          "value": 864262
+        },
+        {
+          "entity": "tottori",
+          "value": 523732
+        },
+        {
+          "entity": "shimane",
+          "value": 629460
+        },
+        {
+          "entity": "okayama",
+          "value": 1808664
+        },
+        {
+          "entity": "hiroshima",
+          "value": 2683399
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 1264006
+        },
+        {
+          "entity": "tokushima",
+          "value": 675489
+        },
+        {
+          "entity": "kagawa",
+          "value": 907725
+        },
+        {
+          "entity": "ehime",
+          "value": 1260088
+        },
+        {
+          "entity": "kochi",
+          "value": 643437
+        },
+        {
+          "entity": "fukuoka",
+          "value": 5081879
+        },
+        {
+          "entity": "saga",
+          "value": 781214
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1232190
+        },
+        {
+          "entity": "kumamoto",
+          "value": 1678090
+        },
+        {
+          "entity": "oita",
+          "value": 1076875
+        },
+        {
+          "entity": "miyazaki",
+          "value": 1018904
+        },
+        {
+          "entity": "kagoshima",
+          "value": 1512969
+        },
+        {
+          "entity": "okinawa",
+          "value": 1468220
         }
       ]
     }
   ],
   "notes": {
-    "tokyo": "全国最多の人口を持つ都道府県。昼間人口は夜間人口を上回り、周辺県から通勤・通学者が流入する。",
-    "osaka": "江戸時代から「天下の台所」と呼ばれた商業都市で、人口は全国3位。",
-    "kanagawa": "県庁所在地の横浜市は日本の市区町村で人口最多（約377万人）。"
+    "tokyo": "22回の調査のうち21回で全国1位。1位でなかったのは、疎開と空襲で人口が半分以下になった1945年のみ。2025年は5年間で198,621人増え、47都道府県で最大の増加数となった。",
+    "kanagawa": "1920年は15位だったが、1970年に3位、2010年に大阪府を抜いて2位となった。2025年の人口は9,193,657人。",
+    "osaka": "1920年から2005年まで（1945年・1950年・1955年を除き）2位を保っていたが、2010年に神奈川県に抜かれて3位となった。",
+    "aichi": "2020年の7,542,415人がピークで、2025年は7,449,403人と1.2%減少した。",
+    "saitama": "1920年の16位から2025年の5位へ、11ランク上昇。2020年の7,344,765人がピーク。",
+    "chiba": "1920年の14位から2025年の6位へ上昇。2020年の6,284,480人がピークで、2025年はそこから0.4%減にとどまる。",
+    "hokkaido": "1945年の人口調査では東京都を上回り全国1位となった唯一の道県。1995年の5,692,321人をピークに減少が続き、2025年は9位。",
+    "fukuoka": "1920年は5位だったが2025年は8位。2020年の5,135,214人がピークで、九州で唯一2020年にピークを迎えた県。",
+    "okinawa": "1945年は調査が行われず、この年の数値がない唯一の県。1920年の45位から2025年は25位まで上昇し、2025年は東京都とともに人口が増加した2県のうちの一つ（740人増）。",
+    "akita": "1955年の1,348,871人をピークに減少が続き、2025年は882,100人。ピークからの減少率34.6%は全国で最も大きく、1920年（898,537人）をも下回っている。2020年からの5年間の減少率8.07%も全国最大。",
+    "tottori": "1920年の第1回から2025年まで、22回すべての調査で人口が全国最少。2025年の523,732人は1位東京都のおよそ27分の1にあたる。",
+    "shimane": "1975年以降11回連続で46位。2025年の629,460人は1920年（714,712人）を11.9%下回り、105年前より人口が少ない3県のうちの一つ。",
+    "kochi": "2025年の643,437人は1920年（670,895人）を4.1%下回る。1955年の882,683人がピーク。",
+    "kagoshima": "1920年の11位から2025年は24位へ、13ランク下げた。1955年の2,044,112人がピークで、そこから26.0%減少している。",
+    "nara": "1920年は46位だったが、大阪の通勤圏として宅地開発が進み2025年は27位。2000年の1,442,795人がピーク。",
+    "aomori": "2020年からの5年間で7.88%減少し、秋田県に次ぐ全国2番目の減少率。1985年の1,524,448人がピーク。"
   }
 }

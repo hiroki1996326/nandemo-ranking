@@ -218,8 +218,18 @@ function prevRankMapAt(topic, idx) {
   rankedEntries(topic.periods[idx - 1]).forEach(function (e) { map[e.name] = e; });
   return map;
 }
+// 前期間との間隔に応じた比較ラベル。国勢調査のように5年おきの記事で「前年比」と
+// 出ないよう、期間が数値で2年以上離れていれば「N年で」と表示する。
+function trendLabel(topic, idx) {
+  if (idx <= 0) return '前年比';
+  const cur = topic.periods[idx].period;
+  const prev = topic.periods[idx - 1].period;
+  const gap = Number(cur) - Number(prev);
+  if (!isFinite(gap) || gap <= 0) return '前回比';
+  return gap === 1 ? '前年比' : gap + '年で';
+}
 // トップ3カードの「前年比・順位変動」テキスト。前期間データが無ければ空。
-function trendText(cur, prevMap) {
+function trendText(cur, prevMap, label) {
   if (!prevMap) return '';
   const prev = prevMap[cur.name];
   if (!prev) return '<span class="trend trend-new">初登場</span>';
@@ -230,7 +240,7 @@ function trendText(cur, prevMap) {
   if (rankDiff > 0) { rankStr = rankDiff + 'つ上昇'; cls = 'up'; arrow = '↑'; }
   else if (rankDiff < 0) { rankStr = Math.abs(rankDiff) + 'つ下降'; cls = 'down'; arrow = '↓'; }
   else { rankStr = '順位変動なし'; cls = 'flat'; arrow = '→'; }
-  return '<span class="trend trend-' + cls + '">' + arrow + ' 前年比 ' + sign + pct.toFixed(1) + '%・' + rankStr + '</span>';
+  return '<span class="trend trend-' + cls + '">' + arrow + ' ' + (label || '前年比') + ' ' + sign + pct.toFixed(1) + '%・' + rankStr + '</span>';
 }
 // トップ3を縦積みのリッチカードで表示する（メダル・画像・数値・推移・説明文）。
 function topThreeHtml(topic, idx) {
@@ -249,7 +259,7 @@ function topThreeHtml(topic, idx) {
       '<div class="top3-body">' +
         '<div class="top3-head">' +
           '<span class="top3-name">' + nameLinkHtml(e.name) + '</span>' +
-          (prevMap ? trendText(e, prevMap) : '') +
+          (prevMap ? trendText(e, prevMap, trendLabel(topic, idx)) : '') +
         '</div>' +
         '<div class="top3-value">' + fmt(e.value) + '<span class="unit">' + esc(topic.unit) + '</span></div>' +
         (e.note ? '<p class="top3-note">' + richText(e.note) + '</p>' : '') +

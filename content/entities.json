@@ -1537,7 +1537,7 @@
   "movie-conan-2023": {
     "name": "名探偵コナン 黒鉄の魚影",
     "type": "movie",
-    "description": "「年間興行収入ランキング（映画）」で2位（138.8億円）。"
+    "description": "劇場版名探偵コナンシリーズ第26作。2023年の年間興行収入3位（138.8億円）。"
   },
   "movie-conan-halloween-2022": {
     "name": "名探偵コナン ハロウィンの花嫁",
@@ -1634,7 +1634,7 @@
   "movie-kimitachi-2023": {
     "name": "君たちはどう生きるか",
     "type": "movie",
-    "description": "「年間興行収入ランキング（映画）」で3位（88.4億円）。"
+    "description": "宮崎駿監督作。2023年の年間興行収入4位（88.4億円）。"
   },
   "movie-kingdom-2019": {
     "name": "キングダム",
@@ -1711,7 +1711,7 @@
   "movie-slamdunk-2023": {
     "name": "THE FIRST SLAM DUNK",
     "type": "movie",
-    "description": "「年間興行収入ランキング（映画）」で1位（158.7億円）。"
+    "description": "2023年公開のアニメ映画で、同年の年間興行収入1位（158.7億円）。"
   },
   "movie-star-wars-last-jedi-2018": {
     "name": "スター・ウォーズ／最後のジェダイ",
@@ -2031,5 +2031,40 @@
     "name": "山梨県",
     "type": "prefecture",
     "description": "「都道府県別 面積ランキング」で32位（4,465km²）。"
+  },
+  "movie-super-mario-bros-2023": {
+    "name": "ザ・スーパーマリオブラザーズ・ムービー",
+    "type": "movie",
+    "description": "2023年の年間興行収入2位（140.2億円）。任天堂のゲームを原作とする海外製作のアニメ映画。"
+  },
+  "movie-kingdom3-2023": {
+    "name": "キングダム 運命の炎",
+    "type": "movie",
+    "description": "実写「キングダム」シリーズ第3作。2023年の年間興行収入5位（56.0億円）。"
+  },
+  "movie-godzilla-minus-one-2023": {
+    "name": "ゴジラ-1.0",
+    "type": "movie",
+    "description": "2023年の年間興行収入6位（55.9億円）。米アカデミー賞視覚効果賞を受賞した。"
+  },
+  "movie-mi-dead-reckoning-2023": {
+    "name": "ミッション：インポッシブル／デッドレコニング PART ONE",
+    "type": "movie",
+    "description": "2023年の年間興行収入7位（54.3億円）。"
+  },
+  "movie-mystery-to-iunakare-2023": {
+    "name": "ミステリと言う勿れ",
+    "type": "movie",
+    "description": "2023年の年間興行収入8位（48.0億円）。"
+  },
+  "movie-tokyo-mer-2023": {
+    "name": "劇場版「TOKYO MER〜走る緊急救命室〜」",
+    "type": "movie",
+    "description": "2023年の年間興行収入9位（45.3億円）。"
+  },
+  "movie-doraemon-utopia-2023": {
+    "name": "映画ドラえもん のび太と空の理想郷",
+    "type": "movie",
+    "description": "2023年の年間興行収入10位（43.4億円）。"
   }
 }

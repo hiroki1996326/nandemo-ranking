@@ -6,122 +6,16 @@
   "source": "興行通信社 ほか",
   "sourceUrl": "https://www.eiren.org/",
   "updateFrequency": "yearly",
-  "updatedAt": "2026-07-16",
+  "updatedAt": "2026-07-24",
   "lead": "2025年の日本の年間興行収入は「劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来」が**391.4億円**で首位。2位「国宝」（195.5億円）に195億円以上の差をつけている。",
   "commentary": "2025年の年間興行収入（映画）は**2,744億5,200万円**で過去最高を記録した。上位10作品のうち邦画が7作品、洋画が3作品を占める。2018年から2025年までの8年分を掲載している。",
   "analysisHeading": "「鬼滅の刃」無限城編が391.4億円で首位、上位4作品が100億円を突破",
   "analysis": [
     "「劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来」は391.4億円で2025年の年間1位。2位「国宝」（195.5億円）との差は195.9億円で、3位「名探偵コナン 隻眼の残像（フラッシュバック）」（147.4億円）、4位「劇場版 チェンソーマン レゼ篇」（104.3億円）までが**100億円を超えている**。",
-    "5位「はたらく細胞」（63.6億円）以下は60億円台以下で並び、4位との差は40億円以上開く。上位10作品のうち洋画は7位「ミッション：インポッシブル／ファイナル・レコニング」（52.8億円）、9位「モアナと伝説の海2」（51.7億円）、10位「ジュラシック・ワールド／復活の大地」（49.0億円）の3作品のみで、残る7作品はすべて邦画。"
+    "5位「はたらく細胞」（63.6億円）以下は60億円台以下で並び、4位との差は40億円以上開く。上位10作品のうち洋画は7位「ミッション：インポッシブル／ファイナル・レコニング」（52.8億円）、9位「モアナと伝説の海2」（51.7億円）、10位「ジュラシック・ワールド／復活の大地」（49.0億円）の3作品のみで、残る7作品はすべて邦画。",
+    "掲載している8年間のうち、年間1位が実写作品だったのは2018年「ボヘミアン・ラプソディ」（131.0億円）の**1回のみ**で、残る7年はすべてアニメ映画が首位を占めている。"
   ],
   "data": [
-    {
-      "period": 2023,
-      "entries": [
-        {
-          "entity": "movie-conan-2023",
-          "value": 138.8
-        },
-        {
-          "entity": "movie-kimitachi-2023",
-          "value": 88.4
-        },
-        {
-          "entity": "movie-slamdunk-2023",
-          "value": 158.7
-        }
-      ]
-    },
-    {
-      "period": 2024,
-      "entries": [
-        {
-          "entity": "entity-135",
-          "value": 50.7
-        },
-        {
-          "entity": "entity-136",
-          "value": 45.4
-        },
-        {
-          "entity": "entity-131",
-          "value": 80.3
-        },
-        {
-          "entity": "entity-132",
-          "value": 63.2
-        },
-        {
-          "entity": "entity-134",
-          "value": 53.6
-        },
-        {
-          "entity": "entity-138",
-          "value": 36
-        },
-        {
-          "entity": "entity-130",
-          "value": 116.4
-        },
-        {
-          "entity": "entity-133",
-          "value": 59.1
-        },
-        {
-          "entity": "entity-129",
-          "value": 158
-        },
-        {
-          "entity": "entity-137",
-          "value": 43.1
-        }
-      ]
-    },
-    {
-      "period": 2025,
-      "entries": [
-        {
-          "entity": "movie-kimetsu-mugenjo-2025",
-          "value": 391.4
-        },
-        {
-          "entity": "movie-kokuho-2025",
-          "value": 195.5
-        },
-        {
-          "entity": "movie-conan-sekigan-2025",
-          "value": 147.4
-        },
-        {
-          "entity": "movie-chainsawman-reze-2025",
-          "value": 104.3
-        },
-        {
-          "entity": "movie-hataraku-saibou-2025",
-          "value": 63.6
-        },
-        {
-          "entity": "movie-tokyo-mer-nankai-2025",
-          "value": 52.9
-        },
-        {
-          "entity": "movie-mi-final-reckoning-2025",
-          "value": 52.8
-        },
-        {
-          "entity": "movie-8ban-deguchi-2025",
-          "value": 51.7
-        },
-        {
-          "entity": "movie-moana2-2025",
-          "value": 51.7
-        },
-        {
-          "entity": "movie-jurassic-world-rebirth-2025",
-          "value": 49.0
-        }
-      ]
-    },
     {
       "period": 2018,
       "entries": [
@@ -346,6 +240,141 @@
           "value": 44.4
         }
       ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "movie-slamdunk-2023",
+          "value": 158.7
+        },
+        {
+          "entity": "movie-super-mario-bros-2023",
+          "value": 140.2
+        },
+        {
+          "entity": "movie-conan-2023",
+          "value": 138.8
+        },
+        {
+          "entity": "movie-kimitachi-2023",
+          "value": 88.4
+        },
+        {
+          "entity": "movie-kingdom3-2023",
+          "value": 56.0
+        },
+        {
+          "entity": "movie-godzilla-minus-one-2023",
+          "value": 55.9
+        },
+        {
+          "entity": "movie-mi-dead-reckoning-2023",
+          "value": 54.3
+        },
+        {
+          "entity": "movie-mystery-to-iunakare-2023",
+          "value": 48.0
+        },
+        {
+          "entity": "movie-tokyo-mer-2023",
+          "value": 45.3
+        },
+        {
+          "entity": "movie-doraemon-utopia-2023",
+          "value": 43.4
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "entity-135",
+          "value": 50.7
+        },
+        {
+          "entity": "entity-136",
+          "value": 45.4
+        },
+        {
+          "entity": "entity-131",
+          "value": 80.3
+        },
+        {
+          "entity": "entity-132",
+          "value": 63.2
+        },
+        {
+          "entity": "entity-134",
+          "value": 53.6
+        },
+        {
+          "entity": "entity-138",
+          "value": 36
+        },
+        {
+          "entity": "entity-130",
+          "value": 116.4
+        },
+        {
+          "entity": "entity-133",
+          "value": 59.1
+        },
+        {
+          "entity": "entity-129",
+          "value": 158
+        },
+        {
+          "entity": "entity-137",
+          "value": 43.1
+        }
+      ]
+    },
+    {
+      "period": 2025,
+      "entries": [
+        {
+          "entity": "movie-kimetsu-mugenjo-2025",
+          "value": 391.4
+        },
+        {
+          "entity": "movie-kokuho-2025",
+          "value": 195.5
+        },
+        {
+          "entity": "movie-conan-sekigan-2025",
+          "value": 147.4
+        },
+        {
+          "entity": "movie-chainsawman-reze-2025",
+          "value": 104.3
+        },
+        {
+          "entity": "movie-hataraku-saibou-2025",
+          "value": 63.6
+        },
+        {
+          "entity": "movie-tokyo-mer-nankai-2025",
+          "value": 52.9
+        },
+        {
+          "entity": "movie-mi-final-reckoning-2025",
+          "value": 52.8
+        },
+        {
+          "entity": "movie-8ban-deguchi-2025",
+          "value": 51.7
+        },
+        {
+          "entity": "movie-moana2-2025",
+          "value": 51.7
+        },
+        {
+          "entity": "movie-jurassic-world-rebirth-2025",
+          "value": 49.0
+        }
+      ]
     }
   ],
   "notes": {
@@ -354,6 +383,29 @@
     "entity-129": "劇場版名探偵コナンシリーズ第27作。",
     "movie-kimetsu-mugenjo-2025": "2025年公開の劇場版アニメで、年間興行収入1位。同年の年間興収は**2,744億5,200万円**と歴代最高を記録した。",
     "movie-kokuho-2025": "歌舞伎役者の人生を描いた李相日監督作。同年11月に「踊る大捜査線2」を抜き、実写邦画の歴代興行収入1位に達した。",
-    "movie-conan-sekigan-2025": "劇場版名探偵コナンシリーズ第28作。3年連続でシリーズ興収100億円を突破した。"
-  }
+    "movie-conan-sekigan-2025": "劇場版名探偵コナンシリーズ第28作。3年連続でシリーズ興収100億円を突破した。",
+    "movie-slamdunk-2023": "2023年の年間興行収入1位（158.7億円）。井上雄彦の漫画「SLAM DUNK」を原作とするアニメ映画。",
+    "movie-super-mario-bros-2023": "2023年の年間興行収入2位（140.2億円）。",
+    "movie-kimetsu-mugen-ressha-2020": "2020年の年間興行収入1位で、掲載8年間の最高額となる407.5億円。同年2位（73.2億円）とは5.6倍の差がついた。"
+  },
+  "sections": [
+    {
+      "h2": "8年間の首位は「鬼滅の刃」2作が突出"
+    },
+    {
+      "p": "2018年から2025年までの各年1位を並べると、2020年の「劇場版「鬼滅の刃」無限列車編」（**407.5億円**）と2025年の「無限城編 第一章」（**391.4億円**）の2作だけが飛び抜けている。この8年間で年間1位が300億円を超えたのはこの2回のみで、他の6年の1位は102.8億円〜203.3億円の範囲に収まる。"
+    },
+    {
+      "h2": "2020年は1位と2位の差が5.6倍に開いた"
+    },
+    {
+      "p": "2020年は新型コロナウイルスの影響で公開延期や休館が相次ぎ、1位「無限列車編」（407.5億円）に対し2位は73.2億円と、**5.6倍**の差がついた。年間10位も21.3億円にとどまり、掲載8年のうち10位の金額が最も低い年となっている。翌2021年の1位は102.8億円で、8年間で最も1位の金額が低い年だった。"
+    },
+    {
+      "h2": "「名探偵コナン」は8年のうち7年で上位10作に入る"
+    },
+    {
+      "p": "劇場版「名探偵コナン」シリーズは、2018年（91.8億円）から2025年（147.4億円）まで、**2020年を除く7年**で年間トップ10入りしている。2020年に入っていないのは、同年公開予定だった作品がコロナ禍で翌2021年に延期されたためで、シリーズとして興行が途切れたわけではない。"
+    }
+  ]
 }

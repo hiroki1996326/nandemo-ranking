@@ -23,6 +23,7 @@ window.RANKING_DATA = {
     {
       'id': 'gyokakuryo-todofuken',
       'title': '都道府県別 漁獲量ランキング',
+      'seoTitle': '日本の漁獲量ランキング｜1位は北海道！',
       'category': 'keizai',
       'unit': 'トン',
       'source': '農林水産省「海面漁業生産統計調査」（漁業・養殖業生産統計年報）。海面漁業の漁獲量で、海面養殖業の収獲量は含まない',
@@ -11587,6 +11588,7 @@ window.RANKING_DATA = {
     {
       'id': 'jinko-todofuken',
       'title': '都道府県別 人口ランキング',
+      'seoTitle': '日本の人口ランキング｜1位は東京都！',
       'category': 'jinko',
       'unit': '人',
       'source': '総務省統計局「国勢調査」（1920年〜2020年）、「令和7年国勢調査 人口速報集計」（2025年）。1945年は「昭和20年人口調査」による',
@@ -16282,6 +16284,7 @@ window.RANKING_DATA = {
     {
       'id': 'kogyo-shunyu-eiga',
       'title': '年間興行収入ランキング（映画）',
+      'seoTitle': '日本の映画興行収入ランキング｜1位は鬼滅の刃！',
       'category': 'sports',
       'unit': '億円',
       'source': '興行通信社 ほか',
@@ -16692,6 +16695,7 @@ window.RANKING_DATA = {
     {
       'id': 'kome-shukakuryo-todofuken',
       'title': '都道府県別 米収穫量ランキング',
+      'seoTitle': '日本の米収穫量ランキング｜1位は新潟県！',
       'category': 'keizai',
       'unit': 'トン',
       'source': '農林水産省 作物統計',
@@ -20452,6 +20456,7 @@ window.RANKING_DATA = {
     {
       'id': 'nanadairiku-saikoho',
       'title': '七大陸最高峰（大陸別最高峰）ランキング',
+      'seoTitle': '世界七大陸の最高峰ランキング｜1位はエベレスト！',
       'category': 'chiri',
       'unit': 'm',
       'source': '各種資料',
@@ -20532,6 +20537,7 @@ window.RANKING_DATA = {
     {
       'id': 'natsuki-olympic-kin-medal-kuni',
       'title': '夏季オリンピック金メダル獲得数ランキング（国別・歴代）',
+      'seoTitle': '夏季五輪の金メダル数ランキング｜1位はアメリカ！',
       'category': 'sports',
       'unit': '個',
       'source': 'Wikipedia「近代オリンピックでの国・地域別メダル総獲得数一覧」（パリ2024大会まで集計）',
@@ -20727,6 +20733,7 @@ window.RANKING_DATA = {
     {
       'id': 'nihon-koso-biru',
       'title': '日本の高い建造物ランキング',
+      'seoTitle': '日本の高い建造物ランキング｜1位は東京スカイツリー！',
       'category': 'chiri',
       'unit': 'm',
       'source': '各建築物公表値 ほか',
@@ -20824,6 +20831,7 @@ window.RANKING_DATA = {
     {
       'id': 'nihon-mizuumi-menseki',
       'title': '日本の湖の面積ランキング',
+      'seoTitle': '日本の湖の面積ランキング｜1位は琵琶湖！',
       'category': 'chiri',
       'unit': 'km²',
       'source': '国土地理院 全国都道府県市区町村別面積調 ほか',
@@ -20975,6 +20983,7 @@ window.RANKING_DATA = {
     {
       'id': 'nihon-nagai-kawa',
       'title': '日本の川の長さランキング',
+      'seoTitle': '日本の川の長さランキング｜1位は信濃川！',
       'category': 'chiri',
       'unit': 'km',
       'source': '国土交通省',
@@ -21068,6 +21077,7 @@ window.RANKING_DATA = {
     {
       'id': 'nihon-taki-rakusa',
       'title': '日本の滝の落差ランキング',
+      'seoTitle': '日本の滝の落差ランキング｜1位はハンノキ滝！',
       'category': 'chiri',
       'unit': 'm',
       'source': '滝ペディア',
@@ -21157,6 +21167,7 @@ window.RANKING_DATA = {
     {
       'id': 'nihon-yama-takasa',
       'title': '日本の山の高さランキング',
+      'seoTitle': '日本の山の高さランキング｜1位は富士山！',
       'category': 'chiri',
       'unit': 'm',
       'source': '国土地理院',
@@ -21307,6 +21318,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-coffee-seisanryo-kuni',
       'title': '世界のコーヒー生産量ランキング',
+      'seoTitle': '世界のコーヒー生産量ランキング｜1位はブラジル！',
       'category': 'keizai',
       'unit': 'トン',
       'source': 'FAOSTAT（国連食糧農業機関）',
@@ -21433,6 +21445,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-gdp-kuni',
       'title': '世界のGDPランキング（国別）',
+      'seoTitle': '世界のGDPランキング｜1位はアメリカ！',
       'category': 'keizai',
       'unit': '億ドル',
       'source': 'IMF World Economic Outlook',
@@ -24640,6 +24653,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-gengo-washa',
       'title': '世界の言語ランキング（母語話者数）',
+      'seoTitle': '世界の言語ランキング（母語話者数）｜1位は中国語！',
       'category': 'jinko',
       'unit': '万人',
       'source': 'Ethnologue',
@@ -24717,6 +24731,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-heikin-shinchou-kuni',
       'title': '世界の平均身長ランキング（国別）',
+      'seoTitle': '世界の平均身長ランキング｜1位はオランダ！',
       'category': 'jinko',
       'unit': 'cm',
       'source': 'NCD Risk Factor Collaboration（NCD-RisC, Lancet 2020）。1996年生まれ世代（成人身長に達した最も新しい世代）の平均身長。Our World in Data経由',
@@ -24898,6 +24913,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-heikinjumyo-kuni',
       'title': '世界の平均寿命ランキング（国別）',
+      'seoTitle': '世界の平均寿命ランキング｜1位は日本！',
       'category': 'jinko',
       'unit': '歳',
       'source': 'WHO世界保健統計2025年版',
@@ -24989,6 +25005,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-jidousha-seisan-kuni',
       'title': '世界の自動車生産台数ランキング（国別）',
+      'seoTitle': '世界の自動車生産台数ランキング｜1位は中国！',
       'category': 'keizai',
       'unit': '台',
       'source': 'OICA（国際自動車工業会）',
@@ -25058,6 +25075,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-jinko-kuni',
       'title': '世界の人口ランキング（国別）',
+      'seoTitle': '世界の人口ランキング｜1位はインド！',
       'category': 'jinko',
       'unit': '人',
       'source': '国連 World Population Prospects 2024年版',
@@ -27412,6 +27430,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-kaiko-fukasa',
       'title': '世界一深い海溝ランキング',
+      'seoTitle': '世界一深い海溝ランキング｜1位はマリアナ海溝！',
       'category': 'chiri',
       'unit': 'm',
       'source': '海洋研究開発機構(JAMSTEC) ほか',
@@ -27503,6 +27522,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-kaiyo-menseki',
       'title': '世界の海洋 面積ランキング',
+      'seoTitle': '世界の海洋面積ランキング｜1位は太平洋！',
       'category': 'chiri',
       'unit': 'km²',
       'source': '国土地理院 ほか',
@@ -27562,6 +27582,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-kawa-nagasa',
       'title': '世界の川の長さランキング',
+      'seoTitle': '世界の川の長さランキング｜1位はナイル川！',
       'category': 'chiri',
       'unit': 'km',
       'source': '国土地理院 ほか',
@@ -27647,6 +27668,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-koki-eiga',
       'title': '世界興行収入ランキング（映画・歴代）',
+      'seoTitle': '世界の映画興行収入ランキング（歴代）｜1位はアバター！',
       'category': 'sports',
       'unit': '億ドル',
       'source': 'Box Office Mojo ほか',
@@ -27716,6 +27738,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-komugi-seisanryo-kuni',
       'title': '世界の小麦生産量ランキング',
+      'seoTitle': '世界の小麦生産量ランキング｜1位は中国！',
       'category': 'keizai',
       'unit': 'トン',
       'source': 'FAOSTAT（国連食糧農業機関）',
@@ -27762,6 +27785,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-koso-biru',
       'title': '世界の高い建造物ランキング',
+      'seoTitle': '世界の高い建造物ランキング｜1位はブルジュ・ハリファ！',
       'category': 'chiri',
       'unit': 'm',
       'source': '国土交通省 ほか',
@@ -27847,6 +27871,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-kuni-menseki',
       'title': '世界の国土面積ランキング',
+      'seoTitle': '世界の国土面積ランキング｜1位はロシア！',
       'category': 'chiri',
       'unit': 'km²',
       'source': '外務省',
@@ -28094,6 +28119,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-mizuumi-menseki',
       'title': '世界の湖の面積ランキング',
+      'seoTitle': '世界の湖の面積ランキング｜1位はカスピ海！',
       'category': 'chiri',
       'unit': 'km²',
       'source': '国土地理院 ほか',
@@ -28179,6 +28205,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-sabaku-menseki',
       'title': '世界の砂漠面積ランキング',
+      'seoTitle': '世界の砂漠面積ランキング｜1位はサハラ砂漠！',
       'category': 'chiri',
       'unit': 'km²',
       'source': '各種地理統計（南極・北極の氷雪砂漠を除く）',
@@ -28262,6 +28289,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-shima-menseki',
       'title': '世界の島の面積ランキング',
+      'seoTitle': '世界の島の面積ランキング｜1位はグリーンランド！',
       'category': 'chiri',
       'unit': 'km²',
       'source': '国土地理院 ほか',
@@ -28434,6 +28462,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-shukyo-jinko',
       'title': '世界の宗教人口ランキング',
+      'seoTitle': '世界の宗教人口ランキング｜1位はキリスト教！',
       'category': 'jinko',
       'unit': '億人',
       'source': 'Pew Research Center ほか',
@@ -28491,6 +28520,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-tairiku-menseki',
       'title': '世界の大陸の面積ランキング',
+      'seoTitle': '世界の大陸の面積ランキング｜1位はアジア！',
       'category': 'chiri',
       'unit': 'km²',
       'source': '理科年表 ほか',
@@ -28567,6 +28597,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-takai-yama',
       'title': '世界の山の高さランキング',
+      'seoTitle': '世界の山の高さランキング｜1位はエベレスト！',
       'category': 'chiri',
       'unit': 'm',
       'source': '国土地理院 ほか',
@@ -28674,6 +28705,7 @@ window.RANKING_DATA = {
     {
       'id': 'sekai-tosiken-jinko',
       'title': '世界の都市圏人口ランキング',
+      'seoTitle': '世界の都市圏人口ランキング｜1位は広州・深圳！',
       'category': 'jinko',
       'unit': '人',
       'source': 'Demographia World Urban Areas',
@@ -28743,6 +28775,7 @@ window.RANKING_DATA = {
     {
       'id': 'taiyokei-wakusei-chokkei',
       'title': '太陽系の惑星サイズランキング',
+      'seoTitle': '太陽系の惑星サイズランキング｜1位は木星！',
       'category': 'chiri',
       'unit': 'km',
       'source': 'NASA Planetary Fact Sheet',
@@ -28821,6 +28854,7 @@ window.RANKING_DATA = {
     {
       'id': 'todofuken-heikin-jumyo',
       'title': '都道府県別 平均寿命ランキング',
+      'seoTitle': '日本の平均寿命ランキング｜1位は滋賀県！',
       'category': 'jinko',
       'unit': '歳',
       'source': '厚生労働省 令和2年都道府県別生命表（男女の平均値）',
@@ -29083,6 +29117,7 @@ window.RANKING_DATA = {
     {
       'id': 'todofuken-heikin-nenshu',
       'title': '都道府県別 平均年収ランキング',
+      'seoTitle': '日本の平均年収ランキング｜1位は東京都！',
       'category': 'keizai',
       'unit': '万円',
       'source': '厚生労働省 賃金構造基本統計調査（令和6年）',
@@ -29304,6 +29339,7 @@ window.RANKING_DATA = {
     {
       'id': 'todofuken-heikin-shinchou',
       'title': '都道府県別 平均身長ランキング（17歳）',
+      'seoTitle': '日本の平均身長ランキング（17歳）｜1位は青森・京都！',
       'category': 'jinko',
       'unit': 'cm',
       'source': '文部科学省「学校保健統計調査」令和6年度（2024年度）確定値。17歳の身長の平均値',
@@ -29589,6 +29625,7 @@ window.RANKING_DATA = {
     {
       'id': 'todofuken-jinko-mitsudo',
       'title': '都道府県別 人口密度ランキング',
+      'seoTitle': '日本の人口密度ランキング｜1位は東京都！',
       'category': 'jinko',
       'unit': '人/km²',
       'source': '総務省統計局 人口推計 / 国土地理院 全国都道府県市区町村別面積調',
@@ -29665,6 +29702,7 @@ window.RANKING_DATA = {
     {
       'id': 'todofuken-kaigansen-nagasa',
       'title': '都道府県別 海岸線の長さランキング',
+      'seoTitle': '日本の海岸線の長さランキング｜1位は北海道！',
       'category': 'chiri',
       'unit': 'km',
       'source': '環境省「環境統計集」（平成28年版）都道府県別海岸延長（原典: 国土交通省水管理・国土保全局海岸室「海岸統計 平成27年度版」、平成26年3月31日現在）',
@@ -29906,6 +29944,7 @@ window.RANKING_DATA = {
     {
       'id': 'todofuken-menseki',
       'title': '都道府県別 面積ランキング',
+      'seoTitle': '日本の都道府県 面積ランキング｜1位は北海道！',
       'category': 'chiri',
       'unit': 'km²',
       'source': '国土地理院 全国都道府県市区町村別面積調',
@@ -30148,6 +30187,7 @@ window.RANKING_DATA = {
     {
       'id': 'todofuken-rinsetsu-kensu',
       'title': '都道府県別 隣接数ランキング',
+      'seoTitle': '日本の都道府県 隣接数ランキング｜1位は長野県！',
       'category': 'chiri',
       'unit': '都道府県',
       'source': '都道府県の隣接関係（地理的位置関係にもとづく）',
@@ -30369,6 +30409,7 @@ window.RANKING_DATA = {
     {
       'id': 'todofuken-saitei-chingin',
       'title': '都道府県別 最低賃金ランキング',
+      'seoTitle': '日本の最低賃金ランキング｜1位は東京都！',
       'category': 'keizai',
       'unit': '円',
       'source': '厚生労働省 地域別最低賃金の全国一覧',
@@ -35303,6 +35344,7 @@ window.RANKING_DATA = {
     {
       'id': 'todofuken-shima-no-kazu',
       'title': '都道府県別 島の数ランキング',
+      'seoTitle': '日本の島の数ランキング｜1位は長崎県！',
       'category': 'chiri',
       'unit': '島',
       'source': '国土地理院「我が国の島の数一覧」（令和5年公表、令和4年1月時点の電子国土基本図による計数）',
@@ -35542,6 +35584,7 @@ window.RANKING_DATA = {
     {
       'id': 'todofuken-shinrinritsu',
       'title': '都道府県別 森林率ランキング',
+      'seoTitle': '日本の森林率ランキング｜1位は高知県！',
       'category': 'chiri',
       'unit': '%',
       'source': '林野庁 森林資源の現況（令和4年3月31日現在）',
@@ -35788,6 +35831,7 @@ window.RANKING_DATA = {
     {
       'id': 'todofuken-shusshoritsu',
       'title': '都道府県別 出生率（合計特殊出生率）ランキング',
+      'seoTitle': '日本の出生率ランキング｜1位は沖縄県！',
       'category': 'jinko',
       'unit': '',
       'source': '厚生労働省 人口動態統計（国立社会保障・人口問題研究所「人口統計資料集」）',
@@ -36085,6 +36129,7 @@ window.RANKING_DATA = {
     {
       'id': 'wcup-yusho-kaisu',
       'title': 'FIFAワールドカップ優勝回数ランキング（国別）',
+      'seoTitle': 'サッカーW杯 優勝回数ランキング｜1位はブラジル！',
       'category': 'sports',
       'unit': '回',
       'source': 'FIFA',
@@ -36146,6 +36191,7 @@ window.RANKING_DATA = {
     {
       'id': 'yushutsugaku-kuni',
       'title': '国・地域別 輸出額ランキング',
+      'seoTitle': '世界の輸出額ランキング｜1位は中国！',
       'category': 'keizai',
       'unit': '億ドル',
       'source': 'UNCTAD 貿易統計',

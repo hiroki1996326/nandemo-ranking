@@ -619,7 +619,7 @@ function router() {
     html = topicDetailHtml(id);
     const topic = TOPICS.find(function (t) { return t.id === id; });
     if (topic) {
-      setMeta(topic.title + '｜' + SITE_NAME, topic.lead || SITE_DEFAULT_DESC, topic.thumbnail);
+      setMeta((topic.seoTitle || topic.title + '｜' + SITE_NAME), topic.lead || SITE_DEFAULT_DESC, topic.thumbnail);
       crumbs = [
         { label: 'ホーム', href: '/' },
         { label: category(topic.category).name, href: '/category/' + topic.category },

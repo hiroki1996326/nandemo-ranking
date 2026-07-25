@@ -136,6 +136,9 @@ def resolve_topic(article, registry):
     return {
         'id': slug,
         'title': article.get('title'),
+        # SEO用のtitle（<title>/OGP専用。無ければtitleを使う）。ページ内H1やカードは
+        # あくまで title を使うので、ここに「1位は○○！」等を入れても見出しは汚れない。
+        'seoTitle': article.get('seoTitle') or '',
         'category': article.get('category'),
         'unit': article.get('unit'),
         'source': article.get('source'),

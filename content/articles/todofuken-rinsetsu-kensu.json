@@ -19,53 +19,194 @@
     {
       "period": null,
       "entries": [
-        { "entity": "hokkaido", "value": 1 },
-        { "entity": "aomori", "value": 3 },
-        { "entity": "iwate", "value": 3 },
-        { "entity": "miyagi", "value": 4 },
-        { "entity": "akita", "value": 4 },
-        { "entity": "yamagata", "value": 4 },
-        { "entity": "fukushima", "value": 6 },
-        { "entity": "ibaraki", "value": 4 },
-        { "entity": "tochigi", "value": 4 },
-        { "entity": "gunma", "value": 5 },
-        { "entity": "saitama", "value": 7 },
-        { "entity": "chiba", "value": 4 },
-        { "entity": "tokyo", "value": 4 },
-        { "entity": "kanagawa", "value": 4 },
-        { "entity": "niigata", "value": 5 },
-        { "entity": "toyama", "value": 4 },
-        { "entity": "ishikawa", "value": 3 },
-        { "entity": "fukui", "value": 4 },
-        { "entity": "yamanashi", "value": 5 },
-        { "entity": "nagano", "value": 8 },
-        { "entity": "gifu", "value": 7 },
-        { "entity": "shizuoka", "value": 4 },
-        { "entity": "aichi", "value": 4 },
-        { "entity": "mie", "value": 6 },
-        { "entity": "shiga", "value": 4 },
-        { "entity": "kyoto", "value": 6 },
-        { "entity": "osaka", "value": 4 },
-        { "entity": "hyogo", "value": 5 },
-        { "entity": "nara", "value": 4 },
-        { "entity": "wakayama", "value": 3 },
-        { "entity": "tottori", "value": 4 },
-        { "entity": "shimane", "value": 3 },
-        { "entity": "okayama", "value": 4 },
-        { "entity": "hiroshima", "value": 5 },
-        { "entity": "yamaguchi", "value": 3 },
-        { "entity": "tokushima", "value": 4 },
-        { "entity": "kagawa", "value": 3 },
-        { "entity": "ehime", "value": 4 },
-        { "entity": "kochi", "value": 2 },
-        { "entity": "fukuoka", "value": 4 },
-        { "entity": "saga", "value": 2 },
-        { "entity": "nagasaki", "value": 1 },
-        { "entity": "kumamoto", "value": 4 },
-        { "entity": "oita", "value": 3 },
-        { "entity": "miyazaki", "value": 3 },
-        { "entity": "kagoshima", "value": 2 },
-        { "entity": "okinawa", "value": 0 }
+        {
+          "entity": "hokkaido",
+          "value": 1
+        },
+        {
+          "entity": "aomori",
+          "value": 3
+        },
+        {
+          "entity": "iwate",
+          "value": 3
+        },
+        {
+          "entity": "miyagi",
+          "value": 4
+        },
+        {
+          "entity": "akita",
+          "value": 4
+        },
+        {
+          "entity": "yamagata",
+          "value": 4
+        },
+        {
+          "entity": "fukushima",
+          "value": 6
+        },
+        {
+          "entity": "ibaraki",
+          "value": 4
+        },
+        {
+          "entity": "tochigi",
+          "value": 4
+        },
+        {
+          "entity": "gunma",
+          "value": 5
+        },
+        {
+          "entity": "saitama",
+          "value": 7
+        },
+        {
+          "entity": "chiba",
+          "value": 4
+        },
+        {
+          "entity": "tokyo",
+          "value": 4
+        },
+        {
+          "entity": "kanagawa",
+          "value": 4
+        },
+        {
+          "entity": "niigata",
+          "value": 5
+        },
+        {
+          "entity": "toyama",
+          "value": 4
+        },
+        {
+          "entity": "ishikawa",
+          "value": 3
+        },
+        {
+          "entity": "fukui",
+          "value": 4
+        },
+        {
+          "entity": "yamanashi",
+          "value": 5
+        },
+        {
+          "entity": "nagano",
+          "value": 8
+        },
+        {
+          "entity": "gifu",
+          "value": 7
+        },
+        {
+          "entity": "shizuoka",
+          "value": 4
+        },
+        {
+          "entity": "aichi",
+          "value": 4
+        },
+        {
+          "entity": "mie",
+          "value": 6
+        },
+        {
+          "entity": "shiga",
+          "value": 4
+        },
+        {
+          "entity": "kyoto",
+          "value": 6
+        },
+        {
+          "entity": "osaka",
+          "value": 4
+        },
+        {
+          "entity": "hyogo",
+          "value": 5
+        },
+        {
+          "entity": "nara",
+          "value": 4
+        },
+        {
+          "entity": "wakayama",
+          "value": 3
+        },
+        {
+          "entity": "tottori",
+          "value": 4
+        },
+        {
+          "entity": "shimane",
+          "value": 3
+        },
+        {
+          "entity": "okayama",
+          "value": 4
+        },
+        {
+          "entity": "hiroshima",
+          "value": 5
+        },
+        {
+          "entity": "yamaguchi",
+          "value": 3
+        },
+        {
+          "entity": "tokushima",
+          "value": 4
+        },
+        {
+          "entity": "kagawa",
+          "value": 3
+        },
+        {
+          "entity": "ehime",
+          "value": 4
+        },
+        {
+          "entity": "kochi",
+          "value": 2
+        },
+        {
+          "entity": "fukuoka",
+          "value": 4
+        },
+        {
+          "entity": "saga",
+          "value": 2
+        },
+        {
+          "entity": "nagasaki",
+          "value": 1
+        },
+        {
+          "entity": "kumamoto",
+          "value": 4
+        },
+        {
+          "entity": "oita",
+          "value": 3
+        },
+        {
+          "entity": "miyazaki",
+          "value": 3
+        },
+        {
+          "entity": "kagoshima",
+          "value": 2
+        },
+        {
+          "entity": "okinawa",
+          "value": 0
+        }
       ]
     }
   ],
@@ -76,5 +217,6 @@
     "okinawa": "隣接する都道府県が一つもない、唯一の県。",
     "hokkaido": "津軽海峡を挟んで青森県と隣接する。陸地でつながる隣県はない。",
     "nagasaki": "佐賀県のみと隣接し、隣接数は全国で北海道と並び最少クラス。"
-  }
+  },
+  "seoTitle": "日本の都道府県 隣接数ランキング｜1位は長野県！"
 }

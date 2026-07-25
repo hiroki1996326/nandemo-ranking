@@ -2066,5 +2066,70 @@
     "name": "映画ドラえもん のび太と空の理想郷",
     "type": "movie",
     "description": "2023年の年間興行収入10位（43.4億円）。"
+  },
+  "belgium": {
+    "name": "ベルギー",
+    "type": "country",
+    "description": ""
+  },
+  "estonia": {
+    "name": "エストニア",
+    "type": "country",
+    "description": ""
+  },
+  "denmark": {
+    "name": "デンマーク",
+    "type": "country",
+    "description": ""
+  },
+  "latvia": {
+    "name": "ラトビア",
+    "type": "country",
+    "description": ""
+  },
+  "bosnia-herzegovina": {
+    "name": "ボスニア・ヘルツェゴビナ",
+    "type": "country",
+    "description": ""
+  },
+  "croatia": {
+    "name": "クロアチア",
+    "type": "country",
+    "description": ""
+  },
+  "serbia": {
+    "name": "セルビア",
+    "type": "country",
+    "description": ""
+  },
+  "czechia": {
+    "name": "チェコ",
+    "type": "country",
+    "description": ""
+  },
+  "slovenia": {
+    "name": "スロベニア",
+    "type": "country",
+    "description": ""
+  },
+  "finland": {
+    "name": "フィンランド",
+    "type": "country",
+    "description": ""
+  },
+  "slovakia": {
+    "name": "スロバキア",
+    "type": "country",
+    "description": ""
+  },
+  "lithuania": {
+    "name": "リトアニア",
+    "type": "country",
+    "description": ""
+  },
+  "ireland": {
+    "name": "アイルランド",
+    "type": "country",
+    "description": ""
   }
 }

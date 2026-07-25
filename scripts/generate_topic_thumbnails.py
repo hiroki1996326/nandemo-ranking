@@ -102,6 +102,7 @@ TOPIC_HINT = {
     'todofuken-shima-no-kazu': 'aerial view of scattered small islands in turquoise sea, archipelago from above, coastal islets',
     'todofuken-kaigansen-nagasa': 'aerial view of a rugged rocky coastline with winding bays and inlets, waves meeting cliffs, dramatic shoreline from above',
     'todofuken-heikin-shinchou': 'a simple measuring height ruler on a clean wall, tape measure and wooden stadiometer, soft studio light, minimal composition',
+    'sekai-heikin-shinchou-kuni': 'diverse silhouettes of people of different heights standing in a row against a soft gradient sky, world diversity, clean minimal',
 }
 
 CATEGORY_HINT = {

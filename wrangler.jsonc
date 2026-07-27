@@ -3,9 +3,15 @@
   // public/ 配下だけが公開サイトとして配信される。
   "name": "nandemo-ranking",
   "compatibility_date": "2026-07-10",
+  // 前段ルーター(worker.js)。正規外パスに本物の404を返すために置く。
+  "main": "worker.js",
   "assets": {
     "directory": "./public",
-    // 未知のパス（/topic/xxx 等）は index.html を返す＝クリーンURLでSPAが動く
+    // worker.js から env.ASSETS.fetch で配信するためのバインディング
+    "binding": "ASSETS",
+    // worker.js を静的アセットより先に実行する（未知パスを404にするため）
+    "run_worker_first": true,
+    // 保険: 万一 worker がバイパスされても /topic/* 等が壊れないよう SPA 挙動を残す
     "not_found_handling": "single-page-application"
   },
   // dev → プレビュー → main の3段運用。

@@ -2063,16 +2063,44 @@
       "period": 2024,
       "entries": [
         {
+          "entity": "usa",
+          "value": 345400000
+        },
+        {
           "entity": "india",
-          "value": 1450936000
+          "value": 1450900000
+        },
+        {
+          "entity": "indonesia",
+          "value": 283500000
+        },
+        {
+          "entity": "nigeria",
+          "value": 232700000
+        },
+        {
+          "entity": "russia",
+          "value": 144800000
+        },
+        {
+          "entity": "pakistan",
+          "value": 251300000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 173600000
         },
         {
           "entity": "china",
-          "value": 1408975000
+          "value": 1419300000
         },
         {
-          "entity": "usa",
-          "value": 340111000
+          "entity": "ethiopia",
+          "value": 132100000
+        },
+        {
+          "entity": "brazil",
+          "value": 212000000
         }
       ]
     },

@@ -104,6 +104,7 @@ TOPIC_HINT = {
     'todofuken-heikin-shinchou': 'a simple measuring height ruler on a clean wall, tape measure and wooden stadiometer, soft studio light, minimal composition',
     'sekai-heikin-shinchou-kuni': 'diverse silhouettes of people of different heights standing in a row against a soft gradient sky, world diversity, clean minimal',
     'nihon-mizuumi-fukasa': 'deep still crater lake surrounded by steep forested caldera walls, dark blue water, calm mountain lake seen from above, serene',
+    'sekai-mizuumi-fukasa': 'vast deep blue rift lake between steep mountain ridges, dramatic long narrow lake, dark abyssal water, wide landscape',
 }
 
 CATEGORY_HINT = {

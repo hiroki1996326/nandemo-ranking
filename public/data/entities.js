@@ -147,6 +147,13 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'crater-lake-usa': {
+    'name': 'クレーター湖',
+    'type': 'lake',
+    'description': '',
+    'image': '/images/entities/crater-lake-usa.webp',
+    'imageCredit': 'WolfmanSF / CC BY-SA 3.0',
+  },
   'croatia': {
     'name': 'クロアチア',
     'type': 'country',
@@ -1862,6 +1869,13 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'general-carrera-ko': {
+    'name': 'ヘネラル・カレラ湖',
+    'type': 'lake',
+    'description': '',
+    'image': '/images/entities/general-carrera-ko.webp',
+    'imageCredit': 'Jorge Morales Piderit / Public domain',
+  },
   'germany': {
     'name': 'ドイツ',
     'type': 'country',
@@ -1946,6 +1960,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/hong-kong.webp',
     'imageCredit': '',
   },
+  'hornindalsvatnet': {
+    'name': 'ホルニンダール湖',
+    'type': 'lake',
+    'description': '',
+    'image': '/images/entities/hornindalsvatnet.webp',
+    'imageCredit': 'Ralf at Norwegian Wikipedia / CC BY-SA 3.0',
+  },
   'hungary': {
     'name': 'ハンガリー',
     'type': 'country',
@@ -2008,6 +2029,13 @@ window.ENTITIES_DATA = {
     'description': '福井県と面積が等しく、ともに4,191km²。',
     'image': '/images/entities/ishikawa.webp',
     'imageCredit': 'Japanexperterna.se / CC BY-SA 3.0',
+  },
+  'issyk-kul-ko': {
+    'name': 'イシク・クル湖',
+    'type': 'lake',
+    'description': '',
+    'image': '/images/entities/issyk-kul-ko.webp',
+    'imageCredit': 'Public domain',
   },
   'italy': {
     'name': 'イタリア',
@@ -2160,6 +2188,13 @@ window.ENTITIES_DATA = {
     'name': '火星',
     'type': 'planet',
     'description': '「太陽系の惑星サイズランキング」で7位（6,792km）。',
+    'image': null,
+    'imageCredit': '',
+  },
+  'matano-ko': {
+    'name': 'マタノ湖',
+    'type': 'lake',
+    'description': '',
     'image': null,
     'imageCredit': '',
   },
@@ -2785,6 +2820,13 @@ window.ENTITIES_DATA = {
     'description': '落差300mで全国第3位の滝。',
     'image': null,
     'imageCredit': '',
+  },
+  'ohiggins-ko': {
+    'name': 'オイギンス湖',
+    'type': 'lake',
+    'description': '',
+    'image': '/images/entities/ohiggins-ko.webp',
+    'imageCredit': 'betoscopio / CC BY-SA 2.0',
   },
   'oita': {
     'name': '大分県',

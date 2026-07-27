@@ -71,6 +71,15 @@
     "source": "wikipedia",
     "wikipedia_title": "コロンビア"
   },
+  "crater-lake-usa": {
+    "artist": "WolfmanSF",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Crater_Lake_winter_pano2.jpg",
+    "filename": "Crater_Lake_winter_pano2.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "クレーター湖"
+  },
   "ehime": {
     "artist": "Arnaud Malon",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:D%C5%8Dgo_Onsen.jpg",
@@ -1619,6 +1628,15 @@
     "source": "wikipedia",
     "wikipedia_title": "福島県"
   },
+  "general-carrera-ko": {
+    "artist": "Jorge Morales Piderit",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lago_Gral._Carrera_01.JPG",
+    "filename": "Lago_Gral._Carrera_01.JPG",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "ヘネラル・カレラ湖"
+  },
   "gifu": {
     "artist": "Jordy Meow",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shirakawago.jpg",
@@ -1700,6 +1718,15 @@
     "source": "wikipedia",
     "wikipedia_title": "北海道"
   },
+  "hornindalsvatnet": {
+    "artist": "Ralf at Norwegian Wikipedia",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hornindalsvatnet.jpg",
+    "filename": "Hornindalsvatnet.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "ホルニンダール湖"
+  },
   "hungary": {
     "artist": "SKopp",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Hungary.svg",
@@ -1753,6 +1780,15 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "wikipedia",
     "wikipedia_title": "石川県"
+  },
+  "issyk-kul-ko": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Issyk_Kul.jpg",
+    "filename": "Issyk_Kul.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "イシク・クル湖"
   },
   "iwate": {
     "artist": "663highland",
@@ -1933,6 +1969,15 @@
     "license_url": "",
     "source": "wikipedia",
     "wikipedia_title": "ノルウェー"
+  },
+  "ohiggins-ko": {
+    "artist": "betoscopio",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lago_O%27Higgins_3.jpg",
+    "filename": "Lago_O'Higgins_3.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "wikipedia",
+    "wikipedia_title": "オイギンス湖"
   },
   "oita": {
     "artist": "663highland",

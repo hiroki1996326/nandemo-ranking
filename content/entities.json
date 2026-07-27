@@ -2156,5 +2156,35 @@
     "name": "然別湖",
     "type": "lake",
     "description": ""
+  },
+  "ohiggins-ko": {
+    "name": "オイギンス湖",
+    "type": "lake",
+    "description": ""
+  },
+  "issyk-kul-ko": {
+    "name": "イシク・クル湖",
+    "type": "lake",
+    "description": ""
+  },
+  "crater-lake-usa": {
+    "name": "クレーター湖",
+    "type": "lake",
+    "description": ""
+  },
+  "matano-ko": {
+    "name": "マタノ湖",
+    "type": "lake",
+    "description": ""
+  },
+  "general-carrera-ko": {
+    "name": "ヘネラル・カレラ湖",
+    "type": "lake",
+    "description": ""
+  },
+  "hornindalsvatnet": {
+    "name": "ホルニンダール湖",
+    "type": "lake",
+    "description": ""
   }
 }

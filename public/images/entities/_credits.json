@@ -53,6 +53,15 @@
     "source": "wikipedia",
     "wikipedia_title": "千葉県"
   },
+  "chuzenji-ko": {
+    "artist": "Uraomote yamaneko",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mount_nantai_and_lake_chuzenji.jpg",
+    "filename": "Mount_nantai_and_lake_chuzenji.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "中禅寺湖"
+  },
   "colombia": {
     "artist": "See File history below for details.",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Colombia.svg",
@@ -1727,6 +1736,15 @@
     "source": "wikipedia",
     "wikipedia_title": "アイスランド"
   },
+  "ikeda-ko": {
+    "artist": "Snap55",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Ikeda_%26_Mt.Kaimon.JPG",
+    "filename": "Lake_Ikeda_&_Mt.Kaimon.JPG",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "池田湖"
+  },
   "ishikawa": {
     "artist": "Japanexperterna.se",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Stone_lantern_Kenrokuen.jpg",
@@ -1799,6 +1817,15 @@
     "source": "wikipedia",
     "wikipedia_title": "熊本県"
   },
+  "kuttara-ko": {
+    "artist": "Highten31",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Kuttara_1.JPG",
+    "filename": "Lake_Kuttara_1.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "倶多楽湖"
+  },
   "kyoto": {
     "artist": "Sorasak boontohhgraphy",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kyoto,_Japan_(Unsplash_UIN-pFfJ7c).jpg",
@@ -1843,6 +1870,15 @@
     "license_url": "https://creativecommons.org/licenses/by/3.0",
     "source": "wikipedia",
     "wikipedia_title": "宮崎県"
+  },
+  "motosu-ko": {
+    "artist": "Captain76:Nikon D90+TAMRON SP10-24mm",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Motosu03.jpg",
+    "filename": "Lake_Motosu03.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "本栖湖"
   },
   "nagano": {
     "artist": "Alpsdake",
@@ -1978,6 +2014,15 @@
     "license_url": "https://creativecommons.org/licenses/by/2.5",
     "source": "wikipedia",
     "wikipedia_title": "滋賀県"
+  },
+  "shikaribetsu-ko": {
+    "artist": "pakku",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E9%9B%B2%E5%B1%B1%E3%81%8B%E3%82%89%EF%BC%88The_view_from_the_Mt.Hakuun%EF%BC%89_-_panoramio.jpg",
+    "filename": "白雲山から（The_view_from_the_Mt.Hakuun）_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "然別湖"
   },
   "shimane": {
     "artist": "MaedaAkihiko",

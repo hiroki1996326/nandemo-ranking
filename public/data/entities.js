@@ -84,6 +84,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/china.webp',
     'imageCredit': '',
   },
+  'chuzenji-ko': {
+    'name': '中禅寺湖',
+    'type': 'lake',
+    'description': '',
+    'image': '/images/entities/chuzenji-ko.webp',
+    'imageCredit': 'Uraomote yamaneko / CC BY-SA 3.0',
+  },
   'colombia': {
     'name': 'コロンビア',
     'type': 'country',
@@ -1967,6 +1974,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/iceland.webp',
     'imageCredit': 'Original: Matthías Þórðarson Vector: Árni Dagur and Magasjukur2 / Public domain',
   },
+  'ikeda-ko': {
+    'name': '池田湖',
+    'type': 'lake',
+    'description': '',
+    'image': '/images/entities/ikeda-ko.webp',
+    'imageCredit': 'Snap55 / CC BY 3.0',
+  },
   'india': {
     'name': 'インド',
     'type': 'country',
@@ -2100,6 +2114,13 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'kuttara-ko': {
+    'name': '倶多楽湖',
+    'type': 'lake',
+    'description': '',
+    'image': '/images/entities/kuttara-ko.webp',
+    'imageCredit': 'Highten31 / CC BY-SA 3.0',
+  },
   'kyoto': {
     'name': '京都府',
     'type': 'prefecture',
@@ -2183,6 +2204,13 @@ window.ENTITIES_DATA = {
     'description': '「都道府県別 漁獲量ランキング」で8位（82,611トン）。「都道府県別 面積ランキング」で14位（7,734km²）。',
     'image': '/images/entities/miyazaki.webp',
     'imageCredit': 'Ippukucho / CC BY 3.0',
+  },
+  'motosu-ko': {
+    'name': '本栖湖',
+    'type': 'lake',
+    'description': '',
+    'image': '/images/entities/motosu-ko.webp',
+    'imageCredit': 'Captain76:Nikon D90+TAMRON SP10-24mm / CC BY-SA 3.0',
   },
   'movie-8ban-deguchi-2025': {
     'name': '8番出口',
@@ -2869,6 +2897,13 @@ window.ENTITIES_DATA = {
     'description': '「都道府県別 面積ランキング」で38位（4,017km²）。',
     'image': '/images/entities/shiga.webp',
     'imageCredit': '663highland / CC BY 2.5',
+  },
+  'shikaribetsu-ko': {
+    'name': '然別湖',
+    'type': 'lake',
+    'description': '',
+    'image': '/images/entities/shikaribetsu-ko.webp',
+    'imageCredit': 'pakku / CC BY 3.0',
   },
   'shimane': {
     'name': '島根県',

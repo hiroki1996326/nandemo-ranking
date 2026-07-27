@@ -2131,5 +2131,30 @@
     "name": "アイルランド",
     "type": "country",
     "description": ""
+  },
+  "ikeda-ko": {
+    "name": "池田湖",
+    "type": "lake",
+    "description": ""
+  },
+  "chuzenji-ko": {
+    "name": "中禅寺湖",
+    "type": "lake",
+    "description": ""
+  },
+  "kuttara-ko": {
+    "name": "倶多楽湖",
+    "type": "lake",
+    "description": ""
+  },
+  "motosu-ko": {
+    "name": "本栖湖",
+    "type": "lake",
+    "description": ""
+  },
+  "shikaribetsu-ko": {
+    "name": "然別湖",
+    "type": "lake",
+    "description": ""
   }
 }

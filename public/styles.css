@@ -143,12 +143,6 @@ body {
 .cat-title { font-family: var(--font); font-weight: 700; font-size: 26px; margin: 18px 0 26px; }
 
 /* 実体type一覧ページ */
-.entity-grid { display: flex; flex-wrap: wrap; gap: 10px; }
-.entity-grid-item {
-  display: inline-block; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--line);
-  color: var(--text); text-decoration: none; font-size: 13.5px;
-}
-.entity-grid-item:hover { border-color: var(--accent); color: var(--accent); }
 
 /* delta badges */
 .delta { font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums; display: inline-flex; align-items: baseline; gap: 5px; }

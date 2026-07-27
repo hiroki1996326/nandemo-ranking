@@ -140,11 +140,8 @@ def build_sitemap_xml(topics, entities=None):
         urls.append({'loc': SITE_URL + '/topic/' + t['id'], 'lastmod': t.get('updatedAt')})
     # entity個別ページ(/entity/{id})はSEO上noindexのため、sitemapには含めない
     # （app.js側でnoindexを設定。クロール自体は許可するがindexはさせない方針）。
-    seen_types = []
-    for entity in (entities or {}).values():
-        if entity.get('type') and entity['type'] not in seen_types:
-            seen_types.append(entity['type'])
-            urls.append({'loc': SITE_URL + '/entity-type/' + entity['type'], 'lastmod': None})
+    # entity-type一覧(/entity-type/{type})も、見出し＋リンク集だけの薄いページで
+    # SEO価値がないため廃止済み（sitemapに含めず、ページ自体も削除）。
 
     entries = []
     for u in urls:

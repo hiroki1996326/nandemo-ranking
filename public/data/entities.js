@@ -19,14 +19,14 @@ window.ENTITIES_DATA = {
     'type': 'island',
     'description': '',
     'image': '/images/entities/amakusa-kamishima.webp',
-    'imageCredit': 'Bobo12345 at English Wikipedia / CC BY-SA 3.0',
+    'imageCredit': 'Ippukucho / CC BY 3.0',
   },
   'amakusa-shimoshima': {
     'name': '天草下島',
     'type': 'island',
     'description': '',
     'image': '/images/entities/amakusa-shimoshima.webp',
-    'imageCredit': 'Bobo12345 at English Wikipedia / CC BY-SA 3.0',
+    'imageCredit': '690 Noda / CC BY 3.0',
   },
   'amami-oshima': {
     'name': '奄美大島',
@@ -3141,7 +3141,7 @@ window.ENTITIES_DATA = {
     'type': 'island',
     'description': '',
     'image': '/images/entities/tanegashima.webp',
-    'imageCredit': '元ファイル作者：Lincun、改変：Sakoppi / CC BY-SA 3.0',
+    'imageCredit': 'Image Science and Analysis Laboratory, NASA - Johnson Space Center. "The Gateway to Astronaut Photography of Earth." / Public domain',
   },
   'thailand': {
     'name': 'タイ',

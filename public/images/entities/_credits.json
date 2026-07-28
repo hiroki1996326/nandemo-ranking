@@ -18,22 +18,22 @@
     "wikipedia_title": "秋田県"
   },
   "amakusa-kamishima": {
-    "artist": "Bobo12345 at English Wikipedia",
-    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Yatsushiro_Sea.png",
-    "filename": "Yatsushiro_Sea.png",
-    "license": "CC BY-SA 3.0",
-    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "source": "wikipedia",
-    "wikipedia_title": "天草上島"
+    "artist": "Ippukucho",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:AmakusaFiveBridgeFromSenganzan.JPG",
+    "filename": "AmakusaFiveBridgeFromSenganzan.JPG",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "commons",
+    "wikipedia_title": ""
   },
   "amakusa-shimoshima": {
-    "artist": "Bobo12345 at English Wikipedia",
-    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Yatsushiro_Sea.png",
-    "filename": "Yatsushiro_Sea.png",
-    "license": "CC BY-SA 3.0",
-    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "source": "wikipedia",
-    "wikipedia_title": "天草下島"
+    "artist": "690 Noda",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E5%A6%99%E8%A6%8B%E6%B5%A6_myoukengaura_20121004_-_panoramio.jpg",
+    "filename": "妙見浦 myoukengaura 20121004 - panoramio.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "commons",
+    "wikipedia_title": ""
   },
   "amami-oshima": {
     "artist": "Image Science and Analysis Laboratory, NASA-Johnson Space Center. \"The Gateway to Astronaut Photography of Earth.\"",
@@ -2277,13 +2277,13 @@
     "wikipedia_title": "シリア砂漠"
   },
   "tanegashima": {
-    "artist": "元ファイル作者：Lincun、改変：Sakoppi",
-    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Location_map_of_Kagoshima.svg",
-    "filename": "Location_map_of_Kagoshima.svg",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source": "wikipedia",
-    "wikipedia_title": "種子島"
+    "artist": "Image Science and Analysis Laboratory, NASA - Johnson Space Center. \"The Gateway to Astronaut Photography of Earth.\"",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tanegashima_ISS048.jpg",
+    "filename": "Tanegashima ISS048.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "commons",
+    "wikipedia_title": ""
   },
   "tochigi": {
     "artist": "Koichi Sato",

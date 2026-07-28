@@ -1,0 +1,2523 @@
+{
+  "id": "sekai-co2-haishutsu-kuni",
+  "title": "世界のCO2排出量ランキング（国別）",
+  "seoTitle": "世界のCO2排出量ランキング｜1位は中国！",
+  "category": "keizai",
+  "unit": "億トン",
+  "source": "Our World in Data / Global Carbon Project（各国の領域内CO2排出量、化石燃料・産業由来）",
+  "sourceUrl": "https://ourworldindata.org/co2-emissions",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-28",
+  "lead": "2024年に最もCO2を多く排出した国は中国で122.9億トン。2位アメリカ（49.0億トン）の約2.5倍で、3位インド（31.9億トン）と続く。かつては長くアメリカが世界1位だったが、2006年に中国が逆転して以降は中国が独走している。1970年から2024年まで、上位10か国の推移を掲載している。",
+  "commentary": "各国の領域内で排出された化石燃料・産業由来のCO2排出量。1970年から2005年まではアメリカが世界最大の排出国だったが、2006年に中国が抜いて以降、中国の排出量は急増し2024年にはアメリカの約2.5倍に達している。",
+  "analysisHeading": "2006年に中国がアメリカを逆転、以降は中国が独走",
+  "analysis": [
+    "2024年のCO2排出量は中国が122.9億トンで世界1位。2位アメリカ（49.0億トン）の約2.5倍にあたり、3位インド（31.9億トン）を加えた上位3か国だけで、掲載10か国の大半を占める。",
+    "アメリカは1970年から2005年まで36年連続で世界最大の排出国だったが、2006年に中国に抜かれた。中国の排出量は1970年の8.1億トンから2024年の122.9億トンへと約15倍に増え、同じ期間にアメリカ（43.4→49.0億トン）を大きく引き離した。",
+    "アメリカの排出量は2000年代前半の約61億トンをピークに減少に転じ、2024年は49.0億トンまで下がっている。一方で3位インドは経済成長とともに増加を続けており、日本は9.6億トンで5位となっている。"
+  ],
+  "sections": [
+    {
+      "h2": "2006年、中国がアメリカを抜いて世界最大の排出国に"
+    },
+    {
+      "p": "1970年の時点でCO2排出量が世界最大だったのはアメリカ（43.4億トン）で、当時の中国（8.1億トン）の5倍以上あった。しかし中国は工業化とともに排出量を急拡大させ、**2006年にアメリカを逆転**。それ以降も増え続け、2024年には122.9億トンと、アメリカ（49.0億トン）の約2.5倍にまで達している。"
+    },
+    {
+      "h2": "アメリカはピークから減少、それでも世界2位"
+    },
+    {
+      "p": "**アメリカ**の排出量は2000年代前半の約61億トンがピークで、以降は省エネや石炭から天然ガス・再生可能エネルギーへの転換により減少傾向にある。2024年は49.0億トンで、ピーク時より2割ほど少ない。それでも中国に次ぐ世界2位の水準が続いている。"
+    },
+    {
+      "h2": "上位を占めるのは人口大国と資源国"
+    },
+    {
+      "p": "上位には中国・アメリカ・インド・ロシア・日本といった経済・人口の大きい国に加え、6位インドネシア、7位イラン、8位サウジアラビアといった産油・産ガス国も並ぶ。排出量は経済規模・人口・エネルギー構成によって決まるため、必ずしも一人当たりの排出量の多さとは一致しない。"
+    }
+  ],
+  "data": [
+    {
+      "period": 1970,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 8.1
+        },
+        {
+          "entity": "usa",
+          "value": 43.4
+        },
+        {
+          "entity": "india",
+          "value": 1.8
+        },
+        {
+          "entity": "russia",
+          "value": 14.4
+        },
+        {
+          "entity": "japan",
+          "value": 7.7
+        },
+        {
+          "entity": "indonesia",
+          "value": 0.4
+        },
+        {
+          "entity": "entity-100",
+          "value": 0.9
+        },
+        {
+          "entity": "entity-097",
+          "value": 0.5
+        },
+        {
+          "entity": "south-korea",
+          "value": 0.5
+        },
+        {
+          "entity": "germany",
+          "value": 10.3
+        }
+      ]
+    },
+    {
+      "period": 1971,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 9.1
+        },
+        {
+          "entity": "usa",
+          "value": 43.7
+        },
+        {
+          "entity": "india",
+          "value": 1.9
+        },
+        {
+          "entity": "russia",
+          "value": 15.3
+        },
+        {
+          "entity": "japan",
+          "value": 8.0
+        },
+        {
+          "entity": "indonesia",
+          "value": 0.4
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.0
+        },
+        {
+          "entity": "entity-097",
+          "value": 0.6
+        },
+        {
+          "entity": "south-korea",
+          "value": 0.6
+        },
+        {
+          "entity": "germany",
+          "value": 10.4
+        }
+      ]
+    },
+    {
+      "period": 1972,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 9.7
+        },
+        {
+          "entity": "usa",
+          "value": 45.7
+        },
+        {
+          "entity": "india",
+          "value": 2.0
+        },
+        {
+          "entity": "russia",
+          "value": 16.1
+        },
+        {
+          "entity": "japan",
+          "value": 8.6
+        },
+        {
+          "entity": "indonesia",
+          "value": 0.4
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.1
+        },
+        {
+          "entity": "entity-097",
+          "value": 0.7
+        },
+        {
+          "entity": "south-korea",
+          "value": 0.6
+        },
+        {
+          "entity": "germany",
+          "value": 10.4
+        }
+      ]
+    },
+    {
+      "period": 1973,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 10.1
+        },
+        {
+          "entity": "usa",
+          "value": 47.8
+        },
+        {
+          "entity": "india",
+          "value": 2.1
+        },
+        {
+          "entity": "russia",
+          "value": 16.8
+        },
+        {
+          "entity": "japan",
+          "value": 9.1
+        },
+        {
+          "entity": "indonesia",
+          "value": 0.5
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.3
+        },
+        {
+          "entity": "entity-097",
+          "value": 1.0
+        },
+        {
+          "entity": "south-korea",
+          "value": 0.7
+        },
+        {
+          "entity": "germany",
+          "value": 10.9
+        }
+      ]
+    },
+    {
+      "period": 1974,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 10.3
+        },
+        {
+          "entity": "usa",
+          "value": 46.1
+        },
+        {
+          "entity": "india",
+          "value": 2.2
+        },
+        {
+          "entity": "russia",
+          "value": 17.4
+        },
+        {
+          "entity": "japan",
+          "value": 9.1
+        },
+        {
+          "entity": "indonesia",
+          "value": 0.5
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.4
+        },
+        {
+          "entity": "entity-097",
+          "value": 1.0
+        },
+        {
+          "entity": "south-korea",
+          "value": 0.8
+        },
+        {
+          "entity": "germany",
+          "value": 10.6
+        }
+      ]
+    },
+    {
+      "period": 1975,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 11.8
+        },
+        {
+          "entity": "usa",
+          "value": 44.1
+        },
+        {
+          "entity": "india",
+          "value": 2.3
+        },
+        {
+          "entity": "russia",
+          "value": 18.3
+        },
+        {
+          "entity": "japan",
+          "value": 8.7
+        },
+        {
+          "entity": "indonesia",
+          "value": 0.5
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.4
+        },
+        {
+          "entity": "entity-097",
+          "value": 0.8
+        },
+        {
+          "entity": "south-korea",
+          "value": 0.8
+        },
+        {
+          "entity": "germany",
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "period": 1976,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 12.3
+        },
+        {
+          "entity": "usa",
+          "value": 46.2
+        },
+        {
+          "entity": "india",
+          "value": 2.4
+        },
+        {
+          "entity": "russia",
+          "value": 19.0
+        },
+        {
+          "entity": "japan",
+          "value": 9.1
+        },
+        {
+          "entity": "indonesia",
+          "value": 0.6
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.6
+        },
+        {
+          "entity": "entity-097",
+          "value": 1.0
+        },
+        {
+          "entity": "south-korea",
+          "value": 0.9
+        },
+        {
+          "entity": "germany",
+          "value": 10.9
+        }
+      ]
+    },
+    {
+      "period": 1977,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 13.4
+        },
+        {
+          "entity": "usa",
+          "value": 47.5
+        },
+        {
+          "entity": "india",
+          "value": 2.6
+        },
+        {
+          "entity": "russia",
+          "value": 19.7
+        },
+        {
+          "entity": "japan",
+          "value": 9.4
+        },
+        {
+          "entity": "indonesia",
+          "value": 0.8
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.6
+        },
+        {
+          "entity": "entity-097",
+          "value": 1.2
+        },
+        {
+          "entity": "south-korea",
+          "value": 1.1
+        },
+        {
+          "entity": "germany",
+          "value": 10.5
+        }
+      ]
+    },
+    {
+      "period": 1978,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14.9
+        },
+        {
+          "entity": "usa",
+          "value": 49.0
+        },
+        {
+          "entity": "india",
+          "value": 2.6
+        },
+        {
+          "entity": "russia",
+          "value": 20.3
+        },
+        {
+          "entity": "japan",
+          "value": 9.1
+        },
+        {
+          "entity": "indonesia",
+          "value": 0.9
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.6
+        },
+        {
+          "entity": "entity-097",
+          "value": 1.2
+        },
+        {
+          "entity": "south-korea",
+          "value": 1.1
+        },
+        {
+          "entity": "germany",
+          "value": 10.8
+        }
+      ]
+    },
+    {
+      "period": 1979,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 15.3
+        },
+        {
+          "entity": "usa",
+          "value": 49.1
+        },
+        {
+          "entity": "india",
+          "value": 2.8
+        },
+        {
+          "entity": "russia",
+          "value": 20.5
+        },
+        {
+          "entity": "japan",
+          "value": 9.6
+        },
+        {
+          "entity": "indonesia",
+          "value": 1.0
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.6
+        },
+        {
+          "entity": "entity-097",
+          "value": 1.4
+        },
+        {
+          "entity": "south-korea",
+          "value": 1.3
+        },
+        {
+          "entity": "germany",
+          "value": 11.2
+        }
+      ]
+    },
+    {
+      "period": 1980,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14.9
+        },
+        {
+          "entity": "usa",
+          "value": 47.3
+        },
+        {
+          "entity": "india",
+          "value": 2.9
+        },
+        {
+          "entity": "russia",
+          "value": 21.3
+        },
+        {
+          "entity": "japan",
+          "value": 9.5
+        },
+        {
+          "entity": "indonesia",
+          "value": 0.9
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.2
+        },
+        {
+          "entity": "entity-097",
+          "value": 1.7
+        },
+        {
+          "entity": "south-korea",
+          "value": 1.3
+        },
+        {
+          "entity": "germany",
+          "value": 11.0
+        }
+      ]
+    },
+    {
+      "period": 1981,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14.8
+        },
+        {
+          "entity": "usa",
+          "value": 45.4
+        },
+        {
+          "entity": "india",
+          "value": 3.1
+        },
+        {
+          "entity": "russia",
+          "value": 20.9
+        },
+        {
+          "entity": "japan",
+          "value": 9.3
+        },
+        {
+          "entity": "indonesia",
+          "value": 1.0
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.1
+        },
+        {
+          "entity": "entity-097",
+          "value": 1.8
+        },
+        {
+          "entity": "south-korea",
+          "value": 1.4
+        },
+        {
+          "entity": "germany",
+          "value": 10.5
+        }
+      ]
+    },
+    {
+      "period": 1982,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 16.1
+        },
+        {
+          "entity": "usa",
+          "value": 43.1
+        },
+        {
+          "entity": "india",
+          "value": 3.3
+        },
+        {
+          "entity": "russia",
+          "value": 21.3
+        },
+        {
+          "entity": "japan",
+          "value": 9.0
+        },
+        {
+          "entity": "indonesia",
+          "value": 1.1
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.4
+        },
+        {
+          "entity": "entity-097",
+          "value": 1.6
+        },
+        {
+          "entity": "south-korea",
+          "value": 1.4
+        },
+        {
+          "entity": "germany",
+          "value": 10.2
+        }
+      ]
+    },
+    {
+      "period": 1983,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 16.9
+        },
+        {
+          "entity": "usa",
+          "value": 43.5
+        },
+        {
+          "entity": "india",
+          "value": 3.5
+        },
+        {
+          "entity": "russia",
+          "value": 21.6
+        },
+        {
+          "entity": "japan",
+          "value": 8.8
+        },
+        {
+          "entity": "indonesia",
+          "value": 1.1
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.5
+        },
+        {
+          "entity": "entity-097",
+          "value": 1.6
+        },
+        {
+          "entity": "south-korea",
+          "value": 1.5
+        },
+        {
+          "entity": "germany",
+          "value": 10.1
+        }
+      ]
+    },
+    {
+      "period": 1984,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 18.4
+        },
+        {
+          "entity": "usa",
+          "value": 44.8
+        },
+        {
+          "entity": "india",
+          "value": 3.6
+        },
+        {
+          "entity": "russia",
+          "value": 21.8
+        },
+        {
+          "entity": "japan",
+          "value": 9.4
+        },
+        {
+          "entity": "indonesia",
+          "value": 1.1
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.5
+        },
+        {
+          "entity": "entity-097",
+          "value": 1.6
+        },
+        {
+          "entity": "south-korea",
+          "value": 1.6
+        },
+        {
+          "entity": "germany",
+          "value": 10.3
+        }
+      ]
+    },
+    {
+      "period": 1985,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 20.0
+        },
+        {
+          "entity": "usa",
+          "value": 45.0
+        },
+        {
+          "entity": "india",
+          "value": 4.0
+        },
+        {
+          "entity": "russia",
+          "value": 23.5
+        },
+        {
+          "entity": "japan",
+          "value": 9.2
+        },
+        {
+          "entity": "indonesia",
+          "value": 1.2
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.6
+        },
+        {
+          "entity": "entity-097",
+          "value": 1.7
+        },
+        {
+          "entity": "south-korea",
+          "value": 1.7
+        },
+        {
+          "entity": "germany",
+          "value": 10.4
+        }
+      ]
+    },
+    {
+      "period": 1986,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 21.0
+        },
+        {
+          "entity": "usa",
+          "value": 45.0
+        },
+        {
+          "entity": "india",
+          "value": 4.3
+        },
+        {
+          "entity": "russia",
+          "value": 23.5
+        },
+        {
+          "entity": "japan",
+          "value": 9.1
+        },
+        {
+          "entity": "indonesia",
+          "value": 1.2
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.5
+        },
+        {
+          "entity": "entity-097",
+          "value": 2.0
+        },
+        {
+          "entity": "south-korea",
+          "value": 1.8
+        },
+        {
+          "entity": "germany",
+          "value": 10.5
+        }
+      ]
+    },
+    {
+      "period": 1987,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 22.6
+        },
+        {
+          "entity": "usa",
+          "value": 46.9
+        },
+        {
+          "entity": "india",
+          "value": 4.6
+        },
+        {
+          "entity": "russia",
+          "value": 23.6
+        },
+        {
+          "entity": "japan",
+          "value": 9.0
+        },
+        {
+          "entity": "indonesia",
+          "value": 1.2
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.6
+        },
+        {
+          "entity": "entity-097",
+          "value": 1.9
+        },
+        {
+          "entity": "south-korea",
+          "value": 1.9
+        },
+        {
+          "entity": "germany",
+          "value": 10.3
+        }
+      ]
+    },
+    {
+      "period": 1988,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 24.2
+        },
+        {
+          "entity": "usa",
+          "value": 49.0
+        },
+        {
+          "entity": "india",
+          "value": 4.9
+        },
+        {
+          "entity": "russia",
+          "value": 24.4
+        },
+        {
+          "entity": "japan",
+          "value": 9.8
+        },
+        {
+          "entity": "indonesia",
+          "value": 1.3
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.8
+        },
+        {
+          "entity": "entity-097",
+          "value": 2.0
+        },
+        {
+          "entity": "south-korea",
+          "value": 2.1
+        },
+        {
+          "entity": "germany",
+          "value": 10.3
+        }
+      ]
+    },
+    {
+      "period": 1989,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 24.6
+        },
+        {
+          "entity": "usa",
+          "value": 49.6
+        },
+        {
+          "entity": "india",
+          "value": 5.4
+        },
+        {
+          "entity": "russia",
+          "value": 24.1
+        },
+        {
+          "entity": "japan",
+          "value": 10.2
+        },
+        {
+          "entity": "indonesia",
+          "value": 1.3
+        },
+        {
+          "entity": "entity-100",
+          "value": 1.9
+        },
+        {
+          "entity": "entity-097",
+          "value": 2.0
+        },
+        {
+          "entity": "south-korea",
+          "value": 2.2
+        },
+        {
+          "entity": "germany",
+          "value": 10.1
+        }
+      ]
+    },
+    {
+      "period": 1990,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 24.8
+        },
+        {
+          "entity": "usa",
+          "value": 51.3
+        },
+        {
+          "entity": "india",
+          "value": 5.8
+        },
+        {
+          "entity": "russia",
+          "value": 25.4
+        },
+        {
+          "entity": "japan",
+          "value": 11.5
+        },
+        {
+          "entity": "indonesia",
+          "value": 1.5
+        },
+        {
+          "entity": "entity-100",
+          "value": 2.1
+        },
+        {
+          "entity": "entity-097",
+          "value": 1.8
+        },
+        {
+          "entity": "south-korea",
+          "value": 2.5
+        },
+        {
+          "entity": "germany",
+          "value": 10.5
+        }
+      ]
+    },
+    {
+      "period": 1991,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 26.2
+        },
+        {
+          "entity": "usa",
+          "value": 50.8
+        },
+        {
+          "entity": "india",
+          "value": 6.2
+        },
+        {
+          "entity": "russia",
+          "value": 24.1
+        },
+        {
+          "entity": "japan",
+          "value": 11.7
+        },
+        {
+          "entity": "indonesia",
+          "value": 1.7
+        },
+        {
+          "entity": "entity-100",
+          "value": 2.2
+        },
+        {
+          "entity": "entity-097",
+          "value": 2.4
+        },
+        {
+          "entity": "south-korea",
+          "value": 2.8
+        },
+        {
+          "entity": "germany",
+          "value": 10.2
+        }
+      ]
+    },
+    {
+      "period": 1992,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 27.3
+        },
+        {
+          "entity": "usa",
+          "value": 51.8
+        },
+        {
+          "entity": "india",
+          "value": 6.6
+        },
+        {
+          "entity": "russia",
+          "value": 19.6
+        },
+        {
+          "entity": "japan",
+          "value": 11.8
+        },
+        {
+          "entity": "indonesia",
+          "value": 2.0
+        },
+        {
+          "entity": "entity-100",
+          "value": 2.3
+        },
+        {
+          "entity": "entity-097",
+          "value": 2.8
+        },
+        {
+          "entity": "south-korea",
+          "value": 3.0
+        },
+        {
+          "entity": "germany",
+          "value": 9.7
+        }
+      ]
+    },
+    {
+      "period": 1993,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 29.1
+        },
+        {
+          "entity": "usa",
+          "value": 52.8
+        },
+        {
+          "entity": "india",
+          "value": 6.8
+        },
+        {
+          "entity": "russia",
+          "value": 18.7
+        },
+        {
+          "entity": "japan",
+          "value": 11.7
+        },
+        {
+          "entity": "indonesia",
+          "value": 2.1
+        },
+        {
+          "entity": "entity-100",
+          "value": 2.4
+        },
+        {
+          "entity": "entity-097",
+          "value": 3.0
+        },
+        {
+          "entity": "south-korea",
+          "value": 3.3
+        },
+        {
+          "entity": "germany",
+          "value": 9.6
+        }
+      ]
+    },
+    {
+      "period": 1994,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 30.9
+        },
+        {
+          "entity": "usa",
+          "value": 53.6
+        },
+        {
+          "entity": "india",
+          "value": 7.1
+        },
+        {
+          "entity": "russia",
+          "value": 16.5
+        },
+        {
+          "entity": "japan",
+          "value": 12.2
+        },
+        {
+          "entity": "indonesia",
+          "value": 2.2
+        },
+        {
+          "entity": "entity-100",
+          "value": 2.6
+        },
+        {
+          "entity": "entity-097",
+          "value": 2.9
+        },
+        {
+          "entity": "south-korea",
+          "value": 3.6
+        },
+        {
+          "entity": "germany",
+          "value": 9.4
+        }
+      ]
+    },
+    {
+      "period": 1995,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 33.5
+        },
+        {
+          "entity": "usa",
+          "value": 54.3
+        },
+        {
+          "entity": "india",
+          "value": 7.6
+        },
+        {
+          "entity": "russia",
+          "value": 16.2
+        },
+        {
+          "entity": "japan",
+          "value": 12.4
+        },
+        {
+          "entity": "indonesia",
+          "value": 2.2
+        },
+        {
+          "entity": "entity-100",
+          "value": 2.7
+        },
+        {
+          "entity": "entity-097",
+          "value": 2.7
+        },
+        {
+          "entity": "south-korea",
+          "value": 3.8
+        },
+        {
+          "entity": "germany",
+          "value": 9.4
+        }
+      ]
+    },
+    {
+      "period": 1996,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 35.0
+        },
+        {
+          "entity": "usa",
+          "value": 56.0
+        },
+        {
+          "entity": "india",
+          "value": 8.2
+        },
+        {
+          "entity": "russia",
+          "value": 15.9
+        },
+        {
+          "entity": "japan",
+          "value": 12.5
+        },
+        {
+          "entity": "indonesia",
+          "value": 2.5
+        },
+        {
+          "entity": "entity-100",
+          "value": 2.8
+        },
+        {
+          "entity": "entity-097",
+          "value": 2.7
+        },
+        {
+          "entity": "south-korea",
+          "value": 4.2
+        },
+        {
+          "entity": "germany",
+          "value": 9.6
+        }
+      ]
+    },
+    {
+      "period": 1997,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 35.1
+        },
+        {
+          "entity": "usa",
+          "value": 56.7
+        },
+        {
+          "entity": "india",
+          "value": 8.6
+        },
+        {
+          "entity": "russia",
+          "value": 14.8
+        },
+        {
+          "entity": "japan",
+          "value": 12.4
+        },
+        {
+          "entity": "indonesia",
+          "value": 2.8
+        },
+        {
+          "entity": "entity-100",
+          "value": 2.7
+        },
+        {
+          "entity": "entity-097",
+          "value": 2.3
+        },
+        {
+          "entity": "south-korea",
+          "value": 4.4
+        },
+        {
+          "entity": "germany",
+          "value": 9.3
+        }
+      ]
+    },
+    {
+      "period": 1998,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 33.6
+        },
+        {
+          "entity": "usa",
+          "value": 57.4
+        },
+        {
+          "entity": "india",
+          "value": 8.8
+        },
+        {
+          "entity": "russia",
+          "value": 14.7
+        },
+        {
+          "entity": "japan",
+          "value": 12.0
+        },
+        {
+          "entity": "indonesia",
+          "value": 2.4
+        },
+        {
+          "entity": "entity-100",
+          "value": 3.1
+        },
+        {
+          "entity": "entity-097",
+          "value": 2.2
+        },
+        {
+          "entity": "south-korea",
+          "value": 3.8
+        },
+        {
+          "entity": "germany",
+          "value": 9.2
+        }
+      ]
+    },
+    {
+      "period": 1999,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 35.5
+        },
+        {
+          "entity": "usa",
+          "value": 58.0
+        },
+        {
+          "entity": "india",
+          "value": 9.6
+        },
+        {
+          "entity": "russia",
+          "value": 14.9
+        },
+        {
+          "entity": "japan",
+          "value": 12.4
+        },
+        {
+          "entity": "indonesia",
+          "value": 2.9
+        },
+        {
+          "entity": "entity-100",
+          "value": 3.7
+        },
+        {
+          "entity": "entity-097",
+          "value": 2.4
+        },
+        {
+          "entity": "south-korea",
+          "value": 4.1
+        },
+        {
+          "entity": "germany",
+          "value": 9.0
+        }
+      ]
+    },
+    {
+      "period": 2000,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 36.4
+        },
+        {
+          "entity": "usa",
+          "value": 60.2
+        },
+        {
+          "entity": "india",
+          "value": 9.9
+        },
+        {
+          "entity": "russia",
+          "value": 14.8
+        },
+        {
+          "entity": "japan",
+          "value": 12.6
+        },
+        {
+          "entity": "indonesia",
+          "value": 2.8
+        },
+        {
+          "entity": "entity-100",
+          "value": 3.7
+        },
+        {
+          "entity": "entity-097",
+          "value": 3.1
+        },
+        {
+          "entity": "south-korea",
+          "value": 4.4
+        },
+        {
+          "entity": "germany",
+          "value": 9.0
+        }
+      ]
+    },
+    {
+      "period": 2001,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 37.2
+        },
+        {
+          "entity": "usa",
+          "value": 59.0
+        },
+        {
+          "entity": "india",
+          "value": 10.0
+        },
+        {
+          "entity": "russia",
+          "value": 15.2
+        },
+        {
+          "entity": "japan",
+          "value": 12.5
+        },
+        {
+          "entity": "indonesia",
+          "value": 3.2
+        },
+        {
+          "entity": "entity-100",
+          "value": 3.9
+        },
+        {
+          "entity": "entity-097",
+          "value": 3.2
+        },
+        {
+          "entity": "south-korea",
+          "value": 4.6
+        },
+        {
+          "entity": "germany",
+          "value": 9.2
+        }
+      ]
+    },
+    {
+      "period": 2002,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 41.0
+        },
+        {
+          "entity": "usa",
+          "value": 59.5
+        },
+        {
+          "entity": "india",
+          "value": 10.3
+        },
+        {
+          "entity": "russia",
+          "value": 15.1
+        },
+        {
+          "entity": "japan",
+          "value": 12.8
+        },
+        {
+          "entity": "indonesia",
+          "value": 3.1
+        },
+        {
+          "entity": "entity-100",
+          "value": 4.0
+        },
+        {
+          "entity": "entity-097",
+          "value": 3.5
+        },
+        {
+          "entity": "south-korea",
+          "value": 4.8
+        },
+        {
+          "entity": "germany",
+          "value": 9.0
+        }
+      ]
+    },
+    {
+      "period": 2003,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 48.4
+        },
+        {
+          "entity": "usa",
+          "value": 60.1
+        },
+        {
+          "entity": "india",
+          "value": 10.7
+        },
+        {
+          "entity": "russia",
+          "value": 15.4
+        },
+        {
+          "entity": "japan",
+          "value": 12.8
+        },
+        {
+          "entity": "indonesia",
+          "value": 3.4
+        },
+        {
+          "entity": "entity-100",
+          "value": 4.1
+        },
+        {
+          "entity": "entity-097",
+          "value": 3.5
+        },
+        {
+          "entity": "south-korea",
+          "value": 4.9
+        },
+        {
+          "entity": "germany",
+          "value": 8.9
+        }
+      ]
+    },
+    {
+      "period": 2004,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 52.1
+        },
+        {
+          "entity": "usa",
+          "value": 61.1
+        },
+        {
+          "entity": "india",
+          "value": 11.3
+        },
+        {
+          "entity": "russia",
+          "value": 15.5
+        },
+        {
+          "entity": "japan",
+          "value": 12.8
+        },
+        {
+          "entity": "indonesia",
+          "value": 3.4
+        },
+        {
+          "entity": "entity-100",
+          "value": 4.4
+        },
+        {
+          "entity": "entity-097",
+          "value": 4.1
+        },
+        {
+          "entity": "south-korea",
+          "value": 4.9
+        },
+        {
+          "entity": "germany",
+          "value": 8.8
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 58.8
+        },
+        {
+          "entity": "usa",
+          "value": 61.3
+        },
+        {
+          "entity": "india",
+          "value": 12.0
+        },
+        {
+          "entity": "russia",
+          "value": 15.6
+        },
+        {
+          "entity": "japan",
+          "value": 12.9
+        },
+        {
+          "entity": "indonesia",
+          "value": 3.5
+        },
+        {
+          "entity": "entity-100",
+          "value": 4.7
+        },
+        {
+          "entity": "entity-097",
+          "value": 4.1
+        },
+        {
+          "entity": "south-korea",
+          "value": 5.0
+        },
+        {
+          "entity": "germany",
+          "value": 8.7
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 64.9
+        },
+        {
+          "entity": "usa",
+          "value": 60.5
+        },
+        {
+          "entity": "india",
+          "value": 12.9
+        },
+        {
+          "entity": "russia",
+          "value": 16.2
+        },
+        {
+          "entity": "japan",
+          "value": 12.6
+        },
+        {
+          "entity": "indonesia",
+          "value": 3.5
+        },
+        {
+          "entity": "entity-100",
+          "value": 5.0
+        },
+        {
+          "entity": "entity-097",
+          "value": 4.4
+        },
+        {
+          "entity": "south-korea",
+          "value": 5.0
+        },
+        {
+          "entity": "germany",
+          "value": 8.9
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 69.7
+        },
+        {
+          "entity": "usa",
+          "value": 61.2
+        },
+        {
+          "entity": "india",
+          "value": 13.9
+        },
+        {
+          "entity": "russia",
+          "value": 16.2
+        },
+        {
+          "entity": "japan",
+          "value": 13.0
+        },
+        {
+          "entity": "indonesia",
+          "value": 3.9
+        },
+        {
+          "entity": "entity-100",
+          "value": 5.1
+        },
+        {
+          "entity": "entity-097",
+          "value": 4.2
+        },
+        {
+          "entity": "south-korea",
+          "value": 5.2
+        },
+        {
+          "entity": "germany",
+          "value": 8.5
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 74.9
+        },
+        {
+          "entity": "usa",
+          "value": 59.2
+        },
+        {
+          "entity": "india",
+          "value": 14.9
+        },
+        {
+          "entity": "russia",
+          "value": 16.5
+        },
+        {
+          "entity": "japan",
+          "value": 12.3
+        },
+        {
+          "entity": "indonesia",
+          "value": 3.7
+        },
+        {
+          "entity": "entity-100",
+          "value": 5.3
+        },
+        {
+          "entity": "entity-097",
+          "value": 4.7
+        },
+        {
+          "entity": "south-korea",
+          "value": 5.3
+        },
+        {
+          "entity": "germany",
+          "value": 8.6
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 78.8
+        },
+        {
+          "entity": "usa",
+          "value": 54.9
+        },
+        {
+          "entity": "india",
+          "value": 16.1
+        },
+        {
+          "entity": "russia",
+          "value": 15.5
+        },
+        {
+          "entity": "japan",
+          "value": 11.6
+        },
+        {
+          "entity": "indonesia",
+          "value": 4.0
+        },
+        {
+          "entity": "entity-100",
+          "value": 5.4
+        },
+        {
+          "entity": "entity-097",
+          "value": 5.0
+        },
+        {
+          "entity": "south-korea",
+          "value": 5.4
+        },
+        {
+          "entity": "germany",
+          "value": 7.9
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 86.1
+        },
+        {
+          "entity": "usa",
+          "value": 56.7
+        },
+        {
+          "entity": "india",
+          "value": 16.8
+        },
+        {
+          "entity": "russia",
+          "value": 16.3
+        },
+        {
+          "entity": "japan",
+          "value": 12.1
+        },
+        {
+          "entity": "indonesia",
+          "value": 4.5
+        },
+        {
+          "entity": "entity-100",
+          "value": 5.6
+        },
+        {
+          "entity": "entity-097",
+          "value": 5.6
+        },
+        {
+          "entity": "south-korea",
+          "value": 5.9
+        },
+        {
+          "entity": "germany",
+          "value": 8.3
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 95.2
+        },
+        {
+          "entity": "usa",
+          "value": 55.4
+        },
+        {
+          "entity": "india",
+          "value": 17.7
+        },
+        {
+          "entity": "russia",
+          "value": 16.8
+        },
+        {
+          "entity": "japan",
+          "value": 12.6
+        },
+        {
+          "entity": "indonesia",
+          "value": 5.0
+        },
+        {
+          "entity": "entity-100",
+          "value": 5.8
+        },
+        {
+          "entity": "entity-097",
+          "value": 5.4
+        },
+        {
+          "entity": "south-korea",
+          "value": 6.2
+        },
+        {
+          "entity": "germany",
+          "value": 8.0
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 97.7
+        },
+        {
+          "entity": "usa",
+          "value": 53.3
+        },
+        {
+          "entity": "india",
+          "value": 19.3
+        },
+        {
+          "entity": "russia",
+          "value": 17.0
+        },
+        {
+          "entity": "japan",
+          "value": 13.0
+        },
+        {
+          "entity": "indonesia",
+          "value": 5.2
+        },
+        {
+          "entity": "entity-100",
+          "value": 6.0
+        },
+        {
+          "entity": "entity-097",
+          "value": 6.1
+        },
+        {
+          "entity": "south-korea",
+          "value": 6.3
+        },
+        {
+          "entity": "germany",
+          "value": 8.1
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 99.4
+        },
+        {
+          "entity": "usa",
+          "value": 54.7
+        },
+        {
+          "entity": "india",
+          "value": 20.0
+        },
+        {
+          "entity": "russia",
+          "value": 16.4
+        },
+        {
+          "entity": "japan",
+          "value": 13.1
+        },
+        {
+          "entity": "indonesia",
+          "value": 4.9
+        },
+        {
+          "entity": "entity-100",
+          "value": 6.1
+        },
+        {
+          "entity": "entity-097",
+          "value": 5.8
+        },
+        {
+          "entity": "south-korea",
+          "value": 6.3
+        },
+        {
+          "entity": "germany",
+          "value": 8.3
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 99.8
+        },
+        {
+          "entity": "usa",
+          "value": 55.3
+        },
+        {
+          "entity": "india",
+          "value": 21.5
+        },
+        {
+          "entity": "russia",
+          "value": 16.4
+        },
+        {
+          "entity": "japan",
+          "value": 12.6
+        },
+        {
+          "entity": "indonesia",
+          "value": 5.0
+        },
+        {
+          "entity": "entity-100",
+          "value": 6.4
+        },
+        {
+          "entity": "entity-097",
+          "value": 5.9
+        },
+        {
+          "entity": "south-korea",
+          "value": 6.3
+        },
+        {
+          "entity": "germany",
+          "value": 7.9
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 98.6
+        },
+        {
+          "entity": "usa",
+          "value": 53.7
+        },
+        {
+          "entity": "india",
+          "value": 22.3
+        },
+        {
+          "entity": "russia",
+          "value": 16.4
+        },
+        {
+          "entity": "japan",
+          "value": 12.2
+        },
+        {
+          "entity": "indonesia",
+          "value": 5.5
+        },
+        {
+          "entity": "entity-100",
+          "value": 6.4
+        },
+        {
+          "entity": "entity-097",
+          "value": 6.2
+        },
+        {
+          "entity": "south-korea",
+          "value": 6.3
+        },
+        {
+          "entity": "germany",
+          "value": 8.0
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 97.5
+        },
+        {
+          "entity": "usa",
+          "value": 52.5
+        },
+        {
+          "entity": "india",
+          "value": 23.5
+        },
+        {
+          "entity": "russia",
+          "value": 16.3
+        },
+        {
+          "entity": "japan",
+          "value": 12.0
+        },
+        {
+          "entity": "indonesia",
+          "value": 5.5
+        },
+        {
+          "entity": "entity-100",
+          "value": 6.4
+        },
+        {
+          "entity": "entity-097",
+          "value": 6.4
+        },
+        {
+          "entity": "south-korea",
+          "value": 6.4
+        },
+        {
+          "entity": "germany",
+          "value": 8.0
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 100.0
+        },
+        {
+          "entity": "usa",
+          "value": 52.0
+        },
+        {
+          "entity": "india",
+          "value": 24.3
+        },
+        {
+          "entity": "russia",
+          "value": 16.6
+        },
+        {
+          "entity": "japan",
+          "value": 11.8
+        },
+        {
+          "entity": "indonesia",
+          "value": 5.7
+        },
+        {
+          "entity": "entity-100",
+          "value": 7.0
+        },
+        {
+          "entity": "entity-097",
+          "value": 6.4
+        },
+        {
+          "entity": "south-korea",
+          "value": 6.5
+        },
+        {
+          "entity": "germany",
+          "value": 7.8
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 103.5
+        },
+        {
+          "entity": "usa",
+          "value": 53.6
+        },
+        {
+          "entity": "india",
+          "value": 26.0
+        },
+        {
+          "entity": "russia",
+          "value": 17.1
+        },
+        {
+          "entity": "japan",
+          "value": 11.4
+        },
+        {
+          "entity": "indonesia",
+          "value": 6.1
+        },
+        {
+          "entity": "entity-100",
+          "value": 6.6
+        },
+        {
+          "entity": "entity-097",
+          "value": 6.5
+        },
+        {
+          "entity": "south-korea",
+          "value": 6.7
+        },
+        {
+          "entity": "germany",
+          "value": 7.6
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 107.1
+        },
+        {
+          "entity": "usa",
+          "value": 52.4
+        },
+        {
+          "entity": "india",
+          "value": 26.1
+        },
+        {
+          "entity": "russia",
+          "value": 17.0
+        },
+        {
+          "entity": "japan",
+          "value": 11.0
+        },
+        {
+          "entity": "indonesia",
+          "value": 6.7
+        },
+        {
+          "entity": "entity-100",
+          "value": 7.3
+        },
+        {
+          "entity": "entity-097",
+          "value": 7.1
+        },
+        {
+          "entity": "south-korea",
+          "value": 6.5
+        },
+        {
+          "entity": "germany",
+          "value": 7.1
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 109.0
+        },
+        {
+          "entity": "usa",
+          "value": 46.9
+        },
+        {
+          "entity": "india",
+          "value": 24.2
+        },
+        {
+          "entity": "russia",
+          "value": 16.3
+        },
+        {
+          "entity": "japan",
+          "value": 10.4
+        },
+        {
+          "entity": "indonesia",
+          "value": 6.2
+        },
+        {
+          "entity": "entity-100",
+          "value": 7.5
+        },
+        {
+          "entity": "entity-097",
+          "value": 6.5
+        },
+        {
+          "entity": "south-korea",
+          "value": 6.0
+        },
+        {
+          "entity": "germany",
+          "value": 6.5
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 112.8
+        },
+        {
+          "entity": "usa",
+          "value": 50.2
+        },
+        {
+          "entity": "india",
+          "value": 26.8
+        },
+        {
+          "entity": "russia",
+          "value": 16.7
+        },
+        {
+          "entity": "japan",
+          "value": 10.6
+        },
+        {
+          "entity": "indonesia",
+          "value": 6.3
+        },
+        {
+          "entity": "entity-100",
+          "value": 7.8
+        },
+        {
+          "entity": "entity-097",
+          "value": 7.0
+        },
+        {
+          "entity": "south-korea",
+          "value": 6.2
+        },
+        {
+          "entity": "germany",
+          "value": 6.8
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 117.1
+        },
+        {
+          "entity": "usa",
+          "value": 50.6
+        },
+        {
+          "entity": "india",
+          "value": 28.3
+        },
+        {
+          "entity": "russia",
+          "value": 16.8
+        },
+        {
+          "entity": "japan",
+          "value": 10.3
+        },
+        {
+          "entity": "indonesia",
+          "value": 7.6
+        },
+        {
+          "entity": "entity-100",
+          "value": 7.7
+        },
+        {
+          "entity": "entity-097",
+          "value": 6.7
+        },
+        {
+          "entity": "south-korea",
+          "value": 6.1
+        },
+        {
+          "entity": "germany",
+          "value": 6.7
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 121.7
+        },
+        {
+          "entity": "usa",
+          "value": 49.2
+        },
+        {
+          "entity": "india",
+          "value": 30.6
+        },
+        {
+          "entity": "russia",
+          "value": 17.3
+        },
+        {
+          "entity": "japan",
+          "value": 9.9
+        },
+        {
+          "entity": "indonesia",
+          "value": 7.6
+        },
+        {
+          "entity": "entity-100",
+          "value": 7.9
+        },
+        {
+          "entity": "entity-097",
+          "value": 6.8
+        },
+        {
+          "entity": "south-korea",
+          "value": 5.9
+        },
+        {
+          "entity": "germany",
+          "value": 5.9
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 122.9
+        },
+        {
+          "entity": "usa",
+          "value": 49.0
+        },
+        {
+          "entity": "india",
+          "value": 31.9
+        },
+        {
+          "entity": "russia",
+          "value": 17.8
+        },
+        {
+          "entity": "japan",
+          "value": 9.6
+        },
+        {
+          "entity": "indonesia",
+          "value": 8.1
+        },
+        {
+          "entity": "entity-100",
+          "value": 7.9
+        },
+        {
+          "entity": "entity-097",
+          "value": 6.9
+        },
+        {
+          "entity": "south-korea",
+          "value": 5.8
+        },
+        {
+          "entity": "germany",
+          "value": 5.7
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "china": "2024年122.9億トンで世界1位。1970年（8.1億トン）から約15倍に増え、2006年にアメリカを抜いて世界最大の排出国となった。",
+    "usa": "2024年49.0億トンで世界2位。1970年から2005年まで36年連続で世界1位だったが、2006年に中国に抜かれた。2000年代前半のピークからは減少している。",
+    "india": "2024年31.9億トンで世界3位。経済成長にともない排出量が増加を続けている。",
+    "russia": "2024年17.8億トンで世界4位。",
+    "japan": "2024年9.6億トンで世界5位。"
+  }
+}

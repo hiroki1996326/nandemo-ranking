@@ -106,6 +106,7 @@ TOPIC_HINT = {
     'nihon-mizuumi-fukasa': 'deep still crater lake surrounded by steep forested caldera walls, dark blue water, calm mountain lake seen from above, serene',
     'sekai-mizuumi-fukasa': 'vast deep blue rift lake between steep mountain ridges, dramatic long narrow lake, dark abyssal water, wide landscape',
     'nihon-shima-menseki': 'aerial satellite-like view of a large green island surrounded by blue ocean, Japanese archipelago from high above, coastline and sea',
+    'sekai-co2-haishutsu-kuni': 'industrial factory smokestacks emitting smoke against a hazy sky, power plant chimneys, heavy industry, muted grey atmosphere',
 }
 
 CATEGORY_HINT = {

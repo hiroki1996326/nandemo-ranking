@@ -17,6 +17,33 @@
     "source": "wikipedia",
     "wikipedia_title": "秋田県"
   },
+  "amakusa-kamishima": {
+    "artist": "Bobo12345 at English Wikipedia",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Yatsushiro_Sea.png",
+    "filename": "Yatsushiro_Sea.png",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "天草上島"
+  },
+  "amakusa-shimoshima": {
+    "artist": "Bobo12345 at English Wikipedia",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Yatsushiro_Sea.png",
+    "filename": "Yatsushiro_Sea.png",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "天草下島"
+  },
+  "amami-oshima": {
+    "artist": "Image Science and Analysis Laboratory, NASA-Johnson Space Center. \"The Gateway to Astronaut Photography of Earth.\"",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Amami_Oshima_ISS019.jpg",
+    "filename": "Amami_Oshima_ISS019.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "奄美大島"
+  },
   "aomori": {
     "artist": "Wmpearl",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Float_at_Nebuta_Museum_Waarasse_I.JPG",
@@ -34,6 +61,15 @@
     "license_url": "",
     "source": "wikipedia",
     "wikipedia_title": "アラビア砂漠"
+  },
+  "awaji-shima": {
+    "artist": "Pinqui",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Awaji-island_1.png",
+    "filename": "Awaji-island_1.png",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "淡路島"
   },
   "brazil": {
     "artist": "Raimundo Teixeira Mendes",
@@ -79,6 +115,15 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "wikipedia",
     "wikipedia_title": "クレーター湖"
+  },
+  "dogo-oki": {
+    "artist": "BehBeh at Japanese Wikipedia",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:20080720OkiAirport.JPG",
+    "filename": "20080720OkiAirport.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "島後"
   },
   "ehime": {
     "artist": "Arnaud Malon",
@@ -1070,6 +1115,15 @@
     "source": "wikipedia",
     "wikipedia_title": "スマトラ島"
   },
+  "entity-165": {
+    "artist": "Jeff Schmaltz, MODIS Rapid Response Team, NASA/GSFC",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Satellite_image_of_Honshu_in_May_2003.png",
+    "filename": "Satellite_image_of_Honshu_in_May_2003.png",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "本州"
+  },
   "entity-166": {
     "artist": "",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wfm_victoria_island.jpg",
@@ -1601,6 +1655,24 @@
     "source": "wikipedia",
     "wikipedia_title": "立山"
   },
+  "etorofu-to": {
+    "artist": "MODIS Rapid Response Project at NASA/GSFC",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iturup_Terra_cut.jpg",
+    "filename": "Iturup_Terra_cut.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "択捉島"
+  },
+  "fukue-jima": {
+    "artist": "Hisenv",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ondake_2015-12-13.jpg",
+    "filename": "Ondake_2015-12-13.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "福江島"
+  },
   "fukui": {
     "artist": "663highland",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Japan_Tojinbo02n4592.jpg",
@@ -1772,6 +1844,15 @@
     "source": "wikipedia",
     "wikipedia_title": "池田湖"
   },
+  "iriomote-jima": {
+    "artist": "Image Science and Analysis Laboratory, NASA-Johnson Space Center. \"The Gateway to Astronaut Photography of Earth.\"",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iriomotejima_ISS039.jpg",
+    "filename": "Iriomotejima_ISS039.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "西表島"
+  },
   "ishikawa": {
     "artist": "Japanexperterna.se",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Stone_lantern_Kenrokuen.jpg",
@@ -1853,6 +1934,15 @@
     "source": "wikipedia",
     "wikipedia_title": "熊本県"
   },
+  "kunashiri-to": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kunashir.jpg",
+    "filename": "Kunashir.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "国後島"
+  },
   "kuttara-ko": {
     "artist": "Highten31",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Kuttara_1.JPG",
@@ -1870,6 +1960,15 @@
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source": "wikipedia",
     "wikipedia_title": "京都府"
+  },
+  "kyushu": {
+    "artist": "Soren Bradley",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Topographic_map_of_Kyushu.webp",
+    "filename": "Topographic_map_of_Kyushu.webp",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "wikipedia",
+    "wikipedia_title": "九州"
   },
   "luxembourg": {
     "artist": "Drawn by User:SKopp",
@@ -2006,6 +2105,15 @@
     "source": "wikipedia",
     "wikipedia_title": "沖縄県"
   },
+  "okinawa-honto": {
+    "artist": "Image Science and Analysis Laboratory, NASA - Johnson Space Center. \"The Gateway to Astronaut Photography of Earth.\"",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Okinawa_Island-ISS042.jpg",
+    "filename": "Okinawa_Island-ISS042.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "沖縄本島"
+  },
   "osaka": {
     "artist": "663highland",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Osaka_Castle_03bs3200.jpg",
@@ -2023,6 +2131,15 @@
     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
     "source": "wikipedia",
     "wikipedia_title": "パタゴニア"
+  },
+  "sado-shima": {
+    "artist": "BehBeh at Japanese Wikipedia",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:SadoGaShima.jpg",
+    "filename": "SadoGaShima.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "佐渡島"
   },
   "saga": {
     "artist": "Saigen Jiro",
@@ -2068,6 +2185,24 @@
     "license_url": "https://creativecommons.org/licenses/by/3.0",
     "source": "wikipedia",
     "wikipedia_title": "然別湖"
+  },
+  "shikoku": {
+    "artist": "No machine-readable author provided. Akanemoto~commonswiki assumed (based on copyright claims).",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Japan_Shikoku_Region.png",
+    "filename": "Japan_Shikoku_Region.png",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "四国"
+  },
+  "shikotan-to": {
+    "artist": "NASA",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:ShikotanSTS112-E-5660k.PNG",
+    "filename": "ShikotanSTS112-E-5660k.PNG",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "色丹島"
   },
   "shimane": {
     "artist": "MaedaAkihiko",
@@ -2141,6 +2276,15 @@
     "source": "wikipedia",
     "wikipedia_title": "シリア砂漠"
   },
+  "tanegashima": {
+    "artist": "元ファイル作者：Lincun、改変：Sakoppi",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Location_map_of_Kagoshima.svg",
+    "filename": "Location_map_of_Kagoshima.svg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "種子島"
+  },
   "tochigi": {
     "artist": "Koichi Sato",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nikko_toshogu_shrine.jpg",
@@ -2149,6 +2293,15 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "wikipedia",
     "wikipedia_title": "栃木県"
+  },
+  "tokunoshima": {
+    "artist": "Opqr",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tokunoshima_zenkei.jpg",
+    "filename": "Tokunoshima_zenkei.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "徳之島"
   },
   "tokushima": {
     "artist": "katorisi",
@@ -2186,6 +2339,15 @@
     "source": "wikipedia",
     "wikipedia_title": "富山県"
   },
+  "tsushima": {
+    "artist": "LERK",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tsushima_island_ja.png",
+    "filename": "Tsushima_island_ja.png",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "対馬"
+  },
   "vietnam": {
     "artist": "See File history below for details.",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg",
@@ -2203,6 +2365,15 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "wikipedia",
     "wikipedia_title": "和歌山県"
+  },
+  "yakushima": {
+    "artist": "NASA",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Yakushima.jpg",
+    "filename": "Yakushima.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "wikipedia",
+    "wikipedia_title": "屋久島"
   },
   "yamagata": {
     "artist": "Jun K",

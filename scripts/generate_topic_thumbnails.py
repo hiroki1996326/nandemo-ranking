@@ -105,6 +105,7 @@ TOPIC_HINT = {
     'sekai-heikin-shinchou-kuni': 'diverse silhouettes of people of different heights standing in a row against a soft gradient sky, world diversity, clean minimal',
     'nihon-mizuumi-fukasa': 'deep still crater lake surrounded by steep forested caldera walls, dark blue water, calm mountain lake seen from above, serene',
     'sekai-mizuumi-fukasa': 'vast deep blue rift lake between steep mountain ridges, dramatic long narrow lake, dark abyssal water, wide landscape',
+    'nihon-shima-menseki': 'aerial satellite-like view of a large green island surrounded by blue ocean, Japanese archipelago from high above, coastline and sea',
 }
 
 CATEGORY_HINT = {

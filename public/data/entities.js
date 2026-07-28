@@ -14,6 +14,27 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/akita.webp',
     'imageCredit': 'STB-1 / CC BY-SA 3.0',
   },
+  'amakusa-kamishima': {
+    'name': '天草上島',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/amakusa-kamishima.webp',
+    'imageCredit': 'Bobo12345 at English Wikipedia / CC BY-SA 3.0',
+  },
+  'amakusa-shimoshima': {
+    'name': '天草下島',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/amakusa-shimoshima.webp',
+    'imageCredit': 'Bobo12345 at English Wikipedia / CC BY-SA 3.0',
+  },
+  'amami-oshima': {
+    'name': '奄美大島',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/amami-oshima.webp',
+    'imageCredit': 'Image Science and Analysis Laboratory, NASA-Johnson Space Center. "The Gateway to Astronaut Photography of Earth." / Public domain',
+  },
   'aomori': {
     'name': '青森県',
     'type': 'prefecture',
@@ -34,6 +55,13 @@ window.ENTITIES_DATA = {
     'description': '世界第6位の国土面積。',
     'image': '/images/entities/australia.webp',
     'imageCredit': '',
+  },
+  'awaji-shima': {
+    'name': '淡路島',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/awaji-shima.webp',
+    'imageCredit': 'Pinqui / Public domain',
   },
   'bangladesh': {
     'name': 'バングラデシュ',
@@ -174,6 +202,13 @@ window.ENTITIES_DATA = {
     'description': '',
     'image': '/images/entities/denmark.webp',
     'imageCredit': '',
+  },
+  'dogo-oki': {
+    'name': '島後',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/dogo-oki.webp',
+    'imageCredit': 'BehBeh at Japanese Wikipedia / CC BY-SA 3.0',
   },
   'earth': {
     'name': '地球',
@@ -1345,11 +1380,11 @@ window.ENTITIES_DATA = {
     'imageCredit': 'edited by M.Minderhoud / Public domain',
   },
   'entity-165': {
-    'name': '本州(日本)',
+    'name': '本州',
     'type': 'island',
     'description': '日本の本州。227,970km²で世界の島の第7位。',
-    'image': null,
-    'imageCredit': '',
+    'image': '/images/entities/entity-165.webp',
+    'imageCredit': 'Jeff Schmaltz, MODIS Rapid Response Team, NASA/GSFC / Public domain',
   },
   'entity-166': {
     'name': 'ヴィクトリア島',
@@ -1827,6 +1862,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/ethiopia.webp',
     'imageCredit': '',
   },
+  'etorofu-to': {
+    'name': '択捉島',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/etorofu-to.webp',
+    'imageCredit': 'MODIS Rapid Response Project at NASA/GSFC / Public domain',
+  },
   'finland': {
     'name': 'フィンランド',
     'type': 'country',
@@ -1840,6 +1882,13 @@ window.ENTITIES_DATA = {
     'description': '「夏季オリンピック金メダル獲得数ランキング（国別・歴代）」で5位（239個）。「FIFAワールドカップ優勝回数ランキング（国別）」で5位（2回）。',
     'image': '/images/entities/france.webp',
     'imageCredit': '',
+  },
+  'fukue-jima': {
+    'name': '福江島',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/fukue-jima.webp',
+    'imageCredit': 'Hisenv / CC BY-SA 4.0',
   },
   'fukui': {
     'name': '福井県',
@@ -2023,6 +2072,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/ireland.webp',
     'imageCredit': '',
   },
+  'iriomote-jima': {
+    'name': '西表島',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/iriomote-jima.webp',
+    'imageCredit': 'Image Science and Analysis Laboratory, NASA-Johnson Space Center. "The Gateway to Astronaut Photography of Earth." / Public domain',
+  },
   'ishikawa': {
     'name': '石川県',
     'type': 'prefecture',
@@ -2135,6 +2191,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/kumamoto.webp',
     'imageCredit': 'Miya.m / CC BY-SA 3.0',
   },
+  'kunashiri-to': {
+    'name': '国後島',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/kunashiri-to.webp',
+    'imageCredit': 'Public domain',
+  },
   'kuril-kamchatka-trench': {
     'name': '千島・カムチャツカ海溝',
     'type': 'trench',
@@ -2155,6 +2218,13 @@ window.ENTITIES_DATA = {
     'description': '「都道府県別 面積ランキング」で31位（4,612km²）。',
     'image': '/images/entities/kyoto.webp',
     'imageCredit': 'Sorasak boontohhgraphy / CC0',
+  },
+  'kyushu': {
+    'name': '九州',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/kyushu.webp',
+    'imageCredit': 'Soren Bradley / CC BY 4.0',
   },
   'latvia': {
     'name': 'ラトビア',
@@ -2849,6 +2919,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/okinawa.webp',
     'imageCredit': '663highland / CC BY 2.5',
   },
+  'okinawa-honto': {
+    'name': '沖縄本島',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/okinawa-honto.webp',
+    'imageCredit': 'Image Science and Analysis Laboratory, NASA - Johnson Space Center. "The Gateway to Astronaut Photography of Earth." / Public domain',
+  },
   'orosoroshino-falls': {
     'name': 'オロオソロシノ滝',
     'type': 'waterfall',
@@ -2898,6 +2975,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/russia.webp',
     'imageCredit': '',
   },
+  'sado-shima': {
+    'name': '佐渡島',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/sado-shima.webp',
+    'imageCredit': 'BehBeh at Japanese Wikipedia / CC BY-SA 3.0',
+  },
   'saga': {
     'name': '佐賀県',
     'type': 'prefecture',
@@ -2946,6 +3030,20 @@ window.ENTITIES_DATA = {
     'description': '',
     'image': '/images/entities/shikaribetsu-ko.webp',
     'imageCredit': 'pakku / CC BY 3.0',
+  },
+  'shikoku': {
+    'name': '四国',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/shikoku.webp',
+    'imageCredit': 'No machine-readable author provided. Akanemoto~commonswiki assumed (based on copyright claims). / Public domain',
+  },
+  'shikotan-to': {
+    'name': '色丹島',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/shikotan-to.webp',
+    'imageCredit': 'NASA / Public domain',
   },
   'shimane': {
     'name': '島根県',
@@ -3038,6 +3136,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/syrian-desert.webp',
     'imageCredit': 'LLs / CC BY-SA 4.0',
   },
+  'tanegashima': {
+    'name': '種子島',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/tanegashima.webp',
+    'imageCredit': '元ファイル作者：Lincun、改変：Sakoppi / CC BY-SA 3.0',
+  },
   'thailand': {
     'name': 'タイ',
     'type': 'country',
@@ -3051,6 +3156,13 @@ window.ENTITIES_DATA = {
     'description': '「都道府県別 面積ランキング」で20位（6,408km²）。',
     'image': '/images/entities/tochigi.webp',
     'imageCredit': 'Koichi Sato / CC BY-SA 4.0',
+  },
+  'tokunoshima': {
+    'name': '徳之島',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/tokunoshima.webp',
+    'imageCredit': 'Opqr / CC BY-SA 3.0',
   },
   'tokushima': {
     'name': '徳島県',
@@ -3086,6 +3198,13 @@ window.ENTITIES_DATA = {
     'description': '「都道府県別 面積ランキング」で33位（4,248km²）。',
     'image': '/images/entities/toyama.webp',
     'imageCredit': 'タチヤマカムイ / CC BY-SA 4.0',
+  },
+  'tsushima': {
+    'name': '対馬',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/tsushima.webp',
+    'imageCredit': 'LERK / Public domain',
   },
   'uganda': {
     'name': 'ウガンダ',
@@ -3135,6 +3254,13 @@ window.ENTITIES_DATA = {
     'description': '「都道府県別 面積ランキング」で30位（4,725km²）。',
     'image': '/images/entities/wakayama.webp',
     'imageCredit': 'Suikotei / CC BY-SA 4.0',
+  },
+  'yakushima': {
+    'name': '屋久島',
+    'type': 'island',
+    'description': '',
+    'image': '/images/entities/yakushima.webp',
+    'imageCredit': 'NASA / Public domain',
   },
   'yamagata': {
     'name': '山形県',

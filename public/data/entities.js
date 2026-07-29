@@ -2233,6 +2233,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/latvia.webp',
     'imageCredit': '',
   },
+  'lena-gawa': {
+    'name': 'レナ川',
+    'type': 'river',
+    'description': '',
+    'image': '/images/entities/lena-gawa.webp',
+    'imageCredit': 'Remulazz / CC BY 3.0',
+  },
   'lithuania': {
     'name': 'リトアニア',
     'type': 'country',
@@ -2855,6 +2862,13 @@ window.ENTITIES_DATA = {
     'description': '「世界一深い海溝ランキング」で7位（9,140m）。',
     'image': null,
     'imageCredit': '',
+  },
+  'niger-gawa': {
+    'name': 'ニジェール川',
+    'type': 'river',
+    'description': '',
+    'image': '/images/entities/niger-gawa.webp',
+    'imageCredit': 'CC BY-SA 3.0',
   },
   'nigeria': {
     'name': 'ナイジェリア',

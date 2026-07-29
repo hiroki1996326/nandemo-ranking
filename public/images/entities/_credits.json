@@ -1970,6 +1970,15 @@
     "source": "wikipedia",
     "wikipedia_title": "九州"
   },
+  "lena-gawa": {
+    "artist": "Remulazz",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:LenaJakutsk.jpg",
+    "filename": "LenaJakutsk.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "wikipedia",
+    "wikipedia_title": "レナ川"
+  },
   "luxembourg": {
     "artist": "Drawn by User:SKopp",
     "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Luxembourg.svg",
@@ -2050,6 +2059,15 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "wikipedia",
     "wikipedia_title": "奈良県"
+  },
+  "niger-gawa": {
+    "artist": "",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Niger_river_at_Koulikoro.jpg",
+    "filename": "Niger_river_at_Koulikoro.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "wikipedia",
+    "wikipedia_title": "ニジェール川"
   },
   "niigata": {
     "artist": "Yasuyuki_Kawano",

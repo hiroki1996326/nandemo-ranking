@@ -2276,5 +2276,15 @@
     "name": "天草上島",
     "type": "island",
     "description": ""
+  },
+  "lena-gawa": {
+    "name": "レナ川",
+    "type": "river",
+    "description": ""
+  },
+  "niger-gawa": {
+    "name": "ニジェール川",
+    "type": "river",
+    "description": ""
   }
 }

@@ -107,6 +107,7 @@ TOPIC_HINT = {
     'sekai-mizuumi-fukasa': 'vast deep blue rift lake between steep mountain ridges, dramatic long narrow lake, dark abyssal water, wide landscape',
     'nihon-shima-menseki': 'aerial satellite-like view of a large green island surrounded by blue ocean, Japanese archipelago from high above, coastline and sea',
     'sekai-co2-haishutsu-kuni': 'industrial factory smokestacks emitting smoke against a hazy sky, power plant chimneys, heavy industry, muted grey atmosphere',
+    'sekai-kawa-ryuiki-menseki': 'aerial view of a vast winding river with many branching tributaries through green rainforest, river delta from above, wide basin',
 }
 
 CATEGORY_HINT = {

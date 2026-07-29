@@ -2286,5 +2286,20 @@
     "name": "ニジェール川",
     "type": "river",
     "description": ""
+  },
+  "iraq": {
+    "name": "イラク",
+    "type": "country",
+    "description": ""
+  },
+  "uae": {
+    "name": "アラブ首長国連邦",
+    "type": "country",
+    "description": ""
+  },
+  "kuwait": {
+    "name": "クウェート",
+    "type": "country",
+    "description": ""
   }
 }

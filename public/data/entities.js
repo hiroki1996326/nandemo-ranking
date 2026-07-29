@@ -2065,6 +2065,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/indonesia.webp',
     'imageCredit': '',
   },
+  'iraq': {
+    'name': 'イラク',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/iraq.webp',
+    'imageCredit': '',
+  },
   'ireland': {
     'name': 'アイルランド',
     'type': 'country',
@@ -2211,6 +2218,13 @@ window.ENTITIES_DATA = {
     'description': '',
     'image': '/images/entities/kuttara-ko.webp',
     'imageCredit': 'Highten31 / CC BY-SA 3.0',
+  },
+  'kuwait': {
+    'name': 'クウェート',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/kuwait.webp',
+    'imageCredit': '',
   },
   'kyoto': {
     'name': '京都府',
@@ -3219,6 +3233,13 @@ window.ENTITIES_DATA = {
     'description': '',
     'image': '/images/entities/tsushima.webp',
     'imageCredit': 'LERK / Public domain',
+  },
+  'uae': {
+    'name': 'アラブ首長国連邦',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/uae.webp',
+    'imageCredit': '',
   },
   'uganda': {
     'name': 'ウガンダ',

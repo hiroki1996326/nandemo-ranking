@@ -4,7 +4,7 @@
   "seoTitle": "世界の石油生産量ランキング｜1位はアメリカ！",
   "category": "keizai",
   "unit": "TWh",
-  "source": "Our World in Data（Energy Institute Statistical Review of World Energy）。石油生産量をエネルギー量（TWh）で表したもの",
+  "source": "Our World in Data（Energy Institute Statistical Review of World Energy）。石油生産量をエネルギー量（TWh）で表したもの。バレル換算の参考値は米エネルギー情報局（EIA）による",
   "sourceUrl": "https://ourworldindata.org/grapher/oil-production-by-country",
   "updateFrequency": "yearly",
   "updatedAt": "2026-07-29",
@@ -33,7 +33,7 @@
       "h2": "なぜエネルギー量（TWh）で比べるのか"
     },
     {
-      "p": "石油は国や油田によって密度やエネルギーの含有量が異なるため、単純な体積（バレル）や重さ（トン）だけでは正確に比較しにくい。そこで国際的なエネルギー統計では、生産量を**エネルギー量（TWh＝テラワット時）に換算**して比べることが多い。このランキングもその方式による。"
+      "p": "石油は国や油田によって密度やエネルギーの含有量が異なるため、単純な体積（バレル）や重さ（トン）だけでは正確に比較しにくい。そこで国際的なエネルギー統計では、生産量を**エネルギー量（TWh＝テラワット時）に換算**して比べることが多い。このランキングもその方式による。 参考として原油の生産量を体積（バレル）で見ると、2024年のアメリカは1日あたり約1,300万バレルで、サウジアラビア・ロシア（それぞれ約900万〜1,000万バレル）を上回り、原油ベースでもアメリカが世界最大である（米エネルギー情報局EIAによる）。"
     }
   ],
   "data": [

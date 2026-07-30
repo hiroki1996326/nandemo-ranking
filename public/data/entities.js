@@ -1960,6 +1960,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/great-victoria-desert.webp',
     'imageCredit': 'Hesperian / CC BY-SA 3.0',
   },
+  'greece': {
+    'name': 'ギリシャ',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/greece.webp',
+    'imageCredit': '',
+  },
   'gunma': {
     'name': '群馬県',
     'type': 'prefecture',

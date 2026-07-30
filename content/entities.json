@@ -2097,6 +2097,11 @@
     "type": "country",
     "description": ""
   },
+  "greece": {
+    "name": "ギリシャ",
+    "type": "country",
+    "description": ""
+  },
   "serbia": {
     "name": "セルビア",
     "type": "country",

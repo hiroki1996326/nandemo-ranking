@@ -2996,6 +2996,20 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'poland': {
+    'name': 'ポーランド',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/poland.webp',
+    'imageCredit': '',
+  },
+  'portugal': {
+    'name': 'ポルトガル',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/portugal.webp',
+    'imageCredit': '',
+  },
   'puerto-rico-trench': {
     'name': 'プエルトリコ海溝',
     'type': 'trench',
@@ -3274,6 +3288,13 @@ window.ENTITIES_DATA = {
     'type': 'country',
     'description': '「夏季オリンピック金メダル獲得数ランキング（国別・歴代）」：歴代金メダル1,101個で世界最多。2位の約2.8倍の獲得数を持つ。「世界のGDPランキング（国別）」：名目GDPで世界最大の経済規模を持つ。「世界の自動車生産台数ランキング（国別）」：生産台数は1,056万台超で世界2位。国内市場向け生産が中心。「世界の人口ランキング（国別）」：人口世界3位。1位インド・2位中国とは大きな差がある。「世界の国土面積ランキング」：国土面積は世界3位。「国・地域別 輸出額ランキング」：輸出額で世界2位。',
     'image': '/images/entities/usa.webp',
+    'imageCredit': '',
+  },
+  'uzbekistan': {
+    'name': 'ウズベキスタン',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/uzbekistan.webp',
     'imageCredit': '',
   },
   'venus': {

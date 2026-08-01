@@ -109,6 +109,17 @@ TOPIC_HINT = {
     'sekai-co2-haishutsu-kuni': 'industrial factory smokestacks emitting smoke against a hazy sky, power plant chimneys, heavy industry, muted grey atmosphere',
     'sekai-kawa-ryuiki-menseki': 'aerial view of a vast winding river with many branching tributaries through green rainforest, river delta from above, wide basin',
     'sekai-sekiyu-seisan-kuni': 'oil pumpjacks and drilling rigs in a desert oil field at sunset, petroleum extraction, silhouettes of oil derricks, warm sky',
+    'sekai-kome-seisan-kuni': 'terraced green rice paddy fields on hillsides in asia, rice stalks with grains, water reflections, harvest season',
+    'sekai-cha-seisan-kuni': 'terraced green tea plantation on rolling hills, rows of fresh tea bushes, misty mountains, lush vivid green',
+    'sekai-daizu-seisan-kuni': 'vast soybean field at harvest, close-up of soybean pods and beans, golden farmland under wide sky',
+    'sekai-cacao-seisan-kuni': 'ripe cacao pods on a tree and open pod with cocoa beans, tropical plantation, chocolate, warm brown tones',
+    'sekai-wine-seisan-kuni': 'vineyard rows on rolling hills at golden sunset, bunches of grapes, a glass and bottle of red wine, warm mediterranean light',
+    'sekai-tekko-seisan-kuni': 'steel mill interior with glowing molten metal pouring, blast furnace sparks, heavy industry, dramatic orange glow',
+    'sekai-gunjihi-kuni': 'silhouettes of a fighter jet and a naval warship against a dramatic dusk sky, defense and military budget concept, editorial',
+    'sekai-kokusai-kankokyaku-kuni': 'travelers with suitcases sightseeing near famous world landmarks, airport departures, tourism, world map motif',
+    'sekai-sekaiisan-kuni': 'majestic ancient monuments and historic world heritage architecture, temples ruins and cathedrals, golden light',
+    'sekai-tairiku-menseki': 'satellite view of planet earth from space showing the continents, world map, blue oceans and green landmasses',
+    'todofuken-jinko-mitsudo': 'dense crowd of people packed on a busy city street seen from above, urban density, many pedestrians',
 }
 
 CATEGORY_HINT = {

@@ -23776,7 +23776,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-cacao-seisan-kuni.webp',
     },
     {
       'id': 'sekai-cha-seisan-kuni',
@@ -23789,7 +23789,7 @@ window.RANKING_DATA = {
       'updateFrequency': 'yearly',
       'updatedAt': '2026-07-31',
       'lead': '世界で最も茶（お茶）を生産している国は中国で、2024年の茶葉生産量は約1,626万トン。世界全体（約3,270万トン）のおよそ半分を占める。ただし中国が最初から1位だったわけではなく、1990年代から2000年代前半まではインドが世界1位で、中国が逆転したのは2005年である。以降、中国は生産を大きく伸ばし、2位インドとの差を大きく広げた。3位ケニア、4位スリランカと続く。茶はアジア・アフリカの温暖な地域に産地が集まる。ここでは1992年から2024年まで、上位国の推移を掲載している。',
-      'commentary': 'FAOSTATによる茶葉（生葉）の生産量の推移。摘み取った茶の葉の重さで表しており、加工後の製茶（飲む状態のお茶）の量はこの2割程度になる。2000年代前半まではインドが世界1位だったが、2005年に中国が逆転し、以降は差を大きく広げて世界の約半分を占める。',
+      'commentary': '茶葉（生葉）の生産量の推移。摘み取った茶の葉の重さで表しており、加工後の製茶（飲む状態のお茶）の量はこの2割程度になる。2000年代前半まではインドが世界1位だったが、2005年に中国が逆転し、以降は差を大きく広げて世界の約半分を占める。',
       'analysisHeading': '2005年に中国がインドを逆転、差を広げる',
       'analysis': [
         '茶の生産は、1990年代から2000年代前半まではインドが世界1位だった。しかし中国が栽培面積の拡大とともに生産を急速に伸ばし、2005年にインドを抜いて世界1位となった。以降も中国の伸びは続き、2024年には茶葉生産量が約1,626万トンと、世界全体（約3,270万トン）のおよそ半分を占めるまでになった。緑茶を中心に、烏龍茶やプーアル茶など多様な茶を生産する。',
@@ -23801,7 +23801,7 @@ window.RANKING_DATA = {
           'h2': '茶葉の生産量とは',
         },
         {
-          'p': 'ここでの数値は、FAOSTATによる**茶葉（生葉）の生産量**で、茶の木から摘み取った葉の重さを表している。摘んだ葉を乾燥・発酵させて作る製茶（実際に飲む状態のお茶）の重さは、生葉のおよそ2割にあたる。たとえば世界計の約3,270万トンの生葉から作られる製茶は、およそ650万〜700万トンとされる。',
+          'p': 'ここでの数値は、摘み取った**茶葉（生葉）の生産量**で、茶の木から摘み取った葉の重さを表している。摘んだ葉を乾燥・発酵させて作る製茶（実際に飲む状態のお茶）の重さは、生葉のおよそ2割にあたる。たとえば世界計の約3,270万トンの生葉から作られる製茶は、およそ650万〜700万トンとされる。',
         },
         {
           'h2': '2005年に中国がインドを逆転',
@@ -25534,7 +25534,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-cha-seisan-kuni.webp',
     },
     {
       'id': 'sekai-co2-haishutsu-kuni',
@@ -30585,7 +30585,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-daizu-seisan-kuni.webp',
     },
     {
       'id': 'sekai-gdp-kuni',
@@ -33896,7 +33896,7 @@ window.RANKING_DATA = {
           'h2': '軍事支出を実質ドルで比べる',
         },
         {
-          'p': '軍事支出（国防費）は、軍隊の維持や兵器の購入・開発などに使うお金である。ここでは数十年の推移を比べるため、物価の影響を除いた**2022年基準の実質ドル**（SIPRIによる）で示している。これにより、金額の増減が物価上昇によるものか、実際の支出の変化によるものかを区別して見ることができる。',
+          'p': '軍事支出（国防費）は、軍隊の維持や兵器の購入・開発などに使うお金である。ここでは数十年の推移を比べるため、物価の影響を除いた**2022年基準の実質ドル**で示している。これにより、金額の増減が物価上昇によるものか、実際の支出の変化によるものかを区別して見ることができる。',
         },
         {
           'h2': '数十年変わらない米国の突出',
@@ -35464,7 +35464,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-gunjihi-kuni.webp',
     },
     {
       'id': 'sekai-heikin-shinchou-kuni',
@@ -38963,7 +38963,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-kokusai-kankokyaku-kuni.webp',
     },
     {
       'id': 'sekai-kome-seisan-kuni',
@@ -41370,7 +41370,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-kome-seisan-kuni.webp',
     },
     {
       'id': 'sekai-komugi-seisanryo-kuni',
@@ -44318,7 +44318,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-sekaiisan-kuni.webp',
     },
     {
       'id': 'sekai-sekiyu-seisan-kuni',
@@ -46318,7 +46318,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-tairiku-menseki.webp',
     },
     {
       'id': 'sekai-takai-yama',
@@ -47057,7 +47057,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-tekko-seisan-kuni.webp',
     },
     {
       'id': 'sekai-tosiken-jinko',
@@ -50031,7 +50031,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/sekai-wine-seisan-kuni.webp',
     },
     {
       'id': 'taiyokei-wakusei-chokkei',
@@ -51121,7 +51121,7 @@ window.RANKING_DATA = {
           ],
         },
       ],
-      'thumbnail': null,
+      'thumbnail': '/images/topics/todofuken-jinko-mitsudo.webp',
     },
     {
       'id': 'todofuken-kaigansen-nagasa',

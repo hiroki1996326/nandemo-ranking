@@ -2132,6 +2132,71 @@
     "type": "country",
     "description": ""
   },
+  "philippines": {
+    "name": "フィリピン",
+    "type": "country",
+    "description": ""
+  },
+  "cambodia": {
+    "name": "カンボジア",
+    "type": "country",
+    "description": ""
+  },
+  "nepal": {
+    "name": "ネパール",
+    "type": "country",
+    "description": ""
+  },
+  "sri-lanka": {
+    "name": "スリランカ",
+    "type": "country",
+    "description": ""
+  },
+  "paraguay": {
+    "name": "パラグアイ",
+    "type": "country",
+    "description": ""
+  },
+  "benin": {
+    "name": "ベナン",
+    "type": "country",
+    "description": ""
+  },
+  "cote-divoire": {
+    "name": "コートジボワール",
+    "type": "country",
+    "description": ""
+  },
+  "ghana": {
+    "name": "ガーナ",
+    "type": "country",
+    "description": ""
+  },
+  "ecuador": {
+    "name": "エクアドル",
+    "type": "country",
+    "description": ""
+  },
+  "cameroon": {
+    "name": "カメルーン",
+    "type": "country",
+    "description": ""
+  },
+  "sierra-leone": {
+    "name": "シエラレオネ",
+    "type": "country",
+    "description": ""
+  },
+  "dominican-republic": {
+    "name": "ドミニカ共和国",
+    "type": "country",
+    "description": ""
+  },
+  "papua-new-guinea": {
+    "name": "パプアニューギニア",
+    "type": "country",
+    "description": ""
+  },
   "serbia": {
     "name": "セルビア",
     "type": "country",

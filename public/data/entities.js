@@ -77,6 +77,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/belgium.webp',
     'imageCredit': '',
   },
+  'benin': {
+    'name': 'ベナン',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/benin.webp',
+    'imageCredit': '',
+  },
   'bosnia-herzegovina': {
     'name': 'ボスニア・ヘルツェゴビナ',
     'type': 'country',
@@ -90,6 +97,20 @@ window.ENTITIES_DATA = {
     'description': '「世界の国土面積ランキング」：世界第5位で、南米最大の国土面積。「FIFAワールドカップ優勝回数ランキング（国別）」：ワールドカップ最多となる5回の優勝を誇る。',
     'image': '/images/entities/brazil.webp',
     'imageCredit': 'Raimundo Teixeira Mendes / Public domain',
+  },
+  'cambodia': {
+    'name': 'カンボジア',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/cambodia.webp',
+    'imageCredit': '',
+  },
+  'cameroon': {
+    'name': 'カメルーン',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/cameroon.webp',
+    'imageCredit': '',
   },
   'canada': {
     'name': 'カナダ',
@@ -175,6 +196,13 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'cote-divoire': {
+    'name': 'コートジボワール',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/cote-divoire.webp',
+    'imageCredit': '',
+  },
   'crater-lake-usa': {
     'name': 'クレーター湖',
     'type': 'lake',
@@ -210,6 +238,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/dogo-oki.webp',
     'imageCredit': 'BehBeh at Japanese Wikipedia / CC BY-SA 3.0',
   },
+  'dominican-republic': {
+    'name': 'ドミニカ共和国',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/dominican-republic.webp',
+    'imageCredit': '',
+  },
   'earth': {
     'name': '地球',
     'type': 'planet',
@@ -222,6 +257,13 @@ window.ENTITIES_DATA = {
     'type': 'country',
     'description': '',
     'image': null,
+    'imageCredit': '',
+  },
+  'ecuador': {
+    'name': 'エクアドル',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/ecuador.webp',
     'imageCredit': '',
   },
   'ehime': {
@@ -1932,6 +1974,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/germany.webp',
     'imageCredit': '',
   },
+  'ghana': {
+    'name': 'ガーナ',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/ghana.webp',
+    'imageCredit': '',
+  },
   'gifu': {
     'name': '岐阜県',
     'type': 'prefecture',
@@ -2870,6 +2919,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/nara.webp',
     'imageCredit': 'Wiiii / CC BY-SA 3.0',
   },
+  'nepal': {
+    'name': 'ネパール',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/nepal.webp',
+    'imageCredit': '',
+  },
   'neptune': {
     'name': '海王星',
     'type': 'planet',
@@ -2996,6 +3052,20 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/pakistan.webp',
     'imageCredit': '',
   },
+  'papua-new-guinea': {
+    'name': 'パプアニューギニア',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/papua-new-guinea.webp',
+    'imageCredit': '',
+  },
+  'paraguay': {
+    'name': 'パラグアイ',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/paraguay.webp',
+    'imageCredit': '',
+  },
   'patagonian-desert': {
     'name': 'パタゴニア',
     'type': 'desert',
@@ -3008,6 +3078,13 @@ window.ENTITIES_DATA = {
     'type': 'trench',
     'description': '最深部エンペラー海淵は10,540mで世界第4位。',
     'image': null,
+    'imageCredit': '',
+  },
+  'philippines': {
+    'name': 'フィリピン',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/philippines.webp',
     'imageCredit': '',
   },
   'poland': {
@@ -3136,6 +3213,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/shomyo-falls.webp',
     'imageCredit': 'Saigen Jiro / CC0',
   },
+  'sierra-leone': {
+    'name': 'シエラレオネ',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/sierra-leone.webp',
+    'imageCredit': '',
+  },
   'singapore': {
     'name': 'シンガポール',
     'type': 'country',
@@ -3183,6 +3267,13 @@ window.ENTITIES_DATA = {
     'type': 'country',
     'description': '「FIFAワールドカップ優勝回数ランキング（国別）」で7位（1回）。「世界の平均寿命ランキング（国別）」で8位（82.7歳）。',
     'image': '/images/entities/spain.webp',
+    'imageCredit': '',
+  },
+  'sri-lanka': {
+    'name': 'スリランカ',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/sri-lanka.webp',
     'imageCredit': '',
   },
   'sweden': {
@@ -3287,7 +3378,7 @@ window.ENTITIES_DATA = {
     'name': 'ウガンダ',
     'type': 'country',
     'description': '',
-    'image': null,
+    'image': '/images/entities/uganda.webp',
     'imageCredit': '',
   },
   'uk': {

@@ -2100,6 +2100,13 @@ window.ENTITIES_DATA = {
     'image': '/images/entities/ishikawa.webp',
     'imageCredit': 'Japanexperterna.se / CC BY-SA 3.0',
   },
+  'israel': {
+    'name': 'イスラエル',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/israel.webp',
+    'imageCredit': '',
+  },
   'issyk-kul-ko': {
     'name': 'イシク・クル湖',
     'type': 'lake',

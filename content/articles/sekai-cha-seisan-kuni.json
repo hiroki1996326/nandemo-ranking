@@ -4,57 +4,1182 @@
   "seoTitle": "世界のお茶生産量ランキング｜1位は中国！",
   "category": "keizai",
   "unit": "トン",
-  "source": "FAOSTAT（国連食糧農業機関）2022年、茶葉（生葉）の生産量。摘み取った茶の葉の重さで、加工後の製茶の量はこの2割程度になる。2022年の世界計は約2,976万トン",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Tea",
+  "source": "FAOSTAT（国連食糧農業機関）。茶葉（生葉）の生産量。摘み取った茶の葉の重さで、加工後の製茶の量はこの2割程度になる。1992年から2024年までの推移",
+  "sourceUrl": "https://www.fao.org/faostat/en/#data/QCL",
   "updateFrequency": "yearly",
   "updatedAt": "2026-07-31",
-  "lead": "世界で最も茶（お茶）を生産している国は中国で、2022年の茶葉生産量は約1,454万トン。世界全体（約2,976万トン）のおよそ半分を占める。2位はインド（約597万トン）、3位ケニア、4位スリランカと続く。茶は中国・インドの2大生産国と、アフリカのケニア、南アジアのスリランカなどが中心で、いずれもアジア・アフリカの温暖な地域に産地が集まる。ここでは生産量の多い上位10か国を掲載している。",
-  "commentary": "FAOSTATによる茶葉（生葉）の生産量。摘み取った茶の葉の重さで表しており、加工後の製茶（飲む状態のお茶）の量はこの2割程度になる。中国が世界の約半分を占め、インドが続く。ケニアやスリランカは輸出用の紅茶の産地として知られる。",
-  "analysisHeading": "中国が世界の約半分、2位インド・3位ケニア",
+  "lead": "世界で最も茶（お茶）を生産している国は中国で、2024年の茶葉生産量は約1,626万トン。世界全体（約3,270万トン）のおよそ半分を占める。ただし中国が最初から1位だったわけではなく、1990年代から2000年代前半まではインドが世界1位で、中国が逆転したのは2005年である。以降、中国は生産を大きく伸ばし、2位インドとの差を大きく広げた。3位ケニア、4位スリランカと続く。茶はアジア・アフリカの温暖な地域に産地が集まる。ここでは1992年から2024年まで、上位国の推移を掲載している。",
+  "commentary": "FAOSTATによる茶葉（生葉）の生産量の推移。摘み取った茶の葉の重さで表しており、加工後の製茶（飲む状態のお茶）の量はこの2割程度になる。2000年代前半まではインドが世界1位だったが、2005年に中国が逆転し、以降は差を大きく広げて世界の約半分を占める。",
+  "analysisHeading": "2005年に中国がインドを逆転、差を広げる",
   "analysis": [
-    "茶の生産量は中国が突出しており、2022年の茶葉生産量は約1,454万トンと世界全体（約2,976万トン）のおよそ半分を占める。中国は緑茶を中心に、烏龍茶やプーアル茶など多様な茶を生産する世界最大の茶の国である。",
-    "2位はインド（約597万トン）。ダージリンやアッサムなどの紅茶で知られ、国内消費も多い。3位ケニア、4位スリランカ、6位ベトナムなどは、輸出向けの紅茶の産地として世界市場で大きな存在感を持つ。",
-    "上位10か国はいずれもアジアとアフリカの国で占められる。茶の木は温暖で雨が多く、水はけのよい傾斜地を好むため、産地はアジア・アフリカの限られた地域に集中している。なお、ここでの数値は摘み取った茶の葉（生葉）の重さで、実際に飲む製茶の量はこの2割程度になる。"
+    "茶の生産は、1990年代から2000年代前半まではインドが世界1位だった。しかし中国が栽培面積の拡大とともに生産を急速に伸ばし、2005年にインドを抜いて世界1位となった。以降も中国の伸びは続き、2024年には茶葉生産量が約1,626万トンと、世界全体（約3,270万トン）のおよそ半分を占めるまでになった。緑茶を中心に、烏龍茶やプーアル茶など多様な茶を生産する。",
+    "2位のインドも生産を伸ばしてきたが、その伸びは中国ほど急ではなく、2005年の逆転以降、両国の差は大きく開いた。3位ケニア、4位スリランカ、6位ベトナムなどは、輸出向けの紅茶の産地として世界市場で大きな存在感を持つ。とくにケニアはこの数十年で生産を伸ばし、世界有数の紅茶輸出国となった。",
+    "上位国はいずれもアジアとアフリカの国で占められる。茶の木は温暖で雨が多く、水はけのよい傾斜地を好むため、産地はアジア・アフリカの限られた地域に集中している。なお、ここでの数値は摘み取った茶の葉（生葉）の重さで、実際に飲む製茶の量はこの2割程度になる。"
   ],
   "sections": [
     {
       "h2": "茶葉の生産量とは"
     },
     {
-      "p": "ここでの数値は、FAOSTATによる**茶葉（生葉）の生産量**で、茶の木から摘み取った葉の重さを表している。摘んだ葉を乾燥・発酵させて作る製茶（実際に飲む状態のお茶）の重さは、生葉のおよそ2割にあたる。たとえば世界計の約2,976万トンの生葉から作られる製茶は、およそ600万〜670万トンとされる。"
+      "p": "ここでの数値は、FAOSTATによる**茶葉（生葉）の生産量**で、茶の木から摘み取った葉の重さを表している。摘んだ葉を乾燥・発酵させて作る製茶（実際に飲む状態のお茶）の重さは、生葉のおよそ2割にあたる。たとえば世界計の約3,270万トンの生葉から作られる製茶は、およそ650万〜700万トンとされる。"
     },
     {
-      "h2": "中国が世界の約半分を生産"
+      "h2": "2005年に中国がインドを逆転"
     },
     {
-      "p": "**中国**は茶の発祥の地とされ、世界最大の生産国である。2022年の茶葉生産量は約1,454万トンで、世界全体のおよそ半分を占める。緑茶を中心に、烏龍茶やプーアル茶など多様な種類の茶を生産している。2位の**インド**（約597万トン）は、ダージリンやアッサムなどの紅茶の産地として知られる。"
+      "p": "茶の生産では、1990年代から2000年代前半まで**インド**が世界1位だった。しかし茶の発祥の地である**中国**が、栽培面積の拡大とともに生産を急速に伸ばし、2005年にインドを抜いて世界1位となった。以降も中国は生産を伸ばし続け、2024年には茶葉生産量が約1,626万トンと世界全体のおよそ半分を占めるまでになった。緑茶を中心に、多様な種類の茶を生産している。"
     },
     {
-      "h2": "輸出を支えるケニア・スリランカ"
+      "h2": "輸出を支えるインド・ケニア・スリランカ"
     },
     {
-      "p": "3位**ケニア**、4位**スリランカ**は、輸出用の紅茶の産地として世界的に重要である。とくにケニアは紅茶の一大輸出国で、生産の多くが海外へ向かう。上位10か国はすべてアジアとアフリカの国で、茶の産地が温暖で雨の多い地域に集中していることがわかる。"
+      "p": "2位の**インド**はダージリンやアッサムなどの紅茶で知られ、国内消費も多い。3位**ケニア**、4位**スリランカ**は輸出用の紅茶の産地として世界的に重要で、とくにケニアはこの数十年で生産を大きく伸ばした。上位国はすべてアジアとアフリカの国であり、茶の産地が温暖で雨の多い地域に集中していることがわかる。"
     }
   ],
   "data": [
     {
-      "period": null,
+      "period": 1992,
       "entries": [
         {
           "entity": "china",
-          "value": 14542600
+          "value": 2434000
         },
         {
           "entity": "india",
-          "value": 5969000
+          "value": 3279000
         },
         {
           "entity": "entity-127",
-          "value": 2326000
+          "value": 818000
         },
         {
           "entity": "sri-lanka",
-          "value": 1400000
+          "value": 778000
+        },
+        {
+          "entity": "entity-116",
+          "value": 724383
+        },
+        {
+          "entity": "vietnam",
+          "value": 155700
+        },
+        {
+          "entity": "indonesia",
+          "value": 668000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 198000
+        },
+        {
+          "entity": "entity-087",
+          "value": 202000
+        },
+        {
+          "entity": "uganda",
+          "value": 41000
+        }
+      ]
+    },
+    {
+      "period": 1993,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 2609000
+        },
+        {
+          "entity": "india",
+          "value": 3060000
+        },
+        {
+          "entity": "entity-127",
+          "value": 918000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1008000
+        },
+        {
+          "entity": "entity-116",
+          "value": 578500
+        },
+        {
+          "entity": "vietnam",
+          "value": 162200
+        },
+        {
+          "entity": "indonesia",
+          "value": 717000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 213000
+        },
+        {
+          "entity": "entity-087",
+          "value": 238000
+        },
+        {
+          "entity": "uganda",
+          "value": 53000
+        }
+      ]
+    },
+    {
+      "period": 1994,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 2558500
+        },
+        {
+          "entity": "india",
+          "value": 3274000
+        },
+        {
+          "entity": "entity-127",
+          "value": 911000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1053000
+        },
+        {
+          "entity": "entity-116",
+          "value": 654000
+        },
+        {
+          "entity": "vietnam",
+          "value": 180600
+        },
+        {
+          "entity": "indonesia",
+          "value": 605000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 220000
+        },
+        {
+          "entity": "entity-087",
+          "value": 222000
+        },
+        {
+          "entity": "uganda",
+          "value": 59000
+        }
+      ]
+    },
+    {
+      "period": 1995,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 2559000
+        },
+        {
+          "entity": "india",
+          "value": 3278000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1063000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1069000
+        },
+        {
+          "entity": "entity-116",
+          "value": 523465
+        },
+        {
+          "entity": "vietnam",
+          "value": 172900
+        },
+        {
+          "entity": "indonesia",
+          "value": 670000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 226000
+        },
+        {
+          "entity": "entity-087",
+          "value": 224000
+        },
+        {
+          "entity": "uganda",
+          "value": 55000
+        }
+      ]
+    },
+    {
+      "period": 1996,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 2580000
+        },
+        {
+          "entity": "india",
+          "value": 3287000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1118000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1124000
+        },
+        {
+          "entity": "entity-116",
+          "value": 600000
+        },
+        {
+          "entity": "vietnam",
+          "value": 201300
+        },
+        {
+          "entity": "indonesia",
+          "value": 723000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 207000
+        },
+        {
+          "entity": "entity-087",
+          "value": 205000
+        },
+        {
+          "entity": "uganda",
+          "value": 76000
+        }
+      ]
+    },
+    {
+      "period": 1997,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 2667000
+        },
+        {
+          "entity": "india",
+          "value": 3391000
+        },
+        {
+          "entity": "entity-127",
+          "value": 960000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1204000
+        },
+        {
+          "entity": "entity-116",
+          "value": 752000
+        },
+        {
+          "entity": "vietnam",
+          "value": 224500
+        },
+        {
+          "entity": "indonesia",
+          "value": 668000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 232000
+        },
+        {
+          "entity": "entity-087",
+          "value": 235000
+        },
+        {
+          "entity": "uganda",
+          "value": 92000
+        }
+      ]
+    },
+    {
+      "period": 1998,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 2891000
+        },
+        {
+          "entity": "india",
+          "value": 3522000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1279000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1218000
+        },
+        {
+          "entity": "entity-116",
+          "value": 978589
+        },
+        {
+          "entity": "vietnam",
+          "value": 243400
+        },
+        {
+          "entity": "indonesia",
+          "value": 725000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 220000
+        },
+        {
+          "entity": "entity-087",
+          "value": 248000
+        },
+        {
+          "entity": "uganda",
+          "value": 113000
+        }
+      ]
+    },
+    {
+      "period": 1999,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 2939000
+        },
+        {
+          "entity": "india",
+          "value": 3800000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1081000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1234000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1095532
+        },
+        {
+          "entity": "vietnam",
+          "value": 302400
+        },
+        {
+          "entity": "indonesia",
+          "value": 700000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 243000
+        },
+        {
+          "entity": "entity-087",
+          "value": 243000
+        },
+        {
+          "entity": "uganda",
+          "value": 108000
+        }
+      ]
+    },
+    {
+      "period": 2000,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 2971000
+        },
+        {
+          "entity": "india",
+          "value": 3591000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1027000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1330000
+        },
+        {
+          "entity": "entity-116",
+          "value": 758038
+        },
+        {
+          "entity": "vietnam",
+          "value": 300600
+        },
+        {
+          "entity": "indonesia",
+          "value": 707000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 200000
+        },
+        {
+          "entity": "entity-087",
+          "value": 323000
+        },
+        {
+          "entity": "uganda",
+          "value": 127000
+        }
+      ]
+    },
+    {
+      "period": 2001,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 3051000
+        },
+        {
+          "entity": "india",
+          "value": 3683000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1281000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1283000
+        },
+        {
+          "entity": "entity-116",
+          "value": 824946
+        },
+        {
+          "entity": "vietnam",
+          "value": 325600
+        },
+        {
+          "entity": "indonesia",
+          "value": 726000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 226000
+        },
+        {
+          "entity": "entity-087",
+          "value": 309000
+        },
+        {
+          "entity": "uganda",
+          "value": 143000
+        }
+      ]
+    },
+    {
+      "period": 2002,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 3241000
+        },
+        {
+          "entity": "india",
+          "value": 3713000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1248000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1348000
+        },
+        {
+          "entity": "entity-116",
+          "value": 791700
+        },
+        {
+          "entity": "vietnam",
+          "value": 405200
+        },
+        {
+          "entity": "indonesia",
+          "value": 718000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 252000
+        },
+        {
+          "entity": "entity-087",
+          "value": 306000
+        },
+        {
+          "entity": "uganda",
+          "value": 172000
+        }
+      ]
+    },
+    {
+      "period": 2003,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 3340000
+        },
+        {
+          "entity": "india",
+          "value": 3678000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1277000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1318000
+        },
+        {
+          "entity": "entity-116",
+          "value": 869000
+        },
+        {
+          "entity": "vietnam",
+          "value": 448600
+        },
+        {
+          "entity": "indonesia",
+          "value": 738000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 250000
+        },
+        {
+          "entity": "entity-087",
+          "value": 304000
+        },
+        {
+          "entity": "uganda",
+          "value": 160000
+        }
+      ]
+    },
+    {
+      "period": 2004,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 3631000
+        },
+        {
+          "entity": "india",
+          "value": 3822000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1411000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1340000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1105000
+        },
+        {
+          "entity": "vietnam",
+          "value": 513800
+        },
+        {
+          "entity": "indonesia",
+          "value": 727000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 250000
+        },
+        {
+          "entity": "entity-087",
+          "value": 306000
+        },
+        {
+          "entity": "uganda",
+          "value": 155000
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 4065000
+        },
+        {
+          "entity": "india",
+          "value": 3943000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1428000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1379000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1192004
+        },
+        {
+          "entity": "vietnam",
+          "value": 570000
+        },
+        {
+          "entity": "indonesia",
+          "value": 727000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 250000
+        },
+        {
+          "entity": "entity-087",
+          "value": 295000
+        },
+        {
+          "entity": "uganda",
+          "value": 164000
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 4470000
+        },
+        {
+          "entity": "india",
+          "value": 4126000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1350000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1351000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1121206
+        },
+        {
+          "entity": "vietnam",
+          "value": 648900
+        },
+        {
+          "entity": "indonesia",
+          "value": 639000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 252000
+        },
+        {
+          "entity": "entity-087",
+          "value": 314000
+        },
+        {
+          "entity": "uganda",
+          "value": 149000
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 5067000
+        },
+        {
+          "entity": "india",
+          "value": 4230000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1607000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1327000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1145321
+        },
+        {
+          "entity": "vietnam",
+          "value": 705900
+        },
+        {
+          "entity": "indonesia",
+          "value": 655000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 254000
+        },
+        {
+          "entity": "entity-087",
+          "value": 330000
+        },
+        {
+          "entity": "uganda",
+          "value": 195000
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 5468000
+        },
+        {
+          "entity": "india",
+          "value": 4291000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1503000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1386000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1100257
+        },
+        {
+          "entity": "vietnam",
+          "value": 746200
+        },
+        {
+          "entity": "indonesia",
+          "value": 669000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 257000
+        },
+        {
+          "entity": "entity-087",
+          "value": 348000
+        },
+        {
+          "entity": "uganda",
+          "value": 186000
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 5909000
+        },
+        {
+          "entity": "india",
+          "value": 4229000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1366000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1261000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1103340
+        },
+        {
+          "entity": "vietnam",
+          "value": 771000
+        },
+        {
+          "entity": "indonesia",
+          "value": 682000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 259000
+        },
+        {
+          "entity": "entity-087",
+          "value": 312000
+        },
+        {
+          "entity": "uganda",
+          "value": 212000
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 6600000
+        },
+        {
+          "entity": "india",
+          "value": 4309000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1735000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1760000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1305566
+        },
+        {
+          "entity": "vietnam",
+          "value": 834600
+        },
+        {
+          "entity": "indonesia",
+          "value": 654000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 261000
+        },
+        {
+          "entity": "entity-087",
+          "value": 402000
+        },
+        {
+          "entity": "uganda",
+          "value": 214000
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 7400000
+        },
+        {
+          "entity": "india",
+          "value": 4763000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1643000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1750000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1231141
+        },
+        {
+          "entity": "vietnam",
+          "value": 879079
+        },
+        {
+          "entity": "indonesia",
+          "value": 637000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 263000
+        },
+        {
+          "entity": "entity-087",
+          "value": 404000
+        },
+        {
+          "entity": "uganda",
+          "value": 153000
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 8100000
+        },
+        {
+          "entity": "india",
+          "value": 4935000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1606000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1765000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1250000
+        },
+        {
+          "entity": "vietnam",
+          "value": 909729
+        },
+        {
+          "entity": "indonesia",
+          "value": 624000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 272000
+        },
+        {
+          "entity": "entity-087",
+          "value": 360000
+        },
+        {
+          "entity": "uganda",
+          "value": 252000
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 8700000
+        },
+        {
+          "entity": "india",
+          "value": 5256000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1880000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1810000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1180000
+        },
+        {
+          "entity": "vietnam",
+          "value": 936424
+        },
+        {
+          "entity": "indonesia",
+          "value": 634000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 288000
+        },
+        {
+          "entity": "entity-087",
+          "value": 350000
+        },
+        {
+          "entity": "uganda",
+          "value": 265000
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 9500000
+        },
+        {
+          "entity": "india",
+          "value": 5249000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1935000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1810000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1266311
+        },
+        {
+          "entity": "vietnam",
+          "value": 982210
+        },
+        {
+          "entity": "indonesia",
+          "value": 671000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 277000
+        },
+        {
+          "entity": "entity-087",
+          "value": 361000
+        },
+        {
+          "entity": "uganda",
+          "value": 284000
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 10320000
+        },
+        {
+          "entity": "india",
+          "value": 5361000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1735000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1760000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1327934
+        },
+        {
+          "entity": "vietnam",
+          "value": 1012916
+        },
+        {
+          "entity": "indonesia",
+          "value": 577000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 287000
+        },
+        {
+          "entity": "entity-087",
+          "value": 359000
+        },
+        {
+          "entity": "uganda",
+          "value": 255000
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 10480000
+        },
+        {
+          "entity": "india",
+          "value": 5437000
+        },
+        {
+          "entity": "entity-127",
+          "value": 2057000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1570000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1350000
+        },
+        {
+          "entity": "vietnam",
+          "value": 1033767
+        },
+        {
+          "entity": "indonesia",
+          "value": 626000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 280000
+        },
+        {
+          "entity": "entity-087",
+          "value": 370000
+        },
+        {
+          "entity": "uganda",
+          "value": 234000
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 11100000
+        },
+        {
+          "entity": "india",
+          "value": 5761000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1912000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1630000
         },
         {
           "entity": "entity-116",
@@ -62,15 +1187,240 @@
         },
         {
           "entity": "vietnam",
-          "value": 1116746
+          "value": 1121066
         },
         {
           "entity": "indonesia",
-          "value": 595000
+          "value": 636000
         },
         {
           "entity": "bangladesh",
-          "value": 440000
+          "value": 356000
+        },
+        {
+          "entity": "entity-087",
+          "value": 354000
+        },
+        {
+          "entity": "uganda",
+          "value": 218000
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 11800000
+        },
+        {
+          "entity": "india",
+          "value": 5820000
+        },
+        {
+          "entity": "entity-127",
+          "value": 2143000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1500000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1480534
+        },
+        {
+          "entity": "vietnam",
+          "value": 1081166
+        },
+        {
+          "entity": "indonesia",
+          "value": 610000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 340000
+        },
+        {
+          "entity": "entity-087",
+          "value": 360000
+        },
+        {
+          "entity": "uganda",
+          "value": 323000
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 12600000
+        },
+        {
+          "entity": "india",
+          "value": 6044000
+        },
+        {
+          "entity": "entity-127",
+          "value": 1995000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1490000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1407448
+        },
+        {
+          "entity": "vietnam",
+          "value": 1017619
+        },
+        {
+          "entity": "indonesia",
+          "value": 560000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 394000
+        },
+        {
+          "entity": "entity-087",
+          "value": 362000
+        },
+        {
+          "entity": "uganda",
+          "value": 262000
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 13200000
+        },
+        {
+          "entity": "india",
+          "value": 5485000
+        },
+        {
+          "entity": "entity-127",
+          "value": 3050000
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1500000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1450556
+        },
+        {
+          "entity": "vietnam",
+          "value": 1064993
+        },
+        {
+          "entity": "indonesia",
+          "value": 626000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 412000
+        },
+        {
+          "entity": "entity-087",
+          "value": 335225
+        },
+        {
+          "entity": "uganda",
+          "value": 390000
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14200000
+        },
+        {
+          "entity": "india",
+          "value": 6090000
+        },
+        {
+          "entity": "entity-127",
+          "value": 2430900
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1800000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1453964
+        },
+        {
+          "entity": "vietnam",
+          "value": 1091073
+        },
+        {
+          "entity": "indonesia",
+          "value": 663000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 412000
+        },
+        {
+          "entity": "entity-087",
+          "value": 336130
+        },
+        {
+          "entity": "uganda",
+          "value": 437000
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14530800
+        },
+        {
+          "entity": "india",
+          "value": 6231000
+        },
+        {
+          "entity": "entity-127",
+          "value": 2418200
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1400000
+        },
+        {
+          "entity": "entity-116",
+          "value": 1269546
+        },
+        {
+          "entity": "vietnam",
+          "value": 1116750
+        },
+        {
+          "entity": "indonesia",
+          "value": 658000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 426721
         },
         {
           "entity": "entity-087",
@@ -78,17 +1428,108 @@
         },
         {
           "entity": "uganda",
-          "value": 326000
+          "value": 406000
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 15396000
+        },
+        {
+          "entity": "india",
+          "value": 6033531
+        },
+        {
+          "entity": "entity-127",
+          "value": 2577800
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1495646
+        },
+        {
+          "entity": "entity-116",
+          "value": 1356556
+        },
+        {
+          "entity": "vietnam",
+          "value": 1125065
+        },
+        {
+          "entity": "indonesia",
+          "value": 613000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 405252
+        },
+        {
+          "entity": "entity-087",
+          "value": 344203
+        },
+        {
+          "entity": "uganda",
+          "value": 393436
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 16260900
+        },
+        {
+          "entity": "india",
+          "value": 6156031
+        },
+        {
+          "entity": "entity-127",
+          "value": 2687200
+        },
+        {
+          "entity": "sri-lanka",
+          "value": 1514024
+        },
+        {
+          "entity": "entity-116",
+          "value": 1414000
+        },
+        {
+          "entity": "vietnam",
+          "value": 1154510
+        },
+        {
+          "entity": "indonesia",
+          "value": 658000
+        },
+        {
+          "entity": "bangladesh",
+          "value": 437652
+        },
+        {
+          "entity": "entity-087",
+          "value": 356753
+        },
+        {
+          "entity": "uganda",
+          "value": 414945
         }
       ]
     }
   ],
   "notes": {
-    "china": "茶葉生産量約1,454万トンで世界1位。世界の約半分を占める茶の発祥地。",
-    "india": "約597万トンで世界2位。ダージリン・アッサムなどの紅茶で知られる。",
-    "entity-127": "ケニア。約233万トンで世界3位。世界有数の紅茶輸出国。",
-    "sri-lanka": "約140万トンで世界4位。セイロン紅茶の産地。",
-    "entity-116": "トルコ。約130万トンで世界5位。国内消費が多い。",
-    "entity-087": "アルゼンチン。約36万トンで世界9位。南米最大の茶産地。"
+    "china": "2005年にインドを抜いて世界1位に。2024年は約1,626万トンで世界の約半分。茶の発祥地。",
+    "india": "2000年代前半まで世界1位だったが2005年に中国に抜かれた。ダージリン・アッサムの紅茶で知られる。",
+    "entity-127": "ケニア。数十年で生産を伸ばした世界有数の紅茶輸出国。",
+    "sri-lanka": "セイロン紅茶の産地。",
+    "entity-116": "トルコ。国内消費が多い。",
+    "vietnam": "輸出向けに生産を伸ばした。",
+    "entity-087": "アルゼンチン。南米最大の茶産地。"
   }
 }

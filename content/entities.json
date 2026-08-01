@@ -2401,5 +2401,80 @@
     "name": "クウェート",
     "type": "country",
     "description": ""
+  },
+  "entity-232": {
+    "name": "スリラー（マイケル・ジャクソン）",
+    "type": "album",
+    "description": "1982年発売。世界で最も売れたアルバムとされ、推定約7,000万枚。"
+  },
+  "entity-233": {
+    "name": "バック・イン・ブラック（AC/DC）",
+    "type": "album",
+    "description": "1980年発売。ハードロックの名盤で推定約5,000万枚。"
+  },
+  "entity-234": {
+    "name": "ボディガード（サウンドトラック）",
+    "type": "album",
+    "description": "1992年の映画サウンドトラック。ホイットニー・ヒューストンの歌唱で知られる。"
+  },
+  "entity-235": {
+    "name": "狂気（ピンク・フロイド）",
+    "type": "album",
+    "description": "1973年発売。プログレッシブ・ロックの代表作。原題The Dark Side of the Moon。"
+  },
+  "entity-236": {
+    "name": "イーグルス・グレイテスト・ヒッツ（イーグルス）",
+    "type": "album",
+    "description": "1976年発売のベスト盤（1971〜1975年）。"
+  },
+  "entity-237": {
+    "name": "ホテル・カリフォルニア（イーグルス）",
+    "type": "album",
+    "description": "1976年発売。表題曲で知られる。"
+  },
+  "entity-238": {
+    "name": "カム・オン・オーヴァー（シャナイア・トゥエイン）",
+    "type": "album",
+    "description": "1997年発売。女性ソロ・カントリー系で最大級のヒット。"
+  },
+  "entity-239": {
+    "name": "噂（フリートウッド・マック）",
+    "type": "album",
+    "description": "1977年発売。原題Rumours。"
+  },
+  "entity-240": {
+    "name": "バット・アウト・オブ・ヘル（ミート・ローフ）",
+    "type": "album",
+    "description": "1977年発売のロック・アルバム。"
+  },
+  "entity-241": {
+    "name": "サタデー・ナイト・フィーバー（サウンドトラック）",
+    "type": "album",
+    "description": "1977年の映画サウンドトラック。ディスコ・ブームを象徴する。"
+  },
+  "entity-242": {
+    "name": "レッド・ツェッペリン IV（レッド・ツェッペリン）",
+    "type": "album",
+    "description": "1971年発売。『天国への階段』を収録。"
+  },
+  "entity-243": {
+    "name": "バッド（マイケル・ジャクソン）",
+    "type": "album",
+    "description": "1987年発売。『スリラー』に次ぐヒットで推定約3,500万枚。"
+  },
+  "entity-244": {
+    "name": "ジャグド・リトル・ピル（アラニス・モリセット）",
+    "type": "album",
+    "description": "1995年発売。1990年代を代表するヒット作。"
+  },
+  "entity-245": {
+    "name": "ダーティ・ダンシング（サウンドトラック）",
+    "type": "album",
+    "description": "1987年の映画サウンドトラック。"
+  },
+  "entity-246": {
+    "name": "フォーリング・イントゥ・ユー（セリーヌ・ディオン）",
+    "type": "album",
+    "description": "1996年発売。"
   }
 }

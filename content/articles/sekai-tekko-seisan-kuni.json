@@ -1,0 +1,552 @@
+{
+  "id": "sekai-tekko-seisan-kuni",
+  "title": "世界の鉄鋼生産量ランキング（国別）",
+  "seoTitle": "世界の鉄鋼生産量ランキング｜1位は中国！",
+  "category": "keizai",
+  "unit": "トン",
+  "source": "世界鉄鋼協会（worldsteel）年間粗鋼生産量。粗鋼（クルードスチール）ベースの生産量",
+  "sourceUrl": "https://en.wikipedia.org/wiki/List_of_countries_by_steel_production",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-31",
+  "lead": "世界の鉄鋼（粗鋼）生産量が最も多い国は中国で、2025年は約9億6,000万トン。世界全体（年間およそ19億トン）のおよそ半分を、中国1国だけで生産している。2位インド、3位アメリカ、4位日本と続く。かつて長く2位だった日本は生産量が減り、急成長したインドに2018年ごろ抜かれた。ここでは2015年から2025年まで、上位10か国の推移を掲載している。",
+  "commentary": "粗鋼（製鉄の基礎となる鋼）の年間生産量。中国が突出しており、世界全体の約半分を1国で生産する。2位のインドは近年急成長し、長く2位だった日本を抜いた。日本・アメリカ・ロシア・韓国などがこれに続く。",
+  "analysisHeading": "中国が世界の約半分を生産、インドが2位に急上昇",
+  "analysis": [
+    "中国の鉄鋼生産量は突出しており、2024年は約10億トンと世界全体（約19億トン）のおよそ53%を占めた。これは2位以下の上位9か国の合計を上回る量である。2000年代以降の急速な工業化とインフラ建設を背景に生産を拡大し、近年は世界の約半分を1国で生産する状態が続いている。",
+    "2位のインドは急成長している。2015年の約9,000万トンから2025年には約1億6,500万トンへと10年で8割以上増え、2018年ごろに日本を抜いて世界2位となった。人口増加とインフラ需要を背景に、今も生産を伸ばし続けている。",
+    "かつて長く世界2位だった日本は、2015年の約1億500万トンから2025年には約8,100万トンへと減少し、インドに抜かれて3〜4位となった。アメリカ・ロシア・韓国も含め、上位の顔ぶれは大きく変わらないが、中国とインドの伸びが際立っている。"
+  ],
+  "sections": [
+    {
+      "h2": "粗鋼（そこう）とは何か"
+    },
+    {
+      "p": "鉄鋼生産量は、ふつう**粗鋼（そこう＝クルードスチール）**の量で比べる。粗鋼とは、鉄鉱石などから作られた、加工される前の基礎となる鋼のことである。自動車・建物・鉄道・家電など、あらゆる工業製品の材料になるため、粗鋼の生産量はその国の工業力を測るものさしのひとつとされる。"
+    },
+    {
+      "h2": "中国が世界の約半分を生産"
+    },
+    {
+      "p": "**中国**は鉄鋼生産量で圧倒的な世界1位で、世界全体のおよそ半分を1国で生産している。2000年代以降の急速な工業化と、道路・鉄道・住宅などの大規模なインフラ建設を背景に生産を拡大した。生産量は2020年ごろの約10億6,000万トンをピークに、近年はやや減少しているが、それでも他国を大きく引き離している。"
+    },
+    {
+      "h2": "急成長するインドと、抜かれた日本"
+    },
+    {
+      "p": "**インド**は近年もっとも生産を伸ばしている国で、2015年から2025年までの10年で生産量を8割以上増やした。人口の増加とインフラ需要が背景にある。一方、かつて長く世界2位だった**日本**は生産量が緩やかに減り、**2018年ごろにインドに2位の座を明け渡した**。日本の鉄鋼業は高い技術力で知られるが、国内需要の頭打ちなどにより生産量は減少傾向にある。"
+    },
+    {
+      "h2": "上位10か国の顔ぶれ"
+    },
+    {
+      "p": "上位には中国・インドに続いて、アメリカ・日本・ロシア・韓国・トルコ・ドイツ・ブラジル・イランが並ぶ。工業国が多いなかで、韓国は国土の規模のわりに生産量が多く、イランは近年生産を伸ばしている。全体として上位の顔ぶれは安定しているが、中国とインドの存在感が年々大きくなっている。"
+    }
+  ],
+  "data": [
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 803800000
+        },
+        {
+          "entity": "india",
+          "value": 89600000
+        },
+        {
+          "entity": "usa",
+          "value": 78900000
+        },
+        {
+          "entity": "japan",
+          "value": 105200000
+        },
+        {
+          "entity": "russia",
+          "value": 71100000
+        },
+        {
+          "entity": "south-korea",
+          "value": 69700000
+        },
+        {
+          "entity": "entity-116",
+          "value": 31500000
+        },
+        {
+          "entity": "germany",
+          "value": 42700000
+        },
+        {
+          "entity": "brazil",
+          "value": 33300000
+        },
+        {
+          "entity": "entity-100",
+          "value": 16100000
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 786900000
+        },
+        {
+          "entity": "india",
+          "value": 95500000
+        },
+        {
+          "entity": "usa",
+          "value": 78500000
+        },
+        {
+          "entity": "japan",
+          "value": 104800000
+        },
+        {
+          "entity": "russia",
+          "value": 70500000
+        },
+        {
+          "entity": "south-korea",
+          "value": 68600000
+        },
+        {
+          "entity": "entity-116",
+          "value": 33200000
+        },
+        {
+          "entity": "germany",
+          "value": 42100000
+        },
+        {
+          "entity": "brazil",
+          "value": 30200000
+        },
+        {
+          "entity": "entity-100",
+          "value": 17900000
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 831700000
+        },
+        {
+          "entity": "india",
+          "value": 101500000
+        },
+        {
+          "entity": "usa",
+          "value": 81600000
+        },
+        {
+          "entity": "japan",
+          "value": 104700000
+        },
+        {
+          "entity": "russia",
+          "value": 71300000
+        },
+        {
+          "entity": "south-korea",
+          "value": 71100000
+        },
+        {
+          "entity": "entity-116",
+          "value": 37500000
+        },
+        {
+          "entity": "germany",
+          "value": 43600000
+        },
+        {
+          "entity": "brazil",
+          "value": 34400000
+        },
+        {
+          "entity": "entity-100",
+          "value": 21800000
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 920000000
+        },
+        {
+          "entity": "india",
+          "value": 109300000
+        },
+        {
+          "entity": "usa",
+          "value": 86600000
+        },
+        {
+          "entity": "japan",
+          "value": 104300000
+        },
+        {
+          "entity": "russia",
+          "value": 72000000
+        },
+        {
+          "entity": "south-korea",
+          "value": 72500000
+        },
+        {
+          "entity": "entity-116",
+          "value": 37300000
+        },
+        {
+          "entity": "germany",
+          "value": 42400000
+        },
+        {
+          "entity": "brazil",
+          "value": 35400000
+        },
+        {
+          "entity": "entity-100",
+          "value": 24500000
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 995400000
+        },
+        {
+          "entity": "india",
+          "value": 111400000
+        },
+        {
+          "entity": "usa",
+          "value": 87800000
+        },
+        {
+          "entity": "japan",
+          "value": 99300000
+        },
+        {
+          "entity": "russia",
+          "value": 71700000
+        },
+        {
+          "entity": "south-korea",
+          "value": 71400000
+        },
+        {
+          "entity": "entity-116",
+          "value": 33700000
+        },
+        {
+          "entity": "germany",
+          "value": 39600000
+        },
+        {
+          "entity": "brazil",
+          "value": 32600000
+        },
+        {
+          "entity": "entity-100",
+          "value": 25600000
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1064800000
+        },
+        {
+          "entity": "india",
+          "value": 100300000
+        },
+        {
+          "entity": "usa",
+          "value": 72700000
+        },
+        {
+          "entity": "japan",
+          "value": 83200000
+        },
+        {
+          "entity": "russia",
+          "value": 71600000
+        },
+        {
+          "entity": "south-korea",
+          "value": 67100000
+        },
+        {
+          "entity": "entity-116",
+          "value": 35800000
+        },
+        {
+          "entity": "germany",
+          "value": 35700000
+        },
+        {
+          "entity": "brazil",
+          "value": 31400000
+        },
+        {
+          "entity": "entity-100",
+          "value": 29000000
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1035200000
+        },
+        {
+          "entity": "india",
+          "value": 118200000
+        },
+        {
+          "entity": "usa",
+          "value": 85800000
+        },
+        {
+          "entity": "japan",
+          "value": 96300000
+        },
+        {
+          "entity": "russia",
+          "value": 77000000
+        },
+        {
+          "entity": "south-korea",
+          "value": 70400000
+        },
+        {
+          "entity": "entity-116",
+          "value": 40400000
+        },
+        {
+          "entity": "germany",
+          "value": 40200000
+        },
+        {
+          "entity": "brazil",
+          "value": 36100000
+        },
+        {
+          "entity": "entity-100",
+          "value": 28300000
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1018000000
+        },
+        {
+          "entity": "india",
+          "value": 125300000
+        },
+        {
+          "entity": "usa",
+          "value": 80500000
+        },
+        {
+          "entity": "japan",
+          "value": 89200000
+        },
+        {
+          "entity": "russia",
+          "value": 71500000
+        },
+        {
+          "entity": "south-korea",
+          "value": 65800000
+        },
+        {
+          "entity": "entity-116",
+          "value": 35100000
+        },
+        {
+          "entity": "germany",
+          "value": 36900000
+        },
+        {
+          "entity": "brazil",
+          "value": 34100000
+        },
+        {
+          "entity": "entity-100",
+          "value": 30600000
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1028900000
+        },
+        {
+          "entity": "india",
+          "value": 140800000
+        },
+        {
+          "entity": "usa",
+          "value": 81400000
+        },
+        {
+          "entity": "japan",
+          "value": 87000000
+        },
+        {
+          "entity": "russia",
+          "value": 76000000
+        },
+        {
+          "entity": "south-korea",
+          "value": 66700000
+        },
+        {
+          "entity": "entity-116",
+          "value": 33700000
+        },
+        {
+          "entity": "germany",
+          "value": 35400000
+        },
+        {
+          "entity": "brazil",
+          "value": 32000000
+        },
+        {
+          "entity": "entity-100",
+          "value": 30700000
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1005100000
+        },
+        {
+          "entity": "india",
+          "value": 149400000
+        },
+        {
+          "entity": "usa",
+          "value": 79500000
+        },
+        {
+          "entity": "japan",
+          "value": 84000000
+        },
+        {
+          "entity": "russia",
+          "value": 71000000
+        },
+        {
+          "entity": "south-korea",
+          "value": 63600000
+        },
+        {
+          "entity": "entity-116",
+          "value": 36900000
+        },
+        {
+          "entity": "germany",
+          "value": 37300000
+        },
+        {
+          "entity": "brazil",
+          "value": 33900000
+        },
+        {
+          "entity": "entity-100",
+          "value": 31400000
+        }
+      ]
+    },
+    {
+      "period": 2025,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 960800000
+        },
+        {
+          "entity": "india",
+          "value": 164900000
+        },
+        {
+          "entity": "usa",
+          "value": 82000000
+        },
+        {
+          "entity": "japan",
+          "value": 80700000
+        },
+        {
+          "entity": "russia",
+          "value": 67800000
+        },
+        {
+          "entity": "south-korea",
+          "value": 61900000
+        },
+        {
+          "entity": "entity-116",
+          "value": 38100000
+        },
+        {
+          "entity": "germany",
+          "value": 34100000
+        },
+        {
+          "entity": "brazil",
+          "value": 33300000
+        },
+        {
+          "entity": "entity-100",
+          "value": 31800000
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "china": "世界全体の約半分を生産する圧倒的1位。2020年ごろをピークに近年はやや減少。",
+    "india": "近年急成長し、2018年ごろに日本を抜いて世界2位に。10年で生産量が8割以上増えた。",
+    "usa": "世界3位前後。生産量はおおむね横ばい。",
+    "japan": "かつて長く世界2位だったが、生産量が減りインドに抜かれた。高い技術力で知られる。",
+    "russia": "世界5位前後で推移。",
+    "south-korea": "国土の規模のわりに生産量が多く、上位の常連。",
+    "entity-116": "トルコ。近年生産を伸ばし、上位に入る。",
+    "entity-100": "イラン。2015年の約1,600万トンから2025年の約3,200万トンへと生産を伸ばした。"
+  }
+}

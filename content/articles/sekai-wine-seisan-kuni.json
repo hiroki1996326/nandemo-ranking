@@ -1,58 +1,1447 @@
 {
   "id": "sekai-wine-seisan-kuni",
   "title": "世界のワイン生産量ランキング（国別）",
-  "seoTitle": "世界のワイン生産量ランキング｜1位はイタリア！",
+  "seoTitle": "世界のワイン生産量ランキング｜仏・伊・西の三強",
   "category": "keizai",
   "unit": "億リットル",
-  "source": "OIV（国際ぶどう・ワイン機構）2024年推計。ぶどうから造られたワインの生産量（果汁・マストを除く）。1億リットル＝100万ヘクトリットル",
-  "sourceUrl": "https://www.oiv.int/",
+  "source": "FAOSTAT（国連食糧農業機関）。ワインの生産量（重量ベースを1トン≒1,000リットルで換算）。Our World in Data経由。1970年から2023年までの推移",
+  "sourceUrl": "https://ourworldindata.org/grapher/wine-production",
   "updateFrequency": "yearly",
   "updatedAt": "2026-07-31",
-  "lead": "世界で最もワインを生産している国はイタリアで、2024年は約44億リットル。2位フランス、3位スペインと続き、この上位3か国だけで世界全体のおよそ半分を生産している。上位はヨーロッパの国が多いが、アメリカやアルゼンチン、オーストラリアなど新世界の産地も並ぶ。2024年の世界のワイン生産量は約226億リットルで、異常気象の影響により過去60年余りで最も少なかった。ここでは生産量の多い上位15か国を掲載している。",
-  "commentary": "ぶどうから造られたワインの生産量（果汁などを除く）。イタリア・フランス・スペインの3か国が突出しており、この上位3か国で世界の約半分を占める。地中海性気候のヨーロッパに産地が集中する一方、アメリカや南半球の新世界産地も上位に入る。",
-  "analysisHeading": "上位3か国で世界の約半分、2024年は60年ぶりの低水準",
+  "lead": "世界のワイン生産は、長年フランス・イタリア・スペインのヨーロッパ三強が上位を占めてきた。なかでもフランスとイタリアが交互に世界1位を争っている。三国の生産量は1970年代の水準からは緩やかに減少している一方、中国が1980年代以降にゼロから急成長し、アメリカ・チリ・オーストラリアなど新世界の産地も伸びた。ここでは1970年から2023年まで、上位国の推移を掲載している。",
+  "commentary": "ワインの生産量の推移（重量を1トン≒1,000リットルで換算）。フランス・イタリア・スペインの三強が長く上位を占め、フランスとイタリアが交互に1位を争う。三国は緩やかに減少する一方、中国が急成長し、新世界の産地も伸びている。",
+  "analysisHeading": "仏・伊・西の三強、伸びる中国と新世界",
   "analysis": [
-    "ワイン生産量の1位はイタリア（約44億リットル）、2位フランス（約36億リットル）、3位スペイン（約31億リットル）。いずれもヨーロッパの地中海沿岸の国で、この上位3か国だけで世界全体（約226億リットル）のおよそ半分を生産している。ワイン造りに適した温暖で乾燥した気候と、長い歴史を持つ産地が集まっている。",
-    "上位にはヨーロッパの国が多いが、4位アメリカ、5位アルゼンチン、6位オーストラリア、7位チリ、8位南アフリカなど、いわゆる『新世界』の産地も並ぶ。これらの国は比較的新しいワイン産地だが、大規模な生産と輸出で存在感を高めている。",
-    "2024年の世界のワイン生産量は約226億リットルで、1961年以来およそ60年ぶりの低水準となった。主要産地での干ばつや長雨、それにともなう病害など、異常気象の影響が大きい。ワイン生産は天候に左右されやすく、年ごとの変動が大きい。"
+    "ワイン生産は長年、フランス・イタリア・スペインのヨーロッパ三強が世界の上位を占めてきた。とくにフランスとイタリアは、その年のぶどうの出来によって交互に世界1位を争っている。ワインはぶどうの収穫に左右されるため、各国とも年ごとの変動が大きい。",
+    "三強の生産量は、1970年代の水準からは緩やかに減少してきた。ヨーロッパではかつてワインが作られすぎて余る時期があり、ぶどう畑を減らす政策がとられたことなどが背景にある。近年は消費の頭打ちや天候不順も重なり、2020年代の生産量は歴史的に低い水準となっている。",
+    "一方で、中国は1980年代以降にほぼゼロから生産を伸ばし、2010年代には有数の生産国となった。アメリカ（カリフォルニア）、チリ、オーストラリア、南アフリカといった『新世界』の産地も、この数十年で生産を大きく増やし、世界市場での存在感を高めている。"
   ],
   "sections": [
     {
-      "h2": "ワインの生産量はどう測るか"
+      "h2": "ワインの生産量の測り方"
     },
     {
-      "p": "ワインの生産量は、ふつう体積（リットルやヘクトリットル）で表す。ここではOIV（国際ぶどう・ワイン機構）の2024年推計にもとづき、果汁やマスト（発酵前のぶどう液）を除いた、実際に造られたワインの量を掲載している。1億リットルは100万ヘクトリットルにあたる。ワインはぶどうの出来に左右されるため、生産量は天候によって年ごとに大きく変わる。"
+      "p": "ワインの生産量は本来リットルやヘクトリットルで表すが、ここではFAOSTATの生産量（重量）を、1トン≒1,000リットルとして換算した値を掲載している。ワインはぶどうから造られ、その年のぶどうの出来（天候）によって生産量が大きく変わるため、各国とも年ごとの上下動が大きい。"
     },
     {
-      "h2": "イタリア・フランス・スペインで世界の約半分"
+      "h2": "長く続くヨーロッパ三強"
     },
     {
-      "p": "**イタリア**（約44億リットル）、**フランス**（約36億リットル）、**スペイン**（約31億リットル）の上位3か国だけで、世界のワイン生産量のおよそ半分を占める。いずれも地中海に面したヨーロッパの国で、ワイン用ぶどうの栽培に適した温暖で日照の多い気候に恵まれ、数千年にわたるワイン造りの歴史を持つ。"
+      "p": "**フランス**・**イタリア**・**スペイン**の3か国は、数十年にわたりワイン生産の上位を占めてきた。とくにフランスとイタリアは交互に世界1位を争う関係にある。3か国とも温暖で日照の多い地中海性気候に恵まれ、長いワイン造りの歴史を持つ。ただし生産量は1970年代の水準からは緩やかに減少している。"
     },
     {
-      "h2": "存在感を高める『新世界』の産地"
+      "h2": "伸びる中国と新世界の産地"
     },
     {
-      "p": "ヨーロッパ以外では、4位**アメリカ**（カリフォルニアなど）、5位**アルゼンチン**、6位**オーストラリア**、7位**チリ**、8位**南アフリカ**といった産地が上位に入る。これらは『新世界（ニューワールド）』と呼ばれる比較的新しいワイン産地で、広い土地を生かした大規模な生産と、手ごろな価格の輸出用ワインで世界市場に広がった。"
-    },
-    {
-      "h2": "2024年は60年ぶりの低水準"
-    },
-    {
-      "p": "2024年の世界のワイン生産量は約226億リットルにとどまり、1961年以来およそ60年ぶりの少なさとなった。主要産地での干ばつや長雨、遅霜、それにともなうぶどうの病害など、**異常気象**が各地で重なったことが原因である。なお日本のワイン生産量は世界全体のごくわずかで、上位15か国には入らない。"
+      "p": "かつてワインをほとんど作っていなかった**中国**は、1980年代以降に生産を急速に伸ばし、2010年代には世界有数の生産国となった。また、アメリカ・チリ・オーストラリア・南アフリカといった『**新世界**』と呼ばれる比較的新しい産地も、この数十年で生産を大きく増やし、手ごろな価格の輸出用ワインなどで世界に広がった。"
     }
   ],
   "data": [
     {
-      "period": null,
+      "period": 1970,
       "entries": [
         {
           "entity": "italy",
-          "value": 44.1
+          "value": 68.9
         },
         {
           "entity": "france",
-          "value": 36.1
+          "value": 75.4
+        },
+        {
+          "entity": "spain",
+          "value": 25.6
+        },
+        {
+          "entity": "usa",
+          "value": 9.7
+        },
+        {
+          "entity": "entity-087",
+          "value": 18.4
+        },
+        {
+          "entity": "australia",
+          "value": 2.9
+        },
+        {
+          "entity": "entity-117",
+          "value": 4.0
+        },
+        {
+          "entity": "china",
+          "value": 0.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 4.2
+        },
+        {
+          "entity": "germany",
+          "value": 10.1
+        }
+      ]
+    },
+    {
+      "period": 1971,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 64.2
+        },
+        {
+          "entity": "france",
+          "value": 62.2
+        },
+        {
+          "entity": "spain",
+          "value": 24.3
+        },
+        {
+          "entity": "usa",
+          "value": 13.7
+        },
+        {
+          "entity": "entity-087",
+          "value": 21.8
+        },
+        {
+          "entity": "australia",
+          "value": 2.5
+        },
+        {
+          "entity": "entity-117",
+          "value": 5.3
+        },
+        {
+          "entity": "china",
+          "value": 0.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 5.5
+        },
+        {
+          "entity": "germany",
+          "value": 6.4
+        }
+      ]
+    },
+    {
+      "period": 1972,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 60.2
+        },
+        {
+          "entity": "france",
+          "value": 59.5
+        },
+        {
+          "entity": "spain",
+          "value": 26.6
+        },
+        {
+          "entity": "usa",
+          "value": 12.0
+        },
+        {
+          "entity": "entity-087",
+          "value": 20.0
+        },
+        {
+          "entity": "australia",
+          "value": 2.9
+        },
+        {
+          "entity": "entity-117",
+          "value": 6.1
+        },
+        {
+          "entity": "china",
+          "value": 0.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 5.4
+        },
+        {
+          "entity": "germany",
+          "value": 7.9
+        }
+      ]
+    },
+    {
+      "period": 1973,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 76.7
+        },
+        {
+          "entity": "france",
+          "value": 83.5
+        },
+        {
+          "entity": "spain",
+          "value": 40.0
+        },
+        {
+          "entity": "usa",
+          "value": 15.8
+        },
+        {
+          "entity": "entity-087",
+          "value": 22.6
+        },
+        {
+          "entity": "australia",
+          "value": 2.8
+        },
+        {
+          "entity": "entity-117",
+          "value": 5.7
+        },
+        {
+          "entity": "china",
+          "value": 0.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 5.4
+        },
+        {
+          "entity": "germany",
+          "value": 10.8
+        }
+      ]
+    },
+    {
+      "period": 1974,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 76.9
+        },
+        {
+          "entity": "france",
+          "value": 76.4
+        },
+        {
+          "entity": "spain",
+          "value": 36.2
+        },
+        {
+          "entity": "usa",
+          "value": 14.2
+        },
+        {
+          "entity": "entity-087",
+          "value": 27.2
+        },
+        {
+          "entity": "australia",
+          "value": 2.9
+        },
+        {
+          "entity": "entity-117",
+          "value": 5.0
+        },
+        {
+          "entity": "china",
+          "value": 0.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 5.0
+        },
+        {
+          "entity": "germany",
+          "value": 7.0
+        }
+      ]
+    },
+    {
+      "period": 1975,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 69.8
+        },
+        {
+          "entity": "france",
+          "value": 67.0
+        },
+        {
+          "entity": "spain",
+          "value": 32.5
+        },
+        {
+          "entity": "usa",
+          "value": 14.5
+        },
+        {
+          "entity": "entity-087",
+          "value": 22.1
+        },
+        {
+          "entity": "australia",
+          "value": 3.6
+        },
+        {
+          "entity": "entity-117",
+          "value": 4.6
+        },
+        {
+          "entity": "china",
+          "value": 0.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 5.9
+        },
+        {
+          "entity": "germany",
+          "value": 9.1
+        }
+      ]
+    },
+    {
+      "period": 1976,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 65.8
+        },
+        {
+          "entity": "france",
+          "value": 74.1
+        },
+        {
+          "entity": "spain",
+          "value": 24.3
+        },
+        {
+          "entity": "usa",
+          "value": 14.4
+        },
+        {
+          "entity": "entity-087",
+          "value": 28.2
+        },
+        {
+          "entity": "australia",
+          "value": 3.6
+        },
+        {
+          "entity": "entity-117",
+          "value": 5.1
+        },
+        {
+          "entity": "china",
+          "value": 0.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 6.0
+        },
+        {
+          "entity": "germany",
+          "value": 8.9
+        }
+      ]
+    },
+    {
+      "period": 1977,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 64.1
+        },
+        {
+          "entity": "france",
+          "value": 53.0
+        },
+        {
+          "entity": "spain",
+          "value": 21.8
+        },
+        {
+          "entity": "usa",
+          "value": 15.8
+        },
+        {
+          "entity": "entity-087",
+          "value": 23.3
+        },
+        {
+          "entity": "australia",
+          "value": 3.8
+        },
+        {
+          "entity": "entity-117",
+          "value": 5.8
+        },
+        {
+          "entity": "china",
+          "value": 0.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 4.8
+        },
+        {
+          "entity": "germany",
+          "value": 11.3
+        }
+      ]
+    },
+    {
+      "period": 1978,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 72.4
+        },
+        {
+          "entity": "france",
+          "value": 58.9
+        },
+        {
+          "entity": "spain",
+          "value": 29.5
+        },
+        {
+          "entity": "usa",
+          "value": 16.2
+        },
+        {
+          "entity": "entity-087",
+          "value": 20.3
+        },
+        {
+          "entity": "australia",
+          "value": 3.4
+        },
+        {
+          "entity": "entity-117",
+          "value": 5.6
+        },
+        {
+          "entity": "china",
+          "value": 0.1
+        },
+        {
+          "entity": "entity-107",
+          "value": 6.1
+        },
+        {
+          "entity": "germany",
+          "value": 7.8
+        }
+      ]
+    },
+    {
+      "period": 1979,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 85.1
+        },
+        {
+          "entity": "france",
+          "value": 84.4
+        },
+        {
+          "entity": "spain",
+          "value": 48.2
+        },
+        {
+          "entity": "usa",
+          "value": 16.1
+        },
+        {
+          "entity": "entity-087",
+          "value": 26.3
+        },
+        {
+          "entity": "australia",
+          "value": 3.4
+        },
+        {
+          "entity": "entity-117",
+          "value": 5.9
+        },
+        {
+          "entity": "china",
+          "value": 0.3
+        },
+        {
+          "entity": "entity-107",
+          "value": 6.3
+        },
+        {
+          "entity": "germany",
+          "value": 8.7
+        }
+      ]
+    },
+    {
+      "period": 1980,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 86.5
+        },
+        {
+          "entity": "france",
+          "value": 69.7
+        },
+        {
+          "entity": "spain",
+          "value": 42.4
+        },
+        {
+          "entity": "usa",
+          "value": 18.0
+        },
+        {
+          "entity": "entity-087",
+          "value": 23.5
+        },
+        {
+          "entity": "australia",
+          "value": 4.1
+        },
+        {
+          "entity": "entity-117",
+          "value": 5.9
+        },
+        {
+          "entity": "china",
+          "value": 0.8
+        },
+        {
+          "entity": "entity-107",
+          "value": 7.1
+        },
+        {
+          "entity": "germany",
+          "value": 4.9
+        }
+      ]
+    },
+    {
+      "period": 1981,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 70.6
+        },
+        {
+          "entity": "france",
+          "value": 57.7
+        },
+        {
+          "entity": "spain",
+          "value": 33.7
+        },
+        {
+          "entity": "usa",
+          "value": 16.3
+        },
+        {
+          "entity": "entity-087",
+          "value": 21.8
+        },
+        {
+          "entity": "australia",
+          "value": 3.7
+        },
+        {
+          "entity": "entity-117",
+          "value": 5.9
+        },
+        {
+          "entity": "china",
+          "value": 1.1
+        },
+        {
+          "entity": "entity-107",
+          "value": 6.7
+        },
+        {
+          "entity": "germany",
+          "value": 7.5
+        }
+      ]
+    },
+    {
+      "period": 1982,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 72.6
+        },
+        {
+          "entity": "france",
+          "value": 80.0
+        },
+        {
+          "entity": "spain",
+          "value": 37.4
+        },
+        {
+          "entity": "usa",
+          "value": 19.5
+        },
+        {
+          "entity": "entity-087",
+          "value": 25.2
+        },
+        {
+          "entity": "australia",
+          "value": 4.0
+        },
+        {
+          "entity": "entity-117",
+          "value": 6.1
+        },
+        {
+          "entity": "china",
+          "value": 1.2
+        },
+        {
+          "entity": "entity-107",
+          "value": 7.7
+        },
+        {
+          "entity": "germany",
+          "value": 16.1
+        }
+      ]
+    },
+    {
+      "period": 1983,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 83.3
+        },
+        {
+          "entity": "france",
+          "value": 68.8
+        },
+        {
+          "entity": "spain",
+          "value": 30.9
+        },
+        {
+          "entity": "usa",
+          "value": 14.8
+        },
+        {
+          "entity": "entity-087",
+          "value": 24.7
+        },
+        {
+          "entity": "australia",
+          "value": 3.4
+        },
+        {
+          "entity": "entity-117",
+          "value": 4.9
+        },
+        {
+          "entity": "china",
+          "value": 1.3
+        },
+        {
+          "entity": "entity-107",
+          "value": 7.9
+        },
+        {
+          "entity": "germany",
+          "value": 13.4
+        }
+      ]
+    },
+    {
+      "period": 1984,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 70.9
+        },
+        {
+          "entity": "france",
+          "value": 64.2
+        },
+        {
+          "entity": "spain",
+          "value": 34.0
+        },
+        {
+          "entity": "usa",
+          "value": 16.7
+        },
+        {
+          "entity": "entity-087",
+          "value": 18.8
+        },
+        {
+          "entity": "australia",
+          "value": 4.0
+        },
+        {
+          "entity": "entity-117",
+          "value": 3.9
+        },
+        {
+          "entity": "china",
+          "value": 1.6
+        },
+        {
+          "entity": "entity-107",
+          "value": 7.8
+        },
+        {
+          "entity": "germany",
+          "value": 8.9
+        }
+      ]
+    },
+    {
+      "period": 1985,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 62.3
+        },
+        {
+          "entity": "france",
+          "value": 70.3
+        },
+        {
+          "entity": "spain",
+          "value": 32.4
+        },
+        {
+          "entity": "usa",
+          "value": 17.2
+        },
+        {
+          "entity": "entity-087",
+          "value": 15.7
+        },
+        {
+          "entity": "australia",
+          "value": 4.5
+        },
+        {
+          "entity": "entity-117",
+          "value": 4.4
+        },
+        {
+          "entity": "china",
+          "value": 2.3
+        },
+        {
+          "entity": "entity-107",
+          "value": 7.3
+        },
+        {
+          "entity": "germany",
+          "value": 6.1
+        }
+      ]
+    },
+    {
+      "period": 1986,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 77.1
+        },
+        {
+          "entity": "france",
+          "value": 74.2
+        },
+        {
+          "entity": "spain",
+          "value": 35.1
+        },
+        {
+          "entity": "usa",
+          "value": 19.3
+        },
+        {
+          "entity": "entity-087",
+          "value": 18.6
+        },
+        {
+          "entity": "australia",
+          "value": 3.9
+        },
+        {
+          "entity": "entity-117",
+          "value": 3.4
+        },
+        {
+          "entity": "china",
+          "value": 2.5
+        },
+        {
+          "entity": "entity-107",
+          "value": 6.5
+        },
+        {
+          "entity": "germany",
+          "value": 10.9
+        }
+      ]
+    },
+    {
+      "period": 1987,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 75.9
+        },
+        {
+          "entity": "france",
+          "value": 69.4
+        },
+        {
+          "entity": "spain",
+          "value": 40.0
+        },
+        {
+          "entity": "usa",
+          "value": 19.0
+        },
+        {
+          "entity": "entity-087",
+          "value": 26.0
+        },
+        {
+          "entity": "australia",
+          "value": 4.0
+        },
+        {
+          "entity": "entity-117",
+          "value": 3.9
+        },
+        {
+          "entity": "china",
+          "value": 2.8
+        },
+        {
+          "entity": "entity-107",
+          "value": 7.5
+        },
+        {
+          "entity": "germany",
+          "value": 9.7
+        }
+      ]
+    },
+    {
+      "period": 1988,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 61.0
+        },
+        {
+          "entity": "france",
+          "value": 57.5
+        },
+        {
+          "entity": "spain",
+          "value": 22.1
+        },
+        {
+          "entity": "usa",
+          "value": 20.1
+        },
+        {
+          "entity": "entity-087",
+          "value": 20.6
+        },
+        {
+          "entity": "australia",
+          "value": 4.1
+        },
+        {
+          "entity": "entity-117",
+          "value": 4.2
+        },
+        {
+          "entity": "china",
+          "value": 3.1
+        },
+        {
+          "entity": "entity-107",
+          "value": 7.8
+        },
+        {
+          "entity": "germany",
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "period": 1989,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 60.3
+        },
+        {
+          "entity": "france",
+          "value": 60.5
+        },
+        {
+          "entity": "spain",
+          "value": 31.1
+        },
+        {
+          "entity": "usa",
+          "value": 18.3
+        },
+        {
+          "entity": "entity-087",
+          "value": 20.3
+        },
+        {
+          "entity": "australia",
+          "value": 5.0
+        },
+        {
+          "entity": "entity-117",
+          "value": 3.9
+        },
+        {
+          "entity": "china",
+          "value": 2.7
+        },
+        {
+          "entity": "entity-107",
+          "value": 8.2
+        },
+        {
+          "entity": "germany",
+          "value": 14.5
+        }
+      ]
+    },
+    {
+      "period": 1990,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 54.9
+        },
+        {
+          "entity": "france",
+          "value": 65.5
+        },
+        {
+          "entity": "spain",
+          "value": 39.7
+        },
+        {
+          "entity": "usa",
+          "value": 18.4
+        },
+        {
+          "entity": "entity-087",
+          "value": 14.0
+        },
+        {
+          "entity": "australia",
+          "value": 4.4
+        },
+        {
+          "entity": "entity-117",
+          "value": 4.0
+        },
+        {
+          "entity": "china",
+          "value": 2.5
+        },
+        {
+          "entity": "entity-107",
+          "value": 7.7
+        },
+        {
+          "entity": "germany",
+          "value": 9.5
+        }
+      ]
+    },
+    {
+      "period": 1991,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 59.8
+        },
+        {
+          "entity": "france",
+          "value": 42.7
+        },
+        {
+          "entity": "spain",
+          "value": 31.4
+        },
+        {
+          "entity": "usa",
+          "value": 17.2
+        },
+        {
+          "entity": "entity-087",
+          "value": 14.5
+        },
+        {
+          "entity": "australia",
+          "value": 3.9
+        },
+        {
+          "entity": "entity-117",
+          "value": 2.9
+        },
+        {
+          "entity": "china",
+          "value": 3.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 8.0
+        },
+        {
+          "entity": "germany",
+          "value": 10.7
+        }
+      ]
+    },
+    {
+      "period": 1992,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 68.7
+        },
+        {
+          "entity": "france",
+          "value": 64.9
+        },
+        {
+          "entity": "spain",
+          "value": 33.8
+        },
+        {
+          "entity": "usa",
+          "value": 15.2
+        },
+        {
+          "entity": "entity-087",
+          "value": 14.4
+        },
+        {
+          "entity": "australia",
+          "value": 4.6
+        },
+        {
+          "entity": "entity-117",
+          "value": 3.2
+        },
+        {
+          "entity": "china",
+          "value": 4.5
+        },
+        {
+          "entity": "entity-107",
+          "value": 7.7
+        },
+        {
+          "entity": "germany",
+          "value": 13.5
+        }
+      ]
+    },
+    {
+      "period": 1993,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 62.7
+        },
+        {
+          "entity": "france",
+          "value": 53.3
+        },
+        {
+          "entity": "spain",
+          "value": 26.5
+        },
+        {
+          "entity": "usa",
+          "value": 19.4
+        },
+        {
+          "entity": "entity-087",
+          "value": 14.5
+        },
+        {
+          "entity": "australia",
+          "value": 4.6
+        },
+        {
+          "entity": "entity-117",
+          "value": 3.8
+        },
+        {
+          "entity": "china",
+          "value": 5.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 6.3
+        },
+        {
+          "entity": "germany",
+          "value": 9.9
+        }
+      ]
+    },
+    {
+      "period": 1994,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 59.3
+        },
+        {
+          "entity": "france",
+          "value": 54.6
+        },
+        {
+          "entity": "spain",
+          "value": 20.8
+        },
+        {
+          "entity": "usa",
+          "value": 17.6
+        },
+        {
+          "entity": "entity-087",
+          "value": 18.2
+        },
+        {
+          "entity": "australia",
+          "value": 5.9
+        },
+        {
+          "entity": "entity-117",
+          "value": 3.6
+        },
+        {
+          "entity": "china",
+          "value": 6.2
+        },
+        {
+          "entity": "entity-107",
+          "value": 7.2
+        },
+        {
+          "entity": "germany",
+          "value": 10.4
+        }
+      ]
+    },
+    {
+      "period": 1995,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 56.2
+        },
+        {
+          "entity": "france",
+          "value": 55.6
+        },
+        {
+          "entity": "spain",
+          "value": 21.0
+        },
+        {
+          "entity": "usa",
+          "value": 18.7
+        },
+        {
+          "entity": "entity-087",
+          "value": 16.4
+        },
+        {
+          "entity": "australia",
+          "value": 5.0
+        },
+        {
+          "entity": "entity-117",
+          "value": 3.2
+        },
+        {
+          "entity": "china",
+          "value": 7.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 7.5
+        },
+        {
+          "entity": "germany",
+          "value": 8.4
+        }
+      ]
+    },
+    {
+      "period": 1996,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 58.8
+        },
+        {
+          "entity": "france",
+          "value": 60.0
+        },
+        {
+          "entity": "spain",
+          "value": 30.4
+        },
+        {
+          "entity": "usa",
+          "value": 18.9
+        },
+        {
+          "entity": "entity-087",
+          "value": 12.7
+        },
+        {
+          "entity": "australia",
+          "value": 6.7
+        },
+        {
+          "entity": "entity-117",
+          "value": 3.8
+        },
+        {
+          "entity": "china",
+          "value": 7.5
+        },
+        {
+          "entity": "entity-107",
+          "value": 8.5
+        },
+        {
+          "entity": "germany",
+          "value": 8.6
+        }
+      ]
+    },
+    {
+      "period": 1997,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 50.6
+        },
+        {
+          "entity": "france",
+          "value": 55.1
+        },
+        {
+          "entity": "spain",
+          "value": 33.2
+        },
+        {
+          "entity": "usa",
+          "value": 26.2
+        },
+        {
+          "entity": "entity-087",
+          "value": 13.5
+        },
+        {
+          "entity": "australia",
+          "value": 6.2
+        },
+        {
+          "entity": "entity-117",
+          "value": 4.5
+        },
+        {
+          "entity": "china",
+          "value": 9.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 8.1
+        },
+        {
+          "entity": "germany",
+          "value": 8.5
+        }
+      ]
+    },
+    {
+      "period": 1998,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 57.1
+        },
+        {
+          "entity": "france",
+          "value": 54.3
+        },
+        {
+          "entity": "spain",
+          "value": 30.2
+        },
+        {
+          "entity": "usa",
+          "value": 20.5
+        },
+        {
+          "entity": "entity-087",
+          "value": 12.7
+        },
+        {
+          "entity": "australia",
+          "value": 7.4
+        },
+        {
+          "entity": "entity-117",
+          "value": 5.5
+        },
+        {
+          "entity": "china",
+          "value": 10.6
+        },
+        {
+          "entity": "entity-107",
+          "value": 7.7
+        },
+        {
+          "entity": "germany",
+          "value": 10.8
+        }
+      ]
+    },
+    {
+      "period": 1999,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 58.1
+        },
+        {
+          "entity": "france",
+          "value": 62.9
+        },
+        {
+          "entity": "spain",
+          "value": 33.4
+        },
+        {
+          "entity": "usa",
+          "value": 20.8
+        },
+        {
+          "entity": "entity-087",
+          "value": 15.9
+        },
+        {
+          "entity": "australia",
+          "value": 8.5
+        },
+        {
+          "entity": "entity-117",
+          "value": 4.8
+        },
+        {
+          "entity": "china",
+          "value": 10.3
+        },
+        {
+          "entity": "entity-107",
+          "value": 8.0
+        },
+        {
+          "entity": "germany",
+          "value": 12.3
+        }
+      ]
+    },
+    {
+      "period": 2000,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 54.1
+        },
+        {
+          "entity": "france",
+          "value": 57.5
+        },
+        {
+          "entity": "spain",
+          "value": 41.2
+        },
+        {
+          "entity": "usa",
+          "value": 24.9
+        },
+        {
+          "entity": "entity-087",
+          "value": 12.5
+        },
+        {
+          "entity": "australia",
+          "value": 8.1
+        },
+        {
+          "entity": "entity-117",
+          "value": 6.7
+        },
+        {
+          "entity": "china",
+          "value": 10.5
+        },
+        {
+          "entity": "entity-107",
+          "value": 6.9
+        },
+        {
+          "entity": "germany",
+          "value": 10.1
+        }
+      ]
+    },
+    {
+      "period": 2001,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 52.3
+        },
+        {
+          "entity": "france",
+          "value": 53.4
         },
         {
           "entity": "spain",
@@ -60,11 +1449,11 @@
         },
         {
           "entity": "usa",
-          "value": 21.1
+          "value": 23.9
         },
         {
           "entity": "entity-087",
-          "value": 10.9
+          "value": 15.8
         },
         {
           "entity": "australia",
@@ -72,53 +1461,1021 @@
         },
         {
           "entity": "entity-117",
-          "value": 9.3
-        },
-        {
-          "entity": "entity-107",
-          "value": 8.8
-        },
-        {
-          "entity": "germany",
-          "value": 7.8
-        },
-        {
-          "entity": "portugal",
-          "value": 6.9
-        },
-        {
-          "entity": "russia",
-          "value": 5.4
-        },
-        {
-          "entity": "romania",
-          "value": 3.7
-        },
-        {
-          "entity": "new-zealand",
-          "value": 2.8
-        },
-        {
-          "entity": "hungary",
-          "value": 2.7
+          "value": 5.7
         },
         {
           "entity": "china",
-          "value": 2.6
+          "value": 10.8
+        },
+        {
+          "entity": "entity-107",
+          "value": 6.5
+        },
+        {
+          "entity": "germany",
+          "value": 9.1
+        }
+      ]
+    },
+    {
+      "period": 2002,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 44.6
+        },
+        {
+          "entity": "france",
+          "value": 50.0
+        },
+        {
+          "entity": "spain",
+          "value": 34.5
+        },
+        {
+          "entity": "usa",
+          "value": 22.9
+        },
+        {
+          "entity": "entity-087",
+          "value": 12.7
+        },
+        {
+          "entity": "australia",
+          "value": 11.5
+        },
+        {
+          "entity": "entity-117",
+          "value": 5.6
+        },
+        {
+          "entity": "china",
+          "value": 11.2
+        },
+        {
+          "entity": "entity-107",
+          "value": 7.2
+        },
+        {
+          "entity": "germany",
+          "value": 9.9
+        }
+      ]
+    },
+    {
+      "period": 2003,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 44.1
+        },
+        {
+          "entity": "france",
+          "value": 47.5
+        },
+        {
+          "entity": "spain",
+          "value": 42.5
+        },
+        {
+          "entity": "usa",
+          "value": 24.1
+        },
+        {
+          "entity": "entity-087",
+          "value": 13.2
+        },
+        {
+          "entity": "australia",
+          "value": 10.9
+        },
+        {
+          "entity": "entity-117",
+          "value": 6.7
+        },
+        {
+          "entity": "china",
+          "value": 12.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 8.9
+        },
+        {
+          "entity": "germany",
+          "value": 8.1
+        }
+      ]
+    },
+    {
+      "period": 2004,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 53.1
+        },
+        {
+          "entity": "france",
+          "value": 59.1
+        },
+        {
+          "entity": "spain",
+          "value": 42.8
+        },
+        {
+          "entity": "usa",
+          "value": 24.7
+        },
+        {
+          "entity": "entity-087",
+          "value": 15.5
+        },
+        {
+          "entity": "australia",
+          "value": 14.7
+        },
+        {
+          "entity": "entity-117",
+          "value": 6.3
+        },
+        {
+          "entity": "china",
+          "value": 13.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 9.3
+        },
+        {
+          "entity": "germany",
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 50.6
+        },
+        {
+          "entity": "france",
+          "value": 53.4
+        },
+        {
+          "entity": "spain",
+          "value": 36.4
+        },
+        {
+          "entity": "usa",
+          "value": 28.9
+        },
+        {
+          "entity": "entity-087",
+          "value": 15.2
+        },
+        {
+          "entity": "australia",
+          "value": 14.3
+        },
+        {
+          "entity": "entity-117",
+          "value": 7.9
+        },
+        {
+          "entity": "china",
+          "value": 13.5
+        },
+        {
+          "entity": "entity-107",
+          "value": 8.4
+        },
+        {
+          "entity": "germany",
+          "value": 9.5
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 47.1
+        },
+        {
+          "entity": "france",
+          "value": 53.5
+        },
+        {
+          "entity": "spain",
+          "value": 38.9
+        },
+        {
+          "entity": "usa",
+          "value": 23.6
+        },
+        {
+          "entity": "entity-087",
+          "value": 15.4
+        },
+        {
+          "entity": "australia",
+          "value": 14.3
+        },
+        {
+          "entity": "entity-117",
+          "value": 8.0
+        },
+        {
+          "entity": "china",
+          "value": 14.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 9.4
+        },
+        {
+          "entity": "germany",
+          "value": 8.9
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 40.9
+        },
+        {
+          "entity": "france",
+          "value": 47.1
+        },
+        {
+          "entity": "spain",
+          "value": 35.2
+        },
+        {
+          "entity": "usa",
+          "value": 24.9
+        },
+        {
+          "entity": "entity-087",
+          "value": 15.0
+        },
+        {
+          "entity": "australia",
+          "value": 9.6
+        },
+        {
+          "entity": "entity-117",
+          "value": 7.9
+        },
+        {
+          "entity": "china",
+          "value": 14.5
+        },
+        {
+          "entity": "entity-107",
+          "value": 9.8
+        },
+        {
+          "entity": "germany",
+          "value": 10.3
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 43.9
+        },
+        {
+          "entity": "france",
+          "value": 42.7
+        },
+        {
+          "entity": "spain",
+          "value": 37.4
+        },
+        {
+          "entity": "usa",
+          "value": 25.3
+        },
+        {
+          "entity": "entity-087",
+          "value": 14.7
+        },
+        {
+          "entity": "australia",
+          "value": 12.4
+        },
+        {
+          "entity": "entity-117",
+          "value": 8.7
+        },
+        {
+          "entity": "china",
+          "value": 15.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 10.2
+        },
+        {
+          "entity": "germany",
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 43.4
+        },
+        {
+          "entity": "france",
+          "value": 46.8
+        },
+        {
+          "entity": "spain",
+          "value": 32.5
+        },
+        {
+          "entity": "usa",
+          "value": 27.3
+        },
+        {
+          "entity": "entity-087",
+          "value": 12.1
+        },
+        {
+          "entity": "australia",
+          "value": 11.8
+        },
+        {
+          "entity": "entity-117",
+          "value": 10.0
+        },
+        {
+          "entity": "china",
+          "value": 15.5
+        },
+        {
+          "entity": "entity-107",
+          "value": 10.0
+        },
+        {
+          "entity": "germany",
+          "value": 9.2
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 44.7
+        },
+        {
+          "entity": "france",
+          "value": 45.3
+        },
+        {
+          "entity": "spain",
+          "value": 36.1
+        },
+        {
+          "entity": "usa",
+          "value": 27.1
+        },
+        {
+          "entity": "entity-087",
+          "value": 16.1
+        },
+        {
+          "entity": "australia",
+          "value": 11.4
+        },
+        {
+          "entity": "entity-117",
+          "value": 8.8
+        },
+        {
+          "entity": "china",
+          "value": 14.4
+        },
+        {
+          "entity": "entity-107",
+          "value": 9.3
+        },
+        {
+          "entity": "germany",
+          "value": 6.9
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 40.6
+        },
+        {
+          "entity": "france",
+          "value": 51.1
+        },
+        {
+          "entity": "spain",
+          "value": 33.7
+        },
+        {
+          "entity": "usa",
+          "value": 26.4
+        },
+        {
+          "entity": "entity-087",
+          "value": 15.3
+        },
+        {
+          "entity": "australia",
+          "value": 11.2
+        },
+        {
+          "entity": "entity-117",
+          "value": 10.5
+        },
+        {
+          "entity": "china",
+          "value": 15.1
+        },
+        {
+          "entity": "entity-107",
+          "value": 9.7
+        },
+        {
+          "entity": "germany",
+          "value": 9.1
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 38.3
+        },
+        {
+          "entity": "france",
+          "value": 42.1
+        },
+        {
+          "entity": "spain",
+          "value": 31.1
+        },
+        {
+          "entity": "usa",
+          "value": 29.9
+        },
+        {
+          "entity": "entity-087",
+          "value": 11.7
+        },
+        {
+          "entity": "australia",
+          "value": 12.3
+        },
+        {
+          "entity": "entity-117",
+          "value": 12.6
+        },
+        {
+          "entity": "china",
+          "value": 14.6
+        },
+        {
+          "entity": "entity-107",
+          "value": 10.6
+        },
+        {
+          "entity": "germany",
+          "value": 9.0
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 45.0
+        },
+        {
+          "entity": "france",
+          "value": 42.9
+        },
+        {
+          "entity": "spain",
+          "value": 46.1
+        },
+        {
+          "entity": "usa",
+          "value": 32.2
+        },
+        {
+          "entity": "entity-087",
+          "value": 15.0
+        },
+        {
+          "entity": "australia",
+          "value": 12.3
+        },
+        {
+          "entity": "entity-117",
+          "value": 12.8
+        },
+        {
+          "entity": "china",
+          "value": 15.8
+        },
+        {
+          "entity": "entity-107",
+          "value": 11.0
+        },
+        {
+          "entity": "germany",
+          "value": 8.4
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 42.1
+        },
+        {
+          "entity": "france",
+          "value": 47.4
+        },
+        {
+          "entity": "spain",
+          "value": 39.5
+        },
+        {
+          "entity": "usa",
+          "value": 33.0
+        },
+        {
+          "entity": "entity-087",
+          "value": 15.2
+        },
+        {
+          "entity": "australia",
+          "value": 11.9
+        },
+        {
+          "entity": "entity-117",
+          "value": 9.9
+        },
+        {
+          "entity": "china",
+          "value": 20.3
+        },
+        {
+          "entity": "entity-107",
+          "value": 11.5
+        },
+        {
+          "entity": "germany",
+          "value": 9.2
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 48.7
+        },
+        {
+          "entity": "france",
+          "value": 47.9
+        },
+        {
+          "entity": "spain",
+          "value": 37.8
+        },
+        {
+          "entity": "usa",
+          "value": 32.7
+        },
+        {
+          "entity": "entity-087",
+          "value": 13.4
+        },
+        {
+          "entity": "australia",
+          "value": 11.9
+        },
+        {
+          "entity": "entity-117",
+          "value": 12.9
+        },
+        {
+          "entity": "china",
+          "value": 21.3
+        },
+        {
+          "entity": "entity-107",
+          "value": 11.2
+        },
+        {
+          "entity": "germany",
+          "value": 5.7
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 51.6
+        },
+        {
+          "entity": "france",
+          "value": 45.0
+        },
+        {
+          "entity": "spain",
+          "value": 39.3
+        },
+        {
+          "entity": "usa",
+          "value": 27.2
+        },
+        {
+          "entity": "entity-087",
+          "value": 9.4
+        },
+        {
+          "entity": "australia",
+          "value": 13.0
+        },
+        {
+          "entity": "entity-117",
+          "value": 10.1
+        },
+        {
+          "entity": "china",
+          "value": 20.7
+        },
+        {
+          "entity": "entity-107",
+          "value": 10.5
+        },
+        {
+          "entity": "germany",
+          "value": 5.8
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 43.8
+        },
+        {
+          "entity": "france",
+          "value": 36.4
+        },
+        {
+          "entity": "spain",
+          "value": 32.5
+        },
+        {
+          "entity": "usa",
+          "value": 21.7
+        },
+        {
+          "entity": "entity-087",
+          "value": 11.8
+        },
+        {
+          "entity": "australia",
+          "value": 13.7
+        },
+        {
+          "entity": "entity-117",
+          "value": 9.5
+        },
+        {
+          "entity": "china",
+          "value": 21.6
+        },
+        {
+          "entity": "entity-107",
+          "value": 10.8
+        },
+        {
+          "entity": "germany",
+          "value": 6.3
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 54.1
+        },
+        {
+          "entity": "france",
+          "value": 48.9
+        },
+        {
+          "entity": "spain",
+          "value": 44.9
+        },
+        {
+          "entity": "usa",
+          "value": 23.8
+        },
+        {
+          "entity": "entity-087",
+          "value": 14.5
+        },
+        {
+          "entity": "australia",
+          "value": 12.8
+        },
+        {
+          "entity": "entity-117",
+          "value": 12.9
+        },
+        {
+          "entity": "china",
+          "value": 22.3
+        },
+        {
+          "entity": "entity-107",
+          "value": 9.5
+        },
+        {
+          "entity": "germany",
+          "value": 6.3
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 49.9
+        },
+        {
+          "entity": "france",
+          "value": 42.4
+        },
+        {
+          "entity": "spain",
+          "value": 33.7
+        },
+        {
+          "entity": "usa",
+          "value": 26.3
+        },
+        {
+          "entity": "entity-087",
+          "value": 13.0
+        },
+        {
+          "entity": "australia",
+          "value": 12.0
+        },
+        {
+          "entity": "entity-117",
+          "value": 11.9
+        },
+        {
+          "entity": "china",
+          "value": 20.7
+        },
+        {
+          "entity": "entity-107",
+          "value": 9.7
+        },
+        {
+          "entity": "germany",
+          "value": 4.4
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 51.9
+        },
+        {
+          "entity": "france",
+          "value": 46.9
+        },
+        {
+          "entity": "spain",
+          "value": 40.7
+        },
+        {
+          "entity": "usa",
+          "value": 20.1
+        },
+        {
+          "entity": "entity-087",
+          "value": 10.8
+        },
+        {
+          "entity": "australia",
+          "value": 11.1
+        },
+        {
+          "entity": "entity-117",
+          "value": 10.3
+        },
+        {
+          "entity": "china",
+          "value": 20.0
+        },
+        {
+          "entity": "entity-107",
+          "value": 10.4
+        },
+        {
+          "entity": "germany",
+          "value": 4.7
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 50.9
+        },
+        {
+          "entity": "france",
+          "value": 37.8
+        },
+        {
+          "entity": "spain",
+          "value": 37.0
+        },
+        {
+          "entity": "usa",
+          "value": 20.5
+        },
+        {
+          "entity": "entity-087",
+          "value": 12.5
+        },
+        {
+          "entity": "australia",
+          "value": 14.8
+        },
+        {
+          "entity": "entity-117",
+          "value": 13.4
+        },
+        {
+          "entity": "china",
+          "value": 18.1
+        },
+        {
+          "entity": "entity-107",
+          "value": 11.3
+        },
+        {
+          "entity": "germany",
+          "value": 4.5
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 54.0
+        },
+        {
+          "entity": "france",
+          "value": 46.1
+        },
+        {
+          "entity": "spain",
+          "value": 36.4
+        },
+        {
+          "entity": "usa",
+          "value": 20.8
+        },
+        {
+          "entity": "entity-087",
+          "value": 11.5
+        },
+        {
+          "entity": "australia",
+          "value": 13.1
+        },
+        {
+          "entity": "entity-117",
+          "value": 12.4
+        },
+        {
+          "entity": "china",
+          "value": 20.8
+        },
+        {
+          "entity": "entity-107",
+          "value": 10.6
+        },
+        {
+          "entity": "germany",
+          "value": 4.8
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "italy",
+          "value": 42.5
+        },
+        {
+          "entity": "france",
+          "value": 47.6
+        },
+        {
+          "entity": "spain",
+          "value": 28.5
+        },
+        {
+          "entity": "usa",
+          "value": 20.8
+        },
+        {
+          "entity": "entity-087",
+          "value": 8.8
+        },
+        {
+          "entity": "australia",
+          "value": 9.6
+        },
+        {
+          "entity": "entity-117",
+          "value": 11.0
+        },
+        {
+          "entity": "china",
+          "value": 17.6
+        },
+        {
+          "entity": "entity-107",
+          "value": 9.2
+        },
+        {
+          "entity": "germany",
+          "value": 4.7
         }
       ]
     }
   ],
   "notes": {
-    "italy": "約44億リットルで世界1位。北部から南部まで各地に産地を持つ。",
-    "france": "約36億リットルで世界2位。ボルドーやブルゴーニュなど高級産地で知られる。",
-    "spain": "約31億リットルで世界3位。ぶどう畑の面積は世界最大級。",
-    "usa": "約21億リットルで世界4位。大半をカリフォルニア州が生産する。",
-    "entity-087": "アルゼンチン。約11億リットルで世界5位。南米最大のワイン生産国。",
-    "australia": "約10億リットルで世界6位。輸出向けの生産が多い。",
-    "entity-117": "チリ。約9億リットルで世界7位。手ごろな価格の輸出用ワインで知られる。",
-    "entity-107": "南アフリカ共和国。約9億リットルで世界8位。",
-    "new-zealand": "ニュージーランド。約3億リットルで世界13位。白ワインの産地として評価が高い。",
-    "china": "約3億リットルで世界15位。"
+    "italy": "フランスと交互に世界1位を争うワイン大国。",
+    "france": "ボルドー・ブルゴーニュなどで知られ、イタリアと1位を争う。",
+    "spain": "ぶどう畑の面積は世界最大級。生産量は年による変動が大きい。",
+    "usa": "カリフォルニアを中心に、数十年で生産を伸ばした。",
+    "china": "1980年代以降にほぼゼロから急成長し、有数の生産国に。",
+    "entity-087": "アルゼンチン。南米最大級のワイン産地。",
+    "entity-117": "チリ。輸出用ワインの産地として成長。",
+    "entity-107": "南アフリカ共和国。新世界の産地の一つ。"
   }
 }

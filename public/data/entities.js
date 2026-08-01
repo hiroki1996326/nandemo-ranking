@@ -2891,6 +2891,13 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'new-zealand': {
+    'name': 'ニュージーランド',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/new-zealand.webp',
+    'imageCredit': '',
+  },
   'niger-gawa': {
     'name': 'ニジェール川',
     'type': 'river',
@@ -3022,6 +3029,13 @@ window.ENTITIES_DATA = {
     'type': 'trench',
     'description': '「世界一深い海溝ランキング」で9位（8,376m）。',
     'image': null,
+    'imageCredit': '',
+  },
+  'romania': {
+    'name': 'ルーマニア',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/romania.webp',
     'imageCredit': '',
   },
   'russia': {

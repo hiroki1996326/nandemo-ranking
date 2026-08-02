@@ -120,6 +120,8 @@ TOPIC_HINT = {
     'sekai-sekaiisan-kuni': 'majestic ancient monuments and historic world heritage architecture, temples ruins and cathedrals, golden light',
     'sekai-tairiku-menseki': 'satellite view of planet earth from space showing the continents, world map, blue oceans and green landmasses',
     'todofuken-jinko-mitsudo': 'dense crowd of people packed on a busy city street seen from above, urban density, many pedestrians',
+    'sekai-best-selling-album': 'stacks of vinyl records and album covers, a turntable, glowing stage lights, music theme, warm tones',
+    'sekai-themepark-nyujosha': 'amusement theme park with a big roller coaster and a fairytale castle, ferris wheel, crowds of happy visitors, festive colorful, bright sunny sky',
 }
 
 CATEGORY_HINT = {

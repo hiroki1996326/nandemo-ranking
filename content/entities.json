@@ -2476,5 +2476,80 @@
     "name": "フォーリング・イントゥ・ユー（セリーヌ・ディオン）",
     "type": "album",
     "description": "1996年発売。"
+  },
+  "entity-247": {
+    "name": "マジック・キングダム（アメリカ・フロリダ）",
+    "type": "themepark",
+    "description": "ウォルト・ディズニー・ワールド内。2024年の来場者数は約1,784万人で世界1位。"
+  },
+  "entity-248": {
+    "name": "ディズニーランド（アメリカ・カリフォルニア）",
+    "type": "themepark",
+    "description": "1955年開業の世界初のディズニーランド。約1,734万人で世界2位。"
+  },
+  "entity-249": {
+    "name": "ユニバーサル・スタジオ・ジャパン（大阪）",
+    "type": "themepark",
+    "description": "約1,600万人で世界3位。テーマパーク単体では日本最多。"
+  },
+  "entity-250": {
+    "name": "東京ディズニーランド（千葉）",
+    "type": "themepark",
+    "description": "約1,510万人で世界4位。"
+  },
+  "entity-251": {
+    "name": "上海ディズニーランド（中国）",
+    "type": "themepark",
+    "description": "約1,470万人で世界5位。中国本土初のディズニーパーク。"
+  },
+  "entity-252": {
+    "name": "珠海長隆海洋王国（中国）",
+    "type": "themepark",
+    "description": "約1,263万人で世界6位。世界最大級の海洋テーマパーク。"
+  },
+  "entity-253": {
+    "name": "東京ディズニーシー（千葉）",
+    "type": "themepark",
+    "description": "約1,244万人で世界7位。"
+  },
+  "entity-254": {
+    "name": "エプコット（アメリカ・フロリダ）",
+    "type": "themepark",
+    "description": "約1,213万人で世界8位。ウォルト・ディズニー・ワールド内。"
+  },
+  "entity-255": {
+    "name": "ディズニー・ハリウッド・スタジオ（アメリカ・フロリダ）",
+    "type": "themepark",
+    "description": "約1,033万人で世界9位。"
+  },
+  "entity-256": {
+    "name": "ディズニーランド・パリ（フランス）",
+    "type": "themepark",
+    "description": "約1,021万人で世界10位。ヨーロッパ最大級のテーマパーク。"
+  },
+  "entity-257": {
+    "name": "ディズニー・カリフォルニア・アドベンチャー（アメリカ）",
+    "type": "themepark",
+    "description": "約1,005万人で世界11位。"
+  },
+  "entity-258": {
+    "name": "ユニバーサル・スタジオ北京（中国）",
+    "type": "themepark",
+    "description": "約978万人で世界12位。2021年開業。"
+  },
+  "entity-259": {
+    "name": "ユニバーサル・スタジオ・フロリダ（アメリカ）",
+    "type": "themepark",
+    "description": "約950万人で世界13位。"
+  },
+  "entity-260": {
+    "name": "アイランズ・オブ・アドベンチャー（アメリカ・フロリダ）",
+    "type": "themepark",
+    "description": "約945万人で世界14位。ユニバーサルのパーク。"
+  },
+  "entity-261": {
+    "name": "ディズニー・アニマルキングダム（アメリカ・フロリダ）",
+    "type": "themepark",
+    "description": "約880万人で世界15位。"
   }
 }

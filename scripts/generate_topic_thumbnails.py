@@ -122,6 +122,7 @@ TOPIC_HINT = {
     'todofuken-jinko-mitsudo': 'dense crowd of people packed on a busy city street seen from above, urban density, many pedestrians',
     'sekai-best-selling-album': 'stacks of vinyl records and album covers, a turntable, glowing stage lights, music theme, warm tones',
     'sekai-themepark-nyujosha': 'amusement theme park with a big roller coaster and a fairytale castle, ferris wheel, crowds of happy visitors, festive colorful, bright sunny sky',
+    'sekai-denryoku-shohi-kuni': 'high voltage electricity transmission towers and power lines at dusk, glowing city grid, electrical substation, energy, dramatic sky',
 }
 
 CATEGORY_HINT = {

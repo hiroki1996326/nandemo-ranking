@@ -608,7 +608,7 @@ function router() {
         { label: category(topic.category).name, href: '/category/' + topic.category },
         { label: topic.title },
       ];
-    } else setMeta(SITE_NAME, SITE_DEFAULT_DESC);
+    } else setMeta('ページが見つかりません｜' + SITE_NAME, SITE_DEFAULT_DESC, '', 'noindex, follow');
   } else if (mEntity) {
     const slug = decodeURIComponent(mEntity[1]);
     html = entityDetailHtml(slug);
@@ -619,7 +619,7 @@ function router() {
         : entity.name + 'が登場するランキング記事の一覧。' + SITE_DEFAULT_DESC;
       setMeta(entity.name + '｜' + SITE_NAME, metaDesc, entity.image, 'noindex, follow');
       crumbs = [{ label: 'ホーム', href: '/' }, { label: entity.name }];
-    } else setMeta(SITE_NAME, SITE_DEFAULT_DESC);
+    } else setMeta('ページが見つかりません｜' + SITE_NAME, SITE_DEFAULT_DESC, '', 'noindex, follow');
   } else if (mCat) {
     const id = decodeURIComponent(mCat[1]);
     html = categoryHtml(id);

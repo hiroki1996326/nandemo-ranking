@@ -2626,5 +2626,10 @@
     "name": "ゼルダの伝説 ブレス オブ ザ ワイルド",
     "type": "game",
     "description": "2017年発売。約3,554万本。"
+  },
+  "qatar": {
+    "name": "カタール",
+    "type": "country",
+    "description": ""
   }
 }

@@ -3423,6 +3423,13 @@ window.ENTITIES_DATA = {
     'image': null,
     'imageCredit': '',
   },
+  'qatar': {
+    'name': 'カタール',
+    'type': 'country',
+    'description': '',
+    'image': '/images/entities/qatar.webp',
+    'imageCredit': '',
+  },
   'romania': {
     'name': 'ルーマニア',
     'type': 'country',

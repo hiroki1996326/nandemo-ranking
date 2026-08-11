@@ -1,0 +1,1403 @@
+{
+  "id": "sekai-tennengas-seisan-kuni",
+  "title": "世界の天然ガス生産量ランキング（国別）",
+  "seoTitle": "世界の天然ガス生産量ランキング｜1位はアメリカ！",
+  "category": "keizai",
+  "unit": "TWh",
+  "source": "Our World in Data（Energy Institute Statistical Review of World Energy）。天然ガス生産量をエネルギー量（TWh）で表したもの。1985年から2025年までの推移",
+  "sourceUrl": "https://ourworldindata.org/grapher/gas-production-by-country",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-31",
+  "lead": "世界で最も天然ガスを生産している国はアメリカで、2025年は約10,737TWh（エネルギー量）。2位ロシア（約6,094TWh）を大きく引き離す。長くアメリカとロシアが二強で、1990年代から2000年代にはロシアが世界1位の年も多かったが、2010年代のシェール革命でアメリカの生産が急増し、以降は独走している。3位以下はイラン・中国・カナダと続き、カタールやオーストラリアもLNG（液化天然ガス）輸出で生産を伸ばした。ここでは1985年から2025年まで、上位国の推移を掲載している。",
+  "commentary": "天然ガス生産量をエネルギー量（TWh）で表したもの。アメリカとロシアが二強で、2010年代のシェール革命でアメリカが独走。カタールやオーストラリアはLNG輸出で急伸した。",
+  "analysisHeading": "米露の二強、シェール革命でアメリカが独走",
+  "analysis": [
+    "天然ガスは長くアメリカとロシアの二強で、1990年代から2000年代にはロシアが世界1位の年も多かった。しかし2010年代に、硬い岩盤からガスを取り出す『シェール革命』でアメリカの生産が急増し、2010年の約5,751TWhから2025年の約10,737TWhへとほぼ倍増、ロシアを大きく引き離して独走するようになった。",
+    "2位のロシアは、豊富な埋蔵量を背景に長く世界最大級の生産国であり続けている。ヨーロッパ向けを中心に輸出してきたが、近年は輸出先の変化もあり、生産量はおおむね横ばいで推移している。3位以下はイラン、中国、カナダといった国が続く。",
+    "近年とくに伸びたのが、LNG（液化天然ガス）の輸出国である。**カタール**は1985年にはほとんど生産していなかったが、世界有数のガス田を背景にLNG輸出で急成長した。オーストラリアも同様にLNG輸出で生産を大きく伸ばしている。"
+  ],
+  "sections": [
+    {
+      "h2": "なぜエネルギー量（TWh）で比べるのか"
+    },
+    {
+      "p": "天然ガスは体積（立方メートル）で取引されることが多いが、産地によってエネルギーの含有量が異なる。そこで国際的な統計では、生産量を**エネルギー量（TWh＝テラワット時）**に換算して比べることが多い。天然ガスは石炭・石油と並ぶ主要な化石燃料で、発電や暖房、都市ガスなどに使われる。"
+    },
+    {
+      "h2": "シェール革命でアメリカが独走"
+    },
+    {
+      "p": "長くアメリカと**ロシア**が二強で、1990年代から2000年代にはロシアが世界1位の年も多かった。しかし2010年代に、硬い岩盤（シェール層）から天然ガスを取り出す技術が実用化された『**シェール革命**』により、**アメリカ**の生産が急増した。以降アメリカはロシアを大きく引き離し、世界最大の天然ガス生産国として独走している。"
+    },
+    {
+      "h2": "LNGで伸びるカタール・オーストラリア"
+    },
+    {
+      "p": "近年、生産を大きく伸ばしたのが**LNG（液化天然ガス）**の輸出国である。天然ガスを冷やして液体にすると船で運べるため、遠くの国へも輸出できる。**カタール**は世界有数のガス田を背景にLNG輸出で急成長し、**オーストラリア**も同様に生産を拡大した。パイプラインが届かない日本などのアジア諸国は、こうしたLNGの輸入に頼っている。"
+    }
+  ],
+  "data": [
+    {
+      "period": 1985,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 4479
+        },
+        {
+          "entity": "russia",
+          "value": 4249
+        },
+        {
+          "entity": "entity-100",
+          "value": 97
+        },
+        {
+          "entity": "china",
+          "value": 130
+        },
+        {
+          "entity": "canada",
+          "value": 805
+        },
+        {
+          "entity": "qatar",
+          "value": 57
+        },
+        {
+          "entity": "australia",
+          "value": 134
+        }
+      ]
+    },
+    {
+      "period": 1986,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 4363
+        },
+        {
+          "entity": "russia",
+          "value": 4626
+        },
+        {
+          "entity": "entity-100",
+          "value": 93
+        },
+        {
+          "entity": "china",
+          "value": 139
+        },
+        {
+          "entity": "canada",
+          "value": 755
+        },
+        {
+          "entity": "qatar",
+          "value": 60
+        },
+        {
+          "entity": "australia",
+          "value": 146
+        }
+      ]
+    },
+    {
+      "period": 1987,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 4520
+        },
+        {
+          "entity": "russia",
+          "value": 5005
+        },
+        {
+          "entity": "entity-100",
+          "value": 114
+        },
+        {
+          "entity": "china",
+          "value": 140
+        },
+        {
+          "entity": "canada",
+          "value": 819
+        },
+        {
+          "entity": "qatar",
+          "value": 58
+        },
+        {
+          "entity": "australia",
+          "value": 149
+        }
+      ]
+    },
+    {
+      "period": 1988,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 4642
+        },
+        {
+          "entity": "russia",
+          "value": 5424
+        },
+        {
+          "entity": "entity-100",
+          "value": 124
+        },
+        {
+          "entity": "china",
+          "value": 144
+        },
+        {
+          "entity": "canada",
+          "value": 945
+        },
+        {
+          "entity": "qatar",
+          "value": 61
+        },
+        {
+          "entity": "australia",
+          "value": 153
+        }
+      ]
+    },
+    {
+      "period": 1989,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 4707
+        },
+        {
+          "entity": "russia",
+          "value": 5663
+        },
+        {
+          "entity": "entity-100",
+          "value": 156
+        },
+        {
+          "entity": "china",
+          "value": 152
+        },
+        {
+          "entity": "canada",
+          "value": 1004
+        },
+        {
+          "entity": "qatar",
+          "value": 64
+        },
+        {
+          "entity": "australia",
+          "value": 177
+        }
+      ]
+    },
+    {
+      "period": 1990,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 4834
+        },
+        {
+          "entity": "russia",
+          "value": 5996
+        },
+        {
+          "entity": "entity-100",
+          "value": 247
+        },
+        {
+          "entity": "china",
+          "value": 154
+        },
+        {
+          "entity": "canada",
+          "value": 1034
+        },
+        {
+          "entity": "qatar",
+          "value": 65
+        },
+        {
+          "entity": "australia",
+          "value": 206
+        }
+      ]
+    },
+    {
+      "period": 1991,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 4808
+        },
+        {
+          "entity": "russia",
+          "value": 5913
+        },
+        {
+          "entity": "entity-100",
+          "value": 292
+        },
+        {
+          "entity": "china",
+          "value": 156
+        },
+        {
+          "entity": "canada",
+          "value": 1089
+        },
+        {
+          "entity": "qatar",
+          "value": 79
+        },
+        {
+          "entity": "australia",
+          "value": 216
+        }
+      ]
+    },
+    {
+      "period": 1992,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 4847
+        },
+        {
+          "entity": "russia",
+          "value": 5922
+        },
+        {
+          "entity": "entity-100",
+          "value": 309
+        },
+        {
+          "entity": "china",
+          "value": 159
+        },
+        {
+          "entity": "canada",
+          "value": 1200
+        },
+        {
+          "entity": "qatar",
+          "value": 82
+        },
+        {
+          "entity": "australia",
+          "value": 233
+        }
+      ]
+    },
+    {
+      "period": 1993,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 4902
+        },
+        {
+          "entity": "russia",
+          "value": 5686
+        },
+        {
+          "entity": "entity-100",
+          "value": 165
+        },
+        {
+          "entity": "china",
+          "value": 169
+        },
+        {
+          "entity": "canada",
+          "value": 1321
+        },
+        {
+          "entity": "qatar",
+          "value": 86
+        },
+        {
+          "entity": "australia",
+          "value": 244
+        }
+      ]
+    },
+    {
+      "period": 1994,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5103
+        },
+        {
+          "entity": "russia",
+          "value": 5585
+        },
+        {
+          "entity": "entity-100",
+          "value": 262
+        },
+        {
+          "entity": "china",
+          "value": 177
+        },
+        {
+          "entity": "canada",
+          "value": 1429
+        },
+        {
+          "entity": "qatar",
+          "value": 89
+        },
+        {
+          "entity": "australia",
+          "value": 280
+        }
+      ]
+    },
+    {
+      "period": 1995,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5033
+        },
+        {
+          "entity": "russia",
+          "value": 5412
+        },
+        {
+          "entity": "entity-100",
+          "value": 319
+        },
+        {
+          "entity": "china",
+          "value": 181
+        },
+        {
+          "entity": "canada",
+          "value": 1527
+        },
+        {
+          "entity": "qatar",
+          "value": 93
+        },
+        {
+          "entity": "australia",
+          "value": 296
+        }
+      ]
+    },
+    {
+      "period": 1996,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5102
+        },
+        {
+          "entity": "russia",
+          "value": 5523
+        },
+        {
+          "entity": "entity-100",
+          "value": 375
+        },
+        {
+          "entity": "china",
+          "value": 203
+        },
+        {
+          "entity": "canada",
+          "value": 1539
+        },
+        {
+          "entity": "qatar",
+          "value": 97
+        },
+        {
+          "entity": "australia",
+          "value": 296
+        }
+      ]
+    },
+    {
+      "period": 1997,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5115
+        },
+        {
+          "entity": "russia",
+          "value": 5235
+        },
+        {
+          "entity": "entity-100",
+          "value": 394
+        },
+        {
+          "entity": "china",
+          "value": 229
+        },
+        {
+          "entity": "canada",
+          "value": 1597
+        },
+        {
+          "entity": "qatar",
+          "value": 134
+        },
+        {
+          "entity": "australia",
+          "value": 296
+        }
+      ]
+    },
+    {
+      "period": 1998,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5173
+        },
+        {
+          "entity": "russia",
+          "value": 5413
+        },
+        {
+          "entity": "entity-100",
+          "value": 445
+        },
+        {
+          "entity": "china",
+          "value": 235
+        },
+        {
+          "entity": "canada",
+          "value": 1656
+        },
+        {
+          "entity": "qatar",
+          "value": 162
+        },
+        {
+          "entity": "australia",
+          "value": 303
+        }
+      ]
+    },
+    {
+      "period": 1999,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5101
+        },
+        {
+          "entity": "russia",
+          "value": 5444
+        },
+        {
+          "entity": "entity-100",
+          "value": 530
+        },
+        {
+          "entity": "china",
+          "value": 254
+        },
+        {
+          "entity": "canada",
+          "value": 1705
+        },
+        {
+          "entity": "qatar",
+          "value": 214
+        },
+        {
+          "entity": "australia",
+          "value": 307
+        }
+      ]
+    },
+    {
+      "period": 2000,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5186
+        },
+        {
+          "entity": "russia",
+          "value": 5371
+        },
+        {
+          "entity": "entity-100",
+          "value": 563
+        },
+        {
+          "entity": "china",
+          "value": 274
+        },
+        {
+          "entity": "canada",
+          "value": 1763
+        },
+        {
+          "entity": "qatar",
+          "value": 258
+        },
+        {
+          "entity": "australia",
+          "value": 312
+        }
+      ]
+    },
+    {
+      "period": 2001,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5319
+        },
+        {
+          "entity": "russia",
+          "value": 5348
+        },
+        {
+          "entity": "entity-100",
+          "value": 626
+        },
+        {
+          "entity": "china",
+          "value": 306
+        },
+        {
+          "entity": "canada",
+          "value": 1794
+        },
+        {
+          "entity": "qatar",
+          "value": 279
+        },
+        {
+          "entity": "australia",
+          "value": 326
+        }
+      ]
+    },
+    {
+      "period": 2002,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5112
+        },
+        {
+          "entity": "russia",
+          "value": 5475
+        },
+        {
+          "entity": "entity-100",
+          "value": 744
+        },
+        {
+          "entity": "china",
+          "value": 329
+        },
+        {
+          "entity": "canada",
+          "value": 1807
+        },
+        {
+          "entity": "qatar",
+          "value": 305
+        },
+        {
+          "entity": "australia",
+          "value": 330
+        }
+      ]
+    },
+    {
+      "period": 2003,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5179
+        },
+        {
+          "entity": "russia",
+          "value": 5706
+        },
+        {
+          "entity": "entity-100",
+          "value": 781
+        },
+        {
+          "entity": "china",
+          "value": 353
+        },
+        {
+          "entity": "canada",
+          "value": 1760
+        },
+        {
+          "entity": "qatar",
+          "value": 325
+        },
+        {
+          "entity": "australia",
+          "value": 337
+        }
+      ]
+    },
+    {
+      "period": 2004,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5031
+        },
+        {
+          "entity": "russia",
+          "value": 5826
+        },
+        {
+          "entity": "entity-100",
+          "value": 910
+        },
+        {
+          "entity": "china",
+          "value": 418
+        },
+        {
+          "entity": "canada",
+          "value": 1767
+        },
+        {
+          "entity": "qatar",
+          "value": 405
+        },
+        {
+          "entity": "australia",
+          "value": 359
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 4894
+        },
+        {
+          "entity": "russia",
+          "value": 5895
+        },
+        {
+          "entity": "entity-100",
+          "value": 966
+        },
+        {
+          "entity": "china",
+          "value": 497
+        },
+        {
+          "entity": "canada",
+          "value": 1792
+        },
+        {
+          "entity": "qatar",
+          "value": 474
+        },
+        {
+          "entity": "australia",
+          "value": 382
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5017
+        },
+        {
+          "entity": "russia",
+          "value": 6048
+        },
+        {
+          "entity": "entity-100",
+          "value": 1053
+        },
+        {
+          "entity": "china",
+          "value": 590
+        },
+        {
+          "entity": "canada",
+          "value": 1794
+        },
+        {
+          "entity": "qatar",
+          "value": 525
+        },
+        {
+          "entity": "australia",
+          "value": 407
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5219
+        },
+        {
+          "entity": "russia",
+          "value": 6016
+        },
+        {
+          "entity": "entity-100",
+          "value": 1180
+        },
+        {
+          "entity": "china",
+          "value": 698
+        },
+        {
+          "entity": "canada",
+          "value": 1747
+        },
+        {
+          "entity": "qatar",
+          "value": 654
+        },
+        {
+          "entity": "australia",
+          "value": 428
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5461
+        },
+        {
+          "entity": "russia",
+          "value": 6115
+        },
+        {
+          "entity": "entity-100",
+          "value": 1236
+        },
+        {
+          "entity": "china",
+          "value": 809
+        },
+        {
+          "entity": "canada",
+          "value": 1665
+        },
+        {
+          "entity": "qatar",
+          "value": 797
+        },
+        {
+          "entity": "australia",
+          "value": 417
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5576
+        },
+        {
+          "entity": "russia",
+          "value": 5362
+        },
+        {
+          "entity": "entity-100",
+          "value": 1357
+        },
+        {
+          "entity": "china",
+          "value": 859
+        },
+        {
+          "entity": "canada",
+          "value": 1551
+        },
+        {
+          "entity": "qatar",
+          "value": 924
+        },
+        {
+          "entity": "australia",
+          "value": 467
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 5752
+        },
+        {
+          "entity": "russia",
+          "value": 5984
+        },
+        {
+          "entity": "entity-100",
+          "value": 1439
+        },
+        {
+          "entity": "china",
+          "value": 965
+        },
+        {
+          "entity": "canada",
+          "value": 1496
+        },
+        {
+          "entity": "qatar",
+          "value": 1231
+        },
+        {
+          "entity": "australia",
+          "value": 526
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 6174
+        },
+        {
+          "entity": "russia",
+          "value": 6168
+        },
+        {
+          "entity": "entity-100",
+          "value": 1510
+        },
+        {
+          "entity": "china",
+          "value": 1062
+        },
+        {
+          "entity": "canada",
+          "value": 1511
+        },
+        {
+          "entity": "qatar",
+          "value": 1504
+        },
+        {
+          "entity": "australia",
+          "value": 545
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 6491
+        },
+        {
+          "entity": "russia",
+          "value": 6019
+        },
+        {
+          "entity": "entity-100",
+          "value": 1569
+        },
+        {
+          "entity": "china",
+          "value": 1115
+        },
+        {
+          "entity": "canada",
+          "value": 1503
+        },
+        {
+          "entity": "qatar",
+          "value": 1625
+        },
+        {
+          "entity": "australia",
+          "value": 583
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 6557
+        },
+        {
+          "entity": "russia",
+          "value": 6145
+        },
+        {
+          "entity": "entity-100",
+          "value": 1575
+        },
+        {
+          "entity": "china",
+          "value": 1218
+        },
+        {
+          "entity": "canada",
+          "value": 1519
+        },
+        {
+          "entity": "qatar",
+          "value": 1679
+        },
+        {
+          "entity": "australia",
+          "value": 606
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 7047
+        },
+        {
+          "entity": "russia",
+          "value": 5912
+        },
+        {
+          "entity": "entity-100",
+          "value": 1755
+        },
+        {
+          "entity": "china",
+          "value": 1312
+        },
+        {
+          "entity": "canada",
+          "value": 1590
+        },
+        {
+          "entity": "qatar",
+          "value": 1694
+        },
+        {
+          "entity": "australia",
+          "value": 653
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 7403
+        },
+        {
+          "entity": "russia",
+          "value": 5844
+        },
+        {
+          "entity": "entity-100",
+          "value": 1835
+        },
+        {
+          "entity": "china",
+          "value": 1357
+        },
+        {
+          "entity": "canada",
+          "value": 1608
+        },
+        {
+          "entity": "qatar",
+          "value": 1759
+        },
+        {
+          "entity": "australia",
+          "value": 743
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 7274
+        },
+        {
+          "entity": "russia",
+          "value": 5893
+        },
+        {
+          "entity": "entity-100",
+          "value": 1993
+        },
+        {
+          "entity": "china",
+          "value": 1379
+        },
+        {
+          "entity": "canada",
+          "value": 1691
+        },
+        {
+          "entity": "qatar",
+          "value": 1748
+        },
+        {
+          "entity": "australia",
+          "value": 941
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 7471
+        },
+        {
+          "entity": "russia",
+          "value": 6356
+        },
+        {
+          "entity": "entity-100",
+          "value": 2139
+        },
+        {
+          "entity": "china",
+          "value": 1492
+        },
+        {
+          "entity": "canada",
+          "value": 1748
+        },
+        {
+          "entity": "qatar",
+          "value": 1705
+        },
+        {
+          "entity": "australia",
+          "value": 1103
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 8409
+        },
+        {
+          "entity": "russia",
+          "value": 6691
+        },
+        {
+          "entity": "entity-100",
+          "value": 2201
+        },
+        {
+          "entity": "china",
+          "value": 1614
+        },
+        {
+          "entity": "canada",
+          "value": 1801
+        },
+        {
+          "entity": "qatar",
+          "value": 1752
+        },
+        {
+          "entity": "australia",
+          "value": 1274
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 9281
+        },
+        {
+          "entity": "russia",
+          "value": 6790
+        },
+        {
+          "entity": "entity-100",
+          "value": 2283
+        },
+        {
+          "entity": "china",
+          "value": 1767
+        },
+        {
+          "entity": "canada",
+          "value": 1734
+        },
+        {
+          "entity": "qatar",
+          "value": 1772
+        },
+        {
+          "entity": "australia",
+          "value": 1461
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 9248
+        },
+        {
+          "entity": "russia",
+          "value": 6384
+        },
+        {
+          "entity": "entity-100",
+          "value": 2358
+        },
+        {
+          "entity": "china",
+          "value": 1940
+        },
+        {
+          "entity": "canada",
+          "value": 1697
+        },
+        {
+          "entity": "qatar",
+          "value": 1749
+        },
+        {
+          "entity": "australia",
+          "value": 1457
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 9445
+        },
+        {
+          "entity": "russia",
+          "value": 7021
+        },
+        {
+          "entity": "entity-100",
+          "value": 2428
+        },
+        {
+          "entity": "china",
+          "value": 2092
+        },
+        {
+          "entity": "canada",
+          "value": 1765
+        },
+        {
+          "entity": "qatar",
+          "value": 1770
+        },
+        {
+          "entity": "australia",
+          "value": 1479
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 9907
+        },
+        {
+          "entity": "russia",
+          "value": 6184
+        },
+        {
+          "entity": "entity-100",
+          "value": 2477
+        },
+        {
+          "entity": "china",
+          "value": 2218
+        },
+        {
+          "entity": "canada",
+          "value": 1895
+        },
+        {
+          "entity": "qatar",
+          "value": 1785
+        },
+        {
+          "entity": "australia",
+          "value": 1542
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10289
+        },
+        {
+          "entity": "russia",
+          "value": 5864
+        },
+        {
+          "entity": "entity-100",
+          "value": 2597
+        },
+        {
+          "entity": "china",
+          "value": 2343
+        },
+        {
+          "entity": "canada",
+          "value": 1950
+        },
+        {
+          "entity": "qatar",
+          "value": 1810
+        },
+        {
+          "entity": "australia",
+          "value": 1507
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10319
+        },
+        {
+          "entity": "russia",
+          "value": 6299
+        },
+        {
+          "entity": "entity-100",
+          "value": 2622
+        },
+        {
+          "entity": "china",
+          "value": 2484
+        },
+        {
+          "entity": "canada",
+          "value": 1995
+        },
+        {
+          "entity": "qatar",
+          "value": 1797
+        },
+        {
+          "entity": "australia",
+          "value": 1523
+        }
+      ]
+    },
+    {
+      "period": 2025,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10737
+        },
+        {
+          "entity": "russia",
+          "value": 6094
+        },
+        {
+          "entity": "entity-100",
+          "value": 2648
+        },
+        {
+          "entity": "china",
+          "value": 2641
+        },
+        {
+          "entity": "canada",
+          "value": 2062
+        },
+        {
+          "entity": "qatar",
+          "value": 1835
+        },
+        {
+          "entity": "australia",
+          "value": 1486
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "usa": "シェール革命で2010年代に生産が急増し独走。世界最大の天然ガス生産国。",
+    "russia": "豊富な埋蔵量を背景に長く世界最大級。近年はおおむね横ばい。",
+    "entity-100": "イラン。世界有数のガス埋蔵量を持つ。",
+    "china": "消費拡大とともに生産も増やしている。",
+    "canada": "北米の主要な生産国。",
+    "qatar": "カタール。世界有数のガス田を背景にLNG輸出で急成長。",
+    "australia": "LNG輸出で生産を大きく伸ばした。"
+  }
+}

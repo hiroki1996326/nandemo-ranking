@@ -1012,7 +1012,7 @@ window.ENTITIES_DATA = {
     'name': 'マリ',
     'type': 'country',
     'description': '「世界の国土面積ランキング」で23位（1,240,192km²）。',
-    'image': null,
+    'image': '/images/entities/entity-106.webp',
     'imageCredit': '',
   },
   'entity-107': {
@@ -1110,7 +1110,7 @@ window.ENTITIES_DATA = {
     'name': 'アフガニスタン',
     'type': 'country',
     'description': '「世界の国土面積ランキング」で40位（652,864km²）。',
-    'image': null,
+    'image': '/images/entities/entity-120.webp',
     'imageCredit': '',
   },
   'entity-121': {
@@ -2370,7 +2370,7 @@ window.ENTITIES_DATA = {
     'name': 'ホンジュラス',
     'type': 'country',
     'description': '',
-    'image': null,
+    'image': '/images/entities/honduras.webp',
     'imageCredit': '',
   },
   'hong-kong': {

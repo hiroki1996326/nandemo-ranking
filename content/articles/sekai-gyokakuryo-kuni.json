@@ -1,0 +1,1503 @@
+{
+  "id": "sekai-gyokakuryo-kuni",
+  "title": "世界の漁獲量ランキング（国別）",
+  "seoTitle": "世界の漁獲量ランキング｜1位は中国！",
+  "category": "keizai",
+  "unit": "トン",
+  "source": "Our World in Data（FAO）。天然の水産物の漁獲量（capture＝養殖を含まない）。1985年から2024年までの推移",
+  "sourceUrl": "https://ourworldindata.org/grapher/capture-fishery-production",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-31",
+  "lead": "天然の水産物を最も多く獲っている国は中国で、2024年は約1,326万トン。2位インドネシア、3位インドと続く。かつて世界1位の漁業大国は日本で、1985年には約1,097万トンを漁獲していたが、その後は減り続け、2024年には約285万トンと4分の1近くまで落ち込んだ。入れ替わるように中国が漁獲を急増させ、1990年代に日本を抜いて世界1位となった。ここでは養殖を含まない天然の漁獲量について、1985年から2024年までの上位国の推移を掲載している。",
+  "commentary": "天然の水産物の漁獲量（養殖を含まない）。1980年代は日本が世界1位だったが減り続け、中国が急増して1990年代に世界1位に。インドネシア・ベトナムなどアジアの国が伸び、ペルーは年による変動が大きい。",
+  "analysisHeading": "1980年代は日本が世界一、いまは中国が最多",
+  "analysis": [
+    "1980年代、世界最大の漁業国は日本だった。1985年には約1,097万トンを漁獲し世界1位だったが、その後は減り続け、2024年には約285万トンと、ピーク時の4分の1近くにまで落ち込んだ。各国が沿岸200海里を自国の漁場とする制度を設けて遠くの海で獲りにくくなったことや、水産資源の減少、漁業者の減少などが背景にある。",
+    "入れ替わるように漁獲を急増させたのが中国で、1990年代に日本を抜いて世界1位となり、2024年は約1,326万トンと2位以下を大きく引き離している。2位インドネシア、3位インド、7位ベトナムなど、人口の多いアジアの国々も漁獲を伸ばしており、世界の漁業の中心はアジアにある。",
+    "4位のペルーは、年による変動がとくに大きい。ペルー沖はカタクチイワシ（アンチョビ）の一大漁場だが、数年ごとに起きる『エルニーニョ』などの海の変化で漁獲量が大きく増減するためである。なお、ここでの数値は天然の漁獲量であり、いけすなどで育てる養殖は含まない。養殖まで含めると、中国の水産物生産量はさらに大きくなる。"
+  ],
+  "sections": [
+    {
+      "h2": "『漁獲量』と養殖のちがい"
+    },
+    {
+      "p": "ここでいう漁獲量とは、海や川で**天然の魚介類を獲った量**（capture）で、いけすなどで育てて出荷する**養殖**は含まない。世界の水産物は近年、養殖の割合が急速に高まっているが、この記事では自然の水産資源をどれだけ獲っているかを比べている。中国は養殖でも世界最大で、養殖まで含めた水産物生産量はさらに大きくなる。"
+    },
+    {
+      "h2": "世界一だった日本の漁業の縮小"
+    },
+    {
+      "p": "1980年代、**日本**は世界最大の漁業国だった。しかし1985年の約1,097万トンをピークに漁獲量は減り続け、2024年には約285万トンと4分の1近くにまで落ち込んだ。各国が沿岸から200海里の海を自国のものとする制度を設けて遠くの漁場で獲りにくくなったこと、獲りすぎなどによる水産資源の減少、漁業者の高齢化と減少などが重なったためである。"
+    },
+    {
+      "h2": "漁業の中心はアジアへ"
+    },
+    {
+      "p": "日本に代わって漁獲を急増させたのが**中国**で、1990年代に世界1位となり、いまや2位以下を大きく引き離している。**インドネシア**・**インド**・**ベトナム**など、人口の多いアジアの国々も漁獲を伸ばしており、世界の漁業の中心はアジアに移った。一方、4位**ペルー**はカタクチイワシ（アンチョビ）の漁場を持ち、エルニーニョなど海の変化で漁獲量が年ごとに大きく増減する。"
+    }
+  ],
+  "data": [
+    {
+      "period": 1985,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 4210121
+        },
+        {
+          "entity": "indonesia",
+          "value": 2093080
+        },
+        {
+          "entity": "india",
+          "value": 2206098
+        },
+        {
+          "entity": "entity-102",
+          "value": 4131506
+        },
+        {
+          "entity": "usa",
+          "value": 4744128
+        },
+        {
+          "entity": "vietnam",
+          "value": 680010
+        },
+        {
+          "entity": "japan",
+          "value": 10970693
+        }
+      ]
+    },
+    {
+      "period": 1986,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 4810254
+        },
+        {
+          "entity": "indonesia",
+          "value": 2196221
+        },
+        {
+          "entity": "india",
+          "value": 2321273
+        },
+        {
+          "entity": "entity-102",
+          "value": 5614630
+        },
+        {
+          "entity": "usa",
+          "value": 4910476
+        },
+        {
+          "entity": "vietnam",
+          "value": 702873
+        },
+        {
+          "entity": "japan",
+          "value": 11505643
+        }
+      ]
+    },
+    {
+      "period": 1987,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 5407952
+        },
+        {
+          "entity": "indonesia",
+          "value": 2306084
+        },
+        {
+          "entity": "india",
+          "value": 2206075
+        },
+        {
+          "entity": "entity-102",
+          "value": 4584138
+        },
+        {
+          "entity": "usa",
+          "value": 5745394
+        },
+        {
+          "entity": "vietnam",
+          "value": 727253
+        },
+        {
+          "entity": "japan",
+          "value": 11333005
+        }
+      ]
+    },
+    {
+      "period": 1988,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 5812730
+        },
+        {
+          "entity": "indonesia",
+          "value": 2462521
+        },
+        {
+          "entity": "india",
+          "value": 2307632
+        },
+        {
+          "entity": "entity-102",
+          "value": 6637579
+        },
+        {
+          "entity": "usa",
+          "value": 5754885
+        },
+        {
+          "entity": "vietnam",
+          "value": 730716
+        },
+        {
+          "entity": "japan",
+          "value": 11401496
+        }
+      ]
+    },
+    {
+      "period": 1989,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 6224910
+        },
+        {
+          "entity": "indonesia",
+          "value": 2576874
+        },
+        {
+          "entity": "india",
+          "value": 2713689
+        },
+        {
+          "entity": "entity-102",
+          "value": 6863142
+        },
+        {
+          "entity": "usa",
+          "value": 5579688
+        },
+        {
+          "entity": "vietnam",
+          "value": 790022
+        },
+        {
+          "entity": "japan",
+          "value": 10661273
+        }
+      ]
+    },
+    {
+      "period": 1990,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 6714530
+        },
+        {
+          "entity": "indonesia",
+          "value": 2668521
+        },
+        {
+          "entity": "india",
+          "value": 2862586
+        },
+        {
+          "entity": "entity-102",
+          "value": 6871261
+        },
+        {
+          "entity": "usa",
+          "value": 5781092
+        },
+        {
+          "entity": "vietnam",
+          "value": 779151
+        },
+        {
+          "entity": "japan",
+          "value": 9819588
+        }
+      ]
+    },
+    {
+      "period": 1991,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 7452199
+        },
+        {
+          "entity": "indonesia",
+          "value": 2816195
+        },
+        {
+          "entity": "india",
+          "value": 2907233
+        },
+        {
+          "entity": "entity-102",
+          "value": 6900535
+        },
+        {
+          "entity": "usa",
+          "value": 5373133
+        },
+        {
+          "entity": "vietnam",
+          "value": 831070
+        },
+        {
+          "entity": "japan",
+          "value": 8716800
+        }
+      ]
+    },
+    {
+      "period": 1992,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 8422552
+        },
+        {
+          "entity": "indonesia",
+          "value": 2983772
+        },
+        {
+          "entity": "india",
+          "value": 2929102
+        },
+        {
+          "entity": "entity-102",
+          "value": 7506756
+        },
+        {
+          "entity": "russia",
+          "value": 5562227
+        },
+        {
+          "entity": "usa",
+          "value": 5473940
+        },
+        {
+          "entity": "vietnam",
+          "value": 868107
+        },
+        {
+          "entity": "japan",
+          "value": 7976650
+        }
+      ]
+    },
+    {
+      "period": 1993,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 9475687
+        },
+        {
+          "entity": "indonesia",
+          "value": 3212909
+        },
+        {
+          "entity": "india",
+          "value": 3150212
+        },
+        {
+          "entity": "entity-102",
+          "value": 9009177
+        },
+        {
+          "entity": "russia",
+          "value": 4482207
+        },
+        {
+          "entity": "usa",
+          "value": 5817722
+        },
+        {
+          "entity": "vietnam",
+          "value": 932143
+        },
+        {
+          "entity": "japan",
+          "value": 7448232
+        }
+      ]
+    },
+    {
+      "period": 1994,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 11017836
+        },
+        {
+          "entity": "indonesia",
+          "value": 3453274
+        },
+        {
+          "entity": "india",
+          "value": 3347607
+        },
+        {
+          "entity": "entity-102",
+          "value": 12001264
+        },
+        {
+          "entity": "russia",
+          "value": 3793972
+        },
+        {
+          "entity": "usa",
+          "value": 5846728
+        },
+        {
+          "entity": "vietnam",
+          "value": 1025909
+        },
+        {
+          "entity": "japan",
+          "value": 6785678
+        }
+      ]
+    },
+    {
+      "period": 1995,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 12712706
+        },
+        {
+          "entity": "indonesia",
+          "value": 3645428
+        },
+        {
+          "entity": "india",
+          "value": 3357740
+        },
+        {
+          "entity": "entity-102",
+          "value": 8938007
+        },
+        {
+          "entity": "russia",
+          "value": 4376640
+        },
+        {
+          "entity": "usa",
+          "value": 5414226
+        },
+        {
+          "entity": "vietnam",
+          "value": 1084939
+        },
+        {
+          "entity": "japan",
+          "value": 6162111
+        }
+      ]
+    },
+    {
+      "period": 1996,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14333737
+        },
+        {
+          "entity": "indonesia",
+          "value": 3767439
+        },
+        {
+          "entity": "india",
+          "value": 3542948
+        },
+        {
+          "entity": "entity-102",
+          "value": 9515370
+        },
+        {
+          "entity": "russia",
+          "value": 4744407
+        },
+        {
+          "entity": "usa",
+          "value": 5268586
+        },
+        {
+          "entity": "vietnam",
+          "value": 1223644
+        },
+        {
+          "entity": "japan",
+          "value": 6115650
+        }
+      ]
+    },
+    {
+      "period": 1997,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14719861
+        },
+        {
+          "entity": "indonesia",
+          "value": 3918472
+        },
+        {
+          "entity": "india",
+          "value": 3620948
+        },
+        {
+          "entity": "entity-102",
+          "value": 7869879
+        },
+        {
+          "entity": "russia",
+          "value": 4738463
+        },
+        {
+          "entity": "usa",
+          "value": 5385731
+        },
+        {
+          "entity": "vietnam",
+          "value": 1276325
+        },
+        {
+          "entity": "japan",
+          "value": 6102891
+        }
+      ]
+    },
+    {
+      "period": 1998,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 15472568
+        },
+        {
+          "entity": "indonesia",
+          "value": 4024958
+        },
+        {
+          "entity": "india",
+          "value": 3473492
+        },
+        {
+          "entity": "entity-102",
+          "value": 4346073
+        },
+        {
+          "entity": "russia",
+          "value": 4516052
+        },
+        {
+          "entity": "usa",
+          "value": 5059144
+        },
+        {
+          "entity": "vietnam",
+          "value": 1293954
+        },
+        {
+          "entity": "japan",
+          "value": 5443980
+        }
+      ]
+    },
+    {
+      "period": 1999,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 15208077
+        },
+        {
+          "entity": "indonesia",
+          "value": 4018532
+        },
+        {
+          "entity": "india",
+          "value": 3552149
+        },
+        {
+          "entity": "entity-102",
+          "value": 8429086
+        },
+        {
+          "entity": "russia",
+          "value": 4217889
+        },
+        {
+          "entity": "usa",
+          "value": 5205206
+        },
+        {
+          "entity": "vietnam",
+          "value": 1483700
+        },
+        {
+          "entity": "japan",
+          "value": 5337468
+        }
+      ]
+    },
+    {
+      "period": 2000,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14823866
+        },
+        {
+          "entity": "indonesia",
+          "value": 4168922
+        },
+        {
+          "entity": "india",
+          "value": 3726427
+        },
+        {
+          "entity": "entity-102",
+          "value": 10658832
+        },
+        {
+          "entity": "russia",
+          "value": 4077611
+        },
+        {
+          "entity": "usa",
+          "value": 5041558
+        },
+        {
+          "entity": "vietnam",
+          "value": 1629612
+        },
+        {
+          "entity": "japan",
+          "value": 5210971
+        }
+      ]
+    },
+    {
+      "period": 2001,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14403875
+        },
+        {
+          "entity": "indonesia",
+          "value": 4349342
+        },
+        {
+          "entity": "india",
+          "value": 3817092
+        },
+        {
+          "entity": "entity-102",
+          "value": 7991767
+        },
+        {
+          "entity": "russia",
+          "value": 3686491
+        },
+        {
+          "entity": "usa",
+          "value": 5275155
+        },
+        {
+          "entity": "vietnam",
+          "value": 1724758
+        },
+        {
+          "entity": "japan",
+          "value": 4854644
+        }
+      ]
+    },
+    {
+      "period": 2002,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14426596
+        },
+        {
+          "entity": "indonesia",
+          "value": 4420029
+        },
+        {
+          "entity": "india",
+          "value": 3783853
+        },
+        {
+          "entity": "entity-102",
+          "value": 8771970
+        },
+        {
+          "entity": "russia",
+          "value": 3291036
+        },
+        {
+          "entity": "usa",
+          "value": 5326987
+        },
+        {
+          "entity": "vietnam",
+          "value": 1802598
+        },
+        {
+          "entity": "japan",
+          "value": 4520996
+        }
+      ]
+    },
+    {
+      "period": 2003,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14598934
+        },
+        {
+          "entity": "indonesia",
+          "value": 4710291
+        },
+        {
+          "entity": "india",
+          "value": 3757899
+        },
+        {
+          "entity": "entity-102",
+          "value": 6093926
+        },
+        {
+          "entity": "russia",
+          "value": 3339831
+        },
+        {
+          "entity": "usa",
+          "value": 5345396
+        },
+        {
+          "entity": "vietnam",
+          "value": 1856005
+        },
+        {
+          "entity": "japan",
+          "value": 4818020
+        }
+      ]
+    },
+    {
+      "period": 2004,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14786243
+        },
+        {
+          "entity": "indonesia",
+          "value": 4754105
+        },
+        {
+          "entity": "india",
+          "value": 3426509
+        },
+        {
+          "entity": "entity-102",
+          "value": 9611947
+        },
+        {
+          "entity": "russia",
+          "value": 2968363
+        },
+        {
+          "entity": "usa",
+          "value": 5363263
+        },
+        {
+          "entity": "vietnam",
+          "value": 1940865
+        },
+        {
+          "entity": "japan",
+          "value": 4467888
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14850730
+        },
+        {
+          "entity": "indonesia",
+          "value": 4721419
+        },
+        {
+          "entity": "india",
+          "value": 3725362
+        },
+        {
+          "entity": "entity-102",
+          "value": 9393502
+        },
+        {
+          "entity": "russia",
+          "value": 3236386
+        },
+        {
+          "entity": "usa",
+          "value": 5320894
+        },
+        {
+          "entity": "vietnam",
+          "value": 1991276
+        },
+        {
+          "entity": "japan",
+          "value": 4457997
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14995706
+        },
+        {
+          "entity": "indonesia",
+          "value": 4818814
+        },
+        {
+          "entity": "india",
+          "value": 3877337
+        },
+        {
+          "entity": "entity-102",
+          "value": 7020939
+        },
+        {
+          "entity": "russia",
+          "value": 3319235
+        },
+        {
+          "entity": "usa",
+          "value": 5311208
+        },
+        {
+          "entity": "vietnam",
+          "value": 2042725
+        },
+        {
+          "entity": "japan",
+          "value": 4466580
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14987636
+        },
+        {
+          "entity": "indonesia",
+          "value": 5060086
+        },
+        {
+          "entity": "india",
+          "value": 3890293
+        },
+        {
+          "entity": "entity-102",
+          "value": 7221332
+        },
+        {
+          "entity": "russia",
+          "value": 3497246
+        },
+        {
+          "entity": "usa",
+          "value": 5189908
+        },
+        {
+          "entity": "vietnam",
+          "value": 2091690
+        },
+        {
+          "entity": "japan",
+          "value": 4444244
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 15157263
+        },
+        {
+          "entity": "indonesia",
+          "value": 5019071
+        },
+        {
+          "entity": "india",
+          "value": 4128727
+        },
+        {
+          "entity": "entity-102",
+          "value": 7408317
+        },
+        {
+          "entity": "russia",
+          "value": 3411736
+        },
+        {
+          "entity": "usa",
+          "value": 4606530
+        },
+        {
+          "entity": "vietnam",
+          "value": 2077762
+        },
+        {
+          "entity": "japan",
+          "value": 4451464
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 15062980
+        },
+        {
+          "entity": "indonesia",
+          "value": 5128007
+        },
+        {
+          "entity": "india",
+          "value": 4094756
+        },
+        {
+          "entity": "entity-102",
+          "value": 6933455
+        },
+        {
+          "entity": "russia",
+          "value": 3838545
+        },
+        {
+          "entity": "usa",
+          "value": 4527104
+        },
+        {
+          "entity": "vietnam",
+          "value": 2187883
+        },
+        {
+          "entity": "japan",
+          "value": 4243058
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 15054057
+        },
+        {
+          "entity": "indonesia",
+          "value": 5402213
+        },
+        {
+          "entity": "india",
+          "value": 4715816
+        },
+        {
+          "entity": "entity-102",
+          "value": 4305975
+        },
+        {
+          "entity": "russia",
+          "value": 4081092
+        },
+        {
+          "entity": "usa",
+          "value": 4767237
+        },
+        {
+          "entity": "vietnam",
+          "value": 2252996
+        },
+        {
+          "entity": "japan",
+          "value": 4195920
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 15263615
+        },
+        {
+          "entity": "indonesia",
+          "value": 5776454
+        },
+        {
+          "entity": "india",
+          "value": 4336132
+        },
+        {
+          "entity": "entity-102",
+          "value": 8254957
+        },
+        {
+          "entity": "russia",
+          "value": 4268684
+        },
+        {
+          "entity": "usa",
+          "value": 5446026
+        },
+        {
+          "entity": "vietnam",
+          "value": 2403770
+        },
+        {
+          "entity": "japan",
+          "value": 3877842
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 15446318
+        },
+        {
+          "entity": "indonesia",
+          "value": 5882270
+        },
+        {
+          "entity": "india",
+          "value": 4895142
+        },
+        {
+          "entity": "entity-102",
+          "value": 4852760
+        },
+        {
+          "entity": "russia",
+          "value": 4343002
+        },
+        {
+          "entity": "usa",
+          "value": 5403229
+        },
+        {
+          "entity": "vietnam",
+          "value": 2527288
+        },
+        {
+          "entity": "japan",
+          "value": 3759092
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 15633567
+        },
+        {
+          "entity": "indonesia",
+          "value": 6156556
+        },
+        {
+          "entity": "india",
+          "value": 4665438
+        },
+        {
+          "entity": "entity-102",
+          "value": 5876493
+        },
+        {
+          "entity": "russia",
+          "value": 4371000
+        },
+        {
+          "entity": "usa",
+          "value": 5533945
+        },
+        {
+          "entity": "vietnam",
+          "value": 2632907
+        },
+        {
+          "entity": "japan",
+          "value": 3740918
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 16363366
+        },
+        {
+          "entity": "indonesia",
+          "value": 6505424
+        },
+        {
+          "entity": "india",
+          "value": 4999494
+        },
+        {
+          "entity": "entity-102",
+          "value": 3599056
+        },
+        {
+          "entity": "russia",
+          "value": 4269396
+        },
+        {
+          "entity": "usa",
+          "value": 5423572
+        },
+        {
+          "entity": "vietnam",
+          "value": 2764042
+        },
+        {
+          "entity": "japan",
+          "value": 3738650
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 16647934
+        },
+        {
+          "entity": "indonesia",
+          "value": 6681945
+        },
+        {
+          "entity": "india",
+          "value": 4862038
+        },
+        {
+          "entity": "entity-102",
+          "value": 4843860
+        },
+        {
+          "entity": "russia",
+          "value": 4468936
+        },
+        {
+          "entity": "usa",
+          "value": 5420928
+        },
+        {
+          "entity": "vietnam",
+          "value": 2873233
+        },
+        {
+          "entity": "japan",
+          "value": 3503310
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 16019262
+        },
+        {
+          "entity": "indonesia",
+          "value": 6533812
+        },
+        {
+          "entity": "india",
+          "value": 5196946
+        },
+        {
+          "entity": "entity-102",
+          "value": 3828751
+        },
+        {
+          "entity": "russia",
+          "value": 4777135
+        },
+        {
+          "entity": "usa",
+          "value": 5396365
+        },
+        {
+          "entity": "vietnam",
+          "value": 3090982
+        },
+        {
+          "entity": "japan",
+          "value": 3298989
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 15576685
+        },
+        {
+          "entity": "indonesia",
+          "value": 6975496
+        },
+        {
+          "entity": "india",
+          "value": 5550953
+        },
+        {
+          "entity": "entity-102",
+          "value": 4185193
+        },
+        {
+          "entity": "russia",
+          "value": 4884582
+        },
+        {
+          "entity": "usa",
+          "value": 5488206
+        },
+        {
+          "entity": "vietnam",
+          "value": 3332796
+        },
+        {
+          "entity": "japan",
+          "value": 3279720
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14831109
+        },
+        {
+          "entity": "indonesia",
+          "value": 7316474
+        },
+        {
+          "entity": "india",
+          "value": 5336183
+        },
+        {
+          "entity": "entity-102",
+          "value": 7208638
+        },
+        {
+          "entity": "russia",
+          "value": 5128230
+        },
+        {
+          "entity": "usa",
+          "value": 5393878
+        },
+        {
+          "entity": "vietnam",
+          "value": 3386291
+        },
+        {
+          "entity": "japan",
+          "value": 3383709
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14169863
+        },
+        {
+          "entity": "indonesia",
+          "value": 7342061
+        },
+        {
+          "entity": "india",
+          "value": 5477100
+        },
+        {
+          "entity": "entity-102",
+          "value": 4852822
+        },
+        {
+          "entity": "russia",
+          "value": 4991085
+        },
+        {
+          "entity": "usa",
+          "value": 5311534
+        },
+        {
+          "entity": "vietnam",
+          "value": 3449730
+        },
+        {
+          "entity": "japan",
+          "value": 3264376
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 13445983
+        },
+        {
+          "entity": "indonesia",
+          "value": 6991830
+        },
+        {
+          "entity": "india",
+          "value": 4658197
+        },
+        {
+          "entity": "entity-102",
+          "value": 5676966
+        },
+        {
+          "entity": "russia",
+          "value": 5088745
+        },
+        {
+          "entity": "usa",
+          "value": 4690973
+        },
+        {
+          "entity": "vietnam",
+          "value": 3541272
+        },
+        {
+          "entity": "japan",
+          "value": 3270077
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 13142837
+        },
+        {
+          "entity": "indonesia",
+          "value": 7227992
+        },
+        {
+          "entity": "india",
+          "value": 5024905
+        },
+        {
+          "entity": "entity-102",
+          "value": 6576171
+        },
+        {
+          "entity": "russia",
+          "value": 5176469
+        },
+        {
+          "entity": "usa",
+          "value": 4725316
+        },
+        {
+          "entity": "vietnam",
+          "value": 3556542
+        },
+        {
+          "entity": "japan",
+          "value": 3241414
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 13179077
+        },
+        {
+          "entity": "indonesia",
+          "value": 7491464
+        },
+        {
+          "entity": "india",
+          "value": 5539025
+        },
+        {
+          "entity": "entity-102",
+          "value": 5368102
+        },
+        {
+          "entity": "russia",
+          "value": 4997077
+        },
+        {
+          "entity": "usa",
+          "value": 4701380
+        },
+        {
+          "entity": "vietnam",
+          "value": 3463210
+        },
+        {
+          "entity": "japan",
+          "value": 2980936
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 13263391
+        },
+        {
+          "entity": "indonesia",
+          "value": 7851185
+        },
+        {
+          "entity": "india",
+          "value": 6177986
+        },
+        {
+          "entity": "entity-102",
+          "value": 3519381
+        },
+        {
+          "entity": "russia",
+          "value": 5398034
+        },
+        {
+          "entity": "usa",
+          "value": 4649807
+        },
+        {
+          "entity": "vietnam",
+          "value": 3435922
+        },
+        {
+          "entity": "japan",
+          "value": 2983200
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 13262322
+        },
+        {
+          "entity": "indonesia",
+          "value": 7817070
+        },
+        {
+          "entity": "india",
+          "value": 6356492
+        },
+        {
+          "entity": "entity-102",
+          "value": 5764701
+        },
+        {
+          "entity": "russia",
+          "value": 5018710
+        },
+        {
+          "entity": "usa",
+          "value": 4213780
+        },
+        {
+          "entity": "vietnam",
+          "value": 3433838
+        },
+        {
+          "entity": "japan",
+          "value": 2848387
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "china": "1990年代に日本を抜いて世界1位に。2024年は約1,326万トンで2位以下を大きく引き離す。",
+    "indonesia": "漁獲を伸ばし世界2位。",
+    "india": "人口増を背景に漁獲を伸ばし世界3位。",
+    "entity-102": "ペルー。カタクチイワシ（アンチョビ）の一大漁場で、エルニーニョ等により漁獲量の変動が大きい。",
+    "russia": "主要な漁業国の一つ。",
+    "usa": "漁獲量はおおむね横ばい。",
+    "vietnam": "漁獲を伸ばしてきた。",
+    "japan": "1985年に世界1位（約1,097万トン）だったが減り続け、2024年は約285万トンと4分の1近くに。"
+  }
+}

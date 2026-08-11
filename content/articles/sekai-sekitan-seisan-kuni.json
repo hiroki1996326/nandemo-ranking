@@ -1,0 +1,1403 @@
+{
+  "id": "sekai-sekitan-seisan-kuni",
+  "title": "世界の石炭生産量ランキング（国別）",
+  "seoTitle": "世界の石炭生産量ランキング｜1位は中国！",
+  "category": "keizai",
+  "unit": "TWh",
+  "source": "Our World in Data（Energy Institute Statistical Review of World Energy）。石炭生産量をエネルギー量（TWh）で表したもの。1985年から2025年までの推移",
+  "sourceUrl": "https://ourworldindata.org/grapher/coal-production-by-country",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-31",
+  "lead": "世界で最も石炭を生産している国は中国で、2025年は約26,296TWh（エネルギー量）。世界全体のおよそ半分を1国で生産しており、2位以下の主要国をすべて合わせた量を上回る。かつては長くアメリカが世界最大の産炭国だったが、中国が急速な工業化とともに生産を増やし、1980年代後半に逆転した。2位インド、3位インドネシアと続き、両国とも近年生産を伸ばしている。一方アメリカは2000年代以降、生産を大きく減らした。ここでは1985年から2025年まで、上位国の推移を掲載している。",
+  "commentary": "石炭生産量をエネルギー量（TWh）で表したもの。中国が突出しており、世界全体の約半分を1国で生産する。かつて世界1位だったアメリカは近年生産を大きく減らし、インドやインドネシアが伸びている。",
+  "analysisHeading": "中国が世界の約半分、米国は激減しインドネシアが急伸",
+  "analysis": [
+    "石炭生産は中国が圧倒的で、2025年は約26,296TWhと世界全体のおよそ半分を1国で占める。2位以下の主要国をすべて合わせた量よりも多い。1985年には約5,072TWhでアメリカ（約5,380TWh）に次ぐ2位だったが、急速な工業化とともに生産を5倍以上に増やし、1980年代後半にアメリカを抜いて世界1位となった。",
+    "かつて世界最大の産炭国だったアメリカは、2000年ごろの約6,329TWhをピークに生産を大きく減らし、2025年には約3,067TWhと半分以下になった。安価なシェールガスへの転換や、環境規制、再生可能エネルギーの拡大により、石炭火力が縮小したためである。",
+    "一方で、2位インドと3位インドネシアは近年生産を伸ばしている。とくにインドネシアは、1985年にはほとんど生産していなかったが、2025年には約4,454TWhにまで拡大し、アジア向けの一大輸出国となった。石炭消費の中心が欧米からアジアへ移っていることを反映している。"
+  ],
+  "sections": [
+    {
+      "h2": "なぜエネルギー量（TWh）で比べるのか"
+    },
+    {
+      "p": "石炭は種類によって、同じ重さでも取り出せるエネルギーの量が異なる。そこで国際的な統計では、石炭の生産量を重さ（トン）ではなく、**エネルギー量（TWh＝テラワット時）**に換算して比べることが多い。このランキングもその方式による。石炭は発電や製鉄などに使われる主要なエネルギー源である。"
+    },
+    {
+      "h2": "中国が世界の約半分を生産"
+    },
+    {
+      "p": "**中国**は石炭生産で圧倒的な世界1位で、世界全体のおよそ半分を1国で生産している。急速な工業化を背景に、1980年代後半にアメリカを抜いて世界最大の産炭国となり、以降も生産を拡大し続けた。発電の多くを石炭に頼っていることが背景にあり、世界最大の石炭消費国でもある。"
+    },
+    {
+      "h2": "生産を減らしたアメリカ、伸びるアジア"
+    },
+    {
+      "p": "かつて世界1位だった**アメリカ**は、2000年代以降に生産を大きく減らした。採掘技術の進歩で安く手に入るようになった**シェールガス**への転換や、環境規制、再生可能エネルギーの拡大により、石炭の役割が縮小したためである。一方、**インド**や**インドネシア**などアジアの国は生産を伸ばしており、石炭をめぐる中心が欧米からアジアへ移っている。"
+    }
+  ],
+  "data": [
+    {
+      "period": 1985,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 5072
+        },
+        {
+          "entity": "india",
+          "value": 842
+        },
+        {
+          "entity": "indonesia",
+          "value": 14
+        },
+        {
+          "entity": "usa",
+          "value": 5380
+        },
+        {
+          "entity": "australia",
+          "value": 1074
+        },
+        {
+          "entity": "russia",
+          "value": 2161
+        },
+        {
+          "entity": "entity-107",
+          "value": 1160
+        }
+      ]
+    },
+    {
+      "period": 1986,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 5199
+        },
+        {
+          "entity": "india",
+          "value": 905
+        },
+        {
+          "entity": "indonesia",
+          "value": 18
+        },
+        {
+          "entity": "usa",
+          "value": 5432
+        },
+        {
+          "entity": "australia",
+          "value": 1143
+        },
+        {
+          "entity": "russia",
+          "value": 2235
+        },
+        {
+          "entity": "entity-107",
+          "value": 1183
+        }
+      ]
+    },
+    {
+      "period": 1987,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 5397
+        },
+        {
+          "entity": "india",
+          "value": 992
+        },
+        {
+          "entity": "indonesia",
+          "value": 21
+        },
+        {
+          "entity": "usa",
+          "value": 5608
+        },
+        {
+          "entity": "australia",
+          "value": 1194
+        },
+        {
+          "entity": "russia",
+          "value": 2253
+        },
+        {
+          "entity": "entity-107",
+          "value": 1179
+        }
+      ]
+    },
+    {
+      "period": 1988,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 5698
+        },
+        {
+          "entity": "india",
+          "value": 1055
+        },
+        {
+          "entity": "indonesia",
+          "value": 31
+        },
+        {
+          "entity": "usa",
+          "value": 5774
+        },
+        {
+          "entity": "australia",
+          "value": 1173
+        },
+        {
+          "entity": "russia",
+          "value": 2325
+        },
+        {
+          "entity": "entity-107",
+          "value": 1212
+        }
+      ]
+    },
+    {
+      "period": 1989,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 6130
+        },
+        {
+          "entity": "india",
+          "value": 1147
+        },
+        {
+          "entity": "indonesia",
+          "value": 60
+        },
+        {
+          "entity": "usa",
+          "value": 5947
+        },
+        {
+          "entity": "australia",
+          "value": 1275
+        },
+        {
+          "entity": "russia",
+          "value": 2237
+        },
+        {
+          "entity": "entity-107",
+          "value": 1176
+        }
+      ]
+    },
+    {
+      "period": 1990,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 6280
+        },
+        {
+          "entity": "india",
+          "value": 1236
+        },
+        {
+          "entity": "indonesia",
+          "value": 74
+        },
+        {
+          "entity": "usa",
+          "value": 6261
+        },
+        {
+          "entity": "australia",
+          "value": 1335
+        },
+        {
+          "entity": "russia",
+          "value": 2158
+        },
+        {
+          "entity": "entity-107",
+          "value": 1165
+        }
+      ]
+    },
+    {
+      "period": 1991,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 6323
+        },
+        {
+          "entity": "india",
+          "value": 1322
+        },
+        {
+          "entity": "indonesia",
+          "value": 95
+        },
+        {
+          "entity": "usa",
+          "value": 6024
+        },
+        {
+          "entity": "australia",
+          "value": 1384
+        },
+        {
+          "entity": "russia",
+          "value": 1985
+        },
+        {
+          "entity": "entity-107",
+          "value": 1188
+        }
+      ]
+    },
+    {
+      "period": 1992,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 6492
+        },
+        {
+          "entity": "india",
+          "value": 1395
+        },
+        {
+          "entity": "indonesia",
+          "value": 153
+        },
+        {
+          "entity": "usa",
+          "value": 6040
+        },
+        {
+          "entity": "australia",
+          "value": 1477
+        },
+        {
+          "entity": "russia",
+          "value": 1903
+        },
+        {
+          "entity": "entity-107",
+          "value": 1217
+        }
+      ]
+    },
+    {
+      "period": 1993,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 6691
+        },
+        {
+          "entity": "india",
+          "value": 1441
+        },
+        {
+          "entity": "indonesia",
+          "value": 189
+        },
+        {
+          "entity": "usa",
+          "value": 5662
+        },
+        {
+          "entity": "australia",
+          "value": 1484
+        },
+        {
+          "entity": "russia",
+          "value": 1716
+        },
+        {
+          "entity": "entity-107",
+          "value": 1244
+        }
+      ]
+    },
+    {
+      "period": 1994,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 7210
+        },
+        {
+          "entity": "india",
+          "value": 1466
+        },
+        {
+          "entity": "indonesia",
+          "value": 225
+        },
+        {
+          "entity": "usa",
+          "value": 6181
+        },
+        {
+          "entity": "australia",
+          "value": 1517
+        },
+        {
+          "entity": "russia",
+          "value": 1527
+        },
+        {
+          "entity": "entity-107",
+          "value": 1292
+        }
+      ]
+    },
+    {
+      "period": 1995,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 7913
+        },
+        {
+          "entity": "india",
+          "value": 1548
+        },
+        {
+          "entity": "indonesia",
+          "value": 287
+        },
+        {
+          "entity": "usa",
+          "value": 6161
+        },
+        {
+          "entity": "australia",
+          "value": 1592
+        },
+        {
+          "entity": "russia",
+          "value": 1450
+        },
+        {
+          "entity": "entity-107",
+          "value": 1360
+        }
+      ]
+    },
+    {
+      "period": 1996,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 8122
+        },
+        {
+          "entity": "india",
+          "value": 1659
+        },
+        {
+          "entity": "indonesia",
+          "value": 345
+        },
+        {
+          "entity": "usa",
+          "value": 6345
+        },
+        {
+          "entity": "australia",
+          "value": 1641
+        },
+        {
+          "entity": "russia",
+          "value": 1405
+        },
+        {
+          "entity": "entity-107",
+          "value": 1360
+        }
+      ]
+    },
+    {
+      "period": 1997,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 8068
+        },
+        {
+          "entity": "india",
+          "value": 1714
+        },
+        {
+          "entity": "indonesia",
+          "value": 376
+        },
+        {
+          "entity": "usa",
+          "value": 6490
+        },
+        {
+          "entity": "australia",
+          "value": 1789
+        },
+        {
+          "entity": "russia",
+          "value": 1349
+        },
+        {
+          "entity": "entity-107",
+          "value": 1450
+        }
+      ]
+    },
+    {
+      "period": 1998,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 7746
+        },
+        {
+          "entity": "india",
+          "value": 1703
+        },
+        {
+          "entity": "indonesia",
+          "value": 426
+        },
+        {
+          "entity": "usa",
+          "value": 6695
+        },
+        {
+          "entity": "australia",
+          "value": 1832
+        },
+        {
+          "entity": "russia",
+          "value": 1266
+        },
+        {
+          "entity": "entity-107",
+          "value": 1466
+        }
+      ]
+    },
+    {
+      "period": 1999,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 7932
+        },
+        {
+          "entity": "india",
+          "value": 1666
+        },
+        {
+          "entity": "indonesia",
+          "value": 505
+        },
+        {
+          "entity": "usa",
+          "value": 6486
+        },
+        {
+          "entity": "australia",
+          "value": 1932
+        },
+        {
+          "entity": "russia",
+          "value": 1370
+        },
+        {
+          "entity": "entity-107",
+          "value": 1469
+        }
+      ]
+    },
+    {
+      "period": 2000,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 8226
+        },
+        {
+          "entity": "india",
+          "value": 1771
+        },
+        {
+          "entity": "indonesia",
+          "value": 528
+        },
+        {
+          "entity": "usa",
+          "value": 6330
+        },
+        {
+          "entity": "australia",
+          "value": 1997
+        },
+        {
+          "entity": "russia",
+          "value": 1413
+        },
+        {
+          "entity": "entity-107",
+          "value": 1473
+        }
+      ]
+    },
+    {
+      "period": 2001,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 8715
+        },
+        {
+          "entity": "india",
+          "value": 1794
+        },
+        {
+          "entity": "indonesia",
+          "value": 634
+        },
+        {
+          "entity": "usa",
+          "value": 6556
+        },
+        {
+          "entity": "australia",
+          "value": 2158
+        },
+        {
+          "entity": "russia",
+          "value": 1494
+        },
+        {
+          "entity": "entity-107",
+          "value": 1369
+        }
+      ]
+    },
+    {
+      "period": 2002,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 9307
+        },
+        {
+          "entity": "india",
+          "value": 1873
+        },
+        {
+          "entity": "indonesia",
+          "value": 708
+        },
+        {
+          "entity": "usa",
+          "value": 6329
+        },
+        {
+          "entity": "australia",
+          "value": 2224
+        },
+        {
+          "entity": "russia",
+          "value": 1425
+        },
+        {
+          "entity": "entity-107",
+          "value": 1354
+        }
+      ]
+    },
+    {
+      "period": 2003,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 10994
+        },
+        {
+          "entity": "india",
+          "value": 1955
+        },
+        {
+          "entity": "indonesia",
+          "value": 783
+        },
+        {
+          "entity": "usa",
+          "value": 6151
+        },
+        {
+          "entity": "australia",
+          "value": 2299
+        },
+        {
+          "entity": "russia",
+          "value": 1541
+        },
+        {
+          "entity": "entity-107",
+          "value": 1462
+        }
+      ]
+    },
+    {
+      "period": 2004,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 12874
+        },
+        {
+          "entity": "india",
+          "value": 2111
+        },
+        {
+          "entity": "indonesia",
+          "value": 907
+        },
+        {
+          "entity": "usa",
+          "value": 6362
+        },
+        {
+          "entity": "australia",
+          "value": 2389
+        },
+        {
+          "entity": "russia",
+          "value": 1595
+        },
+        {
+          "entity": "entity-107",
+          "value": 1496
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 14441
+        },
+        {
+          "entity": "india",
+          "value": 2207
+        },
+        {
+          "entity": "indonesia",
+          "value": 1048
+        },
+        {
+          "entity": "usa",
+          "value": 6455
+        },
+        {
+          "entity": "australia",
+          "value": 2501
+        },
+        {
+          "entity": "russia",
+          "value": 1577
+        },
+        {
+          "entity": "entity-107",
+          "value": 1609
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 15450
+        },
+        {
+          "entity": "india",
+          "value": 2304
+        },
+        {
+          "entity": "indonesia",
+          "value": 1308
+        },
+        {
+          "entity": "usa",
+          "value": 6623
+        },
+        {
+          "entity": "australia",
+          "value": 2557
+        },
+        {
+          "entity": "russia",
+          "value": 1640
+        },
+        {
+          "entity": "entity-107",
+          "value": 1608
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 16739
+        },
+        {
+          "entity": "india",
+          "value": 2447
+        },
+        {
+          "entity": "indonesia",
+          "value": 1473
+        },
+        {
+          "entity": "usa",
+          "value": 6541
+        },
+        {
+          "entity": "australia",
+          "value": 2641
+        },
+        {
+          "entity": "russia",
+          "value": 1669
+        },
+        {
+          "entity": "entity-107",
+          "value": 1628
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 17349
+        },
+        {
+          "entity": "india",
+          "value": 2648
+        },
+        {
+          "entity": "indonesia",
+          "value": 1645
+        },
+        {
+          "entity": "usa",
+          "value": 6641
+        },
+        {
+          "entity": "australia",
+          "value": 2721
+        },
+        {
+          "entity": "russia",
+          "value": 1732
+        },
+        {
+          "entity": "entity-107",
+          "value": 1661
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 17885
+        },
+        {
+          "entity": "india",
+          "value": 2858
+        },
+        {
+          "entity": "indonesia",
+          "value": 1722
+        },
+        {
+          "entity": "usa",
+          "value": 6020
+        },
+        {
+          "entity": "australia",
+          "value": 2823
+        },
+        {
+          "entity": "russia",
+          "value": 1649
+        },
+        {
+          "entity": "entity-107",
+          "value": 1643
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 19367
+        },
+        {
+          "entity": "india",
+          "value": 2937
+        },
+        {
+          "entity": "indonesia",
+          "value": 1760
+        },
+        {
+          "entity": "usa",
+          "value": 6136
+        },
+        {
+          "entity": "australia",
+          "value": 2915
+        },
+        {
+          "entity": "russia",
+          "value": 1755
+        },
+        {
+          "entity": "entity-107",
+          "value": 1694
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 21535
+        },
+        {
+          "entity": "india",
+          "value": 2915
+        },
+        {
+          "entity": "indonesia",
+          "value": 2204
+        },
+        {
+          "entity": "usa",
+          "value": 6187
+        },
+        {
+          "entity": "australia",
+          "value": 2851
+        },
+        {
+          "entity": "russia",
+          "value": 1833
+        },
+        {
+          "entity": "entity-107",
+          "value": 1652
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 21789
+        },
+        {
+          "entity": "india",
+          "value": 2966
+        },
+        {
+          "entity": "indonesia",
+          "value": 2377
+        },
+        {
+          "entity": "usa",
+          "value": 5757
+        },
+        {
+          "entity": "australia",
+          "value": 3092
+        },
+        {
+          "entity": "russia",
+          "value": 1957
+        },
+        {
+          "entity": "entity-107",
+          "value": 1707
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 22034
+        },
+        {
+          "entity": "india",
+          "value": 2974
+        },
+        {
+          "entity": "indonesia",
+          "value": 2901
+        },
+        {
+          "entity": "usa",
+          "value": 5569
+        },
+        {
+          "entity": "australia",
+          "value": 3324
+        },
+        {
+          "entity": "russia",
+          "value": 2013
+        },
+        {
+          "entity": "entity-107",
+          "value": 1691
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 21681
+        },
+        {
+          "entity": "india",
+          "value": 3134
+        },
+        {
+          "entity": "indonesia",
+          "value": 2821
+        },
+        {
+          "entity": "usa",
+          "value": 5648
+        },
+        {
+          "entity": "australia",
+          "value": 3559
+        },
+        {
+          "entity": "russia",
+          "value": 2054
+        },
+        {
+          "entity": "entity-107",
+          "value": 1722
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 21274
+        },
+        {
+          "entity": "india",
+          "value": 3268
+        },
+        {
+          "entity": "indonesia",
+          "value": 2830
+        },
+        {
+          "entity": "usa",
+          "value": 4997
+        },
+        {
+          "entity": "australia",
+          "value": 3556
+        },
+        {
+          "entity": "russia",
+          "value": 2167
+        },
+        {
+          "entity": "entity-107",
+          "value": 1656
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 19671
+        },
+        {
+          "entity": "india",
+          "value": 3302
+        },
+        {
+          "entity": "indonesia",
+          "value": 2742
+        },
+        {
+          "entity": "usa",
+          "value": 4084
+        },
+        {
+          "entity": "australia",
+          "value": 3563
+        },
+        {
+          "entity": "russia",
+          "value": 2256
+        },
+        {
+          "entity": "entity-107",
+          "value": 1677
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 20326
+        },
+        {
+          "entity": "india",
+          "value": 3330
+        },
+        {
+          "entity": "indonesia",
+          "value": 2691
+        },
+        {
+          "entity": "usa",
+          "value": 4350
+        },
+        {
+          "entity": "australia",
+          "value": 3473
+        },
+        {
+          "entity": "russia",
+          "value": 2393
+        },
+        {
+          "entity": "entity-107",
+          "value": 1659
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 21353
+        },
+        {
+          "entity": "india",
+          "value": 3555
+        },
+        {
+          "entity": "indonesia",
+          "value": 3178
+        },
+        {
+          "entity": "usa",
+          "value": 4277
+        },
+        {
+          "entity": "australia",
+          "value": 3717
+        },
+        {
+          "entity": "russia",
+          "value": 2563
+        },
+        {
+          "entity": "entity-107",
+          "value": 1693
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 21771
+        },
+        {
+          "entity": "india",
+          "value": 3499
+        },
+        {
+          "entity": "indonesia",
+          "value": 3567
+        },
+        {
+          "entity": "usa",
+          "value": 3969
+        },
+        {
+          "entity": "australia",
+          "value": 3804
+        },
+        {
+          "entity": "russia",
+          "value": 2564
+        },
+        {
+          "entity": "entity-107",
+          "value": 1699
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 21988
+        },
+        {
+          "entity": "india",
+          "value": 3497
+        },
+        {
+          "entity": "indonesia",
+          "value": 3271
+        },
+        {
+          "entity": "usa",
+          "value": 2980
+        },
+        {
+          "entity": "australia",
+          "value": 3494
+        },
+        {
+          "entity": "russia",
+          "value": 2336
+        },
+        {
+          "entity": "entity-107",
+          "value": 1614
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 22826
+        },
+        {
+          "entity": "india",
+          "value": 3717
+        },
+        {
+          "entity": "indonesia",
+          "value": 3522
+        },
+        {
+          "entity": "usa",
+          "value": 3229
+        },
+        {
+          "entity": "australia",
+          "value": 3407
+        },
+        {
+          "entity": "russia",
+          "value": 2564
+        },
+        {
+          "entity": "entity-107",
+          "value": 1539
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 25016
+        },
+        {
+          "entity": "india",
+          "value": 4180
+        },
+        {
+          "entity": "indonesia",
+          "value": 3876
+        },
+        {
+          "entity": "usa",
+          "value": 3353
+        },
+        {
+          "entity": "australia",
+          "value": 3180
+        },
+        {
+          "entity": "russia",
+          "value": 2593
+        },
+        {
+          "entity": "entity-107",
+          "value": 1515
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 25609
+        },
+        {
+          "entity": "india",
+          "value": 4674
+        },
+        {
+          "entity": "indonesia",
+          "value": 4371
+        },
+        {
+          "entity": "usa",
+          "value": 3272
+        },
+        {
+          "entity": "australia",
+          "value": 3189
+        },
+        {
+          "entity": "russia",
+          "value": 2554
+        },
+        {
+          "entity": "entity-107",
+          "value": 1539
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 25916
+        },
+        {
+          "entity": "india",
+          "value": 4990
+        },
+        {
+          "entity": "indonesia",
+          "value": 4714
+        },
+        {
+          "entity": "usa",
+          "value": 2945
+        },
+        {
+          "entity": "australia",
+          "value": 3252
+        },
+        {
+          "entity": "russia",
+          "value": 2533
+        },
+        {
+          "entity": "entity-107",
+          "value": 1555
+        }
+      ]
+    },
+    {
+      "period": 2025,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 26296
+        },
+        {
+          "entity": "india",
+          "value": 4992
+        },
+        {
+          "entity": "indonesia",
+          "value": 4454
+        },
+        {
+          "entity": "usa",
+          "value": 3067
+        },
+        {
+          "entity": "australia",
+          "value": 3024
+        },
+        {
+          "entity": "russia",
+          "value": 2545
+        },
+        {
+          "entity": "entity-107",
+          "value": 1552
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "china": "世界全体の約半分を生産する圧倒的1位。1980年代後半にアメリカを抜いた。",
+    "usa": "かつて世界1位だったが、2000年代以降シェールガスへの転換などで生産が半減。",
+    "india": "経済成長を背景に生産を伸ばし世界2位。",
+    "indonesia": "1985年にはほぼ生産がなかったが急拡大し、アジア向けの一大輸出国に。",
+    "australia": "世界有数の石炭輸出国。",
+    "russia": "主要な産炭国の一つ。",
+    "entity-107": "南アフリカ共和国。アフリカ最大級の産炭国。"
+  }
+}

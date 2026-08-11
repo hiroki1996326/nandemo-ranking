@@ -1,0 +1,1204 @@
+{
+  "id": "sekai-genshiryoku-hatsuden-kuni",
+  "title": "世界の原子力発電量ランキング（国別）",
+  "seoTitle": "世界の原子力発電量ランキング｜1位はアメリカ！",
+  "category": "keizai",
+  "unit": "TWh",
+  "source": "Our World in Data（Ember／Energy Institute）。原子力による年間発電量。単位はTWh。1990年から2024年までの推移",
+  "sourceUrl": "https://ourworldindata.org/grapher/nuclear-energy-generation",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-31",
+  "lead": "原子力による発電量が世界で最も多い国はアメリカで、2024年は約782TWh。長く世界1位を保っている。2位は中国で、1990年にはゼロだったが原子力発電所の建設を急ピッチで進め、2020年ごろにフランスを抜いて世界2位となった。3位はフランスで、発電の多くを原子力に頼ることで知られる。日本はかつて世界3位の原子力大国だったが、2011年の福島第一原子力発電所の事故を境に発電量が激減し、現在は一部の再稼働にとどまる。ここでは1990年から2024年まで、上位国の推移を掲載している。",
+  "commentary": "原子力による年間発電量（TWh）。アメリカが一貫して世界1位。中国がゼロから急伸し2020年ごろ2位に。日本は2011年の福島事故で発電量が激減した。",
+  "analysisHeading": "米国が1位、中国が急伸、福島事故で激減した日本",
+  "analysis": [
+    "原子力発電量はアメリカが一貫して世界1位で、2024年は約782TWh。多数の原子力発電所を持ち、発電量はこの30年以上ほぼ横ばいで推移している。2位のフランスは、発電量の多くを原子力でまかなうことで知られ、長く世界2位を保ってきた。",
+    "この間で最も伸びたのが中国である。1990年には原子力発電がゼロだったが、経済成長とともに発電所の建設を急ピッチで進め、2020年ごろにフランスを抜いて世界2位となった。現在も新設が続いており、今後さらに順位を上げる可能性がある。",
+    "対照的に大きく減らしたのが日本である。日本はかつてアメリカ・フランスに次ぐ世界3位の原子力大国だったが、2011年の**福島第一原子力発電所の事故**を境に、全国の原発が順次停止し、発電量は事故前の約290TWhから一時ほぼゼロまで落ち込んだ。その後は一部の原発が再稼働し、2024年は約85TWhとなっている。"
+  ],
+  "sections": [
+    {
+      "h2": "原子力発電とは"
+    },
+    {
+      "p": "原子力発電は、ウランなどの核分裂で生じる熱を使って電気をつくる方法である。ここではその年間発電量を、エネルギー量（TWh＝テラワット時）で示している。発電時に二酸化炭素をほとんど出さない一方、事故が起きたときの被害や、使用済み核燃料の処分といった課題があり、各国で原子力への向き合い方は大きく異なる。"
+    },
+    {
+      "h2": "米国が1位、急伸する中国"
+    },
+    {
+      "p": "**アメリカ**は原子力発電量で一貫して世界1位を保っている。発電量はこの30年以上ほぼ横ばいだが、その規模は他国を上回る。急速に伸びているのが**中国**で、1990年には原子力発電がなかったが、発電所の建設を急ピッチで進め、2020年ごろに**フランス**を抜いて世界2位となった。フランスは電力の多くを原子力でまかなう国として知られる。"
+    },
+    {
+      "h2": "福島事故で激減した日本"
+    },
+    {
+      "p": "日本はかつて、アメリカ・フランスに次ぐ世界3位の原子力大国だった。しかし2011年の**福島第一原子力発電所の事故**を境に、安全確認のため全国の原発が順次停止し、発電量は事故前の約290TWhから一時ほぼゼロにまで落ち込んだ。その後、新しい安全基準のもとで一部の原発が再稼働し、2024年の発電量は約85TWhとなっている。事故は、世界の原子力への向き合い方にも大きな影響を与えた。"
+    }
+  ],
+  "data": [
+    {
+      "period": 1990,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 607
+        },
+        {
+          "entity": "france",
+          "value": 314
+        },
+        {
+          "entity": "china",
+          "value": 0
+        },
+        {
+          "entity": "russia",
+          "value": 118
+        },
+        {
+          "entity": "south-korea",
+          "value": 53
+        },
+        {
+          "entity": "japan",
+          "value": 195
+        },
+        {
+          "entity": "canada",
+          "value": 72
+        }
+      ]
+    },
+    {
+      "period": 1991,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 645
+        },
+        {
+          "entity": "france",
+          "value": 331
+        },
+        {
+          "entity": "china",
+          "value": 0
+        },
+        {
+          "entity": "russia",
+          "value": 120
+        },
+        {
+          "entity": "south-korea",
+          "value": 56
+        },
+        {
+          "entity": "japan",
+          "value": 209
+        },
+        {
+          "entity": "canada",
+          "value": 84
+        }
+      ]
+    },
+    {
+      "period": 1992,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 651
+        },
+        {
+          "entity": "france",
+          "value": 338
+        },
+        {
+          "entity": "china",
+          "value": 0
+        },
+        {
+          "entity": "russia",
+          "value": 120
+        },
+        {
+          "entity": "south-korea",
+          "value": 57
+        },
+        {
+          "entity": "japan",
+          "value": 217
+        },
+        {
+          "entity": "canada",
+          "value": 80
+        }
+      ]
+    },
+    {
+      "period": 1993,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 642
+        },
+        {
+          "entity": "france",
+          "value": 368
+        },
+        {
+          "entity": "china",
+          "value": 2
+        },
+        {
+          "entity": "russia",
+          "value": 119
+        },
+        {
+          "entity": "south-korea",
+          "value": 58
+        },
+        {
+          "entity": "japan",
+          "value": 248
+        },
+        {
+          "entity": "canada",
+          "value": 93
+        }
+      ]
+    },
+    {
+      "period": 1994,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 674
+        },
+        {
+          "entity": "france",
+          "value": 360
+        },
+        {
+          "entity": "china",
+          "value": 15
+        },
+        {
+          "entity": "russia",
+          "value": 98
+        },
+        {
+          "entity": "south-korea",
+          "value": 59
+        },
+        {
+          "entity": "japan",
+          "value": 258
+        },
+        {
+          "entity": "canada",
+          "value": 107
+        }
+      ]
+    },
+    {
+      "period": 1995,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 709
+        },
+        {
+          "entity": "france",
+          "value": 377
+        },
+        {
+          "entity": "china",
+          "value": 13
+        },
+        {
+          "entity": "russia",
+          "value": 100
+        },
+        {
+          "entity": "south-korea",
+          "value": 67
+        },
+        {
+          "entity": "japan",
+          "value": 287
+        },
+        {
+          "entity": "canada",
+          "value": 97
+        }
+      ]
+    },
+    {
+      "period": 1996,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 710
+        },
+        {
+          "entity": "france",
+          "value": 397
+        },
+        {
+          "entity": "china",
+          "value": 14
+        },
+        {
+          "entity": "russia",
+          "value": 109
+        },
+        {
+          "entity": "south-korea",
+          "value": 74
+        },
+        {
+          "entity": "japan",
+          "value": 297
+        },
+        {
+          "entity": "canada",
+          "value": 92
+        }
+      ]
+    },
+    {
+      "period": 1997,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 662
+        },
+        {
+          "entity": "france",
+          "value": 395
+        },
+        {
+          "entity": "china",
+          "value": 14
+        },
+        {
+          "entity": "russia",
+          "value": 108
+        },
+        {
+          "entity": "south-korea",
+          "value": 77
+        },
+        {
+          "entity": "japan",
+          "value": 321
+        },
+        {
+          "entity": "canada",
+          "value": 82
+        }
+      ]
+    },
+    {
+      "period": 1998,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 709
+        },
+        {
+          "entity": "france",
+          "value": 388
+        },
+        {
+          "entity": "china",
+          "value": 14
+        },
+        {
+          "entity": "russia",
+          "value": 104
+        },
+        {
+          "entity": "south-korea",
+          "value": 90
+        },
+        {
+          "entity": "japan",
+          "value": 326
+        },
+        {
+          "entity": "canada",
+          "value": 71
+        }
+      ]
+    },
+    {
+      "period": 1999,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 767
+        },
+        {
+          "entity": "france",
+          "value": 394
+        },
+        {
+          "entity": "china",
+          "value": 15
+        },
+        {
+          "entity": "russia",
+          "value": 122
+        },
+        {
+          "entity": "south-korea",
+          "value": 103
+        },
+        {
+          "entity": "japan",
+          "value": 317
+        },
+        {
+          "entity": "canada",
+          "value": 73
+        }
+      ]
+    },
+    {
+      "period": 2000,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 754
+        },
+        {
+          "entity": "france",
+          "value": 415
+        },
+        {
+          "entity": "china",
+          "value": 17
+        },
+        {
+          "entity": "russia",
+          "value": 131
+        },
+        {
+          "entity": "south-korea",
+          "value": 109
+        },
+        {
+          "entity": "japan",
+          "value": 319
+        },
+        {
+          "entity": "canada",
+          "value": 72
+        }
+      ]
+    },
+    {
+      "period": 2001,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 769
+        },
+        {
+          "entity": "france",
+          "value": 421
+        },
+        {
+          "entity": "china",
+          "value": 17
+        },
+        {
+          "entity": "russia",
+          "value": 137
+        },
+        {
+          "entity": "south-korea",
+          "value": 112
+        },
+        {
+          "entity": "japan",
+          "value": 321
+        },
+        {
+          "entity": "canada",
+          "value": 76
+        }
+      ]
+    },
+    {
+      "period": 2002,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 780
+        },
+        {
+          "entity": "france",
+          "value": 437
+        },
+        {
+          "entity": "china",
+          "value": 25
+        },
+        {
+          "entity": "russia",
+          "value": 142
+        },
+        {
+          "entity": "south-korea",
+          "value": 119
+        },
+        {
+          "entity": "japan",
+          "value": 314
+        },
+        {
+          "entity": "canada",
+          "value": 75
+        }
+      ]
+    },
+    {
+      "period": 2003,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 764
+        },
+        {
+          "entity": "france",
+          "value": 441
+        },
+        {
+          "entity": "china",
+          "value": 43
+        },
+        {
+          "entity": "russia",
+          "value": 150
+        },
+        {
+          "entity": "south-korea",
+          "value": 130
+        },
+        {
+          "entity": "japan",
+          "value": 230
+        },
+        {
+          "entity": "canada",
+          "value": 74
+        }
+      ]
+    },
+    {
+      "period": 2004,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 789
+        },
+        {
+          "entity": "france",
+          "value": 448
+        },
+        {
+          "entity": "china",
+          "value": 50
+        },
+        {
+          "entity": "russia",
+          "value": 145
+        },
+        {
+          "entity": "south-korea",
+          "value": 131
+        },
+        {
+          "entity": "japan",
+          "value": 286
+        },
+        {
+          "entity": "canada",
+          "value": 90
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 782
+        },
+        {
+          "entity": "france",
+          "value": 452
+        },
+        {
+          "entity": "china",
+          "value": 53
+        },
+        {
+          "entity": "russia",
+          "value": 149
+        },
+        {
+          "entity": "south-korea",
+          "value": 147
+        },
+        {
+          "entity": "japan",
+          "value": 293
+        },
+        {
+          "entity": "canada",
+          "value": 91
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 787
+        },
+        {
+          "entity": "france",
+          "value": 450
+        },
+        {
+          "entity": "china",
+          "value": 55
+        },
+        {
+          "entity": "russia",
+          "value": 156
+        },
+        {
+          "entity": "south-korea",
+          "value": 149
+        },
+        {
+          "entity": "japan",
+          "value": 304
+        },
+        {
+          "entity": "canada",
+          "value": 97
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 806
+        },
+        {
+          "entity": "france",
+          "value": 440
+        },
+        {
+          "entity": "china",
+          "value": 62
+        },
+        {
+          "entity": "russia",
+          "value": 160
+        },
+        {
+          "entity": "south-korea",
+          "value": 143
+        },
+        {
+          "entity": "japan",
+          "value": 279
+        },
+        {
+          "entity": "canada",
+          "value": 93
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 806
+        },
+        {
+          "entity": "france",
+          "value": 439
+        },
+        {
+          "entity": "china",
+          "value": 68
+        },
+        {
+          "entity": "russia",
+          "value": 163
+        },
+        {
+          "entity": "south-korea",
+          "value": 151
+        },
+        {
+          "entity": "japan",
+          "value": 252
+        },
+        {
+          "entity": "canada",
+          "value": 95
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 799
+        },
+        {
+          "entity": "france",
+          "value": 410
+        },
+        {
+          "entity": "china",
+          "value": 70
+        },
+        {
+          "entity": "russia",
+          "value": 164
+        },
+        {
+          "entity": "south-korea",
+          "value": 148
+        },
+        {
+          "entity": "japan",
+          "value": 275
+        },
+        {
+          "entity": "canada",
+          "value": 89
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 807
+        },
+        {
+          "entity": "france",
+          "value": 429
+        },
+        {
+          "entity": "china",
+          "value": 75
+        },
+        {
+          "entity": "russia",
+          "value": 170
+        },
+        {
+          "entity": "south-korea",
+          "value": 149
+        },
+        {
+          "entity": "japan",
+          "value": 292
+        },
+        {
+          "entity": "canada",
+          "value": 90
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 790
+        },
+        {
+          "entity": "france",
+          "value": 442
+        },
+        {
+          "entity": "china",
+          "value": 87
+        },
+        {
+          "entity": "russia",
+          "value": 173
+        },
+        {
+          "entity": "south-korea",
+          "value": 155
+        },
+        {
+          "entity": "japan",
+          "value": 163
+        },
+        {
+          "entity": "canada",
+          "value": 93
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 769
+        },
+        {
+          "entity": "france",
+          "value": 425
+        },
+        {
+          "entity": "china",
+          "value": 98
+        },
+        {
+          "entity": "russia",
+          "value": 178
+        },
+        {
+          "entity": "south-korea",
+          "value": 150
+        },
+        {
+          "entity": "japan",
+          "value": 18
+        },
+        {
+          "entity": "canada",
+          "value": 94
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 789
+        },
+        {
+          "entity": "france",
+          "value": 424
+        },
+        {
+          "entity": "china",
+          "value": 112
+        },
+        {
+          "entity": "russia",
+          "value": 173
+        },
+        {
+          "entity": "south-korea",
+          "value": 139
+        },
+        {
+          "entity": "japan",
+          "value": 15
+        },
+        {
+          "entity": "canada",
+          "value": 103
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 797
+        },
+        {
+          "entity": "france",
+          "value": 436
+        },
+        {
+          "entity": "china",
+          "value": 133
+        },
+        {
+          "entity": "russia",
+          "value": 181
+        },
+        {
+          "entity": "south-korea",
+          "value": 156
+        },
+        {
+          "entity": "japan",
+          "value": 0
+        },
+        {
+          "entity": "canada",
+          "value": 107
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 797
+        },
+        {
+          "entity": "france",
+          "value": 437
+        },
+        {
+          "entity": "china",
+          "value": 171
+        },
+        {
+          "entity": "russia",
+          "value": 195
+        },
+        {
+          "entity": "south-korea",
+          "value": 165
+        },
+        {
+          "entity": "japan",
+          "value": 5
+        },
+        {
+          "entity": "canada",
+          "value": 101
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 806
+        },
+        {
+          "entity": "france",
+          "value": 403
+        },
+        {
+          "entity": "china",
+          "value": 213
+        },
+        {
+          "entity": "russia",
+          "value": 197
+        },
+        {
+          "entity": "south-korea",
+          "value": 162
+        },
+        {
+          "entity": "japan",
+          "value": 18
+        },
+        {
+          "entity": "canada",
+          "value": 101
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 805
+        },
+        {
+          "entity": "france",
+          "value": 398
+        },
+        {
+          "entity": "china",
+          "value": 248
+        },
+        {
+          "entity": "russia",
+          "value": 203
+        },
+        {
+          "entity": "south-korea",
+          "value": 148
+        },
+        {
+          "entity": "japan",
+          "value": 29
+        },
+        {
+          "entity": "canada",
+          "value": 101
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 807
+        },
+        {
+          "entity": "france",
+          "value": 413
+        },
+        {
+          "entity": "china",
+          "value": 295
+        },
+        {
+          "entity": "russia",
+          "value": 205
+        },
+        {
+          "entity": "south-korea",
+          "value": 134
+        },
+        {
+          "entity": "japan",
+          "value": 49
+        },
+        {
+          "entity": "canada",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 809
+        },
+        {
+          "entity": "france",
+          "value": 399
+        },
+        {
+          "entity": "china",
+          "value": 349
+        },
+        {
+          "entity": "russia",
+          "value": 209
+        },
+        {
+          "entity": "south-korea",
+          "value": 146
+        },
+        {
+          "entity": "japan",
+          "value": 66
+        },
+        {
+          "entity": "canada",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 790
+        },
+        {
+          "entity": "france",
+          "value": 354
+        },
+        {
+          "entity": "china",
+          "value": 366
+        },
+        {
+          "entity": "russia",
+          "value": 216
+        },
+        {
+          "entity": "south-korea",
+          "value": 160
+        },
+        {
+          "entity": "japan",
+          "value": 43
+        },
+        {
+          "entity": "canada",
+          "value": 98
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 780
+        },
+        {
+          "entity": "france",
+          "value": 379
+        },
+        {
+          "entity": "china",
+          "value": 408
+        },
+        {
+          "entity": "russia",
+          "value": 222
+        },
+        {
+          "entity": "south-korea",
+          "value": 158
+        },
+        {
+          "entity": "japan",
+          "value": 61
+        },
+        {
+          "entity": "canada",
+          "value": 92
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 772
+        },
+        {
+          "entity": "france",
+          "value": 295
+        },
+        {
+          "entity": "china",
+          "value": 418
+        },
+        {
+          "entity": "russia",
+          "value": 224
+        },
+        {
+          "entity": "south-korea",
+          "value": 176
+        },
+        {
+          "entity": "japan",
+          "value": 52
+        },
+        {
+          "entity": "canada",
+          "value": 87
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 775
+        },
+        {
+          "entity": "france",
+          "value": 338
+        },
+        {
+          "entity": "china",
+          "value": 435
+        },
+        {
+          "entity": "russia",
+          "value": 217
+        },
+        {
+          "entity": "south-korea",
+          "value": 180
+        },
+        {
+          "entity": "japan",
+          "value": 77
+        },
+        {
+          "entity": "canada",
+          "value": 88
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 782
+        },
+        {
+          "entity": "france",
+          "value": 380
+        },
+        {
+          "entity": "china",
+          "value": 451
+        },
+        {
+          "entity": "russia",
+          "value": 216
+        },
+        {
+          "entity": "south-korea",
+          "value": 189
+        },
+        {
+          "entity": "japan",
+          "value": 85
+        },
+        {
+          "entity": "canada",
+          "value": 85
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "usa": "一貫して世界1位。発電量はこの30年以上ほぼ横ばい。",
+    "france": "発電の多くを原子力でまかなう国。長く世界2位だったが中国に抜かれた。",
+    "china": "1990年はゼロ。急ピッチの建設で2020年ごろ世界2位に。",
+    "russia": "主要な原子力発電国の一つ。",
+    "south-korea": "原子力の比率が高く、発電量を伸ばしてきた。",
+    "japan": "かつて世界3位。2011年の福島事故で激減し、現在は一部再稼働にとどまる。"
+  }
+}

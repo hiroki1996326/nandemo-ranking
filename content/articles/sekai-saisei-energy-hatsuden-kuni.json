@@ -1,0 +1,1205 @@
+{
+  "id": "sekai-saisei-energy-hatsuden-kuni",
+  "title": "世界の再生可能エネルギー発電量ランキング（国別）",
+  "seoTitle": "世界の再生可能エネルギー発電量ランキング｜1位は中国！",
+  "category": "keizai",
+  "unit": "TWh",
+  "source": "Our World in Data（Ember／Energy Institute）。再生可能エネルギー（水力・風力・太陽光・地熱・バイオマス等）による年間発電量。単位はTWh。1990年から2024年までの推移",
+  "sourceUrl": "https://ourworldindata.org/grapher/electricity-renewables",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-31",
+  "lead": "再生可能エネルギー（水力・風力・太陽光など）による発電量が世界で最も多い国は中国で、2024年は約3,399TWh。2位アメリカ（約1,057TWh）の約3倍にあたる。中国は1990年から発電量をおよそ27倍に増やし、巨大な水力発電に加え、近年は太陽光・風力を世界最大規模で導入して他国を大きく引き離した。3位ブラジル、4位カナダは、豊富な水力発電を背景に古くから再エネ発電が多い。ここでは1990年から2024年まで、上位国の推移を掲載している。",
+  "commentary": "再生可能エネルギー（水力・風力・太陽光・地熱・バイオマス等）による年間発電量（TWh）。中国が突出し、2位アメリカの約3倍。水力の豊富なブラジル・カナダも上位で、ドイツは太陽光・風力の導入で伸びた。",
+  "analysisHeading": "中国が突出、水力大国ブラジル・カナダも上位",
+  "analysis": [
+    "再生可能エネルギーの発電量は中国が突出しており、2024年は約3,399TWhと2位アメリカ（約1,057TWh）の約3倍にあたる。中国は1990年から発電量を約27倍に増やした。三峡ダムなどの巨大な水力発電に加え、2000年代半ばに他国を抜いて世界1位となり、近年は太陽光と風力も世界最大の規模で導入して差を広げた。",
+    "3位ブラジルと4位カナダは、古くから再エネ発電量が多い。両国とも国土に大きな川が多く、豊富な**水力発電**に恵まれているためである。ブラジルは電力の多くを水力でまかない、カナダも水力が発電の中心となっている。",
+    "6位ドイツは、太陽光と風力の導入で発電量を伸ばした国の代表である。『エネルギーの転換（エネルギーヴェンデ）』と呼ばれる政策のもと、脱原発と再エネ拡大を進めてきた。日本を含め、多くの国で近年は太陽光・風力による発電が急速に増えている。"
+  ],
+  "sections": [
+    {
+      "h2": "再生可能エネルギーとは"
+    },
+    {
+      "p": "再生可能エネルギーとは、使ってもなくならず、繰り返し利用できるエネルギーのことである。**水力・風力・太陽光・地熱・バイオマス**などがある。ここではこれらによる年間の発電量を、エネルギー量（TWh＝テラワット時）で示している。石炭や天然ガスと違って燃やしても二酸化炭素をほとんど出さないため、地球温暖化対策の中心として世界的に導入が進んでいる。"
+    },
+    {
+      "h2": "中国が世界を大きくリード"
+    },
+    {
+      "p": "**中国**は再生可能エネルギーの発電量で世界1位で、2位アメリカの約3倍にあたる。三峡ダムをはじめとする巨大な**水力発電**を持つうえ、近年は**太陽光**と**風力**を世界最大の規模で導入している。太陽光パネルや風力発電機の生産でも世界最大であり、国内での導入と輸出の両面で再エネを牽引している。"
+    },
+    {
+      "h2": "水力大国のブラジルとカナダ"
+    },
+    {
+      "p": "3位**ブラジル**と4位**カナダ**は、古くから再エネ発電量が多い。これは両国が豊富な**水力発電**に恵まれているためである。大きな川が多く、ダムによる発電が発電全体の大きな割合を占める。太陽光や風力が注目される以前から、水力という形で再生可能エネルギーを大量に使ってきた国々である。"
+    }
+  ],
+  "data": [
+    {
+      "period": 1990,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 127
+        },
+        {
+          "entity": "usa",
+          "value": 353
+        },
+        {
+          "entity": "brazil",
+          "value": 211
+        },
+        {
+          "entity": "canada",
+          "value": 300
+        },
+        {
+          "entity": "india",
+          "value": 66
+        },
+        {
+          "entity": "germany",
+          "value": 19
+        },
+        {
+          "entity": "japan",
+          "value": 98
+        }
+      ]
+    },
+    {
+      "period": 1991,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 125
+        },
+        {
+          "entity": "usa",
+          "value": 351
+        },
+        {
+          "entity": "brazil",
+          "value": 222
+        },
+        {
+          "entity": "canada",
+          "value": 311
+        },
+        {
+          "entity": "india",
+          "value": 74
+        },
+        {
+          "entity": "germany",
+          "value": 17
+        },
+        {
+          "entity": "japan",
+          "value": 106
+        }
+      ]
+    },
+    {
+      "period": 1992,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 131
+        },
+        {
+          "entity": "usa",
+          "value": 320
+        },
+        {
+          "entity": "brazil",
+          "value": 228
+        },
+        {
+          "entity": "canada",
+          "value": 320
+        },
+        {
+          "entity": "india",
+          "value": 70
+        },
+        {
+          "entity": "germany",
+          "value": 20
+        },
+        {
+          "entity": "japan",
+          "value": 92
+        }
+      ]
+    },
+    {
+      "period": 1993,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 152
+        },
+        {
+          "entity": "usa",
+          "value": 350
+        },
+        {
+          "entity": "brazil",
+          "value": 240
+        },
+        {
+          "entity": "canada",
+          "value": 327
+        },
+        {
+          "entity": "india",
+          "value": 71
+        },
+        {
+          "entity": "germany",
+          "value": 21
+        },
+        {
+          "entity": "japan",
+          "value": 104
+        }
+      ]
+    },
+    {
+      "period": 1994,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 168
+        },
+        {
+          "entity": "usa",
+          "value": 330
+        },
+        {
+          "entity": "brazil",
+          "value": 248
+        },
+        {
+          "entity": "canada",
+          "value": 334
+        },
+        {
+          "entity": "india",
+          "value": 81
+        },
+        {
+          "entity": "germany",
+          "value": 23
+        },
+        {
+          "entity": "japan",
+          "value": 78
+        }
+      ]
+    },
+    {
+      "period": 1995,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 194
+        },
+        {
+          "entity": "usa",
+          "value": 378
+        },
+        {
+          "entity": "brazil",
+          "value": 259
+        },
+        {
+          "entity": "canada",
+          "value": 341
+        },
+        {
+          "entity": "india",
+          "value": 77
+        },
+        {
+          "entity": "germany",
+          "value": 26
+        },
+        {
+          "entity": "japan",
+          "value": 93
+        }
+      ]
+    },
+    {
+      "period": 1996,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 190
+        },
+        {
+          "entity": "usa",
+          "value": 416
+        },
+        {
+          "entity": "brazil",
+          "value": 272
+        },
+        {
+          "entity": "canada",
+          "value": 362
+        },
+        {
+          "entity": "india",
+          "value": 71
+        },
+        {
+          "entity": "germany",
+          "value": 27
+        },
+        {
+          "entity": "japan",
+          "value": 92
+        }
+      ]
+    },
+    {
+      "period": 1997,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 199
+        },
+        {
+          "entity": "usa",
+          "value": 426
+        },
+        {
+          "entity": "brazil",
+          "value": 286
+        },
+        {
+          "entity": "canada",
+          "value": 357
+        },
+        {
+          "entity": "india",
+          "value": 72
+        },
+        {
+          "entity": "germany",
+          "value": 23
+        },
+        {
+          "entity": "japan",
+          "value": 103
+        }
+      ]
+    },
+    {
+      "period": 1998,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 202
+        },
+        {
+          "entity": "usa",
+          "value": 391
+        },
+        {
+          "entity": "brazil",
+          "value": 299
+        },
+        {
+          "entity": "canada",
+          "value": 340
+        },
+        {
+          "entity": "india",
+          "value": 86
+        },
+        {
+          "entity": "germany",
+          "value": 25
+        },
+        {
+          "entity": "japan",
+          "value": 105
+        }
+      ]
+    },
+    {
+      "period": 1999,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 200
+        },
+        {
+          "entity": "usa",
+          "value": 388
+        },
+        {
+          "entity": "brazil",
+          "value": 301
+        },
+        {
+          "entity": "canada",
+          "value": 354
+        },
+        {
+          "entity": "india",
+          "value": 85
+        },
+        {
+          "entity": "germany",
+          "value": 29
+        },
+        {
+          "entity": "japan",
+          "value": 101
+        }
+      ]
+    },
+    {
+      "period": 2000,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 226
+        },
+        {
+          "entity": "usa",
+          "value": 351
+        },
+        {
+          "entity": "brazil",
+          "value": 312
+        },
+        {
+          "entity": "canada",
+          "value": 366
+        },
+        {
+          "entity": "india",
+          "value": 80
+        },
+        {
+          "entity": "germany",
+          "value": 35
+        },
+        {
+          "entity": "japan",
+          "value": 101
+        }
+      ]
+    },
+    {
+      "period": 2001,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 281
+        },
+        {
+          "entity": "usa",
+          "value": 280
+        },
+        {
+          "entity": "brazil",
+          "value": 277
+        },
+        {
+          "entity": "canada",
+          "value": 342
+        },
+        {
+          "entity": "india",
+          "value": 76
+        },
+        {
+          "entity": "germany",
+          "value": 38
+        },
+        {
+          "entity": "japan",
+          "value": 98
+        }
+      ]
+    },
+    {
+      "period": 2002,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 291
+        },
+        {
+          "entity": "usa",
+          "value": 336
+        },
+        {
+          "entity": "brazil",
+          "value": 296
+        },
+        {
+          "entity": "canada",
+          "value": 360
+        },
+        {
+          "entity": "india",
+          "value": 73
+        },
+        {
+          "entity": "germany",
+          "value": 44
+        },
+        {
+          "entity": "japan",
+          "value": 99
+        }
+      ]
+    },
+    {
+      "period": 2003,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 287
+        },
+        {
+          "entity": "usa",
+          "value": 349
+        },
+        {
+          "entity": "brazil",
+          "value": 318
+        },
+        {
+          "entity": "canada",
+          "value": 346
+        },
+        {
+          "entity": "india",
+          "value": 75
+        },
+        {
+          "entity": "germany",
+          "value": 47
+        },
+        {
+          "entity": "japan",
+          "value": 112
+        }
+      ]
+    },
+    {
+      "period": 2004,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 357
+        },
+        {
+          "entity": "usa",
+          "value": 345
+        },
+        {
+          "entity": "brazil",
+          "value": 333
+        },
+        {
+          "entity": "canada",
+          "value": 349
+        },
+        {
+          "entity": "india",
+          "value": 109
+        },
+        {
+          "entity": "germany",
+          "value": 58
+        },
+        {
+          "entity": "japan",
+          "value": 112
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 404
+        },
+        {
+          "entity": "usa",
+          "value": 353
+        },
+        {
+          "entity": "brazil",
+          "value": 351
+        },
+        {
+          "entity": "canada",
+          "value": 373
+        },
+        {
+          "entity": "india",
+          "value": 107
+        },
+        {
+          "entity": "germany",
+          "value": 63
+        },
+        {
+          "entity": "japan",
+          "value": 103
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 447
+        },
+        {
+          "entity": "usa",
+          "value": 381
+        },
+        {
+          "entity": "brazil",
+          "value": 364
+        },
+        {
+          "entity": "canada",
+          "value": 364
+        },
+        {
+          "entity": "india",
+          "value": 128
+        },
+        {
+          "entity": "germany",
+          "value": 73
+        },
+        {
+          "entity": "japan",
+          "value": 114
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 501
+        },
+        {
+          "entity": "usa",
+          "value": 348
+        },
+        {
+          "entity": "brazil",
+          "value": 393
+        },
+        {
+          "entity": "canada",
+          "value": 380
+        },
+        {
+          "entity": "india",
+          "value": 142
+        },
+        {
+          "entity": "germany",
+          "value": 89
+        },
+        {
+          "entity": "japan",
+          "value": 102
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 665
+        },
+        {
+          "entity": "usa",
+          "value": 377
+        },
+        {
+          "entity": "brazil",
+          "value": 391
+        },
+        {
+          "entity": "canada",
+          "value": 389
+        },
+        {
+          "entity": "india",
+          "value": 139
+        },
+        {
+          "entity": "germany",
+          "value": 94
+        },
+        {
+          "entity": "japan",
+          "value": 102
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 664
+        },
+        {
+          "entity": "usa",
+          "value": 416
+        },
+        {
+          "entity": "brazil",
+          "value": 415
+        },
+        {
+          "entity": "canada",
+          "value": 384
+        },
+        {
+          "entity": "india",
+          "value": 133
+        },
+        {
+          "entity": "germany",
+          "value": 96
+        },
+        {
+          "entity": "japan",
+          "value": 97
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 786
+        },
+        {
+          "entity": "usa",
+          "value": 424
+        },
+        {
+          "entity": "brazil",
+          "value": 437
+        },
+        {
+          "entity": "canada",
+          "value": 371
+        },
+        {
+          "entity": "india",
+          "value": 142
+        },
+        {
+          "entity": "germany",
+          "value": 105
+        },
+        {
+          "entity": "japan",
+          "value": 118
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 792
+        },
+        {
+          "entity": "usa",
+          "value": 510
+        },
+        {
+          "entity": "brazil",
+          "value": 464
+        },
+        {
+          "entity": "canada",
+          "value": 397
+        },
+        {
+          "entity": "india",
+          "value": 172
+        },
+        {
+          "entity": "germany",
+          "value": 124
+        },
+        {
+          "entity": "japan",
+          "value": 114
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1000
+        },
+        {
+          "entity": "usa",
+          "value": 492
+        },
+        {
+          "entity": "brazil",
+          "value": 456
+        },
+        {
+          "entity": "canada",
+          "value": 403
+        },
+        {
+          "entity": "india",
+          "value": 162
+        },
+        {
+          "entity": "germany",
+          "value": 143
+        },
+        {
+          "entity": "japan",
+          "value": 111
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1093
+        },
+        {
+          "entity": "usa",
+          "value": 520
+        },
+        {
+          "entity": "brazil",
+          "value": 439
+        },
+        {
+          "entity": "canada",
+          "value": 415
+        },
+        {
+          "entity": "india",
+          "value": 183
+        },
+        {
+          "entity": "germany",
+          "value": 152
+        },
+        {
+          "entity": "japan",
+          "value": 121
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1289
+        },
+        {
+          "entity": "usa",
+          "value": 547
+        },
+        {
+          "entity": "brazil",
+          "value": 433
+        },
+        {
+          "entity": "canada",
+          "value": 407
+        },
+        {
+          "entity": "india",
+          "value": 198
+        },
+        {
+          "entity": "germany",
+          "value": 162
+        },
+        {
+          "entity": "japan",
+          "value": 134
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1394
+        },
+        {
+          "entity": "usa",
+          "value": 556
+        },
+        {
+          "entity": "brazil",
+          "value": 431
+        },
+        {
+          "entity": "canada",
+          "value": 422
+        },
+        {
+          "entity": "india",
+          "value": 192
+        },
+        {
+          "entity": "germany",
+          "value": 188
+        },
+        {
+          "entity": "japan",
+          "value": 154
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1523
+        },
+        {
+          "entity": "usa",
+          "value": 625
+        },
+        {
+          "entity": "brazil",
+          "value": 466
+        },
+        {
+          "entity": "canada",
+          "value": 431
+        },
+        {
+          "entity": "india",
+          "value": 201
+        },
+        {
+          "entity": "germany",
+          "value": 189
+        },
+        {
+          "entity": "japan",
+          "value": 152
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1667
+        },
+        {
+          "entity": "usa",
+          "value": 707
+        },
+        {
+          "entity": "brazil",
+          "value": 467
+        },
+        {
+          "entity": "canada",
+          "value": 441
+        },
+        {
+          "entity": "india",
+          "value": 226
+        },
+        {
+          "entity": "germany",
+          "value": 216
+        },
+        {
+          "entity": "japan",
+          "value": 163
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1835
+        },
+        {
+          "entity": "usa",
+          "value": 733
+        },
+        {
+          "entity": "brazil",
+          "value": 495
+        },
+        {
+          "entity": "canada",
+          "value": 433
+        },
+        {
+          "entity": "india",
+          "value": 256
+        },
+        {
+          "entity": "germany",
+          "value": 223
+        },
+        {
+          "entity": "japan",
+          "value": 175
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 2015
+        },
+        {
+          "entity": "usa",
+          "value": 761
+        },
+        {
+          "entity": "brazil",
+          "value": 515
+        },
+        {
+          "entity": "canada",
+          "value": 429
+        },
+        {
+          "entity": "india",
+          "value": 282
+        },
+        {
+          "entity": "germany",
+          "value": 241
+        },
+        {
+          "entity": "japan",
+          "value": 176
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 2185
+        },
+        {
+          "entity": "usa",
+          "value": 821
+        },
+        {
+          "entity": "brazil",
+          "value": 523
+        },
+        {
+          "entity": "canada",
+          "value": 437
+        },
+        {
+          "entity": "india",
+          "value": 297
+        },
+        {
+          "entity": "germany",
+          "value": 251
+        },
+        {
+          "entity": "japan",
+          "value": 193
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 2449
+        },
+        {
+          "entity": "usa",
+          "value": 862
+        },
+        {
+          "entity": "brazil",
+          "value": 508
+        },
+        {
+          "entity": "canada",
+          "value": 435
+        },
+        {
+          "entity": "india",
+          "value": 315
+        },
+        {
+          "entity": "germany",
+          "value": 232
+        },
+        {
+          "entity": "japan",
+          "value": 208
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 2671
+        },
+        {
+          "entity": "usa",
+          "value": 958
+        },
+        {
+          "entity": "brazil",
+          "value": 594
+        },
+        {
+          "entity": "canada",
+          "value": 452
+        },
+        {
+          "entity": "india",
+          "value": 364
+        },
+        {
+          "entity": "germany",
+          "value": 252
+        },
+        {
+          "entity": "japan",
+          "value": 213
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 2894
+        },
+        {
+          "entity": "usa",
+          "value": 965
+        },
+        {
+          "entity": "brazil",
+          "value": 630
+        },
+        {
+          "entity": "canada",
+          "value": 419
+        },
+        {
+          "entity": "india",
+          "value": 370
+        },
+        {
+          "entity": "germany",
+          "value": 277
+        },
+        {
+          "entity": "japan",
+          "value": 223
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 3399
+        },
+        {
+          "entity": "usa",
+          "value": 1057
+        },
+        {
+          "entity": "brazil",
+          "value": 651
+        },
+        {
+          "entity": "canada",
+          "value": 409
+        },
+        {
+          "entity": "india",
+          "value": 403
+        },
+        {
+          "entity": "germany",
+          "value": 291
+        },
+        {
+          "entity": "japan",
+          "value": 233
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "china": "1990年から発電量を約27倍に増やし世界1位。水力に加え太陽光・風力を世界最大規模で導入。",
+    "usa": "世界2位。水力・風力・太陽光をバランスよく持つ。",
+    "brazil": "豊富な水力発電で古くから再エネ発電が多い。世界3位。",
+    "canada": "水力が発電の中心。世界4位。",
+    "india": "近年、太陽光を中心に急速に導入を進めている。",
+    "germany": "『エネルギーの転換』政策で太陽光・風力を拡大した。",
+    "japan": "太陽光を中心に導入が進む。"
+  }
+}

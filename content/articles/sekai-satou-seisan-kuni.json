@@ -1,0 +1,1832 @@
+{
+  "id": "sekai-satou-seisan-kuni",
+  "title": "世界の砂糖生産量ランキング（国別）",
+  "seoTitle": "世界の砂糖生産量ランキング｜1位はブラジル！",
+  "category": "keizai",
+  "unit": "トン",
+  "source": "FAOSTAT（国連食糧農業機関）。砂糖（サトウキビ・てん菜からつくられる粗糖）の生産量。1970年から2023年までの推移",
+  "sourceUrl": "https://www.fao.org/faostat/en/#data/QCL",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-31",
+  "lead": "世界で最も砂糖を生産している国はブラジルで、2023年は約4,197万トン。2位はインド（約3,700万トン）で、この二強で世界のおよそ4割を生産している。両国は生産量が近く、その年の作柄によって何度も1位が入れ替わってきた。近年はブラジルが1位の年が多いが、2018〜2019年にはインドが上回るなど、順位は毎年のように動いている。3位以下は中国・タイ・アメリカと続く。砂糖は、熱帯のサトウキビと、温帯のてん菜（ビート）の両方からつくられる。ここでは1970年から2023年まで、上位国の推移を掲載している。",
+  "commentary": "砂糖（サトウキビ・てん菜からつくられる粗糖）の生産量。ブラジルとインドの二強で世界の約4割を占め、作柄しだいで1位が何度も入れ替わってきた。近年はブラジルが1位の年が多い。砂糖は熱帯のサトウキビと温帯のてん菜からつくられる。",
+  "analysisHeading": "ブラジルとインドの二強、1位は何度も入れ替わる",
+  "analysis": [
+    "砂糖の生産はブラジルとインドの二強で、この2か国だけで世界のおよそ4割を生産している。両国は生産量が近いうえ、砂糖の原料であるサトウキビは天候に左右されやすいため、その年の作柄によって1位が何度も入れ替わってきた。近年はブラジルが1位の年が多いが、2018〜2019年にはインドが上回った。",
+    "ブラジルが強い背景には、サトウキビを砂糖と燃料用エタノールの両方に使う仕組みがある。砂糖の国際価格やエタノール需要に応じて生産を調整でき、広大な農地を生かして生産を拡大してきた。ブラジルは世界最大の砂糖の輸出国でもある。一方インドは、人口が多く生産・消費とも大きい。",
+    "3位以下は中国、タイ、アメリカ、パキスタン、メキシコと続く。砂糖の原料は、ブラジルやインド、タイのような熱帯・亜熱帯で育つ『サトウキビ』と、アメリカやヨーロッパのような温帯で育つ『てん菜（ビート）』の2種類がある。とくにタイはサトウキビ由来の砂糖の主要な輸出国である。"
+  ],
+  "sections": [
+    {
+      "h2": "砂糖は何からつくられるか"
+    },
+    {
+      "p": "砂糖の原料は大きく2種類ある。ひとつは熱帯・亜熱帯で育つ**サトウキビ**で、ブラジル・インド・タイなどが主産地。もうひとつは温帯で育つ**てん菜（ビート）**で、ヨーロッパ・ロシア・アメリカなどでつくられる。ここでの数値は、これらからつくられた砂糖（粗糖）の生産量を合わせたものである。"
+    },
+    {
+      "h2": "ブラジルとインドの二強"
+    },
+    {
+      "p": "砂糖生産は**ブラジル**と**インド**が突出しており、この2か国で世界のおよそ4割を占める。両国は生産量が近く、天候による作柄の差で1位が何度も入れ替わってきた。近年はサトウキビの生産を拡大した**ブラジル**が1位の年が多いが、2018〜2019年には**インド**が世界1位となった。ブラジルは世界最大の砂糖輸出国でもある。"
+    },
+    {
+      "h2": "砂糖とエタノールの関係"
+    },
+    {
+      "p": "ブラジルの強さの背景には、サトウキビを**砂糖**と燃料用の**エタノール**の両方に振り分けられる仕組みがある。砂糖の国際価格が高いときは砂糖を多くつくり、安いときはエタノールに回すなど、市場に応じて生産を調整できる。このため、世界の砂糖の供給と価格はブラジルの動向に大きく左右される。"
+    }
+  ],
+  "data": [
+    {
+      "period": 1970,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 5334587
+        },
+        {
+          "entity": "india",
+          "value": 4632000
+        },
+        {
+          "entity": "china",
+          "value": 2106441
+        },
+        {
+          "entity": "thailand",
+          "value": 407000
+        },
+        {
+          "entity": "usa",
+          "value": 5205400
+        },
+        {
+          "entity": "pakistan",
+          "value": 662600
+        },
+        {
+          "entity": "mexico",
+          "value": 2354059
+        }
+      ]
+    },
+    {
+      "period": 1971,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 5611927
+        },
+        {
+          "entity": "india",
+          "value": 4065000
+        },
+        {
+          "entity": "china",
+          "value": 2399458
+        },
+        {
+          "entity": "thailand",
+          "value": 584000
+        },
+        {
+          "entity": "usa",
+          "value": 5395890
+        },
+        {
+          "entity": "pakistan",
+          "value": 564100
+        },
+        {
+          "entity": "mexico",
+          "value": 2553960
+        }
+      ]
+    },
+    {
+      "period": 1972,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 6163589
+        },
+        {
+          "entity": "india",
+          "value": 3378000
+        },
+        {
+          "entity": "china",
+          "value": 2460132
+        },
+        {
+          "entity": "thailand",
+          "value": 586000
+        },
+        {
+          "entity": "usa",
+          "value": 5780570
+        },
+        {
+          "entity": "pakistan",
+          "value": 407700
+        },
+        {
+          "entity": "mexico",
+          "value": 2516548
+        }
+      ]
+    },
+    {
+      "period": 1973,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 6942714
+        },
+        {
+          "entity": "india",
+          "value": 4209000
+        },
+        {
+          "entity": "china",
+          "value": 2885591
+        },
+        {
+          "entity": "thailand",
+          "value": 718000
+        },
+        {
+          "entity": "usa",
+          "value": 5229900
+        },
+        {
+          "entity": "pakistan",
+          "value": 466000
+        },
+        {
+          "entity": "mexico",
+          "value": 2762754
+        }
+      ]
+    },
+    {
+      "period": 1974,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 6986484
+        },
+        {
+          "entity": "india",
+          "value": 4292000
+        },
+        {
+          "entity": "china",
+          "value": 2925621
+        },
+        {
+          "entity": "thailand",
+          "value": 968000
+        },
+        {
+          "entity": "usa",
+          "value": 4924173
+        },
+        {
+          "entity": "pakistan",
+          "value": 660900
+        },
+        {
+          "entity": "mexico",
+          "value": 2829357
+        }
+      ]
+    },
+    {
+      "period": 1975,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 6017000
+        },
+        {
+          "entity": "india",
+          "value": 5300000
+        },
+        {
+          "entity": "china",
+          "value": 2669068
+        },
+        {
+          "entity": "thailand",
+          "value": 1139000
+        },
+        {
+          "entity": "usa",
+          "value": 6307622
+        },
+        {
+          "entity": "pakistan",
+          "value": 546000
+        },
+        {
+          "entity": "mexico",
+          "value": 2722129
+        }
+      ]
+    },
+    {
+      "period": 1976,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 7598000
+        },
+        {
+          "entity": "india",
+          "value": 4633000
+        },
+        {
+          "entity": "china",
+          "value": 2640088
+        },
+        {
+          "entity": "thailand",
+          "value": 1710000
+        },
+        {
+          "entity": "usa",
+          "value": 6004624
+        },
+        {
+          "entity": "pakistan",
+          "value": 685000
+        },
+        {
+          "entity": "mexico",
+          "value": 2731757
+        }
+      ]
+    },
+    {
+      "period": 1977,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 8760000
+        },
+        {
+          "entity": "india",
+          "value": 5261000
+        },
+        {
+          "entity": "china",
+          "value": 3140551
+        },
+        {
+          "entity": "thailand",
+          "value": 2282000
+        },
+        {
+          "entity": "usa",
+          "value": 5254386
+        },
+        {
+          "entity": "pakistan",
+          "value": 736260
+        },
+        {
+          "entity": "mexico",
+          "value": 2728421
+        }
+      ]
+    },
+    {
+      "period": 1978,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 7767000
+        },
+        {
+          "entity": "india",
+          "value": 7019000
+        },
+        {
+          "entity": "china",
+          "value": 3257657
+        },
+        {
+          "entity": "thailand",
+          "value": 1624000
+        },
+        {
+          "entity": "usa",
+          "value": 5351455
+        },
+        {
+          "entity": "pakistan",
+          "value": 929747
+        },
+        {
+          "entity": "mexico",
+          "value": 3072215
+        }
+      ]
+    },
+    {
+      "period": 1979,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 7029500
+        },
+        {
+          "entity": "india",
+          "value": 6350000
+        },
+        {
+          "entity": "china",
+          "value": 3636129
+        },
+        {
+          "entity": "thailand",
+          "value": 1862000
+        },
+        {
+          "entity": "usa",
+          "value": 5061157
+        },
+        {
+          "entity": "pakistan",
+          "value": 662005
+        },
+        {
+          "entity": "mexico",
+          "value": 3058000
+        }
+      ]
+    },
+    {
+      "period": 1980,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 8521300
+        },
+        {
+          "entity": "india",
+          "value": 5170000
+        },
+        {
+          "entity": "china",
+          "value": 3696782
+        },
+        {
+          "entity": "thailand",
+          "value": 1098000
+        },
+        {
+          "entity": "usa",
+          "value": 5331497
+        },
+        {
+          "entity": "pakistan",
+          "value": 623808
+        },
+        {
+          "entity": "mexico",
+          "value": 2763000
+        }
+      ]
+    },
+    {
+      "period": 1981,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 8423300
+        },
+        {
+          "entity": "india",
+          "value": 6542000
+        },
+        {
+          "entity": "china",
+          "value": 4231996
+        },
+        {
+          "entity": "thailand",
+          "value": 1641000
+        },
+        {
+          "entity": "usa",
+          "value": 5643500
+        },
+        {
+          "entity": "pakistan",
+          "value": 927223
+        },
+        {
+          "entity": "mexico",
+          "value": 2518000
+        }
+      ]
+    },
+    {
+      "period": 1982,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 9312400
+        },
+        {
+          "entity": "india",
+          "value": 9727000
+        },
+        {
+          "entity": "china",
+          "value": 4976823
+        },
+        {
+          "entity": "thailand",
+          "value": 2930000
+        },
+        {
+          "entity": "usa",
+          "value": 5261650
+        },
+        {
+          "entity": "pakistan",
+          "value": 1411637
+        },
+        {
+          "entity": "mexico",
+          "value": 2842000
+        }
+      ]
+    },
+    {
+      "period": 1983,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 9576300
+        },
+        {
+          "entity": "india",
+          "value": 9508000
+        },
+        {
+          "entity": "china",
+          "value": 4543052
+        },
+        {
+          "entity": "thailand",
+          "value": 2305000
+        },
+        {
+          "entity": "usa",
+          "value": 5106500
+        },
+        {
+          "entity": "pakistan",
+          "value": 1247000
+        },
+        {
+          "entity": "mexico",
+          "value": 3078000
+        }
+      ]
+    },
+    {
+      "period": 1984,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 9331900
+        },
+        {
+          "entity": "india",
+          "value": 7042000
+        },
+        {
+          "entity": "china",
+          "value": 5364233
+        },
+        {
+          "entity": "thailand",
+          "value": 2349000
+        },
+        {
+          "entity": "usa",
+          "value": 5363250
+        },
+        {
+          "entity": "pakistan",
+          "value": 1248000
+        },
+        {
+          "entity": "mexico",
+          "value": 3242000
+        }
+      ]
+    },
+    {
+      "period": 1985,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 8273800
+        },
+        {
+          "entity": "india",
+          "value": 7071000
+        },
+        {
+          "entity": "china",
+          "value": 6268598
+        },
+        {
+          "entity": "thailand",
+          "value": 2572000
+        },
+        {
+          "entity": "usa",
+          "value": 5473020
+        },
+        {
+          "entity": "pakistan",
+          "value": 1430000
+        },
+        {
+          "entity": "mexico",
+          "value": 3333396
+        }
+      ]
+    },
+    {
+      "period": 1986,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 8650000
+        },
+        {
+          "entity": "india",
+          "value": 8149000
+        },
+        {
+          "entity": "china",
+          "value": 6350004
+        },
+        {
+          "entity": "thailand",
+          "value": 2586000
+        },
+        {
+          "entity": "usa",
+          "value": 6075400
+        },
+        {
+          "entity": "pakistan",
+          "value": 1213000
+        },
+        {
+          "entity": "mexico",
+          "value": 3761483
+        }
+      ]
+    },
+    {
+      "period": 1987,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 8458400
+        },
+        {
+          "entity": "india",
+          "value": 10153000
+        },
+        {
+          "entity": "china",
+          "value": 5226870
+        },
+        {
+          "entity": "thailand",
+          "value": 2637000
+        },
+        {
+          "entity": "usa",
+          "value": 6650500
+        },
+        {
+          "entity": "pakistan",
+          "value": 1398000
+        },
+        {
+          "entity": "mexico",
+          "value": 3905684
+        }
+      ]
+    },
+    {
+      "period": 1988,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 8683000
+        },
+        {
+          "entity": "india",
+          "value": 10591000
+        },
+        {
+          "entity": "china",
+          "value": 5991066
+        },
+        {
+          "entity": "thailand",
+          "value": 2704000
+        },
+        {
+          "entity": "usa",
+          "value": 6264000
+        },
+        {
+          "entity": "pakistan",
+          "value": 1936000
+        },
+        {
+          "entity": "mexico",
+          "value": 3749431
+        }
+      ]
+    },
+    {
+      "period": 1989,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 7793400
+        },
+        {
+          "entity": "india",
+          "value": 10177000
+        },
+        {
+          "entity": "china",
+          "value": 6338148
+        },
+        {
+          "entity": "thailand",
+          "value": 4051852
+        },
+        {
+          "entity": "usa",
+          "value": 6003000
+        },
+        {
+          "entity": "pakistan",
+          "value": 2011000
+        },
+        {
+          "entity": "mexico",
+          "value": 3624891
+        }
+      ]
+    },
+    {
+      "period": 1990,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 7935000
+        },
+        {
+          "entity": "india",
+          "value": 12575000
+        },
+        {
+          "entity": "china",
+          "value": 7396680
+        },
+        {
+          "entity": "thailand",
+          "value": 3505786
+        },
+        {
+          "entity": "usa",
+          "value": 6344000
+        },
+        {
+          "entity": "pakistan",
+          "value": 2017000
+        },
+        {
+          "entity": "mexico",
+          "value": 3278291
+        }
+      ]
+    },
+    {
+      "period": 1991,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 9348000
+        },
+        {
+          "entity": "india",
+          "value": 13707000
+        },
+        {
+          "entity": "china",
+          "value": 9022665
+        },
+        {
+          "entity": "thailand",
+          "value": 4054650
+        },
+        {
+          "entity": "usa",
+          "value": 6628000
+        },
+        {
+          "entity": "pakistan",
+          "value": 2100000
+        },
+        {
+          "entity": "mexico",
+          "value": 3660000
+        }
+      ]
+    },
+    {
+      "period": 1992,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 9986000
+        },
+        {
+          "entity": "india",
+          "value": 15249000
+        },
+        {
+          "entity": "china",
+          "value": 8920358
+        },
+        {
+          "entity": "thailand",
+          "value": 5106000
+        },
+        {
+          "entity": "usa",
+          "value": 7110000
+        },
+        {
+          "entity": "pakistan",
+          "value": 2528000
+        },
+        {
+          "entity": "mexico",
+          "value": 3290000
+        }
+      ]
+    },
+    {
+      "period": 1993,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 10038000
+        },
+        {
+          "entity": "india",
+          "value": 12447000
+        },
+        {
+          "entity": "china",
+          "value": 6980687
+        },
+        {
+          "entity": "thailand",
+          "value": 3792000
+        },
+        {
+          "entity": "usa",
+          "value": 6945000
+        },
+        {
+          "entity": "pakistan",
+          "value": 2604000
+        },
+        {
+          "entity": "mexico",
+          "value": 4078000
+        }
+      ]
+    },
+    {
+      "period": 1994,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 12618000
+        },
+        {
+          "entity": "india",
+          "value": 11704000
+        },
+        {
+          "entity": "china",
+          "value": 6409459
+        },
+        {
+          "entity": "thailand",
+          "value": 3974000
+        },
+        {
+          "entity": "usa",
+          "value": 7192000
+        },
+        {
+          "entity": "pakistan",
+          "value": 3177000
+        },
+        {
+          "entity": "mexico",
+          "value": 3549000
+        }
+      ]
+    },
+    {
+      "period": 1995,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 13594000
+        },
+        {
+          "entity": "india",
+          "value": 16410000
+        },
+        {
+          "entity": "china",
+          "value": 7213579
+        },
+        {
+          "entity": "thailand",
+          "value": 5202000
+        },
+        {
+          "entity": "usa",
+          "value": 6686000
+        },
+        {
+          "entity": "pakistan",
+          "value": 3263000
+        },
+        {
+          "entity": "mexico",
+          "value": 4649900
+        }
+      ]
+    },
+    {
+      "period": 1996,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 14775000
+        },
+        {
+          "entity": "india",
+          "value": 18225000
+        },
+        {
+          "entity": "china",
+          "value": 7764591
+        },
+        {
+          "entity": "thailand",
+          "value": 6085000
+        },
+        {
+          "entity": "usa",
+          "value": 6537000
+        },
+        {
+          "entity": "pakistan",
+          "value": 2685000
+        },
+        {
+          "entity": "mexico",
+          "value": 4667300
+        }
+      ]
+    },
+    {
+      "period": 1997,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 15975000
+        },
+        {
+          "entity": "india",
+          "value": 14616000
+        },
+        {
+          "entity": "china",
+          "value": 9122916
+        },
+        {
+          "entity": "thailand",
+          "value": 6188000
+        },
+        {
+          "entity": "usa",
+          "value": 7276000
+        },
+        {
+          "entity": "pakistan",
+          "value": 2601000
+        },
+        {
+          "entity": "mexico",
+          "value": 4839800
+        }
+      ]
+    },
+    {
+      "period": 1998,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 19232000
+        },
+        {
+          "entity": "india",
+          "value": 14592000
+        },
+        {
+          "entity": "china",
+          "value": 10047803
+        },
+        {
+          "entity": "thailand",
+          "value": 4325100
+        },
+        {
+          "entity": "usa",
+          "value": 7598000
+        },
+        {
+          "entity": "pakistan",
+          "value": 3860000
+        },
+        {
+          "entity": "mexico",
+          "value": 5491700
+        }
+      ]
+    },
+    {
+      "period": 1999,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 20955000
+        },
+        {
+          "entity": "india",
+          "value": 17436000
+        },
+        {
+          "entity": "china",
+          "value": 7720445
+        },
+        {
+          "entity": "thailand",
+          "value": 5478700
+        },
+        {
+          "entity": "usa",
+          "value": 8202000
+        },
+        {
+          "entity": "pakistan",
+          "value": 3850000
+        },
+        {
+          "entity": "mexico",
+          "value": 4987100
+        }
+      ]
+    },
+    {
+      "period": 2000,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 17100000
+        },
+        {
+          "entity": "india",
+          "value": 20219000
+        },
+        {
+          "entity": "china",
+          "value": 7021034
+        },
+        {
+          "entity": "thailand",
+          "value": 5832800
+        },
+        {
+          "entity": "usa",
+          "value": 7955000
+        },
+        {
+          "entity": "pakistan",
+          "value": 2894000
+        },
+        {
+          "entity": "mexico",
+          "value": 4984800
+        }
+      ]
+    },
+    {
+      "period": 2001,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 20400000
+        },
+        {
+          "entity": "india",
+          "value": 20480000
+        },
+        {
+          "entity": "china",
+          "value": 9471200
+        },
+        {
+          "entity": "thailand",
+          "value": 5438500
+        },
+        {
+          "entity": "usa",
+          "value": 7171000
+        },
+        {
+          "entity": "pakistan",
+          "value": 3213000
+        },
+        {
+          "entity": "mexico",
+          "value": 5613530
+        }
+      ]
+    },
+    {
+      "period": 2002,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 23810000
+        },
+        {
+          "entity": "india",
+          "value": 20475000
+        },
+        {
+          "entity": "china",
+          "value": 11797917
+        },
+        {
+          "entity": "thailand",
+          "value": 6494000
+        },
+        {
+          "entity": "usa",
+          "value": 7645000
+        },
+        {
+          "entity": "pakistan",
+          "value": 3529000
+        },
+        {
+          "entity": "mexico",
+          "value": 5073149
+        }
+      ]
+    },
+    {
+      "period": 2003,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 26400000
+        },
+        {
+          "entity": "india",
+          "value": 22140000
+        },
+        {
+          "entity": "china",
+          "value": 11058177
+        },
+        {
+          "entity": "thailand",
+          "value": 7669700
+        },
+        {
+          "entity": "usa",
+          "value": 7846000
+        },
+        {
+          "entity": "pakistan",
+          "value": 3997000
+        },
+        {
+          "entity": "mexico",
+          "value": 5441740
+        }
+      ]
+    },
+    {
+      "period": 2004,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 28150000
+        },
+        {
+          "entity": "india",
+          "value": 15150000
+        },
+        {
+          "entity": "china",
+          "value": 9976900
+        },
+        {
+          "entity": "thailand",
+          "value": 7281300
+        },
+        {
+          "entity": "usa",
+          "value": 7144000
+        },
+        {
+          "entity": "pakistan",
+          "value": 4370000
+        },
+        {
+          "entity": "mexico",
+          "value": 5671960
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 29500000
+        },
+        {
+          "entity": "india",
+          "value": 14170000
+        },
+        {
+          "entity": "china",
+          "value": 9666400
+        },
+        {
+          "entity": "thailand",
+          "value": 5424500
+        },
+        {
+          "entity": "usa",
+          "value": 6712000
+        },
+        {
+          "entity": "pakistan",
+          "value": 3188000
+        },
+        {
+          "entity": "mexico",
+          "value": 5619280
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 32166000
+        },
+        {
+          "entity": "india",
+          "value": 21140000
+        },
+        {
+          "entity": "china",
+          "value": 13097791
+        },
+        {
+          "entity": "thailand",
+          "value": 5076000
+        },
+        {
+          "entity": "usa",
+          "value": 7662000
+        },
+        {
+          "entity": "pakistan",
+          "value": 2823000
+        },
+        {
+          "entity": "mexico",
+          "value": 5411856
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 31279800
+        },
+        {
+          "entity": "india",
+          "value": 30780000
+        },
+        {
+          "entity": "china",
+          "value": 16199630
+        },
+        {
+          "entity": "thailand",
+          "value": 6719782
+        },
+        {
+          "entity": "usa",
+          "value": 7396000
+        },
+        {
+          "entity": "pakistan",
+          "value": 3835000
+        },
+        {
+          "entity": "mexico",
+          "value": 5420000
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 32085300
+        },
+        {
+          "entity": "india",
+          "value": 28630000
+        },
+        {
+          "entity": "china",
+          "value": 13576980
+        },
+        {
+          "entity": "thailand",
+          "value": 7816544
+        },
+        {
+          "entity": "usa",
+          "value": 8012000
+        },
+        {
+          "entity": "pakistan",
+          "value": 5159000
+        },
+        {
+          "entity": "mexico",
+          "value": 5939800
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 34636900
+        },
+        {
+          "entity": "india",
+          "value": 15950000
+        },
+        {
+          "entity": "china",
+          "value": 11726600
+        },
+        {
+          "entity": "thailand",
+          "value": 7186592
+        },
+        {
+          "entity": "usa",
+          "value": 7650000
+        },
+        {
+          "entity": "pakistan",
+          "value": 3467000
+        },
+        {
+          "entity": "mexico",
+          "value": 4962495
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 39872000
+        },
+        {
+          "entity": "india",
+          "value": 20637000
+        },
+        {
+          "entity": "china",
+          "value": 11422870
+        },
+        {
+          "entity": "thailand",
+          "value": 6928713
+        },
+        {
+          "entity": "usa",
+          "value": 7193650
+        },
+        {
+          "entity": "pakistan",
+          "value": 4643535
+        },
+        {
+          "entity": "mexico",
+          "value": 4825539
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 37582000
+        },
+        {
+          "entity": "india",
+          "value": 26574000
+        },
+        {
+          "entity": "china",
+          "value": 12575400
+        },
+        {
+          "entity": "thailand",
+          "value": 9663000
+        },
+        {
+          "entity": "usa",
+          "value": 7393690
+        },
+        {
+          "entity": "pakistan",
+          "value": 4675216
+        },
+        {
+          "entity": "mexico",
+          "value": 5183500
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 40219000
+        },
+        {
+          "entity": "india",
+          "value": 28830000
+        },
+        {
+          "entity": "china",
+          "value": 14241600
+        },
+        {
+          "entity": "thailand",
+          "value": 10235000
+        },
+        {
+          "entity": "usa",
+          "value": 8170321
+        },
+        {
+          "entity": "pakistan",
+          "value": 5069028
+        },
+        {
+          "entity": "mexico",
+          "value": 5048469
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 39494000
+        },
+        {
+          "entity": "india",
+          "value": 27737000
+        },
+        {
+          "entity": "china",
+          "value": 14897357
+        },
+        {
+          "entity": "thailand",
+          "value": 10024000
+        },
+        {
+          "entity": "usa",
+          "value": 7920498
+        },
+        {
+          "entity": "pakistan",
+          "value": 5642389
+        },
+        {
+          "entity": "mexico",
+          "value": 6974799
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 37313000
+        },
+        {
+          "entity": "india",
+          "value": 26605000
+        },
+        {
+          "entity": "china",
+          "value": 14740851
+        },
+        {
+          "entity": "thailand",
+          "value": 11249100
+        },
+        {
+          "entity": "usa",
+          "value": 7712747
+        },
+        {
+          "entity": "pakistan",
+          "value": 5162293
+        },
+        {
+          "entity": "mexico",
+          "value": 6021292
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 35194000
+        },
+        {
+          "entity": "india",
+          "value": 30460000
+        },
+        {
+          "entity": "china",
+          "value": 11758446
+        },
+        {
+          "entity": "thailand",
+          "value": 10998358
+        },
+        {
+          "entity": "usa",
+          "value": 7711270
+        },
+        {
+          "entity": "pakistan",
+          "value": 5114901
+        },
+        {
+          "entity": "mexico",
+          "value": 5984961
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 40534000
+        },
+        {
+          "entity": "india",
+          "value": 27385000
+        },
+        {
+          "entity": "china",
+          "value": 9663712
+        },
+        {
+          "entity": "thailand",
+          "value": 9257653
+        },
+        {
+          "entity": "usa",
+          "value": 8288947
+        },
+        {
+          "entity": "pakistan",
+          "value": 7048476
+        },
+        {
+          "entity": "mexico",
+          "value": 6945000
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 36744638
+        },
+        {
+          "entity": "india",
+          "value": 22200000
+        },
+        {
+          "entity": "china",
+          "value": 10244560
+        },
+        {
+          "entity": "thailand",
+          "value": 10782163
+        },
+        {
+          "entity": "usa",
+          "value": 8172489
+        },
+        {
+          "entity": "pakistan",
+          "value": 6621033
+        },
+        {
+          "entity": "mexico",
+          "value": 7043000
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 28001060
+        },
+        {
+          "entity": "india",
+          "value": 34309000
+        },
+        {
+          "entity": "china",
+          "value": 10812537
+        },
+        {
+          "entity": "thailand",
+          "value": 15435456
+        },
+        {
+          "entity": "usa",
+          "value": 8505352
+        },
+        {
+          "entity": "pakistan",
+          "value": 5267572
+        },
+        {
+          "entity": "mexico",
+          "value": 6225769
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 27732026
+        },
+        {
+          "entity": "india",
+          "value": 34300000
+        },
+        {
+          "entity": "china",
+          "value": 10450846
+        },
+        {
+          "entity": "thailand",
+          "value": 14045044
+        },
+        {
+          "entity": "usa",
+          "value": 7374045
+        },
+        {
+          "entity": "pakistan",
+          "value": 4881225
+        },
+        {
+          "entity": "mexico",
+          "value": 6710121
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 38440412
+        },
+        {
+          "entity": "india",
+          "value": 28900000
+        },
+        {
+          "entity": "china",
+          "value": 10649014
+        },
+        {
+          "entity": "thailand",
+          "value": 8294000
+        },
+        {
+          "entity": "usa",
+          "value": 7683408
+        },
+        {
+          "entity": "pakistan",
+          "value": 5696167
+        },
+        {
+          "entity": "mexico",
+          "value": 6189347
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 35958306
+        },
+        {
+          "entity": "india",
+          "value": 33760000
+        },
+        {
+          "entity": "china",
+          "value": 9657493
+        },
+        {
+          "entity": "thailand",
+          "value": 7619641
+        },
+        {
+          "entity": "usa",
+          "value": 8365841
+        },
+        {
+          "entity": "pakistan",
+          "value": 7922062
+        },
+        {
+          "entity": "mexico",
+          "value": 6453924
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 37867349
+        },
+        {
+          "entity": "india",
+          "value": 36880000
+        },
+        {
+          "entity": "china",
+          "value": 9001755
+        },
+        {
+          "entity": "thailand",
+          "value": 10157000
+        },
+        {
+          "entity": "usa",
+          "value": 8402697
+        },
+        {
+          "entity": "pakistan",
+          "value": 6708663
+        },
+        {
+          "entity": "mexico",
+          "value": 6611943
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "brazil",
+          "value": 41967508
+        },
+        {
+          "entity": "india",
+          "value": 37000000
+        },
+        {
+          "entity": "china",
+          "value": 10004670
+        },
+        {
+          "entity": "thailand",
+          "value": 10269245
+        },
+        {
+          "entity": "usa",
+          "value": 8316173
+        },
+        {
+          "entity": "pakistan",
+          "value": 6757000
+        },
+        {
+          "entity": "mexico",
+          "value": 5586372
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "brazil": "インドと1位を争う二強の一角。近年は1位の年が多い。世界最大の砂糖輸出国で、エタノールとの併産が特徴。",
+    "india": "ブラジルと1位を争う二強の一角。2018〜2019年は世界1位。人口が多く生産・消費とも大きい。",
+    "china": "世界3位前後。",
+    "thailand": "サトウキビ由来の砂糖の主要な輸出国。",
+    "usa": "てん菜とサトウキビの両方から生産。",
+    "pakistan": "サトウキビの主要生産国。",
+    "mexico": "サトウキビの主要生産国。"
+  }
+}

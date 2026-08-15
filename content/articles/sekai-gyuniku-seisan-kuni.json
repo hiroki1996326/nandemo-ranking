@@ -1,0 +1,1644 @@
+{
+  "id": "sekai-gyuniku-seisan-kuni",
+  "title": "世界の牛肉生産量ランキング（国別）",
+  "seoTitle": "世界の牛肉生産量ランキング｜1位はアメリカ！",
+  "category": "keizai",
+  "unit": "トン",
+  "source": "FAOSTAT（国連食糧農業機関）。牛肉（牛の肉。水牛の肉は含まない）の生産量。1970年から2024年までの推移",
+  "sourceUrl": "https://www.fao.org/faostat/en/#data/QCL",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-31",
+  "lead": "世界で最も牛肉を生産している国はアメリカで、2024年は約1,229万トン。長く世界1位を保っている。2位はブラジルで、1970年の約185万トンから約1,024万トンへと急増し、いまやアメリカに肉薄している。3位は中国で、経済成長にともなう牛肉消費の増加を背景に、ほぼゼロから急速に生産を伸ばした。ブラジルは世界最大の牛肉輸出国でもある。ここでは1970年から2024年まで、上位国の推移を掲載している。",
+  "commentary": "牛肉（牛の肉。水牛の肉は含まない）の生産量。アメリカが長く世界1位だが、ブラジルが急増して肉薄している。中国もほぼゼロから急伸し3位に。ブラジルは世界最大の牛肉輸出国。",
+  "analysisHeading": "米国が1位、ブラジルが急伸して肉薄、伸びる中国",
+  "analysis": [
+    "牛肉の生産量は、長くアメリカが世界1位を保っている。2024年は約1,229万トンで、生産量はこの数十年おおむね横ばいで推移している。国内に巨大な牛肉市場を持ち、生産の多くが国内で消費される。",
+    "2位のブラジルの伸びが著しい。1970年の約185万トンから2024年の約1,024万トンへと5倍以上に増え、いまやアメリカに肉薄している。広大な土地を生かした牧畜で生産を拡大し、**世界最大の牛肉輸出国**として、中国など世界各国へ牛肉を供給している。",
+    "3位の中国も、経済成長にともなう牛肉消費の増加を背景に、1970年にはわずか約15万トンだった生産を約703万トンにまで伸ばした。ただし中国は生産を上回る量を消費しており、ブラジルなどからの輸入も多い。牛肉の生産は、これら上位数か国に集中している。"
+  ],
+  "sections": [
+    {
+      "h2": "牛肉の生産量とは"
+    },
+    {
+      "p": "ここでの数値は、牛から得られる肉（牛肉）の生産量である。水牛の肉は別に集計されるため含まない。牛肉は豚肉・鶏肉と並ぶ主要な食肉のひとつで、牛を育てるには広い土地と大量の飼料が必要なため、生産できる国はある程度限られる。世界で経済が成長し所得が上がるにつれ、牛肉の消費と生産は増える傾向にある。"
+    },
+    {
+      "h2": "アメリカに肉薄するブラジル"
+    },
+    {
+      "p": "長く世界1位の**アメリカ**に対し、**ブラジル**が急速に生産を伸ばして肉薄している。ブラジルは広大な土地を生かした牧畜で牛肉の生産を拡大し、**世界最大の牛肉輸出国**となった。生産した牛肉の多くを、中国をはじめとする世界各国へ輸出している。一方アメリカは、生産の多くが国内で消費される。"
+    },
+    {
+      "h2": "消費とともに伸びる中国"
+    },
+    {
+      "p": "3位の**中国**は、1970年にはわずかしか牛肉を生産していなかったが、経済成長とともに牛肉の消費が増え、生産も急速に伸ばした。ただし国内の消費が生産を上回るため、ブラジルやオーストラリアなどから大量に輸入している。世界の牛肉貿易は、こうした『生産する国』と『消費して輸入する国』の結びつきで成り立っている。"
+    }
+  ],
+  "data": [
+    {
+      "period": 1970,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10102810
+        },
+        {
+          "entity": "brazil",
+          "value": 1845182
+        },
+        {
+          "entity": "china",
+          "value": 154972
+        },
+        {
+          "entity": "entity-087",
+          "value": 2624011
+        },
+        {
+          "entity": "australia",
+          "value": 1009954
+        },
+        {
+          "entity": "mexico",
+          "value": 511129
+        }
+      ]
+    },
+    {
+      "period": 1971,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10182188
+        },
+        {
+          "entity": "brazil",
+          "value": 1794200
+        },
+        {
+          "entity": "china",
+          "value": 167383
+        },
+        {
+          "entity": "entity-087",
+          "value": 2000893
+        },
+        {
+          "entity": "australia",
+          "value": 1047200
+        },
+        {
+          "entity": "mexico",
+          "value": 495842
+        }
+      ]
+    },
+    {
+      "period": 1972,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10374057
+        },
+        {
+          "entity": "brazil",
+          "value": 2095200
+        },
+        {
+          "entity": "china",
+          "value": 180987
+        },
+        {
+          "entity": "entity-087",
+          "value": 2191102
+        },
+        {
+          "entity": "australia",
+          "value": 1164393
+        },
+        {
+          "entity": "mexico",
+          "value": 500951
+        }
+      ]
+    },
+    {
+      "period": 1973,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 9812966
+        },
+        {
+          "entity": "brazil",
+          "value": 2202000
+        },
+        {
+          "entity": "china",
+          "value": 195212
+        },
+        {
+          "entity": "entity-087",
+          "value": 2148578
+        },
+        {
+          "entity": "australia",
+          "value": 1437944
+        },
+        {
+          "entity": "mexico",
+          "value": 476679
+        }
+      ]
+    },
+    {
+      "period": 1974,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10715610
+        },
+        {
+          "entity": "brazil",
+          "value": 2030000
+        },
+        {
+          "entity": "china",
+          "value": 202921
+        },
+        {
+          "entity": "entity-087",
+          "value": 2163033
+        },
+        {
+          "entity": "australia",
+          "value": 1321817
+        },
+        {
+          "entity": "mexico",
+          "value": 491515
+        }
+      ]
+    },
+    {
+      "period": 1975,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11271258
+        },
+        {
+          "entity": "brazil",
+          "value": 2156979
+        },
+        {
+          "entity": "china",
+          "value": 213215
+        },
+        {
+          "entity": "entity-087",
+          "value": 2438552
+        },
+        {
+          "entity": "australia",
+          "value": 1546965
+        },
+        {
+          "entity": "mexico",
+          "value": 569595
+        }
+      ]
+    },
+    {
+      "period": 1976,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 12166191
+        },
+        {
+          "entity": "brazil",
+          "value": 2370000
+        },
+        {
+          "entity": "china",
+          "value": 207891
+        },
+        {
+          "entity": "entity-087",
+          "value": 2811410
+        },
+        {
+          "entity": "australia",
+          "value": 1840415
+        },
+        {
+          "entity": "mexico",
+          "value": 677937
+        }
+      ]
+    },
+    {
+      "period": 1977,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11844596
+        },
+        {
+          "entity": "brazil",
+          "value": 2445520
+        },
+        {
+          "entity": "china",
+          "value": 219053
+        },
+        {
+          "entity": "entity-087",
+          "value": 2913776
+        },
+        {
+          "entity": "australia",
+          "value": 1987800
+        },
+        {
+          "entity": "mexico",
+          "value": 746808
+        }
+      ]
+    },
+    {
+      "period": 1978,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11281690
+        },
+        {
+          "entity": "brazil",
+          "value": 2570000
+        },
+        {
+          "entity": "china",
+          "value": 220327
+        },
+        {
+          "entity": "entity-087",
+          "value": 3193244
+        },
+        {
+          "entity": "australia",
+          "value": 2183800
+        },
+        {
+          "entity": "mexico",
+          "value": 732468
+        }
+      ]
+    },
+    {
+      "period": 1979,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 9925000
+        },
+        {
+          "entity": "brazil",
+          "value": 2650000
+        },
+        {
+          "entity": "china",
+          "value": 246126
+        },
+        {
+          "entity": "entity-087",
+          "value": 3020199
+        },
+        {
+          "entity": "australia",
+          "value": 2018000
+        },
+        {
+          "entity": "mexico",
+          "value": 652288
+        }
+      ]
+    },
+    {
+      "period": 1980,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 9998990
+        },
+        {
+          "entity": "brazil",
+          "value": 2850000
+        },
+        {
+          "entity": "china",
+          "value": 272702
+        },
+        {
+          "entity": "entity-087",
+          "value": 2839248
+        },
+        {
+          "entity": "australia",
+          "value": 1564400
+        },
+        {
+          "entity": "mexico",
+          "value": 740755
+        }
+      ]
+    },
+    {
+      "period": 1981,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10353000
+        },
+        {
+          "entity": "brazil",
+          "value": 3000000
+        },
+        {
+          "entity": "china",
+          "value": 272848
+        },
+        {
+          "entity": "entity-087",
+          "value": 2939205
+        },
+        {
+          "entity": "australia",
+          "value": 1467200
+        },
+        {
+          "entity": "mexico",
+          "value": 835825
+        }
+      ]
+    },
+    {
+      "period": 1982,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10425000
+        },
+        {
+          "entity": "brazil",
+          "value": 3050000
+        },
+        {
+          "entity": "china",
+          "value": 279049
+        },
+        {
+          "entity": "entity-087",
+          "value": 2550542
+        },
+        {
+          "entity": "australia",
+          "value": 1576195
+        },
+        {
+          "entity": "mexico",
+          "value": 861940
+        }
+      ]
+    },
+    {
+      "period": 1983,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10746000
+        },
+        {
+          "entity": "brazil",
+          "value": 3250000
+        },
+        {
+          "entity": "china",
+          "value": 300326
+        },
+        {
+          "entity": "entity-087",
+          "value": 2455270
+        },
+        {
+          "entity": "australia",
+          "value": 1542890
+        },
+        {
+          "entity": "mexico",
+          "value": 944295
+        }
+      ]
+    },
+    {
+      "period": 1984,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10927000
+        },
+        {
+          "entity": "brazil",
+          "value": 3420000
+        },
+        {
+          "entity": "china",
+          "value": 340597
+        },
+        {
+          "entity": "entity-087",
+          "value": 2553720
+        },
+        {
+          "entity": "australia",
+          "value": 1345276
+        },
+        {
+          "entity": "mexico",
+          "value": 925020
+        }
+      ]
+    },
+    {
+      "period": 1985,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10996000
+        },
+        {
+          "entity": "brazil",
+          "value": 3480000
+        },
+        {
+          "entity": "china",
+          "value": 385804
+        },
+        {
+          "entity": "entity-087",
+          "value": 2847838
+        },
+        {
+          "entity": "australia",
+          "value": 1310020
+        },
+        {
+          "entity": "mexico",
+          "value": 926771
+        }
+      ]
+    },
+    {
+      "period": 1986,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11292000
+        },
+        {
+          "entity": "brazil",
+          "value": 3600000
+        },
+        {
+          "entity": "china",
+          "value": 492544
+        },
+        {
+          "entity": "entity-087",
+          "value": 3023413
+        },
+        {
+          "entity": "australia",
+          "value": 1384923
+        },
+        {
+          "entity": "mexico",
+          "value": 1247856
+        }
+      ]
+    },
+    {
+      "period": 1987,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10884000
+        },
+        {
+          "entity": "brazil",
+          "value": 3690000
+        },
+        {
+          "entity": "china",
+          "value": 691568
+        },
+        {
+          "entity": "entity-087",
+          "value": 2574359
+        },
+        {
+          "entity": "australia",
+          "value": 1520723
+        },
+        {
+          "entity": "mexico",
+          "value": 1272593
+        }
+      ]
+    },
+    {
+      "period": 1988,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10879000
+        },
+        {
+          "entity": "brazil",
+          "value": 4050000
+        },
+        {
+          "entity": "china",
+          "value": 799669
+        },
+        {
+          "entity": "entity-087",
+          "value": 2506467
+        },
+        {
+          "entity": "australia",
+          "value": 1587724
+        },
+        {
+          "entity": "mexico",
+          "value": 1271000
+        }
+      ]
+    },
+    {
+      "period": 1989,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10633000
+        },
+        {
+          "entity": "brazil",
+          "value": 4225000
+        },
+        {
+          "entity": "china",
+          "value": 953194
+        },
+        {
+          "entity": "entity-087",
+          "value": 2558857
+        },
+        {
+          "entity": "australia",
+          "value": 1491478
+        },
+        {
+          "entity": "mexico",
+          "value": 1162780
+        }
+      ]
+    },
+    {
+      "period": 1990,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10465000
+        },
+        {
+          "entity": "brazil",
+          "value": 4115000
+        },
+        {
+          "entity": "china",
+          "value": 1121789
+        },
+        {
+          "entity": "entity-087",
+          "value": 3007000
+        },
+        {
+          "entity": "australia",
+          "value": 1676726
+        },
+        {
+          "entity": "mexico",
+          "value": 1113919
+        }
+      ]
+    },
+    {
+      "period": 1991,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10316064
+        },
+        {
+          "entity": "brazil",
+          "value": 4510800
+        },
+        {
+          "entity": "china",
+          "value": 1356690
+        },
+        {
+          "entity": "entity-087",
+          "value": 2918000
+        },
+        {
+          "entity": "australia",
+          "value": 1759569
+        },
+        {
+          "entity": "mexico",
+          "value": 1188687
+        }
+      ]
+    },
+    {
+      "period": 1992,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10394989
+        },
+        {
+          "entity": "brazil",
+          "value": 4715500
+        },
+        {
+          "entity": "china",
+          "value": 1589862
+        },
+        {
+          "entity": "entity-087",
+          "value": 2784000
+        },
+        {
+          "entity": "australia",
+          "value": 1790870
+        },
+        {
+          "entity": "mexico",
+          "value": 1247195
+        }
+      ]
+    },
+    {
+      "period": 1993,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10471646
+        },
+        {
+          "entity": "brazil",
+          "value": 4806900
+        },
+        {
+          "entity": "china",
+          "value": 1992436
+        },
+        {
+          "entity": "entity-087",
+          "value": 2808000
+        },
+        {
+          "entity": "australia",
+          "value": 1825813
+        },
+        {
+          "entity": "mexico",
+          "value": 1256478
+        }
+      ]
+    },
+    {
+      "period": 1994,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10454863
+        },
+        {
+          "entity": "brazil",
+          "value": 5136000
+        },
+        {
+          "entity": "china",
+          "value": 2148828
+        },
+        {
+          "entity": "entity-087",
+          "value": 2783000
+        },
+        {
+          "entity": "australia",
+          "value": 1824805
+        },
+        {
+          "entity": "mexico",
+          "value": 1364711
+        }
+      ]
+    },
+    {
+      "period": 1995,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11061317
+        },
+        {
+          "entity": "brazil",
+          "value": 5710200
+        },
+        {
+          "entity": "china",
+          "value": 2602028
+        },
+        {
+          "entity": "entity-087",
+          "value": 2688000
+        },
+        {
+          "entity": "australia",
+          "value": 1803417
+        },
+        {
+          "entity": "mexico",
+          "value": 1412336
+        }
+      ]
+    },
+    {
+      "period": 1996,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11441428
+        },
+        {
+          "entity": "brazil",
+          "value": 6186900
+        },
+        {
+          "entity": "china",
+          "value": 3002649
+        },
+        {
+          "entity": "entity-087",
+          "value": 2694000
+        },
+        {
+          "entity": "australia",
+          "value": 1744696
+        },
+        {
+          "entity": "mexico",
+          "value": 1329947
+        }
+      ]
+    },
+    {
+      "period": 1997,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11578866
+        },
+        {
+          "entity": "brazil",
+          "value": 5921500
+        },
+        {
+          "entity": "china",
+          "value": 3650313
+        },
+        {
+          "entity": "entity-087",
+          "value": 2712000
+        },
+        {
+          "entity": "australia",
+          "value": 1810300
+        },
+        {
+          "entity": "mexico",
+          "value": 1340071
+        }
+      ]
+    },
+    {
+      "period": 1998,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11562083
+        },
+        {
+          "entity": "brazil",
+          "value": 5794300
+        },
+        {
+          "entity": "china",
+          "value": 4037586
+        },
+        {
+          "entity": "entity-087",
+          "value": 2469169
+        },
+        {
+          "entity": "australia",
+          "value": 1955253
+        },
+        {
+          "entity": "mexico",
+          "value": 1379768
+        }
+      ]
+    },
+    {
+      "period": 1999,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11684553
+        },
+        {
+          "entity": "brazil",
+          "value": 6413300
+        },
+        {
+          "entity": "china",
+          "value": 4572857
+        },
+        {
+          "entity": "entity-087",
+          "value": 2719784
+        },
+        {
+          "entity": "australia",
+          "value": 2010530
+        },
+        {
+          "entity": "mexico",
+          "value": 1399629
+        }
+      ]
+    },
+    {
+      "period": 2000,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 12016583
+        },
+        {
+          "entity": "brazil",
+          "value": 6578800
+        },
+        {
+          "entity": "china",
+          "value": 4642024
+        },
+        {
+          "entity": "entity-087",
+          "value": 2718000
+        },
+        {
+          "entity": "australia",
+          "value": 1987902
+        },
+        {
+          "entity": "mexico",
+          "value": 1408618
+        }
+      ]
+    },
+    {
+      "period": 2001,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 12195753
+        },
+        {
+          "entity": "brazil",
+          "value": 6823600
+        },
+        {
+          "entity": "china",
+          "value": 4598595
+        },
+        {
+          "entity": "entity-087",
+          "value": 2461000
+        },
+        {
+          "entity": "australia",
+          "value": 2078900
+        },
+        {
+          "entity": "mexico",
+          "value": 1444621
+        }
+      ]
+    },
+    {
+      "period": 2002,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11890031
+        },
+        {
+          "entity": "brazil",
+          "value": 7139000
+        },
+        {
+          "entity": "china",
+          "value": 4717489
+        },
+        {
+          "entity": "entity-087",
+          "value": 2493000
+        },
+        {
+          "entity": "australia",
+          "value": 2089742
+        },
+        {
+          "entity": "mexico",
+          "value": 1467574
+        }
+      ]
+    },
+    {
+      "period": 2003,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 12334552
+        },
+        {
+          "entity": "brazil",
+          "value": 7230000
+        },
+        {
+          "entity": "china",
+          "value": 4902101
+        },
+        {
+          "entity": "entity-087",
+          "value": 2658000
+        },
+        {
+          "entity": "australia",
+          "value": 1997563
+        },
+        {
+          "entity": "mexico",
+          "value": 1503760
+        }
+      ]
+    },
+    {
+      "period": 2004,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11947637
+        },
+        {
+          "entity": "brazil",
+          "value": 7774000
+        },
+        {
+          "entity": "china",
+          "value": 5063849
+        },
+        {
+          "entity": "entity-087",
+          "value": 3024000
+        },
+        {
+          "entity": "australia",
+          "value": 2112892
+        },
+        {
+          "entity": "mexico",
+          "value": 1543730
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11180612
+        },
+        {
+          "entity": "brazil",
+          "value": 6345810
+        },
+        {
+          "entity": "china",
+          "value": 5133544
+        },
+        {
+          "entity": "entity-087",
+          "value": 3130800
+        },
+        {
+          "entity": "australia",
+          "value": 2090272
+        },
+        {
+          "entity": "mexico",
+          "value": 1557707
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11242845
+        },
+        {
+          "entity": "brazil",
+          "value": 6886583
+        },
+        {
+          "entity": "china",
+          "value": 5333410
+        },
+        {
+          "entity": "entity-087",
+          "value": 3033600
+        },
+        {
+          "entity": "australia",
+          "value": 2188318
+        },
+        {
+          "entity": "mexico",
+          "value": 1612992
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11909626
+        },
+        {
+          "entity": "brazil",
+          "value": 7048995
+        },
+        {
+          "entity": "china",
+          "value": 5654618
+        },
+        {
+          "entity": "entity-087",
+          "value": 3223700
+        },
+        {
+          "entity": "australia",
+          "value": 2168946
+        },
+        {
+          "entity": "mexico",
+          "value": 1635040
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 12030872
+        },
+        {
+          "entity": "brazil",
+          "value": 6621374
+        },
+        {
+          "entity": "china",
+          "value": 5573776
+        },
+        {
+          "entity": "entity-087",
+          "value": 3131902
+        },
+        {
+          "entity": "australia",
+          "value": 2138328
+        },
+        {
+          "entity": "mexico",
+          "value": 1667136
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 12091245
+        },
+        {
+          "entity": "brazil",
+          "value": 6661633
+        },
+        {
+          "entity": "china",
+          "value": 5650689
+        },
+        {
+          "entity": "entity-087",
+          "value": 3378460
+        },
+        {
+          "entity": "australia",
+          "value": 2106385
+        },
+        {
+          "entity": "mexico",
+          "value": 1704985
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11818953
+        },
+        {
+          "entity": "brazil",
+          "value": 6977484
+        },
+        {
+          "entity": "china",
+          "value": 5676946
+        },
+        {
+          "entity": "entity-087",
+          "value": 2630163
+        },
+        {
+          "entity": "australia",
+          "value": 2128598
+        },
+        {
+          "entity": "mexico",
+          "value": 1744738
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11969954
+        },
+        {
+          "entity": "brazil",
+          "value": 6783537
+        },
+        {
+          "entity": "china",
+          "value": 5511545
+        },
+        {
+          "entity": "entity-087",
+          "value": 2498954
+        },
+        {
+          "entity": "australia",
+          "value": 2129021
+        },
+        {
+          "entity": "mexico",
+          "value": 1803932
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11916067
+        },
+        {
+          "entity": "brazil",
+          "value": 7351147
+        },
+        {
+          "entity": "china",
+          "value": 5547100
+        },
+        {
+          "entity": "entity-087",
+          "value": 2595815
+        },
+        {
+          "entity": "australia",
+          "value": 2152031
+        },
+        {
+          "entity": "mexico",
+          "value": 1820547
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11788608
+        },
+        {
+          "entity": "brazil",
+          "value": 8166720
+        },
+        {
+          "entity": "china",
+          "value": 5532760
+        },
+        {
+          "entity": "entity-087",
+          "value": 2821608
+        },
+        {
+          "entity": "australia",
+          "value": 2359064
+        },
+        {
+          "entity": "mexico",
+          "value": 1806758
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11698116
+        },
+        {
+          "entity": "brazil",
+          "value": 9723000
+        },
+        {
+          "entity": "china",
+          "value": 5556252
+        },
+        {
+          "entity": "entity-087",
+          "value": 2674000
+        },
+        {
+          "entity": "australia",
+          "value": 2595149
+        },
+        {
+          "entity": "mexico",
+          "value": 1827152
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 10817307
+        },
+        {
+          "entity": "brazil",
+          "value": 8063225
+        },
+        {
+          "entity": "china",
+          "value": 5566158
+        },
+        {
+          "entity": "entity-087",
+          "value": 2727000
+        },
+        {
+          "entity": "australia",
+          "value": 2661640
+        },
+        {
+          "entity": "mexico",
+          "value": 1845236
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11507221
+        },
+        {
+          "entity": "brazil",
+          "value": 7358778
+        },
+        {
+          "entity": "china",
+          "value": 5565957
+        },
+        {
+          "entity": "entity-087",
+          "value": 2644000
+        },
+        {
+          "entity": "australia",
+          "value": 2315994
+        },
+        {
+          "entity": "mexico",
+          "value": 1878706
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 11943486
+        },
+        {
+          "entity": "brazil",
+          "value": 7681538
+        },
+        {
+          "entity": "china",
+          "value": 5725596
+        },
+        {
+          "entity": "entity-087",
+          "value": 2844511
+        },
+        {
+          "entity": "australia",
+          "value": 2068616
+        },
+        {
+          "entity": "mexico",
+          "value": 1926901
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 12255874
+        },
+        {
+          "entity": "brazil",
+          "value": 7989516
+        },
+        {
+          "entity": "china",
+          "value": 5810391
+        },
+        {
+          "entity": "entity-087",
+          "value": 3066094
+        },
+        {
+          "entity": "australia",
+          "value": 2308547
+        },
+        {
+          "entity": "mexico",
+          "value": 1980846
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 12384649
+        },
+        {
+          "entity": "brazil",
+          "value": 8218851
+        },
+        {
+          "entity": "china",
+          "value": 6019955
+        },
+        {
+          "entity": "entity-087",
+          "value": 3135908
+        },
+        {
+          "entity": "australia",
+          "value": 2431810
+        },
+        {
+          "entity": "mexico",
+          "value": 2027634
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 12388505
+        },
+        {
+          "entity": "brazil",
+          "value": 7824888
+        },
+        {
+          "entity": "china",
+          "value": 6066400
+        },
+        {
+          "entity": "entity-087",
+          "value": 3168472
+        },
+        {
+          "entity": "australia",
+          "value": 2125135
+        },
+        {
+          "entity": "mexico",
+          "value": 2081262
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 12733653
+        },
+        {
+          "entity": "brazil",
+          "value": 7456261
+        },
+        {
+          "entity": "china",
+          "value": 6292088
+        },
+        {
+          "entity": "entity-087",
+          "value": 2981690
+        },
+        {
+          "entity": "australia",
+          "value": 1893742
+        },
+        {
+          "entity": "mexico",
+          "value": 2130591
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 12889961
+        },
+        {
+          "entity": "brazil",
+          "value": 8012320
+        },
+        {
+          "entity": "china",
+          "value": 6479415
+        },
+        {
+          "entity": "entity-087",
+          "value": 3150851
+        },
+        {
+          "entity": "australia",
+          "value": 1889171
+        },
+        {
+          "entity": "mexico",
+          "value": 2175577
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 12286638
+        },
+        {
+          "entity": "brazil",
+          "value": 8962423
+        },
+        {
+          "entity": "china",
+          "value": 6789201
+        },
+        {
+          "entity": "entity-087",
+          "value": 3287046
+        },
+        {
+          "entity": "australia",
+          "value": 2234836
+        },
+        {
+          "entity": "mexico",
+          "value": 2214928
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "usa",
+          "value": 12289768
+        },
+        {
+          "entity": "brazil",
+          "value": 10237584
+        },
+        {
+          "entity": "china",
+          "value": 7026373
+        },
+        {
+          "entity": "entity-087",
+          "value": 3178044
+        },
+        {
+          "entity": "australia",
+          "value": 2589767
+        },
+        {
+          "entity": "mexico",
+          "value": 2253615
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "usa": "長く世界1位。生産量はこの数十年おおむね横ばい。生産の多くを国内で消費。",
+    "brazil": "1970年から5倍以上に急増しアメリカに肉薄。世界最大の牛肉輸出国。",
+    "china": "消費増を背景にほぼゼロから急伸し世界3位。輸入も多い。",
+    "entity-087": "アルゼンチン。牛肉を多く食べる国として知られ、輸出も多い。",
+    "australia": "主要な牛肉輸出国の一つ。",
+    "mexico": "生産を伸ばしている。"
+  }
+}

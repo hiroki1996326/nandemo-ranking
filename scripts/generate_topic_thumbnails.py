@@ -123,6 +123,7 @@ TOPIC_HINT = {
     'sekai-best-selling-album': 'stacks of vinyl records and album covers, a turntable, glowing stage lights, music theme, warm tones',
     'sekai-themepark-nyujosha': 'amusement theme park with a big roller coaster and a fairytale castle, ferris wheel, crowds of happy visitors, festive colorful, bright sunny sky',
     'sekai-best-selling-game': 'video game controllers, glowing arcade and neon game screens, pixel blocks, colorful gaming setup, dynamic',
+    'sekai-keitai-keiyaku-kuni': 'many diverse people using smartphones, glowing mobile phone screens, global connectivity network, city at night',
     'sekai-tekkoseki-seisan-kuni': 'vast red iron ore open pit mine with terraced benches, giant mining trucks, reddish brown ore, Pilbara, industrial',
     'sekai-satou-seisan-kuni': 'sugarcane field at harvest and a pile of white sugar and sugar cubes, tropical plantation, warm sunlight',
     'sekai-kin-saikutsu-kuni': 'gold mining, glittering gold nuggets and gold ore, stacked gold bars, open pit gold mine, warm shining golden tones',

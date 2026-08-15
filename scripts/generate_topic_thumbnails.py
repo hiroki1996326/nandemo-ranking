@@ -123,6 +123,7 @@ TOPIC_HINT = {
     'sekai-best-selling-album': 'stacks of vinyl records and album covers, a turntable, glowing stage lights, music theme, warm tones',
     'sekai-themepark-nyujosha': 'amusement theme park with a big roller coaster and a fairytale castle, ferris wheel, crowds of happy visitors, festive colorful, bright sunny sky',
     'sekai-best-selling-game': 'video game controllers, glowing arcade and neon game screens, pixel blocks, colorful gaming setup, dynamic',
+    'sekai-concert-tour-shunyu': 'huge concert stadium crowd at night with bright stage lights and spotlights, silhouettes of fans with raised hands, live music energy',
     'sekai-doukoseki-seisan-kuni': 'huge terraced open pit copper mine, giant haul trucks, reddish copper ore and coils of copper wire, industrial',
     'sekai-furyoku-hatsuden-kuni': 'rows of tall white wind turbines on green hills and offshore at sea, blue sky, clean wind energy, dramatic',
     'sekai-taiyoko-hatsuden-kuni': 'vast solar farm with endless rows of blue solar panels under a bright blue sky, aerial view, clean energy',

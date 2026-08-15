@@ -1,0 +1,476 @@
+{
+  "id": "sekai-doukoseki-seisan-kuni",
+  "title": "世界の銅鉱石生産量ランキング（国別）",
+  "seoTitle": "世界の銅鉱石生産量ランキング｜1位はチリ！",
+  "category": "keizai",
+  "unit": "トン",
+  "source": "アメリカ地質調査所（USGS）Mineral Commodity Summaries 各年版。銅の鉱山生産量（銅含有量ベース）。2008年から2024年までの推移",
+  "sourceUrl": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-copper.pdf",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-31",
+  "lead": "銅鉱石を最も多く産出している国はチリで、2024年は約530万トン。長年にわたり世界最大の銅産出国であり続けている。2位はコンゴ民主共和国で、2010年ごろにはわずかだった産出が約330万トンにまで急増し、ペルーや中国を抜いて2位に躍り出た。3位ペルー、4位中国と続く。銅は電線やモーター、電子機器に欠かせない金属で、電気自動車や再生可能エネルギーの普及で需要が高まっている。ここでは2008年から2024年まで、上位国の推移を掲載している。",
+  "commentary": "銅の鉱山生産量（銅含有量ベース）。チリが長年圧倒的な世界1位で、コンゴ民主共和国が急伸して2位に。ペルー・中国が続く。銅は電化に欠かせない金属で、電気自動車や再生可能エネルギーの拡大で需要が高まっている。",
+  "analysisHeading": "チリが長年首位、急伸するコンゴ民主共和国",
+  "analysis": [
+    "銅鉱石の産出はチリが長年にわたり圧倒的な世界1位で、2024年も約530万トンと、2位以下を大きく引き離している。チリは世界有数の巨大な銅鉱山を複数持ち、銅の輸出が国の経済を支える柱となっている。産出量はこの十数年おおむね高い水準で安定している。",
+    "近年、急速に伸びたのがコンゴ民主共和国（旧ザイール）である。2010年ごろにはわずかだった産出が、2024年には約330万トンにまで急増し、ペルーや中国を抜いて世界2位に躍り出た。中国などの投資を背景に大規模な銅鉱山の開発が進んだためで、電池に使われるコバルトの主産地でもある。",
+    "3位ペルー、4位中国と続く。銅は電気を通しやすく、電線やモーター、電子機器に欠かせない金属である。とくに近年は、電気自動車や太陽光・風力発電の普及で銅の需要が高まっており、世界の産出も増加傾向にある。"
+  ],
+  "sections": [
+    {
+      "h2": "銅はどこで使われるか"
+    },
+    {
+      "p": "銅は電気をよく通し、加工しやすい金属で、電線・ケーブル、モーター、電子機器、建物の配管など、あらゆるところで使われている。ここでの数値は、鉱石から得られる銅の含有量ベースの産出量である。近年は、電気自動車（1台に大量の銅を使う）や太陽光・風力発電の送電網の拡大で、銅の需要が世界的に高まっている。"
+    },
+    {
+      "h2": "長年の王者チリ"
+    },
+    {
+      "p": "**チリ**は長年にわたり世界最大の銅産出国であり続けている。世界有数の規模を誇るエスコンディダ鉱山など、巨大な銅鉱山を複数抱え、産出量は2位以下を大きく引き離す。銅はチリの輸出の柱であり、その価格は国の経済を大きく左右する。"
+    },
+    {
+      "h2": "急伸するコンゴ民主共和国"
+    },
+    {
+      "p": "近年もっとも産出を伸ばしたのが**コンゴ民主共和国**である。2010年ごろにはわずかだった産出が急増し、ペルーや中国を抜いて世界2位となった。中国などの投資を背景に大規模な鉱山開発が進んだためで、同国は電池に不可欠な**コバルト**の世界最大の産地でもある。銅とコバルトを産出するこの地域は、電化の時代の資源供給地として存在感を高めている。"
+    }
+  ],
+  "data": [
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5330000
+        },
+        {
+          "entity": "entity-102",
+          "value": 1270000
+        },
+        {
+          "entity": "china",
+          "value": 950000
+        },
+        {
+          "entity": "usa",
+          "value": 1310000
+        },
+        {
+          "entity": "entity-118",
+          "value": 546000
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5320000
+        },
+        {
+          "entity": "entity-102",
+          "value": 1260000
+        },
+        {
+          "entity": "china",
+          "value": 960000
+        },
+        {
+          "entity": "usa",
+          "value": 1190000
+        },
+        {
+          "entity": "entity-118",
+          "value": 655000
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5420000
+        },
+        {
+          "entity": "entity-095",
+          "value": 343000
+        },
+        {
+          "entity": "entity-102",
+          "value": 1250000
+        },
+        {
+          "entity": "china",
+          "value": 1190000
+        },
+        {
+          "entity": "usa",
+          "value": 1110000
+        },
+        {
+          "entity": "entity-118",
+          "value": 690000
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5420000
+        },
+        {
+          "entity": "entity-095",
+          "value": 440000
+        },
+        {
+          "entity": "entity-102",
+          "value": 1220000
+        },
+        {
+          "entity": "china",
+          "value": 1190000
+        },
+        {
+          "entity": "usa",
+          "value": 1120000
+        },
+        {
+          "entity": "entity-118",
+          "value": 715000
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5780000
+        },
+        {
+          "entity": "entity-095",
+          "value": 970000
+        },
+        {
+          "entity": "entity-102",
+          "value": 1380000
+        },
+        {
+          "entity": "china",
+          "value": 1600000
+        },
+        {
+          "entity": "usa",
+          "value": 1250000
+        },
+        {
+          "entity": "entity-118",
+          "value": 760000
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5800000
+        },
+        {
+          "entity": "entity-095",
+          "value": 1100000
+        },
+        {
+          "entity": "entity-102",
+          "value": 1400000
+        },
+        {
+          "entity": "china",
+          "value": 1620000
+        },
+        {
+          "entity": "usa",
+          "value": 1370000
+        },
+        {
+          "entity": "entity-118",
+          "value": 730000
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5760000
+        },
+        {
+          "entity": "entity-095",
+          "value": 1020000
+        },
+        {
+          "entity": "entity-102",
+          "value": 1700000
+        },
+        {
+          "entity": "china",
+          "value": 1710000
+        },
+        {
+          "entity": "usa",
+          "value": 1380000
+        },
+        {
+          "entity": "entity-118",
+          "value": 712000
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5500000
+        },
+        {
+          "entity": "entity-095",
+          "value": 910000
+        },
+        {
+          "entity": "entity-102",
+          "value": 2300000
+        },
+        {
+          "entity": "china",
+          "value": 1740000
+        },
+        {
+          "entity": "usa",
+          "value": 1410000
+        },
+        {
+          "entity": "entity-118",
+          "value": 740000
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5830000
+        },
+        {
+          "entity": "entity-095",
+          "value": 1230000
+        },
+        {
+          "entity": "entity-102",
+          "value": 2440000
+        },
+        {
+          "entity": "china",
+          "value": 1590000
+        },
+        {
+          "entity": "usa",
+          "value": 1220000
+        },
+        {
+          "entity": "entity-118",
+          "value": 854000
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5600000
+        },
+        {
+          "entity": "entity-095",
+          "value": 1300000
+        },
+        {
+          "entity": "entity-102",
+          "value": 2400000
+        },
+        {
+          "entity": "china",
+          "value": 1600000
+        },
+        {
+          "entity": "usa",
+          "value": 1300000
+        },
+        {
+          "entity": "entity-118",
+          "value": 790000
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5730000
+        },
+        {
+          "entity": "entity-095",
+          "value": 1600000
+        },
+        {
+          "entity": "entity-102",
+          "value": 2150000
+        },
+        {
+          "entity": "china",
+          "value": 1720000
+        },
+        {
+          "entity": "usa",
+          "value": 1200000
+        },
+        {
+          "entity": "entity-118",
+          "value": 853000
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5620000
+        },
+        {
+          "entity": "entity-095",
+          "value": 1740000
+        },
+        {
+          "entity": "entity-102",
+          "value": 2300000
+        },
+        {
+          "entity": "china",
+          "value": 1910000
+        },
+        {
+          "entity": "usa",
+          "value": 1230000
+        },
+        {
+          "entity": "entity-118",
+          "value": 842000
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5200000
+        },
+        {
+          "entity": "entity-095",
+          "value": 2200000
+        },
+        {
+          "entity": "entity-102",
+          "value": 2200000
+        },
+        {
+          "entity": "china",
+          "value": 1900000
+        },
+        {
+          "entity": "usa",
+          "value": 1300000
+        },
+        {
+          "entity": "entity-118",
+          "value": 770000
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5250000
+        },
+        {
+          "entity": "entity-095",
+          "value": 2930000
+        },
+        {
+          "entity": "entity-102",
+          "value": 2760000
+        },
+        {
+          "entity": "china",
+          "value": 1820000
+        },
+        {
+          "entity": "usa",
+          "value": 1130000
+        },
+        {
+          "entity": "entity-118",
+          "value": 712000
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "entity-117",
+          "value": 5300000
+        },
+        {
+          "entity": "entity-095",
+          "value": 3300000
+        },
+        {
+          "entity": "entity-102",
+          "value": 2600000
+        },
+        {
+          "entity": "china",
+          "value": 1800000
+        },
+        {
+          "entity": "usa",
+          "value": 1100000
+        },
+        {
+          "entity": "entity-118",
+          "value": 680000
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "entity-117": "チリ。長年にわたり世界最大の銅産出国。巨大な銅鉱山を複数持つ。",
+    "entity-095": "コンゴ民主共和国。2010年ごろから急増し世界2位に。コバルトの主産地でもある。",
+    "entity-102": "ペルー。世界3位前後の主要な銅産出国。",
+    "china": "産出も多いが、世界最大の銅消費国で輸入も多い。",
+    "usa": "産出は緩やかに減少。",
+    "entity-118": "ザンビア。アフリカの主要な銅産出国。"
+  }
+}

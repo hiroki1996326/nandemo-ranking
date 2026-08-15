@@ -1,0 +1,875 @@
+{
+  "id": "sekai-furyoku-hatsuden-kuni",
+  "title": "世界の風力発電量ランキング（国別）",
+  "seoTitle": "世界の風力発電量ランキング｜1位は中国！",
+  "category": "keizai",
+  "unit": "TWh",
+  "source": "Our World in Data（Ember／Energy Institute）。風力による年間発電量。単位はTWh。2000年から2024年までの推移",
+  "sourceUrl": "https://ourworldindata.org/grapher/electricity-prod-source-stacked",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-31",
+  "lead": "風力による発電量が世界で最も多い国は中国で、2024年は約997TWh。2位アメリカ（約452TWh）の2倍以上を発電している。風力発電は2000年代にドイツやアメリカが先導したが、風車の設置を国を挙げて進めた中国が2010年代半ばに逆転し、以降は独走している。3位ドイツ、4位以下はインド・ブラジル・イギリスと続き、イギリスは海の上に風車を並べる『洋上風力』で発電を伸ばした。ここでは2000年から2024年まで、上位国の推移を掲載している。",
+  "commentary": "風力による年間発電量（TWh）。2000年代はドイツやアメリカが先導したが、中国が2010年代半ばに逆転して独走。イギリスは洋上風力、ブラジルは陸上風力で発電を伸ばしている。",
+  "analysisHeading": "ドイツ・米国が先導、中国が逆転して独走",
+  "analysis": [
+    "風力発電は、2000年代にはドイツやアメリカが世界を先導していた。とくにドイツは早くから風車の設置を進め、2000年代前半は世界最大級だった。しかし、風車の設置を国を挙げて進めた中国が急速に伸び、2010年代半ばにアメリカを抜いて世界1位となった。2024年の中国の風力発電量は約997TWhで、2位アメリカの2倍以上に達している。",
+    "3位はドイツで、風力・太陽光を柱とする『エネルギーの転換（エネルギーヴェンデ）』を進めてきた。4位以下はインド、ブラジル、イギリスと続く。とくにイギリスは、遠浅の海に風車を並べる『**洋上風力**』の先進国で、陸上より風が安定して強い海の風を生かして発電を伸ばしている。",
+    "風力発電は、太陽光とともに再生可能エネルギーの柱として世界的に拡大している。二酸化炭素を出さず、発電コストも下がってきたためである。中国・アメリカという二大国に加え、ヨーロッパやインド、ブラジルなど各地で導入が進んでいる。"
+  ],
+  "sections": [
+    {
+      "h2": "風力発電とは"
+    },
+    {
+      "p": "風力発電は、風の力で大きな風車（風力タービン）を回して電気をつくる方法である。ここではその年間発電量を、エネルギー量（TWh＝テラワット時）で示している。燃料を燃やさず二酸化炭素を出さないため、太陽光と並ぶ再生可能エネルギーの柱として世界中で導入が進む。風車は陸上だけでなく、海の上に設置する『洋上風力』も広がっている。"
+    },
+    {
+      "h2": "ドイツ・アメリカから中国へ"
+    },
+    {
+      "p": "風力発電を最初に大きく広げたのは**ドイツ**や**アメリカ**だった。しかし、風車の設置を国を挙げて進めた**中国**が急速に伸び、2010年代半ばにアメリカを抜いて世界1位となった。以降は独走し、2024年の発電量は2位アメリカの2倍以上に達している。中国は風力タービンの生産でも世界最大級である。"
+    },
+    {
+      "h2": "海の風を生かす『洋上風力』"
+    },
+    {
+      "p": "風力発電は、陸上だけでなく海の上に風車を並べる『**洋上風力**』も広がっている。海の上は陸上より風が強く安定しているため、大量の発電が見込める。**イギリス**は洋上風力の先進国として発電を伸ばしてきた。日本を含め、遠浅の海を持つ国々で洋上風力の開発が進められている。"
+    }
+  ],
+  "data": [
+    {
+      "period": 2000,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 0.6
+        },
+        {
+          "entity": "usa",
+          "value": 5.6
+        },
+        {
+          "entity": "germany",
+          "value": 9.3
+        },
+        {
+          "entity": "india",
+          "value": 1.6
+        },
+        {
+          "entity": "brazil",
+          "value": 0.0
+        },
+        {
+          "entity": "uk",
+          "value": 0.9
+        },
+        {
+          "entity": "spain",
+          "value": 4.7
+        }
+      ]
+    },
+    {
+      "period": 2001,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 0.7
+        },
+        {
+          "entity": "usa",
+          "value": 6.7
+        },
+        {
+          "entity": "germany",
+          "value": 10.5
+        },
+        {
+          "entity": "india",
+          "value": 2.1
+        },
+        {
+          "entity": "brazil",
+          "value": 0.0
+        },
+        {
+          "entity": "uk",
+          "value": 1.0
+        },
+        {
+          "entity": "spain",
+          "value": 6.8
+        }
+      ]
+    },
+    {
+      "period": 2002,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 0.8
+        },
+        {
+          "entity": "usa",
+          "value": 10.3
+        },
+        {
+          "entity": "germany",
+          "value": 15.9
+        },
+        {
+          "entity": "india",
+          "value": 2.1
+        },
+        {
+          "entity": "brazil",
+          "value": 0.1
+        },
+        {
+          "entity": "uk",
+          "value": 1.2
+        },
+        {
+          "entity": "spain",
+          "value": 9.3
+        }
+      ]
+    },
+    {
+      "period": 2003,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1.0
+        },
+        {
+          "entity": "usa",
+          "value": 11.2
+        },
+        {
+          "entity": "germany",
+          "value": 19.1
+        },
+        {
+          "entity": "india",
+          "value": 2.6
+        },
+        {
+          "entity": "brazil",
+          "value": 0.1
+        },
+        {
+          "entity": "uk",
+          "value": 1.3
+        },
+        {
+          "entity": "spain",
+          "value": 12.1
+        }
+      ]
+    },
+    {
+      "period": 2004,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1.3
+        },
+        {
+          "entity": "usa",
+          "value": 14.1
+        },
+        {
+          "entity": "germany",
+          "value": 26.0
+        },
+        {
+          "entity": "india",
+          "value": 5.2
+        },
+        {
+          "entity": "brazil",
+          "value": 0.1
+        },
+        {
+          "entity": "uk",
+          "value": 1.9
+        },
+        {
+          "entity": "spain",
+          "value": 15.7
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 1.9
+        },
+        {
+          "entity": "usa",
+          "value": 17.8
+        },
+        {
+          "entity": "germany",
+          "value": 27.8
+        },
+        {
+          "entity": "india",
+          "value": 6.0
+        },
+        {
+          "entity": "brazil",
+          "value": 0.1
+        },
+        {
+          "entity": "uk",
+          "value": 2.9
+        },
+        {
+          "entity": "spain",
+          "value": 21.2
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 3.7
+        },
+        {
+          "entity": "usa",
+          "value": 26.6
+        },
+        {
+          "entity": "germany",
+          "value": 31.3
+        },
+        {
+          "entity": "india",
+          "value": 9.3
+        },
+        {
+          "entity": "brazil",
+          "value": 0.2
+        },
+        {
+          "entity": "uk",
+          "value": 4.2
+        },
+        {
+          "entity": "spain",
+          "value": 23.3
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 5.5
+        },
+        {
+          "entity": "usa",
+          "value": 34.5
+        },
+        {
+          "entity": "germany",
+          "value": 40.5
+        },
+        {
+          "entity": "india",
+          "value": 11.7
+        },
+        {
+          "entity": "brazil",
+          "value": 0.7
+        },
+        {
+          "entity": "uk",
+          "value": 5.3
+        },
+        {
+          "entity": "spain",
+          "value": 27.6
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 13.1
+        },
+        {
+          "entity": "usa",
+          "value": 55.4
+        },
+        {
+          "entity": "germany",
+          "value": 41.4
+        },
+        {
+          "entity": "india",
+          "value": 14.4
+        },
+        {
+          "entity": "brazil",
+          "value": 1.2
+        },
+        {
+          "entity": "uk",
+          "value": 7.1
+        },
+        {
+          "entity": "spain",
+          "value": 33.0
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 27.6
+        },
+        {
+          "entity": "usa",
+          "value": 73.9
+        },
+        {
+          "entity": "germany",
+          "value": 39.4
+        },
+        {
+          "entity": "india",
+          "value": 16.3
+        },
+        {
+          "entity": "brazil",
+          "value": 1.2
+        },
+        {
+          "entity": "uk",
+          "value": 9.3
+        },
+        {
+          "entity": "spain",
+          "value": 38.1
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 49.4
+        },
+        {
+          "entity": "usa",
+          "value": 94.7
+        },
+        {
+          "entity": "germany",
+          "value": 38.5
+        },
+        {
+          "entity": "india",
+          "value": 19.5
+        },
+        {
+          "entity": "brazil",
+          "value": 2.2
+        },
+        {
+          "entity": "uk",
+          "value": 10.3
+        },
+        {
+          "entity": "spain",
+          "value": 44.3
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 74.1
+        },
+        {
+          "entity": "usa",
+          "value": 120.2
+        },
+        {
+          "entity": "germany",
+          "value": 49.9
+        },
+        {
+          "entity": "india",
+          "value": 23.9
+        },
+        {
+          "entity": "brazil",
+          "value": 2.7
+        },
+        {
+          "entity": "uk",
+          "value": 16.0
+        },
+        {
+          "entity": "spain",
+          "value": 42.9
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 103.0
+        },
+        {
+          "entity": "usa",
+          "value": 140.8
+        },
+        {
+          "entity": "germany",
+          "value": 51.7
+        },
+        {
+          "entity": "india",
+          "value": 27.4
+        },
+        {
+          "entity": "brazil",
+          "value": 5.0
+        },
+        {
+          "entity": "uk",
+          "value": 19.8
+        },
+        {
+          "entity": "spain",
+          "value": 49.5
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 138.3
+        },
+        {
+          "entity": "usa",
+          "value": 167.8
+        },
+        {
+          "entity": "germany",
+          "value": 52.7
+        },
+        {
+          "entity": "india",
+          "value": 30.0
+        },
+        {
+          "entity": "brazil",
+          "value": 6.6
+        },
+        {
+          "entity": "uk",
+          "value": 28.4
+        },
+        {
+          "entity": "spain",
+          "value": 55.6
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 159.8
+        },
+        {
+          "entity": "usa",
+          "value": 181.7
+        },
+        {
+          "entity": "germany",
+          "value": 58.5
+        },
+        {
+          "entity": "india",
+          "value": 33.5
+        },
+        {
+          "entity": "brazil",
+          "value": 12.2
+        },
+        {
+          "entity": "uk",
+          "value": 31.9
+        },
+        {
+          "entity": "spain",
+          "value": 52.0
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 185.6
+        },
+        {
+          "entity": "usa",
+          "value": 190.7
+        },
+        {
+          "entity": "germany",
+          "value": 80.6
+        },
+        {
+          "entity": "india",
+          "value": 32.7
+        },
+        {
+          "entity": "brazil",
+          "value": 21.6
+        },
+        {
+          "entity": "uk",
+          "value": 40.3
+        },
+        {
+          "entity": "spain",
+          "value": 49.3
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 240.9
+        },
+        {
+          "entity": "usa",
+          "value": 227.0
+        },
+        {
+          "entity": "germany",
+          "value": 79.9
+        },
+        {
+          "entity": "india",
+          "value": 43.5
+        },
+        {
+          "entity": "brazil",
+          "value": 33.5
+        },
+        {
+          "entity": "uk",
+          "value": 37.2
+        },
+        {
+          "entity": "spain",
+          "value": 48.9
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 304.6
+        },
+        {
+          "entity": "usa",
+          "value": 254.3
+        },
+        {
+          "entity": "germany",
+          "value": 105.7
+        },
+        {
+          "entity": "india",
+          "value": 52.6
+        },
+        {
+          "entity": "brazil",
+          "value": 42.4
+        },
+        {
+          "entity": "uk",
+          "value": 49.6
+        },
+        {
+          "entity": "spain",
+          "value": 49.1
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 365.8
+        },
+        {
+          "entity": "usa",
+          "value": 272.7
+        },
+        {
+          "entity": "germany",
+          "value": 110.0
+        },
+        {
+          "entity": "india",
+          "value": 60.3
+        },
+        {
+          "entity": "brazil",
+          "value": 48.5
+        },
+        {
+          "entity": "uk",
+          "value": 56.9
+        },
+        {
+          "entity": "spain",
+          "value": 50.9
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 405.3
+        },
+        {
+          "entity": "usa",
+          "value": 295.9
+        },
+        {
+          "entity": "germany",
+          "value": 125.9
+        },
+        {
+          "entity": "india",
+          "value": 63.3
+        },
+        {
+          "entity": "brazil",
+          "value": 56.0
+        },
+        {
+          "entity": "uk",
+          "value": 63.8
+        },
+        {
+          "entity": "spain",
+          "value": 55.6
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 466.5
+        },
+        {
+          "entity": "usa",
+          "value": 337.9
+        },
+        {
+          "entity": "germany",
+          "value": 132.1
+        },
+        {
+          "entity": "india",
+          "value": 60.4
+        },
+        {
+          "entity": "brazil",
+          "value": 57.0
+        },
+        {
+          "entity": "uk",
+          "value": 75.6
+        },
+        {
+          "entity": "spain",
+          "value": 56.4
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 655.8
+        },
+        {
+          "entity": "usa",
+          "value": 378.2
+        },
+        {
+          "entity": "germany",
+          "value": 114.2
+        },
+        {
+          "entity": "india",
+          "value": 68.1
+        },
+        {
+          "entity": "brazil",
+          "value": 72.3
+        },
+        {
+          "entity": "uk",
+          "value": 64.9
+        },
+        {
+          "entity": "spain",
+          "value": 62.1
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 762.7
+        },
+        {
+          "entity": "usa",
+          "value": 434.3
+        },
+        {
+          "entity": "germany",
+          "value": 124.8
+        },
+        {
+          "entity": "india",
+          "value": 70.0
+        },
+        {
+          "entity": "brazil",
+          "value": 81.6
+        },
+        {
+          "entity": "uk",
+          "value": 80.2
+        },
+        {
+          "entity": "spain",
+          "value": 62.8
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 885.9
+        },
+        {
+          "entity": "usa",
+          "value": 421.1
+        },
+        {
+          "entity": "germany",
+          "value": 140.5
+        },
+        {
+          "entity": "india",
+          "value": 82.1
+        },
+        {
+          "entity": "brazil",
+          "value": 95.8
+        },
+        {
+          "entity": "uk",
+          "value": 82.2
+        },
+        {
+          "entity": "spain",
+          "value": 64.3
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 997.0
+        },
+        {
+          "entity": "usa",
+          "value": 451.9
+        },
+        {
+          "entity": "germany",
+          "value": 141.6
+        },
+        {
+          "entity": "india",
+          "value": 81.5
+        },
+        {
+          "entity": "brazil",
+          "value": 108.5
+        },
+        {
+          "entity": "uk",
+          "value": 83.3
+        },
+        {
+          "entity": "spain",
+          "value": 62.2
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "china": "2010年代半ばにアメリカを抜いて世界1位に。2024年は2位の2倍以上。",
+    "usa": "世界2位。中西部の平原などで風力が盛ん。",
+    "germany": "風力・太陽光を柱とする『エネルギーの転換』を進めてきた。",
+    "india": "陸上風力を伸ばしている。",
+    "brazil": "近年、陸上風力を急速に拡大。",
+    "uk": "洋上風力の先進国。",
+    "spain": "早くから風力の導入が進んだ。"
+  }
+}

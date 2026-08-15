@@ -1,0 +1,661 @@
+{
+  "id": "sekai-kin-saikutsu-kuni",
+  "title": "世界の金採掘量ランキング（国別）",
+  "seoTitle": "世界の金採掘量ランキング｜1位は中国！",
+  "category": "keizai",
+  "unit": "トン",
+  "source": "アメリカ地質調査所（USGS）Mineral Commodity Summaries 各年版。金の鉱山生産量（採掘量）。単位は金属トン。2004年から2024年までの推移",
+  "sourceUrl": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-gold.pdf",
+  "updateFrequency": "yearly",
+  "updatedAt": "2026-07-31",
+  "lead": "金を最も多く採掘している国は中国で、2024年は約380トン。2位ロシア、3位オーストラリアと続く。かつて金の採掘は南アフリカが100年以上にわたり世界を圧倒し、2004年時点でもなお世界1位だった。しかし深く古い鉱山のコスト増などで生産が激減し、中国が2007年ごろに逆転して世界最大の産金国となった。南アフリカの採掘量は2004年の約344トンから2024年には約100トンへと3分の1以下に落ち込んだ。ここでは2004年から2024年まで、上位国の推移を掲載している。",
+  "commentary": "金の鉱山生産量（採掘量、金属トン）。かつて世界を圧倒した南アフリカが激減し、中国が2007年ごろに逆転して世界1位に。現在はロシア・オーストラリアが続き、産地は各地に分散している。",
+  "analysisHeading": "南アフリカの激減と、2007年ごろ首位に立った中国",
+  "analysis": [
+    "金の採掘は、かつて南アフリカが100年以上にわたって世界を圧倒していた。2004年の時点でもなお世界1位（約344トン）だったが、金鉱脈が地下深くなって採掘コストがかさみ、生産は減り続けた。2024年には約100トンと、2004年の3分の1以下にまで落ち込んでいる。",
+    "入れ替わるように伸びたのが中国で、2007年ごろに南アフリカを抜いて世界最大の産金国となった。2016年ごろの約455トンをピークに、近年は環境規制などでやや減り、2024年は約380トンとなっている。2位のロシア、3位のオーストラリアも生産を伸ばし、この3か国が上位を占める。",
+    "現在の金の採掘は、特定の国に集中していた南アフリカ時代とは対照的に、中国・ロシア・オーストラリア・カナダ・アメリカ・カザフスタン・ガーナなど、世界の各地に分散している。上位国でも世界全体（年間約3,300トン）に占める割合は1割前後で、突出した産金大国は存在しなくなった。"
+  ],
+  "sections": [
+    {
+      "h2": "金の採掘量とは"
+    },
+    {
+      "p": "ここでの数値は、鉱山から新たに掘り出された金（鉱山生産量）の量で、単位は金属トンである。すでに採掘された金を溶かして再利用するリサイクル分は含まない。金は装飾品や投資（金地金）、中央銀行の準備、電子部品などに使われる。ここではアメリカ地質調査所（USGS）が毎年公表する推計値を用いている。"
+    },
+    {
+      "h2": "100年の王者・南アフリカの凋落"
+    },
+    {
+      "p": "金の採掘は長らく**南アフリカ**が世界を圧倒していた。ヨハネスブルグ周辺の金鉱脈を背景に、20世紀半ばには世界の産金の大半を1国で占めた時期もあった。2004年でもなお世界1位だったが、金鉱脈が地下数キロメートルの深さに達して採掘コストと危険が増し、生産は急激に減少。2024年には約100トンと、往時の面影を失っている。"
+    },
+    {
+      "h2": "2007年ごろに首位へ立った中国"
+    },
+    {
+      "p": "南アフリカに代わって世界1位となったのが**中国**で、2007年ごろに逆転した。以降は世界最大の産金国であり続けているが、2016年ごろをピークに環境規制の強化などでやや生産を減らしている。2位**ロシア**、3位**オーストラリア**も採掘量を伸ばしており、現在の金の採掘はこれら上位国を中心に、世界各地へ分散している。"
+    }
+  ],
+  "data": [
+    {
+      "period": 2004,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 210
+        },
+        {
+          "entity": "russia",
+          "value": 180
+        },
+        {
+          "entity": "australia",
+          "value": 242
+        },
+        {
+          "entity": "canada",
+          "value": 171
+        },
+        {
+          "entity": "usa",
+          "value": 247
+        },
+        {
+          "entity": "entity-107",
+          "value": 344
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 225
+        },
+        {
+          "entity": "russia",
+          "value": 169
+        },
+        {
+          "entity": "australia",
+          "value": 262
+        },
+        {
+          "entity": "canada",
+          "value": 119
+        },
+        {
+          "entity": "usa",
+          "value": 256
+        },
+        {
+          "entity": "entity-107",
+          "value": 295
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 240
+        },
+        {
+          "entity": "russia",
+          "value": 162
+        },
+        {
+          "entity": "australia",
+          "value": 260
+        },
+        {
+          "entity": "canada",
+          "value": 120
+        },
+        {
+          "entity": "usa",
+          "value": 260
+        },
+        {
+          "entity": "entity-107",
+          "value": 270
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 285
+        },
+        {
+          "entity": "russia",
+          "value": 176
+        },
+        {
+          "entity": "australia",
+          "value": 215
+        },
+        {
+          "entity": "canada",
+          "value": 95
+        },
+        {
+          "entity": "usa",
+          "value": 233
+        },
+        {
+          "entity": "entity-107",
+          "value": 213
+        },
+        {
+          "entity": "ghana",
+          "value": 75
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 300
+        },
+        {
+          "entity": "russia",
+          "value": 185
+        },
+        {
+          "entity": "australia",
+          "value": 220
+        },
+        {
+          "entity": "canada",
+          "value": 100
+        },
+        {
+          "entity": "usa",
+          "value": 210
+        },
+        {
+          "entity": "entity-107",
+          "value": 210
+        },
+        {
+          "entity": "ghana",
+          "value": 85
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 345
+        },
+        {
+          "entity": "russia",
+          "value": 192
+        },
+        {
+          "entity": "australia",
+          "value": 261
+        },
+        {
+          "entity": "canada",
+          "value": 91
+        },
+        {
+          "entity": "usa",
+          "value": 231
+        },
+        {
+          "entity": "entity-107",
+          "value": 189
+        },
+        {
+          "entity": "ghana",
+          "value": 82
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 355
+        },
+        {
+          "entity": "russia",
+          "value": 200
+        },
+        {
+          "entity": "australia",
+          "value": 270
+        },
+        {
+          "entity": "canada",
+          "value": 110
+        },
+        {
+          "entity": "usa",
+          "value": 237
+        },
+        {
+          "entity": "entity-107",
+          "value": 190
+        },
+        {
+          "entity": "ghana",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 430
+        },
+        {
+          "entity": "russia",
+          "value": 230
+        },
+        {
+          "entity": "australia",
+          "value": 265
+        },
+        {
+          "entity": "canada",
+          "value": 124
+        },
+        {
+          "entity": "usa",
+          "value": 230
+        },
+        {
+          "entity": "entity-107",
+          "value": 160
+        },
+        {
+          "entity": "ghana",
+          "value": 90
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 450
+        },
+        {
+          "entity": "russia",
+          "value": 245
+        },
+        {
+          "entity": "australia",
+          "value": 270
+        },
+        {
+          "entity": "canada",
+          "value": 160
+        },
+        {
+          "entity": "usa",
+          "value": 211
+        },
+        {
+          "entity": "entity-107",
+          "value": 150
+        },
+        {
+          "entity": "ghana",
+          "value": 90
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 450
+        },
+        {
+          "entity": "russia",
+          "value": 252
+        },
+        {
+          "entity": "australia",
+          "value": 278
+        },
+        {
+          "entity": "canada",
+          "value": 153
+        },
+        {
+          "entity": "usa",
+          "value": 214
+        },
+        {
+          "entity": "entity-107",
+          "value": 145
+        },
+        {
+          "entity": "ghana",
+          "value": 88
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 455
+        },
+        {
+          "entity": "russia",
+          "value": 250
+        },
+        {
+          "entity": "australia",
+          "value": 270
+        },
+        {
+          "entity": "canada",
+          "value": 170
+        },
+        {
+          "entity": "usa",
+          "value": 209
+        },
+        {
+          "entity": "entity-107",
+          "value": 140
+        },
+        {
+          "entity": "ghana",
+          "value": 90
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 401
+        },
+        {
+          "entity": "russia",
+          "value": 311
+        },
+        {
+          "entity": "australia",
+          "value": 315
+        },
+        {
+          "entity": "canada",
+          "value": 183
+        },
+        {
+          "entity": "usa",
+          "value": 226
+        },
+        {
+          "entity": "entity-107",
+          "value": 117
+        },
+        {
+          "entity": "ghana",
+          "value": 127
+        },
+        {
+          "entity": "entity-094",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 420
+        },
+        {
+          "entity": "russia",
+          "value": 310
+        },
+        {
+          "entity": "australia",
+          "value": 330
+        },
+        {
+          "entity": "canada",
+          "value": 180
+        },
+        {
+          "entity": "usa",
+          "value": 200
+        },
+        {
+          "entity": "entity-107",
+          "value": 90
+        },
+        {
+          "entity": "ghana",
+          "value": 130
+        },
+        {
+          "entity": "entity-094",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 365
+        },
+        {
+          "entity": "russia",
+          "value": 305
+        },
+        {
+          "entity": "australia",
+          "value": 328
+        },
+        {
+          "entity": "canada",
+          "value": 170
+        },
+        {
+          "entity": "usa",
+          "value": 193
+        },
+        {
+          "entity": "entity-107",
+          "value": 96
+        },
+        {
+          "entity": "ghana",
+          "value": 125
+        },
+        {
+          "entity": "entity-094",
+          "value": 63
+        }
+      ]
+    },
+    {
+      "period": 2021,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 329
+        },
+        {
+          "entity": "russia",
+          "value": 320
+        },
+        {
+          "entity": "australia",
+          "value": 315
+        },
+        {
+          "entity": "canada",
+          "value": 223
+        },
+        {
+          "entity": "usa",
+          "value": 187
+        },
+        {
+          "entity": "entity-107",
+          "value": 107
+        },
+        {
+          "entity": "ghana",
+          "value": 88
+        },
+        {
+          "entity": "entity-094",
+          "value": 116
+        }
+      ]
+    },
+    {
+      "period": 2022,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 330
+        },
+        {
+          "entity": "russia",
+          "value": 320
+        },
+        {
+          "entity": "australia",
+          "value": 320
+        },
+        {
+          "entity": "canada",
+          "value": 220
+        },
+        {
+          "entity": "usa",
+          "value": 170
+        },
+        {
+          "entity": "entity-107",
+          "value": 110
+        },
+        {
+          "entity": "ghana",
+          "value": 90
+        },
+        {
+          "entity": "entity-094",
+          "value": 120
+        }
+      ]
+    },
+    {
+      "period": 2023,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 375
+        },
+        {
+          "entity": "russia",
+          "value": 313
+        },
+        {
+          "entity": "australia",
+          "value": 296
+        },
+        {
+          "entity": "canada",
+          "value": 198
+        },
+        {
+          "entity": "usa",
+          "value": 170
+        },
+        {
+          "entity": "entity-107",
+          "value": 104
+        },
+        {
+          "entity": "ghana",
+          "value": 126
+        },
+        {
+          "entity": "entity-094",
+          "value": 133
+        }
+      ]
+    },
+    {
+      "period": 2024,
+      "entries": [
+        {
+          "entity": "china",
+          "value": 380
+        },
+        {
+          "entity": "russia",
+          "value": 310
+        },
+        {
+          "entity": "australia",
+          "value": 290
+        },
+        {
+          "entity": "canada",
+          "value": 200
+        },
+        {
+          "entity": "usa",
+          "value": 160
+        },
+        {
+          "entity": "entity-107",
+          "value": 100
+        },
+        {
+          "entity": "ghana",
+          "value": 130
+        },
+        {
+          "entity": "entity-094",
+          "value": 130
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "china": "2007年ごろ南アフリカを抜いて世界1位に。2016年ごろをピークに近年やや減少。",
+    "entity-107": "南アフリカ共和国。かつて100年以上世界を圧倒したが激減し、2024年は約100トン。",
+    "russia": "生産を伸ばし世界2位。",
+    "australia": "生産を伸ばし世界3位。",
+    "canada": "主要な産金国の一つ。",
+    "usa": "生産は緩やかに減少。ネバダ州が中心。",
+    "ghana": "アフリカ最大級の産金国。",
+    "entity-094": "カザフスタン。近年生産を伸ばしている。"
+  }
+}

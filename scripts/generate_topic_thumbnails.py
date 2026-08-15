@@ -123,6 +123,7 @@ TOPIC_HINT = {
     'sekai-best-selling-album': 'stacks of vinyl records and album covers, a turntable, glowing stage lights, music theme, warm tones',
     'sekai-themepark-nyujosha': 'amusement theme park with a big roller coaster and a fairytale castle, ferris wheel, crowds of happy visitors, festive colorful, bright sunny sky',
     'sekai-best-selling-game': 'video game controllers, glowing arcade and neon game screens, pixel blocks, colorful gaming setup, dynamic',
+    'sekai-kin-saikutsu-kuni': 'gold mining, glittering gold nuggets and gold ore, stacked gold bars, open pit gold mine, warm shining golden tones',
     'sekai-gyuniku-seisan-kuni': 'herd of beef cattle grazing on a vast green pasture at golden hour, cattle ranch, wide open grassland',
     'sekai-toumorokoshi-seisan-kuni': 'vast golden corn maize field at harvest, close-up of corn cobs and kernels, farmland under blue sky',
     'sekai-gyokakuryo-kuni': 'commercial fishing trawler at sea hauling nets full of fish, ocean waves, seagulls, fresh catch, dramatic sky',
